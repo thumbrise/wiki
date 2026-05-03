@@ -1,0 +1,4 @@
+I scanned wiki with SwarmVault: 107 sources -> 636 wiki pages, 761 graph nodes, 1972 edges.
+Top hubs: that, Op, and We.
+Most surprising link: #1 — Why semantically_similar_to Review Guidelines.
+Everything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo

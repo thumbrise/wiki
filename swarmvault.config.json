@@ -1,0 +1,79 @@
+{
+  "workspace": {
+    "rawDir": "raw",
+    "wikiDir": "wiki",
+    "stateDir": "state",
+    "agentDir": "agent",
+    "inboxDir": "inbox"
+  },
+  "providers": {
+    "llm": {
+      "type": "ollama",
+      "model": "gemma4"
+    },
+    "ollama-embeddings": {
+      "type": "ollama",
+      "model": "snowflake-arctic-embed2:568m-l-fp16",
+      "baseUrl": "http://localhost:11434/v1"
+    },
+    "local": {
+      "type": "heuristic",
+      "model": "heuristic-v1",
+      "capabilities": [
+        "chat",
+        "structured",
+        "vision",
+        "local"
+      ]
+    }
+  },
+  "tasks": {
+    "compileProvider": "llm",
+    "queryProvider": "llm",
+    "lintProvider": "llm",
+    "visionProvider": "llm",
+    "imageProvider": "llm",
+    "embeddingProvider": "ollama-embeddings"
+  },
+  "viewer": {
+    "port": 4123
+  },
+  "profile": {
+    "presets": [],
+    "dashboardPack": "default",
+    "guidedSessionMode": "insights_only",
+    "dataviewBlocks": false,
+    "guidedIngestDefault": false,
+    "deepLintDefault": false
+  },
+  "projects": {},
+  "agents": [
+    "codex",
+    "claude",
+    "cursor"
+  ],
+  "schedules": {},
+  "orchestration": {
+    "maxParallelRoles": 2,
+    "compilePostPass": false,
+    "roles": {}
+  },
+  "benchmark": {
+    "enabled": true,
+    "questions": [],
+    "maxQuestions": 3
+  },
+  "repoAnalysis": {
+    "classifyGlobs": {},
+    "extractClasses": [
+      "first_party"
+    ]
+  },
+  "graphSinks": {},
+  "retrieval": {
+    "backend": "sqlite",
+    "shardSize": 25000,
+    "hybrid": true,
+    "rerank": false
+  }
+}

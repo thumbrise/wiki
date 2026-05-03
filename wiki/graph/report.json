@@ -1,0 +1,1062 @@
+{
+  "generatedAt": "2026-05-03T04:02:11.647Z",
+  "graphHash": "240153e624e430983fcb9b80d0a957417c06da0c22b07ccd033b49fb8e8214a3",
+  "overview": {
+    "nodes": 761,
+    "edges": 1972,
+    "pages": 636,
+    "communities": 22
+  },
+  "firstPartyOverview": {
+    "nodes": 760,
+    "edges": 1934,
+    "pages": 634,
+    "communities": 22
+  },
+  "sourceClassBreakdown": {
+    "first_party": {
+      "sources": 106,
+      "pages": 634,
+      "nodes": 760
+    },
+    "third_party": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    },
+    "resource": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    },
+    "generated": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    }
+  },
+  "warnings": [],
+  "benchmark": {
+    "generatedAt": "2026-05-03T04:01:17.653Z",
+    "stale": true,
+    "summary": {
+      "questionCount": 3,
+      "uniqueVisitedNodes": 34,
+      "finalContextTokens": 2450,
+      "naiveCorpusTokens": 216743,
+      "avgReduction": 0.989,
+      "reductionRatio": 0.989
+    },
+    "questionCount": 3,
+    "byClass": {
+      "first_party": {
+        "sourceCount": 106,
+        "pageCount": 634,
+        "nodeCount": 760,
+        "godNodeCount": 70,
+        "finalContextTokens": 2367,
+        "naiveCorpusTokens": 216743,
+        "reductionRatio": 0.989
+      },
+      "third_party": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      },
+      "resource": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      },
+      "generated": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      }
+    }
+  },
+  "godNodes": [
+    {
+      "nodeId": "concept:that",
+      "label": "that",
+      "pageId": "concept:that",
+      "degree": 214,
+      "bridgeScore": 8,
+      "surpriseReason": "degree 214, across 9 communities, 11.4σ above mean"
+    },
+    {
+      "nodeId": "entity:op",
+      "label": "Op",
+      "pageId": "entity:op",
+      "degree": 156,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 156, across 7 communities, 8.1σ above mean"
+    },
+    {
+      "nodeId": "entity:we",
+      "label": "We",
+      "pageId": "entity:we",
+      "degree": 108,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 108, across 6 communities, 5.3σ above mean"
+    },
+    {
+      "nodeId": "concept:every",
+      "label": "every",
+      "pageId": "concept:every",
+      "degree": 103,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 103, across 5 communities, 5.0σ above mean"
+    },
+    {
+      "nodeId": "concept:operation",
+      "label": "operation",
+      "pageId": "concept:operation",
+      "degree": 99,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 99, across 7 communities, 4.8σ above mean"
+    },
+    {
+      "nodeId": "concept:what",
+      "label": "what",
+      "pageId": "concept:what",
+      "degree": 86,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 86, across 6 communities, 4.0σ above mean"
+    },
+    {
+      "nodeId": "concept:this",
+      "label": "this",
+      "pageId": "concept:this",
+      "degree": 86,
+      "bridgeScore": 7,
+      "surpriseReason": "degree 86, across 8 communities, 4.0σ above mean"
+    },
+    {
+      "nodeId": "concept:does",
+      "label": "does",
+      "pageId": "concept:does",
+      "degree": 84,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 84, across 7 communities, 3.9σ above mean"
+    },
+    {
+      "nodeId": "entity:format",
+      "label": "Format:",
+      "pageId": "entity:format",
+      "degree": 76,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 76, across 5 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "entity:top",
+      "label": "Top-",
+      "pageId": "entity:top",
+      "degree": 76,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 76, across 5 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "entity:size",
+      "label": "Size:",
+      "pageId": "entity:size",
+      "degree": 76,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 76, across 5 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "entity:nested",
+      "label": "Nested",
+      "pageId": "entity:nested",
+      "degree": 76,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 76, across 5 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "entity:schema",
+      "label": "Schema -",
+      "pageId": "entity:schema",
+      "degree": 76,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 76, across 5 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "entity:preview",
+      "label": "Preview",
+      "pageId": "entity:preview",
+      "degree": 76,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 76, across 5 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "concept:model",
+      "label": "model",
+      "pageId": "concept:model",
+      "degree": 71,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 71, across 6 communities, 3.1σ above mean"
+    },
+    {
+      "nodeId": "entity:go",
+      "label": "Go",
+      "pageId": "entity:go",
+      "degree": 63,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 63, across 6 communities, 2.7σ above mean"
+    },
+    {
+      "nodeId": "concept:http",
+      "label": "http",
+      "pageId": "concept:http",
+      "degree": 60,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 60, across 6 communities, 2.5σ above mean"
+    },
+    {
+      "nodeId": "concept:from",
+      "label": "from",
+      "pageId": "concept:from",
+      "degree": 59,
+      "bridgeScore": 3,
+      "surpriseReason": "degree 59, across 4 communities, 2.4σ above mean"
+    },
+    {
+      "nodeId": "concept:because",
+      "label": "because",
+      "pageId": "concept:because",
+      "degree": 59,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 59, across 5 communities, 2.4σ above mean"
+    },
+    {
+      "nodeId": "concept:kind",
+      "label": "kind",
+      "pageId": "concept:kind",
+      "degree": 59,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 59, across 5 communities, 2.4σ above mean"
+    }
+  ],
+  "bridgeNodes": [
+    {
+      "nodeId": "concept:that",
+      "label": "that",
+      "pageId": "concept:that",
+      "degree": 214,
+      "bridgeScore": 8
+    },
+    {
+      "nodeId": "concept:this",
+      "label": "this",
+      "pageId": "concept:this",
+      "degree": 86,
+      "bridgeScore": 7
+    },
+    {
+      "nodeId": "concept:does",
+      "label": "does",
+      "pageId": "concept:does",
+      "degree": 84,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "concept:operation",
+      "label": "operation",
+      "pageId": "concept:operation",
+      "degree": 99,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "concept:instructions",
+      "label": "instructions",
+      "pageId": "concept:instructions",
+      "degree": 23,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "entity:op",
+      "label": "Op",
+      "pageId": "entity:op",
+      "degree": 156,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "entity:what",
+      "label": "What",
+      "pageId": "entity:what",
+      "degree": 51,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "source:the-operations-protocol-formalizing-the-missing-foundation-ff73b385",
+      "label": "The Operations Protocol: Formalizing the Missing Foundation",
+      "pageId": "source:the-operations-protocol-formalizing-the-missing-foundation-ff73b385",
+      "degree": 58,
+      "bridgeScore": 5
+    }
+  ],
+  "thinCommunities": [],
+  "surprisingConnections": [
+    {
+      "id": "similar:00c66160ee208ec5",
+      "sourceNodeId": "source:1-why-5b9657bb",
+      "sourceLabel": "#1 — Why",
+      "targetNodeId": "source:review-guidelines-0fa832f7",
+      "targetLabel": "Review Guidelines",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:1-why-5b9657bb",
+        "source:review-guidelines-0fa832f7"
+      ],
+      "pathEdgeIds": [
+        "similar:00c66160ee208ec5"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "#1 — Why -> Review Guidelines",
+      "why": "it crosses communities community:from-11 and community:model-10; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "#1 — Why connects to Review Guidelines because it crosses communities community:from-11 and community:model-10; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:03ad55418f94e750",
+      "sourceNodeId": "source:13-convergent-evolution-42fa3b44",
+      "sourceLabel": "#13 — Convergent Evolution",
+      "targetNodeId": "source:instruction-v1-e3a3cb1e",
+      "targetLabel": "instruction.v1",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:13-convergent-evolution-42fa3b44",
+        "source:instruction-v1-e3a3cb1e"
+      ],
+      "pathEdgeIds": [
+        "similar:03ad55418f94e750"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "#13 — Convergent Evolution -> instruction.v1",
+      "why": "it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern",
+      "explanation": "#13 — Convergent Evolution connects to instruction.v1 because it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern."
+    },
+    {
+      "id": "similar:03ea73dd4ce07494",
+      "sourceNodeId": "source:dependabot-auto-merge-a7978ddf",
+      "sourceLabel": "dependabot-auto-merge",
+      "targetNodeId": "source:docs-16563f41",
+      "targetLabel": "docs",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:dependabot-auto-merge-a7978ddf",
+        "source:docs-16563f41"
+      ],
+      "pathEdgeIds": [
+        "similar:03ea73dd4ce07494"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "dependabot-auto-merge -> docs",
+      "why": "it crosses communities community:text-17 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns",
+      "explanation": "dependabot-auto-merge connects to docs because it crosses communities community:text-17 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns."
+    },
+    {
+      "id": "similar:04b28e29d5c671ac",
+      "sourceNodeId": "source:composer-c80b8ea8",
+      "sourceLabel": "composer",
+      "targetNodeId": "source:dogshop-invalid-253ae2d9",
+      "targetLabel": "dogshop_invalid",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:composer-c80b8ea8",
+        "source:dogshop-invalid-253ae2d9"
+      ],
+      "pathEdgeIds": [
+        "similar:04b28e29d5c671ac"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "composer -> dogshop_invalid",
+      "why": "it crosses communities community:build-16 and community:from-11; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns",
+      "explanation": "composer connects to dogshop_invalid because it crosses communities community:build-16 and community:from-11; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns."
+    },
+    {
+      "id": "similar:0506719bfeda4f6c",
+      "sourceNodeId": "source:21-the-atoms-speak-72df059e",
+      "sourceLabel": "#21 — The Atoms Speak",
+      "targetNodeId": "source:dogshop-eb60bfe2",
+      "targetLabel": "dogshop",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:21-the-atoms-speak-72df059e",
+        "source:dogshop-eb60bfe2"
+      ],
+      "pathEdgeIds": [
+        "similar:0506719bfeda4f6c"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "#21 — The Atoms Speak -> dogshop",
+      "why": "it crosses communities community:input-14 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern",
+      "explanation": "#21 — The Atoms Speak connects to dogshop because it crosses communities community:input-14 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern."
+    },
+    {
+      "id": "similar:0555d4c5834093c6",
+      "sourceNodeId": "source:dogshop-invalid-253ae2d9",
+      "sourceLabel": "dogshop_invalid",
+      "targetNodeId": "source:taskfile-83d1d929",
+      "targetLabel": "Taskfile",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:dogshop-invalid-253ae2d9",
+        "source:taskfile-83d1d929"
+      ],
+      "pathEdgeIds": [
+        "similar:0555d4c5834093c6"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "dogshop_invalid -> Taskfile",
+      "why": "it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns",
+      "explanation": "dogshop_invalid connects to Taskfile because it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns."
+    },
+    {
+      "id": "similar:070e741be2d0adff",
+      "sourceNodeId": "source:dogshop-invalid-253ae2d9",
+      "sourceLabel": "dogshop_invalid",
+      "targetNodeId": "source:golangci-c8766e4f",
+      "targetLabel": ".golangci",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:dogshop-invalid-253ae2d9",
+        "source:golangci-c8766e4f"
+      ],
+      "pathEdgeIds": [
+        "similar:070e741be2d0adff"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "dogshop_invalid -> .golangci",
+      "why": "it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns",
+      "explanation": "dogshop_invalid connects to .golangci because it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns."
+    },
+    {
+      "id": "similar:07c7437ca27dc9cc",
+      "sourceNodeId": "source:25-the-manifesto-ebee95e5",
+      "sourceLabel": "#25 — The Manifesto",
+      "targetNodeId": "source:to-build-the-future-look-at-the-past-5557730d",
+      "targetLabel": "To Build the Future, Look at the Past",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:25-the-manifesto-ebee95e5",
+        "source:to-build-the-future-look-at-the-past-5557730d"
+      ],
+      "pathEdgeIds": [
+        "similar:07c7437ca27dc9cc"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "#25 — The Manifesto -> To Build the Future, Look at the Past",
+      "why": "it crosses communities community:from-11 and community:that-9; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern",
+      "explanation": "#25 — The Manifesto connects to To Build the Future, Look at the Past because it crosses communities community:from-11 and community:that-9; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern."
+    }
+  ],
+  "groupPatterns": [
+    {
+      "id": "hyper:9750b6bda96d4638",
+      "label": "Playground module API",
+      "relation": "form",
+      "nodeIds": [
+        "module:playground-e45a65a6",
+        "symbol:playground-e45a65a6:activeindex.variable",
+        "symbol:playground-e45a65a6:addoperation.function",
+        "symbol:playground-e45a65a6:applyingsnapshot.variable",
+        "symbol:playground-e45a65a6:applysnapshot.function",
+        "symbol:playground-e45a65a6:bufferlabel.variable",
+        "symbol:playground-e45a65a6:clearall.function",
+        "symbol:playground-e45a65a6:confirmremove.function",
+        "symbol:playground-e45a65a6:copyjson.function",
+        "symbol:playground-e45a65a6:expandedtraits.variable",
+        "symbol:playground-e45a65a6:history.variable",
+        "symbol:playground-e45a65a6:iseditabletarget.function",
+        "symbol:playground-e45a65a6:json.variable",
+        "symbol:playground-e45a65a6:jsondraft.variable",
+        "symbol:playground-e45a65a6:jsoneditor.class",
+        "symbol:playground-e45a65a6:jsonerrors.variable",
+        "symbol:playground-e45a65a6:leftpanel.variable",
+        "symbol:playground-e45a65a6:loadtutorial.function",
+        "symbol:playground-e45a65a6:normalizeoperation.function",
+        "symbol:playground-e45a65a6:normalizeterm.function",
+        "symbol:playground-e45a65a6:now.variable",
+        "symbol:playground-e45a65a6:nowtimer.variable",
+        "symbol:playground-e45a65a6:onjsonedit.function",
+        "symbol:playground-e45a65a6:onkeydown.function",
+        "symbol:playground-e45a65a6:onredo.function",
+        "symbol:playground-e45a65a6:onundo.function",
+        "symbol:playground-e45a65a6:op.variable",
+        "symbol:playground-e45a65a6:operations.variable",
+        "symbol:playground-e45a65a6:playground.class",
+        "symbol:playground-e45a65a6:removeoperation.function",
+        "symbol:playground-e45a65a6:resetjson.function",
+        "symbol:playground-e45a65a6:saveack.variable",
+        "symbol:playground-e45a65a6:savedlabel.variable",
+        "symbol:playground-e45a65a6:scitooltip.class",
+        "symbol:playground-e45a65a6:seed.variable",
+        "symbol:playground-e45a65a6:showjson.variable",
+        "symbol:playground-e45a65a6:snapshot.interface",
+        "symbol:playground-e45a65a6:termeditor.class",
+        "symbol:playground-e45a65a6:termviz.class",
+        "symbol:playground-e45a65a6:toggletrait.function"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.98,
+      "sourcePageIds": [
+        "module:playground-e45a65a6"
+      ],
+      "why": "Playground module and 39 defined symbols form one local module surface."
+    },
+    {
+      "id": "hyper:5ba83b7fee1c71a4",
+      "label": "JsonEditor module API",
+      "relation": "form",
+      "nodeIds": [
+        "module:jsoneditor-7d7aec64",
+        "symbol:jsoneditor-7d7aec64:annotations.variable",
+        "symbol:jsoneditor-7d7aec64:annotationstyle.function",
+        "symbol:jsoneditor-7d7aec64:charsizer.variable",
+        "symbol:jsoneditor-7d7aec64:errorlines.variable",
+        "symbol:jsoneditor-7d7aec64:focuserror.function",
+        "symbol:jsoneditor-7d7aec64:gutter.variable",
+        "symbol:jsoneditor-7d7aec64:jsoneditor.class",
+        "symbol:jsoneditor-7d7aec64:lineannotation.interface",
+        "symbol:jsoneditor-7d7aec64:lines.variable",
+        "symbol:jsoneditor-7d7aec64:measuremetrics.function",
+        "symbol:jsoneditor-7d7aec64:metrics.variable",
+        "symbol:jsoneditor-7d7aec64:onscroll.function",
+        "symbol:jsoneditor-7d7aec64:props.variable",
+        "symbol:jsoneditor-7d7aec64:scrollleft.variable",
+        "symbol:jsoneditor-7d7aec64:scrollrangeintoview.function",
+        "symbol:jsoneditor-7d7aec64:scrolltop.variable",
+        "symbol:jsoneditor-7d7aec64:textarea.variable"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.98,
+      "sourcePageIds": [
+        "module:jsoneditor-7d7aec64"
+      ],
+      "why": "JsonEditor module and 17 defined symbols form one local module surface."
+    },
+    {
+      "id": "hyper:510285be45fccdfb",
+      "label": "SciTooltip module API",
+      "relation": "form",
+      "nodeIds": [
+        "module:scitooltip-2260fcf0",
+        "symbol:scitooltip-2260fcf0:margin.variable",
+        "symbol:scitooltip-2260fcf0:onenter.function",
+        "symbol:scitooltip-2260fcf0:onleave.function",
+        "symbol:scitooltip-2260fcf0:pos.variable",
+        "symbol:scitooltip-2260fcf0:props.variable",
+        "symbol:scitooltip-2260fcf0:sciref.interface",
+        "symbol:scitooltip-2260fcf0:scitooltip.class",
+        "symbol:scitooltip-2260fcf0:show.variable",
+        "symbol:scitooltip-2260fcf0:teleport.class",
+        "symbol:scitooltip-2260fcf0:tip-width.variable",
+        "symbol:scitooltip-2260fcf0:transition.class",
+        "symbol:scitooltip-2260fcf0:trigger.variable",
+        "symbol:scitooltip-2260fcf0:updateposition.function"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.98,
+      "sourcePageIds": [
+        "module:scitooltip-2260fcf0"
+      ],
+      "why": "SciTooltip module and 13 defined symbols form one local module surface."
+    },
+    {
+      "id": "hyper:42e562a5d6ed972c",
+      "label": "jsonValidation module API",
+      "relation": "form",
+      "nodeIds": [
+        "module:jsonvalidation-f62dc3f7",
+        "symbol:jsonvalidation-f62dc3f7:ajv.variable",
+        "symbol:jsonvalidation-f62dc3f7:domainerror.function",
+        "symbol:jsonvalidation-f62dc3f7:errorkind.type_alias",
+        "symbol:jsonvalidation-f62dc3f7:humanizeschemaerror.function",
+        "symbol:jsonvalidation-f62dc3f7:instancepathtosegments.function",
+        "symbol:jsonvalidation-f62dc3f7:nodetovalue.function",
+        "symbol:jsonvalidation-f62dc3f7:playgrounderror.interface",
+        "symbol:jsonvalidation-f62dc3f7:rangefromoffset.function",
+        "symbol:jsonvalidation-f62dc3f7:schemaerrortoplayground.function",
+        "symbol:jsonvalidation-f62dc3f7:sourcerange.interface",
+        "symbol:jsonvalidation-f62dc3f7:validateinstruction.variable",
+        "symbol:jsonvalidation-f62dc3f7:validatejson.function"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.98,
+      "sourcePageIds": [
+        "module:jsonvalidation-f62dc3f7"
+      ],
+      "why": "jsonValidation module and 12 defined symbols form one local module surface."
+    },
+    {
+      "id": "hyper:1ef7f8242b9e85eb",
+      "label": "TermEditor module API",
+      "relation": "form",
+      "nodeIds": [
+        "module:termeditor-e3bdad59",
+        "symbol:termeditor-e3bdad59:addterm.function",
+        "symbol:termeditor-e3bdad59:coercevalue.function",
+        "symbol:termeditor-e3bdad59:compound.variable",
+        "symbol:termeditor-e3bdad59:kinds.variable",
+        "symbol:termeditor-e3bdad59:numeric.variable",
+        "symbol:termeditor-e3bdad59:onkindchange.function",
+        "symbol:termeditor-e3bdad59:onvalueinput.function",
+        "symbol:termeditor-e3bdad59:removeterm.function",
+        "symbol:termeditor-e3bdad59:term.interface",
+        "symbol:termeditor-e3bdad59:termeditor.class",
+        "symbol:termeditor-e3bdad59:togglecomment.function",
+        "symbol:termeditor-e3bdad59:togglerequired.function"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.98,
+      "sourcePageIds": [
+        "module:termeditor-e3bdad59"
+      ],
+      "why": "TermEditor module and 12 defined symbols form one local module surface."
+    },
+    {
+      "id": "hyper:560c766d0a64ecf4",
+      "label": "TermViz module API",
+      "relation": "form",
+      "nodeIds": [
+        "module:termviz-37c301d3",
+        "symbol:termviz-37c301d3:kindmeta.interface",
+        "symbol:termviz-37c301d3:kindmeta.variable",
+        "symbol:termviz-37c301d3:sciref.interface",
+        "symbol:termviz-37c301d3:scitooltip.class",
+        "symbol:termviz-37c301d3:term.interface",
+        "symbol:termviz-37c301d3:termviz.class"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.98,
+      "sourcePageIds": [
+        "module:termviz-37c301d3"
+      ],
+      "why": "TermViz module and 6 defined symbols form one local module surface."
+    },
+    {
+      "id": "hyper:4c5705ed32941061",
+      "label": "demoOperations module API",
+      "relation": "form",
+      "nodeIds": [
+        "module:demooperations-e845b3b1",
+        "symbol:demooperations-e845b3b1:demo.variable",
+        "symbol:demooperations-e845b3b1:demooperations.function",
+        "symbol:demooperations-e845b3b1:emptyoperation.function",
+        "symbol:demooperations-e845b3b1:operation.interface",
+        "symbol:demooperations-e845b3b1:term.interface"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.98,
+      "sourcePageIds": [
+        "module:demooperations-e845b3b1"
+      ],
+      "why": "demoOperations module and 5 defined symbols form one local module surface."
+    },
+    {
+      "id": "hyper:db8ab222a65d439d",
+      "label": "that",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:that",
+        "source:1-why-5b9657bb",
+        "source:12-the-conference-cc7a4771",
+        "source:13-convergent-evolution-42fa3b44",
+        "source:15-the-coexistence-22bc8664",
+        "source:16-the-founder-s-dream-7178fd75",
+        "source:17-the-gallium-28cb4937",
+        "source:24-the-trial-ad8162d4",
+        "source:25-the-manifesto-ebee95e5",
+        "source:26-the-compilers-528e2d40",
+        "source:29-the-anthill-organizes-21255101",
+        "source:31-the-hamster-leaves-the-wheel-8bb31c69",
+        "source:32-the-verdict-3837cfdb",
+        "source:33-the-amplifier-e4125d9b",
+        "source:3d-pub-bar-role-game-the-krabby-patty-3de2f4ab",
+        "source:3e-pub-bar-role-game-runtime-autopsy-e1b81c09",
+        "source:3g-pub-bar-role-game-deepseek-s-letter-4b07f74b",
+        "source:3h-pub-bar-role-game-the-epilogue-69d8acdc",
+        "source:9-the-operation-comes-first-f6c6890b",
+        "source:devlog-a4b51b88",
+        "source:fifteen-times-the-same-idea-4245d970",
+        "source:license-c71d239d",
+        "source:review-guidelines-0fa832f7",
+        "source:the-operations-protocol-formalizing-the-missing-foundation-ff73b385",
+        "source:to-build-the-future-look-at-the-past-5557730d"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:that",
+        "source:1-why-5b9657bb",
+        "source:12-the-conference-cc7a4771",
+        "source:13-convergent-evolution-42fa3b44",
+        "source:15-the-coexistence-22bc8664",
+        "source:16-the-founder-s-dream-7178fd75",
+        "source:17-the-gallium-28cb4937",
+        "source:24-the-trial-ad8162d4",
+        "source:25-the-manifesto-ebee95e5",
+        "source:26-the-compilers-528e2d40",
+        "source:29-the-anthill-organizes-21255101",
+        "source:31-the-hamster-leaves-the-wheel-8bb31c69",
+        "source:32-the-verdict-3837cfdb",
+        "source:33-the-amplifier-e4125d9b",
+        "source:3d-pub-bar-role-game-the-krabby-patty-3de2f4ab",
+        "source:3e-pub-bar-role-game-runtime-autopsy-e1b81c09",
+        "source:3g-pub-bar-role-game-deepseek-s-letter-4b07f74b",
+        "source:3h-pub-bar-role-game-the-epilogue-69d8acdc",
+        "source:9-the-operation-comes-first-f6c6890b",
+        "source:devlog-a4b51b88",
+        "source:fifteen-times-the-same-idea-4245d970",
+        "source:license-c71d239d",
+        "source:review-guidelines-0fa832f7",
+        "source:the-operations-protocol-formalizing-the-missing-foundation-ff73b385",
+        "source:to-build-the-future-look-at-the-past-5557730d"
+      ],
+      "why": "24 source nodes converge on that through extracted mention edges."
+    }
+  ],
+  "suggestedQuestions": [
+    "Why does that connect multiple communities in the vault?",
+    "Why does this connect multiple communities in the vault?",
+    "Why does does connect multiple communities in the vault?",
+    "What is the exact relationship between #17 — The Gallium and #12 — The Conference?",
+    "What is the exact relationship between #17 — The Gallium and #15 — The Coexistence?",
+    "What is the exact relationship between #20 — The Playground and #13 — Convergent Evolution?",
+    "What connects main to the rest of the vault?",
+    "What connects .mermaid foreignObject to the rest of the vault?"
+  ],
+  "communityPages": [
+    {
+      "id": "graph:community:config-module-1",
+      "path": "graph/communities/config-module-1.md",
+      "title": "Community: config module"
+    },
+    {
+      "id": "graph:community:jsoneditor-module-2",
+      "path": "graph/communities/jsoneditor-module-2.md",
+      "title": "Community: JsonEditor module"
+    },
+    {
+      "id": "graph:community:jsonvalidation-module-3",
+      "path": "graph/communities/jsonvalidation-module-3.md",
+      "title": "Community: jsonValidation module"
+    },
+    {
+      "id": "graph:community:playground-module-4",
+      "path": "graph/communities/playground-module-4.md",
+      "title": "Community: Playground module"
+    },
+    {
+      "id": "graph:community:releaserc-module-5",
+      "path": "graph/communities/releaserc-module-5.md",
+      "title": "Community: .releaserc module"
+    },
+    {
+      "id": "graph:community:scitooltip-module-6",
+      "path": "graph/communities/scitooltip-module-6.md",
+      "title": "Community: SciTooltip module"
+    },
+    {
+      "id": "graph:community:termeditor-module-7",
+      "path": "graph/communities/termeditor-module-7.md",
+      "title": "Community: TermEditor module"
+    },
+    {
+      "id": "graph:community:useplaygroundhistory-module-8",
+      "path": "graph/communities/useplaygroundhistory-module-8.md",
+      "title": "Community: usePlaygroundHistory module"
+    },
+    {
+      "id": "graph:community:that-9",
+      "path": "graph/communities/that-9.md",
+      "title": "Community: that"
+    },
+    {
+      "id": "graph:community:model-10",
+      "path": "graph/communities/model-10.md",
+      "title": "Community: model"
+    },
+    {
+      "id": "graph:community:from-11",
+      "path": "graph/communities/from-11.md",
+      "title": "Community: from"
+    },
+    {
+      "id": "graph:community:compilation-vs-generation-12",
+      "path": "graph/communities/compilation-vs-generation-12.md",
+      "title": "Community: Compilation vs. Generation"
+    },
+    {
+      "id": "graph:community:formalization-of-physics-13",
+      "path": "graph/communities/formalization-of-physics-13.md",
+      "title": "Community: Formalization of Physics"
+    },
+    {
+      "id": "graph:community:input-14",
+      "path": "graph/communities/input-14.md",
+      "title": "Community: input"
+    },
+    {
+      "id": "graph:community:introspection-15",
+      "path": "graph/communities/introspection-15.md",
+      "title": "Community: Introspection"
+    },
+    {
+      "id": "graph:community:build-16",
+      "path": "graph/communities/build-16.md",
+      "title": "Community: build"
+    },
+    {
+      "id": "graph:community:text-17",
+      "path": "graph/communities/text-17.md",
+      "title": "Community: text"
+    },
+    {
+      "id": "graph:community:browser-18",
+      "path": "graph/communities/browser-18.md",
+      "title": "Community: browser"
+    },
+    {
+      "id": "graph:community:work-19",
+      "path": "graph/communities/work-19.md",
+      "title": "Community: work"
+    },
+    {
+      "id": "graph:community:package-manager-20",
+      "path": "graph/communities/package-manager-20.md",
+      "title": "Community: Package Manager"
+    },
+    {
+      "id": "graph:community:user-agent-21",
+      "path": "graph/communities/user-agent-21.md",
+      "title": "Community: User-agent"
+    },
+    {
+      "id": "graph:community:sun-22",
+      "path": "graph/communities/sun-22.md",
+      "title": "Community: Sun"
+    }
+  ],
+  "recentResearchSources": [],
+  "contradictions": [],
+  "communityCohesion": [
+    {
+      "id": "community:config-module-1",
+      "label": "config module",
+      "nodeCount": 34,
+      "cohesion": 0.09982174688057041
+    },
+    {
+      "id": "community:jsoneditor-module-2",
+      "label": "JsonEditor module",
+      "nodeCount": 18,
+      "cohesion": 0.12418300653594772
+    },
+    {
+      "id": "community:jsonvalidation-module-3",
+      "label": "jsonValidation module",
+      "nodeCount": 13,
+      "cohesion": 0.3076923076923077
+    },
+    {
+      "id": "community:playground-module-4",
+      "label": "Playground module",
+      "nodeCount": 41,
+      "cohesion": 0.05975609756097561
+    },
+    {
+      "id": "community:releaserc-module-5",
+      "label": ".releaserc module",
+      "nodeCount": 4,
+      "cohesion": 0.5
+    },
+    {
+      "id": "community:scitooltip-module-6",
+      "label": "SciTooltip module",
+      "nodeCount": 14,
+      "cohesion": 0.18681318681318682
+    },
+    {
+      "id": "community:termeditor-module-7",
+      "label": "TermEditor module",
+      "nodeCount": 13,
+      "cohesion": 0.19230769230769232
+    },
+    {
+      "id": "community:useplaygroundhistory-module-8",
+      "label": "usePlaygroundHistory module",
+      "nodeCount": 5,
+      "cohesion": 0.7
+    },
+    {
+      "id": "community:that-9",
+      "label": "that",
+      "nodeCount": 93,
+      "cohesion": 0
+    },
+    {
+      "id": "community:model-10",
+      "label": "model",
+      "nodeCount": 51,
+      "cohesion": 0
+    },
+    {
+      "id": "community:from-11",
+      "label": "from",
+      "nodeCount": 117,
+      "cohesion": 0
+    },
+    {
+      "id": "community:compilation-vs-generation-12",
+      "label": "Compilation vs. Generation",
+      "nodeCount": 8,
+      "cohesion": 0
+    },
+    {
+      "id": "community:formalization-of-physics-13",
+      "label": "Formalization of Physics",
+      "nodeCount": 13,
+      "cohesion": 0
+    },
+    {
+      "id": "community:input-14",
+      "label": "input",
+      "nodeCount": 52,
+      "cohesion": 0
+    },
+    {
+      "id": "community:introspection-15",
+      "label": "Introspection",
+      "nodeCount": 8,
+      "cohesion": 0
+    },
+    {
+      "id": "community:build-16",
+      "label": "build",
+      "nodeCount": 79,
+      "cohesion": 0
+    },
+    {
+      "id": "community:text-17",
+      "label": "text",
+      "nodeCount": 38,
+      "cohesion": 0
+    },
+    {
+      "id": "community:browser-18",
+      "label": "browser",
+      "nodeCount": 17,
+      "cohesion": 0
+    },
+    {
+      "id": "community:work-19",
+      "label": "work",
+      "nodeCount": 10,
+      "cohesion": 0
+    },
+    {
+      "id": "community:package-manager-20",
+      "label": "Package Manager",
+      "nodeCount": 8,
+      "cohesion": 0
+    },
+    {
+      "id": "community:user-agent-21",
+      "label": "User-agent",
+      "nodeCount": 6,
+      "cohesion": 0
+    },
+    {
+      "id": "community:sun-22",
+      "label": "Sun",
+      "nodeCount": 12,
+      "cohesion": 0
+    }
+  ],
+  "knowledgeGaps": {
+    "isolatedNodes": [
+      {
+        "nodeId": "symbol:main-4df64910:main.function",
+        "label": "main",
+        "type": "symbol"
+      },
+      {
+        "nodeId": "symbol:mermaid-fix-e2dd139e:mermaid-foreignobject.class",
+        "label": ".mermaid foreignObject",
+        "type": "symbol"
+      }
+    ],
+    "thinCommunityCount": 0,
+    "ambiguousEdgeRatio": 0.008790072388831437,
+    "warnings": []
+  }
+}

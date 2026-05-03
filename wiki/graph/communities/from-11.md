@@ -1,0 +1,588 @@
+---
+page_id: 'graph:community:from-11'
+kind: community_summary
+cssclasses:
+  - swarmvault
+  - sv-community
+title: 'Community: from'
+tags:
+  - graph
+  - community
+source_ids: &ref_1
+  - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 33-the-amplifier-e4125d9b
+  - 13-convergent-evolution-42fa3b44
+  - 16-the-founder-s-dream-7178fd75
+  - 17-the-gallium-28cb4937
+  - 20-the-playground-353dd7fb
+  - 29-the-anthill-organizes-21255101
+  - fifteen-times-the-same-idea-4245d970
+  - 31-the-hamster-leaves-the-wheel-8bb31c69
+  - 26-the-compilers-528e2d40
+  - 27-build-link-runtime-2e7dc35f
+  - universal-roadmap-8fa1b496
+  - 28-dobby-is-free-6542412c
+  - dogshop-invalid-253ae2d9
+  - universal-first-vendors-not-a-standard-library-f05eb450
+  - >-
+    github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
+  - op-a39d2486
+  - 12-the-conference-cc7a4771
+  - 15-the-coexistence-22bc8664
+  - 22-the-dream-layer-d04b39b6
+  - 24-the-trial-ad8162d4
+  - 25-the-manifesto-ebee95e5
+  - 9-the-operation-comes-first-f6c6890b
+  - 1-why-5b9657bb
+  - 2-research-trail-834ba4c9
+  - 30-the-first-stranger-502ca504
+  - instruction-v1-e3a3cb1e
+  - playground-cd3a86d7
+  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - three-atoms-28e52786
+  - 3e-pub-bar-role-game-runtime-autopsy-e1b81c09
+  - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
+  - 32-the-verdict-3837cfdb
+  - 3a-pub-bar-role-game-discoveries-6494703c
+  - to-build-the-future-look-at-the-past-5557730d
+project_ids: []
+node_ids: &ref_0
+  - 'concept:adapter'
+  - 'concept:agent'
+  - 'concept:because'
+  - 'concept:berners'
+  - 'concept:bridge'
+  - 'concept:client'
+  - 'concept:compiler'
+  - 'concept:core'
+  - 'concept:devin'
+  - 'concept:devlog'
+  - 'concept:dictate'
+  - 'concept:does'
+  - 'concept:down'
+  - 'concept:dream'
+  - 'concept:environment'
+  - 'concept:first'
+  - 'concept:five'
+  - 'concept:from'
+  - 'concept:gravity'
+  - 'concept:guts-extraction'
+  - 'concept:host'
+  - 'concept:http'
+  - 'concept:httpplug'
+  - 'concept:instruction'
+  - 'concept:l-m-l-m-reduction'
+  - 'concept:layer'
+  - 'concept:milestone'
+  - 'concept:n-m-zoo'
+  - 'concept:openapi'
+  - 'concept:operation'
+  - 'concept:operations'
+  - 'concept:playground'
+  - 'concept:protocol'
+  - 'concept:protocol-gravity'
+  - 'concept:remove'
+  - 'concept:seconds'
+  - 'concept:self-knowing-programs'
+  - 'concept:stream'
+  - 'concept:universal'
+  - 'concept:vendor'
+  - 'concept:vendors'
+  - 'concept:what'
+  - 'concept:wire'
+  - 'concept:with'
+  - 'entity:amplifier'
+  - 'entity:an'
+  - 'entity:anthill-organizes'
+  - 'entity:budgetexceeded-five'
+  - 'entity:build'
+  - 'entity:buydog-input-buydoginput-buydogoutput'
+  - 'entity:cheetah-then'
+  - 'entity:compilers'
+  - 'entity:contracts'
+  - 'entity:core'
+  - 'entity:core-uri'
+  - 'entity:delivery'
+  - 'entity:devin'
+  - 'entity:dobby-is-free'
+  - 'entity:dog'
+  - 'entity:dream-layer'
+  - 'entity:dream-layer-this'
+  - 'entity:epilogue'
+  - 'entity:every'
+  - 'entity:fifteen-times'
+  - 'entity:first-inhabitants'
+  - 'entity:fixtures'
+  - 'entity:founder-s-dream'
+  - 'entity:founder-s-dream-in'
+  - 'entity:gallium'
+  - 'entity:gallium-we'
+  - 'entity:hamster-leaves'
+  - 'entity:id'
+  - 'entity:in'
+  - 'entity:input'
+  - 'entity:it'
+  - 'entity:laravel'
+  - 'entity:meaning'
+  - 'entity:milestone'
+  - 'entity:murat'
+  - 'entity:n-worlds'
+  - 'entity:one'
+  - 'entity:op'
+  - 'entity:operation-comes-first'
+  - 'entity:plate'
+  - 'entity:playground'
+  - 'entity:playground-seventeen'
+  - 'entity:poc'
+  - 'entity:problem-with-words-we'
+  - 'entity:prologue'
+  - 'entity:prologue-an'
+  - 'entity:reinventions'
+  - 'entity:research-trail'
+  - 'entity:research-trail-before'
+  - 'entity:runtime'
+  - 'entity:ruslan'
+  - 'entity:same-idea'
+  - 'entity:same-idea-we'
+  - 'entity:scientific-american'
+  - 'entity:scramble-huma'
+  - 'entity:sir-just'
+  - 'entity:six'
+  - 'entity:someone'
+  - 'entity:spiral'
+  - 'entity:three'
+  - 'entity:tim-berners-lee'
+  - 'entity:tony-tam'
+  - 'entity:trial'
+  - 'entity:trial-science'
+  - 'entity:two-layers'
+  - 'entity:urbio-http'
+  - 'entity:what'
+  - 'entity:wheel'
+  - 'entity:why'
+  - 'entity:wildberries'
+  - 'entity:wire'
+  - 'entity:zend-engine'
+  - 'entity:zend-engine-analogy-it'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T04:02:10.956Z'
+updated_at: '2026-05-03T04:02:10.956Z'
+compiled_from:
+  - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 33-the-amplifier-e4125d9b
+  - 13-convergent-evolution-42fa3b44
+  - 16-the-founder-s-dream-7178fd75
+  - 17-the-gallium-28cb4937
+  - 20-the-playground-353dd7fb
+  - 29-the-anthill-organizes-21255101
+  - fifteen-times-the-same-idea-4245d970
+  - 31-the-hamster-leaves-the-wheel-8bb31c69
+  - 26-the-compilers-528e2d40
+  - 27-build-link-runtime-2e7dc35f
+  - universal-roadmap-8fa1b496
+  - 28-dobby-is-free-6542412c
+  - dogshop-invalid-253ae2d9
+  - universal-first-vendors-not-a-standard-library-f05eb450
+  - >-
+    github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
+  - op-a39d2486
+  - 12-the-conference-cc7a4771
+  - 15-the-coexistence-22bc8664
+  - 22-the-dream-layer-d04b39b6
+  - 24-the-trial-ad8162d4
+  - 25-the-manifesto-ebee95e5
+  - 9-the-operation-comes-first-f6c6890b
+  - 1-why-5b9657bb
+  - 2-research-trail-834ba4c9
+  - 30-the-first-stranger-502ca504
+  - instruction-v1-e3a3cb1e
+  - playground-cd3a86d7
+  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - three-atoms-28e52786
+  - 3e-pub-bar-role-game-runtime-autopsy-e1b81c09
+  - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
+  - 32-the-verdict-3837cfdb
+  - 3a-pub-bar-role-game-discoveries-6494703c
+  - to-build-the-future-look-at-the-past-5557730d
+managed_by: system
+backlinks:
+  - 'graph:report'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes: {}
+source_semantic_hashes: {}
+related_page_ids:
+  - 'graph:report'
+  - 'concept:adapter'
+  - 'concept:agent'
+  - 'concept:because'
+  - 'concept:berners'
+  - 'concept:bridge'
+  - 'concept:client'
+  - 'concept:compiler'
+  - 'concept:core'
+  - 'concept:devin'
+  - 'concept:devlog'
+  - 'concept:dictate'
+  - 'concept:does'
+  - 'concept:down'
+  - 'concept:dream'
+  - 'concept:environment'
+  - 'concept:first'
+  - 'concept:five'
+  - 'concept:from'
+  - 'concept:gravity'
+  - 'concept:guts-extraction'
+  - 'concept:host'
+  - 'concept:http'
+  - 'concept:httpplug'
+  - 'concept:instruction'
+  - 'concept:l-m-l-m-reduction'
+  - 'concept:layer'
+  - 'concept:milestone'
+  - 'concept:n-m-zoo'
+  - 'concept:openapi'
+  - 'concept:operation'
+  - 'concept:operations'
+  - 'concept:playground'
+  - 'concept:protocol'
+  - 'concept:protocol-gravity'
+  - 'concept:remove'
+  - 'concept:seconds'
+  - 'concept:self-knowing-programs'
+  - 'concept:stream'
+  - 'concept:universal'
+  - 'concept:vendor'
+  - 'concept:vendors'
+  - 'concept:what'
+  - 'concept:wire'
+  - 'concept:with'
+  - 'entity:amplifier'
+  - 'entity:an'
+  - 'entity:anthill-organizes'
+  - 'entity:budgetexceeded-five'
+  - 'entity:build'
+  - 'entity:buydog-input-buydoginput-buydogoutput'
+  - 'entity:cheetah-then'
+  - 'entity:compilers'
+  - 'entity:contracts'
+  - 'entity:core'
+  - 'entity:core-uri'
+  - 'entity:delivery'
+  - 'entity:devin'
+  - 'entity:dobby-is-free'
+  - 'entity:dog'
+  - 'entity:dream-layer'
+  - 'entity:dream-layer-this'
+  - 'entity:epilogue'
+  - 'entity:every'
+  - 'entity:fifteen-times'
+  - 'entity:first-inhabitants'
+  - 'entity:fixtures'
+  - 'entity:founder-s-dream'
+  - 'entity:founder-s-dream-in'
+  - 'entity:gallium'
+  - 'entity:gallium-we'
+  - 'entity:hamster-leaves'
+  - 'entity:id'
+  - 'entity:in'
+  - 'entity:input'
+  - 'entity:it'
+  - 'entity:laravel'
+  - 'entity:meaning'
+  - 'entity:milestone'
+  - 'entity:murat'
+  - 'entity:n-worlds'
+  - 'entity:one'
+  - 'entity:op'
+  - 'entity:operation-comes-first'
+  - 'entity:plate'
+  - 'entity:playground'
+  - 'entity:playground-seventeen'
+  - 'entity:poc'
+  - 'entity:problem-with-words-we'
+  - 'entity:prologue'
+  - 'entity:prologue-an'
+  - 'entity:reinventions'
+  - 'entity:research-trail'
+  - 'entity:research-trail-before'
+  - 'entity:runtime'
+  - 'entity:ruslan'
+  - 'entity:same-idea'
+  - 'entity:same-idea-we'
+  - 'entity:scientific-american'
+  - 'entity:scramble-huma'
+  - 'entity:sir-just'
+  - 'entity:six'
+  - 'entity:someone'
+  - 'entity:spiral'
+  - 'entity:three'
+  - 'entity:tim-berners-lee'
+  - 'entity:tony-tam'
+  - 'entity:trial'
+  - 'entity:trial-science'
+  - 'entity:two-layers'
+  - 'entity:urbio-http'
+  - 'entity:what'
+  - 'entity:wheel'
+  - 'entity:why'
+  - 'entity:wildberries'
+  - 'entity:wire'
+  - 'entity:zend-engine'
+  - 'entity:zend-engine-analogy-it'
+related_node_ids: *ref_0
+related_source_ids: *ref_1
+---
+# Community: from
+
+## Nodes
+
+- [[candidates/concepts/adapter|adapter]] (concept, degree=12, bridge=2)
+- [[candidates/concepts/agent|agent]] (concept, degree=12, bridge=2)
+- [[candidates/concepts/because|because]] (concept, degree=59, bridge=4)
+- [[candidates/concepts/berners|berners]] (concept, degree=12, bridge=2)
+- [[candidates/concepts/bridge|bridge]] (concept, degree=12, bridge=1)
+- [[candidates/concepts/client|client]] (concept, degree=12, bridge=2)
+- [[candidates/concepts/compiler|compiler]] (concept, degree=43, bridge=3)
+- [[candidates/concepts/core|core]] (concept, degree=34, bridge=4)
+- [[candidates/concepts/devin|devin]] (concept, degree=12, bridge=2)
+- [[candidates/concepts/devlog|devlog]] (concept, degree=11, bridge=4)
+- [[concepts/dictate|dictate]] (concept, degree=13, bridge=2)
+- [[concepts/does|does]] (concept, degree=84, bridge=6)
+- [[candidates/concepts/down|down]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/dream|dream]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/environment|environment]] (concept, degree=12, bridge=2)
+- [[candidates/concepts/first|first]] (concept, degree=11, bridge=2)
+- [[concepts/five|five]] (concept, degree=24, bridge=2)
+- [[concepts/from|from]] (concept, degree=59, bridge=3)
+- [[candidates/concepts/gravity|gravity]] (concept, degree=12, bridge=1)
+- [[candidates/concepts/guts-extraction|Guts-extraction]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/host|host]] (concept, degree=11, bridge=2)
+- [[candidates/concepts/http|http]] (concept, degree=60, bridge=5)
+- [[candidates/concepts/httpplug|httpplug]] (concept, degree=12, bridge=1)
+- [[candidates/concepts/instruction|instruction]] (concept, degree=23, bridge=2)
+- [[candidates/concepts/l-m-l-m-reduction|L × M → L + M Reduction]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/layer|layer]] (concept, degree=23, bridge=2)
+- [[candidates/concepts/milestone|milestone]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/n-m-zoo|N×M zoo]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/openapi|openapi]] (concept, degree=32, bridge=1)
+- [[concepts/operation|operation]] (concept, degree=99, bridge=6)
+- [[candidates/concepts/operations|operations]] (concept, degree=21, bridge=3)
+- [[candidates/concepts/playground|playground]] (concept, degree=16, bridge=3)
+- [[candidates/concepts/protocol|protocol]] (concept, degree=27, bridge=3)
+- [[candidates/concepts/protocol-gravity|Protocol Gravity]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/remove|remove]] (concept, degree=7, bridge=1)
+- [[candidates/concepts/seconds|seconds]] (concept, degree=7, bridge=1)
+- [[candidates/concepts/self-knowing-programs|Self-knowing programs]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/stream|stream]] (concept, degree=12, bridge=3)
+- [[candidates/concepts/universal|universal]] (concept, degree=22, bridge=1)
+- [[candidates/concepts/vendor|vendor]] (concept, degree=12, bridge=1)
+- [[candidates/concepts/vendors|vendors]] (concept, degree=22, bridge=5)
+- [[candidates/concepts/what|what]] (concept, degree=86, bridge=5)
+- [[candidates/concepts/wire|wire]] (concept, degree=12, bridge=1)
+- [[candidates/concepts/with|with]] (concept, degree=53, bridge=4)
+- [[candidates/entities/amplifier|Amplifier]] (entity, degree=12, bridge=2)
+- [[candidates/entities/an|An]] (entity, degree=12, bridge=2)
+- [[candidates/entities/anthill-organizes|Anthill Organizes]] (entity, degree=24, bridge=3)
+- [[entities/budgetexceeded-five|BudgetExceeded Five]] (entity, degree=13, bridge=2)
+- [[candidates/entities/build|Build,]] (entity, degree=11, bridge=2)
+- [[entities/buydog-input-buydoginput-buydogoutput|BuyDog(input: BuyDogInput): BuyDogOutput]] (entity, degree=13, bridge=2)
+- [[candidates/entities/cheetah-then|Cheetah Then]] (entity, degree=11, bridge=2)
+- [[candidates/entities/compilers|Compilers]] (entity, degree=12, bridge=1)
+- [[candidates/entities/contracts|Contracts]] (entity, degree=12, bridge=1)
+- [[candidates/entities/core|Core]] (entity, degree=12, bridge=1)
+- [[candidates/entities/core-uri|Core((("URI]] (entity, degree=12, bridge=1)
+- [[candidates/entities/delivery|Delivery.]] (entity, degree=12, bridge=0)
+- [[candidates/entities/devin|Devin]] (entity, degree=12, bridge=2)
+- [[candidates/entities/dobby-is-free|Dobby Is Free]] (entity, degree=22, bridge=1)
+- [[candidates/entities/dog|Dog]] (entity, degree=11, bridge=2)
+- [[candidates/entities/dream-layer|Dream Layer]] (entity, degree=12, bridge=0)
+- [[candidates/entities/dream-layer-this|Dream Layer This]] (entity, degree=12, bridge=0)
+- [[candidates/entities/epilogue|Epilogue]] (entity, degree=12, bridge=2)
+- [[candidates/entities/every|Every]] (entity, degree=22, bridge=2)
+- [[candidates/entities/fifteen-times|Fifteen Times]] (entity, degree=12, bridge=1)
+- [[candidates/entities/first-inhabitants|first inhabitants]] (entity, degree=11, bridge=4)
+- [[candidates/entities/fixtures|Fixtures —]] (entity, degree=12, bridge=0)
+- [[candidates/entities/founder-s-dream|Founder's Dream]] (entity, degree=12, bridge=2)
+- [[candidates/entities/founder-s-dream-in|Founder's Dream In]] (entity, degree=12, bridge=2)
+- [[candidates/entities/gallium|Gallium]] (entity, degree=12, bridge=1)
+- [[candidates/entities/gallium-we|Gallium We]] (entity, degree=12, bridge=1)
+- [[candidates/entities/hamster-leaves|Hamster Leaves]] (entity, degree=12, bridge=2)
+- [[entities/id|Id).]] (entity, degree=13, bridge=2)
+- [[candidates/entities/in|In]] (entity, degree=12, bridge=2)
+- [[entities/input|Input).]] (entity, degree=13, bridge=2)
+- [[candidates/entities/it|It]] (entity, degree=11, bridge=2)
+- [[candidates/entities/laravel|Laravel?]] (entity, degree=12, bridge=1)
+- [[candidates/entities/meaning|Meaning.]] (entity, degree=12, bridge=0)
+- [[candidates/entities/milestone|Milestone]] (entity, degree=12, bridge=0)
+- [[candidates/entities/murat|Murat .]] (entity, degree=20, bridge=2)
+- [[candidates/entities/n-worlds|## N Worlds,]] (entity, degree=12, bridge=1)
+- [[candidates/entities/one|One]] (entity, degree=24, bridge=2)
+- [[candidates/entities/op|Op]] (entity, degree=156, bridge=6)
+- [[candidates/entities/operation-comes-first|Operation Comes First]] (entity, degree=11, bridge=2)
+- [[candidates/entities/plate|Plate]] (entity, degree=11, bridge=2)
+- [[candidates/entities/playground|Playground]] (entity, degree=16, bridge=3)
+- [[candidates/entities/playground-seventeen|Playground Seventeen]] (entity, degree=12, bridge=2)
+- [[candidates/entities/poc|POC,]] (entity, degree=22, bridge=2)
+- [[candidates/entities/problem-with-words-we|Problem With Words We]] (entity, degree=12, bridge=2)
+- [[candidates/entities/prologue|Prologue —]] (entity, degree=12, bridge=2)
+- [[candidates/entities/prologue-an|Prologue — An]] (entity, degree=12, bridge=2)
+- [[candidates/entities/reinventions|Reinventions]] (entity, degree=12, bridge=1)
+- [[candidates/entities/research-trail|Research Trail]] (entity, degree=12, bridge=1)
+- [[candidates/entities/research-trail-before|Research Trail Before]] (entity, degree=12, bridge=1)
+- [[candidates/entities/runtime|Runtime]] (entity, degree=11, bridge=2)
+- [[candidates/entities/ruslan|Ruslan]] (entity, degree=9, bridge=0)
+- [[candidates/entities/same-idea|Same Idea]] (entity, degree=12, bridge=1)
+- [[candidates/entities/same-idea-we|Same Idea We]] (entity, degree=12, bridge=1)
+- [[candidates/entities/scientific-american|Scientific American.]] (entity, degree=12, bridge=2)
+- [[candidates/entities/scramble-huma|Scramble, Huma,]] (entity, degree=12, bridge=1)
+- [[candidates/entities/sir-just|sir. Just]] (entity, degree=12, bridge=2)
+- [[candidates/entities/six|Six]] (entity, degree=12, bridge=2)
+- [[candidates/entities/someone|Someone]] (entity, degree=12, bridge=1)
+- [[candidates/entities/spiral|Spiral?]] (entity, degree=12, bridge=1)
+- [[candidates/entities/three|Three]] (entity, degree=11, bridge=2)
+- [[candidates/entities/tim-berners-lee|Tim Berners-Lee]] (entity, degree=12, bridge=2)
+- [[candidates/entities/tony-tam|Tony Tam]] (entity, degree=12, bridge=1)
+- [[candidates/entities/trial|Trial]] (entity, degree=12, bridge=3)
+- [[candidates/entities/trial-science|Trial Science]] (entity, degree=12, bridge=3)
+- [[candidates/entities/two-layers|Two Layers]] (entity, degree=12, bridge=0)
+- [[candidates/entities/urbio-http|`urbio/http`]] (entity, degree=9, bridge=0)
+- [[candidates/entities/what|What]] (entity, degree=51, bridge=6)
+- [[candidates/entities/wheel|Wheel]] (entity, degree=12, bridge=2)
+- [[entities/why|Why]] (entity, degree=36, bridge=4)
+- [[candidates/entities/wildberries|Wildberries]] (entity, degree=12, bridge=2)
+- [[candidates/entities/wire|Wire —]] (entity, degree=12, bridge=1)
+- [[candidates/entities/zend-engine|Zend Engine.]] (entity, degree=12, bridge=2)
+- [[candidates/entities/zend-engine-analogy-it|Zend Engine Analogy It]] (entity, degree=12, bridge=2)
+
+## Pages
+
+- [[candidates/concepts/adapter|adapter]]
+- [[candidates/concepts/agent|agent]]
+- [[candidates/concepts/because|because]]
+- [[candidates/concepts/berners|berners]]
+- [[candidates/concepts/bridge|bridge]]
+- [[candidates/concepts/client|client]]
+- [[candidates/concepts/compiler|compiler]]
+- [[candidates/concepts/core|core]]
+- [[candidates/concepts/devin|devin]]
+- [[candidates/concepts/devlog|devlog]]
+- [[concepts/dictate|dictate]]
+- [[concepts/does|does]]
+- [[candidates/concepts/down|down]]
+- [[candidates/concepts/dream|dream]]
+- [[candidates/concepts/environment|environment]]
+- [[candidates/concepts/first|first]]
+- [[concepts/five|five]]
+- [[concepts/from|from]]
+- [[candidates/concepts/gravity|gravity]]
+- [[candidates/concepts/guts-extraction|Guts-extraction]]
+- [[candidates/concepts/host|host]]
+- [[candidates/concepts/http|http]]
+- [[candidates/concepts/httpplug|httpplug]]
+- [[candidates/concepts/instruction|instruction]]
+- [[candidates/concepts/l-m-l-m-reduction|L × M → L + M Reduction]]
+- [[candidates/concepts/layer|layer]]
+- [[candidates/concepts/milestone|milestone]]
+- [[candidates/concepts/n-m-zoo|N×M zoo]]
+- [[candidates/concepts/openapi|openapi]]
+- [[concepts/operation|operation]]
+- [[candidates/concepts/operations|operations]]
+- [[candidates/concepts/playground|playground]]
+- [[candidates/concepts/protocol|protocol]]
+- [[candidates/concepts/protocol-gravity|Protocol Gravity]]
+- [[candidates/concepts/remove|remove]]
+- [[candidates/concepts/seconds|seconds]]
+- [[candidates/concepts/self-knowing-programs|Self-knowing programs]]
+- [[candidates/concepts/stream|stream]]
+- [[candidates/concepts/universal|universal]]
+- [[candidates/concepts/vendor|vendor]]
+- [[candidates/concepts/vendors|vendors]]
+- [[candidates/concepts/what|what]]
+- [[candidates/concepts/wire|wire]]
+- [[candidates/concepts/with|with]]
+- [[candidates/entities/amplifier|Amplifier]]
+- [[candidates/entities/an|An]]
+- [[candidates/entities/anthill-organizes|Anthill Organizes]]
+- [[entities/budgetexceeded-five|BudgetExceeded Five]]
+- [[candidates/entities/build|Build,]]
+- [[entities/buydog-input-buydoginput-buydogoutput|BuyDog(input: BuyDogInput): BuyDogOutput]]
+- [[candidates/entities/cheetah-then|Cheetah Then]]
+- [[candidates/entities/compilers|Compilers]]
+- [[candidates/entities/contracts|Contracts]]
+- [[candidates/entities/core|Core]]
+- [[candidates/entities/core-uri|Core((("URI]]
+- [[candidates/entities/delivery|Delivery.]]
+- [[candidates/entities/devin|Devin]]
+- [[candidates/entities/dobby-is-free|Dobby Is Free]]
+- [[candidates/entities/dog|Dog]]
+- [[candidates/entities/dream-layer|Dream Layer]]
+- [[candidates/entities/dream-layer-this|Dream Layer This]]
+- [[candidates/entities/epilogue|Epilogue]]
+- [[candidates/entities/every|Every]]
+- [[candidates/entities/fifteen-times|Fifteen Times]]
+- [[candidates/entities/first-inhabitants|first inhabitants]]
+- [[candidates/entities/fixtures|Fixtures —]]
+- [[candidates/entities/founder-s-dream|Founder's Dream]]
+- [[candidates/entities/founder-s-dream-in|Founder's Dream In]]
+- [[candidates/entities/gallium|Gallium]]
+- [[candidates/entities/gallium-we|Gallium We]]
+- [[candidates/entities/hamster-leaves|Hamster Leaves]]
+- [[entities/id|Id).]]
+- [[candidates/entities/in|In]]
+- [[entities/input|Input).]]
+- [[candidates/entities/it|It]]
+- [[candidates/entities/laravel|Laravel?]]
+- [[candidates/entities/meaning|Meaning.]]
+- [[candidates/entities/milestone|Milestone]]
+- [[candidates/entities/murat|Murat .]]
+- [[candidates/entities/n-worlds|## N Worlds,]]
+- [[candidates/entities/one|One]]
+- [[candidates/entities/op|Op]]
+- [[candidates/entities/operation-comes-first|Operation Comes First]]
+- [[candidates/entities/plate|Plate]]
+- [[candidates/entities/playground|Playground]]
+- [[candidates/entities/playground-seventeen|Playground Seventeen]]
+- [[candidates/entities/poc|POC,]]
+- [[candidates/entities/problem-with-words-we|Problem With Words We]]
+- [[candidates/entities/prologue|Prologue —]]
+- [[candidates/entities/prologue-an|Prologue — An]]
+- [[candidates/entities/reinventions|Reinventions]]
+- [[candidates/entities/research-trail|Research Trail]]
+- [[candidates/entities/research-trail-before|Research Trail Before]]
+- [[candidates/entities/runtime|Runtime]]
+- [[candidates/entities/ruslan|Ruslan]]
+- [[candidates/entities/same-idea|Same Idea]]
+- [[candidates/entities/same-idea-we|Same Idea We]]
+- [[candidates/entities/scientific-american|Scientific American.]]
+- [[candidates/entities/scramble-huma|Scramble, Huma,]]
+- [[candidates/entities/sir-just|sir. Just]]
+- [[candidates/entities/six|Six]]
+- [[candidates/entities/someone|Someone]]
+- [[candidates/entities/spiral|Spiral?]]
+- [[candidates/entities/three|Three]]
+- [[candidates/entities/tim-berners-lee|Tim Berners-Lee]]
+- [[candidates/entities/tony-tam|Tony Tam]]
+- [[candidates/entities/trial|Trial]]
+- [[candidates/entities/trial-science|Trial Science]]
+- [[candidates/entities/two-layers|Two Layers]]
+- [[candidates/entities/urbio-http|`urbio/http`]]
+- [[candidates/entities/what|What]]
+- [[candidates/entities/wheel|Wheel]]
+- [[entities/why|Why]]
+- [[candidates/entities/wildberries|Wildberries]]
+- [[candidates/entities/wire|Wire —]]
+- [[candidates/entities/zend-engine|Zend Engine.]]
+- [[candidates/entities/zend-engine-analogy-it|Zend Engine Analogy It]]
+
+## External Links
+
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/concepts/know|know]] (extracted)
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/concepts/model|model]] (extracted)
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/concepts/that|that]] (extracted)
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/concepts/user|user]] (extracted)
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/entities/how|How]] (extracted)
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/entities/i-ve|I've]] (extracted)
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/entities/pro|Pro]] (extracted)
+- [[sources/1-why-5b9657bb|#1 — Why]] mentions [[candidates/entities/scramble|Scramble —]] (extracted)

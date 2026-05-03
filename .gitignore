@@ -1,0 +1,11 @@
+!wiki/
+!swarmvault.schema.md
+!swarmvault.config.json
+
+agent/
+raw/
+.swarmvault/
+.agents
+.idea
+.claude
+.cursor
