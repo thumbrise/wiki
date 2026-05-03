@@ -1,0 +1,1171 @@
+---
+page_id: 'module:vitepress-vue-devtools-api-d989dc21'
+kind: module
+cssclasses:
+  - swarmvault
+  - sv-module
+title: vitepress___@vue_devtools-api module
+source_class: first_party
+tags:
+  - module
+  - code
+  - javascript
+source_ids:
+  - vitepress-vue-devtools-api-d989dc21
+project_ids: []
+node_ids:
+  - 'module:vitepress-vue-devtools-api-d989dc21'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:create.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:defprop.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropdesc.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropnames.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getprotoof.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hasownprop.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:esm.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:commonjs.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:copyprops.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toesm.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:init-esm-shims.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:require-rfdc.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isbrowser.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:target.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isinchromepanel.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isiniframe.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isinelectron.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnuxtapp.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:import-rfdc.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classifyre.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toupper.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classify.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:basename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:http-url-re.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isurlstring.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:deepclone.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:debounce-defaults.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:debounce.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:applypromised.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:flathooks.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:defaulttask.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createtask.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createtask.variable-2'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:serialtaskcaller.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:paralleltaskcaller.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:calleachwith.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hookable.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createhooks.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:random.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:create2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:defprop2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropdesc2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropnames2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getprotoof2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hasownprop2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:esm2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:commonjs2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:copyprops2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toesm2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:init-esm-shims2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:require-speakingurl.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:require-speakingurl2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponenttypename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentfilename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:savecomponentgussedname.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getapprecord.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isfragment.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getinstancename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getuniquecomponentid.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentinstance.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createrect.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:range.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:gettextrect.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getfragmentrect.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:mergerects.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:default-rect.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentboundingrect.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:getrootelementsfromcomponentinstance.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getfragmentrootelements.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:container-element-id.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:card-element-id.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:component-name-element-id.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:indicator-element-id.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:containerstyles.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:cardstyles.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:indicatorstyles.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcontainerelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcardelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getindicatorelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getnameelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getstyles.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:create.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:update.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:highlight.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:unhighlight.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:inspectinstance.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:inspectfn.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:selectcomponentfn.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:inspectcomponenthighlighterselectfn.variable
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:cancelinspectcomponenthighlighter.function
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:inspectcomponenthighlighter.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:scrolltocomponent.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:waitforinspectorinit.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setupinspector.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentinspector.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isreadonly.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isreactive.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isref.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toraw.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:fragment.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stateeditor.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:refstateeditor.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stateeditor.variable-2'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:timeline-layers-state-storage-id.variable
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:gettimelinelayersstatefromstorage.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a22.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolstimelinelayers.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addtimelinelayer.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a3.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b3.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsinspector.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:callinspectorupdatedhook.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addinspector.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getactiveinspectors.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getinspector.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:devtoolsv6pluginapihookkeys.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolscontexthookkeys.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:devtoolsmessaginghookkeys.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createdevtoolsctxhooks.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a4.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b4.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a5.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b5.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a6.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b6.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a7.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b7.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a8.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b8.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:state-key.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:initstatefactory.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a9.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b9.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:callstateupdatedhook.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:callconnectedupdatedhook.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsapprecords.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:activeapprecord.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:updateallstates.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setactiveapprecord.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setactiveapprecordid.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsstate.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:ondevtoolsconnected.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:resolveicon.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addcustomtab.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addcustomcommand.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:removecustomcommand.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:openineditor.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a10.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b10.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolspluginbuffer.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getpluginlocalkey.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getpluginsettingsoptions.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getpluginsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:initpluginsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setpluginsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a11.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b11.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolshooks.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:on.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hook.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsv6pluginapi.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolspluginapi.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:undefined.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:infinity.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:negative-infinity.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:nan.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:tokenmap.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:reversedtokenmap.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a12.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b12.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setupdevtoolsplugin.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:calldevtoolspluginsetupfn.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registerdevtoolsplugin.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:router-key.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:router-info-key.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a13.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b13.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a14.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b14.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsrouterinfo.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsrouter.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getroutes.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:filterroutes.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:filtercurrentroute.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:normalizerouterinfo.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createdevtoolsapi.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a15.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b15.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hooks.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a16.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b16.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolscontext.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:import-speakingurl.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a17.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b17.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:apprecordinfo.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:ondevtoolsclientconnected.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:togglehighperfmode.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:updatedevtoolsclientdetected.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a18.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b18.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:doubleindexedkv.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registry.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classregistry.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:valuesofobj.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:find.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:foreach.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:includes.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:findarr.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:customtransformerregistry.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:gettype.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isundefined.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnull.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isplainobject2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isemptyobject.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isarray.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isstring.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnumber.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isboolean.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isregexp.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:ismap.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isset.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:issymbol.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isdate.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:iserror.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnanvalue.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isprimitive2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isbigint.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isinfinite.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:istypedarray.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isurl.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:escapekey.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stringifypath.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:parsepath.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:simpletransformation.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:simplerules.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:compositetransformation.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:symbolrule.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:constructortoname.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:typedarrayrule.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:isinstanceofregisteredclass.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classrule.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:customrule.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:compositerules.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:transformvalue.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:simplerulesbyannotation.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:untransformvalue.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getnthkey.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:validatepath.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getdeep.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setdeep.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:traverse.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:applyvalueannotations.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:applyreferentialequalityannotations.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isdeep.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addidentity.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:generatereferentialequalityannotations.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:walker.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:gettype2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isarray2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isplainobject3.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnull2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isoneof.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isundefined2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnullorundefined.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:assignprop.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:copy.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:superjson.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:serialize.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:deserialize.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stringify.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:parse.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registerclass.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registercustom.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registersymbol.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:allowerrorprops.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a19.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b19.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a20.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b20.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a21.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b21.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a222.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b22.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a23.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b23.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a24.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b24.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:max-serialized-size.variable'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T05:11:46.070Z'
+updated_at: '2026-05-03T05:32:23.297Z'
+compiled_from:
+  - vitepress-vue-devtools-api-d989dc21
+managed_by: system
+backlinks:
+  - 'source:vitepress-vue-devtools-api-d989dc21'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'output:source-briefs/directory-op-597d97ce'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  vitepress-vue-devtools-api-d989dc21: d989dc21298b0e0c0e49f9b2501998b79b188558b69132688bf13e6a11096d5e
+source_semantic_hashes:
+  vitepress-vue-devtools-api-d989dc21: d989dc21298b0e0c0e49f9b2501998b79b188558b69132688bf13e6a11096d5e
+related_page_ids:
+  - 'source:vitepress-vue-devtools-api-d989dc21'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'output:source-briefs/directory-op-597d97ce'
+related_node_ids: []
+related_source_ids:
+  - vitepress-vue-devtools-api-d989dc21
+  - chunk-busya2b4-a9582e69
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
+  - 10-pistol-c4a46637
+  - 11-bundle-d20d9270
+  - 12-profession-6a98045a
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
+  - 15-black-dfde2647
+  - 16-migrations-115e9686
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
+  - 19-mongodb-ff331c30
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
+  - 3-bleed-09df896e
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-a144e02d
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-js-ed562b0b
+  - composer-2fcc293f
+  - composer-61edd1a7
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
+  - demotest-276ee805
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
+  - dogshop-de2fc247
+  - dogshop-invalid-17d19246
+  - donothing-0c30237f
+  - dream-17b190f1
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
+  - gitignore-1c7e0952
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
+  - instruction-v1-ce2b773a
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
+  - jsonvalidation-a88469ee
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
+  - licenserc-40040b08
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
+  - session-7a75f197
+  - stempler-a4483274
+  - swarmvault-config-json-84915e3f
+  - taskfile-f98ae8d6
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-primitive-range-conjecture-c5c69b80
+  - the-understory-69c901f2
+  - three-atoms-f9d1fbb2
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-roadmap-cdd00ede
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
+  - welcome-049f9ac7
+language: javascript
+---
+# vitepress___@vue_devtools-api module
+
+Source ID: `vitepress-vue-devtools-api-d989dc21`
+Source Path: `/Users/rk/GolandProjects/op/docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js`
+Repo Path: `docs/.vitepress/cache/deps/vitepress___@vue_devtools-api.js`
+Source Class: `first_party`
+Language: `javascript`
+Module Name: `docs/.vitepress/cache/deps/vitepress___@vue_devtools-api`
+Source Page: [[sources/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api]]
+
+## Summary
+
+vitepress___@vue_devtools-api is a javascript module, defining 294 top-level symbol(s), exporting 0 symbol(s), importing 1 local module(s).
+
+## Imports
+
+- imports [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]]
+
+## Exports
+
+- `addCustomCommand`
+- `addCustomTab`
+- `onDevToolsClientConnected`
+- `onDevToolsConnected`
+- `removeCustomCommand`
+- `setupDevToolsPlugin`
+- `setupDevToolsPlugin as setupDevtoolsPlugin`
+
+## Symbols
+
+- `__create` (variable): var __create = Object.create;
+- `__defProp` (variable): var __defProp = Object.defineProperty;
+- `__getOwnPropDesc` (variable): var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+- `__getOwnPropNames` (variable): var __getOwnPropNames = Object.getOwnPropertyNames;
+- `__getProtoOf` (variable): var __getProtoOf = Object.getPrototypeOf;
+- `__hasOwnProp` (variable): var __hasOwnProp = Object.prototype.hasOwnProperty;
+- `__esm` (variable): var __esm = (fn, res) => function __init() { return fn && (res = (0, fn[__getOwnPropNames(fn)[0]])(fn = 0)), res; };
+- `__commonJS` (variable): var __commonJS = (cb, mod) => function __require() { return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports; };
+- `__copyProps` (variable): var __copyProps = (to, from, except, desc) => { if (from && typeof from === "object" || typeof from === "function") { for (let key of __getOwnPropNames(from)) if (!__hasOwnProp....
+- `__toESM` (variable): var __toESM = (mod, isNodeMode, target2) => (target2 = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps( // If the importer is in node compatibility mode or this is n...
+- `init_esm_shims` (variable): var init_esm_shims = __esm({ "../../node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773/n...
+- `require_rfdc` (variable): var require_rfdc = __commonJS({ "../../node_modules/.pnpm/rfdc@1.4.1/node_modules/rfdc/index.js"(exports, module) { "use strict"; init_esm_shims(); module.exports = rfdc2; funct...
+- `isBrowser` (variable): var isBrowser = typeof navigator !== "undefined";
+- `target` (variable): var target = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : typeof global !== "undefined" ? global : {};
+- `isInChromePanel` (variable): var isInChromePanel = typeof target.chrome !== "undefined" && !!target.chrome.devtools;
+- `isInIframe` (variable): var isInIframe = isBrowser && target.self !== target.top;
+- `_a` (variable): var _a;
+- `isInElectron` (variable): var isInElectron = typeof navigator !== "undefined" && ((_a = navigator.userAgent) == null ? void 0 : _a.toLowerCase().includes("electron"));
+- `isNuxtApp` (variable): var isNuxtApp = typeof window !== "undefined" && !!window.__NUXT__;
+- `import_rfdc` (variable): var import_rfdc = __toESM(require_rfdc(), 1);
+- `classifyRE` (variable): var classifyRE = /(?:^|[-_/])(\w)/g;
+- `toUpper` (function): function toUpper(_, c)
+- `classify` (function): function classify(str)
+- `basename` (function): function basename(filename, ext)
+- `HTTP_URL_RE` (variable): var HTTP_URL_RE = /^https?:\/\//;
+- `isUrlString` (function): function isUrlString(str)
+- `deepClone` (variable): var deepClone = (0, import_rfdc.default)({ circles: true });
+- `DEBOUNCE_DEFAULTS` (variable): var DEBOUNCE_DEFAULTS = { trailing: true };
+- `debounce` (function): function debounce(fn, wait = 25, options = {})
+- `_applyPromised` (function): async function _applyPromised(fn, _this, args)
+- `flatHooks` (function): function flatHooks(configHooks, hooks2 = {}, parentName)
+- `defaultTask` (variable): var defaultTask = { run: (function_) => function_() };
+- `_createTask` (variable): var _createTask = () => defaultTask;
+- `createTask` (variable): var createTask = typeof console.createTask !== "undefined" ? console.createTask : _createTask;
+- `serialTaskCaller` (function): function serialTaskCaller(hooks2, args)
+- `parallelTaskCaller` (function): function parallelTaskCaller(hooks2, args)
+- `callEachWith` (function): function callEachWith(callbacks, arg0)
+- `Hookable` (variable): var Hookable = class { constructor() { this._hooks = {}; this._before = void 0; this._after = void 0; this._deprecatedMessages = void 0; this._deprecatedHooks = {}; this.hook = ...
+- `createHooks` (function): function createHooks()
+- `random` (variable): var random = Math.random.bind(Math);
+- `__create2` (variable): var __create2 = Object.create;
+- `__defProp2` (variable): var __defProp2 = Object.defineProperty;
+- `__getOwnPropDesc2` (variable): var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+- `__getOwnPropNames2` (variable): var __getOwnPropNames2 = Object.getOwnPropertyNames;
+- `__getProtoOf2` (variable): var __getProtoOf2 = Object.getPrototypeOf;
+- `__hasOwnProp2` (variable): var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+- `__esm2` (variable): var __esm2 = (fn, res) => function __init() { return fn && (res = (0, fn[__getOwnPropNames2(fn)[0]])(fn = 0)), res; };
+- `__commonJS2` (variable): var __commonJS2 = (cb, mod) => function __require() { return mod || (0, cb[__getOwnPropNames2(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports; };
+- `__copyProps2` (variable): var __copyProps2 = (to, from, except, desc) => { if (from && typeof from === "object" || typeof from === "function") { for (let key of __getOwnPropNames2(from)) if (!__hasOwnPro...
+- `__toESM2` (variable): var __toESM2 = (mod, isNodeMode, target22) => (target22 = mod != null ? __create2(__getProtoOf2(mod)) : {}, __copyProps2( // If the importer is in node compatibility mode or thi...
+- `init_esm_shims2` (variable): var init_esm_shims2 = __esm2({ "../../node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773...
+- `require_speakingurl` (variable): var require_speakingurl = __commonJS2({ "../../node_modules/.pnpm/speakingurl@14.0.1/node_modules/speakingurl/lib/speakingurl.js"(exports, module) { "use strict"; init_esm_shims...
+- `require_speakingurl2` (variable): var require_speakingurl2 = __commonJS2({ "../../node_modules/.pnpm/speakingurl@14.0.1/node_modules/speakingurl/index.js"(exports, module) { "use strict"; init_esm_shims2(); modu...
+- `getComponentTypeName` (function): function getComponentTypeName(options)
+- `getComponentFileName` (function): function getComponentFileName(options)
+- `saveComponentGussedName` (function): function saveComponentGussedName(instance, name)
+- `getAppRecord` (function): function getAppRecord(instance)
+- `isFragment` (function): function isFragment(instance)
+- `getInstanceName` (function): function getInstanceName(instance)
+- `getUniqueComponentId` (function): function getUniqueComponentId(instance)
+- `getComponentInstance` (function): function getComponentInstance(appRecord, instanceId)
+- `createRect` (function): function createRect()
+- `range` (variable): var range;
+- `getTextRect` (function): function getTextRect(node)
+- `getFragmentRect` (function): function getFragmentRect(vnode)
+- `mergeRects` (function): function mergeRects(a, b)
+- `DEFAULT_RECT` (variable): var DEFAULT_RECT = { top: 0, left: 0, right: 0, bottom: 0, width: 0, height: 0 };
+- `getComponentBoundingRect` (function): function getComponentBoundingRect(instance)
+- `getRootElementsFromComponentInstance` (function): function getRootElementsFromComponentInstance(instance)
+- `getFragmentRootElements` (function): function getFragmentRootElements(vnode)
+- `CONTAINER_ELEMENT_ID` (variable): var CONTAINER_ELEMENT_ID = "__vue-devtools-component-inspector__";
+- `CARD_ELEMENT_ID` (variable): var CARD_ELEMENT_ID = "__vue-devtools-component-inspector__card__";
+- `COMPONENT_NAME_ELEMENT_ID` (variable): var COMPONENT_NAME_ELEMENT_ID = "__vue-devtools-component-inspector__name__";
+- `INDICATOR_ELEMENT_ID` (variable): var INDICATOR_ELEMENT_ID = "__vue-devtools-component-inspector__indicator__";
+- `containerStyles` (variable): var containerStyles = { display: "block", zIndex: 2147483640, position: "fixed", backgroundColor: "#42b88325", border: "1px solid #42b88350", borderRadius: "5px", transition: "a...
+- `cardStyles` (variable): var cardStyles = { fontFamily: "Arial, Helvetica, sans-serif", padding: "5px 8px", borderRadius: "4px", textAlign: "left", position: "absolute", left: 0, color: "#e9e9e9", fontS...
+- `indicatorStyles` (variable): var indicatorStyles = { display: "inline-block", fontWeight: 400, fontStyle: "normal", fontSize: "12px", opacity: 0.7 };
+- `getContainerElement` (function): function getContainerElement()
+- `getCardElement` (function): function getCardElement()
+- `getIndicatorElement` (function): function getIndicatorElement()
+- `getNameElement` (function): function getNameElement()
+- `getStyles` (function): function getStyles(bounds)
+- `create` (function): function create(options)
+- `update` (function): function update(options)
+- `highlight` (function): function highlight(instance)
+- `unhighlight` (function): function unhighlight()
+- `inspectInstance` (variable): var inspectInstance = null;
+- `inspectFn` (function): function inspectFn(e)
+- `selectComponentFn` (function): function selectComponentFn(e, cb)
+- `inspectComponentHighLighterSelectFn` (variable): var inspectComponentHighLighterSelectFn = null;
+- `cancelInspectComponentHighLighter` (function): function cancelInspectComponentHighLighter()
+- `inspectComponentHighLighter` (function): function inspectComponentHighLighter()
+- `scrollToComponent` (function): function scrollToComponent(options)
+- `_a2` (variable): var _a2;
+- `_b` (variable): var _b;
+- `waitForInspectorInit` (function): function waitForInspectorInit(cb)
+- `setupInspector` (function): function setupInspector()
+- `getComponentInspector` (function): function getComponentInspector()
+- `isReadonly` (function): function isReadonly(value)
+- `isReactive` (function): function isReactive(value)
+- `isRef` (function): function isRef(r)
+- `toRaw` (function): function toRaw(observed)
+- `Fragment` (variable): var Fragment = Symbol.for("v-fgt");
+- `StateEditor` (variable): var StateEditor = class { constructor() { this.refEditor = new RefStateEditor(); } set(object, path, value, cb) { const sections = Array.isArray(path) ? path : path.split("."); ...
+- `RefStateEditor` (variable): var RefStateEditor = class { set(ref, value) { if (isRef(ref)) { ref.value = value; } else { if (ref instanceof Set && Array.isArray(value)) { ref.clear(); value.forEach((v) => ...
+- `stateEditor` (variable): var stateEditor = new StateEditor();
+- `TIMELINE_LAYERS_STATE_STORAGE_ID` (variable): var TIMELINE_LAYERS_STATE_STORAGE_ID = "__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS_STATE__";
+- `getTimelineLayersStateFromStorage` (function): function getTimelineLayersStateFromStorage()
+- `_a22` (variable): var _a22;
+- `_b2` (variable): var _b2;
+- `devtoolsTimelineLayers` (variable): var devtoolsTimelineLayers = new Proxy(target.__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS, { get(target22, prop, receiver) { return Reflect.get(target22, prop, receiver); } });
+- `addTimelineLayer` (function): function addTimelineLayer(options, descriptor)
+- `_a3` (variable): var _a3;
+- `_b3` (variable): var _b3;
+- `devtoolsInspector` (variable): var devtoolsInspector = new Proxy(target.__VUE_DEVTOOLS_KIT_INSPECTOR__, { get(target22, prop, receiver) { return Reflect.get(target22, prop, receiver); } });
+- `callInspectorUpdatedHook` (variable): var callInspectorUpdatedHook = debounce(() => { devtoolsContext.hooks.callHook("sendInspectorToClient", getActiveInspectors()); });
+- `addInspector` (function): function addInspector(inspector, descriptor)
+- `getActiveInspectors` (function): function getActiveInspectors()
+- `getInspector` (function): function getInspector(id, app)
+- `DevToolsV6PluginAPIHookKeys` (variable): var DevToolsV6PluginAPIHookKeys = ((DevToolsV6PluginAPIHookKeys2) => { DevToolsV6PluginAPIHookKeys2["VISIT_COMPONENT_TREE"] = "visitComponentTree"; DevToolsV6PluginAPIHookKeys2[...
+- `DevToolsContextHookKeys` (variable): var DevToolsContextHookKeys = ((DevToolsContextHookKeys2) => { DevToolsContextHookKeys2["ADD_INSPECTOR"] = "addInspector"; DevToolsContextHookKeys2["SEND_INSPECTOR_TREE"] = "sen...
+- `DevToolsMessagingHookKeys` (variable): var DevToolsMessagingHookKeys = ((DevToolsMessagingHookKeys2) => { DevToolsMessagingHookKeys2["SEND_INSPECTOR_TREE_TO_CLIENT"] = "sendInspectorTreeToClient"; DevToolsMessagingHo...
+- `createDevToolsCtxHooks` (function): function createDevToolsCtxHooks()
+- `_a4` (variable): var _a4;
+- `_b4` (variable): var _b4;
+- `_a5` (variable): var _a5;
+- `_b5` (variable): var _b5;
+- `_a6` (variable): var _a6;
+- `_b6` (variable): var _b6;
+- `_a7` (variable): var _a7;
+- `_b7` (variable): var _b7;
+- `_a8` (variable): var _a8;
+- `_b8` (variable): var _b8;
+- `STATE_KEY` (variable): var STATE_KEY = "__VUE_DEVTOOLS_KIT_GLOBAL_STATE__";
+- `initStateFactory` (function): function initStateFactory()
+- `_a9` (variable): var _a9;
+- `_b9` (variable): var _b9;
+- `callStateUpdatedHook` (variable): var callStateUpdatedHook = debounce((state) => { devtoolsContext.hooks.callHook("devtoolsStateUpdated", { state }); });
+- `callConnectedUpdatedHook` (variable): var callConnectedUpdatedHook = debounce((state, oldState) => { devtoolsContext.hooks.callHook("devtoolsConnectedUpdated", { state, oldState }); });
+- `devtoolsAppRecords` (variable): var devtoolsAppRecords = new Proxy(target.__VUE_DEVTOOLS_KIT_APP_RECORDS__, { get(_target, prop, receiver) { if (prop === "value") return target.__VUE_DEVTOOLS_KIT_APP_RECORDS__...
+- `activeAppRecord` (variable): var activeAppRecord = new Proxy(target.__VUE_DEVTOOLS_KIT_ACTIVE_APP_RECORD__, { get(_target, prop, receiver) { if (prop === "value") return target.__VUE_DEVTOOLS_KIT_ACTIVE_APP...
+- `updateAllStates` (function): function updateAllStates()
+- `setActiveAppRecord` (function): function setActiveAppRecord(app)
+- `setActiveAppRecordId` (function): function setActiveAppRecordId(id)
+- `devtoolsState` (variable): var devtoolsState = new Proxy(target[STATE_KEY], { get(target22, property) { if (property === "appRecords") { return devtoolsAppRecords; } else if (property === "activeAppRecord...
+- `onDevToolsConnected` (function): function onDevToolsConnected(fn)
+- `resolveIcon` (variable): var resolveIcon = (icon) => { if (!icon) return; if (icon.startsWith("baseline-")) { return `custom-ic-${icon}`; } if (icon.startsWith("i-") || isUrlString(icon)) return icon; r...
+- `addCustomTab` (function): function addCustomTab(tab)
+- `addCustomCommand` (function): function addCustomCommand(action)
+- `removeCustomCommand` (function): function removeCustomCommand(actionId)
+- `openInEditor` (function): function openInEditor(options = {})
+- `_a10` (variable): var _a10;
+- `_b10` (variable): var _b10;
+- `devtoolsPluginBuffer` (variable): var devtoolsPluginBuffer = new Proxy(target.__VUE_DEVTOOLS_KIT_PLUGIN_BUFFER__, { get(target22, prop, receiver) { return Reflect.get(target22, prop, receiver); } });
+- `_getSettings` (function): function _getSettings(settings)
+- `getPluginLocalKey` (function): function getPluginLocalKey(pluginId)
+- `getPluginSettingsOptions` (function): function getPluginSettingsOptions(pluginId)
+- `getPluginSettings` (function): function getPluginSettings(pluginId, fallbackValue)
+- `initPluginSettings` (function): function initPluginSettings(pluginId, settings)
+- `setPluginSettings` (function): function setPluginSettings(pluginId, key, value)
+- `_a11` (variable): var _a11;
+- `_b11` (variable): var _b11;
+- `devtoolsHooks` (variable): var devtoolsHooks = (_b11 = (_a11 = target).__VUE_DEVTOOLS_HOOK) != null ? _b11 : _a11.__VUE_DEVTOOLS_HOOK = createHooks();
+- `on` (variable): var on = { vueAppInit(fn) { devtoolsHooks.hook("app:init", fn); }, vueAppUnmount(fn) { devtoolsHooks.hook("app:unmount", fn); }, vueAppConnected(fn) { devtoolsHooks.hook("app:co...
+- `hook` (variable): var hook = { on, setupDevToolsPlugin(pluginDescriptor, setupFn) { return devtoolsHooks.callHook("devtools-plugin:setup", pluginDescriptor, setupFn); } };
+- `DevToolsV6PluginAPI` (variable): var DevToolsV6PluginAPI = class { constructor({ plugin, ctx }) { this.hooks = ctx.hooks; this.plugin = plugin; } get on() { return { // component inspector visitComponentTree: (...
+- `DevToolsPluginAPI` (variable): var DevToolsPluginAPI = DevToolsV6PluginAPI;
+- `UNDEFINED` (variable): var UNDEFINED = "__vue_devtool_undefined__";
+- `INFINITY` (variable): var INFINITY = "__vue_devtool_infinity__";
+- `NEGATIVE_INFINITY` (variable): var NEGATIVE_INFINITY = "__vue_devtool_negative_infinity__";
+- `NAN` (variable): var NAN = "__vue_devtool_nan__";
+- `tokenMap` (variable): var tokenMap = { [UNDEFINED]: "undefined", [NAN]: "NaN", [INFINITY]: "Infinity", [NEGATIVE_INFINITY]: "-Infinity" };
+- `reversedTokenMap` (variable): var reversedTokenMap = Object.entries(tokenMap).reduce((acc, [key, value]) => { acc[value] = key; return acc; }, {});
+- `_a12` (variable): var _a12;
+- `_b12` (variable): var _b12;
+- `setupDevToolsPlugin` (function): function setupDevToolsPlugin(pluginDescriptor, setupFn)
+- `callDevToolsPluginSetupFn` (function): function callDevToolsPluginSetupFn(plugin, app)
+- `registerDevToolsPlugin` (function): function registerDevToolsPlugin(app, options)
+- `ROUTER_KEY` (variable): var ROUTER_KEY = "__VUE_DEVTOOLS_ROUTER__";
+- `ROUTER_INFO_KEY` (variable): var ROUTER_INFO_KEY = "__VUE_DEVTOOLS_ROUTER_INFO__";
+- `_a13` (variable): var _a13;
+- `_b13` (variable): var _b13;
+- `_a14` (variable): var _a14;
+- `_b14` (variable): var _b14;
+- `devtoolsRouterInfo` (variable): var devtoolsRouterInfo = new Proxy(target[ROUTER_INFO_KEY], { get(target22, property) { return target[ROUTER_INFO_KEY][property]; } });
+- `devtoolsRouter` (variable): var devtoolsRouter = new Proxy(target[ROUTER_KEY], { get(target22, property) { if (property === "value") { return target[ROUTER_KEY]; } } });
+- `getRoutes` (function): function getRoutes(router)
+- `filterRoutes` (function): function filterRoutes(routes)
+- `filterCurrentRoute` (function): function filterCurrentRoute(route)
+- `normalizeRouterInfo` (function): function normalizeRouterInfo(appRecord, activeAppRecord2)
+- `createDevToolsApi` (function): function createDevToolsApi(hooks2)
+- `_a15` (variable): var _a15;
+- `_b15` (variable): var _b15;
+- `hooks` (variable): var hooks = createDevToolsCtxHooks();
+- `_a16` (variable): var _a16;
+- `_b16` (variable): var _b16;
+- `devtoolsContext` (variable): var devtoolsContext = target.__VUE_DEVTOOLS_KIT_CONTEXT__;
+- `import_speakingurl` (variable): var import_speakingurl = __toESM2(require_speakingurl2(), 1);
+- `_a17` (variable): var _a17;
+- `_b17` (variable): var _b17;
+- `appRecordInfo` (variable): var appRecordInfo = (_b17 = (_a17 = target).__VUE_DEVTOOLS_NEXT_APP_RECORD_INFO__) != null ? _b17 : _a17.__VUE_DEVTOOLS_NEXT_APP_RECORD_INFO__ = { id: 0, appIds: /* @__PURE__ */...
+- `onDevToolsClientConnected` (function): function onDevToolsClientConnected(fn)
+- `toggleHighPerfMode` (function): function toggleHighPerfMode(state)
+- `updateDevToolsClientDetected` (function): function updateDevToolsClientDetected(params)
+- `_a18` (variable): var _a18;
+- `_b18` (variable): var _b18;
+- `DoubleIndexedKV` (variable): var DoubleIndexedKV = class { constructor() { this.keyToValue = /* @__PURE__ */ new Map(); this.valueToKey = /* @__PURE__ */ new Map(); } set(key, value) { this.keyToValue.set(k...
+- `Registry` (variable): var Registry = class { constructor(generateIdentifier) { this.generateIdentifier = generateIdentifier; this.kv = new DoubleIndexedKV(); } register(value, identifier) { if (this....
+- `ClassRegistry` (variable): var ClassRegistry = class extends Registry { constructor() { super((c) => c.name); this.classToAllowedProps = /* @__PURE__ */ new Map(); } register(value, options) { if (typeof ...
+- `valuesOfObj` (function): function valuesOfObj(record)
+- `find` (function): function find(record, predicate)
+- `forEach` (function): function forEach(record, run)
+- `includes` (function): function includes(arr, value)
+- `findArr` (function): function findArr(record, predicate)
+- `CustomTransformerRegistry` (variable): var CustomTransformerRegistry = class { constructor() { this.transfomers = {}; } register(transformer) { this.transfomers[transformer.name] = transformer; } findApplicable(v) { ...
+- `getType` (variable): var getType = (payload) => Object.prototype.toString.call(payload).slice(8, -1);
+- `isUndefined` (variable): var isUndefined = (payload) => typeof payload === "undefined";
+- `isNull` (variable): var isNull = (payload) => payload === null;
+- `isPlainObject2` (variable): var isPlainObject2 = (payload) => { if (typeof payload !== "object" || payload === null) return false; if (payload === Object.prototype) return false; if (Object.getPrototypeOf(...
+- `isEmptyObject` (variable): var isEmptyObject = (payload) => isPlainObject2(payload) && Object.keys(payload).length === 0;
+- `isArray` (variable): var isArray = (payload) => Array.isArray(payload);
+- `isString` (variable): var isString = (payload) => typeof payload === "string";
+- `isNumber` (variable): var isNumber = (payload) => typeof payload === "number" && !isNaN(payload);
+- `isBoolean` (variable): var isBoolean = (payload) => typeof payload === "boolean";
+- `isRegExp` (variable): var isRegExp = (payload) => payload instanceof RegExp;
+- `isMap` (variable): var isMap = (payload) => payload instanceof Map;
+- `isSet` (variable): var isSet = (payload) => payload instanceof Set;
+- `isSymbol` (variable): var isSymbol = (payload) => getType(payload) === "Symbol";
+- `isDate` (variable): var isDate = (payload) => payload instanceof Date && !isNaN(payload.valueOf());
+- `isError` (variable): var isError = (payload) => payload instanceof Error;
+- `isNaNValue` (variable): var isNaNValue = (payload) => typeof payload === "number" && isNaN(payload);
+- `isPrimitive2` (variable): var isPrimitive2 = (payload) => isBoolean(payload) || isNull(payload) || isUndefined(payload) || isNumber(payload) || isString(payload) || isSymbol(payload);
+- `isBigint` (variable): var isBigint = (payload) => typeof payload === "bigint";
+- `isInfinite` (variable): var isInfinite = (payload) => payload === Infinity || payload === -Infinity;
+- `isTypedArray` (variable): var isTypedArray = (payload) => ArrayBuffer.isView(payload) && !(payload instanceof DataView);
+- `isURL` (variable): var isURL = (payload) => payload instanceof URL;
+- `escapeKey` (variable): var escapeKey = (key) => key.replace(/\./g, "\\.");
+- `stringifyPath` (variable): var stringifyPath = (path) => path.map(String).map(escapeKey).join(".");
+- `parsePath` (variable): var parsePath = (string) => { const result = []; let segment = ""; for (let i = 0; i < string.length; i++) { let char = string.charAt(i); const isEscapedDot = char === "\\" && s...
+- `simpleTransformation` (function): function simpleTransformation(isApplicable, annotation, transform, untransform)
+- `simpleRules` (variable): var simpleRules = [ simpleTransformation(isUndefined, "undefined", () => null, () => void 0), simpleTransformation(isBigint, "bigint", (v) => v.toString(), (v) => { if (typeof B...
+- `compositeTransformation` (function): function compositeTransformation(isApplicable, annotation, transform, untransform)
+- `symbolRule` (variable): var symbolRule = compositeTransformation((s, superJson) => { if (isSymbol(s)) { const isRegistered = !!superJson.symbolRegistry.getIdentifier(s); return isRegistered; } return f...
+- `constructorToName` (variable): var constructorToName = [ Int8Array, Uint8Array, Int16Array, Uint16Array, Int32Array, Uint32Array, Float32Array, Float64Array, Uint8ClampedArray ].reduce((obj, ctor) => { obj[ct...
+- `typedArrayRule` (variable): var typedArrayRule = compositeTransformation(isTypedArray, (v) => ["typed-array", v.constructor.name], (v) => [...v], (v, a) => { const ctor = constructorToName[a[1]]; if (!ctor...
+- `isInstanceOfRegisteredClass` (function): function isInstanceOfRegisteredClass(potentialClass, superJson)
+- `classRule` (variable): var classRule = compositeTransformation(isInstanceOfRegisteredClass, (clazz, superJson) => { const identifier = superJson.classRegistry.getIdentifier(clazz.constructor); return ...
+- `customRule` (variable): var customRule = compositeTransformation((value, superJson) => { return !!superJson.customTransformerRegistry.findApplicable(value); }, (value, superJson) => { const transformer...
+- `compositeRules` (variable): var compositeRules = [classRule, symbolRule, customRule, typedArrayRule];
+- `transformValue` (variable): var transformValue = (value, superJson) => { const applicableCompositeRule = findArr(compositeRules, (rule) => rule.isApplicable(value, superJson)); if (applicableCompositeRule)...
+- `simpleRulesByAnnotation` (variable): var simpleRulesByAnnotation = {};
+- `untransformValue` (variable): var untransformValue = (json, type, superJson) => { if (isArray(type)) { switch (type[0]) { case "symbol": return symbolRule.untransform(json, type, superJson); case "class": re...
+- `getNthKey` (variable): var getNthKey = (value, n) => { if (n > value.size) throw new Error("index out of bounds"); const keys = value.keys(); while (n > 0) { keys.next(); n--; } return keys.next().val...
+- `validatePath` (function): function validatePath(path)
+- `getDeep` (variable): var getDeep = (object, path) => { validatePath(path); for (let i = 0; i < path.length; i++) { const key = path[i]; if (isSet(object)) { object = getNthKey(object, +key); } else ...
+- `setDeep` (variable): var setDeep = (object, path, mapper) => { validatePath(path); if (path.length === 0) { return mapper(object); } let parent = object; for (let i = 0; i < path.length - 1; i++) { ...
+- `traverse` (function): function traverse(tree, walker2, origin = [])
+- `applyValueAnnotations` (function): function applyValueAnnotations(plain, annotations, superJson)
+- `applyReferentialEqualityAnnotations` (function): function applyReferentialEqualityAnnotations(plain, annotations)
+- `isDeep` (variable): var isDeep = (object, superJson) => isPlainObject2(object) || isArray(object) || isMap(object) || isSet(object) || isInstanceOfRegisteredClass(object, superJson);
+- `addIdentity` (function): function addIdentity(object, path, identities)
+- `generateReferentialEqualityAnnotations` (function): function generateReferentialEqualityAnnotations(identitites, dedupe)
+- `walker` (variable): var walker = (object, identities, superJson, dedupe, path = [], objectsInThisPath = [], seenObjects = /* @__PURE__ */ new Map()) => { var _a25; const primitive = isPrimitive2(ob...
+- `getType2` (function): function getType2(payload)
+- `isArray2` (function): function isArray2(payload)
+- `isPlainObject3` (function): function isPlainObject3(payload)
+- `isNull2` (function): function isNull2(payload)
+- `isOneOf` (function): function isOneOf(a, b, c, d, e)
+- `isUndefined2` (function): function isUndefined2(payload)
+- `isNullOrUndefined` (variable): var isNullOrUndefined = isOneOf(isNull2, isUndefined2);
+- `assignProp` (function): function assignProp(carry, key, newVal, originalObject, includeNonenumerable)
+- `copy` (function): function copy(target22, options = {})
+- `SuperJSON` (variable): var SuperJSON = class { /** * @param dedupeReferentialEqualities If true, SuperJSON will make sure only one instance of referentially equal objects are serialized and the rest a...
+- `serialize` (variable): var serialize = SuperJSON.serialize;
+- `deserialize` (variable): var deserialize = SuperJSON.deserialize;
+- `stringify` (variable): var stringify = SuperJSON.stringify;
+- `parse` (variable): var parse = SuperJSON.parse;
+- `registerClass` (variable): var registerClass = SuperJSON.registerClass;
+- `registerCustom` (variable): var registerCustom = SuperJSON.registerCustom;
+- `registerSymbol` (variable): var registerSymbol = SuperJSON.registerSymbol;
+- `allowErrorProps` (variable): var allowErrorProps = SuperJSON.allowErrorProps;
+- `_a19` (variable): var _a19;
+- `_b19` (variable): var _b19;
+- `_a20` (variable): var _a20;
+- `_b20` (variable): var _b20;
+- `_a21` (variable): var _a21;
+- `_b21` (variable): var _b21;
+- `_a222` (variable): var _a222;
+- `_b22` (variable): var _b22;
+- `_a23` (variable): var _a23;
+- `_b23` (variable): var _b23;
+- `_a24` (variable): var _a24;
+- `_b24` (variable): var _b24;
+- `MAX_SERIALIZED_SIZE` (variable): var MAX_SERIALIZED_SIZE = 2 * 1024 * 1024;
+
+## External Dependencies
+
+- No external dependencies detected.
+
+## Unresolved Local References
+
+- No unresolved local references detected.
+
+## Inheritance
+
+- No inheritance relationships detected.
+
+## Calls
+
+- `__esm` calls `__getOwnPropNames`
+- `__commonJS` calls `__getOwnPropNames`
+- `__copyProps` calls `__getOwnPropNames`
+- `__copyProps` calls `__defProp`
+- `__copyProps` calls `__getOwnPropDesc`
+- `__toESM` calls `__create`
+- `__toESM` calls `__getProtoOf`
+- `__toESM` calls `__copyProps`
+- `__toESM` calls `__defProp`
+- `init_esm_shims` calls `__esm`
+- `require_rfdc` calls `__commonJS`
+- `require_rfdc` calls `init_esm_shims`
+- `import_rfdc` calls `__toESM`
+- `import_rfdc` calls `require_rfdc`
+- `debounce` calls `_applyPromised`
+- `serialTaskCaller` calls `createTask`
+- `parallelTaskCaller` calls `createTask`
+- `Hookable` calls `flatHooks`
+- `Hookable` calls `callEachWith`
+- `__esm2` calls `__getOwnPropNames2`
+- `__commonJS2` calls `__getOwnPropNames2`
+- `__copyProps2` calls `__getOwnPropNames2`
+- `__copyProps2` calls `__defProp2`
+- `__copyProps2` calls `__getOwnPropDesc2`
+- `__toESM2` calls `__create2`
+- `__toESM2` calls `__getProtoOf2`
+- `__toESM2` calls `__copyProps2`
+- `__toESM2` calls `__defProp2`
+- `init_esm_shims2` calls `__esm2`
+- `require_speakingurl` calls `__commonJS2`
+- `require_speakingurl` calls `init_esm_shims2`
+- `require_speakingurl2` calls `__commonJS2`
+- `require_speakingurl2` calls `init_esm_shims2`
+- `require_speakingurl2` calls `require_speakingurl`
+- `getComponentFileName` calls `classify`
+- `getComponentFileName` calls `basename`
+- `isFragment` calls `getAppRecord`
+- `getInstanceName` calls `getComponentTypeName`
+- `getInstanceName` calls `saveComponentGussedName`
+- `getInstanceName` calls `getComponentFileName`
+- `getFragmentRect` calls `createRect`
+- `getFragmentRect` calls `getComponentBoundingRect`
+- `getFragmentRect` calls `getTextRect`
+- `getFragmentRect` calls `mergeRects`
+- `getComponentBoundingRect` calls `isFragment`
+- `getComponentBoundingRect` calls `getFragmentRect`
+- `getRootElementsFromComponentInstance` calls `isFragment`
+- `getRootElementsFromComponentInstance` calls `getFragmentRootElements`
+- `getFragmentRootElements` calls `getRootElementsFromComponentInstance`
+- `create` calls `getStyles`
+- `update` calls `getContainerElement`
+- `update` calls `getCardElement`
+- `update` calls `getNameElement`
+- `update` calls `getIndicatorElement`
+- `update` calls `getStyles`
+- `highlight` calls `getComponentBoundingRect`
+- `highlight` calls `getInstanceName`
+- `highlight` calls `getContainerElement`
+- `highlight` calls `update`
+- `highlight` calls `create`
+- `unhighlight` calls `getContainerElement`
+- `inspectFn` calls `getComponentBoundingRect`
+- `inspectFn` calls `getInstanceName`
+- `inspectFn` calls `getContainerElement`
+- `inspectFn` calls `update`
+- `inspectFn` calls `create`
+- `selectComponentFn` calls `getUniqueComponentId`
+- `cancelInspectComponentHighLighter` calls `unhighlight`
+- `inspectComponentHighLighter` calls `selectComponentFn`
+- `inspectComponentHighLighter` calls `getContainerElement`
+- `scrollToComponent` calls `getComponentInstance`
+- `scrollToComponent` calls `getRootElementsFromComponentInstance`
+- `scrollToComponent` calls `getComponentBoundingRect`
+- `scrollToComponent` calls `getStyles`
+- `scrollToComponent` calls `getInstanceName`
+- `scrollToComponent` calls `getContainerElement`
+- `scrollToComponent` calls `update`
+- `scrollToComponent` calls `create`
+- `getComponentInspector` calls `setupInspector`
+- `getComponentInspector` calls `waitForInspectorInit`
+- `isReactive` calls `isReadonly`
+- `StateEditor` calls `toRaw`
+- `RefStateEditor` calls `isRef`
+- `RefStateEditor` calls `isReactive`
+- `addTimelineLayer` calls `getAppRecord`
+- `callInspectorUpdatedHook` calls `debounce`
+- `callInspectorUpdatedHook` calls `getActiveInspectors`
+- `addInspector` calls `getAppRecord`
+- `addInspector` calls `callInspectorUpdatedHook`
+- `createDevToolsCtxHooks` calls `createHooks`
+- `createDevToolsCtxHooks` calls `addInspector`
+- `createDevToolsCtxHooks` calls `debounce`
+- `createDevToolsCtxHooks` calls `getInspector`
+- `createDevToolsCtxHooks` calls `addTimelineLayer`
+- `createDevToolsCtxHooks` calls `getComponentBoundingRect`
+- `createDevToolsCtxHooks` calls `getInstanceName`
+- `createDevToolsCtxHooks` calls `highlight`
+- `createDevToolsCtxHooks` calls `unhighlight`
+- `initStateFactory` calls `getTimelineLayersStateFromStorage`
+- `callStateUpdatedHook` calls `debounce`
+- `callConnectedUpdatedHook` calls `debounce`
+- `updateAllStates` calls `callStateUpdatedHook`
+- `setActiveAppRecord` calls `updateAllStates`
+- `setActiveAppRecordId` calls `updateAllStates`
+- `resolveIcon` calls `isUrlString`
+- `addCustomTab` calls `resolveIcon`
+- `addCustomTab` calls `updateAllStates`
+- `addCustomCommand` calls `resolveIcon`
+- `addCustomCommand` calls `updateAllStates`
+- `removeCustomCommand` calls `updateAllStates`
+- `getPluginSettings` calls `getPluginLocalKey`
+- `getPluginSettings` calls `_getSettings`
+- `initPluginSettings` calls `getPluginLocalKey`
+- `initPluginSettings` calls `_getSettings`
+- `setPluginSettings` calls `getPluginLocalKey`
+- `devtoolsHooks` calls `createHooks`
+- `DevToolsV6PluginAPI` calls `getActiveInspectors`
+- `DevToolsV6PluginAPI` calls `initPluginSettings`
+- `DevToolsV6PluginAPI` calls `getPluginSettings`
+- `registerDevToolsPlugin` calls `callDevToolsPluginSetupFn`
+- `filterCurrentRoute` calls `filterRoutes`
+- `normalizeRouterInfo` calls `filterCurrentRoute`
+- `normalizeRouterInfo` calls `filterRoutes`
+- `normalizeRouterInfo` calls `getRoutes`
+- `normalizeRouterInfo` calls `deepClone`
+- `normalizeRouterInfo` calls `debounce`
+- `createDevToolsApi` calls `getInspector`
+- `createDevToolsApi` calls `inspectComponentHighLighter`
+- `createDevToolsApi` calls `cancelInspectComponentHighLighter`
+- `createDevToolsApi` calls `getComponentInstance`
+- `createDevToolsApi` calls `scrollToComponent`
+- `createDevToolsApi` calls `setActiveAppRecordId`
+- `createDevToolsApi` calls `setActiveAppRecord`
+- `createDevToolsApi` calls `normalizeRouterInfo`
+- `createDevToolsApi` calls `callInspectorUpdatedHook`
+- `createDevToolsApi` calls `registerDevToolsPlugin`
+- `createDevToolsApi` calls `getRootElementsFromComponentInstance`
+- `createDevToolsApi` calls `setPluginSettings`
+- `createDevToolsApi` calls `getPluginSettingsOptions`
+- `createDevToolsApi` calls `getPluginSettings`
+- `hooks` calls `createDevToolsCtxHooks`
+- `import_speakingurl` calls `__toESM2`
+- `import_speakingurl` calls `require_speakingurl2`
+- `toggleHighPerfMode` calls `registerDevToolsPlugin`
+- `updateDevToolsClientDetected` calls `toggleHighPerfMode`
+- `find` calls `valuesOfObj`
+- `CustomTransformerRegistry` calls `find`
+- `isEmptyObject` calls `isPlainObject2`
+- `isSymbol` calls `getType`
+- `isPrimitive2` calls `isBoolean`
+- `isPrimitive2` calls `isNull`
+- `isPrimitive2` calls `isUndefined`
+- `isPrimitive2` calls `isNumber`
+- `isPrimitive2` calls `isString`
+- `isPrimitive2` calls `isSymbol`
+- `simpleRules` calls `simpleTransformation`
+- `simpleRules` calls `isNaNValue`
+- `simpleRules` calls `isInfinite`
+- `symbolRule` calls `compositeTransformation`
+- `symbolRule` calls `isSymbol`
+- `typedArrayRule` calls `compositeTransformation`
+- `classRule` calls `compositeTransformation`
+- `customRule` calls `compositeTransformation`
+- `transformValue` calls `findArr`
+- `untransformValue` calls `isArray`
+- `validatePath` calls `includes`
+- `getDeep` calls `validatePath`
+- `getDeep` calls `isSet`
+- `getDeep` calls `getNthKey`
+- `getDeep` calls `isMap`
+- `setDeep` calls `validatePath`
+- `setDeep` calls `isArray`
+- `setDeep` calls `isPlainObject2`
+- `setDeep` calls `isSet`
+- `setDeep` calls `getNthKey`
+- `setDeep` calls `isMap`
+- `traverse` calls `isArray`
+- `traverse` calls `forEach`
+- `traverse` calls `parsePath`
+- `applyValueAnnotations` calls `traverse`
+- `applyValueAnnotations` calls `setDeep`
+- `applyValueAnnotations` calls `untransformValue`
+- `applyReferentialEqualityAnnotations` calls `getDeep`
+- `applyReferentialEqualityAnnotations` calls `parsePath`
+- `applyReferentialEqualityAnnotations` calls `setDeep`
+- `applyReferentialEqualityAnnotations` calls `isArray`
+- `applyReferentialEqualityAnnotations` calls `forEach`
+- `isDeep` calls `isPlainObject2`
+- `isDeep` calls `isArray`
+- `isDeep` calls `isMap`
+- `isDeep` calls `isSet`
+- `isDeep` calls `isInstanceOfRegisteredClass`
+- `generateReferentialEqualityAnnotations` calls `stringifyPath`
+- `generateReferentialEqualityAnnotations` calls `isEmptyObject`
+- `walker` calls `isPrimitive2`
+- `walker` calls `addIdentity`
+- `walker` calls `isDeep`
+- `walker` calls `transformValue`
+- `walker` calls `includes`
+- `walker` calls `isArray`
+- `walker` calls `forEach`
+- `walker` calls `isPlainObject2`
+- `walker` calls `escapeKey`
+- `walker` calls `isEmptyObject`
+- `isArray2` calls `getType2`
+- `isPlainObject3` calls `getType2`
+- `isNull2` calls `getType2`
+- `isUndefined2` calls `getType2`
+- `isNullOrUndefined` calls `isOneOf`
+- `copy` calls `isArray2`
+- `copy` calls `isPlainObject3`
+- `copy` calls `assignProp`
+- `SuperJSON` calls `walker`
+- `SuperJSON` calls `generateReferentialEqualityAnnotations`
+- `SuperJSON` calls `copy`
+- `SuperJSON` calls `applyValueAnnotations`
+- `SuperJSON` calls `applyReferentialEqualityAnnotations`
+
+## Diagnostics
+
+- No parser diagnostics.
+
+## Related Outputs
+
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
+

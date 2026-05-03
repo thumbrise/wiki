@@ -22,7 +22,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.837Z'
-updated_at: '2026-05-03T04:02:08.744Z'
+updated_at: '2026-05-03T05:32:23.288Z'
 compiled_from:
   - thumbrise-open-source-go-tooling-logo-2edf0302
 managed_by: system

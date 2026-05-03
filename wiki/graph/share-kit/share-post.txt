@@ -1,4 +1,4 @@
-I scanned wiki with SwarmVault: 107 sources -> 636 wiki pages, 761 graph nodes, 1972 edges.
-Top hubs: that, Op, and We.
-Most surprising link: #1 — Why semantically_similar_to Review Guidelines.
+I scanned wiki with SwarmVault: 361 sources -> 1466 wiki pages, 4156 graph nodes, 16156 edges.
+Top hubs: cytoscape module, _arrayLikeToArray, and _arrayWithHoles.
+Most surprising link: cytoscape module imports chunk-BUSYA2B4 module.
 Everything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo

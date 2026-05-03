@@ -9,116 +9,2561 @@ tags:
   - graph
   - report
 source_ids: &ref_1
-  - 1-why-5b9657bb
-  - 12-the-conference-cc7a4771
-  - 13-convergent-evolution-42fa3b44
-  - 15-the-coexistence-22bc8664
-  - 16-the-founder-s-dream-7178fd75
-  - 17-the-gallium-28cb4937
-  - 24-the-trial-ad8162d4
-  - 25-the-manifesto-ebee95e5
-  - 26-the-compilers-528e2d40
-  - 29-the-anthill-organizes-21255101
-  - 31-the-hamster-leaves-the-wheel-8bb31c69
-  - 32-the-verdict-3837cfdb
-  - 33-the-amplifier-e4125d9b
-  - 3d-pub-bar-role-game-the-krabby-patty-3de2f4ab
-  - 3e-pub-bar-role-game-runtime-autopsy-e1b81c09
-  - 3g-pub-bar-role-game-deepseek-s-letter-4b07f74b
-  - 3h-pub-bar-role-game-the-epilogue-69d8acdc
-  - 9-the-operation-comes-first-f6c6890b
-  - devlog-a4b51b88
-  - fifteen-times-the-same-idea-4245d970
-  - license-c71d239d
-  - review-guidelines-0fa832f7
-  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
-  - to-build-the-future-look-at-the-past-5557730d
-  - 2-research-trail-834ba4c9
-  - 20-the-playground-353dd7fb
-  - 22-the-dream-layer-d04b39b6
-  - 27-build-link-runtime-2e7dc35f
-  - 28-dobby-is-free-6542412c
-  - 30-the-first-stranger-502ca504
-  - 3a-pub-bar-role-game-discoveries-6494703c
-  - universal-first-vendors-not-a-standard-library-f05eb450
-  - 21-the-atoms-speak-72df059e
-  - 23-the-vacant-cell-4774271c
-  - the-contract-that-wouldn-t-break-fa2e5b4e
-  - three-atoms-28e52786
-  - 19-the-missing-format-37a6499f
-  - >-
-    github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
-  - op-a39d2486
-  - the-problems-13af562d
-  - instruction-v1-e3a3cb1e
-  - playground-cd3a86d7
-  - release-template-d81408df
-  - commitlintrc-bd2072fb
-  - composer-c80b8ea8
-  - dependabot-auto-merge-a7978ddf
-  - dependabot-b88a7add
-  - docs-16563f41
-  - dogshop-eb60bfe2
-  - dogshop-invalid-253ae2d9
-  - golangci-c8766e4f
-  - goreleaser-3530be9e
-  - licenserc-5791d62b
-  - release-33611003
-  - taskfile-83d1d929
-  - 3b-pub-bar-role-game-the-bar-reopens-3094a23e
-  - 3c-pub-bar-role-game-smithy-walks-in-67e90c4b
-  - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
-  - auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79
-  - go-c7d8e97e
-  - thumbrise-open-source-go-tooling-logo-2edf0302
-  - universal-roadmap-8fa1b496
-  - 18-the-fourth-rail-f496db69
+  - cytoscape-a8c97378
+  - chunk-busya2b4-a9582e69
+  - chunk-7oikw5wk-a144e02d
+  - vitepress-vueuse-core-992426fa
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - jsonc-parser-d0f45765
+  - vitepress-vue-devtools-api-d989dc21
+  - vue-837e3e32
+  - ajv-dist-2020-js-627114a2
+  - dayjs-js-a6ae3be3
+  - 003e-pub-bar-role-game-acb5f783
+  - 021-all-programs-are-equal-eeeedf20
+  - ajv-dist-2020-951a2569
+  - playground-a130e091
   - playground-e45a65a6
-  - jsoneditor-7d7aec64
-  - scitooltip-2260fcf0
-  - jsonvalidation-f62dc3f7
-  - termeditor-e3bdad59
-  - termviz-37c301d3
-  - demooperations-e845b3b1
 project_ids: []
 node_ids: &ref_0
-  - 'concept:that'
-  - 'entity:op'
-  - 'entity:we'
-  - 'concept:every'
-  - 'concept:operation'
-  - 'concept:what'
-  - 'concept:this'
-  - 'concept:does'
-  - 'entity:format'
-  - 'entity:top'
-  - 'entity:size'
-  - 'entity:nested'
-  - 'entity:schema'
-  - 'entity:preview'
-  - 'concept:model'
-  - 'entity:go'
-  - 'concept:http'
-  - 'concept:from'
-  - 'concept:because'
-  - 'concept:kind'
-  - 'concept:instructions'
-  - 'entity:what'
-  - 'source:the-operations-protocol-formalizing-the-missing-foundation-ff73b385'
-  - 'source:1-why-5b9657bb'
-  - 'source:review-guidelines-0fa832f7'
-  - 'source:13-convergent-evolution-42fa3b44'
-  - 'source:instruction-v1-e3a3cb1e'
-  - 'source:dependabot-auto-merge-a7978ddf'
-  - 'source:docs-16563f41'
-  - 'source:composer-c80b8ea8'
-  - 'source:dogshop-invalid-253ae2d9'
-  - 'source:21-the-atoms-speak-72df059e'
-  - 'source:dogshop-eb60bfe2'
-  - 'source:taskfile-83d1d929'
-  - 'source:golangci-c8766e4f'
-  - 'source:25-the-manifesto-ebee95e5'
-  - 'source:to-build-the-future-look-at-the-past-5557730d'
+  - 'module:cytoscape-a8c97378'
+  - 'symbol:cytoscape-a8c97378:arrayliketoarray.function'
+  - 'symbol:cytoscape-a8c97378:arraywithholes.function'
+  - 'symbol:cytoscape-a8c97378:arraywithoutholes.function'
+  - 'symbol:cytoscape-a8c97378:classcallcheck.function'
+  - 'symbol:cytoscape-a8c97378:defineproperties.function'
+  - 'symbol:cytoscape-a8c97378:createclass.function'
+  - 'symbol:cytoscape-a8c97378:createforofiteratorhelper.function'
+  - 'symbol:cytoscape-a8c97378:defineproperty-1.function'
+  - 'symbol:cytoscape-a8c97378:iterabletoarray.function'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'module:chunk-7oikw5wk-a144e02d'
+  - 'module:vitepress-vueuse-core-992426fa'
+  - 'source:001-what-is-an-operation-640ebffc'
+  - 'source:001-why-b2ba350d'
+  - 'source:002-research-trail-442db2ba'
+  - 'source:002-spiral-3cf9daa0'
+  - 'source:002-the-handshake-1380fe94'
+  - 'module:jsonc-parser-d0f45765'
+  - 'module:vitepress-vue-devtools-api-d989dc21'
+  - 'module:vue-837e3e32'
+  - 'source:ajv-dist-2020-js-627114a2'
+  - 'source:dayjs-js-a6ae3be3'
+  - 'source:003e-pub-bar-role-game-acb5f783'
+  - 'source:021-all-programs-are-equal-eeeedf20'
+  - 'symbol:cytoscape-a8c97378:absdiff.variable'
+  - 'symbol:cytoscape-a8c97378:addabsdiff.variable'
+  - 'symbol:cytoscape-a8c97378:addchildren.function'
+  - 'symbol:cytoscape-a8c97378:addloops.variable'
+  - 'symbol:cytoscape-a8c97378:addparent.function'
+  - 'symbol:cytoscape-a8c97378:addparentandchildren.function'
+  - 'symbol:cytoscape-a8c97378:addsquareddiff.variable'
+  - 'symbol:cytoscape-a8c97378:affinitypropagation-1.variable'
+  - 'symbol:cytoscape-a8c97378:affinitypropagation.variable'
+  - 'symbol:cytoscape-a8c97378:angle.variable'
+  - 'symbol:cytoscape-a8c97378:anifn.variable'
+  - 'symbol:cytoscape-a8c97378:animation.variable'
+  - 'symbol:cytoscape-a8c97378:api.variable'
+  - 'symbol:cytoscape-a8c97378:argselector-1.variable'
+  - 'symbol:cytoscape-a8c97378:argselector2.variable'
+  - 'symbol:cytoscape-a8c97378:array-type.variable'
+  - 'symbol:cytoscape-a8c97378:array.variable'
+  - 'symbol:cytoscape-a8c97378:array2point.variable'
+  - 'symbol:cytoscape-a8c97378:arrayequal.function'
+  - 'symbol:cytoscape-a8c97378:arraymap.variable'
+  - 'symbol:cytoscape-a8c97378:ascending.variable'
+  - 'symbol:cytoscape-a8c97378:assign-1.variable'
+  - 'symbol:cytoscape-a8c97378:assign-2.variable'
+  - 'symbol:cytoscape-a8c97378:assign3.variable'
+  - 'symbol:cytoscape-a8c97378:assignboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:assignclusters.variable'
+  - 'symbol:cytoscape-a8c97378:assignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:associndexof.variable'
+  - 'symbol:cytoscape-a8c97378:astardefaults.variable'
+  - 'symbol:cytoscape-a8c97378:asvec.variable'
+  - 'symbol:cytoscape-a8c97378:atlas.variable'
+  - 'symbol:cytoscape-a8c97378:atlasbatchmanager.variable'
+  - 'symbol:cytoscape-a8c97378:atlascollection.variable'
+  - 'symbol:cytoscape-a8c97378:atlasmanager.variable'
+  - 'symbol:cytoscape-a8c97378:avoid-impossible-bezier-constant-l.variable'
+  - 'symbol:cytoscape-a8c97378:avoid-impossible-bezier-constant.variable'
+  - 'symbol:cytoscape-a8c97378:b64toblob.function'
+  - 'symbol:cytoscape-a8c97378:b64uritob64.function'
+  - 'symbol:cytoscape-a8c97378:baseassignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:baseget.variable'
+  - 'symbol:cytoscape-a8c97378:basegettag.variable'
+  - 'symbol:cytoscape-a8c97378:baseisnative.variable'
+  - 'symbol:cytoscape-a8c97378:baserenderer.variable'
+  - 'symbol:cytoscape-a8c97378:baseset.variable'
+  - 'symbol:cytoscape-a8c97378:basetostring.variable'
+  - 'symbol:cytoscape-a8c97378:basetrim.variable'
+  - 'symbol:cytoscape-a8c97378:beforepositionset.variable'
+  - 'symbol:cytoscape-a8c97378:beforerendercallbacks.variable'
+  - 'symbol:cytoscape-a8c97378:bellmanforddefaults.variable'
+  - 'symbol:cytoscape-a8c97378:bezierangle.variable'
+  - 'symbol:cytoscape-a8c97378:bezierptstoquadcoeff.variable'
+  - 'symbol:cytoscape-a8c97378:boolcmp.variable'
+  - 'symbol:cytoscape-a8c97378:bottom-round-rectangle.variable'
+  - 'symbol:cytoscape-a8c97378:bound.variable'
+  - 'symbol:cytoscape-a8c97378:boundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:boundingboxesintersect.variable'
+  - 'symbol:cytoscape-a8c97378:boundingboximpl.variable'
+  - 'symbol:cytoscape-a8c97378:boundingboxinboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:bounds.variable'
+  - 'symbol:cytoscape-a8c97378:br.variable'
+  - 'symbol:cytoscape-a8c97378:breadthfirstlayout.function'
+  - 'symbol:cytoscape-a8c97378:brp-1.variable'
+  - 'symbol:cytoscape-a8c97378:brp-2.variable'
+  - 'symbol:cytoscape-a8c97378:brp-3.variable'
+  - 'symbol:cytoscape-a8c97378:brp-4.variable'
+  - 'symbol:cytoscape-a8c97378:brp-5.variable'
+  - 'symbol:cytoscape-a8c97378:brp-6.variable'
+  - 'symbol:cytoscape-a8c97378:brp-7.variable'
+  - 'symbol:cytoscape-a8c97378:brp-8.variable'
+  - 'symbol:cytoscape-a8c97378:brp-9.variable'
+  - 'symbol:cytoscape-a8c97378:brp-a.variable'
+  - 'symbol:cytoscape-a8c97378:brp-b.variable'
+  - 'symbol:cytoscape-a8c97378:brp-c.variable'
+  - 'symbol:cytoscape-a8c97378:brp-d.variable'
+  - 'symbol:cytoscape-a8c97378:brp-e.variable'
+  - 'symbol:cytoscape-a8c97378:brp-f.variable'
+  - 'symbol:cytoscape-a8c97378:brp.variable'
+  - 'symbol:cytoscape-a8c97378:buildcluster.variable'
+  - 'symbol:cytoscape-a8c97378:buildclustersfromtree.variable'
+  - 'symbol:cytoscape-a8c97378:builddendrogram.variable'
+  - 'symbol:cytoscape-a8c97378:cache.variable'
+  - 'symbol:cytoscape-a8c97378:cachedboundingboximpl.variable'
+  - 'symbol:cytoscape-a8c97378:cacheprototypestylefunction.function'
+  - 'symbol:cytoscape-a8c97378:cachestylefunction.function'
+  - 'symbol:cytoscape-a8c97378:calccornerarc.variable'
+  - 'symbol:cytoscape-a8c97378:calculateedgeforces.variable'
+  - 'symbol:cytoscape-a8c97378:calculategravityforces.variable'
+  - 'symbol:cytoscape-a8c97378:calculatenodeforces.variable'
+  - 'symbol:cytoscape-a8c97378:camel2dash.variable'
+  - 'symbol:cytoscape-a8c97378:canvasrenderer.function'
+  - 'symbol:cytoscape-a8c97378:capitalize.variable'
+  - 'symbol:cytoscape-a8c97378:castpath.variable'
+  - 'symbol:cytoscape-a8c97378:checkcompound.function'
+  - 'symbol:cytoscape-a8c97378:checkinellipse.variable'
+  - 'symbol:cytoscape-a8c97378:circle-1.function'
+  - 'symbol:cytoscape-a8c97378:circle.function'
+  - 'symbol:cytoscape-a8c97378:circlelayout.function'
+  - 'symbol:cytoscape-a8c97378:circlesd.variable'
+  - 'symbol:cytoscape-a8c97378:circletriangle.function'
+  - 'symbol:cytoscape-a8c97378:classify.variable'
+  - 'symbol:cytoscape-a8c97378:cleanmetachars.variable'
+  - 'symbol:cytoscape-a8c97378:cleararray.variable'
+  - 'symbol:cytoscape-a8c97378:clearboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:clearcanvas.function'
+  - 'symbol:cytoscape-a8c97378:clearwebgl.function'
+  - 'symbol:cytoscape-a8c97378:clone.variable'
+  - 'symbol:cytoscape-a8c97378:clusteringdistance.function'
+  - 'symbol:cytoscape-a8c97378:collapse.variable'
+  - 'symbol:cytoscape-a8c97378:collection.variable'
+  - 'symbol:cytoscape-a8c97378:collection.variable-2'
+  - 'symbol:cytoscape-a8c97378:color2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:colorname2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:colors.variable'
+  - 'symbol:cytoscape-a8c97378:combinehashes.variable'
+  - 'symbol:cytoscape-a8c97378:combinehashesarray.variable'
+  - 'symbol:cytoscape-a8c97378:commonjsglobal.variable'
+  - 'symbol:cytoscape-a8c97378:compileshader.function'
+  - 'symbol:cytoscape-a8c97378:concentriclayout.function'
+  - 'symbol:cytoscape-a8c97378:consumeexpr.variable'
+  - 'symbol:cytoscape-a8c97378:consumewhitespace.variable'
+  - 'symbol:cytoscape-a8c97378:contractuntil.variable'
+  - 'symbol:cytoscape-a8c97378:controlpoints.variable'
+  - 'symbol:cytoscape-a8c97378:copy.variable'
+  - 'symbol:cytoscape-a8c97378:copyarray.variable'
+  - 'symbol:cytoscape-a8c97378:copyarray.variable-2'
+  - 'symbol:cytoscape-a8c97378:copyboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:copyposition.variable'
+  - 'symbol:cytoscape-a8c97378:core.variable'
+  - 'symbol:cytoscape-a8c97378:core.variable-2'
+  - 'symbol:cytoscape-a8c97378:corefn-1.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-2.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-3.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-4.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-5.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-6.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-7.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-8.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-9.variable'
+  - 'symbol:cytoscape-a8c97378:corefn.variable'
+  - 'symbol:cytoscape-a8c97378:corejsdata.variable'
+  - 'symbol:cytoscape-a8c97378:cos.variable'
+  - 'symbol:cytoscape-a8c97378:cos0.variable'
+  - 'symbol:cytoscape-a8c97378:coselayout.function'
+  - 'symbol:cytoscape-a8c97378:cr.variable'
+  - 'symbol:cytoscape-a8c97378:cradius.variable'
+  - 'symbol:cytoscape-a8c97378:create.function'
+  - 'symbol:cytoscape-a8c97378:create3x3matrixbufferdynamicdraw.function'
+  - 'symbol:cytoscape-a8c97378:createbufferdynamicdraw.function'
+  - 'symbol:cytoscape-a8c97378:createbufferstaticdraw.function'
+  - 'symbol:cytoscape-a8c97378:createlayoutinfo.variable'
+  - 'symbol:cytoscape-a8c97378:createpanzoommatrix.function'
+  - 'symbol:cytoscape-a8c97378:createpickingframebuffer.function'
+  - 'symbol:cytoscape-a8c97378:createprogram.function'
+  - 'symbol:cytoscape-a8c97378:createtexture.function'
+  - 'symbol:cytoscape-a8c97378:createtexturecanvas.function'
+  - 'symbol:cytoscape-a8c97378:createtypedarray.function'
+  - 'symbol:cytoscape-a8c97378:createtypedarrayview.function'
+  - 'symbol:cytoscape-a8c97378:crp-1.variable'
+  - 'symbol:cytoscape-a8c97378:crp-2.variable'
+  - 'symbol:cytoscape-a8c97378:crp-3.variable'
+  - 'symbol:cytoscape-a8c97378:crp-4.variable'
+  - 'symbol:cytoscape-a8c97378:crp-5.variable'
+  - 'symbol:cytoscape-a8c97378:crp-6.variable'
+  - 'symbol:cytoscape-a8c97378:crp-7.variable'
+  - 'symbol:cytoscape-a8c97378:crp-8.variable'
+  - 'symbol:cytoscape-a8c97378:crp-9.variable'
+  - 'symbol:cytoscape-a8c97378:crp-a.variable'
+  - 'symbol:cytoscape-a8c97378:crp-b.variable'
+  - 'symbol:cytoscape-a8c97378:crp.variable'
+  - 'symbol:cytoscape-a8c97378:cubicbezier.variable'
+  - 'symbol:cytoscape-a8c97378:cytoscape.variable'
+  - 'symbol:cytoscape-a8c97378:dash2camel.variable'
+  - 'symbol:cytoscape-a8c97378:data-1.variable'
+  - 'symbol:cytoscape-a8c97378:data3.variable'
+  - 'symbol:cytoscape-a8c97378:debounce-1.variable'
+  - 'symbol:cytoscape-a8c97378:debounce.variable'
+  - 'symbol:cytoscape-a8c97378:debounceexports.variable'
+  - 'symbol:cytoscape-a8c97378:debug.variable'
+  - 'symbol:cytoscape-a8c97378:default-hash-seed-alt.variable'
+  - 'symbol:cytoscape-a8c97378:default-hash-seed.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-1.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-2.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-3.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-4.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-5.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-6.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-7.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-8.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-9.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-a.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-b.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-c.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-d.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-e.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-f.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-g.variable'
+  - 'symbol:cytoscape-a8c97378:defaults2.variable'
+  - 'symbol:cytoscape-a8c97378:defaultselectiontype.variable'
+  - 'symbol:cytoscape-a8c97378:defaultskeys.variable'
+  - 'symbol:cytoscape-a8c97378:defbbopts.variable'
+  - 'symbol:cytoscape-a8c97378:defbboptskey.variable'
+  - 'symbol:cytoscape-a8c97378:define-1.variable'
+  - 'symbol:cytoscape-a8c97378:define-2.variable'
+  - 'symbol:cytoscape-a8c97378:define-3.variable'
+  - 'symbol:cytoscape-a8c97378:define.variable'
+  - 'symbol:cytoscape-a8c97378:definedagallhops.variable'
+  - 'symbol:cytoscape-a8c97378:definedagextremity.variable'
+  - 'symbol:cytoscape-a8c97378:definedagonehop.variable'
+  - 'symbol:cytoscape-a8c97378:definedegreeboundsfunction.function'
+  - 'symbol:cytoscape-a8c97378:definedegreefunction.function'
+  - 'symbol:cytoscape-a8c97378:definederivedstatefunction.function'
+  - 'symbol:cytoscape-a8c97378:definedimfns.variable'
+  - 'symbol:cytoscape-a8c97378:defineedgeswithfunction.function'
+  - 'symbol:cytoscape-a8c97378:defineparalleledgesfunction.function'
+  - 'symbol:cytoscape-a8c97378:defineproperty.variable'
+  - 'symbol:cytoscape-a8c97378:definesearch.variable'
+  - 'symbol:cytoscape-a8c97378:definesourcefunction.function'
+  - 'symbol:cytoscape-a8c97378:defineswitchfunction.function'
+  - 'symbol:cytoscape-a8c97378:defineswitchset.function'
+  - 'symbol:cytoscape-a8c97378:definesymboliterator.variable'
+  - 'symbol:cytoscape-a8c97378:defnumlayers.variable'
+  - 'symbol:cytoscape-a8c97378:defs.variable'
+  - 'symbol:cytoscape-a8c97378:deftxrwidth.variable'
+  - 'symbol:cytoscape-a8c97378:deg2rad.variable'
+  - 'symbol:cytoscape-a8c97378:deliver.variable'
+  - 'symbol:cytoscape-a8c97378:deprecatedoptiondefaults.variable'
+  - 'symbol:cytoscape-a8c97378:deqavgcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqavgcost.variable'
+  - 'symbol:cytoscape-a8c97378:deqcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqcost.variable'
+  - 'symbol:cytoscape-a8c97378:deqfastcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqfastcost.variable'
+  - 'symbol:cytoscape-a8c97378:deqnodrawcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqnodrawcost.variable'
+  - 'symbol:cytoscape-a8c97378:deqredrawthreshold-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqredrawthreshold.variable'
+  - 'symbol:cytoscape-a8c97378:descending.variable'
+  - 'symbol:cytoscape-a8c97378:dijkstradefaults.variable'
+  - 'symbol:cytoscape-a8c97378:dimensions.variable'
+  - 'symbol:cytoscape-a8c97378:dist.variable'
+  - 'symbol:cytoscape-a8c97378:distances.variable'
+  - 'symbol:cytoscape-a8c97378:domelement.variable'
+  - 'symbol:cytoscape-a8c97378:drawatlases.function'
+  - 'symbol:cytoscape-a8c97378:drawaxes.function'
+  - 'symbol:cytoscape-a8c97378:drawdirection.variable'
+  - 'symbol:cytoscape-a8c97378:drawedgeoverlayunderlay.variable'
+  - 'symbol:cytoscape-a8c97378:drawele.function'
+  - 'symbol:cytoscape-a8c97378:drawnodeoverlayunderlay.variable'
+  - 'symbol:cytoscape-a8c97378:drawpreparedroundcorner.function'
+  - 'symbol:cytoscape-a8c97378:drawselectionrectangle.function'
+  - 'symbol:cytoscape-a8c97378:ease.function'
+  - 'symbol:cytoscape-a8c97378:easings.variable'
+  - 'symbol:cytoscape-a8c97378:edge-arrow.variable'
+  - 'symbol:cytoscape-a8c97378:edge-curve-segment.variable'
+  - 'symbol:cytoscape-a8c97378:edge-straight.variable'
+  - 'symbol:cytoscape-a8c97378:edgepoints.variable'
+  - 'symbol:cytoscape-a8c97378:edgevisiblevianode.variable'
+  - 'symbol:cytoscape-a8c97378:eleinteractive.variable'
+  - 'symbol:cytoscape-a8c97378:element.variable'
+  - 'symbol:cytoscape-a8c97378:element.variable-2'
+  - 'symbol:cytoscape-a8c97378:elementdrawingwebgl.variable'
+  - 'symbol:cytoscape-a8c97378:elementorcollection.variable'
+  - 'symbol:cytoscape-a8c97378:elementtexturecache.variable'
+  - 'symbol:cytoscape-a8c97378:elementtexturecachelookup.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-1.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-2.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-3.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-4.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-5.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-6.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-7.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-8.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-9.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-a.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-b.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-c.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-d.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-e.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-f.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-g.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-h.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-i.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-j.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-k.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-l.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-m.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-n.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-o.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-p.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-q.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-r.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-s.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-t.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-u.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-v.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn.variable'
+  - 'symbol:cytoscape-a8c97378:eletakesupspace.variable'
+  - 'symbol:cytoscape-a8c97378:eletxrspacing.variable'
+  - 'symbol:cytoscape-a8c97378:elevisible.variable'
+  - 'symbol:cytoscape-a8c97378:ellipse.variable'
+  - 'symbol:cytoscape-a8c97378:ellipsesd.variable'
+  - 'symbol:cytoscape-a8c97378:ellipsestepsize.variable'
+  - 'symbol:cytoscape-a8c97378:emitter.function'
+  - 'symbol:cytoscape-a8c97378:emitteroptions-1.variable'
+  - 'symbol:cytoscape-a8c97378:emitteroptions.variable'
+  - 'symbol:cytoscape-a8c97378:emptyopts.variable'
+  - 'symbol:cytoscape-a8c97378:emptystring.variable'
+  - 'symbol:cytoscape-a8c97378:endswith.variable'
+  - 'symbol:cytoscape-a8c97378:eq-1.variable'
+  - 'symbol:cytoscape-a8c97378:error.variable'
+  - 'symbol:cytoscape-a8c97378:etcp.variable'
+  - 'symbol:cytoscape-a8c97378:event.variable'
+  - 'symbol:cytoscape-a8c97378:event.variable-2'
+  - 'symbol:cytoscape-a8c97378:eventregex.variable'
+  - 'symbol:cytoscape-a8c97378:execute-handlers.variable'
+  - 'symbol:cytoscape-a8c97378:execute.variable'
+  - 'symbol:cytoscape-a8c97378:existcmp.variable'
+  - 'symbol:cytoscape-a8c97378:expand.variable'
+  - 'symbol:cytoscape-a8c97378:expandboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:expandboundingboxbypoint.variable'
+  - 'symbol:cytoscape-a8c97378:expandboundingboxsides.variable'
+  - 'symbol:cytoscape-a8c97378:expandpolygon.variable'
+  - 'symbol:cytoscape-a8c97378:exprs.variable'
+  - 'symbol:cytoscape-a8c97378:extend.variable'
+  - 'symbol:cytoscape-a8c97378:extension.variable'
+  - 'symbol:cytoscape-a8c97378:extensions.variable'
+  - 'symbol:cytoscape-a8c97378:false.variable'
+  - 'symbol:cytoscape-a8c97378:falsify.variable'
+  - 'symbol:cytoscape-a8c97378:filledbbopts.variable'
+  - 'symbol:cytoscape-a8c97378:filter.variable'
+  - 'symbol:cytoscape-a8c97378:findclippingpoint.variable'
+  - 'symbol:cytoscape-a8c97378:findcost.variable'
+  - 'symbol:cytoscape-a8c97378:findexemplars.variable'
+  - 'symbol:cytoscape-a8c97378:findlca-aux.variable'
+  - 'symbol:cytoscape-a8c97378:findlca.variable'
+  - 'symbol:cytoscape-a8c97378:findnearestelementswebgl.function'
+  - 'symbol:cytoscape-a8c97378:finitelinesintersect.variable'
+  - 'symbol:cytoscape-a8c97378:fitpolygontosquare.variable'
+  - 'symbol:cytoscape-a8c97378:floydwarshalldefaults.variable'
+  - 'symbol:cytoscape-a8c97378:fn-1.variable'
+  - 'symbol:cytoscape-a8c97378:fn-2.variable'
+  - 'symbol:cytoscape-a8c97378:fn-3.variable'
+  - 'symbol:cytoscape-a8c97378:fn-4.variable'
+  - 'symbol:cytoscape-a8c97378:fn-5.variable'
+  - 'symbol:cytoscape-a8c97378:fn-6.variable'
+  - 'symbol:cytoscape-a8c97378:fn2.variable'
+  - 'symbol:cytoscape-a8c97378:foreachcompound.function'
+  - 'symbol:cytoscape-a8c97378:foreachevent.variable'
+  - 'symbol:cytoscape-a8c97378:foreacheventobj.variable'
+  - 'symbol:cytoscape-a8c97378:fpsheight.variable'
+  - 'symbol:cytoscape-a8c97378:freeglobal.variable'
+  - 'symbol:cytoscape-a8c97378:fullfpstime.variable'
+  - 'symbol:cytoscape-a8c97378:fuzzycmeans.variable'
+  - 'symbol:cytoscape-a8c97378:generatecubicbezier.function'
+  - 'symbol:cytoscape-a8c97378:generatespringrk4.variable'
+  - 'symbol:cytoscape-a8c97378:generateunitngonpoints.variable'
+  - 'symbol:cytoscape-a8c97378:generateunitngonpointsfittosquare.variable'
+  - 'symbol:cytoscape-a8c97378:get-1.variable'
+  - 'symbol:cytoscape-a8c97378:get.variable'
+  - 'symbol:cytoscape-a8c97378:getallchildren.variable'
+  - 'symbol:cytoscape-a8c97378:getanglefromdisp.variable'
+  - 'symbol:cytoscape-a8c97378:getbarrelcurveconstants.variable'
+  - 'symbol:cytoscape-a8c97378:getbgcolor.function'
+  - 'symbol:cytoscape-a8c97378:getboundingboxforlabel.variable'
+  - 'symbol:cytoscape-a8c97378:getboundingboxposkey.variable'
+  - 'symbol:cytoscape-a8c97378:getcutrectanglecornerlength.variable'
+  - 'symbol:cytoscape-a8c97378:getdefaultexportfromcjs.function'
+  - 'symbol:cytoscape-a8c97378:getdist.variable'
+  - 'symbol:cytoscape-a8c97378:getdistance.variable'
+  - 'symbol:cytoscape-a8c97378:geteasedvalue.function'
+  - 'symbol:cytoscape-a8c97378:geteffectivepanzoom.function'
+  - 'symbol:cytoscape-a8c97378:geteffectivezoom.function'
+  - 'symbol:cytoscape-a8c97378:getexports.variable'
+  - 'symbol:cytoscape-a8c97378:getextension.function'
+  - 'symbol:cytoscape-a8c97378:getinfo.variable'
+  - 'symbol:cytoscape-a8c97378:getkey.variable'
+  - 'symbol:cytoscape-a8c97378:getlabellines.function'
+  - 'symbol:cytoscape-a8c97378:getlabelrotation.variable'
+  - 'symbol:cytoscape-a8c97378:getlayoutdimensionoptions.variable'
+  - 'symbol:cytoscape-a8c97378:getmap.variable'
+  - 'symbol:cytoscape-a8c97378:getmapdata.variable'
+  - 'symbol:cytoscape-a8c97378:getmodule.function'
+  - 'symbol:cytoscape-a8c97378:getnative.variable'
+  - 'symbol:cytoscape-a8c97378:getopacity.variable'
+  - 'symbol:cytoscape-a8c97378:getpickingindexes.function'
+  - 'symbol:cytoscape-a8c97378:getpreference.variable'
+  - 'symbol:cytoscape-a8c97378:getprefixedproperty.variable'
+  - 'symbol:cytoscape-a8c97378:getpts.function'
+  - 'symbol:cytoscape-a8c97378:getrawtag.variable'
+  - 'symbol:cytoscape-a8c97378:getroundcorner.function'
+  - 'symbol:cytoscape-a8c97378:getroundpolygonradius.variable'
+  - 'symbol:cytoscape-a8c97378:getroundrectangleradius.variable'
+  - 'symbol:cytoscape-a8c97378:getscaleinboundsfn.variable'
+  - 'symbol:cytoscape-a8c97378:getsimilarity-1.variable'
+  - 'symbol:cytoscape-a8c97378:getsimilarity2.variable'
+  - 'symbol:cytoscape-a8c97378:getsourcelabelrotation.variable'
+  - 'symbol:cytoscape-a8c97378:getstylekeysforlabel.variable'
+  - 'symbol:cytoscape-a8c97378:gettargetlabelrotation.variable'
+  - 'symbol:cytoscape-a8c97378:gettextopacity.variable'
+  - 'symbol:cytoscape-a8c97378:gettxrreasons.variable'
+  - 'symbol:cytoscape-a8c97378:gettypeinfo.function'
+  - 'symbol:cytoscape-a8c97378:getvalue.function'
+  - 'symbol:cytoscape-a8c97378:getvalue.variable'
+  - 'symbol:cytoscape-a8c97378:getzerorotation.variable'
+  - 'symbol:cytoscape-a8c97378:gridlayout.function'
+  - 'symbol:cytoscape-a8c97378:halfangle.variable'
+  - 'symbol:cytoscape-a8c97378:hasconverged.variable'
+  - 'symbol:cytoscape-a8c97378:hash.variable'
+  - 'symbol:cytoscape-a8c97378:hasharrays.variable'
+  - 'symbol:cytoscape-a8c97378:hashclear.variable'
+  - 'symbol:cytoscape-a8c97378:hashdelete.variable'
+  - 'symbol:cytoscape-a8c97378:hashget.variable'
+  - 'symbol:cytoscape-a8c97378:hashhas.variable'
+  - 'symbol:cytoscape-a8c97378:hashint.variable'
+  - 'symbol:cytoscape-a8c97378:hashintalt.variable'
+  - 'symbol:cytoscape-a8c97378:hashintsarray.variable'
+  - 'symbol:cytoscape-a8c97378:hashiterableints.variable'
+  - 'symbol:cytoscape-a8c97378:hashset.variable'
+  - 'symbol:cytoscape-a8c97378:hashstring.variable'
+  - 'symbol:cytoscape-a8c97378:hashstrings.variable'
+  - 'symbol:cytoscape-a8c97378:hashstringsarray.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-arraymap.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-assignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-associndexof.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseassignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-basegettag.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseisnative.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-basetostring.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-basetrim.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-castpath.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-copyarray.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-corejsdata.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-defineproperty.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-freeglobal.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getmapdata.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getnative.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getrawtag.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getvalue.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hash.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashclear.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashdelete.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashhas.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-isindex.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-iskey.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-iskeyable.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-ismasked.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcache.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-map.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcache.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-memoizecapped.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-nativecreate.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-objecttostring.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-root.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-stringtopath.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-symbol.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-tokey.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-tosource.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-trimmedendindex.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequireddebounce.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredeq.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredheap-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredheap.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisarray.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisfunction.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisobject.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisobjectlike.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredissymbol.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredmemoize.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequirednow.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredtonumber.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredtopath.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredtostring.variable'
+  - 'symbol:cytoscape-a8c97378:havematricesconverged.variable'
+  - 'symbol:cytoscape-a8c97378:havevaluesconverged.variable'
+  - 'symbol:cytoscape-a8c97378:heap-1.variable'
+  - 'symbol:cytoscape-a8c97378:heap-2.variable'
+  - 'symbol:cytoscape-a8c97378:heap.variable'
+  - 'symbol:cytoscape-a8c97378:heap.variable-2'
+  - 'symbol:cytoscape-a8c97378:heapexports.variable'
+  - 'symbol:cytoscape-a8c97378:hex2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:hex3.variable'
+  - 'symbol:cytoscape-a8c97378:hex6.variable'
+  - 'symbol:cytoscape-a8c97378:hierarchicalclustering-1.variable'
+  - 'symbol:cytoscape-a8c97378:hierarchicalclustering.variable'
+  - 'symbol:cytoscape-a8c97378:hierholzerdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:hopcrofttarjanbiconnected-1.variable'
+  - 'symbol:cytoscape-a8c97378:hopcrofttarjanbiconnected.variable'
+  - 'symbol:cytoscape-a8c97378:hsl2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:hsla.variable'
+  - 'symbol:cytoscape-a8c97378:hslanobackrefs.variable'
+  - 'symbol:cytoscape-a8c97378:htmlelement.variable'
+  - 'symbol:cytoscape-a8c97378:hypot.variable'
+  - 'symbol:cytoscape-a8c97378:i.variable'
+  - 'symbol:cytoscape-a8c97378:identity-1.variable'
+  - 'symbol:cytoscape-a8c97378:identity2.function'
+  - 'symbol:cytoscape-a8c97378:ifedge.variable'
+  - 'symbol:cytoscape-a8c97378:ifedgerenderedposition.variable'
+  - 'symbol:cytoscape-a8c97378:ifedgerenderedpositions.variable'
+  - 'symbol:cytoscape-a8c97378:impl.variable'
+  - 'symbol:cytoscape-a8c97378:inbeziervicinity.variable'
+  - 'symbol:cytoscape-a8c97378:inboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:incexts.variable'
+  - 'symbol:cytoscape-a8c97378:indextovec4.function'
+  - 'symbol:cytoscape-a8c97378:inflate.variable'
+  - 'symbol:cytoscape-a8c97378:inflatepolygon.function'
+  - 'symbol:cytoscape-a8c97378:initdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:inlinevicinity.variable'
+  - 'symbol:cytoscape-a8c97378:inplacesumnormalize.variable'
+  - 'symbol:cytoscape-a8c97378:instancestr.variable'
+  - 'symbol:cytoscape-a8c97378:integer.variable'
+  - 'symbol:cytoscape-a8c97378:intersection.function'
+  - 'symbol:cytoscape-a8c97378:intersectlinecircle.variable'
+  - 'symbol:cytoscape-a8c97378:intersectlineellipse.variable'
+  - 'symbol:cytoscape-a8c97378:invalidthreshold.variable'
+  - 'symbol:cytoscape-a8c97378:invertvec.variable'
+  - 'symbol:cytoscape-a8c97378:isarray-1.variable'
+  - 'symbol:cytoscape-a8c97378:isduplicate.variable'
+  - 'symbol:cytoscape-a8c97378:isfunction-1.variable'
+  - 'symbol:cytoscape-a8c97378:isindex.variable'
+  - 'symbol:cytoscape-a8c97378:iskey.variable'
+  - 'symbol:cytoscape-a8c97378:iskeyable.variable'
+  - 'symbol:cytoscape-a8c97378:ismasked.variable'
+  - 'symbol:cytoscape-a8c97378:isobject-1.variable'
+  - 'symbol:cytoscape-a8c97378:isobjectlike-1.variable'
+  - 'symbol:cytoscape-a8c97378:issimpleshape.function'
+  - 'symbol:cytoscape-a8c97378:issymbol-1.variable'
+  - 'symbol:cytoscape-a8c97378:iterabletoarraylimit.function'
+  - 'symbol:cytoscape-a8c97378:joinlines.variable'
+  - 'symbol:cytoscape-a8c97378:k.variable'
+  - 'symbol:cytoscape-a8c97378:kclustering.variable'
+  - 'symbol:cytoscape-a8c97378:kmeans.variable'
+  - 'symbol:cytoscape-a8c97378:kmedoids.variable'
+  - 'symbol:cytoscape-a8c97378:lastpoint.variable'
+  - 'symbol:cytoscape-a8c97378:layeredtexturecache.variable'
+  - 'symbol:cytoscape-a8c97378:layeridpool.variable'
+  - 'symbol:cytoscape-a8c97378:layout3.variable'
+  - 'symbol:cytoscape-a8c97378:lenout.variable'
+  - 'symbol:cytoscape-a8c97378:limit.variable'
+  - 'symbol:cytoscape-a8c97378:limitforce.variable'
+  - 'symbol:cytoscape-a8c97378:lineangle.variable'
+  - 'symbol:cytoscape-a8c97378:lineanglefromdelta.variable'
+  - 'symbol:cytoscape-a8c97378:lineat.variable'
+  - 'symbol:cytoscape-a8c97378:linkagealiases.variable'
+  - 'symbol:cytoscape-a8c97378:listcache.variable'
+  - 'symbol:cytoscape-a8c97378:listcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:listcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:listcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:listcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:listcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:log2.variable'
+  - 'symbol:cytoscape-a8c97378:lookup.variable'
+  - 'symbol:cytoscape-a8c97378:ltcp.variable'
+  - 'symbol:cytoscape-a8c97378:makeboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:makeeventobj.variable'
+  - 'symbol:cytoscape-a8c97378:map-1.variable'
+  - 'symbol:cytoscape-a8c97378:map.variable'
+  - 'symbol:cytoscape-a8c97378:mapcache.variable'
+  - 'symbol:cytoscape-a8c97378:mapcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:mapcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:mapcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:mapcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:mapcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:markovclustering-1.variable'
+  - 'symbol:cytoscape-a8c97378:markovclustering.variable'
+  - 'symbol:cytoscape-a8c97378:match.variable'
+  - 'symbol:cytoscape-a8c97378:matches-1.variable'
+  - 'symbol:cytoscape-a8c97378:matches31.variable'
+  - 'symbol:cytoscape-a8c97378:matching.variable'
+  - 'symbol:cytoscape-a8c97378:math-hypot.variable'
+  - 'symbol:cytoscape-a8c97378:max-int-1.variable'
+  - 'symbol:cytoscape-a8c97378:max-int.variable'
+  - 'symbol:cytoscape-a8c97378:max.variable'
+  - 'symbol:cytoscape-a8c97378:maxabsdiff.variable'
+  - 'symbol:cytoscape-a8c97378:maxdeqsize-1.variable'
+  - 'symbol:cytoscape-a8c97378:maxdeqsize.variable'
+  - 'symbol:cytoscape-a8c97378:maxfullness.variable'
+  - 'symbol:cytoscape-a8c97378:maxfullnesschecks.variable'
+  - 'symbol:cytoscape-a8c97378:maxlayerarea.variable'
+  - 'symbol:cytoscape-a8c97378:maxlayerdim.variable'
+  - 'symbol:cytoscape-a8c97378:maxlvl-1.variable'
+  - 'symbol:cytoscape-a8c97378:maxlvl.variable'
+  - 'symbol:cytoscape-a8c97378:maxtxrh.variable'
+  - 'symbol:cytoscape-a8c97378:maxtxrw.variable'
+  - 'symbol:cytoscape-a8c97378:maxzoom-1.variable'
+  - 'symbol:cytoscape-a8c97378:maxzoom2.variable'
+  - 'symbol:cytoscape-a8c97378:mean.variable'
+  - 'symbol:cytoscape-a8c97378:median.variable'
+  - 'symbol:cytoscape-a8c97378:memoize-1.variable'
+  - 'symbol:cytoscape-a8c97378:memoize.variable'
+  - 'symbol:cytoscape-a8c97378:memoizecapped.variable'
+  - 'symbol:cytoscape-a8c97378:mergeclosest.variable'
+  - 'symbol:cytoscape-a8c97378:meta.variable'
+  - 'symbol:cytoscape-a8c97378:midofthree.variable'
+  - 'symbol:cytoscape-a8c97378:midpoint.variable'
+  - 'symbol:cytoscape-a8c97378:min.variable'
+  - 'symbol:cytoscape-a8c97378:minlvl-1.variable'
+  - 'symbol:cytoscape-a8c97378:minlvl.variable'
+  - 'symbol:cytoscape-a8c97378:mintxrh.variable'
+  - 'symbol:cytoscape-a8c97378:minutility.variable'
+  - 'symbol:cytoscape-a8c97378:miterbox.function'
+  - 'symbol:cytoscape-a8c97378:mmult.variable'
+  - 'symbol:cytoscape-a8c97378:modeltorenderedposition-1.variable'
+  - 'symbol:cytoscape-a8c97378:modeltorenderedposition2.function'
+  - 'symbol:cytoscape-a8c97378:modules.variable'
+  - 'symbol:cytoscape-a8c97378:motionblurdelay.variable'
+  - 'symbol:cytoscape-a8c97378:movepointbyboxaspect.variable'
+  - 'symbol:cytoscape-a8c97378:ms.variable'
+  - 'symbol:cytoscape-a8c97378:multiply.function'
+  - 'symbol:cytoscape-a8c97378:nativecreate.variable'
+  - 'symbol:cytoscape-a8c97378:navigator.variable'
+  - 'symbol:cytoscape-a8c97378:newquery.variable'
+  - 'symbol:cytoscape-a8c97378:noderepulsion2.variable'
+  - 'symbol:cytoscape-a8c97378:nodesoverlap.variable'
+  - 'symbol:cytoscape-a8c97378:noninf.variable'
+  - 'symbol:cytoscape-a8c97378:noniterablerest.function'
+  - 'symbol:cytoscape-a8c97378:noniterablespread.function'
+  - 'symbol:cytoscape-a8c97378:noop-1.variable'
+  - 'symbol:cytoscape-a8c97378:noop2.variable'
+  - 'symbol:cytoscape-a8c97378:normalize.variable'
+  - 'symbol:cytoscape-a8c97378:now-1.variable'
+  - 'symbol:cytoscape-a8c97378:nulllayout.function'
+  - 'symbol:cytoscape-a8c97378:nullrenderer.function'
+  - 'symbol:cytoscape-a8c97378:number-1.variable'
+  - 'symbol:cytoscape-a8c97378:number2.variable'
+  - 'symbol:cytoscape-a8c97378:object.variable'
+  - 'symbol:cytoscape-a8c97378:objectmap.variable'
+  - 'symbol:cytoscape-a8c97378:objectset.variable'
+  - 'symbol:cytoscape-a8c97378:objecttostring.variable'
+  - 'symbol:cytoscape-a8c97378:output.function'
+  - 'symbol:cytoscape-a8c97378:overridecanvasrendererfunctions.function'
+  - 'symbol:cytoscape-a8c97378:p.variable'
+  - 'symbol:cytoscape-a8c97378:pagerankdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:parentinteractive.variable'
+  - 'symbol:cytoscape-a8c97378:parse-1.variable'
+  - 'symbol:cytoscape-a8c97378:parse.variable'
+  - 'symbol:cytoscape-a8c97378:pathsimpld.variable'
+  - 'symbol:cytoscape-a8c97378:performance-1.variable'
+  - 'symbol:cytoscape-a8c97378:performancenow.variable'
+  - 'symbol:cytoscape-a8c97378:plainobject.variable'
+  - 'symbol:cytoscape-a8c97378:pnow.variable'
+  - 'symbol:cytoscape-a8c97378:pointinboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:pointinsidepolygon.variable'
+  - 'symbol:cytoscape-a8c97378:pointinsidepolygonpoints.variable'
+  - 'symbol:cytoscape-a8c97378:pointinsideroundpolygon.variable'
+  - 'symbol:cytoscape-a8c97378:polygon.function'
+  - 'symbol:cytoscape-a8c97378:polygonintersectline.variable'
+  - 'symbol:cytoscape-a8c97378:position.variable'
+  - 'symbol:cytoscape-a8c97378:positiondef.variable'
+  - 'symbol:cytoscape-a8c97378:prefixedproperty.variable'
+  - 'symbol:cytoscape-a8c97378:prependcamel.variable'
+  - 'symbol:cytoscape-a8c97378:presetlayout.function'
+  - 'symbol:cytoscape-a8c97378:printlayoutinfo.variable'
+  - 'symbol:cytoscape-a8c97378:projection.function'
+  - 'symbol:cytoscape-a8c97378:promise-1.variable'
+  - 'symbol:cytoscape-a8c97378:promise.variable'
+  - 'symbol:cytoscape-a8c97378:propagateforces.variable'
+  - 'symbol:cytoscape-a8c97378:pts.variable'
+  - 'symbol:cytoscape-a8c97378:push.variable'
+  - 'symbol:cytoscape-a8c97378:pushbezierpts.function'
+  - 'symbol:cytoscape-a8c97378:qbezierat.variable'
+  - 'symbol:cytoscape-a8c97378:qbezierptat.variable'
+  - 'symbol:cytoscape-a8c97378:raddirection.variable'
+  - 'symbol:cytoscape-a8c97378:radius.variable'
+  - 'symbol:cytoscape-a8c97378:raf.variable'
+  - 'symbol:cytoscape-a8c97378:randomcentroids.variable'
+  - 'symbol:cytoscape-a8c97378:randomdistance.variable'
+  - 'symbol:cytoscape-a8c97378:randomizepositions.variable'
+  - 'symbol:cytoscape-a8c97378:randomlayout.function'
+  - 'symbol:cytoscape-a8c97378:randommedoids.variable'
+  - 'symbol:cytoscape-a8c97378:rectangle.variable'
+  - 'symbol:cytoscape-a8c97378:rectanglesd.variable'
+  - 'symbol:cytoscape-a8c97378:refineeledebouncetime.variable'
+  - 'symbol:cytoscape-a8c97378:refreshpositions.variable'
+  - 'symbol:cytoscape-a8c97378:removeduplicates.variable'
+  - 'symbol:cytoscape-a8c97378:removefromarray.variable'
+  - 'symbol:cytoscape-a8c97378:render-target.variable'
+  - 'symbol:cytoscape-a8c97378:renderedname.variable'
+  - 'symbol:cytoscape-a8c97378:renderedtomodelposition.variable'
+  - 'symbol:cytoscape-a8c97378:renderer2.variable'
+  - 'symbol:cytoscape-a8c97378:rendererdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:renderwebgl.function'
+  - 'symbol:cytoscape-a8c97378:replacelastquery.variable'
+  - 'symbol:cytoscape-a8c97378:requestanimationframe.variable'
+  - 'symbol:cytoscape-a8c97378:require-arraymap.function'
+  - 'symbol:cytoscape-a8c97378:require-assignvalue.function'
+  - 'symbol:cytoscape-a8c97378:require-associndexof.function'
+  - 'symbol:cytoscape-a8c97378:require-baseassignvalue.function'
+  - 'symbol:cytoscape-a8c97378:require-baseget.function'
+  - 'symbol:cytoscape-a8c97378:require-basegettag.function'
+  - 'symbol:cytoscape-a8c97378:require-baseisnative.function'
+  - 'symbol:cytoscape-a8c97378:require-baseset.function'
+  - 'symbol:cytoscape-a8c97378:require-basetostring.function'
+  - 'symbol:cytoscape-a8c97378:require-basetrim.function'
+  - 'symbol:cytoscape-a8c97378:require-castpath.function'
+  - 'symbol:cytoscape-a8c97378:require-copyarray.function'
+  - 'symbol:cytoscape-a8c97378:require-corejsdata.function'
+  - 'symbol:cytoscape-a8c97378:require-defineproperty.function'
+  - 'symbol:cytoscape-a8c97378:require-freeglobal.function'
+  - 'symbol:cytoscape-a8c97378:require-getmapdata.function'
+  - 'symbol:cytoscape-a8c97378:require-getnative.function'
+  - 'symbol:cytoscape-a8c97378:require-getrawtag.function'
+  - 'symbol:cytoscape-a8c97378:require-getvalue.function'
+  - 'symbol:cytoscape-a8c97378:require-hash.function'
+  - 'symbol:cytoscape-a8c97378:require-hashclear.function'
+  - 'symbol:cytoscape-a8c97378:require-hashdelete.function'
+  - 'symbol:cytoscape-a8c97378:require-hashget.function'
+  - 'symbol:cytoscape-a8c97378:require-hashhas.function'
+  - 'symbol:cytoscape-a8c97378:require-hashset.function'
+  - 'symbol:cytoscape-a8c97378:require-isindex.function'
+  - 'symbol:cytoscape-a8c97378:require-iskey.function'
+  - 'symbol:cytoscape-a8c97378:require-iskeyable.function'
+  - 'symbol:cytoscape-a8c97378:require-ismasked.function'
+  - 'symbol:cytoscape-a8c97378:require-listcache.function'
+  - 'symbol:cytoscape-a8c97378:require-listcacheclear.function'
+  - 'symbol:cytoscape-a8c97378:require-listcachedelete.function'
+  - 'symbol:cytoscape-a8c97378:require-listcacheget.function'
+  - 'symbol:cytoscape-a8c97378:require-listcachehas.function'
+  - 'symbol:cytoscape-a8c97378:require-listcacheset.function'
+  - 'symbol:cytoscape-a8c97378:require-map.function'
+  - 'symbol:cytoscape-a8c97378:require-mapcache.function'
+  - 'symbol:cytoscape-a8c97378:require-mapcacheclear.function'
+  - 'symbol:cytoscape-a8c97378:require-mapcachedelete.function'
+  - 'symbol:cytoscape-a8c97378:require-mapcacheget.function'
+  - 'symbol:cytoscape-a8c97378:require-mapcachehas.function'
+  - 'symbol:cytoscape-a8c97378:require-mapcacheset.function'
+  - 'symbol:cytoscape-a8c97378:require-memoizecapped.function'
+  - 'symbol:cytoscape-a8c97378:require-nativecreate.function'
+  - 'symbol:cytoscape-a8c97378:require-objecttostring.function'
+  - 'symbol:cytoscape-a8c97378:require-root.function'
+  - 'symbol:cytoscape-a8c97378:require-stringtopath.function'
+  - 'symbol:cytoscape-a8c97378:require-symbol.function'
+  - 'symbol:cytoscape-a8c97378:require-tokey.function'
+  - 'symbol:cytoscape-a8c97378:require-tosource.function'
+  - 'symbol:cytoscape-a8c97378:require-trimmedendindex.function'
+  - 'symbol:cytoscape-a8c97378:requiredebounce.function'
+  - 'symbol:cytoscape-a8c97378:requireeq.function'
+  - 'symbol:cytoscape-a8c97378:requireget.function'
+  - 'symbol:cytoscape-a8c97378:requireheap-1.function'
+  - 'symbol:cytoscape-a8c97378:requireheap.function'
+  - 'symbol:cytoscape-a8c97378:requireisarray.function'
+  - 'symbol:cytoscape-a8c97378:requireisfunction.function'
+  - 'symbol:cytoscape-a8c97378:requireisobject.function'
+  - 'symbol:cytoscape-a8c97378:requireisobjectlike.function'
+  - 'symbol:cytoscape-a8c97378:requireissymbol.function'
+  - 'symbol:cytoscape-a8c97378:requirememoize.function'
+  - 'symbol:cytoscape-a8c97378:requirenow.function'
+  - 'symbol:cytoscape-a8c97378:requireset.function'
+  - 'symbol:cytoscape-a8c97378:requiretonumber.function'
+  - 'symbol:cytoscape-a8c97378:requiretopath.function'
+  - 'symbol:cytoscape-a8c97378:requiretostring.function'
+  - 'symbol:cytoscape-a8c97378:resolve.variable'
+  - 'symbol:cytoscape-a8c97378:resolver.variable'
+  - 'symbol:cytoscape-a8c97378:returnfalse.function'
+  - 'symbol:cytoscape-a8c97378:returntrue.function'
+  - 'symbol:cytoscape-a8c97378:rgb2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:rgba.variable'
+  - 'symbol:cytoscape-a8c97378:rgbanobackrefs.variable'
+  - 'symbol:cytoscape-a8c97378:root.variable'
+  - 'symbol:cytoscape-a8c97378:rotate.function'
+  - 'symbol:cytoscape-a8c97378:rotatepoint.function'
+  - 'symbol:cytoscape-a8c97378:rotateposandskewbybox.function'
+  - 'symbol:cytoscape-a8c97378:round-rectangle.variable'
+  - 'symbol:cytoscape-a8c97378:roundpolygonintersectline.variable'
+  - 'symbol:cytoscape-a8c97378:roundrect.function'
+  - 'symbol:cytoscape-a8c97378:roundrectangleintersectline.variable'
+  - 'symbol:cytoscape-a8c97378:roundrectanglesd.variable'
+  - 'symbol:cytoscape-a8c97378:satpolygonintersection.function'
+  - 'symbol:cytoscape-a8c97378:scale.function'
+  - 'symbol:cytoscape-a8c97378:seenbefore.variable'
+  - 'symbol:cytoscape-a8c97378:segmentpoints.variable'
+  - 'symbol:cytoscape-a8c97378:selector.variable'
+  - 'symbol:cytoscape-a8c97378:selfn.variable'
+  - 'symbol:cytoscape-a8c97378:separatecomponents.variable'
+  - 'symbol:cytoscape-a8c97378:set-1.variable'
+  - 'symbol:cytoscape-a8c97378:set-1.variable-2'
+  - 'symbol:cytoscape-a8c97378:set.variable'
+  - 'symbol:cytoscape-a8c97378:setcontexttransform.function'
+  - 'symbol:cytoscape-a8c97378:setexports.variable'
+  - 'symbol:cytoscape-a8c97378:setextension.function'
+  - 'symbol:cytoscape-a8c97378:setinfo.variable'
+  - 'symbol:cytoscape-a8c97378:setmap.variable'
+  - 'symbol:cytoscape-a8c97378:setmodule.function'
+  - 'symbol:cytoscape-a8c97378:setoptions-1.variable'
+  - 'symbol:cytoscape-a8c97378:setoptions-2.variable'
+  - 'symbol:cytoscape-a8c97378:setoptions-3.variable'
+  - 'symbol:cytoscape-a8c97378:setoptions4.variable'
+  - 'symbol:cytoscape-a8c97378:setprefixedproperty.variable'
+  - 'symbol:cytoscape-a8c97378:sheetfn.variable'
+  - 'symbol:cytoscape-a8c97378:shortenintersection.variable'
+  - 'symbol:cytoscape-a8c97378:signum.variable'
+  - 'symbol:cytoscape-a8c97378:sin.variable'
+  - 'symbol:cytoscape-a8c97378:sin0.variable'
+  - 'symbol:cytoscape-a8c97378:sina.variable'
+  - 'symbol:cytoscape-a8c97378:sina90.variable'
+  - 'symbol:cytoscape-a8c97378:slicedtoarray.function'
+  - 'symbol:cytoscape-a8c97378:solvecubic.variable'
+  - 'symbol:cytoscape-a8c97378:solvequadratic.variable'
+  - 'symbol:cytoscape-a8c97378:sourceendpoint.variable'
+  - 'symbol:cytoscape-a8c97378:sqdist.variable'
+  - 'symbol:cytoscape-a8c97378:sqdisttofiniteline.variable'
+  - 'symbol:cytoscape-a8c97378:sqdisttoquadraticbezier.variable'
+  - 'symbol:cytoscape-a8c97378:sqrt.variable'
+  - 'symbol:cytoscape-a8c97378:sqrt2.variable'
+  - 'symbol:cytoscape-a8c97378:startanimation.function'
+  - 'symbol:cytoscape-a8c97378:startx.variable'
+  - 'symbol:cytoscape-a8c97378:starty.variable'
+  - 'symbol:cytoscape-a8c97378:state-fulfilled.variable'
+  - 'symbol:cytoscape-a8c97378:state-pending.variable'
+  - 'symbol:cytoscape-a8c97378:state-rejected.variable'
+  - 'symbol:cytoscape-a8c97378:stateselectormatches.variable'
+  - 'symbol:cytoscape-a8c97378:stateselectorregex.variable'
+  - 'symbol:cytoscape-a8c97378:stateselectors.variable'
+  - 'symbol:cytoscape-a8c97378:staticemptyobject.variable'
+  - 'symbol:cytoscape-a8c97378:staticemptyobject.variable-2'
+  - 'symbol:cytoscape-a8c97378:step-1.function'
+  - 'symbol:cytoscape-a8c97378:step.variable'
+  - 'symbol:cytoscape-a8c97378:stepall.function'
+  - 'symbol:cytoscape-a8c97378:stopx.variable'
+  - 'symbol:cytoscape-a8c97378:stopy.variable'
+  - 'symbol:cytoscape-a8c97378:string.variable'
+  - 'symbol:cytoscape-a8c97378:stringtopath.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-1.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-2.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-3.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-4.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-5.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-6.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-7.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-8.variable'
+  - 'symbol:cytoscape-a8c97378:styfn.variable'
+  - 'symbol:cytoscape-a8c97378:style.variable'
+  - 'symbol:cytoscape-a8c97378:stylecache.function'
+  - 'symbol:cytoscape-a8c97378:stylesheet.variable'
+  - 'symbol:cytoscape-a8c97378:stylesheet.variable-2'
+  - 'symbol:cytoscape-a8c97378:symbol.variable'
+  - 'symbol:cytoscape-a8c97378:targetendpoint.variable'
+  - 'symbol:cytoscape-a8c97378:tarjanstronglyconnected-1.variable'
+  - 'symbol:cytoscape-a8c97378:tarjanstronglyconnected.variable'
+  - 'symbol:cytoscape-a8c97378:tex-picking-mode.variable'
+  - 'symbol:cytoscape-a8c97378:texture.variable'
+  - 'symbol:cytoscape-a8c97378:throwimgerr.variable'
+  - 'symbol:cytoscape-a8c97378:toconsumablearray.function'
+  - 'symbol:cytoscape-a8c97378:tokens.variable'
+  - 'symbol:cytoscape-a8c97378:tokey.variable'
+  - 'symbol:cytoscape-a8c97378:tonumber-1.variable'
+  - 'symbol:cytoscape-a8c97378:too-small-cut-rect.variable'
+  - 'symbol:cytoscape-a8c97378:topath-1.variable'
+  - 'symbol:cytoscape-a8c97378:topath.variable'
+  - 'symbol:cytoscape-a8c97378:topathexports.variable'
+  - 'symbol:cytoscape-a8c97378:toprimitive.function'
+  - 'symbol:cytoscape-a8c97378:topropertykey.function'
+  - 'symbol:cytoscape-a8c97378:tosource.variable'
+  - 'symbol:cytoscape-a8c97378:tostring-1.variable'
+  - 'symbol:cytoscape-a8c97378:tostring.variable'
+  - 'symbol:cytoscape-a8c97378:towebglcolor.function'
+  - 'symbol:cytoscape-a8c97378:tracesupported.variable'
+  - 'symbol:cytoscape-a8c97378:transformpoints.variable'
+  - 'symbol:cytoscape-a8c97378:translate.function'
+  - 'symbol:cytoscape-a8c97378:trianglebackcurve.function'
+  - 'symbol:cytoscape-a8c97378:triangletee.function'
+  - 'symbol:cytoscape-a8c97378:trimmedendindex.variable'
+  - 'symbol:cytoscape-a8c97378:true.variable'
+  - 'symbol:cytoscape-a8c97378:trueify.variable'
+  - 'symbol:cytoscape-a8c97378:txrsteph.variable'
+  - 'symbol:cytoscape-a8c97378:type.variable'
+  - 'symbol:cytoscape-a8c97378:typeof.function'
+  - 'symbol:cytoscape-a8c97378:typeoffn.variable'
+  - 'symbol:cytoscape-a8c97378:typeofhtmlele.variable'
+  - 'symbol:cytoscape-a8c97378:typeofobj.variable'
+  - 'symbol:cytoscape-a8c97378:typeofstr.variable'
+  - 'symbol:cytoscape-a8c97378:undef.variable'
+  - 'symbol:cytoscape-a8c97378:universalnamespace.variable'
+  - 'symbol:cytoscape-a8c97378:unsupportediterabletoarray.function'
+  - 'symbol:cytoscape-a8c97378:updateancestryboundaries.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:updatebounds.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfromarrow.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfrombox.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfromlabel.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfrommiter.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfrommiterborder.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfromoutline.variable'
+  - 'symbol:cytoscape-a8c97378:updatecentroids.variable'
+  - 'symbol:cytoscape-a8c97378:updatemembership.variable'
+  - 'symbol:cytoscape-a8c97378:updatepositions.variable'
+  - 'symbol:cytoscape-a8c97378:usehighqualityeletxrreqs.variable'
+  - 'symbol:cytoscape-a8c97378:uuid.variable'
+  - 'symbol:cytoscape-a8c97378:v1.variable'
+  - 'symbol:cytoscape-a8c97378:v2.variable'
+  - 'symbol:cytoscape-a8c97378:valcmp.variable'
+  - 'symbol:cytoscape-a8c97378:valid.function'
+  - 'symbol:cytoscape-a8c97378:vec4toindex.function'
+  - 'symbol:cytoscape-a8c97378:version.variable'
+  - 'symbol:cytoscape-a8c97378:warn.variable'
+  - 'symbol:cytoscape-a8c97378:warnedcutrect.variable'
+  - 'symbol:cytoscape-a8c97378:warnings.variable'
+  - 'symbol:cytoscape-a8c97378:warningsenabled.variable'
+  - 'symbol:cytoscape-a8c97378:warnsupported.variable'
+  - 'symbol:cytoscape-a8c97378:widthheight.variable'
+  - 'symbol:cytoscape-a8c97378:window.variable'
+  - 'symbol:cytoscape-a8c97378:x.variable'
+  - 'symbol:cytoscape-a8c97378:y.variable'
+  - 'symbol:cytoscape-a8c97378:zeroify.variable'
+  - 'symbol:cytoscape-a8c97378:zindexsort.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:accessedattrs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activeeffectscope.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activepostflushcbs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activesub.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activewatcher.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:addeventlistener.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:addsub.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:addtransitionclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:allowmismatchattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:animation.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:apply.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:applyoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:applytranslation.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:array-iterate-key.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:arrayinstrumentations.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:arrayproto.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:assertnumber.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:asserttype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:assignkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:assignslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:attrsproxyhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:autoprefix.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:baseclass.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basecreaterenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basereactivehandler.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basetransition.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basetransitionimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basetransitionpropsvalidators.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batchdepth.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batchedcomputed.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batchedsub.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:blockstack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:buffer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:builtinsymbols.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cachednow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cachestringfunction.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callhook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callhook2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callmodelhook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callpendingcbs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callwithasyncerrorhandling.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callwitherrorhandling.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:camelize.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:camelizere.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cancelidlecallback.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:capitalize.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:castvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:checkidentitykeys.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:checkrecursiveupdates.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:classify.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:classifyre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cleanupdeps.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cleanupeffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cleanupmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cloneifmounted.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:clonevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:closeblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:comment.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:compatutils.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:compile.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:compile2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:components.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:computed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:computed2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:computedrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createapp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createappapi.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createappcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createbasevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createcommentvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createcomponentinstance.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createdevrendercontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createdevtoolscomponenthook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createdevtoolsperformancehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createduplicatechecker.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createelementblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createhook.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createhydrationfunctions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createhydrationrenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinnercomp.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinstrumentationgetter.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinstrumentations.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinternalobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinvoker.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createiterablemethod.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createpathgetter.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createpropsrestproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createreactiveobject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createreadonlymethod.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createrecord.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createrenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createsetupcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createslots.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createssrapp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createstaticvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createsuspenseboundary.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createtextvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createvnode.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createvnodewithargstransform.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createwatcher.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:css-var-text.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cssvarnameescapesymbolsre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentapp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentblock.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentflushpromise.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentrenderinginstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentscopeid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:customref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:customrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:decorate-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:decorate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:deepclonevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:def.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineasynccomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definecomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definecustomelement.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineemits.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineexpose.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definemodel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineslots.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definessrcustomelement.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:dep.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:deprecationtypes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtools-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtools.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentadded.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentemit.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentremoved.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentremoved.variable-2'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentupdated.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsinitapp.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsnotinstalled.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsperfend.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsperfstart.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsunmountapp.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:directives.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:displayre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:doc.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:domtransitionpropsvalidators.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:dowatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:effect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:effectscope.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:effectscope.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:elementisvisibleinviewport.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emit-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emit.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:empty-arr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:empty-obj.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emptyappcontext.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emptyplaceholder.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:enabledhydration.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:endbatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:endid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:endmeasure.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ensurehydrationrenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ensurerenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ensurevalidvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:entercbkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:entercbkey2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:errorcodes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:errortypestrings-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:errortypestrings.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:exposepropsonrendercontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:exposesetupstateonrendercontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:extend.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:filtermodellisteners.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:filtersingleroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:findinsertionindex.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:findnoncommentchild.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:finishcomponentsetup.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushindex.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushjobs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushpostflushcbs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushpreflushcbs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:forcereflow.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:foreachelement.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formatcomponentname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formatprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formatprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formattrace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formattraceentry.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:fragment.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcheckboxvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getchildroot.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcomponentname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcomponentpublicinstance.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcomponenttrace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcontainertype.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcurrentscope.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcurrentwatcher.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getdepfromreactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getescapedcssvarname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getfunctionalfallthrough.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getglobalthis.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getinnerchild-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getinnerchild.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getinvalidtypemessage.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getleavingnodesfortype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getmodelassigner.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getmodelmodifiers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getnow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getposition.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getproto.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getpublicinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getsequence.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getslotsproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettargettype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getterrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettimeout.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettransitioninfo.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettransitionrawchildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:globals-allowed.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:globalthis.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:globalversion.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:guardreactiveprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:h.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:handleerror.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:handlesetupresult.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haschanged.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hascsstransform.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasexplicitcallback.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasinjectioncontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasloggedmismatcherror.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasown.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasownproperty.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasownproperty2.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haspropschanged.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haspropvaluechanged.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hassetupbinding.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haswarned.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hmrdirtycomponents.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:html-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateonidle.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateoninteraction.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateonmediaquery.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateonvisible.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydratesuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateteleport.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hyphenate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hyphenatere.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:importantre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:includebooleanattr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initcustomformatter.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initdev.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initdirectivesforssr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initfeatureflags.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initial-watcher-value.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initvmodelforssr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initvshowforssr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:inject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injectcompileroptionscheck.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injecthook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injectnativetagcheck.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injecttokeepaliveroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:installwithproxy.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:instancewatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:internalobjectproto.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:internaloptionmergestrats.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:internalsetcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invalidatemount.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invalidatependingsetref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invokearrayfns.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invokedirectivehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invokevnodehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isarray.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isasyncwrapper.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isblocktreeenabled.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isboolean.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isbooleanattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isbuiltindirective.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isbuiltintag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isclasscomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iscomment.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isdate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isdirty.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iselementroot.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isemitlistener.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isexplicable.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isfunction.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isgloballyallowed.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ishmrupdating.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ishtmltag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinhmrcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinssrcomponentsetup.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isintegerkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinternalkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinternalobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iskeepalive.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isknownhtmlattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isknownmathmlattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isknownsvgattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismapequal.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismathmlcontainer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismathmltag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismemosame.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismismatchallowed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismodellistener.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isnativeon.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isnontrackablekeys.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ison.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isplainobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ispromise.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreadonly.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isref.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isref2.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isregexp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isrenderableattrvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreservedprefix.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreservedprop.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isruntimeonly.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issamevnodetype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isset.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issetequal.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isshallow.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issimpletype.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isspecialbooleanattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isstatefulcomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isstring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issupported.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issuspense.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issvgcontainer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issvgtag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issymbol.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:istargetmathml.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:istargetsvg.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isteleport.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isteleportdeferred.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isteleportdisabled.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:istemplaterefkey.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isvnodesuspensible.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isvoidtag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iswarning.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iterate-key.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iterator.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:keepalive.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:keepaliveimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:keynames.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:knowntemplaterefs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:leavecbkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:link.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:listdelimiterre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:locatenonhydratedasyncroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:logerror.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:logmismatcherror.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:loosecomparearrays.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:looseequal.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:looseindexof.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:loosetonumber.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:makemap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:map-key-iterate-key.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:map.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:markasyncboundary.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:markattrsaccessed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:markraw.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:matches.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:math-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mathmlns.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeasarray.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergedatafn.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergedefaults.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeemitsorpropsoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeinject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergemodels.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeobjectoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergewatchoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mismatchtypestring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mixinemitscache.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mixinpropscache.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:modifierguards.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mountsuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:movecbkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:moveteleport.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mutablecollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mutablehandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mutablereactivehandler.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:needtransition.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:newpositionmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:nextframe.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:nexttick.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:no.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:nodeops.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:noop.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizechildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeclasscomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizecontainer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizecssvarvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeduration.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeemitsoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeinject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizekey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeobjectslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizepropsoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizepropsoremits.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeref.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeslot.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeslotvalue.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizestyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizesuspensechildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizesuspenseslot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizevnodeslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:notracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:null-dynamic-component.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:numberof.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:objectrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:objecttostring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onactivated.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onbeforemount.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onbeforeunmount.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onbeforeupdate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:oncompositionend.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:oncompositionstart.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ondeactivated.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onerrorcaptured.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onmounted.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onrendertracked.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onrendertriggered.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onscopedispose.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onserverprefetch.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onunmounted.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onupdated.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onwatchercleanup.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:openblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:optionsmodifierre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:p.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:parsename.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:parsestringstyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchattr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchdomprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchevent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchprop.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchstopimmediatepropagation.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchstyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchsuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pausedqueueeffects.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pausetracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pendingpostflushcbs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pendingsetrefmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:perf.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:policy.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:popscopeid.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:popwarningcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:positionmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:postflushindex.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prefixcache.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prefixes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prepareanchor.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:preparedeps.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:propertydelimiterre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:propertytoref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prophasmismatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:provide.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:proxyrefs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:publicinstanceproxyhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:publicpropertiesmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pushscopeid.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pushwarningcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queue.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queueeffectwithsuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queueflush.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queuejob.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queuepostflushcb.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queuepostrendereffect.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactiveeffect.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactivemap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactivereadarray.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonly.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlycollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlyhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlymap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlyreactivehandler.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:recordposition.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:recursion-limit.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:recursivegetsubtree.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reduce.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:refimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:refreshcomputed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:registerhmr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:registerkeepalivehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:registerruntimecompiler.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reload.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removal.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:remove.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removedep.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removeeventlistener.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removesub.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removetransitionclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:render.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:rendercomponentroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:renderer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:rendereroptions.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:renderlist.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:renderslot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:replacer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:requestidlecallback.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:rerender.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resetshapeflag.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resettracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolve.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolveasset.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolveasynccomponentplaceholder.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvechildrennamespace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvecomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvecssvars.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedirective.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedpromise.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedynamiccomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedynamicmodel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvefilter.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolveinjections.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvemergedoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvepropvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolverootnamespace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvetarget.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvetransitionhooks.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvetransitionprops.function'
+  - >-
+    symbol:chunk-7oikw5wk-a144e02d:runtimecompiledpublicinstanceproxyhandlers.variable
+  - 'symbol:chunk-7oikw5wk-a144e02d:sanitizeeventvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:searchproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:semicolonre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setactivebranch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setblocktracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setchecked.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setcurrentrenderinginstance.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setdevtoolshook-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setdevtoolshook.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setdisplay.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setfullprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:sethmrupdating.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setinssrsetupstate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setselected.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setstyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:settransitionhooks.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setupblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setupcomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setupstatefulcomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setvarsonnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setvarsonvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowcollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreactivehandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreactivemap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadarray.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonly.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonlycollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonlyhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonlymap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowunwraphandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldcacheaccess.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldsetasprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldsetaspropforvuece.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldtrack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldupdatecomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:specialbooleanattrs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrcontextkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrdirectiveinitialized.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrutils.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrutils.variable-2'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:startbatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:startmeasure.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:static.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stringifystyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stringifysymbol.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stylecommentre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stylevalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:supported.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:suspense.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:suspenseid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:suspenseimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:svg-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:svgns.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:systemmodifiers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:targetmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:targettypemap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:teleport.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:teleportendkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:teleportimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:templatecontainer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:text.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toclassset.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:todisplaystring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:togglerecurse.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tohandlerkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tohandlers.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toms.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tonumber.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toraw.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:torawtype.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toreactive.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toreadonly.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:torefs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toshallow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tostylemap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:totypestring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tovalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:towrapped.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:track.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trackoptypes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trackstack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transformvnodeargs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transition.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transition.variable-2'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitiongroup.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitiongroupimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitionhookvalidator.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitionpropsvalidators.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:traverse.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:traversestaticchildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trigger.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:triggerevent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:triggeroptypes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:triggerref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trywrap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tt.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:uid-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:uid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unregisterhmr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unsafetotrustedhtml.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unsetcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updatecomponentdef.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updatecssvars.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updatehochostel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updateprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updateslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useattrs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usecssmodule.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usecssvars.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usehost.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useid.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usemodel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useshadowroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useslots.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usessrcontext.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usetemplateref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usetransitionstate.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validatecomponentname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validatedirectivename.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validateprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validatepropname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validateprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:veikey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:version.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodelcheckbox.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodeldynamic.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodelradio.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodelselect.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodeltext.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vnodeargstransformer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:void-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vshow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vshowhidden.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vshoworiginaldisplay.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vtckey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vueelement.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warn-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warn.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warn2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warnruntimeusage.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watch2.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watcheffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watchposteffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watchsynceffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:whentransitionends.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withasynccontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withctx.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withdefaults.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withdirectives.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withkeys.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withmemo.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withmodifiers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withscopeid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:xlinkns.variable'
+  - >-
+    symbol:vitepress-vueuse-core-992426fa:arrived-state-threshold-pixels.variable
+  - 'symbol:vitepress-vueuse-core-992426fa:assert.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:blobtobase64.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:bottomvarname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsantdesign.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsbootstrapv5.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointselement.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsmastercss.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsprimeflex.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsquasar.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointssematic.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointstailwind.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsvuetify.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsvuetifyv2.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsvuetifyv3.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:bypassfilter.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:cachestringfunction.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:camelize.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:camelizere.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:checkoverflowscroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:clamp.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:clonefnjson.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:combinecallbacks.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedasync.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedeager.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedinject.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedwithcontrol.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:containsprop.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:controlledref.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:createcalculaterange.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createcomputedtotalsize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createeasingfunction.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createeventhook.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createfetch.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createfilterwrapper.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:creategetdistance.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:creategetoffset.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:creategetviewcapacity.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createglobalstate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createinjectionstate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createkeypredicate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createreusabletemplate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createscrollto.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createsharedcomposable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createsingletonpromise.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createtemplatepromise.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createunreffn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createuntil.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createworkerbloburl.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:css-disable-trans.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:customstorageeventname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:debouncefilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-delay.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-formatter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-messages.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-options.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-ping-message.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-threshold.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-units.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultcomparator.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultcompare.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultdocument.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultdump.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultevents-1.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultevents.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultlocation.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultmagickeysaliasmap.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultmeridiem.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultnavigator.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultoptions.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultparse.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaults.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultsortfn.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultstate.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultwindow.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:depsparser.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:elinitialoverflow.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:event-focus-in.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:event-focus-out.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:eventhandlers.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:events.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:executetransition.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:extendref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:findlast.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:fnbypass.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:fnsetsource.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:formatdate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:formatordinal.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:formattimeago.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:get.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getdefaultserialization.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:gethandlers.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getisios.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getlifecycletarget.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getoldvalue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getrangesfromselection.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getssrhandler.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getvalue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getwatchsources.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:global.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:globalkey.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:guessserializertype.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:handlers.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:hasown.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:headerstoobject.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:hyphenate.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:hyphenatere.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:id.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:identity.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:imgloaded.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:increasewithunit.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:injectlocal.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:invoke.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:iosworkaround.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isabsoluteurl.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isarrayincludesoptions.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isclient.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isdef.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isdefined.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isfetchoptions.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isfocusedelementeditable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isios.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isobject.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:istypedcharvalid.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isworker.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:jobrunner.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:joinpaths.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:keys.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:keystocamelkebabcase.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:leftvarname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:lerp.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:loadimage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:localprovidedstatemap.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:makedestructurable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:mapgamepadtoxbox360controller.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:noop.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:normalizedate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:notnullish.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:now.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:objectentries.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:objectomit.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:objectpick.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onclickoutside.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onelementremoval.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:oneminute.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeydown.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeypressed.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeystroke.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeyup.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onlongpress.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onstarttyping.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:pausablefilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:payloadmapping.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:prepareinitialfiles.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:preventdefault.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:promisetimeout.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:providelocal.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:providessrwidth.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:pseudo-class-focus-within.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:pxvalue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:rand.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:reabsolute.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactify.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactifyobject.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactivecomputed.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactiveomit.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactivepick.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refautoreset.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refdebounced.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refdefault.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refthrottled.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refwithcontrol.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:regex-format.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:regex-parse.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolveelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolvenestedoptions-1.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolvenestedoptions.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolveref.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolveunref.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:rightvarname.variable'
+  - >-
+    symbol:vitepress-vueuse-core-992426fa:scrolltodictionaryforelementscrollkey.variable
+  - 'symbol:vitepress-vueuse-core-992426fa:set.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:setssrhandler.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:ssrwidthsymbol.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:storageserializers.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:syncref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:syncrefs.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:templateref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:throttlefilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:timerangetoarray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:timestamp.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:toarray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:topvarname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:toreactive.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:toref2.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:torefs2.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tostring.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:tovalue2.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:tovec.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:trackstoarray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:transitionpresets.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:transitionpresets.variable-2'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonbeforemount.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonbeforeunmount.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonmounted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonscopedispose.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonunmounted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryrequestanimationframe.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uniq.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uniqueelementsby.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:unrefelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:until.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useactiveelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useanimate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearraydifference.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayevery.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfind.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfindindex.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfindlast.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayincludes.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayjoin.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearraymap.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayreduce.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearraysome.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayunique.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useasyncqueue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useasyncstate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebase64.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebattery.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebluetooth.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebreakpoints.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebroadcastchannel.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebrowserlocation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecached.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useclamp.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useclipboard.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useclipboarditems.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecloned.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecolormode.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useconfirmdialog.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecountdown.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecounter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecssvar.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecurrentelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecyclelist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedark.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedateformat.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedebouncedrefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedebouncefn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedevicemotion.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedeviceorientation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedevicepixelratio.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedeviceslist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedisplaymedia.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedocumentvisibility.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedraggable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedropzone.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementbounding.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementbypoint.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementhover.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementsize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementvisibility.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeventbus.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeventlistener.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeventsource.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeyedropper.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefavicon.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefetch.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefiledialog.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefilesystemaccess.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefocus.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefocuswithin.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefps.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefullscreen.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usegamepad.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usegeolocation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usehorizontalvirtuallist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useidle.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useimage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useinfinitescroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useintersectionobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useinterval.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useintervalfn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usekeymodifier.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uselastchanged.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uselocalstorage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemagickeys.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemanualrefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemediacontrols.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemediaquery.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usememoize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usememory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemounted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemouse.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemousebuiltinextractors.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemouseinelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemousepressed.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemutationobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usenavigatorlanguage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usenetwork.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usenow.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useobjecturl.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useoffsetpagination.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useonline.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepageleave.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useparallax.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useparentelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useperformanceobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepermission.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepointer.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepointerlock.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepointerswipe.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredcolorscheme.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredcontrast.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferreddark.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredlanguages.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredreducedmotion.function'
+  - >-
+    symbol:vitepress-vueuse-core-992426fa:usepreferredreducedtransparency.function
+  - 'symbol:vitepress-vueuse-core-992426fa:useprevious.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useraffn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:userefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useresizeobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescreenorientation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescreensafearea.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescripttag.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescrolllock.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usesessionstorage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useshare.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usesorted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usespeechrecognition.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usespeechsynthesis.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usessrwidth.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestepper.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestorage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestorageasync.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestyletag.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usesupported.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useswipe.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetemplaterefslist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetextareaautosize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetextdirection.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetextselection.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usethrottledrefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usethrottlefn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeago.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeout.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeoutfn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeoutpoll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimestamp.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetitle.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetoggle.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetonumber.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetostring.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetransition.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useurlsearchparams.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useusermedia.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useverticalvirtuallist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevibrate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevirtuallist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevirtuallistresources.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevmodel.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevmodels.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewakelock.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewatchforsizes.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebnotification.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebsocket.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebworker.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebworkerfn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewindowfocus.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewindowscroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewindowsize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usingelref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watcharray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchatmost.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchdebounced.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchdeep.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchignorable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchimmediate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchonce.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchpausable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchthrottled.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchtriggerable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchwithfilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:whenaborted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:whenever.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:writable-properties.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a10.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a11.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a12.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a13.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a14.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a15.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a16.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a17.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a18.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a19.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a20.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a21.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a22.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a222.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a23.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a24.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a3.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a4.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a5.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a6.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a7.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a8.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:a9.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:activeapprecord.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addcustomcommand.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addcustomtab.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addidentity.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addinspector.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:addtimelinelayer.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:allowerrorprops.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:applypromised.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:applyreferentialequalityannotations.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:applyvalueannotations.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:apprecordinfo.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:assignprop.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b10.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b11.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b12.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b13.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b14.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b15.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b16.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b17.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b18.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b19.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b20.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b21.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b22.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b23.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b24.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b3.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b4.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b5.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b6.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b7.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b8.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:b9.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:basename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:callconnectedupdatedhook.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:calldevtoolspluginsetupfn.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:calleachwith.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:callinspectorupdatedhook.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:callstateupdatedhook.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:cancelinspectcomponenthighlighter.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:card-element-id.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:cardstyles.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classify.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classifyre.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classregistry.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:classrule.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:commonjs.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:commonjs2.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:component-name-element-id.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:compositerules.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:compositetransformation.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:constructortoname.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:container-element-id.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:containerstyles.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:copy.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:copyprops.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:copyprops2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:create.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:create.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:create2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createdevtoolsapi.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createdevtoolsctxhooks.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createhooks.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createrect.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createtask.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:createtask.variable-2'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:customrule.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:customtransformerregistry.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:debounce-defaults.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:debounce.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:deepclone.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:default-rect.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:defaulttask.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:defprop.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:defprop2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:deserialize.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsapprecords.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolscontext.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolscontexthookkeys.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolshooks.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsinspector.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:devtoolsmessaginghookkeys.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolspluginapi.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolspluginbuffer.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsrouter.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsrouterinfo.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsstate.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolstimelinelayers.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:devtoolsv6pluginapi.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:devtoolsv6pluginapihookkeys.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:doubleindexedkv.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:escapekey.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:esm.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:esm2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:filtercurrentroute.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:filterroutes.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:find.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:findarr.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:flathooks.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:foreach.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:fragment.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:generatereferentialequalityannotations.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getactiveinspectors.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getapprecord.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcardelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentboundingrect.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentfilename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentinspector.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponentinstance.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcomponenttypename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getcontainerelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getdeep.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getfragmentrect.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getfragmentrootelements.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getindicatorelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getinspector.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getinstancename.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getnameelement.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getnthkey.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropdesc.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropdesc2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropnames.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getownpropnames2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getpluginlocalkey.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getpluginsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getpluginsettingsoptions.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getprotoof.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getprotoof2.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:getrootelementsfromcomponentinstance.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getroutes.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getstyles.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:gettextrect.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:gettimelinelayersstatefromstorage.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:gettype.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:gettype2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:getuniquecomponentid.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hasownprop.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hasownprop2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:highlight.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hook.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hookable.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:hooks.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:http-url-re.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:import-rfdc.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:import-speakingurl.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:includes.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:indicator-element-id.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:indicatorstyles.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:infinity.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:init-esm-shims.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:init-esm-shims2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:initpluginsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:initstatefactory.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:inspectcomponenthighlighter.function
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:inspectcomponenthighlighterselectfn.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:inspectfn.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:inspectinstance.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isarray.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isarray2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isbigint.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isboolean.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isbrowser.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isdate.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isdeep.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isemptyobject.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:iserror.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isfragment.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isinchromepanel.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isinelectron.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isinfinite.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isiniframe.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:isinstanceofregisteredclass.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:ismap.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnanvalue.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnull.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnull2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnullorundefined.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnumber.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isnuxtapp.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isoneof.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isplainobject2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isplainobject3.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isprimitive2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isreactive.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isreadonly.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isref.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isregexp.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isset.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isstring.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:issymbol.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:istypedarray.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isundefined.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isundefined2.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isurl.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:isurlstring.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:max-serialized-size.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:mergerects.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:nan.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:negative-infinity.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:normalizerouterinfo.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:on.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:ondevtoolsclientconnected.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:ondevtoolsconnected.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:openineditor.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:paralleltaskcaller.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:parse.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:parsepath.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:random.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:range.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:refstateeditor.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registerclass.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registercustom.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registerdevtoolsplugin.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registersymbol.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:registry.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:removecustomcommand.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:require-rfdc.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:require-speakingurl.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:require-speakingurl2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:resolveicon.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:reversedtokenmap.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:router-info-key.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:router-key.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:savecomponentgussedname.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:scrolltocomponent.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:selectcomponentfn.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:serialize.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:serialtaskcaller.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setactiveapprecord.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setactiveapprecordid.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setdeep.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setpluginsettings.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setupdevtoolsplugin.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:setupinspector.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:simplerules.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:simplerulesbyannotation.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:simpletransformation.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:state-key.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stateeditor.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stateeditor.variable-2'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stringify.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:stringifypath.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:superjson.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:symbolrule.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:target.variable'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:timeline-layers-state-storage-id.variable
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toesm.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toesm2.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:togglehighperfmode.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:tokenmap.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toraw.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:toupper.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:transformvalue.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:traverse.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:typedarrayrule.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:undefined.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:unhighlight.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:untransformvalue.variable'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:update.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:updateallstates.function'
+  - >-
+    symbol:vitepress-vue-devtools-api-d989dc21:updatedevtoolsclientdetected.function
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:validatepath.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:valuesofobj.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:waitforinspectorinit.function'
+  - 'symbol:vitepress-vue-devtools-api-d989dc21:walker.variable'
+  - 'module:ajv-dist-2020-951a2569'
+  - 'symbol:ajv-dist-2020-951a2569:require-additionalitems.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-additionalproperties.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-allof.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-anyof.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-applicability.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-applicator.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-applicator2.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-boolschema.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-code.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-code2.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-codegen.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-compile.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-const.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-contains.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-content.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-core.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-core2.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-core3.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-data.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-datatype.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-defaults.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-dependencies.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-dependentrequired.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-dependentschemas.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-discriminator.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-draft2020.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-dynamic.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-dynamicanchor.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-dynamicref.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-enum.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-equal.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-errors.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-fast-deep-equal.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-fast-uri.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-format-annotation.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-format.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-format2.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-id.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-if.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-items.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-items2020.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-json-schema-2020-12.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-json-schema-traverse.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-keyword.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-limitcontains.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-limititems.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-limitlength.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-limitnumber.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-limitproperties.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-meta-data.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-metadata.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-multipleof.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-names.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-next.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-not.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-oneof.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-pattern.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-patternproperties.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-prefixitems.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-properties.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-propertynames.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-recursiveanchor.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-recursiveref.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-ref-error.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-ref.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-required.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-resolve.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-rules.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-schema.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-schemes.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-scope.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-subschema.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-thenelse.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-types.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-ucs2length.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-unevaluated.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-unevaluated2.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-unevaluateditems.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-unevaluatedproperties.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-uniqueitems.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-uri.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-util.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-utils.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-validate.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-validation-error.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-validation.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require-validation2.variable'
+  - 'symbol:ajv-dist-2020-951a2569:require.variable'
+  - 'symbol:jsonc-parser-d0f45765:applyedit.function'
+  - 'symbol:jsonc-parser-d0f45765:applyedits.function'
+  - 'symbol:jsonc-parser-d0f45765:cachedbreaklineswithspaces.variable'
+  - 'symbol:jsonc-parser-d0f45765:cachedspaces.variable'
+  - 'symbol:jsonc-parser-d0f45765:charactercodes.variable'
+  - 'symbol:jsonc-parser-d0f45765:computeindentlevel.function'
+  - 'symbol:jsonc-parser-d0f45765:contains.function'
+  - 'symbol:jsonc-parser-d0f45765:createscanner.function'
+  - 'symbol:jsonc-parser-d0f45765:createscanner2.variable'
+  - 'symbol:jsonc-parser-d0f45765:findnodeatlocation.function'
+  - 'symbol:jsonc-parser-d0f45765:findnodeatlocation2.variable'
+  - 'symbol:jsonc-parser-d0f45765:findnodeatoffset.function'
+  - 'symbol:jsonc-parser-d0f45765:findnodeatoffset2.variable'
+  - 'symbol:jsonc-parser-d0f45765:format.function'
+  - 'symbol:jsonc-parser-d0f45765:format2.function'
+  - 'symbol:jsonc-parser-d0f45765:geteol.function'
+  - 'symbol:jsonc-parser-d0f45765:getlocation.function'
+  - 'symbol:jsonc-parser-d0f45765:getlocation2.variable'
+  - 'symbol:jsonc-parser-d0f45765:getnodepath.function'
+  - 'symbol:jsonc-parser-d0f45765:getnodepath2.variable'
+  - 'symbol:jsonc-parser-d0f45765:getnodetype.function'
+  - 'symbol:jsonc-parser-d0f45765:getnodevalue.function'
+  - 'symbol:jsonc-parser-d0f45765:getnodevalue2.variable'
+  - 'symbol:jsonc-parser-d0f45765:isdigit.function'
+  - 'symbol:jsonc-parser-d0f45765:iseol.function'
+  - 'symbol:jsonc-parser-d0f45765:islinebreak.function'
+  - 'symbol:jsonc-parser-d0f45765:iswhitespace.function'
+  - 'symbol:jsonc-parser-d0f45765:maxcachedvalues.variable'
+  - 'symbol:jsonc-parser-d0f45765:modify.function'
+  - 'symbol:jsonc-parser-d0f45765:parse.function'
+  - 'symbol:jsonc-parser-d0f45765:parse2.variable'
+  - 'symbol:jsonc-parser-d0f45765:parseerrorcode.variable'
+  - 'symbol:jsonc-parser-d0f45765:parseoptions.variable'
+  - 'symbol:jsonc-parser-d0f45765:parsetree.function'
+  - 'symbol:jsonc-parser-d0f45765:parsetree2.variable'
+  - 'symbol:jsonc-parser-d0f45765:printparseerrorcode.function'
+  - 'symbol:jsonc-parser-d0f45765:repeat.function'
+  - 'symbol:jsonc-parser-d0f45765:scanerror.variable'
+  - 'symbol:jsonc-parser-d0f45765:setproperty.function'
+  - 'symbol:jsonc-parser-d0f45765:stripcomments.function'
+  - 'symbol:jsonc-parser-d0f45765:stripcomments2.variable'
+  - 'symbol:jsonc-parser-d0f45765:supportedeols.variable'
+  - 'symbol:jsonc-parser-d0f45765:syntaxkind.variable'
+  - 'symbol:jsonc-parser-d0f45765:visit.function'
+  - 'symbol:jsonc-parser-d0f45765:visit2.variable'
+  - 'symbol:jsonc-parser-d0f45765:withformatting.function'
+  - 'module:playground-a130e091'
+  - 'symbol:playground-a130e091:activeindex.variable'
+  - 'symbol:playground-a130e091:addoperation.function'
+  - 'symbol:playground-a130e091:applyingsnapshot.variable'
+  - 'symbol:playground-a130e091:applysnapshot.function'
+  - 'symbol:playground-a130e091:bufferlabel.variable'
+  - 'symbol:playground-a130e091:clearall.function'
+  - 'symbol:playground-a130e091:confirmremove.function'
+  - 'symbol:playground-a130e091:copyjson.function'
+  - 'symbol:playground-a130e091:expandedtraits.variable'
+  - 'symbol:playground-a130e091:history.variable'
+  - 'symbol:playground-a130e091:iseditabletarget.function'
+  - 'symbol:playground-a130e091:json.variable'
+  - 'symbol:playground-a130e091:jsondraft.variable'
+  - 'symbol:playground-a130e091:jsoneditor.class'
+  - 'symbol:playground-a130e091:jsonerrors.variable'
+  - 'symbol:playground-a130e091:leftpanel.variable'
+  - 'symbol:playground-a130e091:loadtutorial.function'
+  - 'symbol:playground-a130e091:manualsave.function'
+  - 'symbol:playground-a130e091:normalizeoperation.function'
+  - 'symbol:playground-a130e091:normalizeterm.function'
+  - 'symbol:playground-a130e091:now.variable'
+  - 'symbol:playground-a130e091:nowtimer.variable'
+  - 'symbol:playground-a130e091:onjsonedit.function'
+  - 'symbol:playground-a130e091:onkeydown.function'
+  - 'symbol:playground-a130e091:onredo.function'
+  - 'symbol:playground-a130e091:onundo.function'
+  - 'symbol:playground-a130e091:op.variable'
+  - 'symbol:playground-a130e091:operations.variable'
+  - 'symbol:playground-a130e091:playground.class'
+  - 'symbol:playground-a130e091:programcomment.variable'
+  - 'symbol:playground-a130e091:programid.variable'
+  - 'symbol:playground-a130e091:programtraits.variable'
+  - 'symbol:playground-a130e091:removeoperation.function'
+  - 'symbol:playground-a130e091:resetjson.function'
+  - 'symbol:playground-a130e091:saveack.variable'
+  - 'symbol:playground-a130e091:savedlabel.variable'
+  - 'symbol:playground-a130e091:scitooltip.class'
+  - 'symbol:playground-a130e091:seed.variable'
+  - 'symbol:playground-a130e091:showjson.variable'
+  - 'symbol:playground-a130e091:snapshot.interface'
+  - 'symbol:playground-a130e091:termeditor.class'
+  - 'symbol:playground-a130e091:termviz.class'
+  - 'symbol:playground-a130e091:toggletrait.function'
   - 'module:playground-e45a65a6'
   - 'symbol:playground-e45a65a6:activeindex.variable'
   - 'symbol:playground-e45a65a6:addoperation.function'
@@ -159,126 +2604,140 @@ node_ids: &ref_0
   - 'symbol:playground-e45a65a6:termeditor.class'
   - 'symbol:playground-e45a65a6:termviz.class'
   - 'symbol:playground-e45a65a6:toggletrait.function'
-  - 'module:jsoneditor-7d7aec64'
-  - 'symbol:jsoneditor-7d7aec64:annotations.variable'
-  - 'symbol:jsoneditor-7d7aec64:annotationstyle.function'
-  - 'symbol:jsoneditor-7d7aec64:charsizer.variable'
-  - 'symbol:jsoneditor-7d7aec64:errorlines.variable'
-  - 'symbol:jsoneditor-7d7aec64:focuserror.function'
-  - 'symbol:jsoneditor-7d7aec64:gutter.variable'
-  - 'symbol:jsoneditor-7d7aec64:jsoneditor.class'
-  - 'symbol:jsoneditor-7d7aec64:lineannotation.interface'
-  - 'symbol:jsoneditor-7d7aec64:lines.variable'
-  - 'symbol:jsoneditor-7d7aec64:measuremetrics.function'
-  - 'symbol:jsoneditor-7d7aec64:metrics.variable'
-  - 'symbol:jsoneditor-7d7aec64:onscroll.function'
-  - 'symbol:jsoneditor-7d7aec64:props.variable'
-  - 'symbol:jsoneditor-7d7aec64:scrollleft.variable'
-  - 'symbol:jsoneditor-7d7aec64:scrollrangeintoview.function'
-  - 'symbol:jsoneditor-7d7aec64:scrolltop.variable'
-  - 'symbol:jsoneditor-7d7aec64:textarea.variable'
-  - 'module:scitooltip-2260fcf0'
-  - 'symbol:scitooltip-2260fcf0:margin.variable'
-  - 'symbol:scitooltip-2260fcf0:onenter.function'
-  - 'symbol:scitooltip-2260fcf0:onleave.function'
-  - 'symbol:scitooltip-2260fcf0:pos.variable'
-  - 'symbol:scitooltip-2260fcf0:props.variable'
-  - 'symbol:scitooltip-2260fcf0:sciref.interface'
-  - 'symbol:scitooltip-2260fcf0:scitooltip.class'
-  - 'symbol:scitooltip-2260fcf0:show.variable'
-  - 'symbol:scitooltip-2260fcf0:teleport.class'
-  - 'symbol:scitooltip-2260fcf0:tip-width.variable'
-  - 'symbol:scitooltip-2260fcf0:transition.class'
-  - 'symbol:scitooltip-2260fcf0:trigger.variable'
-  - 'symbol:scitooltip-2260fcf0:updateposition.function'
-  - 'module:jsonvalidation-f62dc3f7'
-  - 'symbol:jsonvalidation-f62dc3f7:ajv.variable'
-  - 'symbol:jsonvalidation-f62dc3f7:domainerror.function'
-  - 'symbol:jsonvalidation-f62dc3f7:errorkind.type_alias'
-  - 'symbol:jsonvalidation-f62dc3f7:humanizeschemaerror.function'
-  - 'symbol:jsonvalidation-f62dc3f7:instancepathtosegments.function'
-  - 'symbol:jsonvalidation-f62dc3f7:nodetovalue.function'
-  - 'symbol:jsonvalidation-f62dc3f7:playgrounderror.interface'
-  - 'symbol:jsonvalidation-f62dc3f7:rangefromoffset.function'
-  - 'symbol:jsonvalidation-f62dc3f7:schemaerrortoplayground.function'
-  - 'symbol:jsonvalidation-f62dc3f7:sourcerange.interface'
-  - 'symbol:jsonvalidation-f62dc3f7:validateinstruction.variable'
-  - 'symbol:jsonvalidation-f62dc3f7:validatejson.function'
-  - 'module:termeditor-e3bdad59'
-  - 'symbol:termeditor-e3bdad59:addterm.function'
-  - 'symbol:termeditor-e3bdad59:coercevalue.function'
-  - 'symbol:termeditor-e3bdad59:compound.variable'
-  - 'symbol:termeditor-e3bdad59:kinds.variable'
-  - 'symbol:termeditor-e3bdad59:numeric.variable'
-  - 'symbol:termeditor-e3bdad59:onkindchange.function'
-  - 'symbol:termeditor-e3bdad59:onvalueinput.function'
-  - 'symbol:termeditor-e3bdad59:removeterm.function'
-  - 'symbol:termeditor-e3bdad59:term.interface'
-  - 'symbol:termeditor-e3bdad59:termeditor.class'
-  - 'symbol:termeditor-e3bdad59:togglecomment.function'
-  - 'symbol:termeditor-e3bdad59:togglerequired.function'
-  - 'module:termviz-37c301d3'
-  - 'symbol:termviz-37c301d3:kindmeta.interface'
-  - 'symbol:termviz-37c301d3:kindmeta.variable'
-  - 'symbol:termviz-37c301d3:sciref.interface'
-  - 'symbol:termviz-37c301d3:scitooltip.class'
-  - 'symbol:termviz-37c301d3:term.interface'
-  - 'symbol:termviz-37c301d3:termviz.class'
-  - 'module:demooperations-e845b3b1'
-  - 'symbol:demooperations-e845b3b1:demo.variable'
-  - 'symbol:demooperations-e845b3b1:demooperations.function'
-  - 'symbol:demooperations-e845b3b1:emptyoperation.function'
-  - 'symbol:demooperations-e845b3b1:operation.interface'
-  - 'symbol:demooperations-e845b3b1:term.interface'
-  - 'source:12-the-conference-cc7a4771'
-  - 'source:15-the-coexistence-22bc8664'
-  - 'source:16-the-founder-s-dream-7178fd75'
-  - 'source:17-the-gallium-28cb4937'
-  - 'source:24-the-trial-ad8162d4'
-  - 'source:26-the-compilers-528e2d40'
-  - 'source:29-the-anthill-organizes-21255101'
-  - 'source:31-the-hamster-leaves-the-wheel-8bb31c69'
-  - 'source:32-the-verdict-3837cfdb'
-  - 'source:33-the-amplifier-e4125d9b'
-  - 'source:3d-pub-bar-role-game-the-krabby-patty-3de2f4ab'
-  - 'source:3e-pub-bar-role-game-runtime-autopsy-e1b81c09'
-  - 'source:3g-pub-bar-role-game-deepseek-s-letter-4b07f74b'
-  - 'source:3h-pub-bar-role-game-the-epilogue-69d8acdc'
-  - 'source:9-the-operation-comes-first-f6c6890b'
-  - 'source:devlog-a4b51b88'
-  - 'source:fifteen-times-the-same-idea-4245d970'
-  - 'source:license-c71d239d'
 freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:46:20.429Z'
-updated_at: '2026-05-03T04:02:11.652Z'
+updated_at: '2026-05-03T05:33:22.257Z'
 compiled_from:
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
   - 1-why-5b9657bb
+  - 10-pistol-c4a46637
   - 10-there-is-no-generation-35e5560a
+  - 11-bundle-d20d9270
   - 11-from-silicon-to-struct-283a2ad1
+  - 12-profession-6a98045a
   - 12-the-conference-cc7a4771
   - 13-convergent-evolution-42fa3b44
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
   - 14-the-fact-7e232060
+  - 15-black-dfde2647
   - 15-the-coexistence-22bc8664
+  - 16-migrations-115e9686
   - 16-the-founder-s-dream-7178fd75
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
   - 17-the-gallium-28cb4937
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
   - 18-the-fourth-rail-f496db69
+  - 19-mongodb-ff331c30
   - 19-the-missing-format-37a6499f
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
   - 2-research-trail-834ba4c9
+  - 20-promise-65f67015
   - 20-the-playground-353dd7fb
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
   - 21-the-atoms-speak-72df059e
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
   - 22-the-dream-layer-d04b39b6
   - 23-the-vacant-cell-4774271c
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
   - 24-the-trial-ad8162d4
   - 25-the-manifesto-ebee95e5
   - 26-the-compilers-528e2d40
   - 27-build-link-runtime-2e7dc35f
   - 28-dobby-is-free-6542412c
   - 29-the-anthill-organizes-21255101
+  - 3-bleed-09df896e
   - 30-the-first-stranger-502ca504
   - 31-the-hamster-leaves-the-wheel-8bb31c69
   - 32-the-verdict-3837cfdb
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
   - 33-the-amplifier-e4125d9b
   - 3a-pub-bar-role-game-discoveries-6494703c
   - 3b-pub-bar-role-game-the-bar-reopens-3094a23e
@@ -288,30 +2747,92 @@ compiled_from:
   - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
   - 3g-pub-bar-role-game-deepseek-s-letter-4b07f74b
   - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
   - 9-the-operation-comes-first-f6c6890b
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
   - auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
   - bug-report-0c8d64f2
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-a144e02d
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-a9582e69
+  - chunk-busya2b4-js-ed562b0b
   - ci-fab63fbd
   - commitlintrc-bd2072fb
+  - composer-2fcc293f
+  - composer-61edd1a7
   - composer-c80b8ea8
   - config-2dc140d0
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
   - demooperations-e845b3b1
+  - demotest-276ee805
   - dependabot-auto-merge-a7978ddf
   - dependabot-b88a7add
   - devlog-a4b51b88
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
   - docs-16563f41
+  - dogshop-de2fc247
   - dogshop-eb60bfe2
+  - dogshop-invalid-17d19246
   - dogshop-invalid-253ae2d9
+  - donothing-0c30237f
+  - dream-17b190f1
   - editorconfig-35e39de5
   - editorconfig-da427795
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
   - favicon-053a5ebc
   - favicon-1656049e
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
   - feature-request-1f48c52f
   - fifteen-times-the-same-idea-4245d970
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
   - >-
     github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
   - gitignore-0262f82c
+  - gitignore-1c7e0952
   - gitignore-77b957b1
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
   - go-8cbf7ff4
   - go-c4b9b5b5
   - go-c7d8e97e
@@ -320,129 +2841,206 @@ compiled_from:
   - go-work-f103c351
   - golangci-c8766e4f
   - goreleaser-3530be9e
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
   - index-e404d6cb
+  - instruction-v1-ce2b773a
   - instruction-v1-e3a3cb1e
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
   - jsoneditor-7d7aec64
+  - jsonvalidation-a88469ee
   - jsonvalidation-f62dc3f7
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
   - license-c71d239d
+  - licenserc-40040b08
   - licenserc-5791d62b
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
   - main-4df64910
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
   - mermaid-fix-e2dd139e
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
   - op-4a2e2616
   - op-6fb1bf01
   - op-a39d2486
   - op-e1fefb54
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
   - package-72ca090f
   - package-945abd34
   - package-b0f69490
   - package-lock-22d613f6
   - package-lock-5960ef1f
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
   - playground-cd3a86d7
   - playground-e45a65a6
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
   - release-33611003
   - release-template-d81408df
   - releaserc-98735d60
   - review-guidelines-0fa832f7
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
   - robots-fb799b43
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
   - scitooltip-2260fcf0
+  - session-7a75f197
   - site-f35bf3f0
+  - stempler-a4483274
   - sun-icon-62e8e513
   - sun-icon-9147bef6
   - sun-icon-b3129a76
+  - swarmvault-config-json-84915e3f
   - taskfile-83d1d929
+  - taskfile-f98ae8d6
   - termeditor-e3bdad59
   - termviz-37c301d3
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
   - the-contract-that-wouldn-t-break-fa2e5b4e
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
   - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - the-primitive-range-conjecture-c5c69b80
   - the-problems-13af562d
+  - the-understory-69c901f2
   - three-atoms-28e52786
+  - three-atoms-f9d1fbb2
   - thumbrise-open-source-go-tooling-logo-2edf0302
   - to-build-the-future-look-at-the-past-5557730d
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
   - universal-first-vendors-not-a-standard-library-f05eb450
   - universal-roadmap-8fa1b496
+  - universal-roadmap-cdd00ede
   - useplaygroundhistory-8b971dc2
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
   - web-app-manifest-512x512-af162064
+  - welcome-049f9ac7
 managed_by: system
 backlinks: []
 schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
 source_hashes: {}
 source_semantic_hashes: {}
 related_page_ids:
-  - 'concept:that'
-  - 'entity:op'
-  - 'entity:we'
-  - 'concept:every'
-  - 'concept:operation'
-  - 'concept:what'
-  - 'concept:this'
-  - 'concept:does'
-  - 'entity:format'
-  - 'entity:top'
-  - 'entity:size'
-  - 'entity:nested'
-  - 'entity:schema'
-  - 'entity:preview'
-  - 'concept:model'
-  - 'entity:go'
-  - 'concept:http'
-  - 'concept:from'
-  - 'concept:because'
-  - 'concept:kind'
-  - 'concept:instructions'
-  - 'entity:what'
-  - 'source:the-operations-protocol-formalizing-the-missing-foundation-ff73b385'
-  - 'graph:community:config-module-1'
-  - 'graph:community:jsoneditor-module-2'
-  - 'graph:community:jsonvalidation-module-3'
-  - 'graph:community:playground-module-4'
-  - 'graph:community:releaserc-module-5'
-  - 'graph:community:scitooltip-module-6'
-  - 'graph:community:termeditor-module-7'
-  - 'graph:community:useplaygroundhistory-module-8'
-  - 'graph:community:that-9'
-  - 'graph:community:model-10'
-  - 'graph:community:from-11'
-  - 'graph:community:compilation-vs-generation-12'
-  - 'graph:community:formalization-of-physics-13'
-  - 'graph:community:input-14'
-  - 'graph:community:introspection-15'
-  - 'graph:community:build-16'
-  - 'graph:community:text-17'
-  - 'graph:community:browser-18'
-  - 'graph:community:work-19'
-  - 'graph:community:package-manager-20'
-  - 'graph:community:user-agent-21'
-  - 'graph:community:sun-22'
+  - 'module:cytoscape-a8c97378'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'module:chunk-7oikw5wk-a144e02d'
+  - 'module:vitepress-vueuse-core-992426fa'
+  - 'source:001-what-is-an-operation-640ebffc'
+  - 'source:001-why-b2ba350d'
+  - 'source:002-research-trail-442db2ba'
+  - 'source:002-spiral-3cf9daa0'
+  - 'source:002-the-handshake-1380fe94'
+  - 'graph:community:1a188f991280c3fa4fa22e8dfe41d8c5-module-1'
+  - 'graph:community:1f31c89a9dcf3a7b2c81a466767f0697-module-2'
+  - 'graph:community:20230222-132457-0-0-default-create-users-module-3'
+  - 'graph:community:ajv-dist-2020-module-4'
+  - 'graph:community:app-module-5'
+  - 'graph:community:appbootloader-module-6'
+  - 'graph:community:base-dark-module-7'
+  - 'graph:community:cc3817c2bceb931d024031cc7a676edc-module-8'
+  - 'graph:community:chunk-7oikw5wk-module-9'
+  - 'graph:community:config-module-10'
+  - 'graph:community:config-module-11'
+  - 'graph:community:createusercommand-module-12'
+  - 'graph:community:cycle-module-13'
+  - 'graph:community:cytoscape-module-14'
+  - 'graph:community:database-module-15'
+  - 'graph:community:demooperations-module-16'
+  - 'graph:community:donothing-module-17'
+  - 'graph:community:exceptionhandlerbootloader-module-18'
+  - 'graph:community:factories-module-19'
+  - 'graph:community:fc30d4dfd70a6c5a9fd1d4c309e40210-module-20'
+  - 'graph:community:home-dark-module-21'
+  - 'graph:community:homecontroller-module-22'
+  - 'graph:community:i18n-en-module-23'
+  - 'graph:community:i18n-locales-module-24'
+  - 'graph:community:index-module-25'
+  - 'graph:community:jsonc-parser-module-26'
+  - 'graph:community:localeselector-module-27'
+  - 'graph:community:loggingbootloader-module-28'
+  - 'graph:community:main-module-29'
+  - 'graph:community:mcp-module-30'
+  - 'graph:community:messages-en-module-31'
+  - 'graph:community:migration-module-32'
+  - 'graph:community:php-cs-fixer-dist-module-33'
+  - 'graph:community:releaserc-module-34'
+  - 'graph:community:scaffolder-module-35'
+  - 'graph:community:session-module-36'
+  - 'graph:community:stempler-module-37'
+  - 'graph:community:translator-module-38'
+  - 'graph:community:uuidtypecast-module-39'
+  - 'graph:community:vitepress-vue-devtools-api-module-40'
+  - 'graph:community:vitepress-vueuse-core-module-41'
+  - 'graph:community:welcome-module-42'
+  - 'graph:community:operation-43'
+  - 'graph:community:cloud-44'
+  - 'graph:community:dependency-management-45'
+  - 'graph:community:example-46'
+  - 'graph:community:smallest-common-agreement-47'
+  - 'graph:community:user-agent-48'
+  - 'graph:community:sun-49'
+  - 'module:vitepress-vue-devtools-api-d989dc21'
+  - 'module:ajv-dist-2020-951a2569'
+  - 'module:jsonc-parser-d0f45765'
+  - 'module:playground-a130e091'
   - 'module:playground-e45a65a6'
-  - 'module:jsoneditor-7d7aec64'
-  - 'module:scitooltip-2260fcf0'
-  - 'module:jsonvalidation-f62dc3f7'
-  - 'module:termeditor-e3bdad59'
-  - 'module:termviz-37c301d3'
-  - 'module:demooperations-e845b3b1'
-  - 'source:1-why-5b9657bb'
-  - 'source:12-the-conference-cc7a4771'
-  - 'source:13-convergent-evolution-42fa3b44'
-  - 'source:15-the-coexistence-22bc8664'
-  - 'source:16-the-founder-s-dream-7178fd75'
-  - 'source:17-the-gallium-28cb4937'
-  - 'source:24-the-trial-ad8162d4'
-  - 'source:25-the-manifesto-ebee95e5'
-  - 'source:26-the-compilers-528e2d40'
-  - 'source:29-the-anthill-organizes-21255101'
-  - 'source:31-the-hamster-leaves-the-wheel-8bb31c69'
-  - 'source:32-the-verdict-3837cfdb'
-  - 'source:33-the-amplifier-e4125d9b'
-  - 'source:3d-pub-bar-role-game-the-krabby-patty-3de2f4ab'
-  - 'source:3e-pub-bar-role-game-runtime-autopsy-e1b81c09'
-  - 'source:3g-pub-bar-role-game-deepseek-s-letter-4b07f74b'
-  - 'source:3h-pub-bar-role-game-the-epilogue-69d8acdc'
-  - 'source:9-the-operation-comes-first-f6c6890b'
-  - 'source:devlog-a4b51b88'
-  - 'source:fifteen-times-the-same-idea-4245d970'
-  - 'source:license-c71d239d'
-  - 'source:review-guidelines-0fa832f7'
-  - 'source:to-build-the-future-look-at-the-past-5557730d'
 related_node_ids: *ref_0
 related_source_ids: *ref_1
 ---
@@ -450,130 +3048,164 @@ related_source_ids: *ref_1
 
 ## Overview
 
-- Nodes: 761
-- Edges: 1972
-- Pages: 636
-- Communities: 22
-- Default Focus: First-party nodes/pages (760 nodes, 1934 edges, 634 pages).
+- Nodes: 4156
+- Edges: 16156
+- Pages: 1466
+- Communities: 49
+- Default Focus: First-party nodes/pages (4155 nodes, 16091 edges, 1463 pages).
 
 ## Repo Quality Warnings
 
-- No large-repo warnings.
+- Large graph detected (4156 nodes). First-party defaults are applied to report highlights.
+- First-party report view is fragmented: 22 tiny communities were rolled up for readability.
 
 ## Source Class Breakdown
 
-- First-party: 106 sources, 634 pages, 760 nodes
+- First-party: 360 sources, 1463 pages, 4155 nodes
 - Third-party: 0 sources, 0 pages, 0 nodes
 - Resources: 0 sources, 0 pages, 0 nodes
 - Generated: 0 sources, 0 pages, 0 nodes
 
 ## Benchmark Summary
 
-- Generated At: 2026-05-03T04:01:17.653Z
+- Generated At: 2026-05-03T05:28:56.807Z
 - Status: Stale (graph changed since benchmark ran)
-- Naive Corpus Tokens: 216743
-- Final Context Tokens: 2450
-- Unique Nodes Considered: 34
-- Reduction Ratio: 98.9%
+- Naive Corpus Tokens: 1106799
+- Final Context Tokens: 2535
+- Unique Nodes Considered: 36
+- Reduction Ratio: 99.8%
 - Questions: 3
 
 ### Benchmark By Source Class
 
 | Class | Sources | Pages | Nodes | God Nodes | Naive Tokens | Guided Tokens | Reduction |
 | ----- | ------- | ----- | ----- | --------- | ------------ | ------------- | --------- |
-| First-party | 106 | 634 | 760 | 70 | 216743 | 2367 | 98.9% |
+| First-party | 360 | 1463 | 4155 | 930 | 1106799 | 2169 | 99.8% |
 | Third-party | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% |
 | Resource | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% |
 | Generated | 0 | 0 | 0 | 0 | 0 | 0 | 0.0% |
 
 ## Top God Nodes
 
-- [[candidates/concepts/that|that]] (concept, degree=214, bridge=8)
-- [[candidates/entities/op|Op]] (entity, degree=156, bridge=6)
-- [[candidates/entities/we|We]] (entity, degree=108, bridge=5)
-- [[concepts/every|every]] (concept, degree=103, bridge=4)
-- [[concepts/operation|operation]] (concept, degree=99, bridge=6)
-- [[candidates/concepts/what|what]] (concept, degree=86, bridge=5)
-- [[candidates/concepts/this|this]] (concept, degree=86, bridge=7)
-- [[concepts/does|does]] (concept, degree=84, bridge=6)
-- [[candidates/entities/format|Format:]] (entity, degree=76, bridge=4)
-- [[candidates/entities/top|Top-]] (entity, degree=76, bridge=4)
-- [[candidates/entities/size|Size:]] (entity, degree=76, bridge=4)
-- [[candidates/entities/nested|Nested]] (entity, degree=76, bridge=4)
-- [[candidates/entities/schema|Schema -]] (entity, degree=76, bridge=4)
-- [[candidates/entities/preview|Preview]] (entity, degree=76, bridge=4)
-- [[candidates/concepts/model|model]] (concept, degree=71, bridge=5)
-- [[candidates/entities/go|Go]] (entity, degree=63, bridge=5)
-- [[candidates/concepts/http|http]] (concept, degree=60, bridge=5)
-- [[concepts/from|from]] (concept, degree=59, bridge=3)
-- [[candidates/concepts/because|because]] (concept, degree=59, bridge=4)
-- [[candidates/concepts/kind|kind]] (concept, degree=59, bridge=4)
+- [[code/cytoscape-a8c97378|cytoscape module]] (module, degree=931, bridge=1)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
+- [[code/cytoscape-a8c97378|cytoscape module]] (symbol, degree=929, bridge=0)
 
 ## Top Bridge Nodes
 
-- [[candidates/concepts/that|that]] (concept, degree=214, bridge=8)
-- [[candidates/concepts/this|this]] (concept, degree=86, bridge=7)
-- [[concepts/does|does]] (concept, degree=84, bridge=6)
-- [[concepts/operation|operation]] (concept, degree=99, bridge=6)
-- [[candidates/concepts/instructions|instructions]] (concept, degree=23, bridge=6)
-- [[candidates/entities/op|Op]] (entity, degree=156, bridge=6)
-- [[candidates/entities/what|What]] (entity, degree=51, bridge=6)
-- [[sources/the-operations-protocol-formalizing-the-missing-foundation-ff73b385|The Operations Protocol: Formalizing the Missing Foundation]] (source, degree=58, bridge=5)
+- [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]] (module, degree=13, bridge=4)
+- [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]] (module, degree=710, bridge=2)
+- [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]] (module, degree=392, bridge=2)
+- [[sources/001-what-is-an-operation-640ebffc|001-what-is-an-operation]] (source, degree=17, bridge=1)
+- [[sources/001-why-b2ba350d|001-why]] (source, degree=90, bridge=1)
+- [[sources/002-research-trail-442db2ba|002-research-trail]] (source, degree=90, bridge=1)
+- [[sources/002-spiral-3cf9daa0|002-spiral]] (source, degree=93, bridge=1)
+- [[sources/002-the-handshake-1380fe94|002-the-handshake]] (source, degree=91, bridge=1)
 
 ## Communities
 
-- [[graph/communities/config-module-1|Community: config module]]
-- [[graph/communities/jsoneditor-module-2|Community: JsonEditor module]]
-- [[graph/communities/jsonvalidation-module-3|Community: jsonValidation module]]
-- [[graph/communities/playground-module-4|Community: Playground module]]
-- [[graph/communities/releaserc-module-5|Community: .releaserc module]]
-- [[graph/communities/scitooltip-module-6|Community: SciTooltip module]]
-- [[graph/communities/termeditor-module-7|Community: TermEditor module]]
-- [[graph/communities/useplaygroundhistory-module-8|Community: usePlaygroundHistory module]]
-- [[graph/communities/that-9|Community: that]]
-- [[graph/communities/model-10|Community: model]]
-- [[graph/communities/from-11|Community: from]]
-- [[graph/communities/compilation-vs-generation-12|Community: Compilation vs. Generation]]
-- [[graph/communities/formalization-of-physics-13|Community: Formalization of Physics]]
-- [[graph/communities/input-14|Community: input]]
-- [[graph/communities/introspection-15|Community: Introspection]]
-- [[graph/communities/build-16|Community: build]]
-- [[graph/communities/text-17|Community: text]]
-- [[graph/communities/browser-18|Community: browser]]
-- [[graph/communities/work-19|Community: work]]
-- [[graph/communities/package-manager-20|Community: Package Manager]]
-- [[graph/communities/user-agent-21|Community: User-agent]]
-- [[graph/communities/sun-22|Community: Sun]]
+- [[graph/communities/1a188f991280c3fa4fa22e8dfe41d8c5-module-1|Community: 1a188f991280c3fa4fa22e8dfe41d8c5 module]]
+- [[graph/communities/1f31c89a9dcf3a7b2c81a466767f0697-module-2|Community: 1f31c89a9dcf3a7b2c81a466767f0697 module]]
+- [[graph/communities/20230222-132457-0-0-default-create-users-module-3|Community: 20230222.132457_0_0_default_create_users module]]
+- [[graph/communities/ajv-dist-2020-module-4|Community: ajv_dist_2020 module]]
+- [[graph/communities/app-module-5|Community: app module]]
+- [[graph/communities/appbootloader-module-6|Community: AppBootloader module]]
+- [[graph/communities/base-dark-module-7|Community: base.dark module]]
+- [[graph/communities/cc3817c2bceb931d024031cc7a676edc-module-8|Community: cc3817c2bceb931d024031cc7a676edc module]]
+- [[graph/communities/chunk-7oikw5wk-module-9|Community: chunk-7OIKW5WK module]]
+- [[graph/communities/config-module-10|Community: config module]]
+- [[graph/communities/config-module-11|Community: config module]]
+- [[graph/communities/createusercommand-module-12|Community: CreateUserCommand module]]
+- [[graph/communities/cycle-module-13|Community: cycle module]]
+- [[graph/communities/cytoscape-module-14|Community: cytoscape module]]
+- [[graph/communities/database-module-15|Community: database module]]
+- [[graph/communities/demooperations-module-16|Community: demoOperations module]]
+- [[graph/communities/donothing-module-17|Community: DoNothing module]]
+- [[graph/communities/exceptionhandlerbootloader-module-18|Community: ExceptionHandlerBootloader module]]
+- [[graph/communities/factories-module-19|Community: factories module]]
+- [[graph/communities/fc30d4dfd70a6c5a9fd1d4c309e40210-module-20|Community: fc30d4dfd70a6c5a9fd1d4c309e40210 module]]
+- [[graph/communities/home-dark-module-21|Community: home.dark module]]
+- [[graph/communities/homecontroller-module-22|Community: HomeController module]]
+- [[graph/communities/i18n-en-module-23|Community: i18n.en module]]
+- [[graph/communities/i18n-locales-module-24|Community: i18n.locales module]]
+- [[graph/communities/index-module-25|Community: index module]]
+- [[graph/communities/jsonc-parser-module-26|Community: jsonc-parser module]]
+- [[graph/communities/localeselector-module-27|Community: LocaleSelector module]]
+- [[graph/communities/loggingbootloader-module-28|Community: LoggingBootloader module]]
+- [[graph/communities/main-module-29|Community: main module]]
+- [[graph/communities/mcp-module-30|Community: mcp module]]
+- [[graph/communities/messages-en-module-31|Community: messages.en module]]
+- [[graph/communities/migration-module-32|Community: migration module]]
+- [[graph/communities/php-cs-fixer-dist-module-33|Community: .php-cs-fixer.dist module]]
+- [[graph/communities/releaserc-module-34|Community: .releaserc module]]
+- [[graph/communities/scaffolder-module-35|Community: scaffolder module]]
+- [[graph/communities/session-module-36|Community: session module]]
+- [[graph/communities/stempler-module-37|Community: stempler module]]
+- [[graph/communities/translator-module-38|Community: translator module]]
+- [[graph/communities/uuidtypecast-module-39|Community: UuidTypecast module]]
+- [[graph/communities/vitepress-vue-devtools-api-module-40|Community: vitepress___@vue_devtools-api module]]
+- [[graph/communities/vitepress-vueuse-core-module-41|Community: vitepress___@vueuse_core module]]
+- [[graph/communities/welcome-module-42|Community: welcome module]]
+- [[graph/communities/operation-43|Community: operation]]
+- [[graph/communities/cloud-44|Community: cloud]]
+- [[graph/communities/dependency-management-45|Community: Dependency Management]]
+- [[graph/communities/example-46|Community: example]]
+- [[graph/communities/smallest-common-agreement-47|Community: Smallest Common Agreement]]
+- [[graph/communities/user-agent-48|Community: User-agent]]
+- [[graph/communities/sun-49|Community: Sun]]
 
 ## Thin Or Underlinked Areas
 
-- No thin communities detected.
+- [[graph/communities/20230222-132457-0-0-default-create-users-module-3|Community: 20230222.132457_0_0_default_create_users module]] (2 node(s))
+- [[graph/communities/appbootloader-module-6|Community: AppBootloader module]] (2 node(s))
+- [[graph/communities/donothing-module-17|Community: DoNothing module]] (2 node(s))
+- [[graph/communities/homecontroller-module-22|Community: HomeController module]] (2 node(s))
+- [[graph/communities/loggingbootloader-module-28|Community: LoggingBootloader module]] (2 node(s))
+- [[graph/communities/main-module-29|Community: main module]] (2 node(s))
+- Rolled up 22 additional tiny communities covering 23 node(s).
+- Example rolled-up labels: UuidTypecast module, .php-cs-fixer.dist module, 1a188f991280c3fa4fa22e8dfe41d8c5 module, 1f31c89a9dcf3a7b2c81a466767f0697 module
 
 ## Surprising Connections
 
-- [[sources/1-why-5b9657bb|#1 — Why]] semantically_similar_to [[sources/review-guidelines-0fa832f7|Review Guidelines]] (inferred, 0.96). Why: it crosses communities community:from-11 and community:model-10; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns. #1 — Why connects to Review Guidelines because it crosses communities community:from-11 and community:model-10; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns. Path: #1 — Why -> Review Guidelines.
-- [[sources/13-convergent-evolution-42fa3b44|#13 — Convergent Evolution]] semantically_similar_to [[sources/instruction-v1-e3a3cb1e|instruction.v1]] (inferred, 0.96). Why: it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern. #13 — Convergent Evolution connects to instruction.v1 because it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern. Path: #13 — Convergent Evolution -> instruction.v1.
-- [[sources/dependabot-auto-merge-a7978ddf|dependabot-auto-merge]] semantically_similar_to [[sources/docs-16563f41|docs]] (inferred, 0.96). Why: it crosses communities community:text-17 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns. dependabot-auto-merge connects to docs because it crosses communities community:text-17 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns. Path: dependabot-auto-merge -> docs.
-- [[sources/composer-c80b8ea8|composer]] semantically_similar_to [[sources/dogshop-invalid-253ae2d9|dogshop_invalid]] (inferred, 0.96). Why: it crosses communities community:build-16 and community:from-11; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns. composer connects to dogshop_invalid because it crosses communities community:build-16 and community:from-11; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns. Path: composer -> dogshop_invalid.
-- [[sources/21-the-atoms-speak-72df059e|#21 — The Atoms Speak]] semantically_similar_to [[sources/dogshop-eb60bfe2|dogshop]] (inferred, 0.96). Why: it crosses communities community:input-14 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern. #21 — The Atoms Speak connects to dogshop because it crosses communities community:input-14 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern. Path: #21 — The Atoms Speak -> dogshop.
-- [[sources/dogshop-invalid-253ae2d9|dogshop_invalid]] semantically_similar_to [[sources/taskfile-83d1d929|Taskfile]] (inferred, 0.96). Why: it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns. dogshop_invalid connects to Taskfile because it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 7 group patterns. Path: dogshop_invalid -> Taskfile.
-- [[sources/dogshop-invalid-253ae2d9|dogshop_invalid]] semantically_similar_to [[sources/golangci-c8766e4f|.golangci]] (inferred, 0.96). Why: it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns. dogshop_invalid connects to .golangci because it crosses communities community:from-11 and community:build-16; it spans different canonical pages; a bridge node is involved; This link is inferred from shared entities.; it also appears in 6 group patterns. Path: dogshop_invalid -> .golangci.
-- [[sources/25-the-manifesto-ebee95e5|#25 — The Manifesto]] semantically_similar_to [[sources/to-build-the-future-look-at-the-past-5557730d|To Build the Future, Look at the Past]] (inferred, 0.96). Why: it crosses communities community:from-11 and community:that-9; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern. #25 — The Manifesto connects to To Build the Future, Look at the Past because it crosses communities community:from-11 and community:that-9; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 1 group pattern. Path: #25 — The Manifesto -> To Build the Future, Look at the Past.
+- [[code/cytoscape-a8c97378|cytoscape module]] imports [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]] (extracted, 1.00). Why: it crosses communities community:cytoscape-module-14 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. cytoscape module connects to chunk-BUSYA2B4 module because it crosses communities community:cytoscape-module-14 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. Path: cytoscape module -> chunk-BUSYA2B4 module.
+- [[code/jsonc-parser-d0f45765|jsonc-parser module]] imports [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]] (extracted, 1.00). Why: it crosses communities community:jsonc-parser-module-26 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. jsonc-parser module connects to chunk-BUSYA2B4 module because it crosses communities community:jsonc-parser-module-26 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. Path: jsonc-parser module -> chunk-BUSYA2B4 module.
+- [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]] imports [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]] (extracted, 1.00). Why: it crosses communities community:vitepress-vue-devtools-api-module-40 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. vitepress___@vue_devtools-api module connects to chunk-BUSYA2B4 module because it crosses communities community:vitepress-vue-devtools-api-module-40 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. Path: vitepress___@vue_devtools-api module -> chunk-BUSYA2B4 module.
+- [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]] imports [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]] (extracted, 1.00). Why: it crosses communities community:vitepress-vueuse-core-module-41 and community:chunk-7oikw5wk-module-9; it spans different canonical pages; a bridge node is involved. vitepress___@vueuse_core module connects to chunk-7OIKW5WK module because it crosses communities community:vitepress-vueuse-core-module-41 and community:chunk-7oikw5wk-module-9; it spans different canonical pages; a bridge node is involved. Path: vitepress___@vueuse_core module -> chunk-7OIKW5WK module.
+- [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]] imports [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]] (extracted, 1.00). Why: it crosses communities community:vitepress-vueuse-core-module-41 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. vitepress___@vueuse_core module connects to chunk-BUSYA2B4 module because it crosses communities community:vitepress-vueuse-core-module-41 and community:ajv-dist-2020-module-4; it spans different canonical pages; a bridge node is involved. Path: vitepress___@vueuse_core module -> chunk-BUSYA2B4 module.
+- [[code/vue-837e3e32|vue module]] imports [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]] (extracted, 1.00). Why: it crosses communities community:ajv-dist-2020-module-4 and community:chunk-7oikw5wk-module-9; it spans different canonical pages; a bridge node is involved. vue module connects to chunk-7OIKW5WK module because it crosses communities community:ajv-dist-2020-module-4 and community:chunk-7oikw5wk-module-9; it spans different canonical pages; a bridge node is involved. Path: vue module -> chunk-7OIKW5WK module.
+- [[sources/ajv-dist-2020-js-627114a2|ajv_dist_2020.js]] semantically_similar_to [[sources/dayjs-js-a6ae3be3|dayjs.js]] (inferred, 0.96). Why: it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 9 group patterns. ajv_dist_2020.js connects to dayjs.js because it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 9 group patterns. Path: ajv_dist_2020.js -> dayjs.js.
+- [[sources/003e-pub-bar-role-game-acb5f783|003e-pub-bar-role-game]] semantically_similar_to [[sources/021-all-programs-are-equal-eeeedf20|021-all-programs-are-equal]] (inferred, 0.96). Why: it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 4 group patterns. 003e-pub-bar-role-game connects to 021-all-programs-are-equal because it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 4 group patterns. Path: 003e-pub-bar-role-game -> 021-all-programs-are-equal.
 
 ## Contradictions
 
-- No contradictions detected.
+- **<meta http-equiv="refresh" content="0; url=/op/notes/universal/009-the-address-is-a-detail">** vs **<meta http-equiv="refresh" content="0; url=/op/notes/form-of-operation/010-there-is-no-generation">** (sources: `009-the-address-is-a-detail-41380fce`, `010-there-is-no-generation-73b17c7a`, confidence delta: 0.00)
+- **<meta http-equiv="refresh" content="0; url=/op/notes/form-of-operation/010-there-is-no-generation">** vs **<meta http-equiv="refresh" content="0; url=/op/notes/universal/011-postgres-is-a-bundle">** (sources: `010-there-is-no-generation-73b17c7a`, `011-postgres-is-a-bundle-c689eda3`, confidence delta: 0.00)
+- **<meta http-equiv="refresh" content="0; url=/op/notes/form-of-operation/010-there-is-no-generation">** vs **<meta http-equiv="refresh" content="0; url=/op/notes/universal/017-postgres-is-a-jit">** (sources: `010-there-is-no-generation-73b17c7a`, `017-postgres-is-a-jit-a1a3ecf1`, confidence delta: 0.00)
+- **<meta http-equiv="refresh" content="0; url=/op/notes/form-of-operation/010-there-is-no-generation">** vs **<meta http-equiv="refresh" content="0; url=/op/notes/universal/021-all-programs-are-equal">** (sources: `010-there-is-no-generation-73b17c7a`, `021-all-programs-are-equal-eeeedf20`, confidence delta: 0.00)
+- **<meta http-equiv="refresh" content="0; url=/op/notes/form-of-operation/010-there-is-no-generation">** vs **<meta http-equiv="refresh" content="0; url=/op/notes/form-of-operation/028-dobby-is-free">** (sources: `010-there-is-no-generation-73b17c7a`, `028-dobby-is-free-e30b1113`, confidence delta: 0.00)
+- **title: #11 — Bundle description: Postgres is not a database.** vs **title: #19 — MongoDB description: Choosing a database today is an act of identity.** (sources: `11-bundle-d20d9270`, `19-mongodb-ff331c30`, confidence delta: 0.00)
+- **title: #11 — Bundle description: Postgres is not a database.** vs **title: #21 — Equality description: Postgres is a program.** (sources: `11-bundle-d20d9270`, `21-equality-767c77bb`, confidence delta: 0.00)
+- **title: #13 — Convergent Evolution description: We did not invent the operation.** vs **title: Lesson 1 — What an operation is description: First lesson.** (sources: `13-convergent-evolution-42fa3b44`, `lesson-1-what-an-operation-is-34ecb6bb`, confidence delta: 0.00)
+- **title: #15 — The Coexistence description: Op does not kill RPC.** vs **title: #8 — Configuration description: alloc() does one thing.** (sources: `15-the-coexistence-22bc8664`, `8-configuration-a5b702f4`, confidence delta: 0.00)
+- **title: #21 — Equality description: Postgres is a program.** vs **title: The Codex description: A program and its instruction are not the same thing.** (sources: `21-equality-767c77bb`, `the-codex-d54c2224`, confidence delta: 0.00)
 
 ## Group Patterns
 
+- cytoscape module API (form, extracted, 0.98). cytoscape module and 929 defined symbols form one local module surface. Members: [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]], [[code/cytoscape-a8c97378|cytoscape module]].
+- chunk-7OIKW5WK module API (form, extracted, 0.98). chunk-7OIKW5WK module and 707 defined symbols form one local module surface. Members: [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]], [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]].
+- vitepress___@vueuse_core module API (form, extracted, 0.98). vitepress___@vueuse_core module and 389 defined symbols form one local module surface. Members: [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]], [[code/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core module]].
+- vitepress___@vue_devtools-api module API (form, extracted, 0.98). vitepress___@vue_devtools-api module and 294 defined symbols form one local module surface. Members: [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]], [[code/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api module]].
+- ajv_dist_2020 module API (form, extracted, 0.98). ajv_dist_2020 module and 88 defined symbols form one local module surface. Members: [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]], [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]].
+- jsonc-parser module API (form, extracted, 0.98). jsonc-parser module and 46 defined symbols form one local module surface. Members: [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]], [[code/jsonc-parser-d0f45765|jsonc-parser module]].
+- Playground module API (form, extracted, 0.98). Playground module and 43 defined symbols form one local module surface. Members: [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]], [[code/playground-a130e091|Playground module]].
 - Playground module API (form, extracted, 0.98). Playground module and 39 defined symbols form one local module surface. Members: [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]], [[code/playground-e45a65a6|Playground module]].
-- JsonEditor module API (form, extracted, 0.98). JsonEditor module and 17 defined symbols form one local module surface. Members: [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]], [[code/jsoneditor-7d7aec64|JsonEditor module]].
-- SciTooltip module API (form, extracted, 0.98). SciTooltip module and 13 defined symbols form one local module surface. Members: [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]], [[code/scitooltip-2260fcf0|SciTooltip module]].
-- jsonValidation module API (form, extracted, 0.98). jsonValidation module and 12 defined symbols form one local module surface. Members: [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]], [[code/jsonvalidation-f62dc3f7|jsonValidation module]].
-- TermEditor module API (form, extracted, 0.98). TermEditor module and 12 defined symbols form one local module surface. Members: [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]], [[code/termeditor-e3bdad59|TermEditor module]].
-- TermViz module API (form, extracted, 0.98). TermViz module and 6 defined symbols form one local module surface. Members: [[code/termviz-37c301d3|TermViz module]], [[code/termviz-37c301d3|TermViz module]], [[code/termviz-37c301d3|TermViz module]], [[code/termviz-37c301d3|TermViz module]], [[code/termviz-37c301d3|TermViz module]], [[code/termviz-37c301d3|TermViz module]], [[code/termviz-37c301d3|TermViz module]].
-- demoOperations module API (form, extracted, 0.98). demoOperations module and 5 defined symbols form one local module surface. Members: [[code/demooperations-e845b3b1|demoOperations module]], [[code/demooperations-e845b3b1|demoOperations module]], [[code/demooperations-e845b3b1|demoOperations module]], [[code/demooperations-e845b3b1|demoOperations module]], [[code/demooperations-e845b3b1|demoOperations module]], [[code/demooperations-e845b3b1|demoOperations module]].
-- that (participate_in, extracted, 0.96). 24 source nodes converge on that through extracted mention edges. Members: [[candidates/concepts/that|that]], [[sources/1-why-5b9657bb|#1 — Why]], [[sources/12-the-conference-cc7a4771|#12 — The Conference]], [[sources/13-convergent-evolution-42fa3b44|#13 — Convergent Evolution]], [[sources/15-the-coexistence-22bc8664|#15 — The Coexistence]], [[sources/16-the-founder-s-dream-7178fd75|#16 — The Founder's Dream]], [[sources/17-the-gallium-28cb4937|#17 — The Gallium]], [[sources/24-the-trial-ad8162d4|#24 — The Trial]], [[sources/25-the-manifesto-ebee95e5|#25 — The Manifesto]], [[sources/26-the-compilers-528e2d40|#26 — The Compilers]], [[sources/29-the-anthill-organizes-21255101|#29 — The Anthill Organizes]], [[sources/31-the-hamster-leaves-the-wheel-8bb31c69|#31 — The Hamster Leaves the Wheel]], [[sources/32-the-verdict-3837cfdb|#32 — The Verdict]], [[sources/33-the-amplifier-e4125d9b|#33 — The Amplifier]], [[sources/3d-pub-bar-role-game-the-krabby-patty-3de2f4ab|#3d — Pub Bar Role Game: The Krabby Patty]], [[sources/3e-pub-bar-role-game-runtime-autopsy-e1b81c09|#3e — Pub Bar Role Game: Runtime Autopsy]], [[sources/3g-pub-bar-role-game-deepseek-s-letter-4b07f74b|#3g — Pub Bar Role Game: DeepSeek's Letter]], [[sources/3h-pub-bar-role-game-the-epilogue-69d8acdc|#3h — Pub Bar Role Game: The Epilogue]], [[sources/9-the-operation-comes-first-f6c6890b|#9 — The Operation Comes First]], [[sources/devlog-a4b51b88|Devlog]], [[sources/fifteen-times-the-same-idea-4245d970|Fifteen Times the Same Idea]], [[sources/license-c71d239d|LICENSE]], [[sources/review-guidelines-0fa832f7|Review Guidelines]], [[sources/the-operations-protocol-formalizing-the-missing-foundation-ff73b385|The Operations Protocol: Formalizing the Missing Foundation]], [[sources/to-build-the-future-look-at-the-past-5557730d|To Build the Future, Look at the Past]].
 
 ## New Research Sources
 
@@ -581,11 +3213,11 @@ related_source_ids: *ref_1
 
 ## Suggested Questions
 
-- Why does that connect multiple communities in the vault?
-- Why does this connect multiple communities in the vault?
-- Why does does connect multiple communities in the vault?
-- What is the exact relationship between #17 — The Gallium and #12 — The Conference?
-- What is the exact relationship between #17 — The Gallium and #15 — The Coexistence?
-- What is the exact relationship between #20 — The Playground and #13 — Convergent Evolution?
-- What connects main to the rest of the vault?
-- What connects .mermaid foreignObject to the rest of the vault?
+- What sources would strengthen community 1a188f991280c3fa4fa22e8dfe41d8c5 module?
+- What sources would strengthen community 1f31c89a9dcf3a7b2c81a466767f0697 module?
+- What sources would strengthen community 20230222.132457_0_0_default_create_users module?
+- What sources would strengthen community AppBootloader module?
+- What sources would strengthen community base.dark module?
+- What sources would strengthen community cc3817c2bceb931d024031cc7a676edc module?
+- What sources would strengthen community config module?
+- What sources would strengthen community cycle module?

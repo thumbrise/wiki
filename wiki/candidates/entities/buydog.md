@@ -10,30 +10,46 @@ tags:
   - entity
   - candidate
 source_ids:
+  - 18-the-fourth-rail-368f05dd
   - 18-the-fourth-rail-f496db69
+  - 20-promise-65f67015
+  - the-idea-636ec680
   - the-problems-13af562d
 project_ids: []
 node_ids:
   - 'entity:buydog'
 freshness: fresh
 status: candidate
-confidence: 0.8
+confidence: 0.95
 created_at: '2026-05-03T03:56:35.879Z'
-updated_at: '2026-05-03T04:02:08.853Z'
+updated_at: '2026-05-03T05:32:23.535Z'
 compiled_from:
+  - 18-the-fourth-rail-368f05dd
   - 18-the-fourth-rail-f496db69
+  - 20-promise-65f67015
+  - the-idea-636ec680
   - the-problems-13af562d
 managed_by: system
 backlinks:
+  - 'source:18-the-fourth-rail-368f05dd'
   - 'source:18-the-fourth-rail-f496db69'
+  - 'source:20-promise-65f67015'
+  - 'source:the-idea-636ec680'
   - 'source:the-problems-13af562d'
   - 'output:source-briefs/github_repo-thumbrise-op-a16ed6ba'
+  - 'output:source-briefs/directory-op-597d97ce'
 schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
 source_hashes:
+  18-the-fourth-rail-368f05dd: 368f05dd7499564b9adb53c6bb53de2359521ef1c3616dda5fe9b29a3c0efaf5
   18-the-fourth-rail-f496db69: f496db6928de75bf0c47baad6b39a774ee6263ec366a82c73713783bfa4dbf3c
+  20-promise-65f67015: 65f6701595bbf13a623c6a6873aaba390f416a35188e991100622e3f40d9ca98
+  the-idea-636ec680: 636ec680f7f0202e9562a34bd93336e6ed6dff8f4dbecaa89456d07f6970604e
   the-problems-13af562d: 13af562dc1be41994284eaa3cd875787e7c89c181c2ad8699c839d6c0576ee03
 source_semantic_hashes:
+  18-the-fourth-rail-368f05dd: 7c51960bc6eb020ccc382192a3b352437432f9f8ec280923f277210d22e48f94
   18-the-fourth-rail-f496db69: 9ed26794d6a1d8b75e0f1b394d68bcd83df036b4555f4c12d6cf366ad9ff8521
+  20-promise-65f67015: 7eb90ecc194d226db1779919f65a8b6d969360c54703c8d7b37f34a16a8c38a2
+  the-idea-636ec680: c80634e43a7b25a696e4846dec45ab078d412df65c319b90b3840c02e89abd83
   the-problems-13af562d: d003643ed5d89ccaf3eb5ee508dfffd68a6b335f7d1d2a3191cf52821e55603f
 ---
 # BuyDog
@@ -44,14 +60,20 @@ Named entity mentioned in #18 — The Fourth Rail.
 
 ## Seen In
 
+- [[sources/18-the-fourth-rail-368f05dd|#18 — The Fourth Rail]]
 - [[sources/18-the-fourth-rail-f496db69|#18 — The Fourth Rail]]
+- [[sources/20-promise-65f67015|#20 — Promise]]
+- [[sources/the-idea-636ec680|The Idea]]
 - [[sources/the-problems-13af562d|The Problems]]
 
 ## Source Claims
 
+- title: #20 — Promise description: BuyDog has three fields. [source:20-promise-65f67015]
+- ## The Problems ### The Same Thing, Written Many Times mermaid graph LR OP["⚡ BuyDog"] OP --> H["HTTP handler"] OP --> CL["CLI command"] OP --> GR["gRPC service"] OP --> WS["WebSocket handler"] OP --> CRON["Cron job"] OP --> TS["TypeScript client"] OP --> DART["Dart client"] OP --> SWIFT["Swift client"] OP --> MOCK["Mock for frontend"] OP --> SW["Swagger annotation"] OP --> DOC["Documentation page"] OP --> POST["Postman collection"] OP --> VAL["Validation rules"] OP --> ERR["Error mapping"] OP --> PERM["Permission check"] OP --> RATE["Rate limit config"] OP --> LOG["Logging context"] OP --> METRIC["Metric name"] OP --> SPAN["Span name"] OP --> ALERT["Alert rule"] OP --> TEST["Integration test"] OP --> CONTRACT["Contract test"] OP --> MCP["MCP tool definition"] OP --> FNCALL["Function calling schema"] OP --> AGENT["Agent tool description"] OP --> SDK1["MySQL — 6 SDKs"] OP --> SDK2["Redis — 5 SDKs"] OP --> SDK3["Stripe — 7 SDKs"] OP --> SDK4["AWS — 8 SDKs"] H -.->|"drifts"| SW TS -.->|"drifts"| H VAL -.->|"drifts"| ERR TEST -.->|"drifts"| MOCK LOG -.->|"drifts"| METRIC MCP -.->|"drifts"| FNCALL style OP fill:#22c55e,color:#000 style H fill:#f87171,color:#000 style CL fill:#f87171,color:#000 style GR fill:#f87171,color:#000 style WS fill:#f87171,color:#000 style CRON fill:#f87171,color:#000 style TS fill:#f87171,color:#000 style DART fill:#f87171,color:#000 style SWIFT fill:#f87171,color:#000 style MOCK fill:#f87171,color:#000 style SW fill:#f87171,color:#000 style DOC fill:#f87171,color:#000 style POST fill:#f87171,color:#000 style VAL fill:#f87171,color:#000 style ERR fill:#f87171,color:#000 style PERM fill:#f87171,color:#000 style RATE fill:#f87171,color:#000 style LOG fill:#f87171,color:#000 style METRIC fill:#f87171,color:#000 style SPAN fill:#f87171,color:#000 style ALERT fill:#f87171,color:#000 style TEST fill:#f87171,color:#000 style CONTRACT fill:#f87171,color:#000 style MCP fill:#f87171,color:#000 style FNCALL fill:#f87171,color:#000 style AGENT fill:#f87171,color:#000 style SDK1 fill:#f87171,color:#000 style SDK2 fill:#f87171,color:#000 style SDK3 fill:#f87171,color:#000 style SDK4 fill:#f87171,color:#000 Language does not matter — OCaml, Haskell, Go, PHP, Rust — the moment an operation touches the outside world, the same five fields are written again. [source:the-idea-636ec680]
 - The Problems ### You Write the Same Thing Again and Again mermaid graph LR OP["⚡ BuyDog"] OP --> H["HTTP handler"] OP --> CL["CLI command"] OP --> GR["gRPC service"] OP --> WS["WebSocket handler"] OP --> CRON["Cron job"] OP --> TS["TypeScript client"] OP --> DART["Dart client"] OP --> SWIFT["Swift client"] OP --> MOCK["Mock for frontend"] OP --> SW["Swagger annotation"] OP --> DOC["Documentation page"] OP --> POST["Postman collection"] OP --> VAL["Validation rules"] OP --> ERR["Error mapping"] OP --> PERM["Permission check"] OP --> RATE["Rate limit config"] OP --> LOG["Logging context"] OP --> METRIC["Metric name"] OP --> SPAN["Span name"] OP --> ALERT["Alert rule"] OP --> TEST["Integration test"] OP --> CONTRACT["Contract test"] OP --> MCP["MCP tool definition"] OP --> FNCALL["Function calling schema"] OP --> AGENT["Agent tool description"] OP --> SDK1["MySQL — 6 SDKs"] OP --> SDK2["Redis — 5 SDKs"] OP --> SDK3["Stripe — 7 SDKs"] OP --> SDK4["AWS — 8 SDKs"] H -.->|"drifts"| SW TS -.->|"drifts"| H VAL -.->|"drifts"| ERR TEST -.->|"drifts"| MOCK LOG -.->|"drifts"| METRIC MCP -.->|"drifts"| FNCALL style OP fill:#22c55e,color:#000 style H fill:#f87171,color:#000 style CL fill:#f87171,color:#000 style GR fill:#f87171,color:#000 style WS fill:#f87171,color:#000 style CRON fill:#f87171,color:#000 style TS fill:#f87171,color:#000 style DART fill:#f87171,color:#000 style SWIFT fill:#f87171,color:#000 style MOCK fill:#f87171,color:#000 style SW fill:#f87171,color:#000 style DOC fill:#f87171,color:#000 style POST fill:#f87171,color:#000 style VAL fill:#f87171,color:#000 style ERR fill:#f87171,color:#000 style PERM fill:#f87171,color:#000 style RATE fill:#f87171,color:#000 style LOG fill:#f87171,color:#000 style METRIC fill:#f87171,color:#000 style SPAN fill:#f87171,color:#000 style ALERT fill:#f87171,color:#000 style TEST fill:#f87171,color:#000 style CONTRACT fill:#f87171,color:#000 style MCP fill:#f87171,color:#000 style FNCALL fill:#f87171,color:#000 style AGENT fill:#f87171,color:#000 style SDK1 fill:#f87171,color:#000 style SDK2 fill:#f87171,color:#000 style SDK3 fill:#f87171,color:#000 style SDK4 fill:#f87171,color:#000 It does not matter what language you use. [source:the-problems-13af562d]
 
 ## Related Outputs
 
 - [[outputs/source-briefs/github_repo-thumbrise-op-a16ed6ba|Source Brief: checkout]]
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
 

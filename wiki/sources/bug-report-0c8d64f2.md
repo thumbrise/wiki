@@ -29,7 +29,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.826Z'
-updated_at: '2026-05-03T04:02:08.715Z'
+updated_at: '2026-05-03T05:32:23.186Z'
 compiled_from:
   - bug-report-0c8d64f2
 managed_by: system

@@ -29,7 +29,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.825Z'
-updated_at: '2026-05-03T04:02:08.713Z'
+updated_at: '2026-05-03T05:32:23.174Z'
 compiled_from:
   - 3d-pub-bar-role-game-the-krabby-patty-3de2f4ab
 managed_by: system

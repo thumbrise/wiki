@@ -1,0 +1,51 @@
+---
+page_id: 'concept:ollama'
+kind: concept
+cssclasses:
+  - swarmvault
+  - sv-concept
+title: ollama
+source_class: first_party
+tags:
+  - concept
+  - candidate
+source_ids:
+  - swarmvault-config-json-84915e3f
+project_ids: []
+node_ids:
+  - 'concept:ollama'
+freshness: fresh
+status: candidate
+confidence: 0.65
+created_at: '2026-05-03T05:11:46.183Z'
+updated_at: '2026-05-03T05:32:23.489Z'
+compiled_from:
+  - swarmvault-config-json-84915e3f
+managed_by: system
+backlinks:
+  - 'source:swarmvault-config-json-84915e3f'
+  - 'output:source-briefs/directory-op-597d97ce'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  swarmvault-config-json-84915e3f: 84915e3f7054cb5d76d2faec8a209d5609a359cb91412147767052548ff6a4b3
+source_semantic_hashes:
+  swarmvault-config-json-84915e3f: 84915e3f7054cb5d76d2faec8a209d5609a359cb91412147767052548ff6a4b3
+---
+# ollama
+
+## Summary
+
+Frequently referenced concept in swarmvault.config.json.
+
+## Seen In
+
+- [[sources/swarmvault-config-json-84915e3f|swarmvault.config.json]]
+
+## Source Claims
+
+- { "providers": { "llm": { "type": "ollama", "model": "mollysama/rwkv-7-g1e:13.3b", "baseUrl": "http://localhost:11434/v1" }, "ollama-embeddings": { "type": "ollama", "model": "snowflake-arctic-embed2:568m-l-fp16", "baseUrl": "http://localhost:11434/v1" } }, "tasks": { "compileProvider": "llm", "queryProvider": "llm", "lintProvider": "llm", "embeddingProvider": "ollama-embeddings" } } [source:swarmvault-config-json-84915e3f]
+
+## Related Outputs
+
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
+

@@ -1,0 +1,4443 @@
+---
+page_id: 'graph:community:operation-43'
+kind: community_summary
+cssclasses:
+  - swarmvault
+  - sv-community
+title: 'Community: operation'
+tags:
+  - graph
+  - community
+source_ids: &ref_1
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - dockerfile-6442cd3d
+  - commitlintrc-bd2072fb
+  - swarmvault-config-json-84915e3f
+  - site-f35bf3f0
+  - the-idea-636ec680
+  - the-problems-13af562d
+  - docker-compose-96d71fcb
+  - local-ini-4b243f68
+  - ajv-dist-2020-js-627114a2
+  - braintree-sanitize-url-js-de06e2b9
+  - chunk-7oikw5wk-js-e8520523
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - dayjs-js-a6ae3be3
+  - debug-js-6540d3a7
+  - jsonc-parser-js-120059a2
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-js-57a542db
+  - 6-forgotten-dff037fc
+  - 24-banana-817abe21
+  - knowledge-base-rule-a4a663c8
+  - docs-16563f41
+  - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 9-address-0633f40c
+  - to-build-the-future-look-at-the-past-5557730d
+  - 33-the-amplifier-8701a6b1
+  - 33-the-amplifier-e4125d9b
+  - the-handshake-2d49d44e
+  - 8-configuration-a5b702f4
+  - golangci-c8766e4f
+  - form-of-instruction-notes-9051c314
+  - 29-the-anthill-organizes-21255101
+  - before-you-read-anything-else-af351c3d
+  - package-945abd34
+  - package-b0f69490
+  - rfc-the-operation-protocol-cb01fbf6
+  - 16-migrations-115e9686
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 3-bleed-09df896e
+  - 7-linus-a63f10aa
+  - my-awesome-web-application-2e8617e5
+  - goreleaser-3530be9e
+  - chunk-busya2b4-js-ed562b0b
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79
+  - dependabot-auto-merge-a7978ddf
+  - composer-2fcc293f
+  - composer-c80b8ea8
+  - epilogue-3382e75b
+  - 10-pistol-c4a46637
+  - psalm-baseline-38ca50b0
+  - taskfile-f98ae8d6
+  - 12-profession-6a98045a
+  - 13-convergent-evolution-42fa3b44
+  - 16-the-founder-s-dream-7178fd75
+  - 16-the-founder-s-dream-df440da1
+  - 17-the-gallium-28cb4937
+  - 20-the-playground-353dd7fb
+  - the-understory-69c901f2
+  - the-dance-17d85dd8
+  - 4-struggle-54bdb010
+  - bug-report-0c8d64f2
+  - the-murmuration-04e8f14e
+  - lesson-3-the-cover-9c25e128
+  - the-black-square-d930c773
+  - index-dc346ad9
+  - 23-the-vacant-cell-4774271c
+  - dogshop-de2fc247
+  - dogshop-eb60bfe2
+  - fifteen-times-the-same-idea-4245d970
+  - 1-eyeballs-1b0b88c7
+  - 27-build-link-runtime-2e7dc35f
+  - the-dial-10ba3d63
+  - 11-bundle-d20d9270
+  - go-work-f103c351
+  - environment-prod-or-local-a93beb0c
+  - gitignore-0262f82c
+  - gitignore-b836fd5b
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - the-four-letters-c540e241
+  - editorconfig-eb6e1333
+  - 11-from-silicon-to-struct-283a2ad1
+  - devlog-a4b51b88
+  - form-of-operation-notes-be2b8d95
+  - feature-request-1f48c52f
+  - 31-the-hamster-leaves-the-wheel-8bb31c69
+  - local-2004a734
+  - release-template-d81408df
+  - taskfile-83d1d929
+  - 3c-pub-bar-role-game-smithy-walks-in-67e90c4b
+  - review-guidelines-0fa832f7
+  - review-guidelines-3c6b1ba1
+  - mcp-mprocs-e2aae1c9
+  - 21-the-atoms-speak-72df059e
+  - 21-the-atoms-speak-c38fb792
+  - nota-v1-6168c974
+  - 10-there-is-no-generation-35e5560a
+  - 15-black-dfde2647
+  - 26-the-compilers-528e2d40
+  - universal-roadmap-8fa1b496
+  - universal-roadmap-cdd00ede
+  - universal-field-notes-0b577177
+  - 5-truth-95c78596
+  - psalm-06d502d6
+  - index-1dd89c74
+  - index-62cbfa65
+  - ci-fab63fbd
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-contract-that-wouldn-t-break-fa2e5b4e
+  - op-33cc57bb
+  - licenserc-40040b08
+  - licenserc-5791d62b
+  - 23-treaty-ba942823
+  - 28-dobby-is-free-6542412c
+  - dogshop-invalid-17d19246
+  - dogshop-invalid-253ae2d9
+  - the-mound-a869009c
+  - dependabot-b88a7add
+  - the-dream-fulfilled-a5c68874
+  - metadata-4a448f18
+  - env-d5128e48
+  - 14-the-fact-7e232060
+  - app-9ae93cb2
+  - license-c71d239d
+  - instruction-v1-ce2b773a
+  - instruction-v1-e3a3cb1e
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - playground-cd3a86d7
+  - rail-v1-104bb94b
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-first-vendors-not-a-standard-library-f05eb450
+  - >-
+    github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
+  - op-a39d2486
+  - phpunit-10eb0a3f
+  - dream-17b190f1
+  - 12-the-conference-cc7a4771
+  - 15-the-coexistence-22bc8664
+  - 19-mongodb-ff331c30
+  - 21-equality-767c77bb
+  - 22-the-dream-layer-d04b39b6
+  - 24-the-trial-ad8162d4
+  - 25-the-manifesto-ebee95e5
+  - faq-d7ac412d
+  - the-harbourmaster-072db85e
+  - 22-nothing-4cfe372b
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - 19-the-missing-format-37a6499f
+  - acknowledgements-bbe9037d
+  - form-of-nota-notes-04d12dbf
+  - the-observation-6da70cdd
+  - 9-the-operation-comes-first-f6c6890b
+  - 14-markets-38a7b571
+  - form-of-rail-notes-349e92b3
+  - the-primitive-range-conjecture-c5c69b80
+  - 32-the-verdict-3837cfdb
+  - 32-the-verdict-dedc9d53
+  - 1-why-5b9657bb
+  - 2-research-trail-834ba4c9
+  - go-c4b9b5b5
+  - go-f187696e
+  - release-33611003
+  - go-c7d8e97e
+  - go-fcb237cc
+  - thumbrise-open-source-go-tooling-logo-2edf0302
+  - gitignore-b1a75042
+  - 3b-pub-bar-role-game-the-bar-reopens-3094a23e
+  - 30-the-first-stranger-502ca504
+  - rr-02e8677b
+  - package-lock-22d613f6
+  - package-lock-5960ef1f
+  - gitignore-77b957b1
+  - editorconfig-35e39de5
+  - editorconfig-da427795
+  - 18-the-fourth-rail-368f05dd
+  - 18-the-fourth-rail-f496db69
+  - the-codex-d54c2224
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - 3d-pub-bar-role-game-the-krabby-patty-3de2f4ab
+  - three-atoms-28e52786
+  - three-atoms-f9d1fbb2
+  - 3a-pub-bar-role-game-discoveries-6494703c
+  - 3e-pub-bar-role-game-runtime-autopsy-e1b81c09
+  - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
+  - 3g-pub-bar-role-game-deepseek-s-letter-4b07f74b
+  - package-3ca9d4af
+  - 001-what-is-an-operation-640ebffc
+  - go-8cbf7ff4
+project_ids: []
+node_ids: &ref_0
+  - 'concept:001-why'
+  - 'concept:002-research-trail'
+  - 'concept:002-spiral'
+  - 'concept:002-the-handshake'
+  - 'concept:003-roadrunner-bleeds-across-layers'
+  - 'concept:003-the-understory'
+  - 'concept:003a-pub-bar-role-game'
+  - 'concept:003b-pub-bar-role-game'
+  - 'concept:003c-pub-bar-role-game'
+  - 'concept:003d-pub-bar-role-game'
+  - 'concept:003e-pub-bar-role-game'
+  - 'concept:003f-pub-bar-role-game'
+  - 'concept:003g-pub-bar-role-game'
+  - 'concept:003h-pub-bar-role-game'
+  - 'concept:004-operations-protocol'
+  - 'concept:004-php-poc-struggle'
+  - 'concept:005-history-of-protocols'
+  - 'concept:005-single-source-of-truth'
+  - 'concept:006-fifteen-times-the-same-idea'
+  - 'concept:006-the-four-letters'
+  - 'concept:006-what-programs-forgot'
+  - 'concept:007-contract'
+  - 'concept:007-the-book-on-the-desk'
+  - 'concept:007-why-we-dont-call-linus'
+  - 'concept:008-the-harbourmaster'
+  - 'concept:008-three-atoms'
+  - 'concept:009-operation-comes-first'
+  - 'concept:009-the-address-is-a-detail'
+  - 'concept:009-the-dance'
+  - 'concept:010-fifty-triggers-fifty-barrels'
+  - 'concept:010-the-murmuration'
+  - 'concept:010-there-is-no-generation'
+  - 'concept:011-from-silicon-to-struct'
+  - 'concept:011-postgres-is-a-bundle'
+  - 'concept:011-the-black-square'
+  - 'concept:012-the-cover'
+  - 'concept:012-the-disappearing-profession'
+  - 'concept:013-convergent-evolution'
+  - 'concept:013-the-dream-fulfilled'
+  - 'concept:013-the-lock-that-disappeared'
+  - 'concept:014-epilogue'
+  - 'concept:014-the-fact'
+  - 'concept:014-two-invisible-markets'
+  - 'concept:015-the-black-compiler'
+  - 'concept:015-the-coexistence'
+  - 'concept:016-the-founders-dream'
+  - 'concept:016-the-origin-of-migrations'
+  - 'concept:017-postgres-is-a-jit'
+  - 'concept:017-the-gallium'
+  - 'concept:018-hand-written-deopt-guards'
+  - 'concept:019-nobody-chooses-mongodb'
+  - 'concept:019-the-missing-format'
+  - 'concept:020-how-much-you-promise'
+  - 'concept:021-all-programs-are-equal'
+  - 'concept:021-the-atoms-speak'
+  - 'concept:022-the-dream-layer'
+  - 'concept:022-why-nothing-lands'
+  - 'concept:023-the-vacant-cell'
+  - 'concept:023-treaty-of-five'
+  - 'concept:024-the-trial'
+  - 'concept:025-the-manifesto'
+  - 'concept:026-the-compilers'
+  - 'concept:027-build-link-runtime'
+  - 'concept:028-dobby-is-free'
+  - 'concept:029-the-anthill-organizes'
+  - 'concept:030-the-first-stranger'
+  - 'concept:031-the-hamster-leaves-the-wheel'
+  - 'concept:032-the-verdict'
+  - 'concept:033-the-amplifier'
+  - 'concept:0755'
+  - 'concept:10000'
+  - 'concept:11434'
+  - 'concept:192x192'
+  - 'concept:22c55e'
+  - 'concept:3-cli'
+  - 'concept:512x512'
+  - 'concept:8080'
+  - 'concept:9003'
+  - 'concept:aaaa'
+  - 'concept:abolish'
+  - 'concept:about'
+  - 'concept:actions'
+  - 'concept:adapter'
+  - 'concept:address'
+  - 'concept:adoption'
+  - 'concept:agent'
+  - 'concept:agreement'
+  - 'concept:alloc'
+  - 'concept:allow'
+  - 'concept:also'
+  - 'concept:always'
+  - 'concept:answer'
+  - 'concept:anthill'
+  - 'concept:anything'
+  - 'concept:apache'
+  - 'concept:append-only-court-record'
+  - 'concept:application'
+  - 'concept:archives'
+  - 'concept:array'
+  - 'concept:asks'
+  - 'concept:author'
+  - 'concept:auto'
+  - 'concept:autoload'
+  - 'concept:back'
+  - 'concept:banana'
+  - 'concept:barrels'
+  - 'concept:baseline'
+  - 'concept:baseurl'
+  - 'concept:bash'
+  - 'concept:because'
+  - 'concept:beech'
+  - 'concept:bees'
+  - 'concept:before'
+  - 'concept:behavior'
+  - 'concept:berners'
+  - 'concept:binary'
+  - 'concept:birds'
+  - 'concept:black'
+  - 'concept:book'
+  - 'concept:books'
+  - 'concept:bound'
+  - 'concept:boundary'
+  - 'concept:breed'
+  - 'concept:bridge'
+  - 'concept:browser'
+  - 'concept:build'
+  - 'concept:builds'
+  - 'concept:built'
+  - 'concept:bundle'
+  - 'concept:business'
+  - 'concept:bwesterb'
+  - 'concept:caac'
+  - 'concept:cache'
+  - 'concept:cart'
+  - 'concept:case'
+  - 'concept:cell'
+  - 'concept:changelog'
+  - 'concept:charset'
+  - 'concept:checksum'
+  - 'concept:choice-finite-set'
+  - 'concept:claim'
+  - 'concept:class'
+  - 'concept:clear'
+  - 'concept:client'
+  - 'concept:closes'
+  - 'concept:cmds'
+  - 'concept:code'
+  - 'concept:cognee'
+  - 'concept:color'
+  - 'concept:comment'
+  - 'concept:commitlint'
+  - 'concept:compilation'
+  - 'concept:compilation-vs-generation'
+  - 'concept:compiler'
+  - 'concept:compilers'
+  - 'concept:complete'
+  - 'concept:composer'
+  - 'concept:composition'
+  - 'concept:concise'
+  - 'concept:config'
+  - 'concept:config-conventional'
+  - 'concept:considered'
+  - 'concept:constants'
+  - 'concept:consumer'
+  - 'concept:content'
+  - 'concept:context'
+  - 'concept:continuous-integration-ci'
+  - 'concept:contract'
+  - 'concept:contractual-architecture'
+  - 'concept:conventional'
+  - 'concept:convergence-evidence'
+  - 'concept:convergent-evolution'
+  - 'concept:copyright'
+  - 'concept:corba'
+  - 'concept:core'
+  - 'concept:could'
+  - 'concept:cover'
+  - 'concept:crack'
+  - 'concept:cross'
+  - 'concept:curl'
+  - 'concept:cycle'
+  - 'concept:daily'
+  - 'concept:dance'
+  - 'concept:dances'
+  - 'concept:database'
+  - 'concept:daughter'
+  - 'concept:dayjs'
+  - 'concept:debug'
+  - 'concept:declarative-arc'
+  - 'concept:default'
+  - 'concept:definitions'
+  - 'concept:dependabot'
+  - 'concept:depth'
+  - 'concept:derivative'
+  - 'concept:desc'
+  - 'concept:describe'
+  - 'concept:description'
+  - 'concept:desk'
+  - 'concept:devin'
+  - 'concept:devlog'
+  - 'concept:dictate'
+  - 'concept:diff'
+  - 'concept:different'
+  - 'concept:directory'
+  - 'concept:discover'
+  - 'concept:display'
+  - 'concept:dist'
+  - 'concept:distributed'
+  - 'concept:docker'
+  - 'concept:dockerfile'
+  - 'concept:docs'
+  - 'concept:doctor'
+  - 'concept:documentation'
+  - 'concept:does'
+  - 'concept:doesn'
+  - 'concept:down'
+  - 'concept:dream'
+  - 'concept:each'
+  - 'concept:ecosystem'
+  - 'concept:embeddings'
+  - 'concept:emitter'
+  - 'concept:empty'
+  - 'concept:encoding'
+  - 'concept:engineer'
+  - 'concept:environment'
+  - 'concept:equiv'
+  - 'concept:error'
+  - 'concept:errors'
+  - 'concept:every'
+  - 'concept:expression'
+  - 'concept:eyeballs'
+  - 'concept:f87171'
+  - 'concept:fact'
+  - 'concept:fact-system-vs-delivery-system'
+  - 'concept:false'
+  - 'concept:falsifiability'
+  - 'concept:ffffff'
+  - 'concept:field'
+  - 'concept:fields'
+  - 'concept:fifty'
+  - 'concept:file'
+  - 'concept:filehash'
+  - 'concept:files'
+  - 'concept:fill'
+  - 'concept:final'
+  - 'concept:first'
+  - 'concept:five'
+  - 'concept:flag'
+  - 'concept:flock'
+  - 'concept:flowers'
+  - 'concept:forest'
+  - 'concept:form'
+  - 'concept:form-of-operation'
+  - 'concept:formalization-of-physics'
+  - 'concept:format'
+  - 'concept:four'
+  - 'concept:framework'
+  - 'concept:from'
+  - 'concept:gaae'
+  - 'concept:gaag'
+  - 'concept:gallium'
+  - 'concept:github'
+  - 'concept:go-git'
+  - 'concept:go-module'
+  - 'concept:go-programming-language'
+  - 'concept:go-tooling'
+  - 'concept:goal'
+  - 'concept:golang'
+  - 'concept:google'
+  - 'concept:gopkg'
+  - 'concept:graph'
+  - 'concept:gravity'
+  - 'concept:groups'
+  - 'concept:grpc'
+  - 'concept:guts-extraction'
+  - 'concept:haiku'
+  - 'concept:hand'
+  - 'concept:harbour'
+  - 'concept:header'
+  - 'concept:hedging'
+  - 'concept:here'
+  - 'concept:host'
+  - 'concept:http'
+  - 'concept:httpplug'
+  - 'concept:https'
+  - 'concept:hypothesize'
+  - 'concept:iaae'
+  - 'concept:iaai'
+  - 'concept:idea'
+  - 'concept:identifier'
+  - 'concept:idris'
+  - 'concept:image'
+  - 'concept:include'
+  - 'concept:indent'
+  - 'concept:indirect'
+  - 'concept:input'
+  - 'concept:insert'
+  - 'concept:install'
+  - 'concept:instruction'
+  - 'concept:instructions'
+  - 'concept:integrity'
+  - 'concept:interaction'
+  - 'concept:intermediate-representation-ir'
+  - 'concept:interval'
+  - 'concept:introspection'
+  - 'concept:issue'
+  - 'concept:items'
+  - 'concept:java'
+  - 'concept:job'
+  - 'concept:journal'
+  - 'concept:json'
+  - 'concept:just'
+  - 'concept:kaak'
+  - 'concept:kaau'
+  - 'concept:keys'
+  - 'concept:kind'
+  - 'concept:know'
+  - 'concept:l-m-l-m-reduction'
+  - 'concept:language'
+  - 'concept:layer'
+  - 'concept:length'
+  - 'concept:lesson'
+  - 'concept:letters'
+  - 'concept:level'
+  - 'concept:license'
+  - 'concept:like'
+  - 'concept:lint'
+  - 'concept:linter'
+  - 'concept:linters'
+  - 'concept:linus'
+  - 'concept:load'
+  - 'concept:localhost'
+  - 'concept:logic'
+  - 'concept:looks'
+  - 'concept:maam'
+  - 'concept:maca'
+  - 'concept:manifest'
+  - 'concept:map-and-territory-problem'
+  - 'concept:mappings'
+  - 'concept:markets'
+  - 'concept:meaning'
+  - 'concept:menu'
+  - 'concept:merge'
+  - 'concept:meta'
+  - 'concept:metadata'
+  - 'concept:metrics'
+  - 'concept:milestone'
+  - 'concept:missing'
+  - 'concept:model'
+  - 'concept:module'
+  - 'concept:modules'
+  - 'concept:mound'
+  - 'concept:must'
+  - 'concept:n-m-zoo'
+  - 'concept:name'
+  - 'concept:names'
+  - 'concept:need'
+  - 'concept:needsinterop'
+  - 'concept:never'
+  - 'concept:node'
+  - 'concept:nota'
+  - 'concept:notes'
+  - 'concept:npmjs'
+  - 'concept:oaao'
+  - 'concept:object'
+  - 'concept:ollama'
+  - 'concept:open-source'
+  - 'concept:openapi'
+  - 'concept:operation'
+  - 'concept:operation-op'
+  - 'concept:operation-protocol'
+  - 'concept:operation-the-primitive'
+  - 'concept:operations'
+  - 'concept:opinion'
+  - 'concept:opinion-vs-fact'
+  - 'concept:output'
+  - 'concept:package'
+  - 'concept:painting'
+  - 'concept:parallel'
+  - 'concept:parameterization'
+  - 'concept:paraphrase'
+  - 'concept:paths'
+  - 'concept:pattern'
+  - 'concept:phpunit'
+  - 'concept:pistol'
+  - 'concept:planner'
+  - 'concept:playground'
+  - 'concept:plugin'
+  - 'concept:plugins'
+  - 'concept:port'
+  - 'concept:porter'
+  - 'concept:postgres'
+  - 'concept:prefix'
+  - 'concept:primitive'
+  - 'concept:procs'
+  - 'concept:program'
+  - 'concept:programs'
+  - 'concept:promise'
+  - 'concept:protobuf'
+  - 'concept:protoc'
+  - 'concept:protocol'
+  - 'concept:protocol-gravity'
+  - 'concept:psalm'
+  - 'concept:qaaq'
+  - 'concept:quote'
+  - 'concept:radio'
+  - 'concept:raft'
+  - 'concept:rail'
+  - 'concept:read'
+  - 'concept:receiver'
+  - 'concept:record'
+  - 'concept:reference'
+  - 'concept:references'
+  - 'concept:refresh'
+  - 'concept:release'
+  - 'concept:remove'
+  - 'concept:repetition'
+  - 'concept:required'
+  - 'concept:research'
+  - 'concept:resilience'
+  - 'concept:rest'
+  - 'concept:results'
+  - 'concept:retry'
+  - 'concept:return'
+  - 'concept:review'
+  - 'concept:rfc-2119-keywords'
+  - 'concept:right'
+  - 'concept:roots'
+  - 'concept:rules'
+  - 'concept:runtime'
+  - 'concept:saas'
+  - 'concept:same'
+  - 'concept:schema'
+  - 'concept:sdk-software-development-kit'
+  - 'concept:seconds'
+  - 'concept:self-knowing-programs'
+  - 'concept:semantic-path-rail'
+  - 'concept:serve'
+  - 'concept:server'
+  - 'concept:setup'
+  - 'concept:ship'
+  - 'concept:size'
+  - 'concept:slot'
+  - 'concept:smell'
+  - 'concept:smithy'
+  - 'concept:smtp'
+  - 'concept:software-versioning'
+  - 'concept:some'
+  - 'concept:something'
+  - 'concept:sources'
+  - 'concept:space'
+  - 'concept:spiral'
+  - 'concept:square'
+  - 'concept:standard'
+  - 'concept:state'
+  - 'concept:static'
+  - 'concept:storage'
+  - 'concept:stream'
+  - 'concept:string'
+  - 'concept:style'
+  - 'concept:such'
+  - 'concept:swarmvault'
+  - 'concept:task'
+  - 'concept:technical'
+  - 'concept:term'
+  - 'concept:text'
+  - 'concept:than'
+  - 'concept:that'
+  - 'concept:then'
+  - 'concept:there'
+  - 'concept:they'
+  - 'concept:this'
+  - 'concept:three'
+  - 'concept:title'
+  - 'concept:tokenizer'
+  - 'concept:tool'
+  - 'concept:tools'
+  - 'concept:topology'
+  - 'concept:trait'
+  - 'concept:traits'
+  - 'concept:transport'
+  - 'concept:true'
+  - 'concept:truth'
+  - 'concept:type'
+  - 'concept:types'
+  - 'concept:uaai'
+  - 'concept:universal'
+  - 'concept:user'
+  - 'concept:value'
+  - 'concept:vendor'
+  - 'concept:vendors'
+  - 'concept:version'
+  - 'concept:violation'
+  - 'concept:vitepress'
+  - 'concept:voice'
+  - 'concept:volumes'
+  - 'concept:watch'
+  - 'concept:what'
+  - 'concept:where'
+  - 'concept:wiki'
+  - 'concept:wire'
+  - 'concept:with'
+  - 'concept:without'
+  - 'concept:word'
+  - 'concept:work'
+  - 'concept:workflow'
+  - 'concept:works'
+  - 'concept:write'
+  - 'concept:writing'
+  - 'concept:xdebug'
+  - 'concept:yaay'
+  - 'concept:yaml'
+  - 'concept:your'
+  - 'entity:1-26-1'
+  - 'entity:actions-checkout-v6'
+  - 'entity:actions-setup-go-v6'
+  - 'entity:add'
+  - 'entity:address'
+  - 'entity:address-is'
+  - 'entity:after'
+  - 'entity:again'
+  - 'entity:alexandria'
+  - 'entity:all'
+  - 'entity:all-programs-are-equal-take'
+  - 'entity:amplifier'
+  - 'entity:an'
+  - 'entity:and'
+  - 'entity:ankara'
+  - 'entity:anthill-organizes'
+  - 'entity:anthill-organizes-devlog'
+  - 'entity:anti'
+  - 'entity:appendix'
+  - 'entity:arabic'
+  - 'entity:array-kind'
+  - 'entity:art-stood'
+  - 'entity:ast'
+  - 'entity:atlantic-ocean'
+  - 'entity:atom'
+  - 'entity:atoms-speak'
+  - 'entity:atoms-speak-we'
+  - 'entity:banana'
+  - 'entity:bar-owner-speaks'
+  - 'entity:bar-reopens'
+  - 'entity:berners-lee'
+  - 'entity:binary-for'
+  - 'entity:black'
+  - 'entity:black-compiler'
+  - 'entity:bleed'
+  - 'entity:blind-spot-every'
+  - 'entity:box'
+  - 'entity:brazil'
+  - 'entity:break'
+  - 'entity:break-we'
+  - 'entity:browser'
+  - 'entity:budgetexceeded-five'
+  - 'entity:build'
+  - 'entity:bundle'
+  - 'entity:bundle-postgres'
+  - 'entity:but'
+  - 'entity:buydog'
+  - 'entity:buydog-input-buydoginput-buydogoutput'
+  - 'entity:call-linus'
+  - 'entity:chat-stream-clientmessage'
+  - 'entity:cheetah-then'
+  - 'entity:choosing'
+  - 'entity:claim-we'
+  - 'entity:clause'
+  - 'entity:clay'
+  - 'entity:code'
+  - 'entity:codex'
+  - 'entity:coexistence'
+  - 'entity:coexistence-every'
+  - 'entity:comment-enters'
+  - 'entity:compatibility'
+  - 'entity:compilers'
+  - 'entity:config'
+  - 'entity:configuration'
+  - 'entity:configuration-is-not-parameterization-devops'
+  - 'entity:contents'
+  - 'entity:contract-that-wouldn-t'
+  - 'entity:contracts'
+  - 'entity:convergent-evolution'
+  - 'entity:convergent-evolution-this'
+  - 'entity:convergent-witnesses'
+  - 'entity:core'
+  - 'entity:core-uri'
+  - 'entity:createdog-handle'
+  - 'entity:curl-eyeballs-turned'
+  - 'entity:d-bus'
+  - 'entity:darwin'
+  - 'entity:debug'
+  - 'entity:deepseek'
+  - 'entity:deepseek-s-letter'
+  - 'entity:delivery'
+  - 'entity:describe'
+  - 'entity:detail-when'
+  - 'entity:devin'
+  - 'entity:devlog'
+  - 'entity:devlog-this'
+  - 'entity:devops'
+  - 'entity:different'
+  - 'entity:dima'
+  - 'entity:disappearing-profession-john-ousterhout'
+  - 'entity:discoveries'
+  - 'entity:dna'
+  - 'entity:dobby-is-free'
+  - 'entity:docker'
+  - 'entity:dockerfile'
+  - 'entity:documentation'
+  - 'entity:dog'
+  - 'entity:dognotfound'
+  - 'entity:dream'
+  - 'entity:dream-it'
+  - 'entity:dream-layer'
+  - 'entity:dream-layer-this'
+  - 'entity:dreamers'
+  - 'entity:drop'
+  - 'entity:dsl'
+  - 'entity:duckdb-cockroachdb'
+  - 'entity:each'
+  - 'entity:earth'
+  - 'entity:emitter'
+  - 'entity:english'
+  - 'entity:entity'
+  - 'entity:enum-kind'
+  - 'entity:environment'
+  - 'entity:epilogue'
+  - 'entity:equality'
+  - 'entity:error-without-opinion'
+  - 'entity:every'
+  - 'entity:everyone'
+  - 'entity:exactly'
+  - 'entity:expected'
+  - 'entity:eye'
+  - 'entity:eyeballs'
+  - 'entity:fhir'
+  - 'entity:field'
+  - 'entity:fifteen-times'
+  - 'entity:fifty-triggers-fifty-barrels'
+  - 'entity:first-inhabitants'
+  - 'entity:first-lesson'
+  - 'entity:five-five'
+  - 'entity:fixtures'
+  - 'entity:fonts'
+  - 'entity:for'
+  - 'entity:forgotten'
+  - 'entity:form-of-instruction-notes-this'
+  - 'entity:form-of-nota-notes-this'
+  - 'entity:form-of-operation-notes-this'
+  - 'entity:formalizing'
+  - 'entity:format'
+  - 'entity:founder-s-dream'
+  - 'entity:founder-s-dream-in'
+  - 'entity:four'
+  - 'entity:fourth-rail'
+  - 'entity:fourth-rail-this'
+  - 'entity:frisch'
+  - 'entity:from'
+  - 'entity:future-look'
+  - 'entity:gallium'
+  - 'entity:gallium-in'
+  - 'entity:gallium-we'
+  - 'entity:gen-php'
+  - 'entity:get-started'
+  - 'entity:github'
+  - 'entity:github-com'
+  - 'entity:github-com-thumbrise-op'
+  - 'entity:github-com-thumbrise-op-sdk-go'
+  - 'entity:go'
+  - 'entity:go-1-26-0'
+  - 'entity:google'
+  - 'entity:goreleaser'
+  - 'entity:goreleaser-guys'
+  - 'entity:graphql'
+  - 'entity:greek'
+  - 'entity:guards'
+  - 'entity:guidelines'
+  - 'entity:guys'
+  - 'entity:hamster-leaves'
+  - 'entity:hand-written-deopt-guards'
+  - 'entity:happy'
+  - 'entity:haskell'
+  - 'entity:hotspot'
+  - 'entity:how'
+  - 'entity:i-m'
+  - 'entity:i-ve'
+  - 'entity:ibm'
+  - 'entity:id'
+  - 'entity:idea'
+  - 'entity:if'
+  - 'entity:in'
+  - 'entity:infra-if'
+  - 'entity:innodb'
+  - 'entity:input'
+  - 'entity:inside-postgres'
+  - 'entity:instruction'
+  - 'entity:it'
+  - 'entity:item'
+  - 'entity:java'
+  - 'entity:javascript'
+  - 'entity:jennifer'
+  - 'entity:jobs'
+  - 'entity:joe-becker'
+  - 'entity:john-ousterhout'
+  - 'entity:json-schema'
+  - 'entity:karl'
+  - 'entity:kind'
+  - 'entity:krabby-patty'
+  - 'entity:krabby-patty-description'
+  - 'entity:kubernetes'
+  - 'entity:language'
+  - 'entity:laravel'
+  - 'entity:last-futurist-exhibition'
+  - 'entity:legal-entity'
+  - 'entity:lesson'
+  - 'entity:license'
+  - 'entity:license-version'
+  - 'entity:linus'
+  - 'entity:linus-description-memory'
+  - 'entity:linux'
+  - 'entity:list-take'
+  - 'entity:look'
+  - 'entity:luca-pacioli-s'
+  - 'entity:madrid'
+  - 'entity:manifesto'
+  - 'entity:markets'
+  - 'entity:meaning'
+  - 'entity:mendeleev'
+  - 'entity:migrations'
+  - 'entity:migrations-every'
+  - 'entity:milestone'
+  - 'entity:missing-format'
+  - 'entity:missing-format-this'
+  - 'entity:missing-foundation'
+  - 'entity:missing-foundation-we'
+  - 'entity:modern'
+  - 'entity:mongo'
+  - 'entity:mongodb'
+  - 'entity:monolog'
+  - 'entity:ms'
+  - 'entity:munich'
+  - 'entity:murat'
+  - 'entity:n-worlds'
+  - 'entity:names'
+  - 'entity:naming'
+  - 'entity:naming-problem'
+  - 'entity:narrative'
+  - 'entity:nested'
+  - 'entity:nginx'
+  - 'entity:nobel-prize'
+  - 'entity:nobody'
+  - 'entity:nobody-chooses-mongodb'
+  - 'entity:node-modules-semantic-release-github'
+  - 'entity:not'
+  - 'entity:not-drew'
+  - 'entity:nota'
+  - 'entity:nothing'
+  - 'entity:o-clock'
+  - 'entity:object-kind'
+  - 'entity:observation'
+  - 'entity:of-instruction-notes'
+  - 'entity:of-nota-notes'
+  - 'entity:of-operation-notes'
+  - 'entity:once'
+  - 'entity:one'
+  - 'entity:op'
+  - 'entity:op-protobuf'
+  - 'entity:op-protocol-structure'
+  - 'entity:op-s'
+  - 'entity:op-smithy'
+  - 'entity:op-the-protocol'
+  - 'entity:openapi'
+  - 'entity:opened'
+  - 'entity:opentelemetry'
+  - 'entity:operation'
+  - 'entity:operation-comes-first'
+  - 'entity:operation-primitive'
+  - 'entity:operation-protocol-appendix'
+  - 'entity:operations-protocol-formalizing'
+  - 'entity:origin'
+  - 'entity:other'
+  - 'entity:outofbeans'
+  - 'entity:outofstock'
+  - 'entity:paintings'
+  - 'entity:past'
+  - 'entity:past-we'
+  - 'entity:pennsylvania'
+  - 'entity:pennsylvania-forest'
+  - 'entity:permissions'
+  - 'entity:phase'
+  - 'entity:phoenician'
+  - 'entity:php'
+  - 'entity:pipe'
+  - 'entity:pistol'
+  - 'entity:plate'
+  - 'entity:playground'
+  - 'entity:playground-seventeen'
+  - 'entity:poc'
+  - 'entity:polly'
+  - 'entity:popperian'
+  - 'entity:postgres'
+  - 'entity:postgres-is'
+  - 'entity:preserved'
+  - 'entity:preview'
+  - 'entity:primitive-range-conjecture'
+  - 'entity:pro'
+  - 'entity:problem'
+  - 'entity:problem-with-words-we'
+  - 'entity:problems'
+  - 'entity:profession'
+  - 'entity:programs'
+  - 'entity:prologue'
+  - 'entity:prologue-after'
+  - 'entity:prologue-an'
+  - 'entity:promise'
+  - 'entity:protobuf'
+  - 'entity:protocol'
+  - 'entity:ptolemaic'
+  - 'entity:pub-bar-role-game'
+  - 'entity:python'
+  - 'entity:raft'
+  - 'entity:rail'
+  - 'entity:raw'
+  - 'entity:raw-notes'
+  - 'entity:read'
+  - 'entity:receipt'
+  - 'entity:receiver'
+  - 'entity:redirect-someone'
+  - 'entity:reference'
+  - 'entity:reference-research'
+  - 'entity:reinventions'
+  - 'entity:reproduce-steps'
+  - 'entity:research-trail'
+  - 'entity:research-trail-before'
+  - 'entity:rfc'
+  - 'entity:rhodes'
+  - 'entity:roadrunner'
+  - 'entity:roadrunner-bleeds-across-layers-opened'
+  - 'entity:roadrunnerbridge'
+  - 'entity:role'
+  - 'entity:roman'
+  - 'entity:roman-census'
+  - 'entity:rome'
+  - 'entity:runtime'
+  - 'entity:runtime-autopsy'
+  - 'entity:ruslan'
+  - 'entity:russian'
+  - 'entity:rust'
+  - 'entity:s'
+  - 'entity:same-idea'
+  - 'entity:same-idea-we'
+  - 'entity:same-thing-again'
+  - 'entity:sat'
+  - 'entity:savanna'
+  - 'entity:schema'
+  - 'entity:schema-of-instruction'
+  - 'entity:schema-of-operation'
+  - 'entity:schema-protobuf'
+  - 'entity:scientific-american'
+  - 'entity:scramble'
+  - 'entity:scramble-huma'
+  - 'entity:scripts'
+  - 'entity:sections'
+  - 'entity:see'
+  - 'entity:set'
+  - 'entity:ships'
+  - 'entity:short'
+  - 'entity:single-source'
+  - 'entity:sir-just'
+  - 'entity:six'
+  - 'entity:size'
+  - 'entity:slack'
+  - 'entity:smartphone'
+  - 'entity:smithy'
+  - 'entity:smithy-cloudevents-asyncapi'
+  - 'entity:smithy-s'
+  - 'entity:smithy-walks-in'
+  - 'entity:someone'
+  - 'entity:somewhere'
+  - 'entity:source'
+  - 'entity:southern-austria'
+  - 'entity:spiral'
+  - 'entity:spiral-s'
+  - 'entity:st-peter-s'
+  - 'entity:standing'
+  - 'entity:statistics'
+  - 'entity:status'
+  - 'entity:steering-committee-op'
+  - 'entity:stories'
+  - 'entity:struggle'
+  - 'entity:submit'
+  - 'entity:swagger'
+  - 'entity:swarmvault'
+  - 'entity:symfony'
+  - 'entity:t-rkiye'
+  - 'entity:tanzania'
+  - 'entity:tanzanian-savanna'
+  - 'entity:taskfile-yaml'
+  - 'entity:technically'
+  - 'entity:term'
+  - 'entity:the-conference'
+  - 'entity:the-conference-we'
+  - 'entity:the-radio'
+  - 'entity:them-two'
+  - 'entity:then-recover'
+  - 'entity:third-lesson'
+  - 'entity:this'
+  - 'entity:this-journal'
+  - 'entity:three'
+  - 'entity:three-atoms'
+  - 'entity:three-atoms-we'
+  - 'entity:thumbrise'
+  - 'entity:tiber'
+  - 'entity:tim-berners-lee'
+  - 'entity:to-build'
+  - 'entity:tony-tam'
+  - 'entity:top'
+  - 'entity:trait'
+  - 'entity:transport'
+  - 'entity:treaty'
+  - 'entity:trial'
+  - 'entity:trial-science'
+  - 'entity:truth'
+  - 'entity:two'
+  - 'entity:two-layers'
+  - 'entity:two-sins-in'
+  - 'entity:typescript'
+  - 'entity:unicode'
+  - 'entity:unification-trait'
+  - 'entity:universal'
+  - 'entity:universal-field'
+  - 'entity:universal-field-notes'
+  - 'entity:universal-field-notes-short'
+  - 'entity:urbio-http'
+  - 'entity:uri'
+  - 'entity:use'
+  - 'entity:vacant-cell'
+  - 'entity:vacant-cell-mendeleev'
+  - 'entity:val'
+  - 'entity:value'
+  - 'entity:verbosity'
+  - 'entity:verdict'
+  - 'entity:verdict-one-topology-four-witnesses'
+  - 'entity:verification'
+  - 'entity:version'
+  - 'entity:vertical'
+  - 'entity:via-appia'
+  - 'entity:vienna'
+  - 'entity:vitepress-dist'
+  - 'entity:vpn'
+  - 'entity:walker'
+  - 'entity:wamp-web-application-messaging-protocol'
+  - 'entity:we'
+  - 'entity:web'
+  - 'entity:websocket'
+  - 'entity:what'
+  - 'entity:what-programs-forgot-programs'
+  - 'entity:wheel'
+  - 'entity:when'
+  - 'entity:why'
+  - 'entity:why-nothing-lands'
+  - 'entity:why-op-cannot'
+  - 'entity:why-we-don-t'
+  - 'entity:wildberries'
+  - 'entity:wire'
+  - 'entity:working'
+  - 'entity:written-many-times'
+  - 'entity:you-write'
+  - 'entity:zend-engine'
+  - 'entity:zend-engine-analogy-it'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T05:11:47.439Z'
+updated_at: '2026-05-03T05:32:24.814Z'
+compiled_from:
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - dockerfile-6442cd3d
+  - commitlintrc-bd2072fb
+  - swarmvault-config-json-84915e3f
+  - site-f35bf3f0
+  - the-idea-636ec680
+  - the-problems-13af562d
+  - docker-compose-96d71fcb
+  - local-ini-4b243f68
+  - ajv-dist-2020-js-627114a2
+  - braintree-sanitize-url-js-de06e2b9
+  - chunk-7oikw5wk-js-e8520523
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - dayjs-js-a6ae3be3
+  - debug-js-6540d3a7
+  - jsonc-parser-js-120059a2
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-js-57a542db
+  - 6-forgotten-dff037fc
+  - 24-banana-817abe21
+  - knowledge-base-rule-a4a663c8
+  - docs-16563f41
+  - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 9-address-0633f40c
+  - to-build-the-future-look-at-the-past-5557730d
+  - 33-the-amplifier-8701a6b1
+  - 33-the-amplifier-e4125d9b
+  - the-handshake-2d49d44e
+  - 8-configuration-a5b702f4
+  - golangci-c8766e4f
+  - form-of-instruction-notes-9051c314
+  - 29-the-anthill-organizes-21255101
+  - before-you-read-anything-else-af351c3d
+  - package-945abd34
+  - package-b0f69490
+  - rfc-the-operation-protocol-cb01fbf6
+  - 16-migrations-115e9686
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 3-bleed-09df896e
+  - 7-linus-a63f10aa
+  - my-awesome-web-application-2e8617e5
+  - goreleaser-3530be9e
+  - chunk-busya2b4-js-ed562b0b
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79
+  - dependabot-auto-merge-a7978ddf
+  - composer-2fcc293f
+  - composer-c80b8ea8
+  - epilogue-3382e75b
+  - 10-pistol-c4a46637
+  - psalm-baseline-38ca50b0
+  - taskfile-f98ae8d6
+  - 12-profession-6a98045a
+  - 13-convergent-evolution-42fa3b44
+  - 16-the-founder-s-dream-7178fd75
+  - 16-the-founder-s-dream-df440da1
+  - 17-the-gallium-28cb4937
+  - 20-the-playground-353dd7fb
+  - the-understory-69c901f2
+  - the-dance-17d85dd8
+  - 4-struggle-54bdb010
+  - bug-report-0c8d64f2
+  - the-murmuration-04e8f14e
+  - lesson-3-the-cover-9c25e128
+  - the-black-square-d930c773
+  - index-dc346ad9
+  - 23-the-vacant-cell-4774271c
+  - dogshop-de2fc247
+  - dogshop-eb60bfe2
+  - fifteen-times-the-same-idea-4245d970
+  - 1-eyeballs-1b0b88c7
+  - 27-build-link-runtime-2e7dc35f
+  - the-dial-10ba3d63
+  - 11-bundle-d20d9270
+  - go-work-f103c351
+  - environment-prod-or-local-a93beb0c
+  - gitignore-0262f82c
+  - gitignore-b836fd5b
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - the-four-letters-c540e241
+  - editorconfig-eb6e1333
+  - 11-from-silicon-to-struct-283a2ad1
+  - devlog-a4b51b88
+  - form-of-operation-notes-be2b8d95
+  - feature-request-1f48c52f
+  - 31-the-hamster-leaves-the-wheel-8bb31c69
+  - local-2004a734
+  - release-template-d81408df
+  - taskfile-83d1d929
+  - 3c-pub-bar-role-game-smithy-walks-in-67e90c4b
+  - review-guidelines-0fa832f7
+  - review-guidelines-3c6b1ba1
+  - mcp-mprocs-e2aae1c9
+  - 21-the-atoms-speak-72df059e
+  - 21-the-atoms-speak-c38fb792
+  - nota-v1-6168c974
+  - 10-there-is-no-generation-35e5560a
+  - 15-black-dfde2647
+  - 26-the-compilers-528e2d40
+  - universal-roadmap-8fa1b496
+  - universal-roadmap-cdd00ede
+  - universal-field-notes-0b577177
+  - 5-truth-95c78596
+  - psalm-06d502d6
+  - index-1dd89c74
+  - index-62cbfa65
+  - ci-fab63fbd
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-contract-that-wouldn-t-break-fa2e5b4e
+  - op-33cc57bb
+  - licenserc-40040b08
+  - licenserc-5791d62b
+  - 23-treaty-ba942823
+  - 28-dobby-is-free-6542412c
+  - dogshop-invalid-17d19246
+  - dogshop-invalid-253ae2d9
+  - the-mound-a869009c
+  - dependabot-b88a7add
+  - the-dream-fulfilled-a5c68874
+  - metadata-4a448f18
+  - env-d5128e48
+  - 14-the-fact-7e232060
+  - app-9ae93cb2
+  - license-c71d239d
+  - instruction-v1-ce2b773a
+  - instruction-v1-e3a3cb1e
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - playground-cd3a86d7
+  - rail-v1-104bb94b
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-first-vendors-not-a-standard-library-f05eb450
+  - >-
+    github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
+  - op-a39d2486
+  - phpunit-10eb0a3f
+  - dream-17b190f1
+  - 12-the-conference-cc7a4771
+  - 15-the-coexistence-22bc8664
+  - 19-mongodb-ff331c30
+  - 21-equality-767c77bb
+  - 22-the-dream-layer-d04b39b6
+  - 24-the-trial-ad8162d4
+  - 25-the-manifesto-ebee95e5
+  - faq-d7ac412d
+  - the-harbourmaster-072db85e
+  - 22-nothing-4cfe372b
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - 19-the-missing-format-37a6499f
+  - acknowledgements-bbe9037d
+  - form-of-nota-notes-04d12dbf
+  - the-observation-6da70cdd
+  - 9-the-operation-comes-first-f6c6890b
+  - 14-markets-38a7b571
+  - form-of-rail-notes-349e92b3
+  - the-primitive-range-conjecture-c5c69b80
+  - 32-the-verdict-3837cfdb
+  - 32-the-verdict-dedc9d53
+  - 1-why-5b9657bb
+  - 2-research-trail-834ba4c9
+  - go-c4b9b5b5
+  - go-f187696e
+  - release-33611003
+  - go-c7d8e97e
+  - go-fcb237cc
+  - thumbrise-open-source-go-tooling-logo-2edf0302
+  - gitignore-b1a75042
+  - 3b-pub-bar-role-game-the-bar-reopens-3094a23e
+  - 30-the-first-stranger-502ca504
+  - rr-02e8677b
+  - package-lock-22d613f6
+  - package-lock-5960ef1f
+  - gitignore-77b957b1
+  - editorconfig-35e39de5
+  - editorconfig-da427795
+  - 18-the-fourth-rail-368f05dd
+  - 18-the-fourth-rail-f496db69
+  - the-codex-d54c2224
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - 3d-pub-bar-role-game-the-krabby-patty-3de2f4ab
+  - three-atoms-28e52786
+  - three-atoms-f9d1fbb2
+  - 3a-pub-bar-role-game-discoveries-6494703c
+  - 3e-pub-bar-role-game-runtime-autopsy-e1b81c09
+  - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
+  - 3g-pub-bar-role-game-deepseek-s-letter-4b07f74b
+  - package-3ca9d4af
+  - 001-what-is-an-operation-640ebffc
+  - go-8cbf7ff4
+managed_by: system
+backlinks:
+  - 'graph:report'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes: {}
+source_semantic_hashes: {}
+related_page_ids:
+  - 'graph:report'
+  - 'concept:001-why'
+  - 'concept:002-research-trail'
+  - 'concept:002-spiral'
+  - 'concept:002-the-handshake'
+  - 'concept:003-roadrunner-bleeds-across-layers'
+  - 'concept:003-the-understory'
+  - 'concept:003a-pub-bar-role-game'
+  - 'concept:003b-pub-bar-role-game'
+  - 'concept:003c-pub-bar-role-game'
+  - 'concept:003d-pub-bar-role-game'
+  - 'concept:003e-pub-bar-role-game'
+  - 'concept:003f-pub-bar-role-game'
+  - 'concept:003g-pub-bar-role-game'
+  - 'concept:003h-pub-bar-role-game'
+  - 'concept:004-operations-protocol'
+  - 'concept:004-php-poc-struggle'
+  - 'concept:005-history-of-protocols'
+  - 'concept:005-single-source-of-truth'
+  - 'concept:006-fifteen-times-the-same-idea'
+  - 'concept:006-the-four-letters'
+  - 'concept:006-what-programs-forgot'
+  - 'concept:007-contract'
+  - 'concept:007-the-book-on-the-desk'
+  - 'concept:007-why-we-dont-call-linus'
+  - 'concept:008-the-harbourmaster'
+  - 'concept:008-three-atoms'
+  - 'concept:009-operation-comes-first'
+  - 'concept:009-the-address-is-a-detail'
+  - 'concept:009-the-dance'
+  - 'concept:010-fifty-triggers-fifty-barrels'
+  - 'concept:010-the-murmuration'
+  - 'concept:010-there-is-no-generation'
+  - 'concept:011-from-silicon-to-struct'
+  - 'concept:011-postgres-is-a-bundle'
+  - 'concept:011-the-black-square'
+  - 'concept:012-the-cover'
+  - 'concept:012-the-disappearing-profession'
+  - 'concept:013-convergent-evolution'
+  - 'concept:013-the-dream-fulfilled'
+  - 'concept:013-the-lock-that-disappeared'
+  - 'concept:014-epilogue'
+  - 'concept:014-the-fact'
+  - 'concept:014-two-invisible-markets'
+  - 'concept:015-the-black-compiler'
+  - 'concept:015-the-coexistence'
+  - 'concept:016-the-founders-dream'
+  - 'concept:016-the-origin-of-migrations'
+  - 'concept:017-postgres-is-a-jit'
+  - 'concept:017-the-gallium'
+  - 'concept:018-hand-written-deopt-guards'
+  - 'concept:019-nobody-chooses-mongodb'
+  - 'concept:019-the-missing-format'
+  - 'concept:020-how-much-you-promise'
+  - 'concept:021-all-programs-are-equal'
+  - 'concept:021-the-atoms-speak'
+  - 'concept:022-the-dream-layer'
+  - 'concept:022-why-nothing-lands'
+  - 'concept:023-the-vacant-cell'
+  - 'concept:023-treaty-of-five'
+  - 'concept:024-the-trial'
+  - 'concept:025-the-manifesto'
+  - 'concept:026-the-compilers'
+  - 'concept:027-build-link-runtime'
+  - 'concept:028-dobby-is-free'
+  - 'concept:029-the-anthill-organizes'
+  - 'concept:030-the-first-stranger'
+  - 'concept:031-the-hamster-leaves-the-wheel'
+  - 'concept:032-the-verdict'
+  - 'concept:033-the-amplifier'
+  - 'concept:0755'
+  - 'concept:10000'
+  - 'concept:11434'
+  - 'concept:192x192'
+  - 'concept:22c55e'
+  - 'concept:3-cli'
+  - 'concept:512x512'
+  - 'concept:8080'
+  - 'concept:9003'
+  - 'concept:aaaa'
+  - 'concept:abolish'
+  - 'concept:about'
+  - 'concept:actions'
+  - 'concept:adapter'
+  - 'concept:address'
+  - 'concept:adoption'
+  - 'concept:agent'
+  - 'concept:agreement'
+  - 'concept:alloc'
+  - 'concept:allow'
+  - 'concept:also'
+  - 'concept:always'
+  - 'concept:answer'
+  - 'concept:anthill'
+  - 'concept:anything'
+  - 'concept:apache'
+  - 'concept:append-only-court-record'
+  - 'concept:application'
+  - 'concept:archives'
+  - 'concept:array'
+  - 'concept:asks'
+  - 'concept:author'
+  - 'concept:auto'
+  - 'concept:autoload'
+  - 'concept:back'
+  - 'concept:banana'
+  - 'concept:barrels'
+  - 'concept:baseline'
+  - 'concept:baseurl'
+  - 'concept:bash'
+  - 'concept:because'
+  - 'concept:beech'
+  - 'concept:bees'
+  - 'concept:before'
+  - 'concept:behavior'
+  - 'concept:berners'
+  - 'concept:binary'
+  - 'concept:birds'
+  - 'concept:black'
+  - 'concept:book'
+  - 'concept:books'
+  - 'concept:bound'
+  - 'concept:boundary'
+  - 'concept:breed'
+  - 'concept:bridge'
+  - 'concept:browser'
+  - 'concept:build'
+  - 'concept:builds'
+  - 'concept:built'
+  - 'concept:bundle'
+  - 'concept:business'
+  - 'concept:bwesterb'
+  - 'concept:caac'
+  - 'concept:cache'
+  - 'concept:cart'
+  - 'concept:case'
+  - 'concept:cell'
+  - 'concept:changelog'
+  - 'concept:charset'
+  - 'concept:checksum'
+  - 'concept:choice-finite-set'
+  - 'concept:claim'
+  - 'concept:class'
+  - 'concept:clear'
+  - 'concept:client'
+  - 'concept:closes'
+  - 'concept:cmds'
+  - 'concept:code'
+  - 'concept:cognee'
+  - 'concept:color'
+  - 'concept:comment'
+  - 'concept:commitlint'
+  - 'concept:compilation'
+  - 'concept:compilation-vs-generation'
+  - 'concept:compiler'
+  - 'concept:compilers'
+  - 'concept:complete'
+  - 'concept:composer'
+  - 'concept:composition'
+  - 'concept:concise'
+  - 'concept:config'
+  - 'concept:config-conventional'
+  - 'concept:considered'
+  - 'concept:constants'
+  - 'concept:consumer'
+  - 'concept:content'
+  - 'concept:context'
+  - 'concept:continuous-integration-ci'
+  - 'concept:contract'
+  - 'concept:contractual-architecture'
+  - 'concept:conventional'
+  - 'concept:convergence-evidence'
+  - 'concept:convergent-evolution'
+  - 'concept:copyright'
+  - 'concept:corba'
+  - 'concept:core'
+  - 'concept:could'
+  - 'concept:cover'
+  - 'concept:crack'
+  - 'concept:cross'
+  - 'concept:curl'
+  - 'concept:cycle'
+  - 'concept:daily'
+  - 'concept:dance'
+  - 'concept:dances'
+  - 'concept:database'
+  - 'concept:daughter'
+  - 'concept:dayjs'
+  - 'concept:debug'
+  - 'concept:declarative-arc'
+  - 'concept:default'
+  - 'concept:definitions'
+  - 'concept:dependabot'
+  - 'concept:depth'
+  - 'concept:derivative'
+  - 'concept:desc'
+  - 'concept:describe'
+  - 'concept:description'
+  - 'concept:desk'
+  - 'concept:devin'
+  - 'concept:devlog'
+  - 'concept:dictate'
+  - 'concept:diff'
+  - 'concept:different'
+  - 'concept:directory'
+  - 'concept:discover'
+  - 'concept:display'
+  - 'concept:dist'
+  - 'concept:distributed'
+  - 'concept:docker'
+  - 'concept:dockerfile'
+  - 'concept:docs'
+  - 'concept:doctor'
+  - 'concept:documentation'
+  - 'concept:does'
+  - 'concept:doesn'
+  - 'concept:down'
+  - 'concept:dream'
+  - 'concept:each'
+  - 'concept:ecosystem'
+  - 'concept:embeddings'
+  - 'concept:emitter'
+  - 'concept:empty'
+  - 'concept:encoding'
+  - 'concept:engineer'
+  - 'concept:environment'
+  - 'concept:equiv'
+  - 'concept:error'
+  - 'concept:errors'
+  - 'concept:every'
+  - 'concept:expression'
+  - 'concept:eyeballs'
+  - 'concept:f87171'
+  - 'concept:fact'
+  - 'concept:fact-system-vs-delivery-system'
+  - 'concept:false'
+  - 'concept:falsifiability'
+  - 'concept:ffffff'
+  - 'concept:field'
+  - 'concept:fields'
+  - 'concept:fifty'
+  - 'concept:file'
+  - 'concept:filehash'
+  - 'concept:files'
+  - 'concept:fill'
+  - 'concept:final'
+  - 'concept:first'
+  - 'concept:five'
+  - 'concept:flag'
+  - 'concept:flock'
+  - 'concept:flowers'
+  - 'concept:forest'
+  - 'concept:form'
+  - 'concept:form-of-operation'
+  - 'concept:formalization-of-physics'
+  - 'concept:format'
+  - 'concept:four'
+  - 'concept:framework'
+  - 'concept:from'
+  - 'concept:gaae'
+  - 'concept:gaag'
+  - 'concept:gallium'
+  - 'concept:github'
+  - 'concept:go-git'
+  - 'concept:go-module'
+  - 'concept:go-programming-language'
+  - 'concept:go-tooling'
+  - 'concept:goal'
+  - 'concept:golang'
+  - 'concept:google'
+  - 'concept:gopkg'
+  - 'concept:graph'
+  - 'concept:gravity'
+  - 'concept:groups'
+  - 'concept:grpc'
+  - 'concept:guts-extraction'
+  - 'concept:haiku'
+  - 'concept:hand'
+  - 'concept:harbour'
+  - 'concept:header'
+  - 'concept:hedging'
+  - 'concept:here'
+  - 'concept:host'
+  - 'concept:http'
+  - 'concept:httpplug'
+  - 'concept:https'
+  - 'concept:hypothesize'
+  - 'concept:iaae'
+  - 'concept:iaai'
+  - 'concept:idea'
+  - 'concept:identifier'
+  - 'concept:idris'
+  - 'concept:image'
+  - 'concept:include'
+  - 'concept:indent'
+  - 'concept:indirect'
+  - 'concept:input'
+  - 'concept:insert'
+  - 'concept:install'
+  - 'concept:instruction'
+  - 'concept:instructions'
+  - 'concept:integrity'
+  - 'concept:interaction'
+  - 'concept:intermediate-representation-ir'
+  - 'concept:interval'
+  - 'concept:introspection'
+  - 'concept:issue'
+  - 'concept:items'
+  - 'concept:java'
+  - 'concept:job'
+  - 'concept:journal'
+  - 'concept:json'
+  - 'concept:just'
+  - 'concept:kaak'
+  - 'concept:kaau'
+  - 'concept:keys'
+  - 'concept:kind'
+  - 'concept:know'
+  - 'concept:l-m-l-m-reduction'
+  - 'concept:language'
+  - 'concept:layer'
+  - 'concept:length'
+  - 'concept:lesson'
+  - 'concept:letters'
+  - 'concept:level'
+  - 'concept:license'
+  - 'concept:like'
+  - 'concept:lint'
+  - 'concept:linter'
+  - 'concept:linters'
+  - 'concept:linus'
+  - 'concept:load'
+  - 'concept:localhost'
+  - 'concept:logic'
+  - 'concept:looks'
+  - 'concept:maam'
+  - 'concept:maca'
+  - 'concept:manifest'
+  - 'concept:map-and-territory-problem'
+  - 'concept:mappings'
+  - 'concept:markets'
+  - 'concept:meaning'
+  - 'concept:menu'
+  - 'concept:merge'
+  - 'concept:meta'
+  - 'concept:metadata'
+  - 'concept:metrics'
+  - 'concept:milestone'
+  - 'concept:missing'
+  - 'concept:model'
+  - 'concept:module'
+  - 'concept:modules'
+  - 'concept:mound'
+  - 'concept:must'
+  - 'concept:n-m-zoo'
+  - 'concept:name'
+  - 'concept:names'
+  - 'concept:need'
+  - 'concept:needsinterop'
+  - 'concept:never'
+  - 'concept:node'
+  - 'concept:nota'
+  - 'concept:notes'
+  - 'concept:npmjs'
+  - 'concept:oaao'
+  - 'concept:object'
+  - 'concept:ollama'
+  - 'concept:open-source'
+  - 'concept:openapi'
+  - 'concept:operation'
+  - 'concept:operation-op'
+  - 'concept:operation-protocol'
+  - 'concept:operation-the-primitive'
+  - 'concept:operations'
+  - 'concept:opinion'
+  - 'concept:opinion-vs-fact'
+  - 'concept:output'
+  - 'concept:package'
+  - 'concept:painting'
+  - 'concept:parallel'
+  - 'concept:parameterization'
+  - 'concept:paraphrase'
+  - 'concept:paths'
+  - 'concept:pattern'
+  - 'concept:phpunit'
+  - 'concept:pistol'
+  - 'concept:planner'
+  - 'concept:playground'
+  - 'concept:plugin'
+  - 'concept:plugins'
+  - 'concept:port'
+  - 'concept:porter'
+  - 'concept:postgres'
+  - 'concept:prefix'
+  - 'concept:primitive'
+  - 'concept:procs'
+  - 'concept:program'
+  - 'concept:programs'
+  - 'concept:promise'
+  - 'concept:protobuf'
+  - 'concept:protoc'
+  - 'concept:protocol'
+  - 'concept:protocol-gravity'
+  - 'concept:psalm'
+  - 'concept:qaaq'
+  - 'concept:quote'
+  - 'concept:radio'
+  - 'concept:raft'
+  - 'concept:rail'
+  - 'concept:read'
+  - 'concept:receiver'
+  - 'concept:record'
+  - 'concept:reference'
+  - 'concept:references'
+  - 'concept:refresh'
+  - 'concept:release'
+  - 'concept:remove'
+  - 'concept:repetition'
+  - 'concept:required'
+  - 'concept:research'
+  - 'concept:resilience'
+  - 'concept:rest'
+  - 'concept:results'
+  - 'concept:retry'
+  - 'concept:return'
+  - 'concept:review'
+  - 'concept:rfc-2119-keywords'
+  - 'concept:right'
+  - 'concept:roots'
+  - 'concept:rules'
+  - 'concept:runtime'
+  - 'concept:saas'
+  - 'concept:same'
+  - 'concept:schema'
+  - 'concept:sdk-software-development-kit'
+  - 'concept:seconds'
+  - 'concept:self-knowing-programs'
+  - 'concept:semantic-path-rail'
+  - 'concept:serve'
+  - 'concept:server'
+  - 'concept:setup'
+  - 'concept:ship'
+  - 'concept:size'
+  - 'concept:slot'
+  - 'concept:smell'
+  - 'concept:smithy'
+  - 'concept:smtp'
+  - 'concept:software-versioning'
+  - 'concept:some'
+  - 'concept:something'
+  - 'concept:sources'
+  - 'concept:space'
+  - 'concept:spiral'
+  - 'concept:square'
+  - 'concept:standard'
+  - 'concept:state'
+  - 'concept:static'
+  - 'concept:storage'
+  - 'concept:stream'
+  - 'concept:string'
+  - 'concept:style'
+  - 'concept:such'
+  - 'concept:swarmvault'
+  - 'concept:task'
+  - 'concept:technical'
+  - 'concept:term'
+  - 'concept:text'
+  - 'concept:than'
+  - 'concept:that'
+  - 'concept:then'
+  - 'concept:there'
+  - 'concept:they'
+  - 'concept:this'
+  - 'concept:three'
+  - 'concept:title'
+  - 'concept:tokenizer'
+  - 'concept:tool'
+  - 'concept:tools'
+  - 'concept:topology'
+  - 'concept:trait'
+  - 'concept:traits'
+  - 'concept:transport'
+  - 'concept:true'
+  - 'concept:truth'
+  - 'concept:type'
+  - 'concept:types'
+  - 'concept:uaai'
+  - 'concept:universal'
+  - 'concept:user'
+  - 'concept:value'
+  - 'concept:vendor'
+  - 'concept:vendors'
+  - 'concept:version'
+  - 'concept:violation'
+  - 'concept:vitepress'
+  - 'concept:voice'
+  - 'concept:volumes'
+  - 'concept:watch'
+  - 'concept:what'
+  - 'concept:where'
+  - 'concept:wiki'
+  - 'concept:wire'
+  - 'concept:with'
+  - 'concept:without'
+  - 'concept:word'
+  - 'concept:work'
+  - 'concept:workflow'
+  - 'concept:works'
+  - 'concept:write'
+  - 'concept:writing'
+  - 'concept:xdebug'
+  - 'concept:yaay'
+  - 'concept:yaml'
+  - 'concept:your'
+  - 'entity:1-26-1'
+  - 'entity:actions-checkout-v6'
+  - 'entity:actions-setup-go-v6'
+  - 'entity:add'
+  - 'entity:address'
+  - 'entity:address-is'
+  - 'entity:after'
+  - 'entity:again'
+  - 'entity:alexandria'
+  - 'entity:all'
+  - 'entity:all-programs-are-equal-take'
+  - 'entity:amplifier'
+  - 'entity:an'
+  - 'entity:and'
+  - 'entity:ankara'
+  - 'entity:anthill-organizes'
+  - 'entity:anthill-organizes-devlog'
+  - 'entity:anti'
+  - 'entity:appendix'
+  - 'entity:arabic'
+  - 'entity:array-kind'
+  - 'entity:art-stood'
+  - 'entity:ast'
+  - 'entity:atlantic-ocean'
+  - 'entity:atom'
+  - 'entity:atoms-speak'
+  - 'entity:atoms-speak-we'
+  - 'entity:banana'
+  - 'entity:bar-owner-speaks'
+  - 'entity:bar-reopens'
+  - 'entity:berners-lee'
+  - 'entity:binary-for'
+  - 'entity:black'
+  - 'entity:black-compiler'
+  - 'entity:bleed'
+  - 'entity:blind-spot-every'
+  - 'entity:box'
+  - 'entity:brazil'
+  - 'entity:break'
+  - 'entity:break-we'
+  - 'entity:browser'
+  - 'entity:budgetexceeded-five'
+  - 'entity:build'
+  - 'entity:bundle'
+  - 'entity:bundle-postgres'
+  - 'entity:but'
+  - 'entity:buydog'
+  - 'entity:buydog-input-buydoginput-buydogoutput'
+  - 'entity:call-linus'
+  - 'entity:chat-stream-clientmessage'
+  - 'entity:cheetah-then'
+  - 'entity:choosing'
+  - 'entity:claim-we'
+  - 'entity:clause'
+  - 'entity:clay'
+  - 'entity:code'
+  - 'entity:codex'
+  - 'entity:coexistence'
+  - 'entity:coexistence-every'
+  - 'entity:comment-enters'
+  - 'entity:compatibility'
+  - 'entity:compilers'
+  - 'entity:config'
+  - 'entity:configuration'
+  - 'entity:configuration-is-not-parameterization-devops'
+  - 'entity:contents'
+  - 'entity:contract-that-wouldn-t'
+  - 'entity:contracts'
+  - 'entity:convergent-evolution'
+  - 'entity:convergent-evolution-this'
+  - 'entity:convergent-witnesses'
+  - 'entity:core'
+  - 'entity:core-uri'
+  - 'entity:createdog-handle'
+  - 'entity:curl-eyeballs-turned'
+  - 'entity:d-bus'
+  - 'entity:darwin'
+  - 'entity:debug'
+  - 'entity:deepseek'
+  - 'entity:deepseek-s-letter'
+  - 'entity:delivery'
+  - 'entity:describe'
+  - 'entity:detail-when'
+  - 'entity:devin'
+  - 'entity:devlog'
+  - 'entity:devlog-this'
+  - 'entity:devops'
+  - 'entity:different'
+  - 'entity:dima'
+  - 'entity:disappearing-profession-john-ousterhout'
+  - 'entity:discoveries'
+  - 'entity:dna'
+  - 'entity:dobby-is-free'
+  - 'entity:docker'
+  - 'entity:dockerfile'
+  - 'entity:documentation'
+  - 'entity:dog'
+  - 'entity:dognotfound'
+  - 'entity:dream'
+  - 'entity:dream-it'
+  - 'entity:dream-layer'
+  - 'entity:dream-layer-this'
+  - 'entity:dreamers'
+  - 'entity:drop'
+  - 'entity:dsl'
+  - 'entity:duckdb-cockroachdb'
+  - 'entity:each'
+  - 'entity:earth'
+  - 'entity:emitter'
+  - 'entity:english'
+  - 'entity:entity'
+  - 'entity:enum-kind'
+  - 'entity:environment'
+  - 'entity:epilogue'
+  - 'entity:equality'
+  - 'entity:error-without-opinion'
+  - 'entity:every'
+  - 'entity:everyone'
+  - 'entity:exactly'
+  - 'entity:expected'
+  - 'entity:eye'
+  - 'entity:eyeballs'
+  - 'entity:fhir'
+  - 'entity:field'
+  - 'entity:fifteen-times'
+  - 'entity:fifty-triggers-fifty-barrels'
+  - 'entity:first-inhabitants'
+  - 'entity:first-lesson'
+  - 'entity:five-five'
+  - 'entity:fixtures'
+  - 'entity:fonts'
+  - 'entity:for'
+  - 'entity:forgotten'
+  - 'entity:form-of-instruction-notes-this'
+  - 'entity:form-of-nota-notes-this'
+  - 'entity:form-of-operation-notes-this'
+  - 'entity:formalizing'
+  - 'entity:format'
+  - 'entity:founder-s-dream'
+  - 'entity:founder-s-dream-in'
+  - 'entity:four'
+  - 'entity:fourth-rail'
+  - 'entity:fourth-rail-this'
+  - 'entity:frisch'
+  - 'entity:from'
+  - 'entity:future-look'
+  - 'entity:gallium'
+  - 'entity:gallium-in'
+  - 'entity:gallium-we'
+  - 'entity:gen-php'
+  - 'entity:get-started'
+  - 'entity:github'
+  - 'entity:github-com'
+  - 'entity:github-com-thumbrise-op'
+  - 'entity:github-com-thumbrise-op-sdk-go'
+  - 'entity:go'
+  - 'entity:go-1-26-0'
+  - 'entity:google'
+  - 'entity:goreleaser'
+  - 'entity:goreleaser-guys'
+  - 'entity:graphql'
+  - 'entity:greek'
+  - 'entity:guards'
+  - 'entity:guidelines'
+  - 'entity:guys'
+  - 'entity:hamster-leaves'
+  - 'entity:hand-written-deopt-guards'
+  - 'entity:happy'
+  - 'entity:haskell'
+  - 'entity:hotspot'
+  - 'entity:how'
+  - 'entity:i-m'
+  - 'entity:i-ve'
+  - 'entity:ibm'
+  - 'entity:id'
+  - 'entity:idea'
+  - 'entity:if'
+  - 'entity:in'
+  - 'entity:infra-if'
+  - 'entity:innodb'
+  - 'entity:input'
+  - 'entity:inside-postgres'
+  - 'entity:instruction'
+  - 'entity:it'
+  - 'entity:item'
+  - 'entity:java'
+  - 'entity:javascript'
+  - 'entity:jennifer'
+  - 'entity:jobs'
+  - 'entity:joe-becker'
+  - 'entity:john-ousterhout'
+  - 'entity:json-schema'
+  - 'entity:karl'
+  - 'entity:kind'
+  - 'entity:krabby-patty'
+  - 'entity:krabby-patty-description'
+  - 'entity:kubernetes'
+  - 'entity:language'
+  - 'entity:laravel'
+  - 'entity:last-futurist-exhibition'
+  - 'entity:legal-entity'
+  - 'entity:lesson'
+  - 'entity:license'
+  - 'entity:license-version'
+  - 'entity:linus'
+  - 'entity:linus-description-memory'
+  - 'entity:linux'
+  - 'entity:list-take'
+  - 'entity:look'
+  - 'entity:luca-pacioli-s'
+  - 'entity:madrid'
+  - 'entity:manifesto'
+  - 'entity:markets'
+  - 'entity:meaning'
+  - 'entity:mendeleev'
+  - 'entity:migrations'
+  - 'entity:migrations-every'
+  - 'entity:milestone'
+  - 'entity:missing-format'
+  - 'entity:missing-format-this'
+  - 'entity:missing-foundation'
+  - 'entity:missing-foundation-we'
+  - 'entity:modern'
+  - 'entity:mongo'
+  - 'entity:mongodb'
+  - 'entity:monolog'
+  - 'entity:ms'
+  - 'entity:munich'
+  - 'entity:murat'
+  - 'entity:n-worlds'
+  - 'entity:names'
+  - 'entity:naming'
+  - 'entity:naming-problem'
+  - 'entity:narrative'
+  - 'entity:nested'
+  - 'entity:nginx'
+  - 'entity:nobel-prize'
+  - 'entity:nobody'
+  - 'entity:nobody-chooses-mongodb'
+  - 'entity:node-modules-semantic-release-github'
+  - 'entity:not'
+  - 'entity:not-drew'
+  - 'entity:nota'
+  - 'entity:nothing'
+  - 'entity:o-clock'
+  - 'entity:object-kind'
+  - 'entity:observation'
+  - 'entity:of-instruction-notes'
+  - 'entity:of-nota-notes'
+  - 'entity:of-operation-notes'
+  - 'entity:once'
+  - 'entity:one'
+  - 'entity:op'
+  - 'entity:op-protobuf'
+  - 'entity:op-protocol-structure'
+  - 'entity:op-s'
+  - 'entity:op-smithy'
+  - 'entity:op-the-protocol'
+  - 'entity:openapi'
+  - 'entity:opened'
+  - 'entity:opentelemetry'
+  - 'entity:operation'
+  - 'entity:operation-comes-first'
+  - 'entity:operation-primitive'
+  - 'entity:operation-protocol-appendix'
+  - 'entity:operations-protocol-formalizing'
+  - 'entity:origin'
+  - 'entity:other'
+  - 'entity:outofbeans'
+  - 'entity:outofstock'
+  - 'entity:paintings'
+  - 'entity:past'
+  - 'entity:past-we'
+  - 'entity:pennsylvania'
+  - 'entity:pennsylvania-forest'
+  - 'entity:permissions'
+  - 'entity:phase'
+  - 'entity:phoenician'
+  - 'entity:php'
+  - 'entity:pipe'
+  - 'entity:pistol'
+  - 'entity:plate'
+  - 'entity:playground'
+  - 'entity:playground-seventeen'
+  - 'entity:poc'
+  - 'entity:polly'
+  - 'entity:popperian'
+  - 'entity:postgres'
+  - 'entity:postgres-is'
+  - 'entity:preserved'
+  - 'entity:preview'
+  - 'entity:primitive-range-conjecture'
+  - 'entity:pro'
+  - 'entity:problem'
+  - 'entity:problem-with-words-we'
+  - 'entity:problems'
+  - 'entity:profession'
+  - 'entity:programs'
+  - 'entity:prologue'
+  - 'entity:prologue-after'
+  - 'entity:prologue-an'
+  - 'entity:promise'
+  - 'entity:protobuf'
+  - 'entity:protocol'
+  - 'entity:ptolemaic'
+  - 'entity:pub-bar-role-game'
+  - 'entity:python'
+  - 'entity:raft'
+  - 'entity:rail'
+  - 'entity:raw'
+  - 'entity:raw-notes'
+  - 'entity:read'
+  - 'entity:receipt'
+  - 'entity:receiver'
+  - 'entity:redirect-someone'
+  - 'entity:reference'
+  - 'entity:reference-research'
+  - 'entity:reinventions'
+  - 'entity:reproduce-steps'
+  - 'entity:research-trail'
+  - 'entity:research-trail-before'
+  - 'entity:rfc'
+  - 'entity:rhodes'
+  - 'entity:roadrunner'
+  - 'entity:roadrunner-bleeds-across-layers-opened'
+  - 'entity:roadrunnerbridge'
+  - 'entity:role'
+  - 'entity:roman'
+  - 'entity:roman-census'
+  - 'entity:rome'
+  - 'entity:runtime'
+  - 'entity:runtime-autopsy'
+  - 'entity:ruslan'
+  - 'entity:russian'
+  - 'entity:rust'
+  - 'entity:s'
+  - 'entity:same-idea'
+  - 'entity:same-idea-we'
+  - 'entity:same-thing-again'
+  - 'entity:sat'
+  - 'entity:savanna'
+  - 'entity:schema'
+  - 'entity:schema-of-instruction'
+  - 'entity:schema-of-operation'
+  - 'entity:schema-protobuf'
+  - 'entity:scientific-american'
+  - 'entity:scramble'
+  - 'entity:scramble-huma'
+  - 'entity:scripts'
+  - 'entity:sections'
+  - 'entity:see'
+  - 'entity:set'
+  - 'entity:ships'
+  - 'entity:short'
+  - 'entity:single-source'
+  - 'entity:sir-just'
+  - 'entity:six'
+  - 'entity:size'
+  - 'entity:slack'
+  - 'entity:smartphone'
+  - 'entity:smithy'
+  - 'entity:smithy-cloudevents-asyncapi'
+  - 'entity:smithy-s'
+  - 'entity:smithy-walks-in'
+  - 'entity:someone'
+  - 'entity:somewhere'
+  - 'entity:source'
+  - 'entity:southern-austria'
+  - 'entity:spiral'
+  - 'entity:spiral-s'
+  - 'entity:st-peter-s'
+  - 'entity:standing'
+  - 'entity:statistics'
+  - 'entity:status'
+  - 'entity:steering-committee-op'
+  - 'entity:stories'
+  - 'entity:struggle'
+  - 'entity:submit'
+  - 'entity:swagger'
+  - 'entity:swarmvault'
+  - 'entity:symfony'
+  - 'entity:t-rkiye'
+  - 'entity:tanzania'
+  - 'entity:tanzanian-savanna'
+  - 'entity:taskfile-yaml'
+  - 'entity:technically'
+  - 'entity:term'
+  - 'entity:the-conference'
+  - 'entity:the-conference-we'
+  - 'entity:the-radio'
+  - 'entity:them-two'
+  - 'entity:then-recover'
+  - 'entity:third-lesson'
+  - 'entity:this'
+  - 'entity:this-journal'
+  - 'entity:three'
+  - 'entity:three-atoms'
+  - 'entity:three-atoms-we'
+  - 'entity:thumbrise'
+  - 'entity:tiber'
+  - 'entity:tim-berners-lee'
+  - 'entity:to-build'
+  - 'entity:tony-tam'
+  - 'entity:top'
+  - 'entity:trait'
+  - 'entity:transport'
+  - 'entity:treaty'
+  - 'entity:trial'
+  - 'entity:trial-science'
+  - 'entity:truth'
+  - 'entity:two'
+  - 'entity:two-layers'
+  - 'entity:two-sins-in'
+  - 'entity:typescript'
+  - 'entity:unicode'
+  - 'entity:unification-trait'
+  - 'entity:universal'
+  - 'entity:universal-field'
+  - 'entity:universal-field-notes'
+  - 'entity:universal-field-notes-short'
+  - 'entity:urbio-http'
+  - 'entity:uri'
+  - 'entity:use'
+  - 'entity:vacant-cell'
+  - 'entity:vacant-cell-mendeleev'
+  - 'entity:val'
+  - 'entity:value'
+  - 'entity:verbosity'
+  - 'entity:verdict'
+  - 'entity:verdict-one-topology-four-witnesses'
+  - 'entity:verification'
+  - 'entity:version'
+  - 'entity:vertical'
+  - 'entity:via-appia'
+  - 'entity:vienna'
+  - 'entity:vitepress-dist'
+  - 'entity:vpn'
+  - 'entity:walker'
+  - 'entity:wamp-web-application-messaging-protocol'
+  - 'entity:we'
+  - 'entity:web'
+  - 'entity:websocket'
+  - 'entity:what'
+  - 'entity:what-programs-forgot-programs'
+  - 'entity:wheel'
+  - 'entity:when'
+  - 'entity:why'
+  - 'entity:why-nothing-lands'
+  - 'entity:why-op-cannot'
+  - 'entity:why-we-don-t'
+  - 'entity:wildberries'
+  - 'entity:wire'
+  - 'entity:working'
+  - 'entity:written-many-times'
+  - 'entity:you-write'
+  - 'entity:zend-engine'
+  - 'entity:zend-engine-analogy-it'
+related_node_ids: *ref_0
+related_source_ids: *ref_1
+---
+# Community: operation
+
+## Nodes
+
+- [[candidates/concepts/001-why|001-why]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/002-research-trail|002-research-trail]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/002-spiral|002-spiral]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/002-the-handshake|002-the-handshake]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003-roadrunner-bleeds-across-layers|003-roadrunner-bleeds-across-layers]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003-the-understory|003-the-understory]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003a-pub-bar-role-game|003a-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003b-pub-bar-role-game|003b-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003c-pub-bar-role-game|003c-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003d-pub-bar-role-game|003d-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003e-pub-bar-role-game|003e-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003f-pub-bar-role-game|003f-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003g-pub-bar-role-game|003g-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/003h-pub-bar-role-game|003h-pub-bar-role-game]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/004-operations-protocol|004-operations-protocol]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/004-php-poc-struggle|004-php-poc-struggle]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/005-history-of-protocols|005-history-of-protocols]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/005-single-source-of-truth|005-single-source-of-truth]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/006-fifteen-times-the-same-idea|006-fifteen-times-the-same-idea]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/006-the-four-letters|006-the-four-letters]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/006-what-programs-forgot|006-what-programs-forgot]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/007-contract|007-contract]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/007-the-book-on-the-desk|007-the-book-on-the-desk]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/007-why-we-dont-call-linus|007-why-we-dont-call-linus]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/008-the-harbourmaster|008-the-harbourmaster]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/008-three-atoms|008-three-atoms]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/009-operation-comes-first|009-operation-comes-first]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/009-the-address-is-a-detail|009-the-address-is-a-detail]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/009-the-dance|009-the-dance]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/010-fifty-triggers-fifty-barrels|010-fifty-triggers-fifty-barrels]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/010-the-murmuration|010-the-murmuration]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/010-there-is-no-generation|010-there-is-no-generation]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/011-from-silicon-to-struct|011-from-silicon-to-struct]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/011-postgres-is-a-bundle|011-postgres-is-a-bundle]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/011-the-black-square|011-the-black-square]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/012-the-cover|012-the-cover]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/012-the-disappearing-profession|012-the-disappearing-profession]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/013-convergent-evolution|013-convergent-evolution]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/013-the-dream-fulfilled|013-the-dream-fulfilled]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/013-the-lock-that-disappeared|013-the-lock-that-disappeared]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/014-epilogue|014-epilogue]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/014-the-fact|014-the-fact]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/014-two-invisible-markets|014-two-invisible-markets]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/015-the-black-compiler|015-the-black-compiler]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/015-the-coexistence|015-the-coexistence]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/016-the-founders-dream|016-the-founders-dream]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/016-the-origin-of-migrations|016-the-origin-of-migrations]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/017-postgres-is-a-jit|017-postgres-is-a-jit]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/017-the-gallium|017-the-gallium]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/018-hand-written-deopt-guards|018-hand-written-deopt-guards]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/019-nobody-chooses-mongodb|019-nobody-chooses-mongodb]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/019-the-missing-format|019-the-missing-format]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/020-how-much-you-promise|020-how-much-you-promise]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/021-all-programs-are-equal|021-all-programs-are-equal]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/021-the-atoms-speak|021-the-atoms-speak]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/022-the-dream-layer|022-the-dream-layer]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/022-why-nothing-lands|022-why-nothing-lands]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/023-the-vacant-cell|023-the-vacant-cell]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/023-treaty-of-five|023-treaty-of-five]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/024-the-trial|024-the-trial]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/025-the-manifesto|025-the-manifesto]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/026-the-compilers|026-the-compilers]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/027-build-link-runtime|027-build-link-runtime]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/028-dobby-is-free|028-dobby-is-free]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/029-the-anthill-organizes|029-the-anthill-organizes]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/030-the-first-stranger|030-the-first-stranger]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/031-the-hamster-leaves-the-wheel|031-the-hamster-leaves-the-wheel]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/032-the-verdict|032-the-verdict]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/033-the-amplifier|033-the-amplifier]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/0755|0755]] (concept, degree=6, bridge=0)
+- [[concepts/10000|10000]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/11434|11434]] (concept, degree=6, bridge=0)
+- [[concepts/192x192|192x192]] (concept, degree=6, bridge=0)
+- [[concepts/22c55e|22c55e]] (concept, degree=18, bridge=0)
+- [[candidates/concepts/3-cli|3-cli]] (concept, degree=6, bridge=0)
+- [[concepts/512x512|512x512]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/8080|8080]] (concept, degree=16, bridge=0)
+- [[candidates/concepts/9003|9003]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/aaaa|aaaa]] (concept, degree=33, bridge=0)
+- [[candidates/concepts/abolish|abolish]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/about|about]] (concept, degree=21, bridge=0)
+- [[concepts/actions|actions]] (concept, degree=12, bridge=0)
+- [[concepts/adapter|adapter]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/address|address]] (concept, degree=12, bridge=0)
+- [[concepts/adoption|adoption]] (concept, degree=12, bridge=0)
+- [[concepts/agent|agent]] (concept, degree=13, bridge=0)
+- [[candidates/concepts/agreement|agreement]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/alloc|alloc]] (concept, degree=12, bridge=0)
+- [[concepts/allow|allow]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/also|also]] (concept, degree=9, bridge=0)
+- [[concepts/always|always]] (concept, degree=21, bridge=0)
+- [[candidates/concepts/answer|answer]] (concept, degree=12, bridge=0)
+- [[concepts/anthill|anthill]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/anything|anything]] (concept, degree=12, bridge=0)
+- [[concepts/apache|apache]] (concept, degree=14, bridge=0)
+- [[candidates/concepts/append-only-court-record|Append-only Court Record]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/application|application]] (concept, degree=64, bridge=0)
+- [[concepts/archives|archives]] (concept, degree=12, bridge=0)
+- [[concepts/array|array]] (concept, degree=18, bridge=0)
+- [[candidates/concepts/asks|asks]] (concept, degree=20, bridge=0)
+- [[concepts/author|author]] (concept, degree=18, bridge=0)
+- [[concepts/auto|auto]] (concept, degree=24, bridge=0)
+- [[concepts/autoload|autoload]] (concept, degree=16, bridge=0)
+- [[candidates/concepts/back|back]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/banana|banana]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/barrels|barrels]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/baseline|baseline]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/baseurl|baseurl]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/bash|bash]] (concept, degree=12, bridge=0)
+- [[concepts/because|because]] (concept, degree=97, bridge=0)
+- [[candidates/concepts/beech|beech]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/bees|bees]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/before|before]] (concept, degree=23, bridge=0)
+- [[concepts/behavior|behavior]] (concept, degree=12, bridge=0)
+- [[concepts/berners|berners]] (concept, degree=12, bridge=0)
+- [[concepts/binary|binary]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/birds|birds]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/black|black]] (concept, degree=19, bridge=0)
+- [[candidates/concepts/book|book]] (concept, degree=17, bridge=0)
+- [[candidates/concepts/books|books]] (concept, degree=28, bridge=0)
+- [[concepts/bound|bound]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/boundary|boundary]] (concept, degree=12, bridge=0)
+- [[concepts/breed|breed]] (concept, degree=15, bridge=0)
+- [[concepts/bridge|bridge]] (concept, degree=24, bridge=0)
+- [[concepts/browser|browser]] (concept, degree=23, bridge=0)
+- [[concepts/build|build]] (concept, degree=23, bridge=0)
+- [[concepts/builds|builds]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/built|built]] (concept, degree=24, bridge=0)
+- [[candidates/concepts/bundle|bundle]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/business|business]] (concept, degree=24, bridge=0)
+- [[concepts/bwesterb|bwesterb]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/caac|caac]] (concept, degree=31, bridge=0)
+- [[candidates/concepts/cache|cache]] (concept, degree=38, bridge=0)
+- [[candidates/concepts/cart|cart]] (concept, degree=18, bridge=0)
+- [[concepts/case|case]] (concept, degree=12, bridge=0)
+- [[concepts/cell|cell]] (concept, degree=24, bridge=0)
+- [[concepts/changelog|changelog]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/charset|charset]] (concept, degree=6, bridge=0)
+- [[concepts/checksum|checksum]] (concept, degree=12, bridge=0)
+- [[concepts/choice-finite-set|Choice (Finite Set)]] (concept, degree=13, bridge=0)
+- [[concepts/claim|claim]] (concept, degree=16, bridge=0)
+- [[candidates/concepts/class|class]] (concept, degree=17, bridge=0)
+- [[concepts/clear|clear]] (concept, degree=19, bridge=0)
+- [[candidates/concepts/client|client]] (concept, degree=27, bridge=0)
+- [[concepts/closes|closes]] (concept, degree=6, bridge=0)
+- [[concepts/cmds|cmds]] (concept, degree=12, bridge=0)
+- [[concepts/code|code]] (concept, degree=50, bridge=0)
+- [[candidates/concepts/cognee|cognee]] (concept, degree=12, bridge=0)
+- [[concepts/color|color]] (concept, degree=39, bridge=0)
+- [[candidates/concepts/comment|comment]] (concept, degree=30, bridge=0)
+- [[concepts/commitlint|commitlint]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/compilation|compilation]] (concept, degree=12, bridge=0)
+- [[concepts/compilation-vs-generation|Compilation vs. Generation]] (concept, degree=8, bridge=0)
+- [[concepts/compiler|compiler]] (concept, degree=64, bridge=0)
+- [[candidates/concepts/compilers|compilers]] (concept, degree=12, bridge=0)
+- [[concepts/complete|complete]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/composer|composer]] (concept, degree=12, bridge=0)
+- [[concepts/composition|Composition]] (concept, degree=13, bridge=0)
+- [[concepts/concise|concise]] (concept, degree=19, bridge=0)
+- [[candidates/concepts/config|config]] (concept, degree=23, bridge=0)
+- [[concepts/config-conventional|config-conventional]] (concept, degree=6, bridge=0)
+- [[concepts/considered|considered]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/constants|constants]] (concept, degree=12, bridge=0)
+- [[concepts/consumer|consumer]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/content|content]] (concept, degree=149, bridge=0)
+- [[concepts/context|context]] (concept, degree=19, bridge=0)
+- [[concepts/continuous-integration-ci|Continuous Integration (CI)]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/contract|contract]] (concept, degree=25, bridge=0)
+- [[concepts/contractual-architecture|Contractual Architecture]] (concept, degree=8, bridge=0)
+- [[concepts/conventional|conventional]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/convergence-evidence|Convergence Evidence]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/convergent-evolution|Convergent Evolution]] (concept, degree=7, bridge=0)
+- [[concepts/copyright|copyright]] (concept, degree=13, bridge=0)
+- [[concepts/corba|corba]] (concept, degree=12, bridge=0)
+- [[concepts/core|core]] (concept, degree=44, bridge=0)
+- [[candidates/concepts/could|could]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/cover|cover]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/crack|crack]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/cross|cross]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/curl|curl]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/cycle|cycle]] (concept, degree=12, bridge=0)
+- [[concepts/daily|daily]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/dance|dance]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/dances|dances]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/database|database]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/daughter|daughter]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/dayjs|dayjs]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/debug|debug]] (concept, degree=28, bridge=0)
+- [[concepts/declarative-arc|Declarative Arc]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/default|default]] (concept, degree=12, bridge=0)
+- [[concepts/definitions|definitions]] (concept, degree=8, bridge=0)
+- [[concepts/dependabot|dependabot]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/depth|depth]] (concept, degree=12, bridge=0)
+- [[concepts/derivative|derivative]] (concept, degree=12, bridge=0)
+- [[concepts/desc|desc]] (concept, degree=17, bridge=0)
+- [[concepts/describe|describe]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/description|description]] (concept, degree=63, bridge=0)
+- [[candidates/concepts/desk|desk]] (concept, degree=9, bridge=0)
+- [[concepts/devin|devin]] (concept, degree=13, bridge=0)
+- [[concepts/devlog|devlog]] (concept, degree=12, bridge=0)
+- [[concepts/dictate|dictate]] (concept, degree=13, bridge=0)
+- [[concepts/diff|diff]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/different|different]] (concept, degree=21, bridge=0)
+- [[candidates/concepts/directory|directory]] (concept, degree=45, bridge=0)
+- [[candidates/concepts/discover|discover]] (concept, degree=15, bridge=0)
+- [[candidates/concepts/display|display]] (concept, degree=12, bridge=0)
+- [[concepts/dist|dist]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/distributed|distributed]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/docker|docker]] (concept, degree=29, bridge=0)
+- [[candidates/concepts/dockerfile|dockerfile]] (concept, degree=11, bridge=0)
+- [[concepts/docs|docs]] (concept, degree=24, bridge=0)
+- [[candidates/concepts/doctor|doctor]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/documentation|documentation]] (concept, degree=12, bridge=0)
+- [[concepts/does|does]] (concept, degree=175, bridge=0)
+- [[candidates/concepts/doesn|doesn]] (concept, degree=12, bridge=0)
+- [[concepts/down|down]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/dream|dream]] (concept, degree=48, bridge=0)
+- [[candidates/concepts/each|each]] (concept, degree=53, bridge=0)
+- [[concepts/ecosystem|ecosystem]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/embeddings|embeddings]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/emitter|emitter]] (concept, degree=12, bridge=0)
+- [[concepts/empty|empty]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/encoding|encoding]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/engineer|engineer]] (concept, degree=10, bridge=0)
+- [[concepts/environment|environment]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/equiv|equiv]] (concept, degree=149, bridge=0)
+- [[candidates/concepts/error|error]] (concept, degree=46, bridge=0)
+- [[candidates/concepts/errors|errors]] (concept, degree=12, bridge=0)
+- [[concepts/every|every]] (concept, degree=192, bridge=0)
+- [[concepts/expression|expression]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/eyeballs|eyeballs]] (concept, degree=11, bridge=0)
+- [[concepts/f87171|f87171]] (concept, degree=18, bridge=0)
+- [[concepts/fact|fact]] (concept, degree=12, bridge=0)
+- [[concepts/fact-system-vs-delivery-system|Fact System vs. Delivery System]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/false|false]] (concept, degree=27, bridge=0)
+- [[candidates/concepts/falsifiability|Falsifiability]] (concept, degree=8, bridge=0)
+- [[concepts/ffffff|ffffff]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/field|field]] (concept, degree=24, bridge=0)
+- [[concepts/fields|fields]] (concept, degree=13, bridge=0)
+- [[candidates/concepts/fifty|fifty]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/file|file]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/filehash|filehash]] (concept, degree=12, bridge=0)
+- [[concepts/files|files]] (concept, degree=32, bridge=0)
+- [[concepts/fill|fill]] (concept, degree=18, bridge=0)
+- [[candidates/concepts/final|final]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/first|first]] (concept, degree=31, bridge=0)
+- [[concepts/five|five]] (concept, degree=36, bridge=0)
+- [[candidates/concepts/flag|flag]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/flock|flock]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/flowers|flowers]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/forest|forest]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/form|form]] (concept, degree=62, bridge=0)
+- [[candidates/concepts/form-of-operation|form-of-operation]] (concept, degree=80, bridge=0)
+- [[concepts/formalization-of-physics|Formalization of Physics]] (concept, degree=13, bridge=0)
+- [[concepts/format|format]] (concept, degree=41, bridge=0)
+- [[candidates/concepts/four|four]] (concept, degree=31, bridge=0)
+- [[candidates/concepts/framework|framework]] (concept, degree=12, bridge=0)
+- [[concepts/from|from]] (concept, degree=87, bridge=0)
+- [[candidates/concepts/gaae|gaae]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/gaag|gaag]] (concept, degree=14, bridge=0)
+- [[candidates/concepts/gallium|gallium]] (concept, degree=11, bridge=0)
+- [[concepts/github|github]] (concept, degree=51, bridge=0)
+- [[concepts/go-git|go-git]] (concept, degree=9, bridge=0)
+- [[concepts/go-module|Go Module]] (concept, degree=10, bridge=0)
+- [[concepts/go-programming-language|Go programming language]] (concept, degree=5, bridge=0)
+- [[concepts/go-tooling|Go Tooling]] (concept, degree=5, bridge=0)
+- [[candidates/concepts/goal|goal]] (concept, degree=12, bridge=0)
+- [[concepts/golang|golang]] (concept, degree=13, bridge=0)
+- [[concepts/google|google]] (concept, degree=13, bridge=0)
+- [[concepts/gopkg|gopkg]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/graph|graph]] (concept, degree=6, bridge=0)
+- [[concepts/gravity|gravity]] (concept, degree=12, bridge=0)
+- [[concepts/groups|groups]] (concept, degree=12, bridge=0)
+- [[concepts/grpc|grpc]] (concept, degree=31, bridge=0)
+- [[concepts/guts-extraction|Guts-extraction]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/haiku|haiku]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/hand|hand]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/harbour|harbour]] (concept, degree=12, bridge=0)
+- [[concepts/header|header]] (concept, degree=18, bridge=0)
+- [[candidates/concepts/hedging|hedging]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/here|here]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/host|host]] (concept, degree=36, bridge=0)
+- [[candidates/concepts/http|http]] (concept, degree=253, bridge=0)
+- [[concepts/httpplug|httpplug]] (concept, degree=12, bridge=0)
+- [[concepts/https|https]] (concept, degree=31, bridge=0)
+- [[concepts/hypothesize|hypothesize]] (concept, degree=16, bridge=0)
+- [[candidates/concepts/iaae|iaae]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/iaai|iaai]] (concept, degree=23, bridge=0)
+- [[concepts/idea|idea]] (concept, degree=7, bridge=0)
+- [[candidates/concepts/identifier|identifier]] (concept, degree=12, bridge=0)
+- [[concepts/idris|idris]] (concept, degree=12, bridge=0)
+- [[concepts/image|image]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/include|include]] (concept, degree=12, bridge=0)
+- [[concepts/indent|indent]] (concept, degree=11, bridge=0)
+- [[concepts/indirect|indirect]] (concept, degree=6, bridge=0)
+- [[concepts/input|input]] (concept, degree=46, bridge=0)
+- [[candidates/concepts/insert|insert]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/install|install]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/instruction|instruction]] (concept, degree=65, bridge=0)
+- [[candidates/concepts/instructions|Instructions]] (concept, degree=32, bridge=0)
+- [[concepts/integrity|integrity]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/interaction|interaction]] (concept, degree=12, bridge=0)
+- [[concepts/intermediate-representation-ir|Intermediate Representation (IR)]] (concept, degree=8, bridge=0)
+- [[concepts/interval|interval]] (concept, degree=12, bridge=0)
+- [[concepts/introspection|Introspection]] (concept, degree=8, bridge=0)
+- [[concepts/issue|issue]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/items|items]] (concept, degree=12, bridge=0)
+- [[concepts/java|java]] (concept, degree=19, bridge=0)
+- [[concepts/job|Job]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/journal|journal]] (concept, degree=24, bridge=0)
+- [[candidates/concepts/json|json]] (concept, degree=52, bridge=0)
+- [[candidates/concepts/just|just]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/kaak|kaak]] (concept, degree=31, bridge=0)
+- [[candidates/concepts/kaau|kaau]] (concept, degree=12, bridge=0)
+- [[concepts/keys|keys]] (concept, degree=27, bridge=0)
+- [[concepts/kind|kind]] (concept, degree=67, bridge=0)
+- [[concepts/know|know]] (concept, degree=12, bridge=0)
+- [[concepts/l-m-l-m-reduction|L × M → L + M Reduction]] (concept, degree=9, bridge=0)
+- [[concepts/language|language]] (concept, degree=41, bridge=0)
+- [[concepts/layer|layer]] (concept, degree=32, bridge=0)
+- [[concepts/length|length]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/lesson|lesson]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/letters|letters]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/level|level]] (concept, degree=17, bridge=0)
+- [[concepts/license|license]] (concept, degree=49, bridge=0)
+- [[concepts/like|like]] (concept, degree=12, bridge=0)
+- [[concepts/lint|lint]] (concept, degree=12, bridge=0)
+- [[concepts/linter|linter]] (concept, degree=12, bridge=0)
+- [[concepts/linters|linters]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/linus|linus]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/load|load]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/localhost|localhost]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/logic|logic]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/looks|looks]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/maam|maam]] (concept, degree=22, bridge=0)
+- [[candidates/concepts/maca|maca]] (concept, degree=12, bridge=0)
+- [[concepts/manifest|manifest]] (concept, degree=6, bridge=0)
+- [[concepts/map-and-territory-problem|Map and Territory Problem]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/mappings|mappings]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/markets|markets]] (concept, degree=12, bridge=0)
+- [[concepts/meaning|meaning]] (concept, degree=14, bridge=0)
+- [[candidates/concepts/menu|menu]] (concept, degree=10, bridge=0)
+- [[concepts/merge|merge]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/meta|meta]] (concept, degree=127, bridge=0)
+- [[concepts/metadata|metadata]] (concept, degree=12, bridge=0)
+- [[concepts/metrics|metrics]] (concept, degree=11, bridge=0)
+- [[concepts/milestone|milestone]] (concept, degree=13, bridge=0)
+- [[concepts/missing|missing]] (concept, degree=12, bridge=0)
+- [[concepts/model|model]] (concept, degree=71, bridge=0)
+- [[candidates/concepts/module|module]] (concept, degree=2, bridge=0)
+- [[concepts/modules|modules]] (concept, degree=38, bridge=0)
+- [[candidates/concepts/mound|mound]] (concept, degree=10, bridge=0)
+- [[concepts/must|must]] (concept, degree=16, bridge=0)
+- [[concepts/n-m-zoo|N×M zoo]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/name|name]] (concept, degree=59, bridge=0)
+- [[candidates/concepts/names|names]] (concept, degree=12, bridge=0)
+- [[concepts/need|need]] (concept, degree=24, bridge=0)
+- [[candidates/concepts/needsinterop|needsinterop]] (concept, degree=12, bridge=0)
+- [[concepts/never|never]] (concept, degree=12, bridge=0)
+- [[concepts/node|node]] (concept, degree=44, bridge=0)
+- [[candidates/concepts/nota|nota]] (concept, degree=32, bridge=0)
+- [[candidates/concepts/notes|notes]] (concept, degree=76, bridge=0)
+- [[concepts/npmjs|npmjs]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/oaao|oaao]] (concept, degree=19, bridge=0)
+- [[candidates/concepts/object|object]] (concept, degree=77, bridge=0)
+- [[candidates/concepts/ollama|ollama]] (concept, degree=6, bridge=0)
+- [[concepts/open-source|Open Source]] (concept, degree=5, bridge=0)
+- [[concepts/openapi|openapi]] (concept, degree=33, bridge=0)
+- [[concepts/operation|Operation]] (concept, degree=115, bridge=0)
+- [[concepts/operation-op|Operation (Op)]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/operation-protocol|Operation Protocol]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/operation-the-primitive|Operation (The Primitive)]] (concept, degree=7, bridge=0)
+- [[concepts/operations|operations]] (concept, degree=43, bridge=0)
+- [[concepts/opinion|opinion]] (concept, degree=25, bridge=0)
+- [[concepts/opinion-vs-fact|Opinion vs. Fact]] (concept, degree=13, bridge=0)
+- [[concepts/output|output]] (concept, degree=22, bridge=0)
+- [[concepts/package|package]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/painting|painting]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/parallel|parallel]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/parameterization|parameterization]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/paraphrase|paraphrase]] (concept, degree=12, bridge=0)
+- [[concepts/paths|paths]] (concept, degree=13, bridge=0)
+- [[candidates/concepts/pattern|pattern]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/phpunit|phpunit]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/pistol|pistol]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/planner|planner]] (concept, degree=12, bridge=0)
+- [[concepts/playground|playground]] (concept, degree=16, bridge=0)
+- [[concepts/plugin|plugin]] (concept, degree=23, bridge=0)
+- [[concepts/plugins|plugins]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/port|port]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/porter|porter]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/postgres|postgres]] (concept, degree=22, bridge=0)
+- [[concepts/prefix|prefix]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/primitive|primitive]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/procs|procs]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/program|program]] (concept, degree=54, bridge=0)
+- [[candidates/concepts/programs|programs]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/promise|promise]] (concept, degree=12, bridge=0)
+- [[concepts/protobuf|protobuf]] (concept, degree=18, bridge=0)
+- [[candidates/concepts/protoc|protoc]] (concept, degree=8, bridge=0)
+- [[concepts/protocol|protocol]] (concept, degree=37, bridge=0)
+- [[concepts/protocol-gravity|Protocol Gravity]] (concept, degree=9, bridge=0)
+- [[candidates/concepts/psalm|psalm]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/qaaq|qaaq]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/quote|quote]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/radio|radio]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/raft|raft]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/rail|rail]] (concept, degree=46, bridge=0)
+- [[candidates/concepts/read|read]] (concept, degree=21, bridge=0)
+- [[concepts/receiver|receiver]] (concept, degree=24, bridge=0)
+- [[concepts/record|record]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/reference|reference]] (concept, degree=7, bridge=0)
+- [[concepts/references|references]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/refresh|refresh]] (concept, degree=6, bridge=0)
+- [[concepts/release|release]] (concept, degree=12, bridge=0)
+- [[concepts/remove|remove]] (concept, degree=7, bridge=0)
+- [[concepts/repetition|Repetition]] (concept, degree=13, bridge=0)
+- [[concepts/required|required]] (concept, degree=14, bridge=0)
+- [[candidates/concepts/research|research]] (concept, degree=7, bridge=0)
+- [[concepts/resilience|resilience]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/rest|rest]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/results|results]] (concept, degree=7, bridge=0)
+- [[concepts/retry|retry]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/return|return]] (concept, degree=12, bridge=0)
+- [[concepts/review|review]] (concept, degree=16, bridge=0)
+- [[candidates/concepts/rfc-2119-keywords|RFC 2119 Keywords]] (concept, degree=8, bridge=0)
+- [[candidates/concepts/right|right]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/roots|roots]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/rules|rules]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/runtime|runtime]] (concept, degree=20, bridge=0)
+- [[candidates/concepts/saas|saas]] (concept, degree=17, bridge=0)
+- [[candidates/concepts/same|same]] (concept, degree=105, bridge=0)
+- [[candidates/concepts/schema|schema]] (concept, degree=50, bridge=0)
+- [[concepts/sdk-software-development-kit|SDK (Software Development Kit)]] (concept, degree=5, bridge=0)
+- [[concepts/seconds|seconds]] (concept, degree=7, bridge=0)
+- [[concepts/self-knowing-programs|Self-knowing programs]] (concept, degree=9, bridge=0)
+- [[concepts/semantic-path-rail|Semantic Path (Rail)]] (concept, degree=13, bridge=0)
+- [[candidates/concepts/serve|serve]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/server|server]] (concept, degree=12, bridge=0)
+- [[concepts/setup|setup]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/ship|ship]] (concept, degree=12, bridge=0)
+- [[concepts/size|size]] (concept, degree=23, bridge=0)
+- [[candidates/concepts/slot|slot]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/smell|smell]] (concept, degree=10, bridge=0)
+- [[concepts/smithy|smithy]] (concept, degree=51, bridge=0)
+- [[concepts/smtp|smtp]] (concept, degree=12, bridge=0)
+- [[concepts/software-versioning|Software Versioning]] (concept, degree=5, bridge=0)
+- [[candidates/concepts/some|some]] (concept, degree=11, bridge=0)
+- [[candidates/concepts/something|something]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/sources|sources]] (concept, degree=12, bridge=0)
+- [[concepts/space|space]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/spiral|spiral]] (concept, degree=34, bridge=0)
+- [[candidates/concepts/square|square]] (concept, degree=11, bridge=0)
+- [[concepts/standard|standard]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/state|state]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/static|static]] (concept, degree=24, bridge=0)
+- [[candidates/concepts/storage|storage]] (concept, degree=23, bridge=0)
+- [[concepts/stream|stream]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/string|string]] (concept, degree=69, bridge=0)
+- [[concepts/style|style]] (concept, degree=36, bridge=0)
+- [[concepts/such|such]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/swarmvault|swarmvault]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/task|task]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/technical|technical]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/term|term]] (concept, degree=35, bridge=0)
+- [[concepts/text|text]] (concept, degree=18, bridge=0)
+- [[candidates/concepts/than|than]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/that|that]] (concept, degree=447, bridge=0)
+- [[candidates/concepts/then|then]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/there|there]] (concept, degree=21, bridge=0)
+- [[candidates/concepts/they|they]] (concept, degree=111, bridge=0)
+- [[candidates/concepts/this|this]] (concept, degree=194, bridge=0)
+- [[candidates/concepts/three|three]] (concept, degree=22, bridge=0)
+- [[candidates/concepts/title|title]] (concept, degree=20, bridge=0)
+- [[candidates/concepts/tokenizer|tokenizer]] (concept, degree=22, bridge=0)
+- [[candidates/concepts/tool|tool]] (concept, degree=11, bridge=0)
+- [[concepts/tools|tools]] (concept, degree=7, bridge=0)
+- [[concepts/topology|topology]] (concept, degree=13, bridge=0)
+- [[concepts/trait|trait]] (concept, degree=27, bridge=0)
+- [[candidates/concepts/traits|Traits]] (concept, degree=7, bridge=0)
+- [[concepts/transport|transport]] (concept, degree=35, bridge=0)
+- [[candidates/concepts/true|true]] (concept, degree=59, bridge=0)
+- [[candidates/concepts/truth|truth]] (concept, degree=11, bridge=0)
+- [[concepts/type|type]] (concept, degree=63, bridge=0)
+- [[concepts/types|types]] (concept, degree=37, bridge=0)
+- [[candidates/concepts/uaai|uaai]] (concept, degree=12, bridge=0)
+- [[concepts/universal|universal]] (concept, degree=35, bridge=0)
+- [[concepts/user|user]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/value|value]] (concept, degree=26, bridge=0)
+- [[concepts/vendor|vendor]] (concept, degree=12, bridge=0)
+- [[concepts/vendors|vendors]] (concept, degree=23, bridge=0)
+- [[concepts/version|version]] (concept, degree=23, bridge=0)
+- [[concepts/violation|violation]] (concept, degree=13, bridge=0)
+- [[concepts/vitepress|vitepress]] (concept, degree=6, bridge=0)
+- [[candidates/concepts/voice|voice]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/volumes|volumes]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/watch|watch]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/what|what]] (concept, degree=217, bridge=0)
+- [[candidates/concepts/where|where]] (concept, degree=10, bridge=0)
+- [[candidates/concepts/wiki|wiki]] (concept, degree=9, bridge=0)
+- [[concepts/wire|wire]] (concept, degree=12, bridge=0)
+- [[concepts/with|with]] (concept, degree=64, bridge=0)
+- [[candidates/concepts/without|without]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/word|word]] (concept, degree=10, bridge=0)
+- [[concepts/work|work]] (concept, degree=12, bridge=0)
+- [[concepts/workflow|Workflow]] (concept, degree=8, bridge=0)
+- [[concepts/works|works]] (concept, degree=12, bridge=0)
+- [[concepts/write|write]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/writing|writing]] (concept, degree=12, bridge=0)
+- [[candidates/concepts/xdebug|xdebug]] (concept, degree=15, bridge=0)
+- [[candidates/concepts/yaay|yaay]] (concept, degree=12, bridge=0)
+- [[concepts/yaml|yaml]] (concept, degree=51, bridge=0)
+- [[concepts/your|your]] (concept, degree=63, bridge=0)
+- [[entities/1-26-1|1.26.1]] (entity, degree=5, bridge=0)
+- [[entities/actions-checkout-v6|actions/checkout@v6]] (entity, degree=8, bridge=0)
+- [[entities/actions-setup-go-v6|actions/setup-go@v6]] (entity, degree=8, bridge=0)
+- [[entities/add|Add]] (entity, degree=9, bridge=0)
+- [[candidates/entities/address|Address]] (entity, degree=12, bridge=0)
+- [[candidates/entities/address-is|Address Is]] (entity, degree=12, bridge=0)
+- [[candidates/entities/after|After]] (entity, degree=24, bridge=0)
+- [[entities/again|Again]] (entity, degree=12, bridge=0)
+- [[candidates/entities/alexandria|Alexandria]] (entity, degree=12, bridge=0)
+- [[candidates/entities/all|All]] (entity, degree=22, bridge=0)
+- [[candidates/entities/all-programs-are-equal-take|All Programs Are Equal Take]] (entity, degree=12, bridge=0)
+- [[entities/amplifier|Amplifier]] (entity, degree=13, bridge=0)
+- [[candidates/entities/an|An]] (entity, degree=24, bridge=0)
+- [[candidates/entities/and|And]] (entity, degree=24, bridge=0)
+- [[candidates/entities/ankara|Ankara,]] (entity, degree=12, bridge=0)
+- [[entities/anthill-organizes|Anthill Organizes]] (entity, degree=25, bridge=0)
+- [[entities/anthill-organizes-devlog|Anthill Organizes Devlog]] (entity, degree=12, bridge=0)
+- [[candidates/entities/anti|Anti-]] (entity, degree=12, bridge=0)
+- [[candidates/entities/appendix|Appendix]] (entity, degree=12, bridge=0)
+- [[candidates/entities/arabic|Arabic.]] (entity, degree=12, bridge=0)
+- [[entities/array-kind|Array (Kind)]] (entity, degree=13, bridge=0)
+- [[candidates/entities/art-stood|art." Stood]] (entity, degree=12, bridge=0)
+- [[candidates/entities/ast|AST.]] (entity, degree=11, bridge=0)
+- [[candidates/entities/atlantic-ocean|Atlantic Ocean.]] (entity, degree=10, bridge=0)
+- [[entities/atom|Atom]] (entity, degree=14, bridge=0)
+- [[entities/atoms-speak|Atoms Speak]] (entity, degree=14, bridge=0)
+- [[entities/atoms-speak-we|Atoms Speak We]] (entity, degree=12, bridge=0)
+- [[candidates/entities/banana|Banana]] (entity, degree=12, bridge=0)
+- [[entities/bar-owner-speaks|Bar Owner Speaks]] (entity, degree=12, bridge=0)
+- [[entities/bar-reopens|Bar Reopens]] (entity, degree=12, bridge=0)
+- [[entities/berners-lee|Berners-Lee]] (entity, degree=12, bridge=0)
+- [[candidates/entities/binary-for|Binary For]] (entity, degree=12, bridge=0)
+- [[candidates/entities/black|Black]] (entity, degree=12, bridge=0)
+- [[candidates/entities/black-compiler|Black Compiler]] (entity, degree=12, bridge=0)
+- [[candidates/entities/bleed|Bleed]] (entity, degree=12, bridge=0)
+- [[entities/blind-spot-every|Blind Spot Every]] (entity, degree=12, bridge=0)
+- [[entities/box|Box]] (entity, degree=12, bridge=0)
+- [[candidates/entities/brazil|Brazil,]] (entity, degree=12, bridge=0)
+- [[entities/break|Break]] (entity, degree=13, bridge=0)
+- [[entities/break-we|Break We]] (entity, degree=13, bridge=0)
+- [[entities/browser|Browser]] (entity, degree=12, bridge=0)
+- [[entities/budgetexceeded-five|BudgetExceeded Five]] (entity, degree=13, bridge=0)
+- [[entities/build|Build,]] (entity, degree=11, bridge=0)
+- [[candidates/entities/bundle|Bundle]] (entity, degree=12, bridge=0)
+- [[candidates/entities/bundle-postgres|Bundle Postgres]] (entity, degree=12, bridge=0)
+- [[candidates/entities/but|But]] (entity, degree=10, bridge=0)
+- [[candidates/entities/buydog|BuyDog]] (entity, degree=45, bridge=0)
+- [[entities/buydog-input-buydoginput-buydogoutput|BuyDog(input: BuyDogInput): BuyDogOutput]] (entity, degree=13, bridge=0)
+- [[candidates/entities/call-linus|Call Linus]] (entity, degree=12, bridge=0)
+- [[entities/chat-stream-clientmessage|Chat(stream ClientMessage) —]] (entity, degree=12, bridge=0)
+- [[entities/cheetah-then|Cheetah Then]] (entity, degree=11, bridge=0)
+- [[candidates/entities/choosing|Choosing]] (entity, degree=12, bridge=0)
+- [[entities/claim-we|Claim We]] (entity, degree=12, bridge=0)
+- [[entities/clause|Clause",]] (entity, degree=16, bridge=0)
+- [[candidates/entities/clay|clay,]] (entity, degree=10, bridge=0)
+- [[entities/code|Code]] (entity, degree=12, bridge=0)
+- [[candidates/entities/codex|Codex]] (entity, degree=12, bridge=0)
+- [[entities/coexistence|Coexistence]] (entity, degree=12, bridge=0)
+- [[entities/coexistence-every|Coexistence Every]] (entity, degree=12, bridge=0)
+- [[entities/comment-enters|Comment Enters]] (entity, degree=14, bridge=0)
+- [[entities/compatibility|Compatibility]] (entity, degree=12, bridge=0)
+- [[entities/compilers|Compilers]] (entity, degree=12, bridge=0)
+- [[entities/config|Config]] (entity, degree=12, bridge=0)
+- [[candidates/entities/configuration|Configuration]] (entity, degree=24, bridge=0)
+- [[candidates/entities/configuration-is-not-parameterization-devops|Configuration Is Not Parameterization DevOps]] (entity, degree=12, bridge=0)
+- [[entities/contents|Contents]] (entity, degree=12, bridge=0)
+- [[entities/contract-that-wouldn-t|Contract That Wouldn't]] (entity, degree=13, bridge=0)
+- [[entities/contracts|Contracts]] (entity, degree=12, bridge=0)
+- [[entities/convergent-evolution|Convergent Evolution]] (entity, degree=12, bridge=0)
+- [[entities/convergent-evolution-this|Convergent Evolution This]] (entity, degree=12, bridge=0)
+- [[candidates/entities/convergent-witnesses|Convergent Witnesses]] (entity, degree=8, bridge=0)
+- [[entities/core|Core]] (entity, degree=12, bridge=0)
+- [[entities/core-uri|Core((("URI]] (entity, degree=12, bridge=0)
+- [[entities/createdog-handle|(*CreateDog).Handle,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/curl-eyeballs-turned|Curl Eyeballs Turned]] (entity, degree=11, bridge=0)
+- [[entities/d-bus|D-Bus]] (entity, degree=8, bridge=0)
+- [[entities/darwin|"darwin"]] (entity, degree=11, bridge=0)
+- [[candidates/entities/debug|Debug]] (entity, degree=12, bridge=0)
+- [[entities/deepseek|DeepSeek]] (entity, degree=31, bridge=0)
+- [[entities/deepseek-s-letter|DeepSeek's Letter]] (entity, degree=12, bridge=0)
+- [[entities/delivery|Delivery.]] (entity, degree=12, bridge=0)
+- [[entities/describe|Describe]] (entity, degree=9, bridge=0)
+- [[candidates/entities/detail-when|Detail When]] (entity, degree=12, bridge=0)
+- [[entities/devin|Devin]] (entity, degree=13, bridge=0)
+- [[entities/devlog|Devlog]] (entity, degree=12, bridge=0)
+- [[entities/devlog-this|Devlog This]] (entity, degree=12, bridge=0)
+- [[entities/devops|DevOps]] (entity, degree=12, bridge=0)
+- [[candidates/entities/different|Different]] (entity, degree=12, bridge=0)
+- [[entities/dima|Dima]] (entity, degree=15, bridge=0)
+- [[candidates/entities/disappearing-profession-john-ousterhout|Disappearing Profession John Ousterhout]] (entity, degree=10, bridge=0)
+- [[entities/discoveries|Discoveries]] (entity, degree=12, bridge=0)
+- [[candidates/entities/dna|DNA]] (entity, degree=12, bridge=0)
+- [[entities/dobby-is-free|Dobby Is Free]] (entity, degree=23, bridge=0)
+- [[candidates/entities/docker|Docker]] (entity, degree=12, bridge=0)
+- [[candidates/entities/dockerfile|Dockerfile,]] (entity, degree=46, bridge=0)
+- [[entities/documentation|Documentation]] (entity, degree=12, bridge=0)
+- [[entities/dog|Dog]] (entity, degree=11, bridge=0)
+- [[entities/dognotfound|DogNotFound},]] (entity, degree=25, bridge=0)
+- [[candidates/entities/dream|Dream]] (entity, degree=10, bridge=0)
+- [[candidates/entities/dream-it|Dream It]] (entity, degree=10, bridge=0)
+- [[entities/dream-layer|Dream Layer]] (entity, degree=12, bridge=0)
+- [[entities/dream-layer-this|Dream Layer This]] (entity, degree=12, bridge=0)
+- [[candidates/entities/dreamers|Dreamers]] (entity, degree=12, bridge=0)
+- [[candidates/entities/drop|Drop]] (entity, degree=12, bridge=0)
+- [[entities/dsl|DSL]] (entity, degree=12, bridge=0)
+- [[candidates/entities/duckdb-cockroachdb|DuckDB, CockroachDB]] (entity, degree=12, bridge=0)
+- [[candidates/entities/each|Each]] (entity, degree=12, bridge=0)
+- [[candidates/entities/earth|Earth.]] (entity, degree=29, bridge=0)
+- [[entities/emitter|Emitter]] (entity, degree=14, bridge=0)
+- [[candidates/entities/english|English.]] (entity, degree=12, bridge=0)
+- [[entities/entity|Entity"]] (entity, degree=12, bridge=0)
+- [[entities/enum-kind|Enum (Kind)]] (entity, degree=13, bridge=0)
+- [[candidates/entities/environment|Environment]] (entity, degree=12, bridge=0)
+- [[entities/epilogue|Epilogue]] (entity, degree=21, bridge=0)
+- [[candidates/entities/equality|Equality]] (entity, degree=12, bridge=0)
+- [[entities/error-without-opinion|Error Without Opinion]] (entity, degree=13, bridge=0)
+- [[candidates/entities/every|Every]] (entity, degree=65, bridge=0)
+- [[entities/everyone|Everyone]] (entity, degree=12, bridge=0)
+- [[entities/exactly|Exactly.]] (entity, degree=12, bridge=0)
+- [[entities/expected|Expected]] (entity, degree=12, bridge=0)
+- [[entities/eye|Eye]] (entity, degree=12, bridge=0)
+- [[candidates/entities/eyeballs|Eyeballs]] (entity, degree=11, bridge=0)
+- [[entities/fhir|FHIR]] (entity, degree=8, bridge=0)
+- [[candidates/entities/field|Field]] (entity, degree=23, bridge=0)
+- [[entities/fifteen-times|Fifteen Times]] (entity, degree=12, bridge=0)
+- [[candidates/entities/fifty-triggers-fifty-barrels|Fifty Triggers, Fifty Barrels]] (entity, degree=9, bridge=0)
+- [[entities/first-inhabitants|first inhabitants]] (entity, degree=12, bridge=0)
+- [[candidates/entities/first-lesson|First lesson.]] (entity, degree=10, bridge=0)
+- [[candidates/entities/five-five|Five Five]] (entity, degree=12, bridge=0)
+- [[entities/fixtures|Fixtures —]] (entity, degree=13, bridge=0)
+- [[entities/fonts|Fonts]] (entity, degree=12, bridge=0)
+- [[entities/for|For]] (entity, degree=24, bridge=0)
+- [[candidates/entities/forgotten|Forgotten]] (entity, degree=12, bridge=0)
+- [[candidates/entities/form-of-instruction-notes-this|Form Of Instruction - Notes This]] (entity, degree=12, bridge=0)
+- [[candidates/entities/form-of-nota-notes-this|Form Of Nota - Notes This]] (entity, degree=12, bridge=0)
+- [[candidates/entities/form-of-operation-notes-this|Form Of Operation - Notes This]] (entity, degree=12, bridge=0)
+- [[entities/formalizing|Formalizing]] (entity, degree=13, bridge=0)
+- [[candidates/entities/format|Format:]] (entity, degree=175, bridge=0)
+- [[entities/founder-s-dream|Founder's Dream]] (entity, degree=15, bridge=0)
+- [[entities/founder-s-dream-in|Founder's Dream In]] (entity, degree=15, bridge=0)
+- [[candidates/entities/four|Four]] (entity, degree=31, bridge=0)
+- [[entities/fourth-rail|Fourth Rail]] (entity, degree=15, bridge=0)
+- [[entities/fourth-rail-this|Fourth Rail This]] (entity, degree=12, bridge=0)
+- [[candidates/entities/frisch|Frisch]] (entity, degree=12, bridge=0)
+- [[candidates/entities/from|From]] (entity, degree=21, bridge=0)
+- [[entities/future-look|Future, Look]] (entity, degree=12, bridge=0)
+- [[entities/gallium|Gallium]] (entity, degree=20, bridge=0)
+- [[candidates/entities/gallium-in|Gallium In]] (entity, degree=11, bridge=0)
+- [[entities/gallium-we|Gallium We]] (entity, degree=12, bridge=0)
+- [[candidates/entities/gen-php|gen-php-]] (entity, degree=8, bridge=0)
+- [[candidates/entities/get-started|«Get Started»]] (entity, degree=12, bridge=0)
+- [[entities/github|!/.github]] (entity, degree=24, bridge=0)
+- [[entities/github-com|github.com]] (entity, degree=5, bridge=0)
+- [[entities/github-com-thumbrise-op|github.com/thumbrise/op]] (entity, degree=5, bridge=0)
+- [[entities/github-com-thumbrise-op-sdk-go|github.com/thumbrise/op/sdk/go]] (entity, degree=5, bridge=0)
+- [[entities/go|Go]] (entity, degree=64, bridge=0)
+- [[entities/go-1-26-0|Go 1.26.0]] (entity, degree=5, bridge=0)
+- [[entities/google|Google]] (entity, degree=13, bridge=0)
+- [[entities/goreleaser|GoReleaser]] (entity, degree=11, bridge=0)
+- [[entities/goreleaser-guys|GoReleaser: Guys.]] (entity, degree=11, bridge=0)
+- [[candidates/entities/graphql|GraphQL,]] (entity, degree=27, bridge=0)
+- [[candidates/entities/greek|Greek]] (entity, degree=12, bridge=0)
+- [[candidates/entities/guards|Guards]] (entity, degree=12, bridge=0)
+- [[entities/guidelines|Guidelines]] (entity, degree=16, bridge=0)
+- [[entities/guys|Guys,]] (entity, degree=12, bridge=0)
+- [[entities/hamster-leaves|Hamster Leaves]] (entity, degree=12, bridge=0)
+- [[candidates/entities/hand-written-deopt-guards|Hand-Written Deopt Guards]] (entity, degree=12, bridge=0)
+- [[candidates/entities/happy|Happy]] (entity, degree=11, bridge=0)
+- [[candidates/entities/haskell|Haskell,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/hotspot|HotSpot]] (entity, degree=32, bridge=0)
+- [[candidates/entities/how|How]] (entity, degree=82, bridge=0)
+- [[entities/i-m|I'm]] (entity, degree=9, bridge=0)
+- [[entities/i-ve|I've]] (entity, degree=12, bridge=0)
+- [[candidates/entities/ibm|IBM]] (entity, degree=12, bridge=0)
+- [[entities/id|Id).]] (entity, degree=13, bridge=0)
+- [[candidates/entities/idea|Idea .]] (entity, degree=24, bridge=0)
+- [[entities/if|If]] (entity, degree=24, bridge=0)
+- [[candidates/entities/in|In]] (entity, degree=34, bridge=0)
+- [[candidates/entities/infra-if|Infra If]] (entity, degree=11, bridge=0)
+- [[candidates/entities/innodb|InnoDB]] (entity, degree=12, bridge=0)
+- [[entities/input|Input).]] (entity, degree=13, bridge=0)
+- [[candidates/entities/inside-postgres|Inside Postgres]] (entity, degree=12, bridge=0)
+- [[entities/instruction|Instruction]] (entity, degree=8, bridge=0)
+- [[candidates/entities/it|It]] (entity, degree=49, bridge=0)
+- [[candidates/entities/item|Ольга]] (entity, degree=44, bridge=0)
+- [[entities/java|Java]] (entity, degree=35, bridge=0)
+- [[candidates/entities/javascript|JavaScript.]] (entity, degree=12, bridge=0)
+- [[entities/jennifer|Jennifer]] (entity, degree=11, bridge=0)
+- [[entities/jobs|jobs]] (entity, degree=8, bridge=0)
+- [[candidates/entities/joe-becker|Joe Becker,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/john-ousterhout|John Ousterhout]] (entity, degree=10, bridge=0)
+- [[entities/json-schema|JSON Schema.]] (entity, degree=13, bridge=0)
+- [[candidates/entities/karl|Karl]] (entity, degree=12, bridge=0)
+- [[entities/kind|Kind]] (entity, degree=13, bridge=0)
+- [[entities/krabby-patty|Krabby Patty.]] (entity, degree=10, bridge=0)
+- [[entities/krabby-patty-description|Krabby Patty description:]] (entity, degree=10, bridge=0)
+- [[candidates/entities/kubernetes|Kubernetes]] (entity, degree=12, bridge=0)
+- [[candidates/entities/language|Language]] (entity, degree=12, bridge=0)
+- [[entities/laravel|Laravel?]] (entity, degree=12, bridge=0)
+- [[candidates/entities/last-futurist-exhibition|Last Futurist Exhibition]] (entity, degree=11, bridge=0)
+- [[entities/legal-entity|Legal Entity]] (entity, degree=12, bridge=0)
+- [[candidates/entities/lesson|lesson,]] (entity, degree=24, bridge=0)
+- [[entities/license|License.]] (entity, degree=12, bridge=0)
+- [[entities/license-version|License Version]] (entity, degree=12, bridge=0)
+- [[candidates/entities/linus|Linus]] (entity, degree=12, bridge=0)
+- [[candidates/entities/linus-description-memory|Linus description: Memory]] (entity, degree=12, bridge=0)
+- [[candidates/entities/linux|Linux]] (entity, degree=12, bridge=0)
+- [[candidates/entities/list-take|List Take]] (entity, degree=12, bridge=0)
+- [[candidates/entities/look|Look]] (entity, degree=12, bridge=0)
+- [[candidates/entities/luca-pacioli-s|Luca Pacioli's]] (entity, degree=12, bridge=0)
+- [[candidates/entities/madrid|Madrid,]] (entity, degree=12, bridge=0)
+- [[entities/manifesto|Manifesto]] (entity, degree=12, bridge=0)
+- [[candidates/entities/markets|Markets]] (entity, degree=12, bridge=0)
+- [[entities/meaning|Meaning.]] (entity, degree=12, bridge=0)
+- [[entities/mendeleev|Mendeleev]] (entity, degree=12, bridge=0)
+- [[candidates/entities/migrations|Migrations]] (entity, degree=12, bridge=0)
+- [[candidates/entities/migrations-every|Migrations Every]] (entity, degree=12, bridge=0)
+- [[entities/milestone|Milestone]] (entity, degree=13, bridge=0)
+- [[entities/missing-format|Missing Format]] (entity, degree=12, bridge=0)
+- [[entities/missing-format-this|Missing Format This]] (entity, degree=12, bridge=0)
+- [[entities/missing-foundation|Missing Foundation]] (entity, degree=13, bridge=0)
+- [[entities/missing-foundation-we|Missing Foundation We]] (entity, degree=13, bridge=0)
+- [[candidates/entities/modern|Modern]] (entity, degree=9, bridge=0)
+- [[candidates/entities/mongo|Mongo.']] (entity, degree=12, bridge=0)
+- [[candidates/entities/mongodb|MongoDB]] (entity, degree=12, bridge=0)
+- [[candidates/entities/monolog|Monolog]] (entity, degree=12, bridge=0)
+- [[entities/ms|"ms":]] (entity, degree=11, bridge=0)
+- [[candidates/entities/munich|Munich.]] (entity, degree=12, bridge=0)
+- [[entities/murat|Murat .]] (entity, degree=20, bridge=0)
+- [[entities/n-worlds|## N Worlds,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/names|Names]] (entity, degree=12, bridge=0)
+- [[candidates/entities/naming|Naming]] (entity, degree=12, bridge=0)
+- [[entities/naming-problem|Naming Problem]] (entity, degree=13, bridge=0)
+- [[candidates/entities/narrative|Narrative]] (entity, degree=12, bridge=0)
+- [[candidates/entities/nested|Nested]] (entity, degree=175, bridge=0)
+- [[candidates/entities/nginx|Nginx]] (entity, degree=12, bridge=0)
+- [[candidates/entities/nobel-prize|Nobel Prize]] (entity, degree=12, bridge=0)
+- [[candidates/entities/nobody|Nobody]] (entity, degree=12, bridge=0)
+- [[candidates/entities/nobody-chooses-mongodb|Nobody Chooses MongoDB]] (entity, degree=12, bridge=0)
+- [[entities/node-modules-semantic-release-github|"node_modules/@semantic-release/github":]] (entity, degree=11, bridge=0)
+- [[candidates/entities/not|Not]] (entity, degree=12, bridge=0)
+- [[candidates/entities/not-drew|Not "drew]] (entity, degree=12, bridge=0)
+- [[candidates/entities/nota|Nota —]] (entity, degree=12, bridge=0)
+- [[candidates/entities/nothing|Nothing]] (entity, degree=12, bridge=0)
+- [[candidates/entities/o-clock|o'clock]] (entity, degree=12, bridge=0)
+- [[entities/object-kind|Object (Kind)]] (entity, degree=13, bridge=0)
+- [[candidates/entities/observation|Observation]] (entity, degree=12, bridge=0)
+- [[candidates/entities/of-instruction-notes|Of Instruction - Notes]] (entity, degree=12, bridge=0)
+- [[candidates/entities/of-nota-notes|Of Nota - Notes]] (entity, degree=12, bridge=0)
+- [[candidates/entities/of-operation-notes|Of Operation - Notes]] (entity, degree=12, bridge=0)
+- [[candidates/entities/once|Once,]] (entity, degree=10, bridge=0)
+- [[entities/one|One]] (entity, degree=36, bridge=0)
+- [[entities/op|Op]] (entity, degree=221, bridge=0)
+- [[entities/op-protobuf|Op, Protobuf,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/op-protocol-structure|Op Protocol Structure]] (entity, degree=7, bridge=0)
+- [[entities/op-s|Op's]] (entity, degree=35, bridge=0)
+- [[entities/op-smithy|Op: Smithy,]] (entity, degree=12, bridge=0)
+- [[entities/op-the-protocol|Op (The Protocol)]] (entity, degree=8, bridge=0)
+- [[entities/openapi|OpenAPI]] (entity, degree=32, bridge=0)
+- [[candidates/entities/opened|Opened]] (entity, degree=12, bridge=0)
+- [[entities/opentelemetry|OpenTelemetry,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/operation|Operation]] (entity, degree=12, bridge=0)
+- [[entities/operation-comes-first|Operation Comes First]] (entity, degree=11, bridge=0)
+- [[candidates/entities/operation-primitive|Operation Primitive]] (entity, degree=8, bridge=0)
+- [[candidates/entities/operation-protocol-appendix|Operation Protocol — Appendix]] (entity, degree=12, bridge=0)
+- [[entities/operations-protocol-formalizing|Operations Protocol: Formalizing]] (entity, degree=13, bridge=0)
+- [[candidates/entities/origin|Origin]] (entity, degree=12, bridge=0)
+- [[candidates/entities/other|Other]] (entity, degree=9, bridge=0)
+- [[candidates/entities/outofbeans|OutOfBeans .]] (entity, degree=12, bridge=0)
+- [[candidates/entities/outofstock|OutOfStock]] (entity, degree=12, bridge=0)
+- [[candidates/entities/paintings|Paintings]] (entity, degree=11, bridge=0)
+- [[entities/past|Past]] (entity, degree=12, bridge=0)
+- [[entities/past-we|Past We]] (entity, degree=12, bridge=0)
+- [[candidates/entities/pennsylvania|Pennsylvania]] (entity, degree=11, bridge=0)
+- [[candidates/entities/pennsylvania-forest|Pennsylvania forest.]] (entity, degree=11, bridge=0)
+- [[entities/permissions|permissions]] (entity, degree=8, bridge=0)
+- [[entities/phase|Phase]] (entity, degree=12, bridge=0)
+- [[candidates/entities/phoenician|Phoenician.]] (entity, degree=12, bridge=0)
+- [[entities/php|PHP]] (entity, degree=12, bridge=0)
+- [[entities/pipe|Pipe]] (entity, degree=12, bridge=0)
+- [[candidates/entities/pistol|Pistol]] (entity, degree=9, bridge=0)
+- [[entities/plate|Plate]] (entity, degree=11, bridge=0)
+- [[entities/playground|Playground]] (entity, degree=16, bridge=0)
+- [[entities/playground-seventeen|Playground Seventeen]] (entity, degree=12, bridge=0)
+- [[entities/poc|POC,]] (entity, degree=22, bridge=0)
+- [[candidates/entities/polly|Polly.]] (entity, degree=12, bridge=0)
+- [[candidates/entities/popperian|Popperian]] (entity, degree=12, bridge=0)
+- [[candidates/entities/postgres|Postgres]] (entity, degree=42, bridge=0)
+- [[candidates/entities/postgres-is|Postgres Is]] (entity, degree=22, bridge=0)
+- [[candidates/entities/preserved|Preserved]] (entity, degree=12, bridge=0)
+- [[candidates/entities/preview|Preview]] (entity, degree=175, bridge=0)
+- [[candidates/entities/primitive-range-conjecture|Primitive Range Conjecture]] (entity, degree=12, bridge=0)
+- [[entities/pro|Pro]] (entity, degree=12, bridge=0)
+- [[candidates/entities/problem|Problem]] (entity, degree=12, bridge=0)
+- [[entities/problem-with-words-we|Problem With Words We]] (entity, degree=12, bridge=0)
+- [[entities/problems|Problems]] (entity, degree=12, bridge=0)
+- [[candidates/entities/profession|Profession]] (entity, degree=10, bridge=0)
+- [[candidates/entities/programs|Programs]] (entity, degree=12, bridge=0)
+- [[entities/prologue|Prologue —]] (entity, degree=12, bridge=0)
+- [[entities/prologue-after|Prologue — After]] (entity, degree=13, bridge=0)
+- [[entities/prologue-an|Prologue — An]] (entity, degree=13, bridge=0)
+- [[candidates/entities/promise|Promise]] (entity, degree=12, bridge=0)
+- [[entities/protobuf|Protobuf,]] (entity, degree=12, bridge=0)
+- [[entities/protocol|Protocol]] (entity, degree=8, bridge=0)
+- [[candidates/entities/ptolemaic|Ptolemaic]] (entity, degree=12, bridge=0)
+- [[entities/pub-bar-role-game|Pub Bar Role Game]] (entity, degree=12, bridge=0)
+- [[entities/python|Python.]] (entity, degree=24, bridge=0)
+- [[candidates/entities/raft|Raft.]] (entity, degree=10, bridge=0)
+- [[entities/rail|Rail]] (entity, degree=13, bridge=0)
+- [[candidates/entities/raw|Raw,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/raw-notes|Raw Notes]] (entity, degree=12, bridge=0)
+- [[candidates/entities/read|Read]] (entity, degree=12, bridge=0)
+- [[candidates/entities/receipt|Receipt]] (entity, degree=12, bridge=0)
+- [[entities/receiver|Receiver]] (entity, degree=14, bridge=0)
+- [[entities/redirect-someone|Redirect Someone]] (entity, degree=12, bridge=0)
+- [[candidates/entities/reference|Reference]] (entity, degree=7, bridge=0)
+- [[candidates/entities/reference-research|Reference Research]] (entity, degree=7, bridge=0)
+- [[entities/reinventions|Reinventions]] (entity, degree=12, bridge=0)
+- [[entities/reproduce-steps|Reproduce Steps]] (entity, degree=12, bridge=0)
+- [[entities/research-trail|Research Trail]] (entity, degree=12, bridge=0)
+- [[entities/research-trail-before|Research Trail Before]] (entity, degree=12, bridge=0)
+- [[entities/rfc|RFC,]] (entity, degree=27, bridge=0)
+- [[candidates/entities/rhodes|Rhodes,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/roadrunner|RoadRunner]] (entity, degree=34, bridge=0)
+- [[candidates/entities/roadrunner-bleeds-across-layers-opened|RoadRunner Bleeds Across Layers Opened]] (entity, degree=12, bridge=0)
+- [[candidates/entities/roadrunnerbridge|RoadRunnerBridge -]] (entity, degree=12, bridge=0)
+- [[candidates/entities/role|Role-]] (entity, degree=12, bridge=0)
+- [[candidates/entities/roman|Roman.]] (entity, degree=12, bridge=0)
+- [[candidates/entities/roman-census|Roman census]] (entity, degree=12, bridge=0)
+- [[candidates/entities/rome|Rome]] (entity, degree=10, bridge=0)
+- [[entities/runtime|Runtime]] (entity, degree=11, bridge=0)
+- [[entities/runtime-autopsy|Runtime Autopsy]] (entity, degree=11, bridge=0)
+- [[entities/ruslan|Ruslan]] (entity, degree=9, bridge=0)
+- [[candidates/entities/russian|Russian]] (entity, degree=11, bridge=0)
+- [[entities/rust|Rust.]] (entity, degree=23, bridge=0)
+- [[candidates/entities/s|Лиля's]] (entity, degree=9, bridge=0)
+- [[entities/same-idea|Same Idea]] (entity, degree=12, bridge=0)
+- [[entities/same-idea-we|Same Idea We]] (entity, degree=12, bridge=0)
+- [[entities/same-thing-again|Same Thing Again]] (entity, degree=12, bridge=0)
+- [[candidates/entities/sat|Sat]] (entity, degree=11, bridge=0)
+- [[candidates/entities/savanna|savanna,]] (entity, degree=22, bridge=0)
+- [[candidates/entities/schema|Schema]] (entity, degree=192, bridge=0)
+- [[candidates/entities/schema-of-instruction|Schema Of Instruction —]] (entity, degree=12, bridge=0)
+- [[candidates/entities/schema-of-operation|Schema Of Operation —]] (entity, degree=12, bridge=0)
+- [[candidates/entities/schema-protobuf|Schema, Protobuf,]] (entity, degree=12, bridge=0)
+- [[entities/scientific-american|Scientific American.]] (entity, degree=15, bridge=0)
+- [[entities/scramble|Scramble —]] (entity, degree=12, bridge=0)
+- [[entities/scramble-huma|Scramble, Huma,]] (entity, degree=12, bridge=0)
+- [[entities/scripts|Scripts]] (entity, degree=12, bridge=0)
+- [[entities/sections|Sections]] (entity, degree=12, bridge=0)
+- [[candidates/entities/see|See]] (entity, degree=12, bridge=0)
+- [[candidates/entities/set|Set]] (entity, degree=12, bridge=0)
+- [[candidates/entities/ships|Ships]] (entity, degree=12, bridge=0)
+- [[candidates/entities/short|Short]] (entity, degree=12, bridge=0)
+- [[candidates/entities/single-source|Single Source]] (entity, degree=11, bridge=0)
+- [[entities/sir-just|sir. Just]] (entity, degree=12, bridge=0)
+- [[entities/six|Six]] (entity, degree=12, bridge=0)
+- [[candidates/entities/size|Size:]] (entity, degree=175, bridge=0)
+- [[candidates/entities/slack|Slack]] (entity, degree=11, bridge=0)
+- [[entities/smartphone|Smartphone]] (entity, degree=12, bridge=0)
+- [[entities/smithy|Smithy]] (entity, degree=30, bridge=0)
+- [[entities/smithy-cloudevents-asyncapi|Smithy, CloudEvents, AsyncAPI.]] (entity, degree=16, bridge=0)
+- [[entities/smithy-s|Smithy's]] (entity, degree=12, bridge=0)
+- [[entities/smithy-walks-in|Smithy Walks In]] (entity, degree=12, bridge=0)
+- [[entities/someone|Someone]] (entity, degree=12, bridge=0)
+- [[candidates/entities/somewhere|Somewhere]] (entity, degree=11, bridge=0)
+- [[entities/source|Source]] (entity, degree=12, bridge=0)
+- [[candidates/entities/southern-austria|southern Austria.]] (entity, degree=12, bridge=0)
+- [[candidates/entities/spiral|Spiral?]] (entity, degree=41, bridge=0)
+- [[candidates/entities/spiral-s|Spiral's]] (entity, degree=12, bridge=0)
+- [[candidates/entities/st-peter-s|St Peter's]] (entity, degree=10, bridge=0)
+- [[candidates/entities/standing|Standing]] (entity, degree=12, bridge=0)
+- [[candidates/entities/statistics|Statistics]] (entity, degree=12, bridge=0)
+- [[candidates/entities/status|Status]] (entity, degree=12, bridge=0)
+- [[candidates/entities/steering-committee-op|steering committee — Op]] (entity, degree=12, bridge=0)
+- [[candidates/entities/stories|Stories]] (entity, degree=10, bridge=0)
+- [[candidates/entities/struggle|Struggle]] (entity, degree=12, bridge=0)
+- [[entities/submit|Submit]] (entity, degree=16, bridge=0)
+- [[entities/swagger|Swagger]] (entity, degree=22, bridge=0)
+- [[candidates/entities/swarmvault|SwarmVault]] (entity, degree=9, bridge=0)
+- [[candidates/entities/symfony|Symfony,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/t-rkiye|Türkiye,]] (entity, degree=12, bridge=0)
+- [[candidates/entities/tanzania|Tanzania.]] (entity, degree=10, bridge=0)
+- [[candidates/entities/tanzanian-savanna|Tanzanian savanna.]] (entity, degree=10, bridge=0)
+- [[entities/taskfile-yaml|Taskfile.yaml]] (entity, degree=12, bridge=0)
+- [[candidates/entities/technically|Technically]] (entity, degree=12, bridge=0)
+- [[entities/term|Term]] (entity, degree=48, bridge=0)
+- [[entities/the-conference|The Conference]] (entity, degree=12, bridge=0)
+- [[entities/the-conference-we|The Conference We]] (entity, degree=12, bridge=0)
+- [[candidates/entities/the-radio|The radio]] (entity, degree=12, bridge=0)
+- [[candidates/entities/them-two|Them Two]] (entity, degree=12, bridge=0)
+- [[candidates/entities/then-recover|Then-Recover.]] (entity, degree=12, bridge=0)
+- [[candidates/entities/third-lesson|Third lesson.]] (entity, degree=9, bridge=0)
+- [[candidates/entities/this|This]] (entity, degree=37, bridge=0)
+- [[entities/this-journal|This journal]] (entity, degree=13, bridge=0)
+- [[entities/three|Three]] (entity, degree=11, bridge=0)
+- [[entities/three-atoms|Three Atoms]] (entity, degree=13, bridge=0)
+- [[entities/three-atoms-we|Three Atoms We]] (entity, degree=13, bridge=0)
+- [[entities/thumbrise|thumbrise]] (entity, degree=5, bridge=0)
+- [[candidates/entities/tiber|Tiber.]] (entity, degree=10, bridge=0)
+- [[candidates/entities/tim-berners-lee|Tim Berners-Lee]] (entity, degree=26, bridge=0)
+- [[entities/to-build|To Build]] (entity, degree=12, bridge=0)
+- [[entities/tony-tam|Tony Tam]] (entity, degree=12, bridge=0)
+- [[candidates/entities/top|Top-]] (entity, degree=175, bridge=0)
+- [[entities/trait|Trait]] (entity, degree=13, bridge=0)
+- [[entities/transport|Transport]] (entity, degree=12, bridge=0)
+- [[candidates/entities/treaty|Treaty]] (entity, degree=12, bridge=0)
+- [[entities/trial|Trial]] (entity, degree=12, bridge=0)
+- [[entities/trial-science|Trial Science]] (entity, degree=12, bridge=0)
+- [[candidates/entities/truth|Truth]] (entity, degree=11, bridge=0)
+- [[candidates/entities/two|Two]] (entity, degree=10, bridge=0)
+- [[entities/two-layers|Two Layers]] (entity, degree=12, bridge=0)
+- [[entities/two-sins-in|Two Sins In]] (entity, degree=12, bridge=0)
+- [[entities/typescript|TypeScript]] (entity, degree=8, bridge=0)
+- [[candidates/entities/unicode|Unicode,]] (entity, degree=12, bridge=0)
+- [[entities/unification-trait|Unification Trait]] (entity, degree=15, bridge=0)
+- [[candidates/entities/universal|Universal —]] (entity, degree=12, bridge=0)
+- [[candidates/entities/universal-field|Universal — Field]] (entity, degree=12, bridge=0)
+- [[candidates/entities/universal-field-notes|Universal — Field Notes]] (entity, degree=12, bridge=0)
+- [[candidates/entities/universal-field-notes-short|Universal — Field Notes Short]] (entity, degree=12, bridge=0)
+- [[entities/urbio-http|`urbio/http`]] (entity, degree=9, bridge=0)
+- [[entities/uri|URI]] (entity, degree=36, bridge=0)
+- [[candidates/entities/use|Use]] (entity, degree=12, bridge=0)
+- [[entities/vacant-cell|Vacant Cell]] (entity, degree=12, bridge=0)
+- [[entities/vacant-cell-mendeleev|Vacant Cell Mendeleev]] (entity, degree=12, bridge=0)
+- [[entities/val|VAL]] (entity, degree=18, bridge=0)
+- [[candidates/entities/value|Value]] (entity, degree=12, bridge=0)
+- [[candidates/entities/verbosity|Verbosity]] (entity, degree=12, bridge=0)
+- [[entities/verdict|Verdict]] (entity, degree=13, bridge=0)
+- [[entities/verdict-one-topology-four-witnesses|Verdict: One Topology, Four Witnesses]] (entity, degree=13, bridge=0)
+- [[candidates/entities/verification|Verification]] (entity, degree=12, bridge=0)
+- [[entities/version|Version]] (entity, degree=12, bridge=0)
+- [[entities/vertical|Vertical]] (entity, degree=12, bridge=0)
+- [[candidates/entities/via-appia|Via Appia.]] (entity, degree=10, bridge=0)
+- [[candidates/entities/vienna|Vienna,]] (entity, degree=12, bridge=0)
+- [[entities/vitepress-dist|.vitepress/dist]] (entity, degree=6, bridge=0)
+- [[candidates/entities/vpn|VPN.]] (entity, degree=11, bridge=0)
+- [[entities/walker|walker":]] (entity, degree=11, bridge=0)
+- [[entities/wamp-web-application-messaging-protocol|WAMP (Web Application Messaging Protocol)]] (entity, degree=8, bridge=0)
+- [[entities/we|We]] (entity, degree=121, bridge=0)
+- [[candidates/entities/web|Web]] (entity, degree=12, bridge=0)
+- [[entities/websocket|WebSocket,]] (entity, degree=12, bridge=0)
+- [[entities/what|What]] (entity, degree=73, bridge=0)
+- [[candidates/entities/what-programs-forgot-programs|What Programs Forgot Programs]] (entity, degree=12, bridge=0)
+- [[entities/wheel|Wheel]] (entity, degree=12, bridge=0)
+- [[candidates/entities/when|When]] (entity, degree=21, bridge=0)
+- [[entities/why|Why]] (entity, degree=43, bridge=0)
+- [[candidates/entities/why-nothing-lands|Why Nothing Lands]] (entity, degree=12, bridge=0)
+- [[candidates/entities/why-op-cannot|Why Op Cannot]] (entity, degree=12, bridge=0)
+- [[candidates/entities/why-we-don-t|Why We Don't]] (entity, degree=12, bridge=0)
+- [[entities/wildberries|Wildberries]] (entity, degree=12, bridge=0)
+- [[entities/wire|Wire —]] (entity, degree=12, bridge=0)
+- [[candidates/entities/working|Working]] (entity, degree=12, bridge=0)
+- [[candidates/entities/written-many-times|Written Many Times]] (entity, degree=12, bridge=0)
+- [[entities/you-write|You Write]] (entity, degree=12, bridge=0)
+- [[entities/zend-engine|Zend Engine.]] (entity, degree=12, bridge=0)
+- [[entities/zend-engine-analogy-it|Zend Engine Analogy It]] (entity, degree=12, bridge=0)
+
+## Pages
+
+- [[candidates/concepts/001-why|001-why]]
+- [[candidates/concepts/002-research-trail|002-research-trail]]
+- [[candidates/concepts/002-spiral|002-spiral]]
+- [[candidates/concepts/002-the-handshake|002-the-handshake]]
+- [[candidates/concepts/003-roadrunner-bleeds-across-layers|003-roadrunner-bleeds-across-layers]]
+- [[candidates/concepts/003-the-understory|003-the-understory]]
+- [[candidates/concepts/003a-pub-bar-role-game|003a-pub-bar-role-game]]
+- [[candidates/concepts/003b-pub-bar-role-game|003b-pub-bar-role-game]]
+- [[candidates/concepts/003c-pub-bar-role-game|003c-pub-bar-role-game]]
+- [[candidates/concepts/003d-pub-bar-role-game|003d-pub-bar-role-game]]
+- [[candidates/concepts/003e-pub-bar-role-game|003e-pub-bar-role-game]]
+- [[candidates/concepts/003f-pub-bar-role-game|003f-pub-bar-role-game]]
+- [[candidates/concepts/003g-pub-bar-role-game|003g-pub-bar-role-game]]
+- [[candidates/concepts/003h-pub-bar-role-game|003h-pub-bar-role-game]]
+- [[candidates/concepts/004-operations-protocol|004-operations-protocol]]
+- [[candidates/concepts/004-php-poc-struggle|004-php-poc-struggle]]
+- [[candidates/concepts/005-history-of-protocols|005-history-of-protocols]]
+- [[candidates/concepts/005-single-source-of-truth|005-single-source-of-truth]]
+- [[candidates/concepts/006-fifteen-times-the-same-idea|006-fifteen-times-the-same-idea]]
+- [[candidates/concepts/006-the-four-letters|006-the-four-letters]]
+- [[candidates/concepts/006-what-programs-forgot|006-what-programs-forgot]]
+- [[candidates/concepts/007-contract|007-contract]]
+- [[candidates/concepts/007-the-book-on-the-desk|007-the-book-on-the-desk]]
+- [[candidates/concepts/007-why-we-dont-call-linus|007-why-we-dont-call-linus]]
+- [[candidates/concepts/008-the-harbourmaster|008-the-harbourmaster]]
+- [[candidates/concepts/008-three-atoms|008-three-atoms]]
+- [[candidates/concepts/009-operation-comes-first|009-operation-comes-first]]
+- [[candidates/concepts/009-the-address-is-a-detail|009-the-address-is-a-detail]]
+- [[candidates/concepts/009-the-dance|009-the-dance]]
+- [[candidates/concepts/010-fifty-triggers-fifty-barrels|010-fifty-triggers-fifty-barrels]]
+- [[candidates/concepts/010-the-murmuration|010-the-murmuration]]
+- [[candidates/concepts/010-there-is-no-generation|010-there-is-no-generation]]
+- [[candidates/concepts/011-from-silicon-to-struct|011-from-silicon-to-struct]]
+- [[candidates/concepts/011-postgres-is-a-bundle|011-postgres-is-a-bundle]]
+- [[candidates/concepts/011-the-black-square|011-the-black-square]]
+- [[candidates/concepts/012-the-cover|012-the-cover]]
+- [[candidates/concepts/012-the-disappearing-profession|012-the-disappearing-profession]]
+- [[candidates/concepts/013-convergent-evolution|013-convergent-evolution]]
+- [[candidates/concepts/013-the-dream-fulfilled|013-the-dream-fulfilled]]
+- [[candidates/concepts/013-the-lock-that-disappeared|013-the-lock-that-disappeared]]
+- [[candidates/concepts/014-epilogue|014-epilogue]]
+- [[candidates/concepts/014-the-fact|014-the-fact]]
+- [[candidates/concepts/014-two-invisible-markets|014-two-invisible-markets]]
+- [[candidates/concepts/015-the-black-compiler|015-the-black-compiler]]
+- [[candidates/concepts/015-the-coexistence|015-the-coexistence]]
+- [[candidates/concepts/016-the-founders-dream|016-the-founders-dream]]
+- [[candidates/concepts/016-the-origin-of-migrations|016-the-origin-of-migrations]]
+- [[candidates/concepts/017-postgres-is-a-jit|017-postgres-is-a-jit]]
+- [[candidates/concepts/017-the-gallium|017-the-gallium]]
+- [[candidates/concepts/018-hand-written-deopt-guards|018-hand-written-deopt-guards]]
+- [[candidates/concepts/019-nobody-chooses-mongodb|019-nobody-chooses-mongodb]]
+- [[candidates/concepts/019-the-missing-format|019-the-missing-format]]
+- [[candidates/concepts/020-how-much-you-promise|020-how-much-you-promise]]
+- [[candidates/concepts/021-all-programs-are-equal|021-all-programs-are-equal]]
+- [[candidates/concepts/021-the-atoms-speak|021-the-atoms-speak]]
+- [[candidates/concepts/022-the-dream-layer|022-the-dream-layer]]
+- [[candidates/concepts/022-why-nothing-lands|022-why-nothing-lands]]
+- [[candidates/concepts/023-the-vacant-cell|023-the-vacant-cell]]
+- [[candidates/concepts/023-treaty-of-five|023-treaty-of-five]]
+- [[candidates/concepts/024-the-trial|024-the-trial]]
+- [[candidates/concepts/025-the-manifesto|025-the-manifesto]]
+- [[candidates/concepts/026-the-compilers|026-the-compilers]]
+- [[candidates/concepts/027-build-link-runtime|027-build-link-runtime]]
+- [[candidates/concepts/028-dobby-is-free|028-dobby-is-free]]
+- [[candidates/concepts/029-the-anthill-organizes|029-the-anthill-organizes]]
+- [[candidates/concepts/030-the-first-stranger|030-the-first-stranger]]
+- [[candidates/concepts/031-the-hamster-leaves-the-wheel|031-the-hamster-leaves-the-wheel]]
+- [[candidates/concepts/032-the-verdict|032-the-verdict]]
+- [[candidates/concepts/033-the-amplifier|033-the-amplifier]]
+- [[candidates/concepts/0755|0755]]
+- [[concepts/10000|10000]]
+- [[candidates/concepts/11434|11434]]
+- [[concepts/192x192|192x192]]
+- [[concepts/22c55e|22c55e]]
+- [[candidates/concepts/3-cli|3-cli]]
+- [[concepts/512x512|512x512]]
+- [[candidates/concepts/8080|8080]]
+- [[candidates/concepts/9003|9003]]
+- [[candidates/concepts/aaaa|aaaa]]
+- [[candidates/concepts/abolish|abolish]]
+- [[candidates/concepts/about|about]]
+- [[concepts/actions|actions]]
+- [[concepts/adapter|adapter]]
+- [[candidates/concepts/address|address]]
+- [[concepts/adoption|adoption]]
+- [[concepts/agent|agent]]
+- [[candidates/concepts/agreement|agreement]]
+- [[candidates/concepts/alloc|alloc]]
+- [[concepts/allow|allow]]
+- [[candidates/concepts/also|also]]
+- [[concepts/always|always]]
+- [[candidates/concepts/answer|answer]]
+- [[concepts/anthill|anthill]]
+- [[candidates/concepts/anything|anything]]
+- [[concepts/apache|apache]]
+- [[candidates/concepts/append-only-court-record|Append-only Court Record]]
+- [[candidates/concepts/application|application]]
+- [[concepts/archives|archives]]
+- [[concepts/array|array]]
+- [[candidates/concepts/asks|asks]]
+- [[concepts/author|author]]
+- [[concepts/auto|auto]]
+- [[concepts/autoload|autoload]]
+- [[candidates/concepts/back|back]]
+- [[candidates/concepts/banana|banana]]
+- [[candidates/concepts/barrels|barrels]]
+- [[candidates/concepts/baseline|baseline]]
+- [[candidates/concepts/baseurl|baseurl]]
+- [[candidates/concepts/bash|bash]]
+- [[concepts/because|because]]
+- [[candidates/concepts/beech|beech]]
+- [[candidates/concepts/bees|bees]]
+- [[candidates/concepts/before|before]]
+- [[concepts/behavior|behavior]]
+- [[concepts/berners|berners]]
+- [[concepts/binary|binary]]
+- [[candidates/concepts/birds|birds]]
+- [[candidates/concepts/black|black]]
+- [[candidates/concepts/book|book]]
+- [[candidates/concepts/books|books]]
+- [[concepts/bound|bound]]
+- [[candidates/concepts/boundary|boundary]]
+- [[concepts/breed|breed]]
+- [[concepts/bridge|bridge]]
+- [[concepts/browser|browser]]
+- [[concepts/build|build]]
+- [[concepts/builds|builds]]
+- [[candidates/concepts/built|built]]
+- [[candidates/concepts/bundle|bundle]]
+- [[candidates/concepts/business|business]]
+- [[concepts/bwesterb|bwesterb]]
+- [[candidates/concepts/caac|caac]]
+- [[candidates/concepts/cache|cache]]
+- [[candidates/concepts/cart|cart]]
+- [[concepts/case|case]]
+- [[concepts/cell|cell]]
+- [[concepts/changelog|changelog]]
+- [[candidates/concepts/charset|charset]]
+- [[concepts/checksum|checksum]]
+- [[concepts/choice-finite-set|Choice (Finite Set)]]
+- [[concepts/claim|claim]]
+- [[candidates/concepts/class|class]]
+- [[concepts/clear|clear]]
+- [[candidates/concepts/client|client]]
+- [[concepts/closes|closes]]
+- [[concepts/cmds|cmds]]
+- [[concepts/code|code]]
+- [[candidates/concepts/cognee|cognee]]
+- [[concepts/color|color]]
+- [[candidates/concepts/comment|comment]]
+- [[concepts/commitlint|commitlint]]
+- [[candidates/concepts/compilation|compilation]]
+- [[concepts/compilation-vs-generation|Compilation vs. Generation]]
+- [[concepts/compiler|compiler]]
+- [[candidates/concepts/compilers|compilers]]
+- [[concepts/complete|complete]]
+- [[candidates/concepts/composer|composer]]
+- [[concepts/composition|Composition]]
+- [[concepts/concise|concise]]
+- [[candidates/concepts/config|config]]
+- [[concepts/config-conventional|config-conventional]]
+- [[concepts/considered|considered]]
+- [[candidates/concepts/constants|constants]]
+- [[concepts/consumer|consumer]]
+- [[candidates/concepts/content|content]]
+- [[concepts/context|context]]
+- [[concepts/continuous-integration-ci|Continuous Integration (CI)]]
+- [[candidates/concepts/contract|contract]]
+- [[concepts/contractual-architecture|Contractual Architecture]]
+- [[concepts/conventional|conventional]]
+- [[candidates/concepts/convergence-evidence|Convergence Evidence]]
+- [[candidates/concepts/convergent-evolution|Convergent Evolution]]
+- [[concepts/copyright|copyright]]
+- [[concepts/corba|corba]]
+- [[concepts/core|core]]
+- [[candidates/concepts/could|could]]
+- [[candidates/concepts/cover|cover]]
+- [[candidates/concepts/crack|crack]]
+- [[candidates/concepts/cross|cross]]
+- [[candidates/concepts/curl|curl]]
+- [[candidates/concepts/cycle|cycle]]
+- [[concepts/daily|daily]]
+- [[candidates/concepts/dance|dance]]
+- [[candidates/concepts/dances|dances]]
+- [[candidates/concepts/database|database]]
+- [[candidates/concepts/daughter|daughter]]
+- [[candidates/concepts/dayjs|dayjs]]
+- [[candidates/concepts/debug|debug]]
+- [[concepts/declarative-arc|Declarative Arc]]
+- [[candidates/concepts/default|default]]
+- [[concepts/definitions|definitions]]
+- [[concepts/dependabot|dependabot]]
+- [[candidates/concepts/depth|depth]]
+- [[concepts/derivative|derivative]]
+- [[concepts/desc|desc]]
+- [[concepts/describe|describe]]
+- [[candidates/concepts/description|description]]
+- [[candidates/concepts/desk|desk]]
+- [[concepts/devin|devin]]
+- [[concepts/devlog|devlog]]
+- [[concepts/dictate|dictate]]
+- [[concepts/diff|diff]]
+- [[candidates/concepts/different|different]]
+- [[candidates/concepts/directory|directory]]
+- [[candidates/concepts/discover|discover]]
+- [[candidates/concepts/display|display]]
+- [[concepts/dist|dist]]
+- [[candidates/concepts/distributed|distributed]]
+- [[candidates/concepts/docker|docker]]
+- [[candidates/concepts/dockerfile|dockerfile]]
+- [[concepts/docs|docs]]
+- [[candidates/concepts/doctor|doctor]]
+- [[candidates/concepts/documentation|documentation]]
+- [[concepts/does|does]]
+- [[candidates/concepts/doesn|doesn]]
+- [[concepts/down|down]]
+- [[candidates/concepts/dream|dream]]
+- [[candidates/concepts/each|each]]
+- [[concepts/ecosystem|ecosystem]]
+- [[candidates/concepts/embeddings|embeddings]]
+- [[candidates/concepts/emitter|emitter]]
+- [[concepts/empty|empty]]
+- [[candidates/concepts/encoding|encoding]]
+- [[candidates/concepts/engineer|engineer]]
+- [[concepts/environment|environment]]
+- [[candidates/concepts/equiv|equiv]]
+- [[candidates/concepts/error|error]]
+- [[candidates/concepts/errors|errors]]
+- [[concepts/every|every]]
+- [[concepts/expression|expression]]
+- [[candidates/concepts/eyeballs|eyeballs]]
+- [[concepts/f87171|f87171]]
+- [[concepts/fact|fact]]
+- [[concepts/fact-system-vs-delivery-system|Fact System vs. Delivery System]]
+- [[candidates/concepts/false|false]]
+- [[candidates/concepts/falsifiability|Falsifiability]]
+- [[concepts/ffffff|ffffff]]
+- [[candidates/concepts/field|field]]
+- [[concepts/fields|fields]]
+- [[candidates/concepts/fifty|fifty]]
+- [[candidates/concepts/file|file]]
+- [[candidates/concepts/filehash|filehash]]
+- [[concepts/files|files]]
+- [[concepts/fill|fill]]
+- [[candidates/concepts/final|final]]
+- [[candidates/concepts/first|first]]
+- [[concepts/five|five]]
+- [[candidates/concepts/flag|flag]]
+- [[candidates/concepts/flock|flock]]
+- [[candidates/concepts/flowers|flowers]]
+- [[candidates/concepts/forest|forest]]
+- [[candidates/concepts/form|form]]
+- [[candidates/concepts/form-of-operation|form-of-operation]]
+- [[concepts/formalization-of-physics|Formalization of Physics]]
+- [[concepts/format|format]]
+- [[candidates/concepts/four|four]]
+- [[candidates/concepts/framework|framework]]
+- [[concepts/from|from]]
+- [[candidates/concepts/gaae|gaae]]
+- [[candidates/concepts/gaag|gaag]]
+- [[candidates/concepts/gallium|gallium]]
+- [[concepts/github|github]]
+- [[concepts/go-git|go-git]]
+- [[concepts/go-module|Go Module]]
+- [[concepts/go-programming-language|Go programming language]]
+- [[concepts/go-tooling|Go Tooling]]
+- [[candidates/concepts/goal|goal]]
+- [[concepts/golang|golang]]
+- [[concepts/google|google]]
+- [[concepts/gopkg|gopkg]]
+- [[candidates/concepts/graph|graph]]
+- [[concepts/gravity|gravity]]
+- [[concepts/groups|groups]]
+- [[concepts/grpc|grpc]]
+- [[concepts/guts-extraction|Guts-extraction]]
+- [[candidates/concepts/haiku|haiku]]
+- [[candidates/concepts/hand|hand]]
+- [[candidates/concepts/harbour|harbour]]
+- [[concepts/header|header]]
+- [[candidates/concepts/hedging|hedging]]
+- [[candidates/concepts/here|here]]
+- [[candidates/concepts/host|host]]
+- [[candidates/concepts/http|http]]
+- [[concepts/httpplug|httpplug]]
+- [[concepts/https|https]]
+- [[concepts/hypothesize|hypothesize]]
+- [[candidates/concepts/iaae|iaae]]
+- [[candidates/concepts/iaai|iaai]]
+- [[concepts/idea|idea]]
+- [[candidates/concepts/identifier|identifier]]
+- [[concepts/idris|idris]]
+- [[concepts/image|image]]
+- [[candidates/concepts/include|include]]
+- [[concepts/indent|indent]]
+- [[concepts/indirect|indirect]]
+- [[concepts/input|input]]
+- [[candidates/concepts/insert|insert]]
+- [[candidates/concepts/install|install]]
+- [[candidates/concepts/instruction|instruction]]
+- [[candidates/concepts/instructions|Instructions]]
+- [[concepts/integrity|integrity]]
+- [[candidates/concepts/interaction|interaction]]
+- [[concepts/intermediate-representation-ir|Intermediate Representation (IR)]]
+- [[concepts/interval|interval]]
+- [[concepts/introspection|Introspection]]
+- [[concepts/issue|issue]]
+- [[candidates/concepts/items|items]]
+- [[concepts/java|java]]
+- [[concepts/job|Job]]
+- [[candidates/concepts/journal|journal]]
+- [[candidates/concepts/json|json]]
+- [[candidates/concepts/just|just]]
+- [[candidates/concepts/kaak|kaak]]
+- [[candidates/concepts/kaau|kaau]]
+- [[concepts/keys|keys]]
+- [[concepts/kind|kind]]
+- [[concepts/know|know]]
+- [[concepts/l-m-l-m-reduction|L × M → L + M Reduction]]
+- [[concepts/language|language]]
+- [[concepts/layer|layer]]
+- [[concepts/length|length]]
+- [[candidates/concepts/lesson|lesson]]
+- [[candidates/concepts/letters|letters]]
+- [[candidates/concepts/level|level]]
+- [[concepts/license|license]]
+- [[concepts/like|like]]
+- [[concepts/lint|lint]]
+- [[concepts/linter|linter]]
+- [[concepts/linters|linters]]
+- [[candidates/concepts/linus|linus]]
+- [[candidates/concepts/load|load]]
+- [[candidates/concepts/localhost|localhost]]
+- [[candidates/concepts/logic|logic]]
+- [[candidates/concepts/looks|looks]]
+- [[candidates/concepts/maam|maam]]
+- [[candidates/concepts/maca|maca]]
+- [[concepts/manifest|manifest]]
+- [[concepts/map-and-territory-problem|Map and Territory Problem]]
+- [[candidates/concepts/mappings|mappings]]
+- [[candidates/concepts/markets|markets]]
+- [[concepts/meaning|meaning]]
+- [[candidates/concepts/menu|menu]]
+- [[concepts/merge|merge]]
+- [[candidates/concepts/meta|meta]]
+- [[concepts/metadata|metadata]]
+- [[concepts/metrics|metrics]]
+- [[concepts/milestone|milestone]]
+- [[concepts/missing|missing]]
+- [[concepts/model|model]]
+- [[candidates/concepts/module|module]]
+- [[concepts/modules|modules]]
+- [[candidates/concepts/mound|mound]]
+- [[concepts/must|must]]
+- [[concepts/n-m-zoo|N×M zoo]]
+- [[candidates/concepts/name|name]]
+- [[candidates/concepts/names|names]]
+- [[concepts/need|need]]
+- [[candidates/concepts/needsinterop|needsinterop]]
+- [[concepts/never|never]]
+- [[concepts/node|node]]
+- [[candidates/concepts/nota|nota]]
+- [[candidates/concepts/notes|notes]]
+- [[concepts/npmjs|npmjs]]
+- [[candidates/concepts/oaao|oaao]]
+- [[candidates/concepts/object|object]]
+- [[candidates/concepts/ollama|ollama]]
+- [[concepts/open-source|Open Source]]
+- [[concepts/openapi|openapi]]
+- [[concepts/operation|Operation]]
+- [[concepts/operation-op|Operation (Op)]]
+- [[candidates/concepts/operation-protocol|Operation Protocol]]
+- [[candidates/concepts/operation-the-primitive|Operation (The Primitive)]]
+- [[concepts/operations|operations]]
+- [[concepts/opinion|opinion]]
+- [[concepts/opinion-vs-fact|Opinion vs. Fact]]
+- [[concepts/output|output]]
+- [[concepts/package|package]]
+- [[candidates/concepts/painting|painting]]
+- [[candidates/concepts/parallel|parallel]]
+- [[candidates/concepts/parameterization|parameterization]]
+- [[candidates/concepts/paraphrase|paraphrase]]
+- [[concepts/paths|paths]]
+- [[candidates/concepts/pattern|pattern]]
+- [[candidates/concepts/phpunit|phpunit]]
+- [[candidates/concepts/pistol|pistol]]
+- [[candidates/concepts/planner|planner]]
+- [[concepts/playground|playground]]
+- [[concepts/plugin|plugin]]
+- [[concepts/plugins|plugins]]
+- [[candidates/concepts/port|port]]
+- [[candidates/concepts/porter|porter]]
+- [[candidates/concepts/postgres|postgres]]
+- [[concepts/prefix|prefix]]
+- [[candidates/concepts/primitive|primitive]]
+- [[candidates/concepts/procs|procs]]
+- [[candidates/concepts/program|program]]
+- [[candidates/concepts/programs|programs]]
+- [[candidates/concepts/promise|promise]]
+- [[concepts/protobuf|protobuf]]
+- [[candidates/concepts/protoc|protoc]]
+- [[concepts/protocol|protocol]]
+- [[concepts/protocol-gravity|Protocol Gravity]]
+- [[candidates/concepts/psalm|psalm]]
+- [[candidates/concepts/qaaq|qaaq]]
+- [[candidates/concepts/quote|quote]]
+- [[candidates/concepts/radio|radio]]
+- [[candidates/concepts/raft|raft]]
+- [[candidates/concepts/rail|rail]]
+- [[candidates/concepts/read|read]]
+- [[concepts/receiver|receiver]]
+- [[concepts/record|record]]
+- [[candidates/concepts/reference|reference]]
+- [[concepts/references|references]]
+- [[candidates/concepts/refresh|refresh]]
+- [[concepts/release|release]]
+- [[concepts/remove|remove]]
+- [[concepts/repetition|Repetition]]
+- [[concepts/required|required]]
+- [[candidates/concepts/research|research]]
+- [[concepts/resilience|resilience]]
+- [[candidates/concepts/rest|rest]]
+- [[candidates/concepts/results|results]]
+- [[concepts/retry|retry]]
+- [[candidates/concepts/return|return]]
+- [[concepts/review|review]]
+- [[candidates/concepts/rfc-2119-keywords|RFC 2119 Keywords]]
+- [[candidates/concepts/right|right]]
+- [[candidates/concepts/roots|roots]]
+- [[candidates/concepts/rules|rules]]
+- [[candidates/concepts/runtime|runtime]]
+- [[candidates/concepts/saas|saas]]
+- [[candidates/concepts/same|same]]
+- [[candidates/concepts/schema|schema]]
+- [[concepts/sdk-software-development-kit|SDK (Software Development Kit)]]
+- [[concepts/seconds|seconds]]
+- [[concepts/self-knowing-programs|Self-knowing programs]]
+- [[concepts/semantic-path-rail|Semantic Path (Rail)]]
+- [[candidates/concepts/serve|serve]]
+- [[candidates/concepts/server|server]]
+- [[concepts/setup|setup]]
+- [[candidates/concepts/ship|ship]]
+- [[concepts/size|size]]
+- [[candidates/concepts/slot|slot]]
+- [[candidates/concepts/smell|smell]]
+- [[concepts/smithy|smithy]]
+- [[concepts/smtp|smtp]]
+- [[concepts/software-versioning|Software Versioning]]
+- [[candidates/concepts/some|some]]
+- [[candidates/concepts/something|something]]
+- [[candidates/concepts/sources|sources]]
+- [[concepts/space|space]]
+- [[candidates/concepts/spiral|spiral]]
+- [[candidates/concepts/square|square]]
+- [[concepts/standard|standard]]
+- [[candidates/concepts/state|state]]
+- [[candidates/concepts/static|static]]
+- [[candidates/concepts/storage|storage]]
+- [[concepts/stream|stream]]
+- [[candidates/concepts/string|string]]
+- [[concepts/style|style]]
+- [[concepts/such|such]]
+- [[candidates/concepts/swarmvault|swarmvault]]
+- [[candidates/concepts/task|task]]
+- [[candidates/concepts/technical|technical]]
+- [[candidates/concepts/term|term]]
+- [[concepts/text|text]]
+- [[candidates/concepts/than|than]]
+- [[candidates/concepts/that|that]]
+- [[candidates/concepts/then|then]]
+- [[candidates/concepts/there|there]]
+- [[candidates/concepts/they|they]]
+- [[candidates/concepts/this|this]]
+- [[candidates/concepts/three|three]]
+- [[candidates/concepts/title|title]]
+- [[candidates/concepts/tokenizer|tokenizer]]
+- [[candidates/concepts/tool|tool]]
+- [[concepts/tools|tools]]
+- [[concepts/topology|topology]]
+- [[concepts/trait|trait]]
+- [[candidates/concepts/traits|Traits]]
+- [[concepts/transport|transport]]
+- [[candidates/concepts/true|true]]
+- [[candidates/concepts/truth|truth]]
+- [[concepts/type|type]]
+- [[concepts/types|types]]
+- [[candidates/concepts/uaai|uaai]]
+- [[concepts/universal|universal]]
+- [[concepts/user|user]]
+- [[candidates/concepts/value|value]]
+- [[concepts/vendor|vendor]]
+- [[concepts/vendors|vendors]]
+- [[concepts/version|version]]
+- [[concepts/violation|violation]]
+- [[concepts/vitepress|vitepress]]
+- [[candidates/concepts/voice|voice]]
+- [[candidates/concepts/volumes|volumes]]
+- [[candidates/concepts/watch|watch]]
+- [[candidates/concepts/what|what]]
+- [[candidates/concepts/where|where]]
+- [[candidates/concepts/wiki|wiki]]
+- [[concepts/wire|wire]]
+- [[concepts/with|with]]
+- [[candidates/concepts/without|without]]
+- [[candidates/concepts/word|word]]
+- [[concepts/work|work]]
+- [[concepts/workflow|Workflow]]
+- [[concepts/works|works]]
+- [[concepts/write|write]]
+- [[candidates/concepts/writing|writing]]
+- [[candidates/concepts/xdebug|xdebug]]
+- [[candidates/concepts/yaay|yaay]]
+- [[concepts/yaml|yaml]]
+- [[concepts/your|your]]
+- [[entities/1-26-1|1.26.1]]
+- [[entities/actions-checkout-v6|actions/checkout@v6]]
+- [[entities/actions-setup-go-v6|actions/setup-go@v6]]
+- [[entities/add|Add]]
+- [[candidates/entities/address|Address]]
+- [[candidates/entities/address-is|Address Is]]
+- [[candidates/entities/after|After]]
+- [[entities/again|Again]]
+- [[candidates/entities/alexandria|Alexandria]]
+- [[candidates/entities/all|All]]
+- [[candidates/entities/all-programs-are-equal-take|All Programs Are Equal Take]]
+- [[entities/amplifier|Amplifier]]
+- [[candidates/entities/an|An]]
+- [[candidates/entities/and|And]]
+- [[candidates/entities/ankara|Ankara,]]
+- [[entities/anthill-organizes|Anthill Organizes]]
+- [[entities/anthill-organizes-devlog|Anthill Organizes Devlog]]
+- [[candidates/entities/anti|Anti-]]
+- [[candidates/entities/appendix|Appendix]]
+- [[candidates/entities/arabic|Arabic.]]
+- [[entities/array-kind|Array (Kind)]]
+- [[candidates/entities/art-stood|art." Stood]]
+- [[candidates/entities/ast|AST.]]
+- [[candidates/entities/atlantic-ocean|Atlantic Ocean.]]
+- [[entities/atom|Atom]]
+- [[entities/atoms-speak|Atoms Speak]]
+- [[entities/atoms-speak-we|Atoms Speak We]]
+- [[candidates/entities/banana|Banana]]
+- [[entities/bar-owner-speaks|Bar Owner Speaks]]
+- [[entities/bar-reopens|Bar Reopens]]
+- [[entities/berners-lee|Berners-Lee]]
+- [[candidates/entities/binary-for|Binary For]]
+- [[candidates/entities/black|Black]]
+- [[candidates/entities/black-compiler|Black Compiler]]
+- [[candidates/entities/bleed|Bleed]]
+- [[entities/blind-spot-every|Blind Spot Every]]
+- [[entities/box|Box]]
+- [[candidates/entities/brazil|Brazil,]]
+- [[entities/break|Break]]
+- [[entities/break-we|Break We]]
+- [[entities/browser|Browser]]
+- [[entities/budgetexceeded-five|BudgetExceeded Five]]
+- [[entities/build|Build,]]
+- [[candidates/entities/bundle|Bundle]]
+- [[candidates/entities/bundle-postgres|Bundle Postgres]]
+- [[candidates/entities/but|But]]
+- [[candidates/entities/buydog|BuyDog]]
+- [[entities/buydog-input-buydoginput-buydogoutput|BuyDog(input: BuyDogInput): BuyDogOutput]]
+- [[candidates/entities/call-linus|Call Linus]]
+- [[entities/chat-stream-clientmessage|Chat(stream ClientMessage) —]]
+- [[entities/cheetah-then|Cheetah Then]]
+- [[candidates/entities/choosing|Choosing]]
+- [[entities/claim-we|Claim We]]
+- [[entities/clause|Clause",]]
+- [[candidates/entities/clay|clay,]]
+- [[entities/code|Code]]
+- [[candidates/entities/codex|Codex]]
+- [[entities/coexistence|Coexistence]]
+- [[entities/coexistence-every|Coexistence Every]]
+- [[entities/comment-enters|Comment Enters]]
+- [[entities/compatibility|Compatibility]]
+- [[entities/compilers|Compilers]]
+- [[entities/config|Config]]
+- [[candidates/entities/configuration|Configuration]]
+- [[candidates/entities/configuration-is-not-parameterization-devops|Configuration Is Not Parameterization DevOps]]
+- [[entities/contents|Contents]]
+- [[entities/contract-that-wouldn-t|Contract That Wouldn't]]
+- [[entities/contracts|Contracts]]
+- [[entities/convergent-evolution|Convergent Evolution]]
+- [[entities/convergent-evolution-this|Convergent Evolution This]]
+- [[candidates/entities/convergent-witnesses|Convergent Witnesses]]
+- [[entities/core|Core]]
+- [[entities/core-uri|Core((("URI]]
+- [[entities/createdog-handle|(*CreateDog).Handle,]]
+- [[candidates/entities/curl-eyeballs-turned|Curl Eyeballs Turned]]
+- [[entities/d-bus|D-Bus]]
+- [[entities/darwin|"darwin"]]
+- [[candidates/entities/debug|Debug]]
+- [[entities/deepseek|DeepSeek]]
+- [[entities/deepseek-s-letter|DeepSeek's Letter]]
+- [[entities/delivery|Delivery.]]
+- [[entities/describe|Describe]]
+- [[candidates/entities/detail-when|Detail When]]
+- [[entities/devin|Devin]]
+- [[entities/devlog|Devlog]]
+- [[entities/devlog-this|Devlog This]]
+- [[entities/devops|DevOps]]
+- [[candidates/entities/different|Different]]
+- [[entities/dima|Dima]]
+- [[candidates/entities/disappearing-profession-john-ousterhout|Disappearing Profession John Ousterhout]]
+- [[entities/discoveries|Discoveries]]
+- [[candidates/entities/dna|DNA]]
+- [[entities/dobby-is-free|Dobby Is Free]]
+- [[candidates/entities/docker|Docker]]
+- [[candidates/entities/dockerfile|Dockerfile,]]
+- [[entities/documentation|Documentation]]
+- [[entities/dog|Dog]]
+- [[entities/dognotfound|DogNotFound},]]
+- [[candidates/entities/dream|Dream]]
+- [[candidates/entities/dream-it|Dream It]]
+- [[entities/dream-layer|Dream Layer]]
+- [[entities/dream-layer-this|Dream Layer This]]
+- [[candidates/entities/dreamers|Dreamers]]
+- [[candidates/entities/drop|Drop]]
+- [[entities/dsl|DSL]]
+- [[candidates/entities/duckdb-cockroachdb|DuckDB, CockroachDB]]
+- [[candidates/entities/each|Each]]
+- [[candidates/entities/earth|Earth.]]
+- [[entities/emitter|Emitter]]
+- [[candidates/entities/english|English.]]
+- [[entities/entity|Entity"]]
+- [[entities/enum-kind|Enum (Kind)]]
+- [[candidates/entities/environment|Environment]]
+- [[entities/epilogue|Epilogue]]
+- [[candidates/entities/equality|Equality]]
+- [[entities/error-without-opinion|Error Without Opinion]]
+- [[candidates/entities/every|Every]]
+- [[entities/everyone|Everyone]]
+- [[entities/exactly|Exactly.]]
+- [[entities/expected|Expected]]
+- [[entities/eye|Eye]]
+- [[candidates/entities/eyeballs|Eyeballs]]
+- [[entities/fhir|FHIR]]
+- [[candidates/entities/field|Field]]
+- [[entities/fifteen-times|Fifteen Times]]
+- [[candidates/entities/fifty-triggers-fifty-barrels|Fifty Triggers, Fifty Barrels]]
+- [[entities/first-inhabitants|first inhabitants]]
+- [[candidates/entities/first-lesson|First lesson.]]
+- [[candidates/entities/five-five|Five Five]]
+- [[entities/fixtures|Fixtures —]]
+- [[entities/fonts|Fonts]]
+- [[entities/for|For]]
+- [[candidates/entities/forgotten|Forgotten]]
+- [[candidates/entities/form-of-instruction-notes-this|Form Of Instruction - Notes This]]
+- [[candidates/entities/form-of-nota-notes-this|Form Of Nota - Notes This]]
+- [[candidates/entities/form-of-operation-notes-this|Form Of Operation - Notes This]]
+- [[entities/formalizing|Formalizing]]
+- [[candidates/entities/format|Format:]]
+- [[entities/founder-s-dream|Founder's Dream]]
+- [[entities/founder-s-dream-in|Founder's Dream In]]
+- [[candidates/entities/four|Four]]
+- [[entities/fourth-rail|Fourth Rail]]
+- [[entities/fourth-rail-this|Fourth Rail This]]
+- [[candidates/entities/frisch|Frisch]]
+- [[candidates/entities/from|From]]
+- [[entities/future-look|Future, Look]]
+- [[entities/gallium|Gallium]]
+- [[candidates/entities/gallium-in|Gallium In]]
+- [[entities/gallium-we|Gallium We]]
+- [[candidates/entities/gen-php|gen-php-]]
+- [[candidates/entities/get-started|«Get Started»]]
+- [[entities/github|!/.github]]
+- [[entities/github-com|github.com]]
+- [[entities/github-com-thumbrise-op|github.com/thumbrise/op]]
+- [[entities/github-com-thumbrise-op-sdk-go|github.com/thumbrise/op/sdk/go]]
+- [[entities/go|Go]]
+- [[entities/go-1-26-0|Go 1.26.0]]
+- [[entities/google|Google]]
+- [[entities/goreleaser|GoReleaser]]
+- [[entities/goreleaser-guys|GoReleaser: Guys.]]
+- [[candidates/entities/graphql|GraphQL,]]
+- [[candidates/entities/greek|Greek]]
+- [[candidates/entities/guards|Guards]]
+- [[entities/guidelines|Guidelines]]
+- [[entities/guys|Guys,]]
+- [[entities/hamster-leaves|Hamster Leaves]]
+- [[candidates/entities/hand-written-deopt-guards|Hand-Written Deopt Guards]]
+- [[candidates/entities/happy|Happy]]
+- [[candidates/entities/haskell|Haskell,]]
+- [[candidates/entities/hotspot|HotSpot]]
+- [[candidates/entities/how|How]]
+- [[entities/i-m|I'm]]
+- [[entities/i-ve|I've]]
+- [[candidates/entities/ibm|IBM]]
+- [[entities/id|Id).]]
+- [[candidates/entities/idea|Idea .]]
+- [[entities/if|If]]
+- [[candidates/entities/in|In]]
+- [[candidates/entities/infra-if|Infra If]]
+- [[candidates/entities/innodb|InnoDB]]
+- [[entities/input|Input).]]
+- [[candidates/entities/inside-postgres|Inside Postgres]]
+- [[entities/instruction|Instruction]]
+- [[candidates/entities/it|It]]
+- [[candidates/entities/item|Ольга]]
+- [[entities/java|Java]]
+- [[candidates/entities/javascript|JavaScript.]]
+- [[entities/jennifer|Jennifer]]
+- [[entities/jobs|jobs]]
+- [[candidates/entities/joe-becker|Joe Becker,]]
+- [[candidates/entities/john-ousterhout|John Ousterhout]]
+- [[entities/json-schema|JSON Schema.]]
+- [[candidates/entities/karl|Karl]]
+- [[entities/kind|Kind]]
+- [[entities/krabby-patty|Krabby Patty.]]
+- [[entities/krabby-patty-description|Krabby Patty description:]]
+- [[candidates/entities/kubernetes|Kubernetes]]
+- [[candidates/entities/language|Language]]
+- [[entities/laravel|Laravel?]]
+- [[candidates/entities/last-futurist-exhibition|Last Futurist Exhibition]]
+- [[entities/legal-entity|Legal Entity]]
+- [[candidates/entities/lesson|lesson,]]
+- [[entities/license|License.]]
+- [[entities/license-version|License Version]]
+- [[candidates/entities/linus|Linus]]
+- [[candidates/entities/linus-description-memory|Linus description: Memory]]
+- [[candidates/entities/linux|Linux]]
+- [[candidates/entities/list-take|List Take]]
+- [[candidates/entities/look|Look]]
+- [[candidates/entities/luca-pacioli-s|Luca Pacioli's]]
+- [[candidates/entities/madrid|Madrid,]]
+- [[entities/manifesto|Manifesto]]
+- [[candidates/entities/markets|Markets]]
+- [[entities/meaning|Meaning.]]
+- [[entities/mendeleev|Mendeleev]]
+- [[candidates/entities/migrations|Migrations]]
+- [[candidates/entities/migrations-every|Migrations Every]]
+- [[entities/milestone|Milestone]]
+- [[entities/missing-format|Missing Format]]
+- [[entities/missing-format-this|Missing Format This]]
+- [[entities/missing-foundation|Missing Foundation]]
+- [[entities/missing-foundation-we|Missing Foundation We]]
+- [[candidates/entities/modern|Modern]]
+- [[candidates/entities/mongo|Mongo.']]
+- [[candidates/entities/mongodb|MongoDB]]
+- [[candidates/entities/monolog|Monolog]]
+- [[entities/ms|"ms":]]
+- [[candidates/entities/munich|Munich.]]
+- [[entities/murat|Murat .]]
+- [[entities/n-worlds|## N Worlds,]]
+- [[candidates/entities/names|Names]]
+- [[candidates/entities/naming|Naming]]
+- [[entities/naming-problem|Naming Problem]]
+- [[candidates/entities/narrative|Narrative]]
+- [[candidates/entities/nested|Nested]]
+- [[candidates/entities/nginx|Nginx]]
+- [[candidates/entities/nobel-prize|Nobel Prize]]
+- [[candidates/entities/nobody|Nobody]]
+- [[candidates/entities/nobody-chooses-mongodb|Nobody Chooses MongoDB]]
+- [[entities/node-modules-semantic-release-github|"node_modules/@semantic-release/github":]]
+- [[candidates/entities/not|Not]]
+- [[candidates/entities/not-drew|Not "drew]]
+- [[candidates/entities/nota|Nota —]]
+- [[candidates/entities/nothing|Nothing]]
+- [[candidates/entities/o-clock|o'clock]]
+- [[entities/object-kind|Object (Kind)]]
+- [[candidates/entities/observation|Observation]]
+- [[candidates/entities/of-instruction-notes|Of Instruction - Notes]]
+- [[candidates/entities/of-nota-notes|Of Nota - Notes]]
+- [[candidates/entities/of-operation-notes|Of Operation - Notes]]
+- [[candidates/entities/once|Once,]]
+- [[entities/one|One]]
+- [[entities/op|Op]]
+- [[entities/op-protobuf|Op, Protobuf,]]
+- [[candidates/entities/op-protocol-structure|Op Protocol Structure]]
+- [[entities/op-s|Op's]]
+- [[entities/op-smithy|Op: Smithy,]]
+- [[entities/op-the-protocol|Op (The Protocol)]]
+- [[entities/openapi|OpenAPI]]
+- [[candidates/entities/opened|Opened]]
+- [[entities/opentelemetry|OpenTelemetry,]]
+- [[candidates/entities/operation|Operation]]
+- [[entities/operation-comes-first|Operation Comes First]]
+- [[candidates/entities/operation-primitive|Operation Primitive]]
+- [[candidates/entities/operation-protocol-appendix|Operation Protocol — Appendix]]
+- [[entities/operations-protocol-formalizing|Operations Protocol: Formalizing]]
+- [[candidates/entities/origin|Origin]]
+- [[candidates/entities/other|Other]]
+- [[candidates/entities/outofbeans|OutOfBeans .]]
+- [[candidates/entities/outofstock|OutOfStock]]
+- [[candidates/entities/paintings|Paintings]]
+- [[entities/past|Past]]
+- [[entities/past-we|Past We]]
+- [[candidates/entities/pennsylvania|Pennsylvania]]
+- [[candidates/entities/pennsylvania-forest|Pennsylvania forest.]]
+- [[entities/permissions|permissions]]
+- [[entities/phase|Phase]]
+- [[candidates/entities/phoenician|Phoenician.]]
+- [[entities/php|PHP]]
+- [[entities/pipe|Pipe]]
+- [[candidates/entities/pistol|Pistol]]
+- [[entities/plate|Plate]]
+- [[entities/playground|Playground]]
+- [[entities/playground-seventeen|Playground Seventeen]]
+- [[entities/poc|POC,]]
+- [[candidates/entities/polly|Polly.]]
+- [[candidates/entities/popperian|Popperian]]
+- [[candidates/entities/postgres|Postgres]]
+- [[candidates/entities/postgres-is|Postgres Is]]
+- [[candidates/entities/preserved|Preserved]]
+- [[candidates/entities/preview|Preview]]
+- [[candidates/entities/primitive-range-conjecture|Primitive Range Conjecture]]
+- [[entities/pro|Pro]]
+- [[candidates/entities/problem|Problem]]
+- [[entities/problem-with-words-we|Problem With Words We]]
+- [[entities/problems|Problems]]
+- [[candidates/entities/profession|Profession]]
+- [[candidates/entities/programs|Programs]]
+- [[entities/prologue|Prologue —]]
+- [[entities/prologue-after|Prologue — After]]
+- [[entities/prologue-an|Prologue — An]]
+- [[candidates/entities/promise|Promise]]
+- [[entities/protobuf|Protobuf,]]
+- [[entities/protocol|Protocol]]
+- [[candidates/entities/ptolemaic|Ptolemaic]]
+- [[entities/pub-bar-role-game|Pub Bar Role Game]]
+- [[entities/python|Python.]]
+- [[candidates/entities/raft|Raft.]]
+- [[entities/rail|Rail]]
+- [[candidates/entities/raw|Raw,]]
+- [[candidates/entities/raw-notes|Raw Notes]]
+- [[candidates/entities/read|Read]]
+- [[candidates/entities/receipt|Receipt]]
+- [[entities/receiver|Receiver]]
+- [[entities/redirect-someone|Redirect Someone]]
+- [[candidates/entities/reference|Reference]]
+- [[candidates/entities/reference-research|Reference Research]]
+- [[entities/reinventions|Reinventions]]
+- [[entities/reproduce-steps|Reproduce Steps]]
+- [[entities/research-trail|Research Trail]]
+- [[entities/research-trail-before|Research Trail Before]]
+- [[entities/rfc|RFC,]]
+- [[candidates/entities/rhodes|Rhodes,]]
+- [[candidates/entities/roadrunner|RoadRunner]]
+- [[candidates/entities/roadrunner-bleeds-across-layers-opened|RoadRunner Bleeds Across Layers Opened]]
+- [[candidates/entities/roadrunnerbridge|RoadRunnerBridge -]]
+- [[candidates/entities/role|Role-]]
+- [[candidates/entities/roman|Roman.]]
+- [[candidates/entities/roman-census|Roman census]]
+- [[candidates/entities/rome|Rome]]
+- [[entities/runtime|Runtime]]
+- [[entities/runtime-autopsy|Runtime Autopsy]]
+- [[entities/ruslan|Ruslan]]
+- [[candidates/entities/russian|Russian]]
+- [[entities/rust|Rust.]]
+- [[candidates/entities/s|Лиля's]]
+- [[entities/same-idea|Same Idea]]
+- [[entities/same-idea-we|Same Idea We]]
+- [[entities/same-thing-again|Same Thing Again]]
+- [[candidates/entities/sat|Sat]]
+- [[candidates/entities/savanna|savanna,]]
+- [[candidates/entities/schema|Schema]]
+- [[candidates/entities/schema-of-instruction|Schema Of Instruction —]]
+- [[candidates/entities/schema-of-operation|Schema Of Operation —]]
+- [[candidates/entities/schema-protobuf|Schema, Protobuf,]]
+- [[entities/scientific-american|Scientific American.]]
+- [[entities/scramble|Scramble —]]
+- [[entities/scramble-huma|Scramble, Huma,]]
+- [[entities/scripts|Scripts]]
+- [[entities/sections|Sections]]
+- [[candidates/entities/see|See]]
+- [[candidates/entities/set|Set]]
+- [[candidates/entities/ships|Ships]]
+- [[candidates/entities/short|Short]]
+- [[candidates/entities/single-source|Single Source]]
+- [[entities/sir-just|sir. Just]]
+- [[entities/six|Six]]
+- [[candidates/entities/size|Size:]]
+- [[candidates/entities/slack|Slack]]
+- [[entities/smartphone|Smartphone]]
+- [[entities/smithy|Smithy]]
+- [[entities/smithy-cloudevents-asyncapi|Smithy, CloudEvents, AsyncAPI.]]
+- [[entities/smithy-s|Smithy's]]
+- [[entities/smithy-walks-in|Smithy Walks In]]
+- [[entities/someone|Someone]]
+- [[candidates/entities/somewhere|Somewhere]]
+- [[entities/source|Source]]
+- [[candidates/entities/southern-austria|southern Austria.]]
+- [[candidates/entities/spiral|Spiral?]]
+- [[candidates/entities/spiral-s|Spiral's]]
+- [[candidates/entities/st-peter-s|St Peter's]]
+- [[candidates/entities/standing|Standing]]
+- [[candidates/entities/statistics|Statistics]]
+- [[candidates/entities/status|Status]]
+- [[candidates/entities/steering-committee-op|steering committee — Op]]
+- [[candidates/entities/stories|Stories]]
+- [[candidates/entities/struggle|Struggle]]
+- [[entities/submit|Submit]]
+- [[entities/swagger|Swagger]]
+- [[candidates/entities/swarmvault|SwarmVault]]
+- [[candidates/entities/symfony|Symfony,]]
+- [[candidates/entities/t-rkiye|Türkiye,]]
+- [[candidates/entities/tanzania|Tanzania.]]
+- [[candidates/entities/tanzanian-savanna|Tanzanian savanna.]]
+- [[entities/taskfile-yaml|Taskfile.yaml]]
+- [[candidates/entities/technically|Technically]]
+- [[entities/term|Term]]
+- [[entities/the-conference|The Conference]]
+- [[entities/the-conference-we|The Conference We]]
+- [[candidates/entities/the-radio|The radio]]
+- [[candidates/entities/them-two|Them Two]]
+- [[candidates/entities/then-recover|Then-Recover.]]
+- [[candidates/entities/third-lesson|Third lesson.]]
+- [[candidates/entities/this|This]]
+- [[entities/this-journal|This journal]]
+- [[entities/three|Three]]
+- [[entities/three-atoms|Three Atoms]]
+- [[entities/three-atoms-we|Three Atoms We]]
+- [[entities/thumbrise|thumbrise]]
+- [[candidates/entities/tiber|Tiber.]]
+- [[candidates/entities/tim-berners-lee|Tim Berners-Lee]]
+- [[entities/to-build|To Build]]
+- [[entities/tony-tam|Tony Tam]]
+- [[candidates/entities/top|Top-]]
+- [[entities/trait|Trait]]
+- [[entities/transport|Transport]]
+- [[candidates/entities/treaty|Treaty]]
+- [[entities/trial|Trial]]
+- [[entities/trial-science|Trial Science]]
+- [[candidates/entities/truth|Truth]]
+- [[candidates/entities/two|Two]]
+- [[entities/two-layers|Two Layers]]
+- [[entities/two-sins-in|Two Sins In]]
+- [[entities/typescript|TypeScript]]
+- [[candidates/entities/unicode|Unicode,]]
+- [[entities/unification-trait|Unification Trait]]
+- [[candidates/entities/universal|Universal —]]
+- [[candidates/entities/universal-field|Universal — Field]]
+- [[candidates/entities/universal-field-notes|Universal — Field Notes]]
+- [[candidates/entities/universal-field-notes-short|Universal — Field Notes Short]]
+- [[entities/urbio-http|`urbio/http`]]
+- [[entities/uri|URI]]
+- [[candidates/entities/use|Use]]
+- [[entities/vacant-cell|Vacant Cell]]
+- [[entities/vacant-cell-mendeleev|Vacant Cell Mendeleev]]
+- [[entities/val|VAL]]
+- [[candidates/entities/value|Value]]
+- [[candidates/entities/verbosity|Verbosity]]
+- [[entities/verdict|Verdict]]
+- [[entities/verdict-one-topology-four-witnesses|Verdict: One Topology, Four Witnesses]]
+- [[candidates/entities/verification|Verification]]
+- [[entities/version|Version]]
+- [[entities/vertical|Vertical]]
+- [[candidates/entities/via-appia|Via Appia.]]
+- [[candidates/entities/vienna|Vienna,]]
+- [[entities/vitepress-dist|.vitepress/dist]]
+- [[candidates/entities/vpn|VPN.]]
+- [[entities/walker|walker":]]
+- [[entities/wamp-web-application-messaging-protocol|WAMP (Web Application Messaging Protocol)]]
+- [[entities/we|We]]
+- [[candidates/entities/web|Web]]
+- [[entities/websocket|WebSocket,]]
+- [[entities/what|What]]
+- [[candidates/entities/what-programs-forgot-programs|What Programs Forgot Programs]]
+- [[entities/wheel|Wheel]]
+- [[candidates/entities/when|When]]
+- [[entities/why|Why]]
+- [[candidates/entities/why-nothing-lands|Why Nothing Lands]]
+- [[candidates/entities/why-op-cannot|Why Op Cannot]]
+- [[candidates/entities/why-we-don-t|Why We Don't]]
+- [[entities/wildberries|Wildberries]]
+- [[entities/wire|Wire —]]
+- [[candidates/entities/working|Working]]
+- [[candidates/entities/written-many-times|Written Many Times]]
+- [[entities/you-write|You Write]]
+- [[entities/zend-engine|Zend Engine.]]
+- [[entities/zend-engine-analogy-it|Zend Engine Analogy It]]
+
+## External Links
+
+- No external links detected.

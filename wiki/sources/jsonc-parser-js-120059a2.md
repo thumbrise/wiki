@@ -1,0 +1,111 @@
+---
+page_id: 'source:jsonc-parser-js-120059a2'
+kind: source
+cssclasses:
+  - swarmvault
+  - sv-source
+title: jsonc-parser.js
+source_class: first_party
+tags:
+  - source
+source_ids:
+  - jsonc-parser-js-120059a2
+project_ids: []
+node_ids:
+  - 'source:jsonc-parser-js-120059a2'
+  - 'concept:aaaa'
+  - 'concept:iaai'
+  - 'concept:caac'
+  - 'concept:kaak'
+  - 'concept:saas'
+  - 'concept:gaag'
+  - 'entity:format'
+  - 'entity:top'
+  - 'entity:size'
+  - 'entity:nested'
+  - 'entity:schema'
+  - 'entity:preview'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T05:11:46.037Z'
+updated_at: '2026-05-03T05:32:23.241Z'
+compiled_from:
+  - jsonc-parser-js-120059a2
+managed_by: system
+backlinks:
+  - 'concept:aaaa'
+  - 'concept:iaai'
+  - 'concept:caac'
+  - 'concept:kaak'
+  - 'concept:saas'
+  - 'concept:gaag'
+  - 'entity:format'
+  - 'entity:top'
+  - 'entity:size'
+  - 'entity:nested'
+  - 'entity:schema'
+  - 'entity:preview'
+  - 'output:source-briefs/directory-op-597d97ce'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  jsonc-parser-js-120059a2: 120059a298d37a400c787acdef32a5923c8be450bd92f34becc55ed71fbd895f
+source_semantic_hashes:
+  jsonc-parser-js-120059a2: 120059a298d37a400c787acdef32a5923c8be450bd92f34becc55ed71fbd895f
+---
+# jsonc-parser.js
+
+Source ID: `jsonc-parser-js-120059a2`
+Source Kind: `data`
+Source Path: `/Users/rk/GolandProjects/op/docs/.vitepress/cache/deps/jsonc-parser.js.map`
+
+Source Class: `first_party`
+
+
+## Source Details
+
+- format: json
+- top level type: object
+- top level size: 5
+- nested depth: 2
+
+
+## Summary
+
+jsonc-parser.js Format: JSON Top-level: object Size: 5 Nested depth: 2 ## Schema - version: number - sources: array (6 items) - sourcesContent: array (6 items) - mappings: string - names: array (18 items) ## Preview json { "version": 3, "sources": ["../../../node_modules/jsonc-parser/lib/esm/impl/scanner.js", "../../../node_modules/jsonc-parser/lib/esm/impl/string-intern.js", "../../../node_modules/jsonc-parser/lib/esm/impl/format.js", "../../../node_modules/jsonc-parser/lib/esm/impl/parser.js", "../../../node_modules/jsonc-parser/lib/esm/impl/edit.js", "../../../node_modules/jsonc-parser/lib/esm/main.js"], "sourcesContent": ["/*---------------------------------------------------------------------------------------------\n * Copyright (c) Microsoft Corporation. All rights reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------*/\n'use strict';\n/**\n * Creates a JSON scanner on the given text.\n * If ignoreTrivia is set, whitespaces or comments are ignored.\n */\nexport function createScanner(text, ignoreTrivia = false) {\n const len = text.length;\n let pos = 0, value = '', tokenOffset = 0, token = 16 /* SyntaxKind.Unknown */, lineNumber = 0, lineStartOffset = 0, tokenLineStartOffset = 0, prevTokenLineStartOffset = 0, scanError = 0 /* ScanError.None */;\n function scanHexDigits(count, exact) {\n let digits = 0;\n let value = 0;\n while (digits < count || !exact) {\n let ch = text.charCodeAt(pos);\n if (ch >= 48 /* CharacterCodes._0 */ && ch <= 57 /* CharacterCodes._9 */) {\n value = value * 16 + ch - 48 /* CharacterCodes._0 */;\n }\n else if (ch >= 65 /* CharacterCodes.A */ && ch <= 70 /* CharacterCodes.F */) {\n value = value * 16 + ch - 65 /* CharacterCodes.A */ + 10;\n }\n else if (ch >= 97 /* CharacterCodes.a */ && ch <= 102 /* CharacterCodes.f */) {\n value = value * 16 + ch - 97 /* CharacterCodes.a */ + 10;\n }\n else {\n break;\n }\n pos++;\n digits++;\n }\n if (digits < count) {\n value = -1;\n }\n return value;\n }\n function setPosition(newPosition) {\n pos = newPosition;\n value = '';\n tokenOffset = 0;\n token = 16 /* SyntaxKind.Unknown */;\n scanError = 0 /* ScanError.None */;\n }\n function scanNumber() {\n let start = pos;\n if (text.charCodeAt(pos) === 48 /* CharacterCodes._0 */) {\n pos++;\n }\n else {\n pos++;\n while (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n }\n }\n if (pos < text.length && text.charCodeAt(pos) === 46 /* CharacterCodes.dot */) {\n pos++;\n if (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n while (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n }\n }\n else {\n scanError = 3 /* ScanError.UnexpectedEndOfNumber */;\n return text.substring(start, pos);\n }\n }\n let end = pos;\n if (pos < text.length && (text.charCodeAt(pos) === 69 /* CharacterCodes.E */ || text.charCodeAt(pos) === 101 /* CharacterCodes.e */)) {\n pos++;\n if (pos < text.length && text.charCodeAt(pos) === 43 /* CharacterCodes.plus */ || text.charCodeAt(pos) === 45 /* CharacterCodes.minus */) {\n pos++;\n }\n if (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n while (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n }\n end = pos;\n }\n else {\n scanError = 3 /* ScanError.UnexpectedEndOfNumber */;\n }\n }\n return text.substring(start, end);\n }\n function scanString() {\n let result = '', start = pos;\n while (true) {\n if (pos >= len) {\n result += text.substring(start, pos);\n scanError = 2 /* ScanError.UnexpectedEndOfString */;\n break;\n }\n const ch = text.charCodeAt(pos);\n if (ch === 34 /* CharacterCodes.doubleQuote */) {\n result += text.substring(start, pos);\n pos++;\n break;\n }\n if (ch === 92 /* CharacterCodes.backslash */) {\n result += text.substring(start, pos);\n pos++;\n if (pos >= len) {\n scanError = 2 /* ScanError.UnexpectedEndOfString */;\n break;\n }\n const ch2 = text.charCodeAt(pos++);\n switch (ch2) {\n case 34 /* CharacterCodes.doubleQuote */:\n result += '\\\"';\n break;\n case 92 /* CharacterCodes.backslash */:\n result += '\\\\';\n break;\n case 47 /* CharacterCodes.slash */:\n result += '/';\n break;\n case 98 /* CharacterCodes.b */:\n result += '\\b';\n break;\n case 102 /* CharacterCodes.f */:\n result += '\\f';\n break;\n case 110 /* CharacterCodes.n */:\n result += '\\n';\n break;\n case 114 /* CharacterCodes.r */:\n result += '\\r';\n break;\n case 116 /* CharacterCodes.t */:\n result += '\\t';\n break;\n case 117 /* CharacterCodes.u */:\n const ch3 = scanHexDigits(4, true);\n if (ch3 >= 0) {\n result += String.fromCharCode(ch3);\n }\n else {\n scanError = 4 /* ScanError.InvalidUnicode */;\n }\n break;\n default:\n scanError = 5 /* ScanError.InvalidEscapeCharacter */;\n }\n start = pos;\n continue;\n }\n if (ch >= 0 && ch <= 0x1f) {\n if (isLineBreak(ch)) {\n result += text.substring(start, pos);\n scanError = 2 /* ScanError.UnexpectedEndOfString */;\n break;\n }\n else {\n scanError = 6 /* ScanError.InvalidCharacter */;\n // mark as error but continue with string\n }\n }\n pos++;\n }\n return result;\n }\n function scanNext() {\n value = '';\n scanError = 0 /* ScanError.None */;\n tokenOffset = pos;\n lineStartOffset = lineNumber;\n prevTokenLineStartOffset = tokenLineStartOffset;\n if (pos >= len) {\n // at the end\n tokenOffset = len;\n return token = 17 /* SyntaxKind.EOF */;\n }\n let code = text.charCodeAt(pos);\n // trivia: whitespace\n if (isWhiteSpace(code)) {\n do {\n pos++;\n value += String.fromCharCode(code);\n code = text.charCodeAt(pos);\n } while (isWhiteSpace(code));\n return token = 15 /* SyntaxKind.Trivia */;\n }\n // trivia: newlines\n if (isLineBreak(code)) {\n pos++;\n value += String.fromCharCode(code);\n if (code === 13 /* CharacterCodes.carriageReturn */ && text.charCodeAt(pos) === 10 /* CharacterCodes.lineFeed */) {\n pos++;\n value += '\\n';\n }\n lineNumber++;\n tokenLineStartOffset = pos;\n return token = 14 /* SyntaxKind.LineBreakTrivia */;\n }\n switch (code) {\n // tokens: []{}:,\n case 123 /* CharacterCodes.openBrace */:\n pos++;\n return token = 1 /* SyntaxKind.OpenBraceToken */;\n case 125 /* CharacterCodes.closeBrace */:\n pos++;\n return token = 2 /* SyntaxKind.CloseBraceToken */;\n case 91 /* CharacterCodes.openBracket */:\n pos++;\n return token = 3 /* SyntaxKind.OpenBracketToken */;\n case 93 /* CharacterCodes.closeBracket */:\n pos++;\n return token = 4 /* SyntaxKind.CloseBracketToken */;\n case 58 /* CharacterCodes.colon */:\n pos++;\n return token = 6 /* SyntaxKind.ColonToken */;\n case 44 /* CharacterCodes.comma */:\n pos++;\n return token = 5 /* SyntaxKind.CommaToken */;\n // strings\n case 34 /* CharacterCodes.doubleQuote */:\n pos++;\n value = scanString();\n return token = 10 /* SyntaxKind.StringLiteral */;\n // comments\n case 47 /* CharacterCodes.slash */:\n const start = pos - 1;\n // Single-line comment\n if (text.charCodeAt(pos + 1) === 47 /* CharacterCodes.slash */) {\n pos += 2;\n while (pos < len) {\n if (isLineBreak(text.charCodeAt(pos))) {\n break;\n }\n pos++;\n }\n value = text.substring(start, pos);\n return token = 12 /* SyntaxKind.LineCommentTrivia */;\n }\n // Multi-line comment\n if (text.charCodeAt(pos + 1) === 42 /* CharacterCodes.asterisk */) {\n pos += 2;\n const safeLength = len - 1; // For lookahead.\n let commentClosed = false;\n while (pos < safeLength) {\n const ch = text.charCodeAt(pos);\n if (ch === 42 /* CharacterCodes.asterisk */ && text.charCodeAt(pos + 1) === 47 /* CharacterCodes.slash */) {\n pos += 2;\n commentClosed = true;\n break;\n }\n pos++;\n if (isLineBreak(ch)) {\n if (ch === 13 /* CharacterCodes.carriageReturn */ && text.charCodeAt(pos) === 10 /* CharacterCodes.lineFeed */) {\n pos++;\n }\n lineNumber++;\n tokenLineStartOffset = pos;\n }\n }\n if (!commentClosed) {\n pos++;\n scanError = 1 /* ScanError.UnexpectedEndOfComment */;\n }\n value = text.substring(start, pos);\n return token = 13 /* SyntaxKind.BlockCommentTrivia */;\n }\n // just a single slash\n value += String.fromCharCode(code);\n pos++;\n return token = 16 /* SyntaxKind.Unknown */;\n // numbers\n case 45 /* CharacterCodes.minus */:\n value += String.fromCharCode(code);\n pos++;\n if (pos === len || !isDigit(text.charCodeAt(pos))) {\n return token = 16 /* SyntaxKind.Unknown */;\n }\n // found a minus, followed by a number so\n // we fall through to proceed with scanning\n // numbers\n case 48 /* CharacterCodes._0 */:\n case 49 /* CharacterCodes._1 */:\n case 50 /* CharacterCodes._2 */:\n case 51 /* CharacterCodes._3 */:\n case 52 /* CharacterCodes._4 */:\n case 53 /* CharacterCodes._5 */:\n case 54 /* CharacterCodes._6 */:\n case 55 /* CharacterCodes._7 */:\n case 56 /* CharacterCodes._8 */:\n case 57 /* CharacterCodes._9 */:\n value += scanNumber();\n return token = 11 /* SyntaxKind.NumericLiteral */;\n // literals and unknown symbols\n default:\n // is a literal?
+
+## Concepts
+
+- [[concepts/aaaa|aaaa]]: Frequently referenced concept in jsonc-parser.js.
+- [[concepts/iaai|iaai]]: Frequently referenced concept in jsonc-parser.js.
+- [[concepts/caac|caac]]: Frequently referenced concept in jsonc-parser.js.
+- [[concepts/kaak|kaak]]: Frequently referenced concept in jsonc-parser.js.
+- [[concepts/saas|saas]]: Frequently referenced concept in jsonc-parser.js.
+- [[concepts/gaag|gaag]]: Frequently referenced concept in jsonc-parser.js.
+
+## Entities
+
+- [[entities/format|Format:]]: Named entity mentioned in jsonc-parser.js.
+- [[entities/top|Top-]]: Named entity mentioned in jsonc-parser.js.
+- [[entities/size|Size:]]: Named entity mentioned in jsonc-parser.js.
+- [[entities/nested|Nested]]: Named entity mentioned in jsonc-parser.js.
+- [[entities/schema|Schema -]]: Named entity mentioned in jsonc-parser.js.
+- [[entities/preview|Preview]]: Named entity mentioned in jsonc-parser.js.
+
+## Claims
+
+- jsonc-parser.js Format: JSON Top-level: object Size: 5 Nested depth: 2 ## Schema - version: number - sources: array (6 items) - sourcesContent: array (6 items) - mappings: string - names: array (18 items) ## Preview json { "version": 3, "sources": ["../../../node_modules/jsonc-parser/lib/esm/impl/scanner.js", "../../../node_modules/jsonc-parser/lib/esm/impl/string-intern.js", "../../../node_modules/jsonc-parser/lib/esm/impl/format.js", "../../../node_modules/jsonc-parser/lib/esm/impl/parser.js", "../../../node_modules/jsonc-parser/lib/esm/impl/edit.js", "../../../node_modules/jsonc-parser/lib/esm/main.js"], "sourcesContent": ["/*---------------------------------------------------------------------------------------------\n * Copyright (c) Microsoft Corporation. [source:jsonc-parser-js-120059a2]
+- All rights reserved.\n * Licensed under the MIT License. [source:jsonc-parser-js-120059a2]
+- See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------*/\n'use strict';\n/**\n * Creates a JSON scanner on the given text.\n * If ignoreTrivia is set, whitespaces or comments are ignored.\n */\nexport function createScanner(text, ignoreTrivia = false) {\n const len = text.length;\n let pos = 0, value = '', tokenOffset = 0, token = 16 /* SyntaxKind.Unknown */, lineNumber = 0, lineStartOffset = 0, tokenLineStartOffset = 0, prevTokenLineStartOffset = 0, scanError = 0 /* ScanError.None */;\n function scanHexDigits(count, exact) {\n let digits = 0;\n let value = 0;\n while (digits < count || !exact) {\n let ch = text.charCodeAt(pos);\n if (ch >= 48 /* CharacterCodes._0 */ && ch <= 57 /* CharacterCodes._9 */) {\n value = value * 16 + ch - 48 /* CharacterCodes._0 */;\n }\n else if (ch >= 65 /* CharacterCodes.A */ && ch <= 70 /* CharacterCodes.F */) {\n value = value * 16 + ch - 65 /* CharacterCodes.A */ + 10;\n }\n else if (ch >= 97 /* CharacterCodes.a */ && ch <= 102 /* CharacterCodes.f */) {\n value = value * 16 + ch - 97 /* CharacterCodes.a */ + 10;\n }\n else {\n break;\n }\n pos++;\n digits++;\n }\n if (digits < count) {\n value = -1;\n }\n return value;\n }\n function setPosition(newPosition) {\n pos = newPosition;\n value = '';\n tokenOffset = 0;\n token = 16 /* SyntaxKind.Unknown */;\n scanError = 0 /* ScanError.None */;\n }\n function scanNumber() {\n let start = pos;\n if (text.charCodeAt(pos) === 48 /* CharacterCodes._0 */) {\n pos++;\n }\n else {\n pos++;\n while (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n }\n }\n if (pos < text.length && text.charCodeAt(pos) === 46 /* CharacterCodes.dot */) {\n pos++;\n if (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n while (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n }\n }\n else {\n scanError = 3 /* ScanError.UnexpectedEndOfNumber */;\n return text.substring(start, pos);\n }\n }\n let end = pos;\n if (pos < text.length && (text.charCodeAt(pos) === 69 /* CharacterCodes.E */ || text.charCodeAt(pos) === 101 /* CharacterCodes.e */)) {\n pos++;\n if (pos < text.length && text.charCodeAt(pos) === 43 /* CharacterCodes.plus */ || text.charCodeAt(pos) === 45 /* CharacterCodes.minus */) {\n pos++;\n }\n if (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n while (pos < text.length && isDigit(text.charCodeAt(pos))) {\n pos++;\n }\n end = pos;\n }\n else {\n scanError = 3 /* ScanError.UnexpectedEndOfNumber */;\n }\n }\n return text.substring(start, end);\n }\n function scanString() {\n let result = '', start = pos;\n while (true) {\n if (pos >= len) {\n result += text.substring(start, pos);\n scanError = 2 /* ScanError.UnexpectedEndOfString */;\n break;\n }\n const ch = text.charCodeAt(pos);\n if (ch === 34 /* CharacterCodes.doubleQuote */) {\n result += text.substring(start, pos);\n pos++;\n break;\n }\n if (ch === 92 /* CharacterCodes.backslash */) {\n result += text.substring(start, pos);\n pos++;\n if (pos >= len) {\n scanError = 2 /* ScanError.UnexpectedEndOfString */;\n break;\n }\n const ch2 = text.charCodeAt(pos++);\n switch (ch2) {\n case 34 /* CharacterCodes.doubleQuote */:\n result += '\\\"';\n break;\n case 92 /* CharacterCodes.backslash */:\n result += '\\\\';\n break;\n case 47 /* CharacterCodes.slash */:\n result += '/';\n break;\n case 98 /* CharacterCodes.b */:\n result += '\\b';\n break;\n case 102 /* CharacterCodes.f */:\n result += '\\f';\n break;\n case 110 /* CharacterCodes.n */:\n result += '\\n';\n break;\n case 114 /* CharacterCodes.r */:\n result += '\\r';\n break;\n case 116 /* CharacterCodes.t */:\n result += '\\t';\n break;\n case 117 /* CharacterCodes.u */:\n const ch3 = scanHexDigits(4, true);\n if (ch3 >= 0) {\n result += String.fromCharCode(ch3);\n }\n else {\n scanError = 4 /* ScanError.InvalidUnicode */;\n }\n break;\n default:\n scanError = 5 /* ScanError.InvalidEscapeCharacter */;\n }\n start = pos;\n continue;\n }\n if (ch >= 0 && ch <= 0x1f) {\n if (isLineBreak(ch)) {\n result += text.substring(start, pos);\n scanError = 2 /* ScanError.UnexpectedEndOfString */;\n break;\n }\n else {\n scanError = 6 /* ScanError.InvalidCharacter */;\n // mark as error but continue with string\n }\n }\n pos++;\n }\n return result;\n }\n function scanNext() {\n value = '';\n scanError = 0 /* ScanError.None */;\n tokenOffset = pos;\n lineStartOffset = lineNumber;\n prevTokenLineStartOffset = tokenLineStartOffset;\n if (pos >= len) {\n // at the end\n tokenOffset = len;\n return token = 17 /* SyntaxKind.EOF */;\n }\n let code = text.charCodeAt(pos);\n // trivia: whitespace\n if (isWhiteSpace(code)) {\n do {\n pos++;\n value += String.fromCharCode(code);\n code = text.charCodeAt(pos);\n } while (isWhiteSpace(code));\n return token = 15 /* SyntaxKind.Trivia */;\n }\n // trivia: newlines\n if (isLineBreak(code)) {\n pos++;\n value += String.fromCharCode(code);\n if (code === 13 /* CharacterCodes.carriageReturn */ && text.charCodeAt(pos) === 10 /* CharacterCodes.lineFeed */) {\n pos++;\n value += '\\n';\n }\n lineNumber++;\n tokenLineStartOffset = pos;\n return token = 14 /* SyntaxKind.LineBreakTrivia */;\n }\n switch (code) {\n // tokens: []{}:,\n case 123 /* CharacterCodes.openBrace */:\n pos++;\n return token = 1 /* SyntaxKind.OpenBraceToken */;\n case 125 /* CharacterCodes.closeBrace */:\n pos++;\n return token = 2 /* SyntaxKind.CloseBraceToken */;\n case 91 /* CharacterCodes.openBracket */:\n pos++;\n return token = 3 /* SyntaxKind.OpenBracketToken */;\n case 93 /* CharacterCodes.closeBracket */:\n pos++;\n return token = 4 /* SyntaxKind.CloseBracketToken */;\n case 58 /* CharacterCodes.colon */:\n pos++;\n return token = 6 /* SyntaxKind.ColonToken */;\n case 44 /* CharacterCodes.comma */:\n pos++;\n return token = 5 /* SyntaxKind.CommaToken */;\n // strings\n case 34 /* CharacterCodes.doubleQuote */:\n pos++;\n value = scanString();\n return token = 10 /* SyntaxKind.StringLiteral */;\n // comments\n case 47 /* CharacterCodes.slash */:\n const start = pos - 1;\n // Single-line comment\n if (text.charCodeAt(pos + 1) === 47 /* CharacterCodes.slash */) {\n pos += 2;\n while (pos < len) {\n if (isLineBreak(text.charCodeAt(pos))) {\n break;\n }\n pos++;\n }\n value = text.substring(start, pos);\n return token = 12 /* SyntaxKind.LineCommentTrivia */;\n }\n // Multi-line comment\n if (text.charCodeAt(pos + 1) === 42 /* CharacterCodes.asterisk */) {\n pos += 2;\n const safeLength = len - 1; // For lookahead.\n let commentClosed = false;\n while (pos < safeLength) {\n const ch = text.charCodeAt(pos);\n if (ch === 42 /* CharacterCodes.asterisk */ && text.charCodeAt(pos + 1) === 47 /* CharacterCodes.slash */) {\n pos += 2;\n commentClosed = true;\n break;\n }\n pos++;\n if (isLineBreak(ch)) {\n if (ch === 13 /* CharacterCodes.carriageReturn */ && text.charCodeAt(pos) === 10 /* CharacterCodes.lineFeed */) {\n pos++;\n }\n lineNumber++;\n tokenLineStartOffset = pos;\n }\n }\n if (!commentClosed) {\n pos++;\n scanError = 1 /* ScanError.UnexpectedEndOfComment */;\n }\n value = text.substring(start, pos);\n return token = 13 /* SyntaxKind.BlockCommentTrivia */;\n }\n // just a single slash\n value += String.fromCharCode(code);\n pos++;\n return token = 16 /* SyntaxKind.Unknown */;\n // numbers\n case 45 /* CharacterCodes.minus */:\n value += String.fromCharCode(code);\n pos++;\n if (pos === len || !isDigit(text.charCodeAt(pos))) {\n return token = 16 /* SyntaxKind.Unknown */;\n }\n // found a minus, followed by a number so\n // we fall through to proceed with scanning\n // numbers\n case 48 /* CharacterCodes._0 */:\n case 49 /* CharacterCodes._1 */:\n case 50 /* CharacterCodes._2 */:\n case 51 /* CharacterCodes._3 */:\n case 52 /* CharacterCodes._4 */:\n case 53 /* CharacterCodes._5 */:\n case 54 /* CharacterCodes._6 */:\n case 55 /* CharacterCodes._7 */:\n case 56 /* CharacterCodes._8 */:\n case 57 /* CharacterCodes._9 */:\n value += scanNumber();\n return token = 11 /* SyntaxKind.NumericLiteral */;\n // literals and unknown symbols\n default:\n // is a literal? [source:jsonc-parser-js-120059a2]
+- Read the full word.\n while (pos < len && isUnknownContentCharacter(code)) {\n pos++;\n code = text.charCodeAt(pos);\n }\n if (tokenOffset !== pos) {\n value = text.substring(tokenOffset, pos);\n // keywords: true, false, null\n switch (value) {\n case 'true': return token = 8 /* SyntaxKind.TrueKeyword */;\n case 'false': return token = 9 /* SyntaxKind.FalseKeyword */;\n case 'null': return token = 7 /* SyntaxKind.NullKeyword */;\n }\n return token = 16 /* SyntaxKind.Unknown */;\n }\n // some\n value += String.fromCharCode(code);\n pos++;\n return token = 16 /* SyntaxKind.Unknown */;\n }\n }\n function isUnknownContentCharacter(code) {\n if (isWhiteSpace(code) || isLineBreak(code)) {\n return false;\n }\n switch (code) {\n case 125 /* CharacterCodes.closeBrace */:\n case 93 /* CharacterCodes.closeBracket */:\n case 123 /* CharacterCodes.openBrace */:\n case 91 /* CharacterCodes.openBracket */:\n case 34 /* CharacterCodes.doubleQuote */:\n case 58 /* CharacterCodes.colon */:\n case 44 /* CharacterCodes.comma */:\n case 47 /* CharacterCodes.slash */:\n return false;\n }\n return true;\n }\n function scanNextNonTrivia() {\n let result;\n do {\n result = scanNext();\n } while (result >= 12 /* SyntaxKind.LineCommentTrivia */ && result <= 15 /* SyntaxKind.Trivia */);\n return result;\n }\n return {\n setPosition: setPosition,\n getPosition: () => pos,\n scan: ignoreTrivia ? [source:jsonc-parser-js-120059a2]
+
+## Questions
+
+- How does aaaa relate to jsonc-parser.js?
+- How does iaai relate to jsonc-parser.js?
+- How does caac relate to jsonc-parser.js?
+
+## Related Outputs
+
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
+

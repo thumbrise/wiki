@@ -1,0 +1,50 @@
+---
+page_id: 'concept:writing'
+kind: concept
+cssclasses:
+  - swarmvault
+  - sv-concept
+title: writing
+source_class: first_party
+tags:
+  - concept
+  - candidate
+source_ids:
+  - 6-forgotten-dff037fc
+project_ids: []
+node_ids:
+  - 'concept:writing'
+freshness: fresh
+status: candidate
+confidence: 0.65
+created_at: '2026-05-03T05:11:46.115Z'
+updated_at: '2026-05-03T05:32:23.375Z'
+compiled_from:
+  - 6-forgotten-dff037fc
+managed_by: system
+backlinks:
+  - 'source:6-forgotten-dff037fc'
+  - 'output:source-briefs/directory-op-597d97ce'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  6-forgotten-dff037fc: dff037fcfb22bb1ead8bcc3f4a15bacaf9fbb374465d5bf62d14c41eb01364a4
+source_semantic_hashes:
+  6-forgotten-dff037fc: cb6d788afa8084fbab607f94d0600ef711fd00e6322b6809eb5b4ae81b829198
+---
+# writing
+
+## Summary
+
+Frequently referenced concept in #6 — Forgotten.
+
+## Seen In
+
+- [[sources/6-forgotten-dff037fc|#6 — Forgotten]]
+
+## Source Claims
+
+
+## Related Outputs
+
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
+

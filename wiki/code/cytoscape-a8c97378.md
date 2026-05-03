@@ -1,0 +1,2834 @@
+---
+page_id: 'module:cytoscape-a8c97378'
+kind: module
+cssclasses:
+  - swarmvault
+  - sv-module
+title: cytoscape module
+source_class: first_party
+tags:
+  - module
+  - code
+  - javascript
+source_ids:
+  - cytoscape-a8c97378
+project_ids: []
+node_ids:
+  - 'module:cytoscape-a8c97378'
+  - 'symbol:cytoscape-a8c97378:arrayliketoarray.function'
+  - 'symbol:cytoscape-a8c97378:arraywithholes.function'
+  - 'symbol:cytoscape-a8c97378:arraywithoutholes.function'
+  - 'symbol:cytoscape-a8c97378:classcallcheck.function'
+  - 'symbol:cytoscape-a8c97378:defineproperties.function'
+  - 'symbol:cytoscape-a8c97378:createclass.function'
+  - 'symbol:cytoscape-a8c97378:createforofiteratorhelper.function'
+  - 'symbol:cytoscape-a8c97378:defineproperty-1.function'
+  - 'symbol:cytoscape-a8c97378:iterabletoarray.function'
+  - 'symbol:cytoscape-a8c97378:iterabletoarraylimit.function'
+  - 'symbol:cytoscape-a8c97378:noniterablerest.function'
+  - 'symbol:cytoscape-a8c97378:noniterablespread.function'
+  - 'symbol:cytoscape-a8c97378:slicedtoarray.function'
+  - 'symbol:cytoscape-a8c97378:toconsumablearray.function'
+  - 'symbol:cytoscape-a8c97378:toprimitive.function'
+  - 'symbol:cytoscape-a8c97378:topropertykey.function'
+  - 'symbol:cytoscape-a8c97378:typeof.function'
+  - 'symbol:cytoscape-a8c97378:unsupportediterabletoarray.function'
+  - 'symbol:cytoscape-a8c97378:window.variable'
+  - 'symbol:cytoscape-a8c97378:navigator.variable'
+  - 'symbol:cytoscape-a8c97378:typeofstr.variable'
+  - 'symbol:cytoscape-a8c97378:typeofobj.variable'
+  - 'symbol:cytoscape-a8c97378:typeoffn.variable'
+  - 'symbol:cytoscape-a8c97378:typeofhtmlele.variable'
+  - 'symbol:cytoscape-a8c97378:instancestr.variable'
+  - 'symbol:cytoscape-a8c97378:string.variable'
+  - 'symbol:cytoscape-a8c97378:fn-6.variable'
+  - 'symbol:cytoscape-a8c97378:array.variable'
+  - 'symbol:cytoscape-a8c97378:plainobject.variable'
+  - 'symbol:cytoscape-a8c97378:object.variable'
+  - 'symbol:cytoscape-a8c97378:number-1.variable'
+  - 'symbol:cytoscape-a8c97378:integer.variable'
+  - 'symbol:cytoscape-a8c97378:htmlelement.variable'
+  - 'symbol:cytoscape-a8c97378:elementorcollection.variable'
+  - 'symbol:cytoscape-a8c97378:element.variable'
+  - 'symbol:cytoscape-a8c97378:collection.variable'
+  - 'symbol:cytoscape-a8c97378:core.variable'
+  - 'symbol:cytoscape-a8c97378:stylesheet.variable'
+  - 'symbol:cytoscape-a8c97378:event.variable'
+  - 'symbol:cytoscape-a8c97378:emptystring.variable'
+  - 'symbol:cytoscape-a8c97378:domelement.variable'
+  - 'symbol:cytoscape-a8c97378:boundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:promise.variable'
+  - 'symbol:cytoscape-a8c97378:ms.variable'
+  - 'symbol:cytoscape-a8c97378:memoize.variable'
+  - 'symbol:cytoscape-a8c97378:camel2dash.variable'
+  - 'symbol:cytoscape-a8c97378:dash2camel.variable'
+  - 'symbol:cytoscape-a8c97378:prependcamel.variable'
+  - 'symbol:cytoscape-a8c97378:capitalize.variable'
+  - 'symbol:cytoscape-a8c97378:endswith.variable'
+  - 'symbol:cytoscape-a8c97378:number2.variable'
+  - 'symbol:cytoscape-a8c97378:rgba.variable'
+  - 'symbol:cytoscape-a8c97378:rgbanobackrefs.variable'
+  - 'symbol:cytoscape-a8c97378:hsla.variable'
+  - 'symbol:cytoscape-a8c97378:hslanobackrefs.variable'
+  - 'symbol:cytoscape-a8c97378:hex3.variable'
+  - 'symbol:cytoscape-a8c97378:hex6.variable'
+  - 'symbol:cytoscape-a8c97378:ascending.variable'
+  - 'symbol:cytoscape-a8c97378:descending.variable'
+  - 'symbol:cytoscape-a8c97378:extend.variable'
+  - 'symbol:cytoscape-a8c97378:hex2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:hsl2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:rgb2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:colorname2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:color2tuple.variable'
+  - 'symbol:cytoscape-a8c97378:colors.variable'
+  - 'symbol:cytoscape-a8c97378:setmap.variable'
+  - 'symbol:cytoscape-a8c97378:getmap.variable'
+  - 'symbol:cytoscape-a8c97378:commonjsglobal.variable'
+  - 'symbol:cytoscape-a8c97378:getdefaultexportfromcjs.function'
+  - 'symbol:cytoscape-a8c97378:isobject-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisobject.variable'
+  - 'symbol:cytoscape-a8c97378:requireisobject.function'
+  - 'symbol:cytoscape-a8c97378:freeglobal.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-freeglobal.variable'
+  - 'symbol:cytoscape-a8c97378:require-freeglobal.function'
+  - 'symbol:cytoscape-a8c97378:root.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-root.variable'
+  - 'symbol:cytoscape-a8c97378:require-root.function'
+  - 'symbol:cytoscape-a8c97378:now-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequirednow.variable'
+  - 'symbol:cytoscape-a8c97378:requirenow.function'
+  - 'symbol:cytoscape-a8c97378:trimmedendindex.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-trimmedendindex.variable'
+  - 'symbol:cytoscape-a8c97378:require-trimmedendindex.function'
+  - 'symbol:cytoscape-a8c97378:basetrim.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-basetrim.variable'
+  - 'symbol:cytoscape-a8c97378:require-basetrim.function'
+  - 'symbol:cytoscape-a8c97378:symbol.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-symbol.variable'
+  - 'symbol:cytoscape-a8c97378:require-symbol.function'
+  - 'symbol:cytoscape-a8c97378:getrawtag.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getrawtag.variable'
+  - 'symbol:cytoscape-a8c97378:require-getrawtag.function'
+  - 'symbol:cytoscape-a8c97378:objecttostring.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-objecttostring.variable'
+  - 'symbol:cytoscape-a8c97378:require-objecttostring.function'
+  - 'symbol:cytoscape-a8c97378:basegettag.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-basegettag.variable'
+  - 'symbol:cytoscape-a8c97378:require-basegettag.function'
+  - 'symbol:cytoscape-a8c97378:isobjectlike-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisobjectlike.variable'
+  - 'symbol:cytoscape-a8c97378:requireisobjectlike.function'
+  - 'symbol:cytoscape-a8c97378:issymbol-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredissymbol.variable'
+  - 'symbol:cytoscape-a8c97378:requireissymbol.function'
+  - 'symbol:cytoscape-a8c97378:tonumber-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredtonumber.variable'
+  - 'symbol:cytoscape-a8c97378:requiretonumber.function'
+  - 'symbol:cytoscape-a8c97378:debounce-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequireddebounce.variable'
+  - 'symbol:cytoscape-a8c97378:requiredebounce.function'
+  - 'symbol:cytoscape-a8c97378:debounceexports.variable'
+  - 'symbol:cytoscape-a8c97378:debounce.variable'
+  - 'symbol:cytoscape-a8c97378:performance-1.variable'
+  - 'symbol:cytoscape-a8c97378:pnow.variable'
+  - 'symbol:cytoscape-a8c97378:raf.variable'
+  - 'symbol:cytoscape-a8c97378:requestanimationframe.variable'
+  - 'symbol:cytoscape-a8c97378:performancenow.variable'
+  - 'symbol:cytoscape-a8c97378:default-hash-seed.variable'
+  - 'symbol:cytoscape-a8c97378:k.variable'
+  - 'symbol:cytoscape-a8c97378:default-hash-seed-alt.variable'
+  - 'symbol:cytoscape-a8c97378:hashiterableints.variable'
+  - 'symbol:cytoscape-a8c97378:hashint.variable'
+  - 'symbol:cytoscape-a8c97378:hashintalt.variable'
+  - 'symbol:cytoscape-a8c97378:combinehashes.variable'
+  - 'symbol:cytoscape-a8c97378:combinehashesarray.variable'
+  - 'symbol:cytoscape-a8c97378:hasharrays.variable'
+  - 'symbol:cytoscape-a8c97378:hashintsarray.variable'
+  - 'symbol:cytoscape-a8c97378:hashstring.variable'
+  - 'symbol:cytoscape-a8c97378:hashstrings.variable'
+  - 'symbol:cytoscape-a8c97378:hashstringsarray.variable'
+  - 'symbol:cytoscape-a8c97378:rotatepoint.function'
+  - 'symbol:cytoscape-a8c97378:movepointbyboxaspect.variable'
+  - 'symbol:cytoscape-a8c97378:rotateposandskewbybox.function'
+  - 'symbol:cytoscape-a8c97378:warningsenabled.variable'
+  - 'symbol:cytoscape-a8c97378:warnsupported.variable'
+  - 'symbol:cytoscape-a8c97378:tracesupported.variable'
+  - 'symbol:cytoscape-a8c97378:max-int-1.variable'
+  - 'symbol:cytoscape-a8c97378:trueify.variable'
+  - 'symbol:cytoscape-a8c97378:falsify.variable'
+  - 'symbol:cytoscape-a8c97378:zeroify.variable'
+  - 'symbol:cytoscape-a8c97378:noop-1.variable'
+  - 'symbol:cytoscape-a8c97378:error.variable'
+  - 'symbol:cytoscape-a8c97378:warnings.variable'
+  - 'symbol:cytoscape-a8c97378:warn.variable'
+  - 'symbol:cytoscape-a8c97378:clone.variable'
+  - 'symbol:cytoscape-a8c97378:copy.variable'
+  - 'symbol:cytoscape-a8c97378:copyarray.variable'
+  - 'symbol:cytoscape-a8c97378:uuid.variable'
+  - 'symbol:cytoscape-a8c97378:staticemptyobject.variable'
+  - 'symbol:cytoscape-a8c97378:staticemptyobject.variable-2'
+  - 'symbol:cytoscape-a8c97378:defaults-g.variable'
+  - 'symbol:cytoscape-a8c97378:removefromarray.variable'
+  - 'symbol:cytoscape-a8c97378:cleararray.variable'
+  - 'symbol:cytoscape-a8c97378:push.variable'
+  - 'symbol:cytoscape-a8c97378:getprefixedproperty.variable'
+  - 'symbol:cytoscape-a8c97378:setprefixedproperty.variable'
+  - 'symbol:cytoscape-a8c97378:objectmap.variable'
+  - 'symbol:cytoscape-a8c97378:map-1.variable'
+  - 'symbol:cytoscape-a8c97378:undef.variable'
+  - 'symbol:cytoscape-a8c97378:objectset.variable'
+  - 'symbol:cytoscape-a8c97378:set-1.variable'
+  - 'symbol:cytoscape-a8c97378:element.variable-2'
+  - 'symbol:cytoscape-a8c97378:definesearch.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-v.variable'
+  - 'symbol:cytoscape-a8c97378:heap-2.variable'
+  - 'symbol:cytoscape-a8c97378:heap-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredheap-1.variable'
+  - 'symbol:cytoscape-a8c97378:requireheap-1.function'
+  - 'symbol:cytoscape-a8c97378:heap.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredheap.variable'
+  - 'symbol:cytoscape-a8c97378:requireheap.function'
+  - 'symbol:cytoscape-a8c97378:heapexports.variable'
+  - 'symbol:cytoscape-a8c97378:heap.variable-2'
+  - 'symbol:cytoscape-a8c97378:dijkstradefaults.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-u.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-t.variable'
+  - 'symbol:cytoscape-a8c97378:astardefaults.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-s.variable'
+  - 'symbol:cytoscape-a8c97378:floydwarshalldefaults.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-r.variable'
+  - 'symbol:cytoscape-a8c97378:bellmanforddefaults.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-q.variable'
+  - 'symbol:cytoscape-a8c97378:sqrt2.variable'
+  - 'symbol:cytoscape-a8c97378:collapse.variable'
+  - 'symbol:cytoscape-a8c97378:contractuntil.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-p.variable'
+  - 'symbol:cytoscape-a8c97378:math-hypot.variable'
+  - 'symbol:cytoscape-a8c97378:copyposition.variable'
+  - 'symbol:cytoscape-a8c97378:modeltorenderedposition-1.variable'
+  - 'symbol:cytoscape-a8c97378:renderedtomodelposition.variable'
+  - 'symbol:cytoscape-a8c97378:array2point.variable'
+  - 'symbol:cytoscape-a8c97378:min.variable'
+  - 'symbol:cytoscape-a8c97378:max.variable'
+  - 'symbol:cytoscape-a8c97378:mean.variable'
+  - 'symbol:cytoscape-a8c97378:median.variable'
+  - 'symbol:cytoscape-a8c97378:deg2rad.variable'
+  - 'symbol:cytoscape-a8c97378:getanglefromdisp.variable'
+  - 'symbol:cytoscape-a8c97378:log2.variable'
+  - 'symbol:cytoscape-a8c97378:signum.variable'
+  - 'symbol:cytoscape-a8c97378:dist.variable'
+  - 'symbol:cytoscape-a8c97378:sqdist.variable'
+  - 'symbol:cytoscape-a8c97378:inplacesumnormalize.variable'
+  - 'symbol:cytoscape-a8c97378:qbezierat.variable'
+  - 'symbol:cytoscape-a8c97378:qbezierptat.variable'
+  - 'symbol:cytoscape-a8c97378:lineat.variable'
+  - 'symbol:cytoscape-a8c97378:bound.variable'
+  - 'symbol:cytoscape-a8c97378:makeboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:copyboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:clearboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:expandboundingboxbypoint.variable'
+  - 'symbol:cytoscape-a8c97378:expandboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:expandboundingboxsides.variable'
+  - 'symbol:cytoscape-a8c97378:assignboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:boundingboxesintersect.variable'
+  - 'symbol:cytoscape-a8c97378:inboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:pointinboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:boundingboxinboundingbox.variable'
+  - 'symbol:cytoscape-a8c97378:hypot.variable'
+  - 'symbol:cytoscape-a8c97378:inflatepolygon.function'
+  - 'symbol:cytoscape-a8c97378:miterbox.function'
+  - 'symbol:cytoscape-a8c97378:roundrectangleintersectline.variable'
+  - 'symbol:cytoscape-a8c97378:inlinevicinity.variable'
+  - 'symbol:cytoscape-a8c97378:inbeziervicinity.variable'
+  - 'symbol:cytoscape-a8c97378:solvequadratic.variable'
+  - 'symbol:cytoscape-a8c97378:solvecubic.variable'
+  - 'symbol:cytoscape-a8c97378:sqdisttoquadraticbezier.variable'
+  - 'symbol:cytoscape-a8c97378:sqdisttofiniteline.variable'
+  - 'symbol:cytoscape-a8c97378:pointinsidepolygonpoints.variable'
+  - 'symbol:cytoscape-a8c97378:pointinsidepolygon.variable'
+  - 'symbol:cytoscape-a8c97378:pointinsideroundpolygon.variable'
+  - 'symbol:cytoscape-a8c97378:joinlines.variable'
+  - 'symbol:cytoscape-a8c97378:expandpolygon.variable'
+  - 'symbol:cytoscape-a8c97378:intersectlineellipse.variable'
+  - 'symbol:cytoscape-a8c97378:checkinellipse.variable'
+  - 'symbol:cytoscape-a8c97378:intersectlinecircle.variable'
+  - 'symbol:cytoscape-a8c97378:midofthree.variable'
+  - 'symbol:cytoscape-a8c97378:finitelinesintersect.variable'
+  - 'symbol:cytoscape-a8c97378:transformpoints.variable'
+  - 'symbol:cytoscape-a8c97378:polygonintersectline.variable'
+  - 'symbol:cytoscape-a8c97378:roundpolygonintersectline.variable'
+  - 'symbol:cytoscape-a8c97378:shortenintersection.variable'
+  - 'symbol:cytoscape-a8c97378:generateunitngonpointsfittosquare.variable'
+  - 'symbol:cytoscape-a8c97378:fitpolygontosquare.variable'
+  - 'symbol:cytoscape-a8c97378:generateunitngonpoints.variable'
+  - 'symbol:cytoscape-a8c97378:getroundrectangleradius.variable'
+  - 'symbol:cytoscape-a8c97378:getroundpolygonradius.variable'
+  - 'symbol:cytoscape-a8c97378:getcutrectanglecornerlength.variable'
+  - 'symbol:cytoscape-a8c97378:bezierptstoquadcoeff.variable'
+  - 'symbol:cytoscape-a8c97378:getbarrelcurveconstants.variable'
+  - 'symbol:cytoscape-a8c97378:satpolygonintersection.function'
+  - 'symbol:cytoscape-a8c97378:pagerankdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-o.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-f.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-n.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-e.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-m.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-d.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-l.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-c.variable'
+  - 'symbol:cytoscape-a8c97378:setoptions-3.variable'
+  - 'symbol:cytoscape-a8c97378:getsimilarity-1.variable'
+  - 'symbol:cytoscape-a8c97378:addloops.variable'
+  - 'symbol:cytoscape-a8c97378:normalize.variable'
+  - 'symbol:cytoscape-a8c97378:mmult.variable'
+  - 'symbol:cytoscape-a8c97378:expand.variable'
+  - 'symbol:cytoscape-a8c97378:inflate.variable'
+  - 'symbol:cytoscape-a8c97378:hasconverged.variable'
+  - 'symbol:cytoscape-a8c97378:assign-2.variable'
+  - 'symbol:cytoscape-a8c97378:isduplicate.variable'
+  - 'symbol:cytoscape-a8c97378:removeduplicates.variable'
+  - 'symbol:cytoscape-a8c97378:markovclustering.variable'
+  - 'symbol:cytoscape-a8c97378:markovclustering-1.variable'
+  - 'symbol:cytoscape-a8c97378:identity-1.variable'
+  - 'symbol:cytoscape-a8c97378:absdiff.variable'
+  - 'symbol:cytoscape-a8c97378:addabsdiff.variable'
+  - 'symbol:cytoscape-a8c97378:addsquareddiff.variable'
+  - 'symbol:cytoscape-a8c97378:sqrt.variable'
+  - 'symbol:cytoscape-a8c97378:maxabsdiff.variable'
+  - 'symbol:cytoscape-a8c97378:getdistance.variable'
+  - 'symbol:cytoscape-a8c97378:distances.variable'
+  - 'symbol:cytoscape-a8c97378:clusteringdistance.function'
+  - 'symbol:cytoscape-a8c97378:defaults-b.variable'
+  - 'symbol:cytoscape-a8c97378:setoptions-2.variable'
+  - 'symbol:cytoscape-a8c97378:getdist.variable'
+  - 'symbol:cytoscape-a8c97378:randomcentroids.variable'
+  - 'symbol:cytoscape-a8c97378:classify.variable'
+  - 'symbol:cytoscape-a8c97378:buildcluster.variable'
+  - 'symbol:cytoscape-a8c97378:havevaluesconverged.variable'
+  - 'symbol:cytoscape-a8c97378:havematricesconverged.variable'
+  - 'symbol:cytoscape-a8c97378:seenbefore.variable'
+  - 'symbol:cytoscape-a8c97378:randommedoids.variable'
+  - 'symbol:cytoscape-a8c97378:findcost.variable'
+  - 'symbol:cytoscape-a8c97378:kmeans.variable'
+  - 'symbol:cytoscape-a8c97378:kmedoids.variable'
+  - 'symbol:cytoscape-a8c97378:updatecentroids.variable'
+  - 'symbol:cytoscape-a8c97378:updatemembership.variable'
+  - 'symbol:cytoscape-a8c97378:assign-1.variable'
+  - 'symbol:cytoscape-a8c97378:fuzzycmeans.variable'
+  - 'symbol:cytoscape-a8c97378:kclustering.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-a.variable'
+  - 'symbol:cytoscape-a8c97378:linkagealiases.variable'
+  - 'symbol:cytoscape-a8c97378:setoptions-1.variable'
+  - 'symbol:cytoscape-a8c97378:mergeclosest.variable'
+  - 'symbol:cytoscape-a8c97378:getallchildren.variable'
+  - 'symbol:cytoscape-a8c97378:builddendrogram.variable'
+  - 'symbol:cytoscape-a8c97378:buildclustersfromtree.variable'
+  - 'symbol:cytoscape-a8c97378:hierarchicalclustering.variable'
+  - 'symbol:cytoscape-a8c97378:hierarchicalclustering-1.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-9.variable'
+  - 'symbol:cytoscape-a8c97378:setoptions4.variable'
+  - 'symbol:cytoscape-a8c97378:getsimilarity2.variable'
+  - 'symbol:cytoscape-a8c97378:getpreference.variable'
+  - 'symbol:cytoscape-a8c97378:findexemplars.variable'
+  - 'symbol:cytoscape-a8c97378:assignclusters.variable'
+  - 'symbol:cytoscape-a8c97378:assign3.variable'
+  - 'symbol:cytoscape-a8c97378:affinitypropagation.variable'
+  - 'symbol:cytoscape-a8c97378:affinitypropagation-1.variable'
+  - 'symbol:cytoscape-a8c97378:hierholzerdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-k.variable'
+  - 'symbol:cytoscape-a8c97378:hopcrofttarjanbiconnected.variable'
+  - 'symbol:cytoscape-a8c97378:hopcrofttarjanbiconnected-1.variable'
+  - 'symbol:cytoscape-a8c97378:tarjanstronglyconnected.variable'
+  - 'symbol:cytoscape-a8c97378:tarjanstronglyconnected-1.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-j.variable'
+  - 'symbol:cytoscape-a8c97378:state-pending.variable'
+  - 'symbol:cytoscape-a8c97378:state-fulfilled.variable'
+  - 'symbol:cytoscape-a8c97378:state-rejected.variable'
+  - 'symbol:cytoscape-a8c97378:api.variable'
+  - 'symbol:cytoscape-a8c97378:deliver.variable'
+  - 'symbol:cytoscape-a8c97378:execute.variable'
+  - 'symbol:cytoscape-a8c97378:execute-handlers.variable'
+  - 'symbol:cytoscape-a8c97378:resolver.variable'
+  - 'symbol:cytoscape-a8c97378:resolve.variable'
+  - 'symbol:cytoscape-a8c97378:promise-1.variable'
+  - 'symbol:cytoscape-a8c97378:animation.variable'
+  - 'symbol:cytoscape-a8c97378:anifn.variable'
+  - 'symbol:cytoscape-a8c97378:define-3.variable'
+  - 'symbol:cytoscape-a8c97378:isarray-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisarray.variable'
+  - 'symbol:cytoscape-a8c97378:requireisarray.function'
+  - 'symbol:cytoscape-a8c97378:iskey.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-iskey.variable'
+  - 'symbol:cytoscape-a8c97378:require-iskey.function'
+  - 'symbol:cytoscape-a8c97378:isfunction-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredisfunction.variable'
+  - 'symbol:cytoscape-a8c97378:requireisfunction.function'
+  - 'symbol:cytoscape-a8c97378:corejsdata.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-corejsdata.variable'
+  - 'symbol:cytoscape-a8c97378:require-corejsdata.function'
+  - 'symbol:cytoscape-a8c97378:ismasked.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-ismasked.variable'
+  - 'symbol:cytoscape-a8c97378:require-ismasked.function'
+  - 'symbol:cytoscape-a8c97378:tosource.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-tosource.variable'
+  - 'symbol:cytoscape-a8c97378:require-tosource.function'
+  - 'symbol:cytoscape-a8c97378:baseisnative.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseisnative.variable'
+  - 'symbol:cytoscape-a8c97378:require-baseisnative.function'
+  - 'symbol:cytoscape-a8c97378:getvalue.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getvalue.variable'
+  - 'symbol:cytoscape-a8c97378:require-getvalue.function'
+  - 'symbol:cytoscape-a8c97378:getnative.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getnative.variable'
+  - 'symbol:cytoscape-a8c97378:require-getnative.function'
+  - 'symbol:cytoscape-a8c97378:nativecreate.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-nativecreate.variable'
+  - 'symbol:cytoscape-a8c97378:require-nativecreate.function'
+  - 'symbol:cytoscape-a8c97378:hashclear.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashclear.variable'
+  - 'symbol:cytoscape-a8c97378:require-hashclear.function'
+  - 'symbol:cytoscape-a8c97378:hashdelete.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashdelete.variable'
+  - 'symbol:cytoscape-a8c97378:require-hashdelete.function'
+  - 'symbol:cytoscape-a8c97378:hashget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashget.variable'
+  - 'symbol:cytoscape-a8c97378:require-hashget.function'
+  - 'symbol:cytoscape-a8c97378:hashhas.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashhas.variable'
+  - 'symbol:cytoscape-a8c97378:require-hashhas.function'
+  - 'symbol:cytoscape-a8c97378:hashset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hashset.variable'
+  - 'symbol:cytoscape-a8c97378:require-hashset.function'
+  - 'symbol:cytoscape-a8c97378:hash.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-hash.variable'
+  - 'symbol:cytoscape-a8c97378:require-hash.function'
+  - 'symbol:cytoscape-a8c97378:listcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:require-listcacheclear.function'
+  - 'symbol:cytoscape-a8c97378:eq-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredeq.variable'
+  - 'symbol:cytoscape-a8c97378:requireeq.function'
+  - 'symbol:cytoscape-a8c97378:associndexof.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-associndexof.variable'
+  - 'symbol:cytoscape-a8c97378:require-associndexof.function'
+  - 'symbol:cytoscape-a8c97378:listcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:require-listcachedelete.function'
+  - 'symbol:cytoscape-a8c97378:listcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:require-listcacheget.function'
+  - 'symbol:cytoscape-a8c97378:listcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:require-listcachehas.function'
+  - 'symbol:cytoscape-a8c97378:listcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:require-listcacheset.function'
+  - 'symbol:cytoscape-a8c97378:listcache.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-listcache.variable'
+  - 'symbol:cytoscape-a8c97378:require-listcache.function'
+  - 'symbol:cytoscape-a8c97378:map.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-map.variable'
+  - 'symbol:cytoscape-a8c97378:require-map.function'
+  - 'symbol:cytoscape-a8c97378:mapcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcacheclear.variable'
+  - 'symbol:cytoscape-a8c97378:require-mapcacheclear.function'
+  - 'symbol:cytoscape-a8c97378:iskeyable.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-iskeyable.variable'
+  - 'symbol:cytoscape-a8c97378:require-iskeyable.function'
+  - 'symbol:cytoscape-a8c97378:getmapdata.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-getmapdata.variable'
+  - 'symbol:cytoscape-a8c97378:require-getmapdata.function'
+  - 'symbol:cytoscape-a8c97378:mapcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcachedelete.variable'
+  - 'symbol:cytoscape-a8c97378:require-mapcachedelete.function'
+  - 'symbol:cytoscape-a8c97378:mapcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcacheget.variable'
+  - 'symbol:cytoscape-a8c97378:require-mapcacheget.function'
+  - 'symbol:cytoscape-a8c97378:mapcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcachehas.variable'
+  - 'symbol:cytoscape-a8c97378:require-mapcachehas.function'
+  - 'symbol:cytoscape-a8c97378:mapcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcacheset.variable'
+  - 'symbol:cytoscape-a8c97378:require-mapcacheset.function'
+  - 'symbol:cytoscape-a8c97378:mapcache.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-mapcache.variable'
+  - 'symbol:cytoscape-a8c97378:require-mapcache.function'
+  - 'symbol:cytoscape-a8c97378:memoize-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredmemoize.variable'
+  - 'symbol:cytoscape-a8c97378:requirememoize.function'
+  - 'symbol:cytoscape-a8c97378:memoizecapped.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-memoizecapped.variable'
+  - 'symbol:cytoscape-a8c97378:require-memoizecapped.function'
+  - 'symbol:cytoscape-a8c97378:stringtopath.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-stringtopath.variable'
+  - 'symbol:cytoscape-a8c97378:require-stringtopath.function'
+  - 'symbol:cytoscape-a8c97378:arraymap.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-arraymap.variable'
+  - 'symbol:cytoscape-a8c97378:require-arraymap.function'
+  - 'symbol:cytoscape-a8c97378:basetostring.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-basetostring.variable'
+  - 'symbol:cytoscape-a8c97378:require-basetostring.function'
+  - 'symbol:cytoscape-a8c97378:tostring-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredtostring.variable'
+  - 'symbol:cytoscape-a8c97378:requiretostring.function'
+  - 'symbol:cytoscape-a8c97378:castpath.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-castpath.variable'
+  - 'symbol:cytoscape-a8c97378:require-castpath.function'
+  - 'symbol:cytoscape-a8c97378:tokey.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-tokey.variable'
+  - 'symbol:cytoscape-a8c97378:require-tokey.function'
+  - 'symbol:cytoscape-a8c97378:baseget.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseget.variable'
+  - 'symbol:cytoscape-a8c97378:require-baseget.function'
+  - 'symbol:cytoscape-a8c97378:get-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredget.variable'
+  - 'symbol:cytoscape-a8c97378:requireget.function'
+  - 'symbol:cytoscape-a8c97378:getexports.variable'
+  - 'symbol:cytoscape-a8c97378:get.variable'
+  - 'symbol:cytoscape-a8c97378:defineproperty.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-defineproperty.variable'
+  - 'symbol:cytoscape-a8c97378:require-defineproperty.function'
+  - 'symbol:cytoscape-a8c97378:baseassignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseassignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:require-baseassignvalue.function'
+  - 'symbol:cytoscape-a8c97378:assignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-assignvalue.variable'
+  - 'symbol:cytoscape-a8c97378:require-assignvalue.function'
+  - 'symbol:cytoscape-a8c97378:isindex.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-isindex.variable'
+  - 'symbol:cytoscape-a8c97378:require-isindex.function'
+  - 'symbol:cytoscape-a8c97378:baseset.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequired-baseset.variable'
+  - 'symbol:cytoscape-a8c97378:require-baseset.function'
+  - 'symbol:cytoscape-a8c97378:set-1.variable-2'
+  - 'symbol:cytoscape-a8c97378:hasrequiredset.variable'
+  - 'symbol:cytoscape-a8c97378:requireset.function'
+  - 'symbol:cytoscape-a8c97378:setexports.variable'
+  - 'symbol:cytoscape-a8c97378:set.variable'
+  - 'symbol:cytoscape-a8c97378:copyarray.variable-2'
+  - 'symbol:cytoscape-a8c97378:hasrequired-copyarray.variable'
+  - 'symbol:cytoscape-a8c97378:require-copyarray.function'
+  - 'symbol:cytoscape-a8c97378:topath-1.variable'
+  - 'symbol:cytoscape-a8c97378:hasrequiredtopath.variable'
+  - 'symbol:cytoscape-a8c97378:requiretopath.function'
+  - 'symbol:cytoscape-a8c97378:topathexports.variable'
+  - 'symbol:cytoscape-a8c97378:topath.variable'
+  - 'symbol:cytoscape-a8c97378:define-2.variable'
+  - 'symbol:cytoscape-a8c97378:define-1.variable'
+  - 'symbol:cytoscape-a8c97378:define.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-i.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-h.variable'
+  - 'symbol:cytoscape-a8c97378:tokens.variable'
+  - 'symbol:cytoscape-a8c97378:newquery.variable'
+  - 'symbol:cytoscape-a8c97378:type.variable'
+  - 'symbol:cytoscape-a8c97378:stateselectors.variable'
+  - 'symbol:cytoscape-a8c97378:lookup.variable'
+  - 'symbol:cytoscape-a8c97378:stateselectormatches.variable'
+  - 'symbol:cytoscape-a8c97378:stateselectorregex.variable'
+  - 'symbol:cytoscape-a8c97378:cleanmetachars.variable'
+  - 'symbol:cytoscape-a8c97378:replacelastquery.variable'
+  - 'symbol:cytoscape-a8c97378:exprs.variable'
+  - 'symbol:cytoscape-a8c97378:consumeexpr.variable'
+  - 'symbol:cytoscape-a8c97378:consumewhitespace.variable'
+  - 'symbol:cytoscape-a8c97378:parse.variable'
+  - 'symbol:cytoscape-a8c97378:tostring.variable'
+  - 'symbol:cytoscape-a8c97378:parse-1.variable'
+  - 'symbol:cytoscape-a8c97378:valcmp.variable'
+  - 'symbol:cytoscape-a8c97378:boolcmp.variable'
+  - 'symbol:cytoscape-a8c97378:existcmp.variable'
+  - 'symbol:cytoscape-a8c97378:data-1.variable'
+  - 'symbol:cytoscape-a8c97378:meta.variable'
+  - 'symbol:cytoscape-a8c97378:match.variable'
+  - 'symbol:cytoscape-a8c97378:matches-1.variable'
+  - 'symbol:cytoscape-a8c97378:filter.variable'
+  - 'symbol:cytoscape-a8c97378:matches31.variable'
+  - 'symbol:cytoscape-a8c97378:matching.variable'
+  - 'symbol:cytoscape-a8c97378:selector.variable'
+  - 'symbol:cytoscape-a8c97378:selfn.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-g.variable'
+  - 'symbol:cytoscape-a8c97378:cache.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-f.variable'
+  - 'symbol:cytoscape-a8c97378:foreachcompound.function'
+  - 'symbol:cytoscape-a8c97378:addchildren.function'
+  - 'symbol:cytoscape-a8c97378:addparent.function'
+  - 'symbol:cytoscape-a8c97378:addparentandchildren.function'
+  - 'symbol:cytoscape-a8c97378:fn-5.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-e.variable'
+  - 'symbol:cytoscape-a8c97378:data3.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-d.variable'
+  - 'symbol:cytoscape-a8c97378:definedegreefunction.function'
+  - 'symbol:cytoscape-a8c97378:definedegreeboundsfunction.function'
+  - 'symbol:cytoscape-a8c97378:fn-4.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-c.variable'
+  - 'symbol:cytoscape-a8c97378:beforepositionset.variable'
+  - 'symbol:cytoscape-a8c97378:positiondef.variable'
+  - 'symbol:cytoscape-a8c97378:position.variable'
+  - 'symbol:cytoscape-a8c97378:fn-3.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-b.variable'
+  - 'symbol:cytoscape-a8c97378:noninf.variable'
+  - 'symbol:cytoscape-a8c97378:updatebounds.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfrombox.variable'
+  - 'symbol:cytoscape-a8c97378:prefixedproperty.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfromarrow.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfromlabel.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfromoutline.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfrommiter.variable'
+  - 'symbol:cytoscape-a8c97378:updateboundsfrommiterborder.variable'
+  - 'symbol:cytoscape-a8c97378:boundingboximpl.variable'
+  - 'symbol:cytoscape-a8c97378:getkey.variable'
+  - 'symbol:cytoscape-a8c97378:getboundingboxposkey.variable'
+  - 'symbol:cytoscape-a8c97378:cachedboundingboximpl.variable'
+  - 'symbol:cytoscape-a8c97378:defbbopts.variable'
+  - 'symbol:cytoscape-a8c97378:defbboptskey.variable'
+  - 'symbol:cytoscape-a8c97378:filledbbopts.variable'
+  - 'symbol:cytoscape-a8c97378:bounds.variable'
+  - 'symbol:cytoscape-a8c97378:fn-2.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-a.variable'
+  - 'symbol:cytoscape-a8c97378:definedimfns.variable'
+  - 'symbol:cytoscape-a8c97378:widthheight.variable'
+  - 'symbol:cytoscape-a8c97378:ifedge.variable'
+  - 'symbol:cytoscape-a8c97378:ifedgerenderedposition.variable'
+  - 'symbol:cytoscape-a8c97378:ifedgerenderedpositions.variable'
+  - 'symbol:cytoscape-a8c97378:controlpoints.variable'
+  - 'symbol:cytoscape-a8c97378:segmentpoints.variable'
+  - 'symbol:cytoscape-a8c97378:sourceendpoint.variable'
+  - 'symbol:cytoscape-a8c97378:targetendpoint.variable'
+  - 'symbol:cytoscape-a8c97378:midpoint.variable'
+  - 'symbol:cytoscape-a8c97378:pts.variable'
+  - 'symbol:cytoscape-a8c97378:renderedname.variable'
+  - 'symbol:cytoscape-a8c97378:edgepoints.variable'
+  - 'symbol:cytoscape-a8c97378:dimensions.variable'
+  - 'symbol:cytoscape-a8c97378:event.variable-2'
+  - 'symbol:cytoscape-a8c97378:returnfalse.function'
+  - 'symbol:cytoscape-a8c97378:returntrue.function'
+  - 'symbol:cytoscape-a8c97378:eventregex.variable'
+  - 'symbol:cytoscape-a8c97378:universalnamespace.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-8.variable'
+  - 'symbol:cytoscape-a8c97378:defaultskeys.variable'
+  - 'symbol:cytoscape-a8c97378:emptyopts.variable'
+  - 'symbol:cytoscape-a8c97378:emitter.function'
+  - 'symbol:cytoscape-a8c97378:p.variable'
+  - 'symbol:cytoscape-a8c97378:foreachevent.variable'
+  - 'symbol:cytoscape-a8c97378:makeeventobj.variable'
+  - 'symbol:cytoscape-a8c97378:foreacheventobj.variable'
+  - 'symbol:cytoscape-a8c97378:emitteroptions-1.variable'
+  - 'symbol:cytoscape-a8c97378:argselector-1.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-9.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-8.variable'
+  - 'symbol:cytoscape-a8c97378:fn-1.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-7.variable'
+  - 'symbol:cytoscape-a8c97378:zindexsort.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-6.variable'
+  - 'symbol:cytoscape-a8c97378:definesymboliterator.variable'
+  - 'symbol:cytoscape-a8c97378:getlayoutdimensionoptions.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-5.variable'
+  - 'symbol:cytoscape-a8c97378:stylecache.function'
+  - 'symbol:cytoscape-a8c97378:cachestylefunction.function'
+  - 'symbol:cytoscape-a8c97378:cacheprototypestylefunction.function'
+  - 'symbol:cytoscape-a8c97378:elesfn-4.variable'
+  - 'symbol:cytoscape-a8c97378:checkcompound.function'
+  - 'symbol:cytoscape-a8c97378:definederivedstatefunction.function'
+  - 'symbol:cytoscape-a8c97378:eletakesupspace.variable'
+  - 'symbol:cytoscape-a8c97378:eleinteractive.variable'
+  - 'symbol:cytoscape-a8c97378:parentinteractive.variable'
+  - 'symbol:cytoscape-a8c97378:elevisible.variable'
+  - 'symbol:cytoscape-a8c97378:edgevisiblevianode.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn-3.variable'
+  - 'symbol:cytoscape-a8c97378:defineswitchfunction.function'
+  - 'symbol:cytoscape-a8c97378:defineswitchset.function'
+  - 'symbol:cytoscape-a8c97378:elesfn-2.variable'
+  - 'symbol:cytoscape-a8c97378:definedagextremity.variable'
+  - 'symbol:cytoscape-a8c97378:definedagonehop.variable'
+  - 'symbol:cytoscape-a8c97378:definedagallhops.variable'
+  - 'symbol:cytoscape-a8c97378:definesourcefunction.function'
+  - 'symbol:cytoscape-a8c97378:defineedgeswithfunction.function'
+  - 'symbol:cytoscape-a8c97378:defineparalleledgesfunction.function'
+  - 'symbol:cytoscape-a8c97378:collection.variable-2'
+  - 'symbol:cytoscape-a8c97378:elesfn-1.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-9.variable'
+  - 'symbol:cytoscape-a8c97378:generatecubicbezier.function'
+  - 'symbol:cytoscape-a8c97378:generatespringrk4.variable'
+  - 'symbol:cytoscape-a8c97378:cubicbezier.variable'
+  - 'symbol:cytoscape-a8c97378:easings.variable'
+  - 'symbol:cytoscape-a8c97378:geteasedvalue.function'
+  - 'symbol:cytoscape-a8c97378:getvalue.function'
+  - 'symbol:cytoscape-a8c97378:ease.function'
+  - 'symbol:cytoscape-a8c97378:step-1.function'
+  - 'symbol:cytoscape-a8c97378:valid.function'
+  - 'symbol:cytoscape-a8c97378:startanimation.function'
+  - 'symbol:cytoscape-a8c97378:stepall.function'
+  - 'symbol:cytoscape-a8c97378:corefn-8.variable'
+  - 'symbol:cytoscape-a8c97378:emitteroptions.variable'
+  - 'symbol:cytoscape-a8c97378:argselector2.variable'
+  - 'symbol:cytoscape-a8c97378:elesfn.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-7.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-6.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-5.variable'
+  - 'symbol:cytoscape-a8c97378:rendererdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-4.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-3.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-8.variable'
+  - 'symbol:cytoscape-a8c97378:true.variable'
+  - 'symbol:cytoscape-a8c97378:false.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-7.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-6.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-5.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-4.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-3.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-2.variable'
+  - 'symbol:cytoscape-a8c97378:styfn-1.variable'
+  - 'symbol:cytoscape-a8c97378:style.variable'
+  - 'symbol:cytoscape-a8c97378:styfn.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-2.variable'
+  - 'symbol:cytoscape-a8c97378:defaultselectiontype.variable'
+  - 'symbol:cytoscape-a8c97378:corefn-1.variable'
+  - 'symbol:cytoscape-a8c97378:fn2.variable'
+  - 'symbol:cytoscape-a8c97378:core.variable-2'
+  - 'symbol:cytoscape-a8c97378:corefn.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-7.variable'
+  - 'symbol:cytoscape-a8c97378:deprecatedoptiondefaults.variable'
+  - 'symbol:cytoscape-a8c97378:getinfo.variable'
+  - 'symbol:cytoscape-a8c97378:setinfo.variable'
+  - 'symbol:cytoscape-a8c97378:breadthfirstlayout.function'
+  - 'symbol:cytoscape-a8c97378:defaults-6.variable'
+  - 'symbol:cytoscape-a8c97378:circlelayout.function'
+  - 'symbol:cytoscape-a8c97378:defaults-5.variable'
+  - 'symbol:cytoscape-a8c97378:concentriclayout.function'
+  - 'symbol:cytoscape-a8c97378:debug.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-4.variable'
+  - 'symbol:cytoscape-a8c97378:coselayout.function'
+  - 'symbol:cytoscape-a8c97378:createlayoutinfo.variable'
+  - 'symbol:cytoscape-a8c97378:findlca.variable'
+  - 'symbol:cytoscape-a8c97378:findlca-aux.variable'
+  - 'symbol:cytoscape-a8c97378:printlayoutinfo.variable'
+  - 'symbol:cytoscape-a8c97378:randomizepositions.variable'
+  - 'symbol:cytoscape-a8c97378:getscaleinboundsfn.variable'
+  - 'symbol:cytoscape-a8c97378:refreshpositions.variable'
+  - 'symbol:cytoscape-a8c97378:step.variable'
+  - 'symbol:cytoscape-a8c97378:calculatenodeforces.variable'
+  - 'symbol:cytoscape-a8c97378:randomdistance.variable'
+  - 'symbol:cytoscape-a8c97378:noderepulsion2.variable'
+  - 'symbol:cytoscape-a8c97378:nodesoverlap.variable'
+  - 'symbol:cytoscape-a8c97378:findclippingpoint.variable'
+  - 'symbol:cytoscape-a8c97378:calculateedgeforces.variable'
+  - 'symbol:cytoscape-a8c97378:calculategravityforces.variable'
+  - 'symbol:cytoscape-a8c97378:propagateforces.variable'
+  - 'symbol:cytoscape-a8c97378:updatepositions.variable'
+  - 'symbol:cytoscape-a8c97378:limitforce.variable'
+  - 'symbol:cytoscape-a8c97378:updateancestryboundaries.variable'
+  - 'symbol:cytoscape-a8c97378:separatecomponents.variable'
+  - 'symbol:cytoscape-a8c97378:defaults-3.variable'
+  - 'symbol:cytoscape-a8c97378:gridlayout.function'
+  - 'symbol:cytoscape-a8c97378:defaults-2.variable'
+  - 'symbol:cytoscape-a8c97378:nulllayout.function'
+  - 'symbol:cytoscape-a8c97378:defaults-1.variable'
+  - 'symbol:cytoscape-a8c97378:presetlayout.function'
+  - 'symbol:cytoscape-a8c97378:defaults2.variable'
+  - 'symbol:cytoscape-a8c97378:randomlayout.function'
+  - 'symbol:cytoscape-a8c97378:layout3.variable'
+  - 'symbol:cytoscape-a8c97378:nullrenderer.function'
+  - 'symbol:cytoscape-a8c97378:noop2.variable'
+  - 'symbol:cytoscape-a8c97378:throwimgerr.variable'
+  - 'symbol:cytoscape-a8c97378:brp-f.variable'
+  - 'symbol:cytoscape-a8c97378:brp-e.variable'
+  - 'symbol:cytoscape-a8c97378:brp-d.variable'
+  - 'symbol:cytoscape-a8c97378:x.variable'
+  - 'symbol:cytoscape-a8c97378:y.variable'
+  - 'symbol:cytoscape-a8c97378:v1.variable'
+  - 'symbol:cytoscape-a8c97378:v2.variable'
+  - 'symbol:cytoscape-a8c97378:sina.variable'
+  - 'symbol:cytoscape-a8c97378:sina90.variable'
+  - 'symbol:cytoscape-a8c97378:raddirection.variable'
+  - 'symbol:cytoscape-a8c97378:drawdirection.variable'
+  - 'symbol:cytoscape-a8c97378:angle.variable'
+  - 'symbol:cytoscape-a8c97378:halfangle.variable'
+  - 'symbol:cytoscape-a8c97378:cradius.variable'
+  - 'symbol:cytoscape-a8c97378:lenout.variable'
+  - 'symbol:cytoscape-a8c97378:radius.variable'
+  - 'symbol:cytoscape-a8c97378:limit.variable'
+  - 'symbol:cytoscape-a8c97378:startx.variable'
+  - 'symbol:cytoscape-a8c97378:starty.variable'
+  - 'symbol:cytoscape-a8c97378:stopx.variable'
+  - 'symbol:cytoscape-a8c97378:stopy.variable'
+  - 'symbol:cytoscape-a8c97378:lastpoint.variable'
+  - 'symbol:cytoscape-a8c97378:asvec.variable'
+  - 'symbol:cytoscape-a8c97378:invertvec.variable'
+  - 'symbol:cytoscape-a8c97378:calccornerarc.variable'
+  - 'symbol:cytoscape-a8c97378:drawpreparedroundcorner.function'
+  - 'symbol:cytoscape-a8c97378:getroundcorner.function'
+  - 'symbol:cytoscape-a8c97378:avoid-impossible-bezier-constant.variable'
+  - 'symbol:cytoscape-a8c97378:avoid-impossible-bezier-constant-l.variable'
+  - 'symbol:cytoscape-a8c97378:brp-c.variable'
+  - 'symbol:cytoscape-a8c97378:getpts.function'
+  - 'symbol:cytoscape-a8c97378:brp-b.variable'
+  - 'symbol:cytoscape-a8c97378:brp-a.variable'
+  - 'symbol:cytoscape-a8c97378:pushbezierpts.function'
+  - 'symbol:cytoscape-a8c97378:brp-9.variable'
+  - 'symbol:cytoscape-a8c97378:lineanglefromdelta.variable'
+  - 'symbol:cytoscape-a8c97378:lineangle.variable'
+  - 'symbol:cytoscape-a8c97378:bezierangle.variable'
+  - 'symbol:cytoscape-a8c97378:brp-8.variable'
+  - 'symbol:cytoscape-a8c97378:too-small-cut-rect.variable'
+  - 'symbol:cytoscape-a8c97378:warnedcutrect.variable'
+  - 'symbol:cytoscape-a8c97378:brp-7.variable'
+  - 'symbol:cytoscape-a8c97378:brp-6.variable'
+  - 'symbol:cytoscape-a8c97378:brp-5.variable'
+  - 'symbol:cytoscape-a8c97378:brp-4.variable'
+  - 'symbol:cytoscape-a8c97378:brp-3.variable'
+  - 'symbol:cytoscape-a8c97378:brp-2.variable'
+  - 'symbol:cytoscape-a8c97378:brp-1.variable'
+  - 'symbol:cytoscape-a8c97378:beforerendercallbacks.variable'
+  - 'symbol:cytoscape-a8c97378:baserenderer.variable'
+  - 'symbol:cytoscape-a8c97378:br.variable'
+  - 'symbol:cytoscape-a8c97378:brp.variable'
+  - 'symbol:cytoscape-a8c97378:fullfpstime.variable'
+  - 'symbol:cytoscape-a8c97378:defs.variable'
+  - 'symbol:cytoscape-a8c97378:elementtexturecachelookup.variable'
+  - 'symbol:cytoscape-a8c97378:mintxrh.variable'
+  - 'symbol:cytoscape-a8c97378:txrsteph.variable'
+  - 'symbol:cytoscape-a8c97378:minlvl-1.variable'
+  - 'symbol:cytoscape-a8c97378:maxlvl-1.variable'
+  - 'symbol:cytoscape-a8c97378:maxzoom-1.variable'
+  - 'symbol:cytoscape-a8c97378:eletxrspacing.variable'
+  - 'symbol:cytoscape-a8c97378:deftxrwidth.variable'
+  - 'symbol:cytoscape-a8c97378:maxtxrw.variable'
+  - 'symbol:cytoscape-a8c97378:maxtxrh.variable'
+  - 'symbol:cytoscape-a8c97378:minutility.variable'
+  - 'symbol:cytoscape-a8c97378:maxfullness.variable'
+  - 'symbol:cytoscape-a8c97378:maxfullnesschecks.variable'
+  - 'symbol:cytoscape-a8c97378:deqcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqavgcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqnodrawcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqfastcost-1.variable'
+  - 'symbol:cytoscape-a8c97378:deqredrawthreshold-1.variable'
+  - 'symbol:cytoscape-a8c97378:maxdeqsize-1.variable'
+  - 'symbol:cytoscape-a8c97378:gettxrreasons.variable'
+  - 'symbol:cytoscape-a8c97378:initdefaults.variable'
+  - 'symbol:cytoscape-a8c97378:elementtexturecache.variable'
+  - 'symbol:cytoscape-a8c97378:etcp.variable'
+  - 'symbol:cytoscape-a8c97378:defnumlayers.variable'
+  - 'symbol:cytoscape-a8c97378:minlvl.variable'
+  - 'symbol:cytoscape-a8c97378:maxlvl.variable'
+  - 'symbol:cytoscape-a8c97378:maxzoom2.variable'
+  - 'symbol:cytoscape-a8c97378:deqredrawthreshold.variable'
+  - 'symbol:cytoscape-a8c97378:refineeledebouncetime.variable'
+  - 'symbol:cytoscape-a8c97378:deqcost.variable'
+  - 'symbol:cytoscape-a8c97378:deqavgcost.variable'
+  - 'symbol:cytoscape-a8c97378:deqnodrawcost.variable'
+  - 'symbol:cytoscape-a8c97378:deqfastcost.variable'
+  - 'symbol:cytoscape-a8c97378:maxdeqsize.variable'
+  - 'symbol:cytoscape-a8c97378:invalidthreshold.variable'
+  - 'symbol:cytoscape-a8c97378:maxlayerarea.variable'
+  - 'symbol:cytoscape-a8c97378:maxlayerdim.variable'
+  - 'symbol:cytoscape-a8c97378:usehighqualityeletxrreqs.variable'
+  - 'symbol:cytoscape-a8c97378:layeredtexturecache.variable'
+  - 'symbol:cytoscape-a8c97378:ltcp.variable'
+  - 'symbol:cytoscape-a8c97378:layeridpool.variable'
+  - 'symbol:cytoscape-a8c97378:max-int.variable'
+  - 'symbol:cytoscape-a8c97378:crp-b.variable'
+  - 'symbol:cytoscape-a8c97378:impl.variable'
+  - 'symbol:cytoscape-a8c97378:polygon.function'
+  - 'symbol:cytoscape-a8c97378:trianglebackcurve.function'
+  - 'symbol:cytoscape-a8c97378:triangletee.function'
+  - 'symbol:cytoscape-a8c97378:circletriangle.function'
+  - 'symbol:cytoscape-a8c97378:circle-1.function'
+  - 'symbol:cytoscape-a8c97378:crp-a.variable'
+  - 'symbol:cytoscape-a8c97378:getzerorotation.variable'
+  - 'symbol:cytoscape-a8c97378:getlabelrotation.variable'
+  - 'symbol:cytoscape-a8c97378:getsourcelabelrotation.variable'
+  - 'symbol:cytoscape-a8c97378:gettargetlabelrotation.variable'
+  - 'symbol:cytoscape-a8c97378:getopacity.variable'
+  - 'symbol:cytoscape-a8c97378:gettextopacity.variable'
+  - 'symbol:cytoscape-a8c97378:crp-9.variable'
+  - 'symbol:cytoscape-a8c97378:drawedgeoverlayunderlay.variable'
+  - 'symbol:cytoscape-a8c97378:crp-8.variable'
+  - 'symbol:cytoscape-a8c97378:crp-7.variable'
+  - 'symbol:cytoscape-a8c97378:circle.function'
+  - 'symbol:cytoscape-a8c97378:roundrect.function'
+  - 'symbol:cytoscape-a8c97378:crp-6.variable'
+  - 'symbol:cytoscape-a8c97378:drawnodeoverlayunderlay.variable'
+  - 'symbol:cytoscape-a8c97378:crp-5.variable'
+  - 'symbol:cytoscape-a8c97378:motionblurdelay.variable'
+  - 'symbol:cytoscape-a8c97378:fpsheight.variable'
+  - 'symbol:cytoscape-a8c97378:compileshader.function'
+  - 'symbol:cytoscape-a8c97378:createprogram.function'
+  - 'symbol:cytoscape-a8c97378:createtexturecanvas.function'
+  - 'symbol:cytoscape-a8c97378:geteffectivepanzoom.function'
+  - 'symbol:cytoscape-a8c97378:geteffectivezoom.function'
+  - 'symbol:cytoscape-a8c97378:modeltorenderedposition2.function'
+  - 'symbol:cytoscape-a8c97378:issimpleshape.function'
+  - 'symbol:cytoscape-a8c97378:arrayequal.function'
+  - 'symbol:cytoscape-a8c97378:towebglcolor.function'
+  - 'symbol:cytoscape-a8c97378:indextovec4.function'
+  - 'symbol:cytoscape-a8c97378:vec4toindex.function'
+  - 'symbol:cytoscape-a8c97378:createtexture.function'
+  - 'symbol:cytoscape-a8c97378:gettypeinfo.function'
+  - 'symbol:cytoscape-a8c97378:createtypedarray.function'
+  - 'symbol:cytoscape-a8c97378:createtypedarrayview.function'
+  - 'symbol:cytoscape-a8c97378:createbufferstaticdraw.function'
+  - 'symbol:cytoscape-a8c97378:createbufferdynamicdraw.function'
+  - 'symbol:cytoscape-a8c97378:create3x3matrixbufferdynamicdraw.function'
+  - 'symbol:cytoscape-a8c97378:createpickingframebuffer.function'
+  - 'symbol:cytoscape-a8c97378:array-type.variable'
+  - 'symbol:cytoscape-a8c97378:create.function'
+  - 'symbol:cytoscape-a8c97378:identity2.function'
+  - 'symbol:cytoscape-a8c97378:multiply.function'
+  - 'symbol:cytoscape-a8c97378:translate.function'
+  - 'symbol:cytoscape-a8c97378:rotate.function'
+  - 'symbol:cytoscape-a8c97378:scale.function'
+  - 'symbol:cytoscape-a8c97378:projection.function'
+  - 'symbol:cytoscape-a8c97378:atlas.variable'
+  - 'symbol:cytoscape-a8c97378:atlascollection.variable'
+  - 'symbol:cytoscape-a8c97378:intersection.function'
+  - 'symbol:cytoscape-a8c97378:atlasmanager.variable'
+  - 'symbol:cytoscape-a8c97378:atlasbatchmanager.variable'
+  - 'symbol:cytoscape-a8c97378:circlesd.variable'
+  - 'symbol:cytoscape-a8c97378:rectanglesd.variable'
+  - 'symbol:cytoscape-a8c97378:roundrectanglesd.variable'
+  - 'symbol:cytoscape-a8c97378:ellipsesd.variable'
+  - 'symbol:cytoscape-a8c97378:render-target.variable'
+  - 'symbol:cytoscape-a8c97378:tex-picking-mode.variable'
+  - 'symbol:cytoscape-a8c97378:texture.variable'
+  - 'symbol:cytoscape-a8c97378:edge-straight.variable'
+  - 'symbol:cytoscape-a8c97378:edge-curve-segment.variable'
+  - 'symbol:cytoscape-a8c97378:edge-arrow.variable'
+  - 'symbol:cytoscape-a8c97378:rectangle.variable'
+  - 'symbol:cytoscape-a8c97378:round-rectangle.variable'
+  - 'symbol:cytoscape-a8c97378:bottom-round-rectangle.variable'
+  - 'symbol:cytoscape-a8c97378:ellipse.variable'
+  - 'symbol:cytoscape-a8c97378:elementdrawingwebgl.variable'
+  - 'symbol:cytoscape-a8c97378:crp-4.variable'
+  - 'symbol:cytoscape-a8c97378:getbgcolor.function'
+  - 'symbol:cytoscape-a8c97378:getlabellines.function'
+  - 'symbol:cytoscape-a8c97378:getstylekeysforlabel.variable'
+  - 'symbol:cytoscape-a8c97378:getboundingboxforlabel.variable'
+  - 'symbol:cytoscape-a8c97378:overridecanvasrendererfunctions.function'
+  - 'symbol:cytoscape-a8c97378:clearwebgl.function'
+  - 'symbol:cytoscape-a8c97378:clearcanvas.function'
+  - 'symbol:cytoscape-a8c97378:createpanzoommatrix.function'
+  - 'symbol:cytoscape-a8c97378:setcontexttransform.function'
+  - 'symbol:cytoscape-a8c97378:drawselectionrectangle.function'
+  - 'symbol:cytoscape-a8c97378:drawaxes.function'
+  - 'symbol:cytoscape-a8c97378:drawatlases.function'
+  - 'symbol:cytoscape-a8c97378:getpickingindexes.function'
+  - 'symbol:cytoscape-a8c97378:findnearestelementswebgl.function'
+  - 'symbol:cytoscape-a8c97378:drawele.function'
+  - 'symbol:cytoscape-a8c97378:renderwebgl.function'
+  - 'symbol:cytoscape-a8c97378:crp-3.variable'
+  - 'symbol:cytoscape-a8c97378:sin0.variable'
+  - 'symbol:cytoscape-a8c97378:cos0.variable'
+  - 'symbol:cytoscape-a8c97378:sin.variable'
+  - 'symbol:cytoscape-a8c97378:cos.variable'
+  - 'symbol:cytoscape-a8c97378:ellipsestepsize.variable'
+  - 'symbol:cytoscape-a8c97378:i.variable'
+  - 'symbol:cytoscape-a8c97378:crp-2.variable'
+  - 'symbol:cytoscape-a8c97378:b64toblob.function'
+  - 'symbol:cytoscape-a8c97378:b64uritob64.function'
+  - 'symbol:cytoscape-a8c97378:output.function'
+  - 'symbol:cytoscape-a8c97378:crp-1.variable'
+  - 'symbol:cytoscape-a8c97378:cr.variable'
+  - 'symbol:cytoscape-a8c97378:crp.variable'
+  - 'symbol:cytoscape-a8c97378:canvasrenderer.function'
+  - 'symbol:cytoscape-a8c97378:pathsimpld.variable'
+  - 'symbol:cytoscape-a8c97378:renderer2.variable'
+  - 'symbol:cytoscape-a8c97378:incexts.variable'
+  - 'symbol:cytoscape-a8c97378:extensions.variable'
+  - 'symbol:cytoscape-a8c97378:modules.variable'
+  - 'symbol:cytoscape-a8c97378:setextension.function'
+  - 'symbol:cytoscape-a8c97378:getextension.function'
+  - 'symbol:cytoscape-a8c97378:setmodule.function'
+  - 'symbol:cytoscape-a8c97378:getmodule.function'
+  - 'symbol:cytoscape-a8c97378:extension.variable'
+  - 'symbol:cytoscape-a8c97378:stylesheet.variable-2'
+  - 'symbol:cytoscape-a8c97378:sheetfn.variable'
+  - 'symbol:cytoscape-a8c97378:version.variable'
+  - 'symbol:cytoscape-a8c97378:cytoscape.variable'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T05:11:46.014Z'
+updated_at: '2026-05-03T05:32:23.210Z'
+compiled_from:
+  - cytoscape-a8c97378
+managed_by: system
+backlinks:
+  - 'source:cytoscape-a8c97378'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'output:source-briefs/directory-op-597d97ce'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  cytoscape-a8c97378: a8c97378444cc54f5c576f9348fe70b955e191defbcb3657e0e2445a7a0ab729
+source_semantic_hashes:
+  cytoscape-a8c97378: a8c97378444cc54f5c576f9348fe70b955e191defbcb3657e0e2445a7a0ab729
+related_page_ids:
+  - 'source:cytoscape-a8c97378'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'output:source-briefs/directory-op-597d97ce'
+related_node_ids: []
+related_source_ids:
+  - cytoscape-a8c97378
+  - chunk-busya2b4-a9582e69
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
+  - 10-pistol-c4a46637
+  - 11-bundle-d20d9270
+  - 12-profession-6a98045a
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
+  - 15-black-dfde2647
+  - 16-migrations-115e9686
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
+  - 19-mongodb-ff331c30
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
+  - 3-bleed-09df896e
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-a144e02d
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-js-ed562b0b
+  - composer-2fcc293f
+  - composer-61edd1a7
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
+  - demotest-276ee805
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
+  - dogshop-de2fc247
+  - dogshop-invalid-17d19246
+  - donothing-0c30237f
+  - dream-17b190f1
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
+  - gitignore-1c7e0952
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
+  - instruction-v1-ce2b773a
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
+  - jsonvalidation-a88469ee
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
+  - licenserc-40040b08
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
+  - session-7a75f197
+  - stempler-a4483274
+  - swarmvault-config-json-84915e3f
+  - taskfile-f98ae8d6
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-primitive-range-conjecture-c5c69b80
+  - the-understory-69c901f2
+  - three-atoms-f9d1fbb2
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-roadmap-cdd00ede
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
+  - welcome-049f9ac7
+language: javascript
+---
+# cytoscape module
+
+Source ID: `cytoscape-a8c97378`
+Source Path: `/Users/rk/GolandProjects/op/docs/.vitepress/cache/deps/cytoscape.js`
+Repo Path: `docs/.vitepress/cache/deps/cytoscape.js`
+Source Class: `first_party`
+Language: `javascript`
+Module Name: `docs/.vitepress/cache/deps/cytoscape`
+Source Page: [[sources/cytoscape-a8c97378|cytoscape]]
+
+## Summary
+
+cytoscape is a javascript module, defining 929 top-level symbol(s), exporting 0 symbol(s), importing 1 local module(s).
+
+## Imports
+
+- imports [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]]
+
+## Exports
+
+- `cytoscape as default`
+
+## Symbols
+
+- `_arrayLikeToArray` (function): function _arrayLikeToArray(r, a)
+- `_arrayWithHoles` (function): function _arrayWithHoles(r)
+- `_arrayWithoutHoles` (function): function _arrayWithoutHoles(r)
+- `_classCallCheck` (function): function _classCallCheck(a, n)
+- `_defineProperties` (function): function _defineProperties(e, r)
+- `_createClass` (function): function _createClass(e, r, t)
+- `_createForOfIteratorHelper` (function): function _createForOfIteratorHelper(r, e)
+- `_defineProperty$1` (function): function _defineProperty$1(e, r, t)
+- `_iterableToArray` (function): function _iterableToArray(r)
+- `_iterableToArrayLimit` (function): function _iterableToArrayLimit(r, l)
+- `_nonIterableRest` (function): function _nonIterableRest()
+- `_nonIterableSpread` (function): function _nonIterableSpread()
+- `_slicedToArray` (function): function _slicedToArray(r, e)
+- `_toConsumableArray` (function): function _toConsumableArray(r)
+- `_toPrimitive` (function): function _toPrimitive(t, r)
+- `_toPropertyKey` (function): function _toPropertyKey(t)
+- `_typeof` (function): function _typeof(o)
+- `_unsupportedIterableToArray` (function): function _unsupportedIterableToArray(r, a)
+- `_window` (variable): var _window = typeof window === "undefined" ? null : window;
+- `navigator` (variable): var navigator = _window ? _window.navigator : null;
+- `typeofstr` (variable): var typeofstr = _typeof("");
+- `typeofobj` (variable): var typeofobj = _typeof({});
+- `typeoffn` (variable): var typeoffn = _typeof(function() { });
+- `typeofhtmlele` (variable): var typeofhtmlele = typeof HTMLElement === "undefined" ? "undefined" : _typeof(HTMLElement);
+- `instanceStr` (variable): var instanceStr = function instanceStr2(obj) { return obj && obj.instanceString && fn$6(obj.instanceString) ? obj.instanceString() : null; };
+- `string` (variable): var string = function string2(obj) { return obj != null && _typeof(obj) == typeofstr; };
+- `fn$6` (variable): var fn$6 = function fn(obj) { return obj != null && _typeof(obj) === typeoffn; };
+- `array` (variable): var array = function array2(obj) { return !elementOrCollection(obj) && (Array.isArray ? Array.isArray(obj) : obj != null && obj instanceof Array); };
+- `plainObject` (variable): var plainObject = function plainObject2(obj) { return obj != null && _typeof(obj) === typeofobj && !array(obj) && obj.constructor === Object; };
+- `object` (variable): var object = function object2(obj) { return obj != null && _typeof(obj) === typeofobj; };
+- `number$1` (variable): var number$1 = function number(obj) { return obj != null && _typeof(obj) === _typeof(1) && !isNaN(obj); };
+- `integer` (variable): var integer = function integer2(obj) { return number$1(obj) && Math.floor(obj) === obj; };
+- `htmlElement` (variable): var htmlElement = function htmlElement2(obj) { if ("undefined" === typeofhtmlele) { return void 0; } else { return null != obj && obj instanceof HTMLElement; } };
+- `elementOrCollection` (variable): var elementOrCollection = function elementOrCollection2(obj) { return element(obj) || collection(obj); };
+- `element` (variable): var element = function element2(obj) { return instanceStr(obj) === "collection" && obj._private.single; };
+- `collection` (variable): var collection = function collection2(obj) { return instanceStr(obj) === "collection" && !obj._private.single; };
+- `core` (variable): var core = function core2(obj) { return instanceStr(obj) === "core"; };
+- `stylesheet` (variable): var stylesheet = function stylesheet2(obj) { return instanceStr(obj) === "stylesheet"; };
+- `event` (variable): var event = function event2(obj) { return instanceStr(obj) === "event"; };
+- `emptyString` (variable): var emptyString = function emptyString2(obj) { if (obj === void 0 || obj === null) { return true; } else if (obj === "" || obj.match(/^\s+$/)) { return true; } return false; };
+- `domElement` (variable): var domElement = function domElement2(obj) { if (typeof HTMLElement === "undefined") { return false; } else { return obj instanceof HTMLElement; } };
+- `boundingBox` (variable): var boundingBox = function boundingBox2(obj) { return plainObject(obj) && number$1(obj.x1) && number$1(obj.x2) && number$1(obj.y1) && number$1(obj.y2); };
+- `promise` (variable): var promise = function promise2(obj) { return object(obj) && fn$6(obj.then); };
+- `ms` (variable): var ms = function ms2() { return navigator && navigator.userAgent.match(/msie|trident|edge/i); };
+- `memoize` (variable): var memoize = function memoize2(fn3, keyFn) { if (!keyFn) { keyFn = function keyFn2() { if (arguments.length === 1) { return arguments[0]; } else if (arguments.length === 0) { r...
+- `camel2dash` (variable): var camel2dash = memoize(function(str) { return str.replace(/([A-Z])/g, function(v) { return "-" + v.toLowerCase(); }); });
+- `dash2camel` (variable): var dash2camel = memoize(function(str) { return str.replace(/(-\w)/g, function(v) { return v[1].toUpperCase(); }); });
+- `prependCamel` (variable): var prependCamel = memoize(function(prefix, str) { return prefix + str[0].toUpperCase() + str.substring(1); }, function(prefix, str) { return prefix + "$" + str; });
+- `capitalize` (variable): var capitalize = function capitalize2(str) { if (emptyString(str)) { return str; } return str.charAt(0).toUpperCase() + str.substring(1); };
+- `endsWith` (variable): var endsWith = function endsWith2(string3, suffix) { return string3.slice(-1 * suffix.length) === suffix; };
+- `number2` (variable): var number2 = "(?:[-+]?(?:(?:\\d+|\\d*\\.\\d+)(?:[Ee][+-]?\\d+)?))";
+- `rgba` (variable): var rgba = "rgb[a]?\\((" + number2 + "[%]?)\\s*,\\s*(" + number2 + "[%]?)\\s*,\\s*(" + number2 + "[%]?)(?:\\s*,\\s*(" + number2 + "))?\\)";
+- `rgbaNoBackRefs` (variable): var rgbaNoBackRefs = "rgb[a]?\\((?:" + number2 + "[%]?)\\s*,\\s*(?:" + number2 + "[%]?)\\s*,\\s*(?:" + number2 + "[%]?)(?:\\s*,\\s*(?:" + number2 + "))?\\)";
+- `hsla` (variable): var hsla = "hsl[a]?\\((" + number2 + ")\\s*,\\s*(" + number2 + "[%])\\s*,\\s*(" + number2 + "[%])(?:\\s*,\\s*(" + number2 + "))?\\)";
+- `hslaNoBackRefs` (variable): var hslaNoBackRefs = "hsl[a]?\\((?:" + number2 + ")\\s*,\\s*(?:" + number2 + "[%])\\s*,\\s*(?:" + number2 + "[%])(?:\\s*,\\s*(?:" + number2 + "))?\\)";
+- `hex3` (variable): var hex3 = "\\#[0-9a-fA-F]{3}";
+- `hex6` (variable): var hex6 = "\\#[0-9a-fA-F]{6}";
+- `ascending` (variable): var ascending = function ascending2(a, b) { if (a < b) { return -1; } else if (a > b) { return 1; } else { return 0; } };
+- `descending` (variable): var descending = function descending2(a, b) { return -1 * ascending(a, b); };
+- `extend` (variable): var extend = Object.assign != null ? Object.assign.bind(Object) : function(tgt) { var args = arguments; for (var i = 1; i < args.length; i++) { var obj = args[i]; if (obj == nul...
+- `hex2tuple` (variable): var hex2tuple = function hex2tuple2(hex) { if (!(hex.length === 4 || hex.length === 7) || hex[0] !== "#") { return; } var shortHex = hex.length === 4; var r, g, b; var base = 16...
+- `hsl2tuple` (variable): var hsl2tuple = function hsl2tuple2(hsl) { var ret; var h, s, l, a, r, g, b; function hue2rgb(p3, q2, t) { if (t < 0) t += 1; if (t > 1) t -= 1; if (t < 1 / 6) return p3 + (q2 -...
+- `rgb2tuple` (variable): var rgb2tuple = function rgb2tuple2(rgb) { var ret; var m = new RegExp("^" + rgba + "$").exec(rgb); if (m) { ret = []; var isPct = []; for (var i = 1; i <= 3; i++) { var channel...
+- `colorname2tuple` (variable): var colorname2tuple = function colorname2tuple2(color) { return colors[color.toLowerCase()]; };
+- `color2tuple` (variable): var color2tuple = function color2tuple2(color) { return (array(color) ? color : null) || colorname2tuple(color) || hex2tuple(color) || rgb2tuple(color) || hsl2tuple(color); };
+- `colors` (variable): var colors = { // special colour names transparent: [0, 0, 0, 0], // NB alpha === 0 // regular colours aliceblue: [240, 248, 255], antiquewhite: [250, 235, 215], aqua: [0, 255, ...
+- `setMap` (variable): var setMap = function setMap2(options2) { var obj = options2.map; var keys = options2.keys; var l = keys.length; for (var i = 0; i < l; i++) { var key = keys[i]; if (plainObject...
+- `getMap` (variable): var getMap = function getMap2(options2) { var obj = options2.map; var keys = options2.keys; var l = keys.length; for (var i = 0; i < l; i++) { var key = keys[i]; if (plainObject...
+- `commonjsGlobal` (variable): var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefine...
+- `getDefaultExportFromCjs` (function): function getDefaultExportFromCjs(x2)
+- `isObject_1` (variable): var isObject_1;
+- `hasRequiredIsObject` (variable): var hasRequiredIsObject;
+- `requireIsObject` (function): function requireIsObject()
+- `_freeGlobal` (variable): var _freeGlobal;
+- `hasRequired_freeGlobal` (variable): var hasRequired_freeGlobal;
+- `require_freeGlobal` (function): function require_freeGlobal()
+- `_root` (variable): var _root;
+- `hasRequired_root` (variable): var hasRequired_root;
+- `require_root` (function): function require_root()
+- `now_1` (variable): var now_1;
+- `hasRequiredNow` (variable): var hasRequiredNow;
+- `requireNow` (function): function requireNow()
+- `_trimmedEndIndex` (variable): var _trimmedEndIndex;
+- `hasRequired_trimmedEndIndex` (variable): var hasRequired_trimmedEndIndex;
+- `require_trimmedEndIndex` (function): function require_trimmedEndIndex()
+- `_baseTrim` (variable): var _baseTrim;
+- `hasRequired_baseTrim` (variable): var hasRequired_baseTrim;
+- `require_baseTrim` (function): function require_baseTrim()
+- `_Symbol` (variable): var _Symbol;
+- `hasRequired_Symbol` (variable): var hasRequired_Symbol;
+- `require_Symbol` (function): function require_Symbol()
+- `_getRawTag` (variable): var _getRawTag;
+- `hasRequired_getRawTag` (variable): var hasRequired_getRawTag;
+- `require_getRawTag` (function): function require_getRawTag()
+- `_objectToString` (variable): var _objectToString;
+- `hasRequired_objectToString` (variable): var hasRequired_objectToString;
+- `require_objectToString` (function): function require_objectToString()
+- `_baseGetTag` (variable): var _baseGetTag;
+- `hasRequired_baseGetTag` (variable): var hasRequired_baseGetTag;
+- `require_baseGetTag` (function): function require_baseGetTag()
+- `isObjectLike_1` (variable): var isObjectLike_1;
+- `hasRequiredIsObjectLike` (variable): var hasRequiredIsObjectLike;
+- `requireIsObjectLike` (function): function requireIsObjectLike()
+- `isSymbol_1` (variable): var isSymbol_1;
+- `hasRequiredIsSymbol` (variable): var hasRequiredIsSymbol;
+- `requireIsSymbol` (function): function requireIsSymbol()
+- `toNumber_1` (variable): var toNumber_1;
+- `hasRequiredToNumber` (variable): var hasRequiredToNumber;
+- `requireToNumber` (function): function requireToNumber()
+- `debounce_1` (variable): var debounce_1;
+- `hasRequiredDebounce` (variable): var hasRequiredDebounce;
+- `requireDebounce` (function): function requireDebounce()
+- `debounceExports` (variable): var debounceExports = requireDebounce();
+- `debounce` (variable): var debounce = getDefaultExportFromCjs(debounceExports);
+- `performance$1` (variable): var performance$1 = _window ? _window.performance : null;
+- `pnow` (variable): var pnow = performance$1 && performance$1.now ? function() { return performance$1.now(); } : function() { return Date.now(); };
+- `raf` (variable): var raf = function() { if (_window) { if (_window.requestAnimationFrame) { return function(fn3) { _window.requestAnimationFrame(fn3); }; } else if (_window.mozRequestAnimationFr...
+- `requestAnimationFrame` (variable): var requestAnimationFrame = function requestAnimationFrame2(fn3) { return raf(fn3); };
+- `performanceNow` (variable): var performanceNow = pnow;
+- `DEFAULT_HASH_SEED` (variable): var DEFAULT_HASH_SEED = 9261;
+- `K` (variable): var K = 65599;
+- `DEFAULT_HASH_SEED_ALT` (variable): var DEFAULT_HASH_SEED_ALT = 5381;
+- `hashIterableInts` (variable): var hashIterableInts = function hashIterableInts2(iterator) { var seed = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : DEFAULT_HASH_SEED; var hash = seed; var...
+- `hashInt` (variable): var hashInt = function hashInt2(num) { var seed = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : DEFAULT_HASH_SEED; return seed * K + num | 0; };
+- `hashIntAlt` (variable): var hashIntAlt = function hashIntAlt2(num) { var seed = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : DEFAULT_HASH_SEED_ALT; return (seed << 5) + seed + num |...
+- `combineHashes` (variable): var combineHashes = function combineHashes2(hash1, hash2) { return hash1 * 2097152 + hash2; };
+- `combineHashesArray` (variable): var combineHashesArray = function combineHashesArray2(hashes) { return hashes[0] * 2097152 + hashes[1]; };
+- `hashArrays` (variable): var hashArrays = function hashArrays2(hashes1, hashes2) { return [hashInt(hashes1[0], hashes2[0]), hashIntAlt(hashes1[1], hashes2[1])]; };
+- `hashIntsArray` (variable): var hashIntsArray = function hashIntsArray2(ints, seed) { var entry = { value: 0, done: false }; var i = 0; var length = ints.length; var iterator = { next: function next() { if...
+- `hashString` (variable): var hashString = function hashString2(str, seed) { var entry = { value: 0, done: false }; var i = 0; var length = str.length; var iterator = { next: function next() { if (i < le...
+- `hashStrings` (variable): var hashStrings = function hashStrings2() { return hashStringsArray(arguments); };
+- `hashStringsArray` (variable): var hashStringsArray = function hashStringsArray2(strs) { var hash; for (var i = 0; i < strs.length; i++) { var str = strs[i]; if (i === 0) { hash = hashString(str); } else { ha...
+- `rotatePoint` (function): function rotatePoint(x2, y2, centerX, centerY, angleDegrees)
+- `movePointByBoxAspect` (variable): var movePointByBoxAspect = function movePointByBoxAspect2(x2, y2, boxX, boxY, skewX, skewY) { return { x: (x2 - boxX) * skewX + boxX, y: (y2 - boxY) * skewY + boxY }; };
+- `rotatePosAndSkewByBox` (function): function rotatePosAndSkewByBox(pos, box, angleDegrees)
+- `warningsEnabled` (variable): var warningsEnabled = true;
+- `warnSupported` (variable): var warnSupported = console.warn != null;
+- `traceSupported` (variable): var traceSupported = console.trace != null;
+- `MAX_INT$1` (variable): var MAX_INT$1 = Number.MAX_SAFE_INTEGER || 9007199254740991;
+- `trueify` (variable): var trueify = function trueify2() { return true; };
+- `falsify` (variable): var falsify = function falsify2() { return false; };
+- `zeroify` (variable): var zeroify = function zeroify2() { return 0; };
+- `noop$1` (variable): var noop$1 = function noop() { };
+- `error` (variable): var error = function error2(msg) { throw new Error(msg); };
+- `warnings` (variable): var warnings = function warnings2(enabled) { if (enabled !== void 0) { warningsEnabled = !!enabled; } else { return warningsEnabled; } };
+- `warn` (variable): var warn = function warn2(msg) { if (!warnings()) { return; } if (warnSupported) { console.warn(msg); } else { console.log(msg); if (traceSupported) { console.trace(); } } };
+- `clone` (variable): var clone = function clone2(obj) { return extend({}, obj); };
+- `copy` (variable): var copy = function copy2(obj) { if (obj == null) { return obj; } if (array(obj)) { return obj.slice(); } else if (plainObject(obj)) { return clone(obj); } else { return obj; } };
+- `copyArray` (variable): var copyArray = function copyArray2(arr) { return arr.slice(); };
+- `uuid` (variable): var uuid = function uuid2(a, b) { for ( // loop :) b = a = ""; // b - result , a - numeric letiable a++ < 36; // b += a * 51 & 52 ? ( // return a random number or 4 (a ^ 15 ? ( ...
+- `_staticEmptyObject` (variable): var _staticEmptyObject = {};
+- `staticEmptyObject` (variable): var staticEmptyObject = function staticEmptyObject2() { return _staticEmptyObject; };
+- `defaults$g` (variable): var defaults$g = function defaults(_defaults) { var keys = Object.keys(_defaults); return function(opts) { var filledOpts = {}; for (var i = 0; i < keys.length; i++) { var key =...
+- `removeFromArray` (variable): var removeFromArray = function removeFromArray2(arr, ele, oneCopy) { for (var i = arr.length - 1; i >= 0; i--) { if (arr[i] === ele) { arr.splice(i, 1); } } };
+- `clearArray` (variable): var clearArray = function clearArray2(arr) { arr.splice(0, arr.length); };
+- `push` (variable): var push = function push2(arr, otherArr) { for (var i = 0; i < otherArr.length; i++) { var el = otherArr[i]; arr.push(el); } };
+- `getPrefixedProperty` (variable): var getPrefixedProperty = function getPrefixedProperty2(obj, propName, prefix) { if (prefix) { propName = prependCamel(prefix, propName); } return obj[propName]; };
+- `setPrefixedProperty` (variable): var setPrefixedProperty = function setPrefixedProperty2(obj, propName, prefix, value) { if (prefix) { propName = prependCamel(prefix, propName); } obj[propName] = value; };
+- `ObjectMap` (variable): var ObjectMap = function() { function ObjectMap2() { _classCallCheck(this, ObjectMap2); this._obj = {}; } return _createClass(ObjectMap2, [{ key: "set", value: function set2(key...
+- `Map$1` (variable): var Map$1 = typeof Map !== "undefined" ? Map : ObjectMap;
+- `undef` (variable): var undef = "undefined";
+- `ObjectSet` (variable): var ObjectSet = function() { function ObjectSet2(arrayOrObjectSet) { _classCallCheck(this, ObjectSet2); this._obj = /* @__PURE__ */ Object.create(null); this.size = 0; if (array...
+- `Set$1` (variable): var Set$1 = (typeof Set === "undefined" ? "undefined" : _typeof(Set)) !== undef ? Set : ObjectSet;
+- `Element` (variable): var Element = function Element2(cy, params) { var restore = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : true; if (cy === void 0 || params === void 0 || !cor...
+- `defineSearch` (variable): var defineSearch = function defineSearch2(params) { params = { bfs: params.bfs || !params.dfs, dfs: params.dfs || !params.bfs }; return function searchFn(roots, fn3, directed) {...
+- `elesfn$v` (variable): var elesfn$v = { breadthFirstSearch: defineSearch({ bfs: true }), depthFirstSearch: defineSearch({ dfs: true }) };
+- `heap$2` (variable): var heap$2 = { exports: {} };
+- `heap$1` (variable): var heap$1 = heap$2.exports;
+- `hasRequiredHeap$1` (variable): var hasRequiredHeap$1;
+- `requireHeap$1` (function): function requireHeap$1()
+- `heap` (variable): var heap;
+- `hasRequiredHeap` (variable): var hasRequiredHeap;
+- `requireHeap` (function): function requireHeap()
+- `heapExports` (variable): var heapExports = requireHeap();
+- `Heap` (variable): var Heap = getDefaultExportFromCjs(heapExports);
+- `dijkstraDefaults` (variable): var dijkstraDefaults = defaults$g({ root: null, weight: function weight(edge) { return 1; }, directed: false });
+- `elesfn$u` (variable): var elesfn$u = { dijkstra: function dijkstra(options2) { if (!plainObject(options2)) { var args = arguments; options2 = { root: args[0], weight: args[1], directed: args[2] }; } ...
+- `elesfn$t` (variable): var elesfn$t = { // kruskal's algorithm (finds min spanning tree, assuming undirected graph) // implemented from pseudocode from wikipedia kruskal: function kruskal(weightFn) { ...
+- `aStarDefaults` (variable): var aStarDefaults = defaults$g({ root: null, goal: null, weight: function weight2(edge) { return 1; }, heuristic: function heuristic(edge) { return 0; }, directed: false });
+- `elesfn$s` (variable): var elesfn$s = { // Implemented from pseudocode from wikipedia aStar: function aStar(options2) { var cy = this.cy(); var _aStarDefaults = aStarDefaults(options2), root = _aStarD...
+- `floydWarshallDefaults` (variable): var floydWarshallDefaults = defaults$g({ weight: function weight3(edge) { return 1; }, directed: false });
+- `elesfn$r` (variable): var elesfn$r = { // Implemented from pseudocode from wikipedia floydWarshall: function floydWarshall(options2) { var cy = this.cy(); var _floydWarshallDefault = floydWarshallDef...
+- `bellmanFordDefaults` (variable): var bellmanFordDefaults = defaults$g({ weight: function weight4(edge) { return 1; }, directed: false, root: null });
+- `elesfn$q` (variable): var elesfn$q = { // Implemented from pseudocode from wikipedia bellmanFord: function bellmanFord(options2) { var _this = this; var _bellmanFordDefaults = bellmanFordDefaults(opt...
+- `sqrt2` (variable): var sqrt2 = Math.sqrt(2);
+- `collapse` (variable): var collapse = function collapse2(edgeIndex, nodeMap, remainingEdges) { if (remainingEdges.length === 0) { error("Karger-Stein must be run on a connected (sub)graph"); } var edg...
+- `contractUntil` (variable): var contractUntil = function contractUntil2(metaNodeMap, remainingEdges, size3, sizeLimit) { while (size3 > sizeLimit) { var edgeIndex = Math.floor(Math.random() * remainingEdge...
+- `elesfn$p` (variable): var elesfn$p = { // Computes the minimum cut of an undirected graph // Returns the correct answer with high probability kargerStein: function kargerStein() { var _this = this; v...
+- `_Math$hypot` (variable): var _Math$hypot;
+- `copyPosition` (variable): var copyPosition = function copyPosition2(p2) { return { x: p2.x, y: p2.y }; };
+- `modelToRenderedPosition$1` (variable): var modelToRenderedPosition$1 = function modelToRenderedPosition(p2, zoom2, pan2) { return { x: p2.x * zoom2 + pan2.x, y: p2.y * zoom2 + pan2.y }; };
+- `renderedToModelPosition` (variable): var renderedToModelPosition = function renderedToModelPosition2(p2, zoom2, pan2) { return { x: (p2.x - pan2.x) / zoom2, y: (p2.y - pan2.y) / zoom2 }; };
+- `array2point` (variable): var array2point = function array2point2(arr) { return { x: arr[0], y: arr[1] }; };
+- `min` (variable): var min = function min2(arr) { var begin = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : 0; var end = arguments.length > 2 && arguments[2] !== void 0 ? argume...
+- `max` (variable): var max = function max2(arr) { var begin = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : 0; var end = arguments.length > 2 && arguments[2] !== void 0 ? argume...
+- `mean` (variable): var mean = function mean2(arr) { var begin = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : 0; var end = arguments.length > 2 && arguments[2] !== void 0 ? argu...
+- `median` (variable): var median = function median2(arr) { var begin = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : 0; var end = arguments.length > 2 && arguments[2] !== void 0 ? ...
+- `deg2rad` (variable): var deg2rad = function deg2rad2(deg) { return Math.PI * deg / 180; };
+- `getAngleFromDisp` (variable): var getAngleFromDisp = function getAngleFromDisp2(dispX, dispY) { return Math.atan2(dispY, dispX) - Math.PI / 2; };
+- `log2` (variable): var log2 = Math.log2 || function(n) { return Math.log(n) / Math.log(2); };
+- `signum` (variable): var signum = function signum2(x2) { if (x2 > 0) { return 1; } else if (x2 < 0) { return -1; } else { return 0; } };
+- `dist` (variable): var dist = function dist2(p1, p2) { return Math.sqrt(sqdist(p1, p2)); };
+- `sqdist` (variable): var sqdist = function sqdist2(p1, p2) { var dx = p2.x - p1.x; var dy = p2.y - p1.y; return dx * dx + dy * dy; };
+- `inPlaceSumNormalize` (variable): var inPlaceSumNormalize = function inPlaceSumNormalize2(v) { var length = v.length; var total = 0; for (var i = 0; i < length; i++) { total += v[i]; } for (var _i = 0; _i < leng...
+- `qbezierAt` (variable): var qbezierAt = function qbezierAt2(p0, p1, p2, t) { return (1 - t) * (1 - t) * p0 + 2 * (1 - t) * t * p1 + t * t * p2; };
+- `qbezierPtAt` (variable): var qbezierPtAt = function qbezierPtAt2(p0, p1, p2, t) { return { x: qbezierAt(p0.x, p1.x, p2.x, t), y: qbezierAt(p0.y, p1.y, p2.y, t) }; };
+- `lineAt` (variable): var lineAt = function lineAt2(p0, p1, t, d) { var vec = { x: p1.x - p0.x, y: p1.y - p0.y }; var vecDist = dist(p0, p1); var normVec = { x: vec.x / vecDist, y: vec.y / vecDist };...
+- `bound` (variable): var bound = function bound2(min4, val, max5) { return Math.max(min4, Math.min(max5, val)); };
+- `makeBoundingBox` (variable): var makeBoundingBox = function makeBoundingBox2(bb) { if (bb == null) { return { x1: Infinity, y1: Infinity, x2: -Infinity, y2: -Infinity, w: 0, h: 0 }; } else if (bb.x1 != null...
+- `copyBoundingBox` (variable): var copyBoundingBox = function copyBoundingBox2(bb) { return { x1: bb.x1, x2: bb.x2, w: bb.w, y1: bb.y1, y2: bb.y2, h: bb.h }; };
+- `clearBoundingBox` (variable): var clearBoundingBox = function clearBoundingBox2(bb) { bb.x1 = Infinity; bb.y1 = Infinity; bb.x2 = -Infinity; bb.y2 = -Infinity; bb.w = 0; bb.h = 0; };
+- `updateBoundingBox` (variable): var updateBoundingBox = function updateBoundingBox2(bb1, bb2) { bb1.x1 = Math.min(bb1.x1, bb2.x1); bb1.x2 = Math.max(bb1.x2, bb2.x2); bb1.w = bb1.x2 - bb1.x1; bb1.y1 = Math.min(...
+- `expandBoundingBoxByPoint` (variable): var expandBoundingBoxByPoint = function expandBoundingBoxByPoint2(bb, x2, y2) { bb.x1 = Math.min(bb.x1, x2); bb.x2 = Math.max(bb.x2, x2); bb.w = bb.x2 - bb.x1; bb.y1 = Math.min(...
+- `expandBoundingBox` (variable): var expandBoundingBox = function expandBoundingBox2(bb) { var padding = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : 0; bb.x1 -= padding; bb.x2 += padding; b...
+- `expandBoundingBoxSides` (variable): var expandBoundingBoxSides = function expandBoundingBoxSides2(bb) { var padding = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : [0]; var top, right, bottom, l...
+- `assignBoundingBox` (variable): var assignBoundingBox = function assignBoundingBox2(bb1, bb2) { bb1.x1 = bb2.x1; bb1.y1 = bb2.y1; bb1.x2 = bb2.x2; bb1.y2 = bb2.y2; bb1.w = bb1.x2 - bb1.x1; bb1.h = bb1.y2 - bb1...
+- `boundingBoxesIntersect` (variable): var boundingBoxesIntersect = function boundingBoxesIntersect2(bb1, bb2) { if (bb1.x1 > bb2.x2) { return false; } if (bb2.x1 > bb1.x2) { return false; } if (bb1.x2 < bb2.x1) { re...
+- `inBoundingBox` (variable): var inBoundingBox = function inBoundingBox2(bb, x2, y2) { return bb.x1 <= x2 && x2 <= bb.x2 && bb.y1 <= y2 && y2 <= bb.y2; };
+- `pointInBoundingBox` (variable): var pointInBoundingBox = function pointInBoundingBox2(bb, pt) { return inBoundingBox(bb, pt.x, pt.y); };
+- `boundingBoxInBoundingBox` (variable): var boundingBoxInBoundingBox = function boundingBoxInBoundingBox2(bb1, bb2) { return inBoundingBox(bb1, bb2.x1, bb2.y1) && inBoundingBox(bb1, bb2.x2, bb2.y2); };
+- `hypot` (variable): var hypot = (_Math$hypot = Math.hypot) !== null && _Math$hypot !== void 0 ? _Math$hypot : function(x2, y2) { return Math.sqrt(x2 * x2 + y2 * y2); };
+- `inflatePolygon` (function): function inflatePolygon(polygon2, d)
+- `miterBox` (function): function miterBox(pts2, centerX, centerY, width2, height2, strokeWidth)
+- `roundRectangleIntersectLine` (variable): var roundRectangleIntersectLine = function roundRectangleIntersectLine2(x2, y2, nodeX, nodeY, width2, height2, padding) { var radius2 = arguments.length > 7 && arguments[7] !== ...
+- `inLineVicinity` (variable): var inLineVicinity = function inLineVicinity2(x2, y2, lx1, ly1, lx2, ly2, tolerance) { var t = tolerance; var x1 = Math.min(lx1, lx2); var x22 = Math.max(lx1, lx2); var y1 = Mat...
+- `inBezierVicinity` (variable): var inBezierVicinity = function inBezierVicinity2(x2, y2, x1, y1, x22, y22, x3, y3, tolerance) { var bb = { x1: Math.min(x1, x3, x22) - tolerance, x2: Math.max(x1, x3, x22) + to...
+- `solveQuadratic` (variable): var solveQuadratic = function solveQuadratic2(a, b, c, val) { c -= val; var r = b * b - 4 * a * c; if (r < 0) { return []; } var sqrtR = Math.sqrt(r); var denom = 2 * a; var roo...
+- `solveCubic` (variable): var solveCubic = function solveCubic2(a, b, c, d, result) { var epsilon = 1e-5; if (a === 0) { a = epsilon; } b /= a; c /= a; d /= a; var discriminant, q, r, dum1, s, t, term1, ...
+- `sqdistToQuadraticBezier` (variable): var sqdistToQuadraticBezier = function sqdistToQuadraticBezier2(x2, y2, x1, y1, x22, y22, x3, y3) { var a = 1 * x1 * x1 - 4 * x1 * x22 + 2 * x1 * x3 + 4 * x22 * x22 - 4 * x22 * ...
+- `sqdistToFiniteLine` (variable): var sqdistToFiniteLine = function sqdistToFiniteLine2(x2, y2, x1, y1, x22, y22) { var offset = [x2 - x1, y2 - y1]; var line = [x22 - x1, y22 - y1]; var lineSq = line[0] * line[0...
+- `pointInsidePolygonPoints` (variable): var pointInsidePolygonPoints = function pointInsidePolygonPoints2(x2, y2, points) { var x1, y1, x22, y22; var y3; var up = 0; for (var i = 0; i < points.length / 2; i++) { x1 = ...
+- `pointInsidePolygon` (variable): var pointInsidePolygon = function pointInsidePolygon2(x2, y2, basePoints, centerX, centerY, width2, height2, direction, padding) { var transformedPoints = new Array(basePoints.l...
+- `pointInsideRoundPolygon` (variable): var pointInsideRoundPolygon = function pointInsideRoundPolygon2(x2, y2, basePoints, centerX, centerY, width2, height2, corners) { var cutPolygonPoints = new Array(basePoints.len...
+- `joinLines` (variable): var joinLines = function joinLines2(lineSet) { var vertices = new Array(lineSet.length / 2); var currentLineStartX, currentLineStartY, currentLineEndX, currentLineEndY; var next...
+- `expandPolygon` (variable): var expandPolygon = function expandPolygon2(points, pad) { var expandedLineSet = new Array(points.length * 2); var currentPointX, currentPointY, nextPointX, nextPointY; for (var...
+- `intersectLineEllipse` (variable): var intersectLineEllipse = function intersectLineEllipse2(x2, y2, centerX, centerY, ellipseWradius, ellipseHradius) { var dispX = centerX - x2; var dispY = centerY - y2; dispX /...
+- `checkInEllipse` (variable): var checkInEllipse = function checkInEllipse2(x2, y2, width2, height2, centerX, centerY, padding) { x2 -= centerX; y2 -= centerY; x2 /= width2 / 2 + padding; y2 /= height2 / 2 +...
+- `intersectLineCircle` (variable): var intersectLineCircle = function intersectLineCircle2(x1, y1, x2, y2, centerX, centerY, radius2) { var d = [x2 - x1, y2 - y1]; var f = [x1 - centerX, y1 - centerY]; var a = d[...
+- `midOfThree` (variable): var midOfThree = function midOfThree2(a, b, c) { if (b <= a && a <= c || c <= a && a <= b) { return a; } else if (a <= b && b <= c || c <= b && b <= a) { return b; } else { retu...
+- `finiteLinesIntersect` (variable): var finiteLinesIntersect = function finiteLinesIntersect2(x1, y1, x2, y2, x3, y3, x4, y4, infiniteLines) { var dx13 = x1 - x3; var dx21 = x2 - x1; var dx43 = x4 - x3; var dy13 =...
+- `transformPoints` (variable): var transformPoints = function transformPoints2(points, centerX, centerY, width2, height2) { var ret = []; var halfW = width2 / 2; var halfH = height2 / 2; var x2 = centerX; var...
+- `polygonIntersectLine` (variable): var polygonIntersectLine = function polygonIntersectLine2(x2, y2, basePoints, centerX, centerY, width2, height2, padding) { var intersections = []; var intersection2; var transf...
+- `roundPolygonIntersectLine` (variable): var roundPolygonIntersectLine = function roundPolygonIntersectLine2(x2, y2, basePoints, centerX, centerY, width2, height2, padding, corners) { var intersections = []; var inters...
+- `shortenIntersection` (variable): var shortenIntersection = function shortenIntersection2(intersection2, offset, amount) { var disp = [intersection2[0] - offset[0], intersection2[1] - offset[1]]; var length = Ma...
+- `generateUnitNgonPointsFitToSquare` (variable): var generateUnitNgonPointsFitToSquare = function generateUnitNgonPointsFitToSquare2(sides, rotationRadians) { var points = generateUnitNgonPoints(sides, rotationRadians); points...
+- `fitPolygonToSquare` (variable): var fitPolygonToSquare = function fitPolygonToSquare2(points) { var x2, y2; var sides = points.length / 2; var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infini...
+- `generateUnitNgonPoints` (variable): var generateUnitNgonPoints = function generateUnitNgonPoints2(sides, rotationRadians) { var increment = 1 / sides * 2 * Math.PI; var startAngle = sides % 2 === 0 ? Math.PI / 2 +...
+- `getRoundRectangleRadius` (variable): var getRoundRectangleRadius = function getRoundRectangleRadius2(width2, height2) { return Math.min(width2 / 4, height2 / 4, 8); };
+- `getRoundPolygonRadius` (variable): var getRoundPolygonRadius = function getRoundPolygonRadius2(width2, height2) { return Math.min(width2 / 10, height2 / 10, 8); };
+- `getCutRectangleCornerLength` (variable): var getCutRectangleCornerLength = function getCutRectangleCornerLength2() { return 8; };
+- `bezierPtsToQuadCoeff` (variable): var bezierPtsToQuadCoeff = function bezierPtsToQuadCoeff2(p0, p1, p2) { return [p0 - 2 * p1 + p2, 2 * (p1 - p0), p0]; };
+- `getBarrelCurveConstants` (variable): var getBarrelCurveConstants = function getBarrelCurveConstants2(width2, height2) { return { heightOffset: Math.min(15, 0.05 * height2), widthOffset: Math.min(100, 0.25 * width2)...
+- `satPolygonIntersection` (function): function satPolygonIntersection(poly1, poly2)
+- `pageRankDefaults` (variable): var pageRankDefaults = defaults$g({ dampingFactor: 0.8, precision: 1e-6, iterations: 200, weight: function weight5(edge) { return 1; } });
+- `elesfn$o` (variable): var elesfn$o = { pageRank: function pageRank(options2) { var _pageRankDefaults = pageRankDefaults(options2), dampingFactor = _pageRankDefaults.dampingFactor, precision = _pageRa...
+- `defaults$f` (variable): var defaults$f = defaults$g({ root: null, weight: function weight6(edge) { return 1; }, directed: false, alpha: 0 });
+- `elesfn$n` (variable): var elesfn$n = { degreeCentralityNormalized: function degreeCentralityNormalized(options2) { options2 = defaults$f(options2); var cy = this.cy(); var nodes3 = this.nodes(); var ...
+- `defaults$e` (variable): var defaults$e = defaults$g({ harmonic: true, weight: function weight7() { return 1; }, directed: false, root: null });
+- `elesfn$m` (variable): var elesfn$m = { closenessCentralityNormalized: function closenessCentralityNormalized(options2) { var _defaults = defaults$e(options2), harmonic = _defaults.harmonic, weight8 =...
+- `defaults$d` (variable): var defaults$d = defaults$g({ weight: null, directed: false });
+- `elesfn$l` (variable): var elesfn$l = { // Implemented from the algorithm in the paper "On Variants of Shortest-Path Betweenness Centrality and their Generic Computation" by Ulrik Brandes betweennessC...
+- `defaults$c` (variable): var defaults$c = defaults$g({ expandFactor: 2, // affects time of computation and cluster granularity to some extent: M * M inflateFactor: 2, // affects cluster granularity (the...
+- `setOptions$3` (variable): var setOptions$3 = function setOptions(options2) { return defaults$c(options2); };
+- `getSimilarity$1` (variable): var getSimilarity$1 = function getSimilarity(edge, attributes) { var total = 0; for (var i = 0; i < attributes.length; i++) { total += attributes[i](edge); } return total; };
+- `addLoops` (variable): var addLoops = function addLoops2(M, n, val) { for (var i = 0; i < n; i++) { M[i * n + i] = val; } };
+- `normalize` (variable): var normalize = function normalize2(M, n) { var sum; for (var col = 0; col < n; col++) { sum = 0; for (var row = 0; row < n; row++) { sum += M[row * n + col]; } for (var _row = ...
+- `mmult` (variable): var mmult = function mmult2(A, B, n) { var C = new Array(n * n); for (var i = 0; i < n; i++) { for (var j = 0; j < n; j++) { C[i * n + j] = 0; } for (var k = 0; k < n; k++) { fo...
+- `expand` (variable): var expand = function expand2(M, n, expandFactor) { var _M = M.slice(0); for (var p2 = 1; p2 < expandFactor; p2++) { M = mmult(M, _M, n); } return M; };
+- `inflate` (variable): var inflate = function inflate2(M, n, inflateFactor) { var _M = new Array(n * n); for (var i = 0; i < n * n; i++) { _M[i] = Math.pow(M[i], inflateFactor); } normalize(_M, n); re...
+- `hasConverged` (variable): var hasConverged = function hasConverged2(M, _M, n2, roundFactor) { for (var i = 0; i < n2; i++) { var v12 = Math.round(M[i] * Math.pow(10, roundFactor)) / Math.pow(10, roundFac...
+- `assign$2` (variable): var assign$2 = function assign(M, n, nodes3, cy) { var clusters = []; for (var i = 0; i < n; i++) { var cluster = []; for (var j = 0; j < n; j++) { if (Math.round(M[i * n + j] *...
+- `isDuplicate` (variable): var isDuplicate = function isDuplicate2(c1, c2) { for (var i = 0; i < c1.length; i++) { if (!c2[i] || c1[i].id() !== c2[i].id()) { return false; } } return true; };
+- `removeDuplicates` (variable): var removeDuplicates = function removeDuplicates2(clusters) { for (var i = 0; i < clusters.length; i++) { for (var j = 0; j < clusters.length; j++) { if (i != j && isDuplicate(c...
+- `markovClustering` (variable): var markovClustering = function markovClustering2(options2) { var nodes3 = this.nodes(); var edges3 = this.edges(); var cy = this.cy(); var opts = setOptions$3(options2); var id...
+- `markovClustering$1` (variable): var markovClustering$1 = { markovClustering, mcl: markovClustering };
+- `identity$1` (variable): var identity$1 = function identity(x2) { return x2; };
+- `absDiff` (variable): var absDiff = function absDiff2(p2, q) { return Math.abs(q - p2); };
+- `addAbsDiff` (variable): var addAbsDiff = function addAbsDiff2(total, p2, q) { return total + absDiff(p2, q); };
+- `addSquaredDiff` (variable): var addSquaredDiff = function addSquaredDiff2(total, p2, q) { return total + Math.pow(q - p2, 2); };
+- `sqrt` (variable): var sqrt = function sqrt3(x2) { return Math.sqrt(x2); };
+- `maxAbsDiff` (variable): var maxAbsDiff = function maxAbsDiff2(currentMax, p2, q) { return Math.max(currentMax, absDiff(p2, q)); };
+- `getDistance` (variable): var getDistance = function getDistance2(length, getP, getQ, init, visit) { var post = arguments.length > 5 && arguments[5] !== void 0 ? arguments[5] : identity$1; var ret = init...
+- `distances` (variable): var distances = { euclidean: function euclidean(length, getP, getQ) { if (length >= 2) { return getDistance(length, getP, getQ, 0, addSquaredDiff, sqrt); } else { return getDist...
+- `clusteringDistance` (function): function clusteringDistance(method, length, getP, getQ, nodeP, nodeQ)
+- `defaults$b` (variable): var defaults$b = defaults$g({ k: 2, m: 2, sensitivityThreshold: 1e-4, distance: "euclidean", maxIterations: 10, attributes: [], testMode: false, testCentroids: null });
+- `setOptions$2` (variable): var setOptions$2 = function setOptions2(options2) { return defaults$b(options2); };
+- `getDist` (variable): var getDist = function getDist2(type, node, centroid, attributes, mode) { var noNodeP = mode !== "kMedoids"; var getP = noNodeP ? function(i) { return centroid[i]; } : function(...
+- `randomCentroids` (variable): var randomCentroids = function randomCentroids2(nodes3, k, attributes) { var ndim = attributes.length; var min4 = new Array(ndim); var max5 = new Array(ndim); var centroids = ne...
+- `classify` (variable): var classify = function classify2(node, centroids, distance, attributes, type) { var min4 = Infinity; var index = 0; for (var i = 0; i < centroids.length; i++) { var dist3 = get...
+- `buildCluster` (variable): var buildCluster = function buildCluster2(centroid, nodes3, assignment) { var cluster = []; var node = null; for (var n = 0; n < nodes3.length; n++) { node = nodes3[n]; if (assi...
+- `haveValuesConverged` (variable): var haveValuesConverged = function haveValuesConverged2(v12, v22, sensitivityThreshold) { return Math.abs(v22 - v12) <= sensitivityThreshold; };
+- `haveMatricesConverged` (variable): var haveMatricesConverged = function haveMatricesConverged2(v12, v22, sensitivityThreshold) { for (var i = 0; i < v12.length; i++) { for (var j = 0; j < v12[i].length; j++) { va...
+- `seenBefore` (variable): var seenBefore = function seenBefore2(node, medoids, n) { for (var i = 0; i < n; i++) { if (node === medoids[i]) return true; } return false; };
+- `randomMedoids` (variable): var randomMedoids = function randomMedoids2(nodes3, k) { var medoids = new Array(k); if (nodes3.length < 50) { for (var i = 0; i < k; i++) { var node = nodes3[Math.floor(Math.ra...
+- `findCost` (variable): var findCost = function findCost2(potentialNewMedoid, cluster, attributes) { var cost = 0; for (var n = 0; n < cluster.length; n++) { cost += getDist("manhattan", cluster[n], po...
+- `kMeans` (variable): var kMeans = function kMeans2(options2) { var cy = this.cy(); var nodes3 = this.nodes(); var node = null; var opts = setOptions$2(options2); var clusters = new Array(opts.k); va...
+- `kMedoids` (variable): var kMedoids = function kMedoids2(options2) { var cy = this.cy(); var nodes3 = this.nodes(); var node = null; var opts = setOptions$2(options2); var clusters = new Array(opts.k)...
+- `updateCentroids` (variable): var updateCentroids = function updateCentroids2(centroids, nodes3, U, weight8, opts) { var numerator, denominator; for (var n = 0; n < nodes3.length; n++) { for (var c = 0; c < ...
+- `updateMembership` (variable): var updateMembership = function updateMembership2(U, _U, centroids, nodes3, opts) { for (var i = 0; i < U.length; i++) { _U[i] = U[i].slice(); } var sum, numerator, denominator;...
+- `assign$1` (variable): var assign$1 = function assign2(nodes3, U, opts, cy) { var clusters = new Array(opts.k); for (var c = 0; c < clusters.length; c++) { clusters[c] = []; } var max5; var index; for...
+- `fuzzyCMeans` (variable): var fuzzyCMeans = function fuzzyCMeans2(options2) { var cy = this.cy(); var nodes3 = this.nodes(); var opts = setOptions$2(options2); var clusters; var centroids; var U; var _U;...
+- `kClustering` (variable): var kClustering = { kMeans, kMedoids, fuzzyCMeans, fcm: fuzzyCMeans };
+- `defaults$a` (variable): var defaults$a = defaults$g({ distance: "euclidean", // distance metric to compare nodes linkage: "min", // linkage criterion : how to determine the distance between clusters of...
+- `linkageAliases` (variable): var linkageAliases = { "single": "min", "complete": "max" };
+- `setOptions$1` (variable): var setOptions$1 = function setOptions3(options2) { var opts = defaults$a(options2); var preferredAlias = linkageAliases[opts.linkage]; if (preferredAlias != null) { opts.linkag...
+- `mergeClosest` (variable): var mergeClosest = function mergeClosest2(clusters, index, dists, mins, opts) { var minKey = 0; var min4 = Infinity; var dist3; var attrs = opts.attributes; var getDist3 = funct...
+- `_getAllChildren` (variable): var _getAllChildren = function getAllChildren(root, arr, cy) { if (!root) return; if (root.value) { arr.push(root.value); } else { if (root.left) _getAllChildren(root.left, arr)...
+- `_buildDendrogram` (variable): var _buildDendrogram = function buildDendrogram(root, cy) { if (!root) return ""; if (root.left && root.right) { var leftStr = _buildDendrogram(root.left, cy); var rightStr = _b...
+- `_buildClustersFromTree` (variable): var _buildClustersFromTree = function buildClustersFromTree(root, k, cy) { if (!root) return []; var left = [], right = [], leaves = []; if (k === 0) { if (root.left) _getAllChi...
+- `hierarchicalClustering` (variable): var hierarchicalClustering = function hierarchicalClustering2(options2) { var cy = this.cy(); var nodes3 = this.nodes(); var opts = setOptions$1(options2); var attrs = opts.attr...
+- `hierarchicalClustering$1` (variable): var hierarchicalClustering$1 = { hierarchicalClustering, hca: hierarchicalClustering };
+- `defaults$9` (variable): var defaults$9 = defaults$g({ distance: "euclidean", // distance metric to compare attributes between two nodes preference: "median", // suitability of a data point to serve as ...
+- `setOptions4` (variable): var setOptions4 = function setOptions5(options2) { var dmp = options2.damping; var pref = options2.preference; if (!(0.5 <= dmp && dmp < 1)) { error("Damping must range on [0.5,...
+- `getSimilarity2` (variable): var getSimilarity2 = function getSimilarity3(type, n1, n2, attributes) { var attr = function attr2(n, i) { return attributes[i](n); }; return -clusteringDistance(type, attribute...
+- `getPreference` (variable): var getPreference = function getPreference2(S, preference) { var p2 = null; if (preference === "median") { p2 = median(S); } else if (preference === "mean") { p2 = mean(S); } el...
+- `findExemplars` (variable): var findExemplars = function findExemplars2(n, R, A) { var indices = []; for (var i = 0; i < n; i++) { if (R[i * n + i] + A[i * n + i] > 0) { indices.push(i); } } return indices...
+- `assignClusters` (variable): var assignClusters = function assignClusters2(n, S, exemplars) { var clusters = []; for (var i = 0; i < n; i++) { var index = -1; var max5 = -Infinity; for (var ei = 0; ei < exe...
+- `assign3` (variable): var assign3 = function assign4(n, S, exemplars) { var clusters = assignClusters(n, S, exemplars); for (var ei = 0; ei < exemplars.length; ei++) { var ii = []; for (var c = 0; c ...
+- `affinityPropagation` (variable): var affinityPropagation = function affinityPropagation2(options2) { var cy = this.cy(); var nodes3 = this.nodes(); var opts = setOptions4(options2); var id2position = {}; for (v...
+- `affinityPropagation$1` (variable): var affinityPropagation$1 = { affinityPropagation, ap: affinityPropagation };
+- `hierholzerDefaults` (variable): var hierholzerDefaults = defaults$g({ root: void 0, directed: false });
+- `elesfn$k` (variable): var elesfn$k = { hierholzer: function hierholzer(options2) { if (!plainObject(options2)) { var args = arguments; options2 = { root: args[0], directed: args[1] }; } var _hierholz...
+- `hopcroftTarjanBiconnected` (variable): var hopcroftTarjanBiconnected = function hopcroftTarjanBiconnected2() { var eles = this; var nodes3 = {}; var id2 = 0; var edgeCount = 0; var components2 = []; var stack = []; v...
+- `hopcroftTarjanBiconnected$1` (variable): var hopcroftTarjanBiconnected$1 = { hopcroftTarjanBiconnected, htbc: hopcroftTarjanBiconnected, htb: hopcroftTarjanBiconnected, hopcroftTarjanBiconnectedComponents: hopcroftTarj...
+- `tarjanStronglyConnected` (variable): var tarjanStronglyConnected = function tarjanStronglyConnected2() { var eles = this; var nodes3 = {}; var index = 0; var components2 = []; var stack = []; var cut = eles.spawn(e...
+- `tarjanStronglyConnected$1` (variable): var tarjanStronglyConnected$1 = { tarjanStronglyConnected, tsc: tarjanStronglyConnected, tscc: tarjanStronglyConnected, tarjanStronglyConnectedComponents: tarjanStronglyConnecte...
+- `elesfn$j` (variable): var elesfn$j = {};
+- `STATE_PENDING` (variable): var STATE_PENDING = 0;
+- `STATE_FULFILLED` (variable): var STATE_FULFILLED = 1;
+- `STATE_REJECTED` (variable): var STATE_REJECTED = 2;
+- `_api` (variable): var _api = function api(executor) { if (!(this instanceof _api)) return new _api(executor); this.id = "Thenable/1.0.7"; this.state = STATE_PENDING; this.fulfillValue = void 0; t...
+- `deliver` (variable): var deliver = function deliver2(curr, state, name, value) { if (curr.state === STATE_PENDING) { curr.state = state; curr[name] = value; execute(curr); } return curr; };
+- `execute` (variable): var execute = function execute2(curr) { if (curr.state === STATE_FULFILLED) execute_handlers(curr, "onFulfilled", curr.fulfillValue); else if (curr.state === STATE_REJECTED) exe...
+- `execute_handlers` (variable): var execute_handlers = function execute_handlers2(curr, name, value) { if (curr[name].length === 0) return; var handlers = curr[name]; curr[name] = []; var func = function func2...
+- `resolver` (variable): var resolver = function resolver2(cb, next, method) { return function(value) { if (typeof cb !== "function") next[method].call(next, value); else { var result; try { result = cb...
+- `_resolve` (variable): var _resolve = function resolve(promise4, x2) { if (promise4 === x2 || promise4.proxy === x2) { promise4.reject(new TypeError("cannot resolve promise with itself")); return; } v...
+- `Promise$1` (variable): var Promise$1 = typeof Promise !== "undefined" ? Promise : _api;
+- `Animation` (variable): var Animation = function Animation2(target, opts, opts2) { var isCore = core(target); var isEle = !isCore; var _p = this._private = extend({ duration: 1e3 }, opts, opts2); _p.ta...
+- `anifn` (variable): var anifn = Animation.prototype;
+- `define$3` (variable): var define$3 = { animated: function animated() { return function animatedImpl() { var self2 = this; var selfIsArrayLike = self2.length !== void 0; var all = selfIsArrayLike ? se...
+- `isArray_1` (variable): var isArray_1;
+- `hasRequiredIsArray` (variable): var hasRequiredIsArray;
+- `requireIsArray` (function): function requireIsArray()
+- `_isKey` (variable): var _isKey;
+- `hasRequired_isKey` (variable): var hasRequired_isKey;
+- `require_isKey` (function): function require_isKey()
+- `isFunction_1` (variable): var isFunction_1;
+- `hasRequiredIsFunction` (variable): var hasRequiredIsFunction;
+- `requireIsFunction` (function): function requireIsFunction()
+- `_coreJsData` (variable): var _coreJsData;
+- `hasRequired_coreJsData` (variable): var hasRequired_coreJsData;
+- `require_coreJsData` (function): function require_coreJsData()
+- `_isMasked` (variable): var _isMasked;
+- `hasRequired_isMasked` (variable): var hasRequired_isMasked;
+- `require_isMasked` (function): function require_isMasked()
+- `_toSource` (variable): var _toSource;
+- `hasRequired_toSource` (variable): var hasRequired_toSource;
+- `require_toSource` (function): function require_toSource()
+- `_baseIsNative` (variable): var _baseIsNative;
+- `hasRequired_baseIsNative` (variable): var hasRequired_baseIsNative;
+- `require_baseIsNative` (function): function require_baseIsNative()
+- `_getValue` (variable): var _getValue;
+- `hasRequired_getValue` (variable): var hasRequired_getValue;
+- `require_getValue` (function): function require_getValue()
+- `_getNative` (variable): var _getNative;
+- `hasRequired_getNative` (variable): var hasRequired_getNative;
+- `require_getNative` (function): function require_getNative()
+- `_nativeCreate` (variable): var _nativeCreate;
+- `hasRequired_nativeCreate` (variable): var hasRequired_nativeCreate;
+- `require_nativeCreate` (function): function require_nativeCreate()
+- `_hashClear` (variable): var _hashClear;
+- `hasRequired_hashClear` (variable): var hasRequired_hashClear;
+- `require_hashClear` (function): function require_hashClear()
+- `_hashDelete` (variable): var _hashDelete;
+- `hasRequired_hashDelete` (variable): var hasRequired_hashDelete;
+- `require_hashDelete` (function): function require_hashDelete()
+- `_hashGet` (variable): var _hashGet;
+- `hasRequired_hashGet` (variable): var hasRequired_hashGet;
+- `require_hashGet` (function): function require_hashGet()
+- `_hashHas` (variable): var _hashHas;
+- `hasRequired_hashHas` (variable): var hasRequired_hashHas;
+- `require_hashHas` (function): function require_hashHas()
+- `_hashSet` (variable): var _hashSet;
+- `hasRequired_hashSet` (variable): var hasRequired_hashSet;
+- `require_hashSet` (function): function require_hashSet()
+- `_Hash` (variable): var _Hash;
+- `hasRequired_Hash` (variable): var hasRequired_Hash;
+- `require_Hash` (function): function require_Hash()
+- `_listCacheClear` (variable): var _listCacheClear;
+- `hasRequired_listCacheClear` (variable): var hasRequired_listCacheClear;
+- `require_listCacheClear` (function): function require_listCacheClear()
+- `eq_1` (variable): var eq_1;
+- `hasRequiredEq` (variable): var hasRequiredEq;
+- `requireEq` (function): function requireEq()
+- `_assocIndexOf` (variable): var _assocIndexOf;
+- `hasRequired_assocIndexOf` (variable): var hasRequired_assocIndexOf;
+- `require_assocIndexOf` (function): function require_assocIndexOf()
+- `_listCacheDelete` (variable): var _listCacheDelete;
+- `hasRequired_listCacheDelete` (variable): var hasRequired_listCacheDelete;
+- `require_listCacheDelete` (function): function require_listCacheDelete()
+- `_listCacheGet` (variable): var _listCacheGet;
+- `hasRequired_listCacheGet` (variable): var hasRequired_listCacheGet;
+- `require_listCacheGet` (function): function require_listCacheGet()
+- `_listCacheHas` (variable): var _listCacheHas;
+- `hasRequired_listCacheHas` (variable): var hasRequired_listCacheHas;
+- `require_listCacheHas` (function): function require_listCacheHas()
+- `_listCacheSet` (variable): var _listCacheSet;
+- `hasRequired_listCacheSet` (variable): var hasRequired_listCacheSet;
+- `require_listCacheSet` (function): function require_listCacheSet()
+- `_ListCache` (variable): var _ListCache;
+- `hasRequired_ListCache` (variable): var hasRequired_ListCache;
+- `require_ListCache` (function): function require_ListCache()
+- `_Map` (variable): var _Map;
+- `hasRequired_Map` (variable): var hasRequired_Map;
+- `require_Map` (function): function require_Map()
+- `_mapCacheClear` (variable): var _mapCacheClear;
+- `hasRequired_mapCacheClear` (variable): var hasRequired_mapCacheClear;
+- `require_mapCacheClear` (function): function require_mapCacheClear()
+- `_isKeyable` (variable): var _isKeyable;
+- `hasRequired_isKeyable` (variable): var hasRequired_isKeyable;
+- `require_isKeyable` (function): function require_isKeyable()
+- `_getMapData` (variable): var _getMapData;
+- `hasRequired_getMapData` (variable): var hasRequired_getMapData;
+- `require_getMapData` (function): function require_getMapData()
+- `_mapCacheDelete` (variable): var _mapCacheDelete;
+- `hasRequired_mapCacheDelete` (variable): var hasRequired_mapCacheDelete;
+- `require_mapCacheDelete` (function): function require_mapCacheDelete()
+- `_mapCacheGet` (variable): var _mapCacheGet;
+- `hasRequired_mapCacheGet` (variable): var hasRequired_mapCacheGet;
+- `require_mapCacheGet` (function): function require_mapCacheGet()
+- `_mapCacheHas` (variable): var _mapCacheHas;
+- `hasRequired_mapCacheHas` (variable): var hasRequired_mapCacheHas;
+- `require_mapCacheHas` (function): function require_mapCacheHas()
+- `_mapCacheSet` (variable): var _mapCacheSet;
+- `hasRequired_mapCacheSet` (variable): var hasRequired_mapCacheSet;
+- `require_mapCacheSet` (function): function require_mapCacheSet()
+- `_MapCache` (variable): var _MapCache;
+- `hasRequired_MapCache` (variable): var hasRequired_MapCache;
+- `require_MapCache` (function): function require_MapCache()
+- `memoize_1` (variable): var memoize_1;
+- `hasRequiredMemoize` (variable): var hasRequiredMemoize;
+- `requireMemoize` (function): function requireMemoize()
+- `_memoizeCapped` (variable): var _memoizeCapped;
+- `hasRequired_memoizeCapped` (variable): var hasRequired_memoizeCapped;
+- `require_memoizeCapped` (function): function require_memoizeCapped()
+- `_stringToPath` (variable): var _stringToPath;
+- `hasRequired_stringToPath` (variable): var hasRequired_stringToPath;
+- `require_stringToPath` (function): function require_stringToPath()
+- `_arrayMap` (variable): var _arrayMap;
+- `hasRequired_arrayMap` (variable): var hasRequired_arrayMap;
+- `require_arrayMap` (function): function require_arrayMap()
+- `_baseToString` (variable): var _baseToString;
+- `hasRequired_baseToString` (variable): var hasRequired_baseToString;
+- `require_baseToString` (function): function require_baseToString()
+- `toString_1` (variable): var toString_1;
+- `hasRequiredToString` (variable): var hasRequiredToString;
+- `requireToString` (function): function requireToString()
+- `_castPath` (variable): var _castPath;
+- `hasRequired_castPath` (variable): var hasRequired_castPath;
+- `require_castPath` (function): function require_castPath()
+- `_toKey` (variable): var _toKey;
+- `hasRequired_toKey` (variable): var hasRequired_toKey;
+- `require_toKey` (function): function require_toKey()
+- `_baseGet` (variable): var _baseGet;
+- `hasRequired_baseGet` (variable): var hasRequired_baseGet;
+- `require_baseGet` (function): function require_baseGet()
+- `get_1` (variable): var get_1;
+- `hasRequiredGet` (variable): var hasRequiredGet;
+- `requireGet` (function): function requireGet()
+- `getExports` (variable): var getExports = requireGet();
+- `get` (variable): var get = getDefaultExportFromCjs(getExports);
+- `_defineProperty` (variable): var _defineProperty;
+- `hasRequired_defineProperty` (variable): var hasRequired_defineProperty;
+- `require_defineProperty` (function): function require_defineProperty()
+- `_baseAssignValue` (variable): var _baseAssignValue;
+- `hasRequired_baseAssignValue` (variable): var hasRequired_baseAssignValue;
+- `require_baseAssignValue` (function): function require_baseAssignValue()
+- `_assignValue` (variable): var _assignValue;
+- `hasRequired_assignValue` (variable): var hasRequired_assignValue;
+- `require_assignValue` (function): function require_assignValue()
+- `_isIndex` (variable): var _isIndex;
+- `hasRequired_isIndex` (variable): var hasRequired_isIndex;
+- `require_isIndex` (function): function require_isIndex()
+- `_baseSet` (variable): var _baseSet;
+- `hasRequired_baseSet` (variable): var hasRequired_baseSet;
+- `require_baseSet` (function): function require_baseSet()
+- `set_1` (variable): var set_1;
+- `hasRequiredSet` (variable): var hasRequiredSet;
+- `requireSet` (function): function requireSet()
+- `setExports` (variable): var setExports = requireSet();
+- `set` (variable): var set = getDefaultExportFromCjs(setExports);
+- `_copyArray` (variable): var _copyArray;
+- `hasRequired_copyArray` (variable): var hasRequired_copyArray;
+- `require_copyArray` (function): function require_copyArray()
+- `toPath_1` (variable): var toPath_1;
+- `hasRequiredToPath` (variable): var hasRequiredToPath;
+- `requireToPath` (function): function requireToPath()
+- `toPathExports` (variable): var toPathExports = requireToPath();
+- `toPath` (variable): var toPath = getDefaultExportFromCjs(toPathExports);
+- `define$2` (variable): var define$2 = { // access data field data: function data(params) { var defaults3 = { field: "data", bindingEvent: "data", allowBinding: false, allowSetting: false, allowGetting...
+- `define$1` (variable): var define$1 = { eventAliasesOn: function eventAliasesOn(proto) { var p2 = proto; p2.addListener = p2.listen = p2.bind = p2.on; p2.unlisten = p2.unbind = p2.off = p2.removeListe...
+- `define` (variable): var define = {};
+- `elesfn$i` (variable): var elesfn$i = { animate: define.animate(), animation: define.animation(), animated: define.animated(), clearQueue: define.clearQueue(), delay: define.delay(), delayAnimation: d...
+- `elesfn$h` (variable): var elesfn$h = { classes: function classes(_classes) { var self2 = this; if (_classes === void 0) { var ret = []; self2[0]._private.classes.forEach(function(cls2) { return ret.p...
+- `tokens` (variable): var tokens = { metaChar: "[\\!\\\"\\#\\$\\%\\&\\'\\(\\)\\*\\+\\,\\.\\/\\:\\;\\<\\=\\>\\?\\@\\[\\]\\^\\`\\{\\|\\}\\~]", // chars we need to escape in let names, etc comparatorOp:...
+- `newQuery` (variable): var newQuery = function newQuery2() { return { checks: [] }; };
+- `Type` (variable): var Type = { /** E.g. node */ GROUP: 0, /** A collection of elements */ COLLECTION: 1, /** A filter(ele) function */ FILTER: 2, /** E.g. [foo > 1] */ DATA_COMPARE: 3, /** E.g. [...
+- `stateSelectors` (variable): var stateSelectors = [{ selector: ":selected", matches: function matches(ele) { return ele.selected(); } }, { selector: ":unselected", matches: function matches2(ele) { return !...
+- `lookup` (variable): var lookup = function() { var selToFn = {}; var s; for (var i = 0; i < stateSelectors.length; i++) { s = stateSelectors[i]; selToFn[s.selector] = s.matches; } return selToFn; }();
+- `stateSelectorMatches` (variable): var stateSelectorMatches = function stateSelectorMatches2(sel, ele) { return lookup[sel](ele); };
+- `stateSelectorRegex` (variable): var stateSelectorRegex = "(" + stateSelectors.map(function(s) { return s.selector; }).join("|") + ")";
+- `cleanMetaChars` (variable): var cleanMetaChars = function cleanMetaChars2(str) { return str.replace(new RegExp("\\\\(" + tokens.metaChar + ")", "g"), function(match2, $1) { return $1; }); };
+- `replaceLastQuery` (variable): var replaceLastQuery = function replaceLastQuery2(selector, examiningQuery, replacementQuery) { selector[selector.length - 1] = replacementQuery; };
+- `exprs` (variable): var exprs = [{ name: "group", // just used for identifying when debugging query: true, regex: "(" + tokens.group + ")", populate: function populate(selector, query, _ref) { var ...
+- `consumeExpr` (variable): var consumeExpr = function consumeExpr2(remaining) { var expr; var match2; var name; for (var j = 0; j < exprs.length; j++) { var e = exprs[j]; var n = e.name; var m = remaining...
+- `consumeWhitespace` (variable): var consumeWhitespace = function consumeWhitespace2(remaining) { var match2 = remaining.match(/^\s+/); if (match2) { var consumed = match2[0]; remaining = remaining.substring(co...
+- `parse` (variable): var parse = function parse2(selector) { var self2 = this; var remaining = self2.inputText = selector; var currentQuery = self2[0] = newQuery(); self2.length = 1; remaining = con...
+- `toString` (variable): var toString = function toString2() { if (this.toStringCache != null) { return this.toStringCache; } var clean = function clean2(obj) { if (obj == null) { return ""; } else { re...
+- `parse$1` (variable): var parse$1 = { parse, toString };
+- `valCmp` (variable): var valCmp = function valCmp2(fieldVal, operator, value) { var matches33; var isFieldStr = string(fieldVal); var isFieldNum = number$1(fieldVal); var isValStr = string(value); v...
+- `boolCmp` (variable): var boolCmp = function boolCmp2(fieldVal, operator) { switch (operator) { case "?": return fieldVal ? true : false; case "!": return fieldVal ? false : true; case "^": return fi...
+- `existCmp` (variable): var existCmp = function existCmp2(fieldVal) { return fieldVal !== void 0; };
+- `data$1` (variable): var data$1 = function data2(ele, field) { return ele.data(field); };
+- `meta` (variable): var meta = function meta2(ele, field) { return ele[field](); };
+- `match` (variable): var match = [];
+- `matches$1` (variable): var matches$1 = function matches30(query, ele) { return query.checks.every(function(chk) { return match[chk.type](chk, ele); }); };
+- `filter` (variable): var filter = function filter2(collection4) { var self2 = this; if (self2.length === 1 && self2[0].checks.length === 1 && self2[0].checks[0].type === Type.ID) { return collection...
+- `matches31` (variable): var matches31 = function matches32(ele) { var self2 = this; for (var j = 0; j < self2.length; j++) { var query = self2[j]; if (matches$1(query, ele)) { return true; } } return f...
+- `matching` (variable): var matching = { matches: matches31, filter };
+- `Selector` (variable): var Selector = function Selector2(selector) { this.inputText = selector; this.currentSubject = null; this.compoundCount = 0; this.edgeCount = 0; this.length = 0; if (selector ==...
+- `selfn` (variable): var selfn = Selector.prototype;
+- `elesfn$g` (variable): var elesfn$g = { allAre: function allAre(selector) { var selObj = new Selector(selector); return this.every(function(ele) { return selObj.matches(ele); }); }, is: function is(se...
+- `cache` (variable): var cache = function cache2(fn3, name) { return function traversalCache(arg1, arg2, arg3, arg4) { var selectorOrEles = arg1; var eles = this; var key; if (selectorOrEles == null...
+- `elesfn$f` (variable): var elesfn$f = { parent: function parent(selector) { var parents2 = []; if (this.length === 1) { var parent4 = this[0]._private.parent; if (parent4) { return parent4; } } for (v...
+- `forEachCompound` (function): function forEachCompound(eles, fn3, includeSelf, recursiveStep)
+- `addChildren` (function): function addChildren(q, did, ele)
+- `addParent` (function): function addParent(q, did, ele)
+- `addParentAndChildren` (function): function addParentAndChildren(q, did, ele)
+- `fn$5` (variable): var fn$5;
+- `elesfn$e` (variable): var elesfn$e;
+- `data3` (variable): var data3 = elesfn$e;
+- `elesfn$d` (variable): var elesfn$d = {};
+- `defineDegreeFunction` (function): function defineDegreeFunction(callback)
+- `defineDegreeBoundsFunction` (function): function defineDegreeBoundsFunction(degreeFn, callback)
+- `fn$4` (variable): var fn$4;
+- `elesfn$c` (variable): var elesfn$c;
+- `beforePositionSet` (variable): var beforePositionSet = function beforePositionSet2(eles, newPos, silent) { for (var i = 0; i < eles.length; i++) { var ele = eles[i]; if (!ele.locked()) { var oldPos = ele._pri...
+- `positionDef` (variable): var positionDef = { field: "position", bindingEvent: "position", allowBinding: true, allowSetting: true, settingEvent: "position", settingTriggersEvent: true, triggerFnName: "em...
+- `position` (variable): var position = elesfn$c;
+- `fn$3` (variable): var fn$3;
+- `elesfn$b` (variable): var elesfn$b;
+- `noninf` (variable): var noninf = function noninf2(x2) { if (x2 === Infinity || x2 === -Infinity) { return 0; } return x2; };
+- `updateBounds` (variable): var updateBounds = function updateBounds2(b, x1, y1, x2, y2) { if (x2 - x1 === 0 || y2 - y1 === 0) { return; } if (x1 == null || y1 == null || x2 == null || y2 == null) { return...
+- `updateBoundsFromBox` (variable): var updateBoundsFromBox = function updateBoundsFromBox2(b, b2) { if (b2 == null) { return b; } return updateBounds(b, b2.x1, b2.y1, b2.x2, b2.y2); };
+- `prefixedProperty` (variable): var prefixedProperty = function prefixedProperty2(obj, field, prefix) { return getPrefixedProperty(obj, field, prefix); };
+- `updateBoundsFromArrow` (variable): var updateBoundsFromArrow = function updateBoundsFromArrow2(bounds2, ele, prefix) { if (ele.cy().headless()) { return; } var _p = ele._private; var rstyle = _p.rstyle; var halfA...
+- `updateBoundsFromLabel` (variable): var updateBoundsFromLabel = function updateBoundsFromLabel2(bounds2, ele, prefix) { if (ele.cy().headless()) { return; } var prefixDash; if (prefix) { prefixDash = prefix + "-";...
+- `updateBoundsFromOutline` (variable): var updateBoundsFromOutline = function updateBoundsFromOutline2(bounds2, ele) { if (ele.cy().headless()) { return; } var outlineOpacity = ele.pstyle("outline-opacity").value; va...
+- `updateBoundsFromMiter` (variable): var updateBoundsFromMiter = function updateBoundsFromMiter2(bounds2, ele, opacity, expansionSize, expansionPosition, useFallbackValue) { if (opacity === 0 || expansionSize <= 0 ...
+- `updateBoundsFromMiterBorder` (variable): var updateBoundsFromMiterBorder = function updateBoundsFromMiterBorder2(bounds2, ele) { if (ele.cy().headless()) { return; } var borderOpacity = ele.pstyle("border-opacity").val...
+- `boundingBoxImpl` (variable): var boundingBoxImpl = function boundingBoxImpl2(ele, options2) { var cy = ele._private.cy; var styleEnabled2 = cy.styleEnabled(); var headless2 = cy.headless(); var bounds2 = ma...
+- `getKey` (variable): var getKey = function getKey2(opts) { var i = 0; var tf = function tf2(val) { return (val ? 1 : 0) << i++; }; var key = 0; key += tf(opts.incudeNodes); key += tf(opts.includeEdg...
+- `getBoundingBoxPosKey` (variable): var getBoundingBoxPosKey = function getBoundingBoxPosKey2(ele) { var r = function r2(x2) { return Math.round(x2); }; if (ele.isEdge()) { var p1 = ele.source().position(); var p2...
+- `cachedBoundingBoxImpl` (variable): var cachedBoundingBoxImpl = function cachedBoundingBoxImpl2(ele, opts) { var _p = ele._private; var bb; var isEdge2 = ele.isEdge(); var key = opts == null ? defBbOptsKey : getKe...
+- `defBbOpts` (variable): var defBbOpts = { includeNodes: true, includeEdges: true, includeLabels: true, includeMainLabels: true, includeSourceLabels: true, includeTargetLabels: true, includeOverlays: tr...
+- `defBbOptsKey` (variable): var defBbOptsKey = getKey(defBbOpts);
+- `filledBbOpts` (variable): var filledBbOpts = defaults$g(defBbOpts);
+- `bounds` (variable): var bounds = elesfn$b;
+- `fn$2` (variable): var fn$2;
+- `elesfn$a` (variable): var elesfn$a;
+- `defineDimFns` (variable): var defineDimFns = function defineDimFns2(opts) { opts.uppercaseName = capitalize(opts.name); opts.autoName = "auto" + opts.uppercaseName; opts.labelName = "label" + opts.upperc...
+- `widthHeight` (variable): var widthHeight = elesfn$a;
+- `ifEdge` (variable): var ifEdge = function ifEdge2(ele, getValue2) { if (ele.isEdge() && ele.takesUpSpace()) { return getValue2(ele); } };
+- `ifEdgeRenderedPosition` (variable): var ifEdgeRenderedPosition = function ifEdgeRenderedPosition2(ele, getPoint) { if (ele.isEdge() && ele.takesUpSpace()) { var cy = ele.cy(); return modelToRenderedPosition$1(getP...
+- `ifEdgeRenderedPositions` (variable): var ifEdgeRenderedPositions = function ifEdgeRenderedPositions2(ele, getPoints) { if (ele.isEdge() && ele.takesUpSpace()) { var cy = ele.cy(); var pan2 = cy.pan(); var zoom2 = c...
+- `controlPoints` (variable): var controlPoints = function controlPoints2(ele) { return ele.renderer().getControlPoints(ele); };
+- `segmentPoints` (variable): var segmentPoints = function segmentPoints2(ele) { return ele.renderer().getSegmentPoints(ele); };
+- `sourceEndpoint` (variable): var sourceEndpoint = function sourceEndpoint2(ele) { return ele.renderer().getSourceEndpoint(ele); };
+- `targetEndpoint` (variable): var targetEndpoint = function targetEndpoint2(ele) { return ele.renderer().getTargetEndpoint(ele); };
+- `midpoint` (variable): var midpoint = function midpoint2(ele) { return ele.renderer().getEdgeMidpoint(ele); };
+- `pts` (variable): var pts = { controlPoints: { get: controlPoints, mult: true }, segmentPoints: { get: segmentPoints, mult: true }, sourceEndpoint: { get: sourceEndpoint }, targetEndpoint: { get:...
+- `renderedName` (variable): var renderedName = function renderedName2(name) { return "rendered" + name[0].toUpperCase() + name.substr(1); };
+- `edgePoints` (variable): var edgePoints = Object.keys(pts).reduce(function(obj, name) { var spec = pts[name]; var rName = renderedName(name); obj[name] = function() { return ifEdge(this, spec.get); }; i...
+- `dimensions` (variable): var dimensions = extend({}, position, bounds, widthHeight, edgePoints);
+- `Event` (variable): var Event = function Event2(src, props) { this.recycle(src, props); };
+- `returnFalse` (function): function returnFalse()
+- `returnTrue` (function): function returnTrue()
+- `eventRegex` (variable): var eventRegex = /^([^.]+)(\.(?:[^.]+))?$/;
+- `universalNamespace` (variable): var universalNamespace = ".*";
+- `defaults$8` (variable): var defaults$8 = { qualifierCompare: function qualifierCompare(q1, q2) { return q1 === q2; }, eventMatches: function eventMatches() { return true; }, addEventFields: function ad...
+- `defaultsKeys` (variable): var defaultsKeys = Object.keys(defaults$8);
+- `emptyOpts` (variable): var emptyOpts = {};
+- `Emitter` (function): function Emitter()
+- `p` (variable): var p = Emitter.prototype;
+- `forEachEvent` (variable): var forEachEvent = function forEachEvent2(self2, handler, events, qualifier, callback, conf, confOverrides) { if (fn$6(qualifier)) { callback = qualifier; qualifier = null; } if...
+- `makeEventObj` (variable): var makeEventObj = function makeEventObj2(self2, obj) { self2.addEventFields(self2.context, obj); return new Event(obj.type, obj); };
+- `forEachEventObj` (variable): var forEachEventObj = function forEachEventObj2(self2, handler, events) { if (event(events)) { handler(self2, events); return; } else if (plainObject(events)) { handler(self2, m...
+- `emitterOptions$1` (variable): var emitterOptions$1 = { qualifierCompare: function qualifierCompare2(selector1, selector2) { if (selector1 == null || selector2 == null) { return selector1 == null && selector2...
+- `argSelector$1` (variable): var argSelector$1 = function argSelector(arg) { if (string(arg)) { return new Selector(arg); } else { return arg; } };
+- `elesfn$9` (variable): var elesfn$9 = { createEmitter: function createEmitter() { for (var i = 0; i < this.length; i++) { var ele = this[i]; var _p = ele._private; if (!_p.emitter) { _p.emitter = new ...
+- `elesfn$8` (variable): var elesfn$8 = { nodes: function nodes(selector) { return this.filter(function(ele) { return ele.isNode(); }).filter(selector); }, edges: function edges(selector) { return this....
+- `fn$1` (variable): var fn$1 = elesfn$8;
+- `elesfn$7` (variable): var elesfn$7 = { isNode: function isNode() { return this.group() === "nodes"; }, isEdge: function isEdge() { return this.group() === "edges"; }, isLoop: function isLoop() { retu...
+- `zIndexSort` (variable): var zIndexSort = function zIndexSort2(a, b) { var cy = a.cy(); var hasCompoundNodes2 = cy.hasCompoundNodes(); function getDepth(ele) { var style3 = ele.pstyle("z-compound-depth"...
+- `elesfn$6` (variable): var elesfn$6 = { forEach: function forEach(fn3, thisArg) { if (fn$6(fn3)) { var N = this.length; for (var i = 0; i < N; i++) { var ele = this[i]; var ret = thisArg ? fn3.apply(t...
+- `defineSymbolIterator` (variable): var defineSymbolIterator = function defineSymbolIterator2() { var typeofUndef = "undefined"; var isIteratorSupported = (typeof Symbol === "undefined" ? "undefined" : _typeof(Sym...
+- `getLayoutDimensionOptions` (variable): var getLayoutDimensionOptions = defaults$g({ nodeDimensionsIncludeLabels: false });
+- `elesfn$5` (variable): var elesfn$5 = { // Calculates and returns node dimensions { x, y } based on options given layoutDimensions: function layoutDimensions(options2) { options2 = getLayoutDimensionO...
+- `styleCache` (function): function styleCache(key, fn3, ele)
+- `cacheStyleFunction` (function): function cacheStyleFunction(key, fn3)
+- `cachePrototypeStyleFunction` (function): function cachePrototypeStyleFunction(key, fn3)
+- `elesfn$4` (variable): var elesfn$4 = { recalculateRenderedStyle: function recalculateRenderedStyle(useCache) { var cy = this.cy(); var renderer3 = cy.renderer(); var styleEnabled2 = cy.styleEnabled()...
+- `checkCompound` (function): function checkCompound(ele, parentOk)
+- `defineDerivedStateFunction` (function): function defineDerivedStateFunction(specs)
+- `eleTakesUpSpace` (variable): var eleTakesUpSpace = cacheStyleFunction("eleTakesUpSpace", function(ele) { return ele.pstyle("display").value === "element" && ele.width() !== 0 && (ele.isNode() ? ele.height()...
+- `eleInteractive` (variable): var eleInteractive = cacheStyleFunction("eleInteractive", function(ele) { return ele.pstyle("events").value === "yes" && ele.pstyle("visibility").value === "visible" && eleTakes...
+- `parentInteractive` (variable): var parentInteractive = cacheStyleFunction("parentInteractive", function(parent4) { return parent4.pstyle("visibility").value === "visible" && eleTakesUpSpace(parent4); });
+- `eleVisible` (variable): var eleVisible = cacheStyleFunction("eleVisible", function(ele) { return ele.pstyle("visibility").value === "visible" && ele.pstyle("opacity").pfValue !== 0 && eleTakesUpSpace(e...
+- `edgeVisibleViaNode` (variable): var edgeVisibleViaNode = eleTakesUpSpace;
+- `elesfn$3` (variable): var elesfn$3 = {};
+- `defineSwitchFunction` (function): function defineSwitchFunction(params)
+- `defineSwitchSet` (function): function defineSwitchSet(params)
+- `elesfn$2` (variable): var elesfn$2 = {};
+- `defineDagExtremity` (variable): var defineDagExtremity = function defineDagExtremity2(params) { return function dagExtremityImpl(selector) { var eles = this; var ret = []; for (var i = 0; i < eles.length; i++)...
+- `defineDagOneHop` (variable): var defineDagOneHop = function defineDagOneHop2(params) { return function(selector) { var eles = this; var oEles = []; for (var i = 0; i < eles.length; i++) { var ele = eles[i];...
+- `defineDagAllHops` (variable): var defineDagAllHops = function defineDagAllHops2(params) { return function(selector) { var eles = this; var sEles = []; var sElesIds = {}; for (; ; ) { var next = params.outgoi...
+- `defineSourceFunction` (function): function defineSourceFunction(params)
+- `defineEdgesWithFunction` (function): function defineEdgesWithFunction(params)
+- `defineParallelEdgesFunction` (function): function defineParallelEdgesFunction(params)
+- `Collection` (variable): var Collection = function Collection2(cy, elements) { var unique = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : false; var removed = arguments.length > 3 && ...
+- `elesfn$1` (variable): var elesfn$1 = Element.prototype = Collection.prototype = Object.create(Array.prototype);
+- `corefn$9` (variable): var corefn$9 = { add: function add2(opts) { var elements; var cy = this; if (elementOrCollection(opts)) { var eles = opts; if (eles._private.cy === cy) { elements = eles.restore...
+- `generateCubicBezier` (function): function generateCubicBezier(mX1, mY1, mX2, mY2)
+- `generateSpringRK4` (variable): var generateSpringRK4 = /* @__PURE__ */ function() { function springAccelerationForState(state) { return -state.tension * state.x - state.friction * state.v; } function springEv...
+- `cubicBezier` (variable): var cubicBezier = function cubicBezier2(t1, p1, t2, p2) { var bezier = generateCubicBezier(t1, p1, t2, p2); return function(start, end, percent) { return start + (end - start) *...
+- `easings` (variable): var easings = { "linear": function linear(start, end, percent) { return start + (end - start) * percent; }, // default easings "ease": cubicBezier(0.25, 0.1, 0.25, 1), "ease-in"...
+- `getEasedValue` (function): function getEasedValue(type, start, end, percent, easingFn)
+- `getValue` (function): function getValue(prop, spec)
+- `ease` (function): function ease(startProp, endProp, percent, easingFn, propSpec)
+- `step$1` (function): function step$1(self2, ani, now, isCore)
+- `valid` (function): function valid(start, end)
+- `startAnimation` (function): function startAnimation(self2, ani, now, isCore)
+- `stepAll` (function): function stepAll(now, cy)
+- `corefn$8` (variable): var corefn$8 = { // pull in animation functions animate: define.animate(), animation: define.animation(), animated: define.animated(), clearQueue: define.clearQueue(), delay: de...
+- `emitterOptions` (variable): var emitterOptions = { qualifierCompare: function qualifierCompare3(selector1, selector2) { if (selector1 == null || selector2 == null) { return selector1 == null && selector2 =...
+- `argSelector2` (variable): var argSelector2 = function argSelector3(arg) { if (string(arg)) { return new Selector(arg); } else { return arg; } };
+- `elesfn` (variable): var elesfn = { createEmitter: function createEmitter2() { var _p = this._private; if (!_p.emitter) { _p.emitter = new Emitter(emitterOptions, this); } return this; }, emitter: f...
+- `corefn$7` (variable): var corefn$7 = { png: function png(options2) { var renderer3 = this._private.renderer; options2 = options2 || {}; return renderer3.png(options2); }, jpg: function jpg(options2) ...
+- `corefn$6` (variable): var corefn$6 = { layout: function layout2(options2) { var cy = this; if (options2 == null) { error("Layout options must be specified to make a layout"); return; } if (options2.n...
+- `corefn$5` (variable): var corefn$5 = { notify: function notify(eventName, eventEles) { var _p = this._private; if (this.batching()) { _p.batchNotifications = _p.batchNotifications || {}; var eles = _...
+- `rendererDefaults` (variable): var rendererDefaults = defaults$g({ hideEdgesOnViewport: false, textureOnViewport: false, motionBlur: false, motionBlurOpacity: 0.05, pixelRatio: void 0, desktopTapThreshold: 4,...
+- `corefn$4` (variable): var corefn$4 = { renderTo: function renderTo(context, zoom2, pan2, pxRatio) { var r = this._private.renderer; r.renderTo(context, zoom2, pan2, pxRatio); return this; }, renderer...
+- `corefn$3` (variable): var corefn$3 = { // get a collection // - empty collection on no args // - collection of elements in the graph on selector arg // - guarantee a returned collection when elements...
+- `styfn$8` (variable): var styfn$8 = {};
+- `TRUE` (variable): var TRUE = "t";
+- `FALSE` (variable): var FALSE = "f";
+- `styfn$7` (variable): var styfn$7 = {};
+- `styfn$6` (variable): var styfn$6 = {};
+- `styfn$5` (variable): var styfn$5 = {};
+- `styfn$4` (variable): var styfn$4 = {};
+- `styfn$3` (variable): var styfn$3 = {};
+- `styfn$2` (variable): var styfn$2 = {};
+- `styfn$1` (variable): var styfn$1 = {};
+- `_Style` (variable): var _Style = function Style(cy) { if (!(this instanceof _Style)) { return new _Style(cy); } if (!core(cy)) { error("A style must have a core reference"); return; } this._private...
+- `styfn` (variable): var styfn = _Style.prototype;
+- `corefn$2` (variable): var corefn$2 = { style: function style2(newStyle) { if (newStyle) { var s = this.setStyle(newStyle); s.update(); } return this._private.style; }, setStyle: function setStyle(sty...
+- `defaultSelectionType` (variable): var defaultSelectionType = "single";
+- `corefn$1` (variable): var corefn$1 = { autolock: function autolock(bool) { if (bool !== void 0) { this._private.autolock = bool ? true : false; } else { return this._private.autolock; } return this; ...
+- `fn2` (variable): var fn2 = { data: define.data({ field: "data", bindingEvent: "data", allowBinding: true, allowSetting: true, settingEvent: "data", settingTriggersEvent: true, triggerFnName: "tr...
+- `Core` (variable): var Core = function Core2(opts) { var cy = this; opts = extend({}, opts); var container2 = opts.container; if (container2 && !htmlElement(container2) && htmlElement(container2[0...
+- `corefn` (variable): var corefn = Core.prototype;
+- `defaults$7` (variable): var defaults$7 = { fit: true, // whether to fit the viewport to the graph directed: false, // whether the tree is directed downwards (or edges can point in any direction if fals...
+- `deprecatedOptionDefaults` (variable): var deprecatedOptionDefaults = { maximal: false, // whether to shift nodes down their natural BFS depths in order to avoid upwards edges (DAGS only); setting acyclic to true set...
+- `getInfo` (variable): var getInfo = function getInfo2(ele) { return ele.scratch("breadthfirst"); };
+- `setInfo` (variable): var setInfo = function setInfo2(ele, obj) { return ele.scratch("breadthfirst", obj); };
+- `BreadthFirstLayout` (function): function BreadthFirstLayout(options2)
+- `defaults$6` (variable): var defaults$6 = { fit: true, // whether to fit the viewport to the graph padding: 30, // the padding on fit boundingBox: void 0, // constrain layout bounds; { x1, y1, x2, y2 } ...
+- `CircleLayout` (function): function CircleLayout(options2)
+- `defaults$5` (variable): var defaults$5 = { fit: true, // whether to fit the viewport to the graph padding: 30, // the padding on fit startAngle: 3 / 2 * Math.PI, // where nodes start in radians sweep: ...
+- `ConcentricLayout` (function): function ConcentricLayout(options2)
+- `DEBUG` (variable): var DEBUG;
+- `defaults$4` (variable): var defaults$4 = { // Called on `layoutready` ready: function ready2() { }, // Called on `layoutstop` stop: function stop3() { }, // Whether to animate while running the layout ...
+- `CoseLayout` (function): function CoseLayout(options2)
+- `createLayoutInfo` (variable): var createLayoutInfo = function createLayoutInfo2(cy, layout4, options2) { var edges3 = options2.eles.edges(); var nodes3 = options2.eles.nodes(); var bb = makeBoundingBox(optio...
+- `findLCA` (variable): var findLCA = function findLCA2(node1, node2, layoutInfo) { var res = _findLCA_aux(node1, node2, 0, layoutInfo); if (2 > res.count) { return 0; } else { return res.graph; } };
+- `_findLCA_aux` (variable): var _findLCA_aux = function findLCA_aux(node1, node2, graphIx, layoutInfo) { var graph = layoutInfo.graphSet[graphIx]; if (-1 < graph.indexOf(node1) && -1 < graph.indexOf(node2)...
+- `printLayoutInfo` (variable): var printLayoutInfo;
+- `randomizePositions` (variable): var randomizePositions = function randomizePositions2(layoutInfo, cy) { var width2 = layoutInfo.clientWidth; var height2 = layoutInfo.clientHeight; for (var i = 0; i < layoutInf...
+- `getScaleInBoundsFn` (variable): var getScaleInBoundsFn = function getScaleInBoundsFn2(layoutInfo, options2, nodes3) { var bb = layoutInfo.boundingBox; var coseBB = { x1: Infinity, x2: -Infinity, y1: Infinity, ...
+- `refreshPositions` (variable): var refreshPositions = function refreshPositions2(layoutInfo, cy, options2) { var layout4 = options2.layout; var nodes3 = options2.eles.nodes(); var getScaledPos = getScaleInBou...
+- `step` (variable): var step = function step2(layoutInfo, options2, _step) { calculateNodeForces(layoutInfo, options2); calculateEdgeForces(layoutInfo); calculateGravityForces(layoutInfo, options2)...
+- `calculateNodeForces` (variable): var calculateNodeForces = function calculateNodeForces2(layoutInfo, options2) { for (var i = 0; i < layoutInfo.graphSet.length; i++) { var graph = layoutInfo.graphSet[i]; var nu...
+- `randomDistance` (variable): var randomDistance = function randomDistance2(max5) { return -1 + 2 * max5 * Math.random(); };
+- `nodeRepulsion2` (variable): var nodeRepulsion2 = function nodeRepulsion3(node1, node2, layoutInfo, options2) { var cmptId1 = node1.cmptId; var cmptId2 = node2.cmptId; if (cmptId1 !== cmptId2 && !layoutInfo...
+- `nodesOverlap` (variable): var nodesOverlap = function nodesOverlap2(node1, node2, dX, dY) { if (dX > 0) { var overlapX = node1.maxX - node2.minX; } else { var overlapX = node2.maxX - node1.minX; } if (dY...
+- `findClippingPoint` (variable): var findClippingPoint = function findClippingPoint2(node, dX, dY) { var X = node.positionX; var Y = node.positionY; var H = node.height || 1; var W = node.width || 1; var dirSlo...
+- `calculateEdgeForces` (variable): var calculateEdgeForces = function calculateEdgeForces2(layoutInfo, options2) { for (var i = 0; i < layoutInfo.edgeSize; i++) { var edge = layoutInfo.layoutEdges[i]; var sourceI...
+- `calculateGravityForces` (variable): var calculateGravityForces = function calculateGravityForces2(layoutInfo, options2) { if (options2.gravity === 0) { return; } var distThreshold = 1; for (var i = 0; i < layoutIn...
+- `propagateForces` (variable): var propagateForces = function propagateForces2(layoutInfo, options2) { var queue = []; var start = 0; var end = -1; queue.push.apply(queue, layoutInfo.graphSet[0]); end += layo...
+- `updatePositions` (variable): var updatePositions = function updatePositions2(layoutInfo, options2) { for (var i = 0; i < layoutInfo.nodeSize; i++) { var n = layoutInfo.layoutNodes[i]; if (0 < n.children.len...
+- `limitForce` (variable): var limitForce = function limitForce2(forceX, forceY, max5) { var force = Math.sqrt(forceX * forceX + forceY * forceY); if (force > max5) { var res = { x: max5 * forceX / force,...
+- `_updateAncestryBoundaries` (variable): var _updateAncestryBoundaries = function updateAncestryBoundaries(node, layoutInfo) { var parentId = node.parentId; if (null == parentId) { return; } var p2 = layoutInfo.layoutN...
+- `separateComponents` (variable): var separateComponents = function separateComponents2(layoutInfo, options2) { var nodes3 = layoutInfo.layoutNodes; var components2 = []; for (var i = 0; i < nodes3.length; i++) ...
+- `defaults$3` (variable): var defaults$3 = { fit: true, // whether to fit the viewport to the graph padding: 30, // padding used on fit boundingBox: void 0, // constrain layout bounds; { x1, y1, x2, y2 }...
+- `GridLayout` (function): function GridLayout(options2)
+- `defaults$2` (variable): var defaults$2 = { ready: function ready3() { }, // on layoutready stop: function stop4() { } // on layoutstop };
+- `NullLayout` (function): function NullLayout(options2)
+- `defaults$1` (variable): var defaults$1 = { positions: void 0, // map of (node id) => (position obj); or function(node){ return somPos; } zoom: void 0, // the zoom level to set (prob want fit = false if...
+- `PresetLayout` (function): function PresetLayout(options2)
+- `defaults2` (variable): var defaults2 = { fit: true, // whether to fit to viewport padding: 30, // fit padding boundingBox: void 0, // constrain layout bounds; { x1, y1, x2, y2 } or { x1, y1, w, h } an...
+- `RandomLayout` (function): function RandomLayout(options2)
+- `layout3` (variable): var layout3 = [{ name: "breadthfirst", impl: BreadthFirstLayout }, { name: "circle", impl: CircleLayout }, { name: "concentric", impl: ConcentricLayout }, { name: "cose", impl: ...
+- `NullRenderer` (function): function NullRenderer(options2)
+- `noop2` (variable): var noop2 = function noop3() { };
+- `throwImgErr` (variable): var throwImgErr = function throwImgErr2() { throw new Error("A headless instance can not render images"); };
+- `BRp$f` (variable): var BRp$f = {};
+- `BRp$e` (variable): var BRp$e = {};
+- `BRp$d` (variable): var BRp$d = {};
+- `x` (variable): var x;
+- `y` (variable): var y;
+- `v1` (variable): var v1 = {};
+- `v2` (variable): var v2 = {};
+- `sinA` (variable): var sinA;
+- `sinA90` (variable): var sinA90;
+- `radDirection` (variable): var radDirection;
+- `drawDirection` (variable): var drawDirection;
+- `angle` (variable): var angle;
+- `halfAngle` (variable): var halfAngle;
+- `cRadius` (variable): var cRadius;
+- `lenOut` (variable): var lenOut;
+- `radius` (variable): var radius;
+- `limit` (variable): var limit;
+- `startX` (variable): var startX;
+- `startY` (variable): var startY;
+- `stopX` (variable): var stopX;
+- `stopY` (variable): var stopY;
+- `lastPoint` (variable): var lastPoint;
+- `asVec` (variable): var asVec = function asVec2(p2, pp, v) { v.x = pp.x - p2.x; v.y = pp.y - p2.y; v.len = Math.sqrt(v.x * v.x + v.y * v.y); v.nx = v.x / v.len; v.ny = v.y / v.len; v.ang = Math.ata...
+- `invertVec` (variable): var invertVec = function invertVec2(originalV, invertedV) { invertedV.x = originalV.x * -1; invertedV.y = originalV.y * -1; invertedV.nx = originalV.nx * -1; invertedV.ny = orig...
+- `calcCornerArc` (variable): var calcCornerArc = function calcCornerArc2(previousPoint, currentPoint, nextPoint, radiusMax, isArcRadius) { previousPoint !== lastPoint ? asVec(currentPoint, previousPoint, v1...
+- `drawPreparedRoundCorner` (function): function drawPreparedRoundCorner(ctx, roundCorner)
+- `getRoundCorner` (function): function getRoundCorner(previousPoint, currentPoint, nextPoint, radiusMax)
+- `AVOID_IMPOSSIBLE_BEZIER_CONSTANT` (variable): var AVOID_IMPOSSIBLE_BEZIER_CONSTANT = 0.01;
+- `AVOID_IMPOSSIBLE_BEZIER_CONSTANT_L` (variable): var AVOID_IMPOSSIBLE_BEZIER_CONSTANT_L = Math.sqrt(2 * AVOID_IMPOSSIBLE_BEZIER_CONSTANT);
+- `BRp$c` (variable): var BRp$c = {};
+- `getPts` (function): function getPts(pts2)
+- `BRp$b` (variable): var BRp$b = {};
+- `BRp$a` (variable): var BRp$a = {};
+- `pushBezierPts` (function): function pushBezierPts(r, edge, pts2)
+- `BRp$9` (variable): var BRp$9 = {};
+- `lineAngleFromDelta` (variable): var lineAngleFromDelta = function lineAngleFromDelta2(dx, dy) { var angle2 = Math.atan(dy / dx); if (dx === 0 && angle2 < 0) { angle2 = angle2 * -1; } return angle2; };
+- `lineAngle` (variable): var lineAngle = function lineAngle2(p0, p1) { var dx = p1.x - p0.x; var dy = p1.y - p0.y; return lineAngleFromDelta(dx, dy); };
+- `bezierAngle` (variable): var bezierAngle = function bezierAngle2(p0, p1, p2, t) { var t0 = bound(0, t - 1e-3, 1); var t1 = bound(0, t + 1e-3, 1); var lp0 = qbezierPtAt(p0, p1, p2, t0); var lp1 = qbezier...
+- `BRp$8` (variable): var BRp$8 = {};
+- `TOO_SMALL_CUT_RECT` (variable): var TOO_SMALL_CUT_RECT = 28;
+- `warnedCutRect` (variable): var warnedCutRect = false;
+- `BRp$7` (variable): var BRp$7 = {};
+- `BRp$6` (variable): var BRp$6 = {};
+- `BRp$5` (variable): var BRp$5 = {};
+- `BRp$4` (variable): var BRp$4 = {};
+- `BRp$3` (variable): var BRp$3 = {};
+- `BRp$2` (variable): var BRp$2 = {};
+- `BRp$1` (variable): var BRp$1 = {};
+- `beforeRenderCallbacks` (variable): var beforeRenderCallbacks = function beforeRenderCallbacks2(r, willDraw, startTime) { var cbs = r.beforeRenderCallbacks; for (var i = 0; i < cbs.length; i++) { cbs[i].fn(willDra...
+- `BaseRenderer` (variable): var BaseRenderer = function BaseRenderer2(options2) { this.init(options2); };
+- `BR` (variable): var BR = BaseRenderer;
+- `BRp` (variable): var BRp = BR.prototype;
+- `fullFpsTime` (variable): var fullFpsTime = 1e3 / 60;
+- `defs` (variable): var defs = { setupDequeueing: function setupDequeueing(opts) { return function setupDequeueingImpl() { var self2 = this; var r = this.renderer; if (self2.dequeueingSetup) { retu...
+- `ElementTextureCacheLookup` (variable): var ElementTextureCacheLookup = function() { function ElementTextureCacheLookup2(getKey3) { var doesEleInvalidateKey = arguments.length > 1 && arguments[1] !== void 0 ? argument...
+- `minTxrH` (variable): var minTxrH = 25;
+- `txrStepH` (variable): var txrStepH = 50;
+- `minLvl$1` (variable): var minLvl$1 = -4;
+- `maxLvl$1` (variable): var maxLvl$1 = 3;
+- `maxZoom$1` (variable): var maxZoom$1 = 7.99;
+- `eleTxrSpacing` (variable): var eleTxrSpacing = 8;
+- `defTxrWidth` (variable): var defTxrWidth = 1024;
+- `maxTxrW` (variable): var maxTxrW = 1024;
+- `maxTxrH` (variable): var maxTxrH = 1024;
+- `minUtility` (variable): var minUtility = 0.2;
+- `maxFullness` (variable): var maxFullness = 0.8;
+- `maxFullnessChecks` (variable): var maxFullnessChecks = 10;
+- `deqCost$1` (variable): var deqCost$1 = 0.15;
+- `deqAvgCost$1` (variable): var deqAvgCost$1 = 0.1;
+- `deqNoDrawCost$1` (variable): var deqNoDrawCost$1 = 0.9;
+- `deqFastCost$1` (variable): var deqFastCost$1 = 0.9;
+- `deqRedrawThreshold$1` (variable): var deqRedrawThreshold$1 = 100;
+- `maxDeqSize$1` (variable): var maxDeqSize$1 = 1;
+- `getTxrReasons` (variable): var getTxrReasons = { dequeue: "dequeue", downscale: "downscale", highQuality: "highQuality" };
+- `initDefaults` (variable): var initDefaults = defaults$g({ getKey: null, doesEleInvalidateKey: falsify, drawElement: null, getBoundingBox: null, getRotationPoint: null, getRotationOffset: null, isVisible:...
+- `ElementTextureCache` (variable): var ElementTextureCache = function ElementTextureCache2(renderer3, initOptions) { var self2 = this; self2.renderer = renderer3; self2.onDequeues = []; var opts = initDefaults(in...
+- `ETCp` (variable): var ETCp = ElementTextureCache.prototype;
+- `defNumLayers` (variable): var defNumLayers = 1;
+- `minLvl` (variable): var minLvl = -4;
+- `maxLvl` (variable): var maxLvl = 2;
+- `maxZoom2` (variable): var maxZoom2 = 3.99;
+- `deqRedrawThreshold` (variable): var deqRedrawThreshold = 50;
+- `refineEleDebounceTime` (variable): var refineEleDebounceTime = 50;
+- `deqCost` (variable): var deqCost = 0.15;
+- `deqAvgCost` (variable): var deqAvgCost = 0.1;
+- `deqNoDrawCost` (variable): var deqNoDrawCost = 0.9;
+- `deqFastCost` (variable): var deqFastCost = 0.9;
+- `maxDeqSize` (variable): var maxDeqSize = 1;
+- `invalidThreshold` (variable): var invalidThreshold = 250;
+- `maxLayerArea` (variable): var maxLayerArea = 4e3 * 4e3;
+- `maxLayerDim` (variable): var maxLayerDim = 32767;
+- `useHighQualityEleTxrReqs` (variable): var useHighQualityEleTxrReqs = true;
+- `LayeredTextureCache` (variable): var LayeredTextureCache = function LayeredTextureCache2(renderer3) { var self2 = this; var r = self2.renderer = renderer3; var cy = r.cy; self2.layersByLevel = {}; self2.firstGe...
+- `LTCp` (variable): var LTCp = LayeredTextureCache.prototype;
+- `layerIdPool` (variable): var layerIdPool = 0;
+- `MAX_INT` (variable): var MAX_INT = Math.pow(2, 53) - 1;
+- `CRp$b` (variable): var CRp$b = {};
+- `impl` (variable): var impl;
+- `polygon` (function): function polygon(context, points)
+- `triangleBackcurve` (function): function triangleBackcurve(context, points, controlPoint)
+- `triangleTee` (function): function triangleTee(context, trianglePoints, teePoints)
+- `circleTriangle` (function): function circleTriangle(context, trianglePoints, rx, ry, r)
+- `circle$1` (function): function circle$1(context, rx, ry, r)
+- `CRp$a` (variable): var CRp$a = {};
+- `getZeroRotation` (variable): var getZeroRotation = function getZeroRotation2() { return 0; };
+- `getLabelRotation` (variable): var getLabelRotation = function getLabelRotation2(r, ele) { return r.getTextAngle(ele, null); };
+- `getSourceLabelRotation` (variable): var getSourceLabelRotation = function getSourceLabelRotation2(r, ele) { return r.getTextAngle(ele, "source"); };
+- `getTargetLabelRotation` (variable): var getTargetLabelRotation = function getTargetLabelRotation2(r, ele) { return r.getTextAngle(ele, "target"); };
+- `getOpacity` (variable): var getOpacity = function getOpacity2(r, ele) { return ele.effectiveOpacity(); };
+- `getTextOpacity` (variable): var getTextOpacity = function getTextOpacity2(e, ele) { return ele.pstyle("text-opacity").pfValue * ele.effectiveOpacity(); };
+- `CRp$9` (variable): var CRp$9 = {};
+- `drawEdgeOverlayUnderlay` (variable): var drawEdgeOverlayUnderlay = function drawEdgeOverlayUnderlay2(overlayOrUnderlay) { if (!["overlay", "underlay"].includes(overlayOrUnderlay)) { throw new Error("Invalid state")...
+- `CRp$8` (variable): var CRp$8 = {};
+- `CRp$7` (variable): var CRp$7 = {};
+- `circle` (function): function circle(ctx, x2, y2, width2, height2)
+- `roundRect` (function): function roundRect(ctx, x2, y2, width2, height2)
+- `CRp$6` (variable): var CRp$6 = {};
+- `drawNodeOverlayUnderlay` (variable): var drawNodeOverlayUnderlay = function drawNodeOverlayUnderlay2(overlayOrUnderlay) { if (!["overlay", "underlay"].includes(overlayOrUnderlay)) { throw new Error("Invalid state")...
+- `CRp$5` (variable): var CRp$5 = {};
+- `motionBlurDelay` (variable): var motionBlurDelay = 100;
+- `fpsHeight` (variable): var fpsHeight;
+- `compileShader` (function): function compileShader(gl, type, source)
+- `createProgram` (function): function createProgram(gl, vertexSource, fragementSource)
+- `createTextureCanvas` (function): function createTextureCanvas(r, width2, height2)
+- `getEffectivePanZoom` (function): function getEffectivePanZoom(r)
+- `getEffectiveZoom` (function): function getEffectiveZoom(r)
+- `modelToRenderedPosition2` (function): function modelToRenderedPosition2(r, pan2, zoom2, x2, y2)
+- `isSimpleShape` (function): function isSimpleShape(node, renderTarget)
+- `arrayEqual` (function): function arrayEqual(a1, a2)
+- `toWebGLColor` (function): function toWebGLColor(color, opacity, outArray)
+- `indexToVec4` (function): function indexToVec4(index, outArray)
+- `vec4ToIndex` (function): function vec4ToIndex(vec4)
+- `createTexture` (function): function createTexture(gl, debugID)
+- `getTypeInfo` (function): function getTypeInfo(gl, glslType)
+- `createTypedArray` (function): function createTypedArray(gl, glType, dataOrSize)
+- `createTypedArrayView` (function): function createTypedArrayView(gl, glType, array3, stride, size3, i)
+- `createBufferStaticDraw` (function): function createBufferStaticDraw(gl, type, attributeLoc, dataArray)
+- `createBufferDynamicDraw` (function): function createBufferDynamicDraw(gl, instances, type, attributeLoc)
+- `create3x3MatrixBufferDynamicDraw` (function): function create3x3MatrixBufferDynamicDraw(gl, instances, attributeLoc)
+- `createPickingFrameBuffer` (function): function createPickingFrameBuffer(gl)
+- `ARRAY_TYPE` (variable): var ARRAY_TYPE = typeof Float32Array !== "undefined" ? Float32Array : Array;
+- `create` (function): function create()
+- `identity2` (function): function identity2(out)
+- `multiply` (function): function multiply(out, a, b)
+- `translate` (function): function translate(out, a, v)
+- `rotate` (function): function rotate(out, a, rad)
+- `scale` (function): function scale(out, a, v)
+- `projection` (function): function projection(out, width2, height2)
+- `Atlas` (variable): var Atlas = function() { function Atlas2(r, texSize, texRows, createTextureCanvas2) { _classCallCheck(this, Atlas2); this.debugID = Math.floor(Math.random() * 1e4); this.r = r; ...
+- `AtlasCollection` (variable): var AtlasCollection = function() { function AtlasCollection2(r, texSize, texRows, createTextureCanvas2) { _classCallCheck(this, AtlasCollection2); this.r = r; this.texSize = tex...
+- `intersection` (function): function intersection(set1, set2)
+- `AtlasManager` (variable): var AtlasManager = function() { function AtlasManager2(r, globalOptions) { _classCallCheck(this, AtlasManager2); this.r = r; this.globalOptions = globalOptions; this.atlasSize =...
+- `AtlasBatchManager` (variable): var AtlasBatchManager = function() { function AtlasBatchManager2(globalOptions) { _classCallCheck(this, AtlasBatchManager2); this.globalOptions = globalOptions; this.atlasSize =...
+- `circleSD` (variable): var circleSD = "\n float circleSD(vec2 p, float r) {\n return distance(vec2(0), p) - r; // signed distance\n }\n";
+- `rectangleSD` (variable): var rectangleSD = "\n float rectangleSD(vec2 p, vec2 b) {\n vec2 d = abs(p)-b;\n return distance(vec2(0),max(d,0.0)) + min(max(d.x,d.y),0.0);\n }\n";
+- `roundRectangleSD` (variable): var roundRectangleSD = "\n float roundRectangleSD(vec2 p, vec2 b, vec4 cr) {\n cr.xy = (p.x > 0.0) ? cr.xy : cr.zw;\n cr.x = (p.y > 0.0) ? cr.x : cr.y;\n vec2 q = abs(p) - b + c...
+- `ellipseSD` (variable): var ellipseSD = "\n float ellipseSD(vec2 p, vec2 ab) {\n p = abs( p ); // symmetry\n\n // find root with Newton solver\n vec2 q = ab*(p-ab);\n float w = (q.x<q.y)? 1.570796327 :...
+- `RENDER_TARGET` (variable): var RENDER_TARGET = { SCREEN: { name: "screen", screen: true }, PICKING: { name: "picking", picking: true } };
+- `TEX_PICKING_MODE` (variable): var TEX_PICKING_MODE = { // render the texture just like in RENDER_TARGET.SCREEN mode IGNORE: 1, // don't render the texture at all USE_BB: 2 // render the bounding box as an op...
+- `TEXTURE` (variable): var TEXTURE = 0;
+- `EDGE_STRAIGHT` (variable): var EDGE_STRAIGHT = 1;
+- `EDGE_CURVE_SEGMENT` (variable): var EDGE_CURVE_SEGMENT = 2;
+- `EDGE_ARROW` (variable): var EDGE_ARROW = 3;
+- `RECTANGLE` (variable): var RECTANGLE = 4;
+- `ROUND_RECTANGLE` (variable): var ROUND_RECTANGLE = 5;
+- `BOTTOM_ROUND_RECTANGLE` (variable): var BOTTOM_ROUND_RECTANGLE = 6;
+- `ELLIPSE` (variable): var ELLIPSE = 7;
+- `ElementDrawingWebGL` (variable): var ElementDrawingWebGL = function() { function ElementDrawingWebGL2(r, gl, opts) { _classCallCheck(this, ElementDrawingWebGL2); this.r = r; this.gl = gl; this.maxInstances = op...
+- `CRp$4` (variable): var CRp$4 = {};
+- `getBGColor` (function): function getBGColor(r)
+- `getLabelLines` (function): function getLabelLines(ele, prefix)
+- `getStyleKeysForLabel` (variable): var getStyleKeysForLabel = function getStyleKeysForLabel2(getKey3, prefix) { return function(ele) { var key = getKey3(ele); var lines = getLabelLines(ele, prefix); if (lines.len...
+- `getBoundingBoxForLabel` (variable): var getBoundingBoxForLabel = function getBoundingBoxForLabel2(getBoundingBox, prefix) { return function(ele, styleKey) { var bb = getBoundingBox(ele); if (typeof styleKey === "s...
+- `overrideCanvasRendererFunctions` (function): function overrideCanvasRendererFunctions(r)
+- `clearWebgl` (function): function clearWebgl(r)
+- `clearCanvas` (function): function clearCanvas(r)
+- `createPanZoomMatrix` (function): function createPanZoomMatrix(r)
+- `setContextTransform` (function): function setContextTransform(r, context)
+- `drawSelectionRectangle` (function): function drawSelectionRectangle(r, options2)
+- `drawAxes` (function): function drawAxes(r)
+- `drawAtlases` (function): function drawAtlases(r)
+- `getPickingIndexes` (function): function getPickingIndexes(r, mX1, mY1, mX2, mY2)
+- `findNearestElementsWebgl` (function): function findNearestElementsWebgl(r, x2, y2)
+- `drawEle` (function): function drawEle(r, index, ele)
+- `renderWebgl` (function): function renderWebgl(r, options2, renderTarget)
+- `CRp$3` (variable): var CRp$3 = {};
+- `sin0` (variable): var sin0 = Math.sin(0);
+- `cos0` (variable): var cos0 = Math.cos(0);
+- `sin` (variable): var sin = {};
+- `cos` (variable): var cos = {};
+- `ellipseStepSize` (variable): var ellipseStepSize = Math.PI / 40;
+- `i` (variable): var i;
+- `CRp$2` (variable): var CRp$2 = {};
+- `b64ToBlob` (function): function b64ToBlob(b64, mimeType)
+- `b64UriToB64` (function): function b64UriToB64(b64uri)
+- `output` (function): function output(options2, canvas, mimeType)
+- `CRp$1` (variable): var CRp$1 = {};
+- `CR` (variable): var CR = CanvasRenderer;
+- `CRp` (variable): var CRp = CanvasRenderer.prototype;
+- `CanvasRenderer` (function): function CanvasRenderer(options2)
+- `pathsImpld` (variable): var pathsImpld = typeof Path2D !== "undefined";
+- `renderer2` (variable): var renderer2 = [{ name: "null", impl: NullRenderer }, { name: "base", impl: BR }, { name: "canvas", impl: CR }];
+- `incExts` (variable): var incExts = [{ type: "layout", extensions: layout3 }, { type: "renderer", extensions: renderer2 }];
+- `extensions` (variable): var extensions = {};
+- `modules` (variable): var modules = {};
+- `setExtension` (function): function setExtension(type, name, registrant)
+- `getExtension` (function): function getExtension(type, name)
+- `setModule` (function): function setModule(type, name, moduleType, moduleName, registrant)
+- `getModule` (function): function getModule(type, name, moduleType, moduleName)
+- `extension` (variable): var extension = function extension2() { if (arguments.length === 2) { return getExtension.apply(null, arguments); } else if (arguments.length === 3) { return setExtension.apply(...
+- `_Stylesheet` (variable): var _Stylesheet = function Stylesheet() { if (!(this instanceof _Stylesheet)) { return new _Stylesheet(); } this.length = 0; };
+- `sheetfn` (variable): var sheetfn = _Stylesheet.prototype;
+- `version` (variable): var version = "3.33.2";
+- `cytoscape` (variable): var cytoscape = function cytoscape2(options2) { if (options2 === void 0) { options2 = {}; } if (plainObject(options2)) { return new Core(options2); } else if (string(options2)) ...
+
+## External Dependencies
+
+- No external dependencies detected.
+
+## Unresolved Local References
+
+- No unresolved local references detected.
+
+## Inheritance
+
+- No inheritance relationships detected.
+
+## Calls
+
+- `_arrayWithoutHoles` calls `_arrayLikeToArray`
+- `_defineProperties` calls `_toPropertyKey`
+- `_createClass` calls `_defineProperties`
+- `_createForOfIteratorHelper` calls `_unsupportedIterableToArray`
+- `_defineProperty$1` calls `_toPropertyKey`
+- `_slicedToArray` calls `_arrayWithHoles`
+- `_slicedToArray` calls `_iterableToArrayLimit`
+- `_slicedToArray` calls `_unsupportedIterableToArray`
+- `_slicedToArray` calls `_nonIterableRest`
+- `_toConsumableArray` calls `_arrayWithoutHoles`
+- `_toConsumableArray` calls `_iterableToArray`
+- `_toConsumableArray` calls `_unsupportedIterableToArray`
+- `_toConsumableArray` calls `_nonIterableSpread`
+- `_toPropertyKey` calls `_toPrimitive`
+- `_unsupportedIterableToArray` calls `_arrayLikeToArray`
+- `typeofstr` calls `_typeof`
+- `typeofobj` calls `_typeof`
+- `typeoffn` calls `_typeof`
+- `typeofhtmlele` calls `_typeof`
+- `instanceStr` calls `fn$6`
+- `string` calls `_typeof`
+- `fn$6` calls `_typeof`
+- `array` calls `elementOrCollection`
+- `plainObject` calls `_typeof`
+- `plainObject` calls `array`
+- `object` calls `_typeof`
+- `number$1` calls `_typeof`
+- `integer` calls `number$1`
+- `elementOrCollection` calls `element`
+- `elementOrCollection` calls `collection`
+- `element` calls `instanceStr`
+- `collection` calls `instanceStr`
+- `core` calls `instanceStr`
+- `stylesheet` calls `instanceStr`
+- `event` calls `instanceStr`
+- `boundingBox` calls `plainObject`
+- `boundingBox` calls `number$1`
+- `promise` calls `object`
+- `promise` calls `fn$6`
+- `camel2dash` calls `memoize`
+- `dash2camel` calls `memoize`
+- `prependCamel` calls `memoize`
+- `capitalize` calls `emptyString`
+- `descending` calls `ascending`
+- `color2tuple` calls `array`
+- `color2tuple` calls `colorname2tuple`
+- `color2tuple` calls `hex2tuple`
+- `color2tuple` calls `rgb2tuple`
+- `color2tuple` calls `hsl2tuple`
+- `setMap` calls `plainObject`
+- `getMap` calls `plainObject`
+- `require_root` calls `require_freeGlobal`
+- `requireNow` calls `require_root`
+- `require_baseTrim` calls `require_trimmedEndIndex`
+- `require_Symbol` calls `require_root`
+- `require_getRawTag` calls `require_Symbol`
+- `require_baseGetTag` calls `require_Symbol`
+- `require_baseGetTag` calls `require_getRawTag`
+- `require_baseGetTag` calls `require_objectToString`
+- `requireIsSymbol` calls `require_baseGetTag`
+- `requireIsSymbol` calls `requireIsObjectLike`
+- `requireToNumber` calls `require_baseTrim`
+- `requireToNumber` calls `requireIsObject`
+- `requireToNumber` calls `requireIsSymbol`
+- `requireDebounce` calls `requireIsObject`
+- `requireDebounce` calls `requireNow`
+- `requireDebounce` calls `requireToNumber`
+- `debounceExports` calls `requireDebounce`
+- `debounce` calls `getDefaultExportFromCjs`
+- `raf` calls `pnow`
+- `requestAnimationFrame` calls `raf`
+- `hashArrays` calls `hashInt`
+- `hashArrays` calls `hashIntAlt`
+- `hashIntsArray` calls `hashIterableInts`
+- `hashString` calls `hashIterableInts`
+- `hashStrings` calls `hashStringsArray`
+- `hashStringsArray` calls `hashString`
+- `rotatePosAndSkewByBox` calls `rotatePoint`
+- `rotatePosAndSkewByBox` calls `movePointByBoxAspect`
+- `warn` calls `warnings`
+- `clone` calls `extend`
+- `copy` calls `array`
+- `copy` calls `plainObject`
+- `copy` calls `clone`
+- `getPrefixedProperty` calls `prependCamel`
+- `setPrefixedProperty` calls `prependCamel`
+- `ObjectMap` calls `_classCallCheck`
+- `ObjectMap` calls `_createClass`
+- `ObjectSet` calls `_classCallCheck`
+- `ObjectSet` calls `_createClass`
+- `Set$1` calls `_typeof`
+- `Element` calls `core`
+- `Element` calls `error`
+- `Element` calls `array`
+- `Element` calls `string`
+- `Element` calls `warn`
+- `defineSearch` calls `plainObject`
+- `defineSearch` calls `elementOrCollection`
+- `defineSearch` calls `fn$6`
+- `defineSearch` calls `string`
+- `elesfn$v` calls `defineSearch`
+- `requireHeap` calls `requireHeap$1`
+- `heapExports` calls `requireHeap`
+- `Heap` calls `getDefaultExportFromCjs`
+- `dijkstraDefaults` calls `defaults$g`
+- `elesfn$u` calls `plainObject`
+- `elesfn$u` calls `dijkstraDefaults`
+- `elesfn$u` calls `string`
+- `aStarDefaults` calls `defaults$g`
+- `elesfn$s` calls `aStarDefaults`
+- `floydWarshallDefaults` calls `defaults$g`
+- `elesfn$r` calls `floydWarshallDefaults`
+- `elesfn$r` calls `string`
+- `bellmanFordDefaults` calls `defaults$g`
+- `elesfn$q` calls `bellmanFordDefaults`
+- `elesfn$q` calls `string`
+- `elesfn$q` calls `warn`
+- `collapse` calls `error`
+- `contractUntil` calls `collapse`
+- `elesfn$p` calls `error`
+- `elesfn$p` calls `contractUntil`
+- `dist` calls `sqdist`
+- `qbezierPtAt` calls `qbezierAt`
+- `lineAt` calls `dist`
+- `expandBoundingBoxSides` calls `_slicedToArray`
+- `pointInBoundingBox` calls `inBoundingBox`
+- `boundingBoxInBoundingBox` calls `inBoundingBox`
+- `inflatePolygon` calls `hypot`
+- `miterBox` calls `transformPoints`
+- `miterBox` calls `inflatePolygon`
+- `miterBox` calls `makeBoundingBox`
+- `miterBox` calls `expandBoundingBoxByPoint`
+- `roundRectangleIntersectLine` calls `getRoundRectangleRadius`
+- `roundRectangleIntersectLine` calls `finiteLinesIntersect`
+- `roundRectangleIntersectLine` calls `intersectLineCircle`
+- `sqdistToQuadraticBezier` calls `solveCubic`
+- `pointInsidePolygon` calls `expandPolygon`
+- `pointInsidePolygon` calls `joinLines`
+- `pointInsidePolygon` calls `pointInsidePolygonPoints`
+- `pointInsideRoundPolygon` calls `pointInsidePolygonPoints`
+- `joinLines` calls `finiteLinesIntersect`
+- `finiteLinesIntersect` calls `midOfThree`
+- `polygonIntersectLine` calls `expandPolygon`
+- `polygonIntersectLine` calls `joinLines`
+- `polygonIntersectLine` calls `finiteLinesIntersect`
+- `roundPolygonIntersectLine` calls `intersectLineCircle`
+- `roundPolygonIntersectLine` calls `finiteLinesIntersect`
+- `generateUnitNgonPointsFitToSquare` calls `generateUnitNgonPoints`
+- `generateUnitNgonPointsFitToSquare` calls `fitPolygonToSquare`
+- `satPolygonIntersection` calls `_createForOfIteratorHelper`
+- `satPolygonIntersection` calls `_toConsumableArray`
+- `pageRankDefaults` calls `defaults$g`
+- `elesfn$o` calls `pageRankDefaults`
+- `elesfn$o` calls `inPlaceSumNormalize`
+- `defaults$f` calls `defaults$g`
+- `elesfn$n` calls `defaults$f`
+- `elesfn$n` calls `string`
+- `defaults$e` calls `defaults$g`
+- `elesfn$m` calls `defaults$e`
+- `elesfn$m` calls `string`
+- `defaults$d` calls `defaults$g`
+- `elesfn$l` calls `defaults$d`
+- `defaults$c` calls `defaults$g`
+- `setOptions$3` calls `defaults$c`
+- `expand` calls `mmult`
+- `inflate` calls `normalize`
+- `removeDuplicates` calls `isDuplicate`
+- `markovClustering` calls `setOptions$3`
+- `markovClustering` calls `getSimilarity$1`
+- `markovClustering` calls `addLoops`
+- `markovClustering` calls `normalize`
+- `markovClustering` calls `expand`
+- `markovClustering` calls `inflate`
+- `markovClustering` calls `hasConverged`
+- `markovClustering` calls `assign$2`
+- `markovClustering` calls `removeDuplicates`
+- `addAbsDiff` calls `absDiff`
+- `maxAbsDiff` calls `absDiff`
+- `distances` calls `getDistance`
+- `clusteringDistance` calls `fn$6`
+- `defaults$b` calls `defaults$g`
+- `setOptions$2` calls `defaults$b`
+- `getDist` calls `clusteringDistance`
+- `classify` calls `getDist`
+- `randomMedoids` calls `seenBefore`
+- `findCost` calls `getDist`
+- `kMeans` calls `setOptions$2`
+- `kMeans` calls `randomCentroids`
+- `kMeans` calls `_typeof`
+- `kMeans` calls `classify`
+- `kMeans` calls `buildCluster`
+- `kMeans` calls `haveValuesConverged`
+- `kMedoids` calls `setOptions$2`
+- `kMedoids` calls `_typeof`
+- `kMedoids` calls `randomMedoids`
+- `kMedoids` calls `classify`
+- `kMedoids` calls `buildCluster`
+- `kMedoids` calls `findCost`
+- `updateMembership` calls `getDist`
+- `fuzzyCMeans` calls `setOptions$2`
+- `fuzzyCMeans` calls `updateCentroids`
+- `fuzzyCMeans` calls `updateMembership`
+- `fuzzyCMeans` calls `haveMatricesConverged`
+- `fuzzyCMeans` calls `assign$1`
+- `defaults$a` calls `defaults$g`
+- `setOptions$1` calls `defaults$a`
+- `mergeClosest` calls `clusteringDistance`
+- `_buildClustersFromTree` calls `_getAllChildren`
+- `hierarchicalClustering` calls `setOptions$1`
+- `hierarchicalClustering` calls `clusteringDistance`
+- `hierarchicalClustering` calls `mergeClosest`
+- `hierarchicalClustering` calls `_buildClustersFromTree`
+- `hierarchicalClustering` calls `_buildDendrogram`
+- `defaults$9` calls `defaults$g`
+- `setOptions4` calls `error`
+- `setOptions4` calls `number$1`
+- `setOptions4` calls `defaults$9`
+- `getSimilarity2` calls `clusteringDistance`
+- `getPreference` calls `median`
+- `getPreference` calls `mean`
+- `getPreference` calls `min`
+- `getPreference` calls `max`
+- `assign3` calls `assignClusters`
+- `affinityPropagation` calls `setOptions4`
+- `affinityPropagation` calls `getSimilarity2`
+- `affinityPropagation` calls `getPreference`
+- `affinityPropagation` calls `findExemplars`
+- `affinityPropagation` calls `assign3`
+- `hierholzerDefaults` calls `defaults$g`
+- `elesfn$k` calls `plainObject`
+- `elesfn$k` calls `hierholzerDefaults`
+- `elesfn$k` calls `string`
+- `deliver` calls `execute`
+- `execute` calls `execute_handlers`
+- `resolver` calls `_resolve`
+- `_resolve` calls `_typeof`
+- `Animation` calls `core`
+- `Animation` calls `extend`
+- `Animation` calls `fn$6`
+- `define$3` calls `extend`
+- `define$3` calls `renderedToModelPosition`
+- `define$3` calls `plainObject`
+- `require_isKey` calls `requireIsArray`
+- `require_isKey` calls `requireIsSymbol`
+- `requireIsFunction` calls `require_baseGetTag`
+- `requireIsFunction` calls `requireIsObject`
+- `require_coreJsData` calls `require_root`
+- `require_isMasked` calls `require_coreJsData`
+- `require_baseIsNative` calls `requireIsFunction`
+- `require_baseIsNative` calls `require_isMasked`
+- `require_baseIsNative` calls `requireIsObject`
+- `require_baseIsNative` calls `require_toSource`
+- `require_getNative` calls `require_baseIsNative`
+- `require_getNative` calls `require_getValue`
+- `require_nativeCreate` calls `require_getNative`
+- `require_hashClear` calls `require_nativeCreate`
+- `require_hashGet` calls `require_nativeCreate`
+- `require_hashHas` calls `require_nativeCreate`
+- `require_hashSet` calls `require_nativeCreate`
+- `require_Hash` calls `require_hashClear`
+- `require_Hash` calls `require_hashDelete`
+- `require_Hash` calls `require_hashGet`
+- `require_Hash` calls `require_hashHas`
+- `require_Hash` calls `require_hashSet`
+- `require_assocIndexOf` calls `requireEq`
+- `require_listCacheDelete` calls `require_assocIndexOf`
+- `require_listCacheGet` calls `require_assocIndexOf`
+- `require_listCacheHas` calls `require_assocIndexOf`
+- `require_listCacheSet` calls `require_assocIndexOf`
+- `require_ListCache` calls `require_listCacheClear`
+- `require_ListCache` calls `require_listCacheDelete`
+- `require_ListCache` calls `require_listCacheGet`
+- `require_ListCache` calls `require_listCacheHas`
+- `require_ListCache` calls `require_listCacheSet`
+- `require_Map` calls `require_getNative`
+- `require_Map` calls `require_root`
+- `require_mapCacheClear` calls `require_Hash`
+- `require_mapCacheClear` calls `require_ListCache`
+- `require_mapCacheClear` calls `require_Map`
+- `require_getMapData` calls `require_isKeyable`
+- `require_mapCacheDelete` calls `require_getMapData`
+- `require_mapCacheGet` calls `require_getMapData`
+- `require_mapCacheHas` calls `require_getMapData`
+- `require_mapCacheSet` calls `require_getMapData`
+- `require_MapCache` calls `require_mapCacheClear`
+- `require_MapCache` calls `require_mapCacheDelete`
+- `require_MapCache` calls `require_mapCacheGet`
+- `require_MapCache` calls `require_mapCacheHas`
+- `require_MapCache` calls `require_mapCacheSet`
+- `requireMemoize` calls `require_MapCache`
+- `require_memoizeCapped` calls `requireMemoize`
+- `require_stringToPath` calls `require_memoizeCapped`
+- `require_baseToString` calls `require_Symbol`
+- `require_baseToString` calls `require_arrayMap`
+- `require_baseToString` calls `requireIsArray`
+- `require_baseToString` calls `requireIsSymbol`
+- `requireToString` calls `require_baseToString`
+- `require_castPath` calls `requireIsArray`
+- `require_castPath` calls `require_isKey`
+- `require_castPath` calls `require_stringToPath`
+- `require_castPath` calls `requireToString`
+- `require_toKey` calls `requireIsSymbol`
+- `require_baseGet` calls `require_castPath`
+- `require_baseGet` calls `require_toKey`
+- `requireGet` calls `require_baseGet`
+- `getExports` calls `requireGet`
+- `get` calls `getDefaultExportFromCjs`
+- `require_defineProperty` calls `require_getNative`
+- `require_baseAssignValue` calls `require_defineProperty`
+- `require_assignValue` calls `require_baseAssignValue`
+- `require_assignValue` calls `requireEq`
+- `require_baseSet` calls `require_assignValue`
+- `require_baseSet` calls `require_castPath`
+- `require_baseSet` calls `require_isIndex`
+- `require_baseSet` calls `requireIsObject`
+- `require_baseSet` calls `require_toKey`
+- `requireSet` calls `require_baseSet`
+- `setExports` calls `requireSet`
+- `set` calls `getDefaultExportFromCjs`
+- `requireToPath` calls `require_arrayMap`
+- `requireToPath` calls `require_copyArray`
+- `requireToPath` calls `requireIsArray`
+- `requireToPath` calls `requireIsSymbol`
+- `requireToPath` calls `require_stringToPath`
+- `requireToPath` calls `require_toKey`
+- `requireToPath` calls `requireToString`
+- `toPathExports` calls `requireToPath`
+- `toPath` calls `getDefaultExportFromCjs`
+- `define$2` calls `extend`
+- `define$2` calls `string`
+- `define$2` calls `toPath`
+- `define$2` calls `get`
+- `define$2` calls `_defineProperty$1`
+- `define$2` calls `set`
+- `define$2` calls `plainObject`
+- `define$2` calls `fn$6`
+- `define$2` calls `emptyString`
+- `elesfn$h` calls `array`
+- `stateSelectors` calls `descending`
+- `exprs` calls `_slicedToArray`
+- `exprs` calls `cleanMetaChars`
+- `exprs` calls `newQuery`
+- `exprs` calls `replaceLastQuery`
+- `exprs` calls `warn`
+- `parse` calls `newQuery`
+- `parse` calls `consumeWhitespace`
+- `parse` calls `consumeExpr`
+- `parse` calls `warn`
+- `toString` calls `string`
+- `valCmp` calls `string`
+- `valCmp` calls `number$1`
+- `filter` calls `matches$1`
+- `matches31` calls `matches$1`
+- `Selector` calls `string`
+- `Selector` calls `elementOrCollection`
+- `Selector` calls `fn$6`
+- `Selector` calls `error`
+- `cache` calls `elementOrCollection`
+- `cache` calls `hashString`
+- `elesfn$f` calls `cache`
+- `addParentAndChildren` calls `addParent`
+- `addParentAndChildren` calls `addChildren`
+- `positionDef` calls `beforePositionSet`
+- `updateBoundsFromBox` calls `updateBounds`
+- `prefixedProperty` calls `getPrefixedProperty`
+- `updateBoundsFromArrow` calls `expandBoundingBox`
+- `updateBoundsFromArrow` calls `updateBounds`
+- `updateBoundsFromLabel` calls `prefixedProperty`
+- `updateBoundsFromLabel` calls `updateBounds`
+- `updateBoundsFromOutline` calls `updateBoundsFromMiter`
+- `updateBoundsFromMiter` calls `updateBoundsFromBox`
+- `updateBoundsFromMiter` calls `expandBoundingBoxSides`
+- `updateBoundsFromMiterBorder` calls `updateBoundsFromMiter`
+- `boundingBoxImpl` calls `makeBoundingBox`
+- `boundingBoxImpl` calls `updateBounds`
+- `boundingBoxImpl` calls `updateBoundsFromOutline`
+- `boundingBoxImpl` calls `updateBoundsFromMiterBorder`
+- `boundingBoxImpl` calls `endsWith`
+- `boundingBoxImpl` calls `updateBoundsFromArrow`
+- `boundingBoxImpl` calls `assignBoundingBox`
+- `boundingBoxImpl` calls `expandBoundingBoxSides`
+- `boundingBoxImpl` calls `expandBoundingBox`
+- `boundingBoxImpl` calls `clearBoundingBox`
+- `boundingBoxImpl` calls `updateBoundsFromLabel`
+- `boundingBoxImpl` calls `noninf`
+- `getBoundingBoxPosKey` calls `hashIntsArray`
+- `cachedBoundingBoxImpl` calls `getKey`
+- `cachedBoundingBoxImpl` calls `boundingBoxImpl`
+- `cachedBoundingBoxImpl` calls `getBoundingBoxPosKey`
+- `cachedBoundingBoxImpl` calls `makeBoundingBox`
+- `cachedBoundingBoxImpl` calls `updateBoundsFromBox`
+- `defBbOptsKey` calls `getKey`
+- `filledBbOpts` calls `defaults$g`
+- `defineDimFns` calls `capitalize`
+- `ifEdgeRenderedPosition` calls `modelToRenderedPosition$1`
+- `ifEdgeRenderedPositions` calls `modelToRenderedPosition$1`
+- `edgePoints` calls `renderedName`
+- `edgePoints` calls `ifEdge`
+- `edgePoints` calls `ifEdgeRenderedPositions`
+- `edgePoints` calls `ifEdgeRenderedPosition`
+- `dimensions` calls `extend`
+- `forEachEvent` calls `fn$6`
+- `forEachEvent` calls `extend`
+- `forEachEvent` calls `array`
+- `forEachEvent` calls `emptyString`
+- `forEachEventObj` calls `event`
+- `forEachEventObj` calls `plainObject`
+- `forEachEventObj` calls `makeEventObj`
+- `forEachEventObj` calls `array`
+- `forEachEventObj` calls `emptyString`
+- `emitterOptions$1` calls `element`
+- `argSelector$1` calls `string`
+- `elesfn$9` calls `argSelector$1`
+- `elesfn$8` calls `string`
+- `elesfn$8` calls `elementOrCollection`
+- `elesfn$8` calls `fn$6`
+- `elesfn$6` calls `fn$6`
+- `defineSymbolIterator` calls `_typeof`
+- `defineSymbolIterator` calls `_defineProperty$1`
+- `getLayoutDimensionOptions` calls `defaults$g`
+- `elesfn$5` calls `getLayoutDimensionOptions`
+- `elesfn$5` calls `memoize`
+- `elesfn$5` calls `makeBoundingBox`
+- `elesfn$5` calls `expandBoundingBoxByPoint`
+- `elesfn$5` calls `extend`
+- `cacheStyleFunction` calls `hashString`
+- `cacheStyleFunction` calls `styleCache`
+- `cachePrototypeStyleFunction` calls `hashString`
+- `cachePrototypeStyleFunction` calls `styleCache`
+- `elesfn$4` calls `plainObject`
+- `elesfn$4` calls `string`
+- `defineDerivedStateFunction` calls `checkCompound`
+- `eleTakesUpSpace` calls `cacheStyleFunction`
+- `eleInteractive` calls `cacheStyleFunction`
+- `eleInteractive` calls `eleTakesUpSpace`
+- `parentInteractive` calls `cacheStyleFunction`
+- `parentInteractive` calls `eleTakesUpSpace`
+- `eleVisible` calls `cacheStyleFunction`
+- `eleVisible` calls `eleTakesUpSpace`
+- `defineSwitchFunction` calls `fn$6`
+- `defineSwitchFunction` calls `array`
+- `defineSwitchSet` calls `defineSwitchFunction`
+- `defineEdgesWithFunction` calls `string`
+- `defineParallelEdgesFunction` calls `extend`
+- `Collection` calls `error`
+- `Collection` calls `plainObject`
+- `Collection` calls `element`
+- `Collection` calls `uuid`
+- `corefn$9` calls `elementOrCollection`
+- `corefn$9` calls `array`
+- `corefn$9` calls `plainObject`
+- `corefn$9` calls `extend`
+- `corefn$9` calls `string`
+- `cubicBezier` calls `generateCubicBezier`
+- `easings` calls `cubicBezier`
+- `easings` calls `generateSpringRK4`
+- `ease` calls `getValue`
+- `ease` calls `number$1`
+- `ease` calls `getEasedValue`
+- `ease` calls `array`
+- `step$1` calls `string`
+- `step$1` calls `valid`
+- `step$1` calls `ease`
+- `step$1` calls `bound`
+- `valid` calls `number$1`
+- `stepAll` calls `startAnimation`
+- `stepAll` calls `step$1`
+- `corefn$8` calls `requestAnimationFrame`
+- `corefn$8` calls `stepAll`
+- `emitterOptions` calls `element`
+- `argSelector2` calls `string`
+- `elesfn` calls `argSelector2`
+- `corefn$6` calls `error`
+- `corefn$6` calls `string`
+- `corefn$6` calls `extend`
+- `rendererDefaults` calls `defaults$g`
+- `corefn$4` calls `error`
+- `corefn$4` calls `warn`
+- `corefn$4` calls `rendererDefaults`
+- `corefn$3` calls `string`
+- `corefn$3` calls `elementOrCollection`
+- `corefn$3` calls `array`
+- `_Style` calls `core`
+- `_Style` calls `error`
+- `corefn$2` calls `stylesheet`
+- `corefn$2` calls `array`
+- `corefn$2` calls `string`
+- `corefn$2` calls `_Style`
+- `corefn$1` calls `string`
+- `corefn$1` calls `plainObject`
+- `corefn$1` calls `number$1`
+- `corefn$1` calls `boundingBox`
+- `corefn$1` calls `elementOrCollection`
+- `corefn$1` calls `modelToRenderedPosition$1`
+- `Core` calls `extend`
+- `Core` calls `htmlElement`
+- `Core` calls `number$1`
+- `Core` calls `plainObject`
+- `Core` calls `array`
+- `Core` calls `fn$6`
+- `BreadthFirstLayout` calls `extend`
+- `CircleLayout` calls `extend`
+- `ConcentricLayout` calls `extend`
+- `CoseLayout` calls `extend`
+- `createLayoutInfo` calls `makeBoundingBox`
+- `createLayoutInfo` calls `fn$6`
+- `createLayoutInfo` calls `findLCA`
+- `findLCA` calls `_findLCA_aux`
+- `refreshPositions` calls `getScaleInBoundsFn`
+- `step` calls `calculateNodeForces`
+- `step` calls `calculateEdgeForces`
+- `step` calls `calculateGravityForces`
+- `step` calls `propagateForces`
+- `step` calls `updatePositions`
+- `calculateNodeForces` calls `nodeRepulsion2`
+- `nodeRepulsion2` calls `randomDistance`
+- `nodeRepulsion2` calls `nodesOverlap`
+- `nodeRepulsion2` calls `findClippingPoint`
+- `calculateEdgeForces` calls `findClippingPoint`
+- `updatePositions` calls `limitForce`
+- `updatePositions` calls `_updateAncestryBoundaries`
+- `GridLayout` calls `extend`
+- `NullLayout` calls `extend`
+- `PresetLayout` calls `extend`
+- `RandomLayout` calls `extend`
+- `calcCornerArc` calls `asVec`
+- `calcCornerArc` calls `invertVec`
+- `getRoundCorner` calls `calcCornerArc`
+- `pushBezierPts` calls `qbezierAt`
+- `lineAngle` calls `lineAngleFromDelta`
+- `bezierAngle` calls `bound`
+- `bezierAngle` calls `qbezierPtAt`
+- `bezierAngle` calls `lineAngle`
+- `defs` calls `debounce`
+- `defs` calls `performanceNow`
+- `ElementTextureCacheLookup` calls `_classCallCheck`
+- `ElementTextureCacheLookup` calls `_createClass`
+- `ElementTextureCacheLookup` calls `error`
+- `initDefaults` calls `defaults$g`
+- `ElementTextureCache` calls `initDefaults`
+- `ElementTextureCache` calls `extend`
+- `LayeredTextureCache` calls `performanceNow`
+- `LayeredTextureCache` calls `debounce`
+- `createProgram` calls `compileShader`
+- `createBufferStaticDraw` calls `getTypeInfo`
+- `createBufferStaticDraw` calls `_slicedToArray`
+- `createBufferStaticDraw` calls `createTypedArray`
+- `createBufferDynamicDraw` calls `getTypeInfo`
+- `createBufferDynamicDraw` calls `_slicedToArray`
+- `createBufferDynamicDraw` calls `createTypedArray`
+- `createBufferDynamicDraw` calls `createTypedArrayView`
+- `Atlas` calls `_classCallCheck`
+- `Atlas` calls `_createClass`
+- `Atlas` calls `createTexture`
+- `AtlasCollection` calls `_classCallCheck`
+- `AtlasCollection` calls `_createClass`
+- `AtlasCollection` calls `_createForOfIteratorHelper`
+- `AtlasCollection` calls `intersection`
+- `AtlasCollection` calls `_slicedToArray`
+- `intersection` calls `_toConsumableArray`
+- `AtlasManager` calls `_classCallCheck`
+- `AtlasManager` calls `_createClass`
+- `AtlasManager` calls `extend`
+- `AtlasManager` calls `_createForOfIteratorHelper`
+- `AtlasManager` calls `arrayEqual`
+- `AtlasManager` calls `_slicedToArray`
+- `AtlasBatchManager` calls `_classCallCheck`
+- `AtlasBatchManager` calls `_createClass`
+- `ElementDrawingWebGL` calls `_classCallCheck`
+- `ElementDrawingWebGL` calls `_createClass`
+- `ElementDrawingWebGL` calls `createProgram`
+- `ElementDrawingWebGL` calls `createBufferStaticDraw`
+- `ElementDrawingWebGL` calls `create3x3MatrixBufferDynamicDraw`
+- `ElementDrawingWebGL` calls `createBufferDynamicDraw`
+- `ElementDrawingWebGL` calls `endsWith`
+- `ElementDrawingWebGL` calls `_createForOfIteratorHelper`
+- `ElementDrawingWebGL` calls `_slicedToArray`
+- `ElementDrawingWebGL` calls `indexToVec4`
+- `ElementDrawingWebGL` calls `identity2`
+- `ElementDrawingWebGL` calls `translate`
+- `ElementDrawingWebGL` calls `rotate`
+- `ElementDrawingWebGL` calls `scale`
+- `ElementDrawingWebGL` calls `toWebGLColor`
+- `ElementDrawingWebGL` calls `getRoundRectangleRadius`
+- `ElementDrawingWebGL` calls `getEffectiveZoom`
+- `getBGColor` calls `color2tuple`
+- `getLabelLines` calls `getPrefixedProperty`
+- `getStyleKeysForLabel` calls `getLabelLines`
+- `getBoundingBoxForLabel` calls `getLabelLines`
+- `overrideCanvasRendererFunctions` calls `clearWebgl`
+- `overrideCanvasRendererFunctions` calls `clearCanvas`
+- `overrideCanvasRendererFunctions` calls `renderWebgl`
+- `overrideCanvasRendererFunctions` calls `findNearestElementsWebgl`
+- `createPanZoomMatrix` calls `getEffectivePanZoom`
+- `createPanZoomMatrix` calls `create`
+- `createPanZoomMatrix` calls `translate`
+- `createPanZoomMatrix` calls `scale`
+- `createPanZoomMatrix` calls `projection`
+- `createPanZoomMatrix` calls `multiply`
+- `setContextTransform` calls `getEffectivePanZoom`
+- `drawSelectionRectangle` calls `setContextTransform`
+- `drawAxes` calls `setContextTransform`
+- `getPickingIndexes` calls `getEffectivePanZoom`
+- `getPickingIndexes` calls `modelToRenderedPosition2`
+- `getPickingIndexes` calls `_slicedToArray`
+- `getPickingIndexes` calls `renderWebgl`
+- `getPickingIndexes` calls `vec4ToIndex`
+- `findNearestElementsWebgl` calls `getPickingIndexes`
+- `findNearestElementsWebgl` calls `_createForOfIteratorHelper`
+- `renderWebgl` calls `drawSelectionRectangle`
+- `renderWebgl` calls `createPanZoomMatrix`
+- `renderWebgl` calls `drawEle`
+- `renderWebgl` calls `drawAxes`
+- `renderWebgl` calls `drawAtlases`
+- `renderWebgl` calls `_createForOfIteratorHelper`
+- `output` calls `b64ToBlob`
+- `output` calls `b64UriToB64`
+- `CanvasRenderer` calls `ms`
+- `CanvasRenderer` calls `error`
+- `CanvasRenderer` calls `makeBoundingBox`
+- `setExtension` calls `warn`
+- `setExtension` calls `plainObject`
+- `setExtension` calls `extend`
+- `setExtension` calls `getExtension`
+- `setExtension` calls `error`
+- `setExtension` calls `setMap`
+- `getExtension` calls `getMap`
+- `setModule` calls `setMap`
+- `getModule` calls `getMap`
+- `extension` calls `error`
+- `cytoscape` calls `plainObject`
+- `cytoscape` calls `string`
+
+## Diagnostics
+
+- No parser diagnostics.
+
+## Related Outputs
+
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
+

@@ -29,7 +29,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.832Z'
-updated_at: '2026-05-03T04:02:08.727Z'
+updated_at: '2026-05-03T05:32:23.245Z'
 compiled_from:
   - licenserc-5791d62b
 managed_by: system

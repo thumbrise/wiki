@@ -517,6 +517,8 @@ origin: source_brief
 question: Brief checkout
 output_format: report
 output_assets: []
+decay_score: 1
+last_confirmed_at: '2026-05-03T05:12:48.506Z'
 ---
 # Source Brief: checkout
 

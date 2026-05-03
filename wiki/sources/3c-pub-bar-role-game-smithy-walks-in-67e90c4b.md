@@ -29,7 +29,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.825Z'
-updated_at: '2026-05-03T04:02:08.712Z'
+updated_at: '2026-05-03T05:32:23.174Z'
 compiled_from:
   - 3c-pub-bar-role-game-smithy-walks-in-67e90c4b
 managed_by: system

@@ -1,0 +1,1842 @@
+---
+page_id: 'module:vitepress-vueuse-core-992426fa'
+kind: module
+cssclasses:
+  - swarmvault
+  - sv-module
+title: vitepress___@vueuse_core module
+source_class: first_party
+tags:
+  - module
+  - code
+  - javascript
+source_ids:
+  - vitepress-vueuse-core-992426fa
+project_ids: []
+node_ids:
+  - 'module:vitepress-vueuse-core-992426fa'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedeager.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedwithcontrol.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonscopedispose.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createeventhook.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createglobalstate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:localprovidedstatemap.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:injectlocal.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:providelocal.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:createinjectionstate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createsharedcomposable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:extendref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:get.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isdefined.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:makedestructurable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactify.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactifyobject.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:toreactive.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactivecomputed.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactiveomit.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isclient.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isworker.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isdef.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:notnullish.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:assert.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:tostring.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isobject.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:now.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:timestamp.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:clamp.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:noop.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:rand.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:hasown.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isios.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:getisios.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createfilterwrapper.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:bypassfilter.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:debouncefilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:throttlefilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:pausablefilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:cachestringfunction.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:hyphenatere.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:hyphenate.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:camelizere.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:camelize.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:promisetimeout.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:identity.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createsingletonpromise.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:invoke.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:containsprop.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:increasewithunit.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:pxvalue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:objectpick.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:objectomit.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:objectentries.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getlifecycletarget.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:toarray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:toref2.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolveref.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:reactivepick.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refautoreset.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedebouncefn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refdebounced.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refdefault.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usethrottlefn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refthrottled.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:refwithcontrol.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:controlledref.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:set.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchwithfilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchpausable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:syncref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:syncrefs.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:torefs2.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tovalue2.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolveunref.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonbeforemount.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonbeforeunmount.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonmounted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryonunmounted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createuntil.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:until.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultcomparator.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearraydifference.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayevery.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfilter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfind.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfindindex.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:findlast.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayfindlast.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isarrayincludesoptions.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayincludes.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayjoin.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearraymap.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayreduce.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearraysome.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uniq.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uniqueelementsby.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usearrayunique.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecounter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:regex-parse.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:regex-format.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultmeridiem.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:formatordinal.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:formatdate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:normalizedate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedateformat.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useintervalfn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useinterval.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uselastchanged.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeoutfn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeout.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetonumber.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetostring.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetoggle.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watcharray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchatmost.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchdebounced.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchdeep.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchignorable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchimmediate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchonce.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchthrottled.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:watchtriggerable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getwatchsources.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getoldvalue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:whenever.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedasync.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:computedinject.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createreusabletemplate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:keystocamelkebabcase.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createtemplatepromise.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createunreffn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultwindow.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultdocument.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultnavigator.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultlocation.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:unrefelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeventlistener.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:iosworkaround.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:onclickoutside.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemounted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usesupported.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemutationobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onelementremoval.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createkeypredicate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeystroke.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeydown.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeypressed.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onkeyup.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-delay.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-threshold.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:onlongpress.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:isfocusedelementeditable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:istypedcharvalid.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:onstarttyping.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:templateref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useactiveelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useraffn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useanimate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useasyncqueue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:whenaborted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useasyncstate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaults.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:getdefaultserialization.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebase64.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:imgloaded.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:blobtobase64.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebattery.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebluetooth.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:ssrwidthsymbol.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usessrwidth.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:providessrwidth.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemediaquery.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointstailwind.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsbootstrapv5.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsvuetifyv2.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsvuetifyv3.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsvuetify.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsantdesign.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsquasar.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointssematic.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsmastercss.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointsprimeflex.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:breakpointselement.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebreakpoints.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebroadcastchannel.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:writable-properties.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usebrowserlocation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecached.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepermission.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useclipboard.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useclipboarditems.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:clonefnjson.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecloned.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:global.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:globalkey.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:handlers.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:gethandlers.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getssrhandler.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:setssrhandler.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferreddark.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:guessserializertype.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:storageserializers.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:customstorageeventname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestorage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:css-disable-trans.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecolormode.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useconfirmdialog.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecountdown.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecssvar.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecurrentelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usecyclelist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedark.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:fnbypass.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:fnsetsource.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultdump.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultparse.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemanualrefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:userefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedebouncedrefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedevicemotion.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedeviceorientation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedevicepixelratio.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedeviceslist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedisplaymedia.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedocumentvisibility.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedraggable.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usedropzone.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useresizeobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementbounding.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementbypoint.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementhover.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementsize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useintersectionobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useelementvisibility.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:events.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeventbus.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolvenestedoptions-1.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeventsource.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useeyedropper.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefavicon.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:payloadmapping.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isfetchoptions.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:reabsolute.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:isabsoluteurl.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:headerstoobject.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:combinecallbacks.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createfetch.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefetch.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:joinpaths.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-options.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:prepareinitialfiles.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefiledialog.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefilesystemaccess.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefocus.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:event-focus-in.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:event-focus-out.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:pseudo-class-focus-within.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefocuswithin.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefps.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:eventhandlers.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usefullscreen.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:mapgamepadtoxbox360controller.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usegamepad.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usegeolocation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultevents-1.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:oneminute.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:useidle.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:loadimage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useimage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolveelement.function'
+  - >-
+    symbol:vitepress-vueuse-core-992426fa:arrived-state-threshold-pixels.variable
+  - 'symbol:vitepress-vueuse-core-992426fa:usescroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useinfinitescroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultevents.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usekeymodifier.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:uselocalstorage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultmagickeysaliasmap.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemagickeys.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usingelref.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:timerangetoarray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:trackstoarray.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultoptions.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemediacontrols.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usememoize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usememory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemousebuiltinextractors.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemouse.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemouseinelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usemousepressed.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usenavigatorlanguage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usenetwork.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usenow.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useobjecturl.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useclamp.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useoffsetpagination.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useonline.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepageleave.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescreenorientation.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useparallax.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useparentelement.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useperformanceobserver.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultstate.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:keys.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepointer.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepointerlock.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepointerswipe.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredcolorscheme.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredcontrast.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredlanguages.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usepreferredreducedmotion.function'
+  - >-
+    symbol:vitepress-vueuse-core-992426fa:usepreferredreducedtransparency.function
+  - 'symbol:vitepress-vueuse-core-992426fa:useprevious.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:topvarname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:rightvarname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:bottomvarname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:leftvarname.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescreensafearea.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getvalue.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescripttag.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:checkoverflowscroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:preventdefault.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:elinitialoverflow.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usescrolllock.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usesessionstorage.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useshare.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultsortfn.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:defaultcompare.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usesorted.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usespeechrecognition.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usespeechsynthesis.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestepper.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestorageasync.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:id.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:usestyletag.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useswipe.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetemplaterefslist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetextdirection.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:getrangesfromselection.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetextselection.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tryrequestanimationframe.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetextareaautosize.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usethrottledrefhistory.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-units.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-messages.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-formatter.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeago.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:formattimeago.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimeoutpoll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetimestamp.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetitle.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:transitionpresets.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:transitionpresets.variable-2'
+  - 'symbol:vitepress-vueuse-core-992426fa:createeasingfunction.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:lerp.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:tovec.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:executetransition.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usetransition.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useurlsearchparams.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useusermedia.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevmodel.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevmodels.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevibrate.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevirtuallist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usevirtuallistresources.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:creategetviewcapacity.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:creategetoffset.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createcalculaterange.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:creategetdistance.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewatchforsizes.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createcomputedtotalsize.function'
+  - >-
+    symbol:vitepress-vueuse-core-992426fa:scrolltodictionaryforelementscrollkey.variable
+  - 'symbol:vitepress-vueuse-core-992426fa:createscrollto.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usehorizontalvirtuallist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:useverticalvirtuallist.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewakelock.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebnotification.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:default-ping-message.variable'
+  - 'symbol:vitepress-vueuse-core-992426fa:resolvenestedoptions.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebsocket.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebworker.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:depsparser.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:jobrunner.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:createworkerbloburl.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewebworkerfn.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewindowfocus.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewindowscroll.function'
+  - 'symbol:vitepress-vueuse-core-992426fa:usewindowsize.function'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T05:11:46.073Z'
+updated_at: '2026-05-03T05:32:23.299Z'
+compiled_from:
+  - vitepress-vueuse-core-992426fa
+managed_by: system
+backlinks:
+  - 'source:vitepress-vueuse-core-992426fa'
+  - 'module:chunk-7oikw5wk-a144e02d'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'output:source-briefs/directory-op-597d97ce'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  vitepress-vueuse-core-992426fa: 992426faaf3eafe7cf920f73ee380a87851aab6ebeaf4fdcbcce5bdd4cdd216d
+source_semantic_hashes:
+  vitepress-vueuse-core-992426fa: 992426faaf3eafe7cf920f73ee380a87851aab6ebeaf4fdcbcce5bdd4cdd216d
+related_page_ids:
+  - 'source:vitepress-vueuse-core-992426fa'
+  - 'module:chunk-7oikw5wk-a144e02d'
+  - 'module:chunk-busya2b4-a9582e69'
+  - 'output:source-briefs/directory-op-597d97ce'
+related_node_ids: []
+related_source_ids:
+  - vitepress-vueuse-core-992426fa
+  - chunk-7oikw5wk-a144e02d
+  - chunk-busya2b4-a9582e69
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
+  - 10-pistol-c4a46637
+  - 11-bundle-d20d9270
+  - 12-profession-6a98045a
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
+  - 15-black-dfde2647
+  - 16-migrations-115e9686
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
+  - 19-mongodb-ff331c30
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
+  - 3-bleed-09df896e
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-js-ed562b0b
+  - composer-2fcc293f
+  - composer-61edd1a7
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
+  - demotest-276ee805
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
+  - dogshop-de2fc247
+  - dogshop-invalid-17d19246
+  - donothing-0c30237f
+  - dream-17b190f1
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
+  - gitignore-1c7e0952
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
+  - instruction-v1-ce2b773a
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
+  - jsonvalidation-a88469ee
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
+  - licenserc-40040b08
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
+  - session-7a75f197
+  - stempler-a4483274
+  - swarmvault-config-json-84915e3f
+  - taskfile-f98ae8d6
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-primitive-range-conjecture-c5c69b80
+  - the-understory-69c901f2
+  - three-atoms-f9d1fbb2
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-roadmap-cdd00ede
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
+  - welcome-049f9ac7
+language: javascript
+---
+# vitepress___@vueuse_core module
+
+Source ID: `vitepress-vueuse-core-992426fa`
+Source Path: `/Users/rk/GolandProjects/op/docs/.vitepress/cache/deps/vitepress___@vueuse_core.js`
+Repo Path: `docs/.vitepress/cache/deps/vitepress___@vueuse_core.js`
+Source Class: `first_party`
+Language: `javascript`
+Module Name: `docs/.vitepress/cache/deps/vitepress___@vueuse_core`
+Source Page: [[sources/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core]]
+
+## Summary
+
+vitepress___@vueuse_core is a javascript module, defining 389 top-level symbol(s), exporting 0 symbol(s), importing 2 local module(s).
+
+## Imports
+
+- imports [[code/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK module]] (named `Fragment`, `TransitionGroup`, `computed`, `customRef`, `defineComponent`, `effectScope`, `getCurrentInstance`, `getCurrentScope`, `h`, `hasInjectionContext`, `inject`, `isReactive`, `isReadonly`, `isRef`, `markRaw`, `nextTick`, `onBeforeMount`, `onBeforeUnmount`, `onBeforeUpdate`, `onMounted`, `onScopeDispose`, `onUnmounted`, `onUpdated`, `provide`, `reactive`, `readonly`, `ref`, `shallowReactive`, `shallowRef`, `toRaw`, `toRef`, `toRefs`, `toValue`, `unref`, `watch`, `watchEffect`)
+- imports [[code/chunk-busya2b4-a9582e69|chunk-BUSYA2B4 module]]
+
+## Exports
+
+- `DefaultMagicKeysAliasMap`
+- `StorageSerializers`
+- `TransitionPresets`
+- `assert`
+- `computedAsync as asyncComputed`
+- `refAutoReset as autoResetRef`
+- `breakpointsAntDesign`
+- `breakpointsBootstrapV5`
+- `breakpointsElement`
+- `breakpointsMasterCss`
+- `breakpointsPrimeFlex`
+- `breakpointsQuasar`
+- `breakpointsSematic`
+- `breakpointsTailwind`
+- `breakpointsVuetify`
+- `breakpointsVuetifyV2`
+- `breakpointsVuetifyV3`
+- `bypassFilter`
+- `camelize`
+- `clamp`
+- `cloneFnJSON`
+- `computedAsync`
+- `computedEager`
+- `computedInject`
+- `computedWithControl`
+- `containsProp`
+- `computedWithControl as controlledComputed`
+- `controlledRef`
+- `createEventHook`
+- `createFetch`
+- `createFilterWrapper`
+- `createGlobalState`
+- `createInjectionState`
+- `reactify as createReactiveFn`
+- `createRef`
+- `createReusableTemplate`
+- `createSharedComposable`
+- `createSingletonPromise`
+- `createTemplatePromise`
+- `createUnrefFn`
+- `customStorageEventName`
+- `debounceFilter`
+- `refDebounced as debouncedRef`
+- `watchDebounced as debouncedWatch`
+- `defaultDocument`
+- `defaultLocation`
+- `defaultNavigator`
+- `defaultWindow`
+- `computedEager as eagerComputed`
+- `executeTransition`
+- `extendRef`
+- `formatDate`
+- `formatTimeAgo`
+- `get`
+- `getLifeCycleTarget`
+- `getSSRHandler`
+- `hasOwn`
+- `hyphenate`
+- `identity`
+- `watchIgnorable as ignorableWatch`
+- `increaseWithUnit`
+- `injectLocal`
+- `invoke`
+- `isClient`
+- `isDef`
+- `isDefined`
+- `isIOS`
+- `isObject`
+- `isWorker`
+- `makeDestructurable`
+- `mapGamepadToXbox360Controller`
+- `noop`
+- `normalizeDate`
+- `notNullish`
+- `now`
+- `objectEntries`
+- `objectOmit`
+- `objectPick`
+- `onClickOutside`
+- `onElementRemoval`
+- `onKeyDown`
+- `onKeyPressed`
+- `onKeyStroke`
+- `onKeyUp`
+- `onLongPress`
+- `onStartTyping`
+- `pausableFilter`
+- `watchPausable as pausableWatch`
+- `promiseTimeout`
+- `provideLocal`
+- `provideSSRWidth`
+- `pxValue`
+- `rand`
+- `reactify`
+- `reactifyObject`
+- `reactiveComputed`
+- `reactiveOmit`
+- `reactivePick`
+- `refAutoReset`
+- `refDebounced`
+- `refDefault`
+- `refThrottled`
+- `refWithControl`
+- `resolveRef`
+- `resolveUnref`
+- `set`
+- `setSSRHandler`
+- `syncRef`
+- `syncRefs`
+- `templateRef`
+- `throttleFilter`
+- `refThrottled as throttledRef`
+- `watchThrottled as throttledWatch`
+- `timestamp`
+- `toArray`
+- `toReactive`
+- `toRef2 as toRef`
+- `toRefs2 as toRefs`
+- `toValue2 as toValue`
+- `tryOnBeforeMount`
+- `tryOnBeforeUnmount`
+- `tryOnMounted`
+- `tryOnScopeDispose`
+- `tryOnUnmounted`
+- `unrefElement`
+- `until`
+- `useActiveElement`
+- `useAnimate`
+- `useArrayDifference`
+- `useArrayEvery`
+- `useArrayFilter`
+- `useArrayFind`
+- `useArrayFindIndex`
+- `useArrayFindLast`
+- `useArrayIncludes`
+- `useArrayJoin`
+- `useArrayMap`
+- `useArrayReduce`
+- `useArraySome`
+- `useArrayUnique`
+- `useAsyncQueue`
+- `useAsyncState`
+- `useBase64`
+- `useBattery`
+- `useBluetooth`
+- `useBreakpoints`
+- `useBroadcastChannel`
+- `useBrowserLocation`
+- `useCached`
+- `useClipboard`
+- `useClipboardItems`
+- `useCloned`
+- `useColorMode`
+- `useConfirmDialog`
+- `useCountdown`
+- `useCounter`
+- `useCssVar`
+- `useCurrentElement`
+- `useCycleList`
+- `useDark`
+- `useDateFormat`
+- `refDebounced as useDebounce`
+- `useDebounceFn`
+- `useDebouncedRefHistory`
+- `useDeviceMotion`
+- `useDeviceOrientation`
+- `useDevicePixelRatio`
+- `useDevicesList`
+- `useDisplayMedia`
+- `useDocumentVisibility`
+- `useDraggable`
+- `useDropZone`
+- `useElementBounding`
+- `useElementByPoint`
+- `useElementHover`
+- `useElementSize`
+- `useElementVisibility`
+- `useEventBus`
+- `useEventListener`
+- `useEventSource`
+- `useEyeDropper`
+- `useFavicon`
+- `useFetch`
+- `useFileDialog`
+- `useFileSystemAccess`
+- `useFocus`
+- `useFocusWithin`
+- `useFps`
+- `useFullscreen`
+- `useGamepad`
+- `useGeolocation`
+- `useIdle`
+- `useImage`
+- `useInfiniteScroll`
+- `useIntersectionObserver`
+- `useInterval`
+- `useIntervalFn`
+- `useKeyModifier`
+- `useLastChanged`
+- `useLocalStorage`
+- `useMagicKeys`
+- `useManualRefHistory`
+- `useMediaControls`
+- `useMediaQuery`
+- `useMemoize`
+- `useMemory`
+- `useMounted`
+- `useMouse`
+- `useMouseInElement`
+- `useMousePressed`
+- `useMutationObserver`
+- `useNavigatorLanguage`
+- `useNetwork`
+- `useNow`
+- `useObjectUrl`
+- `useOffsetPagination`
+- `useOnline`
+- `usePageLeave`
+- `useParallax`
+- `useParentElement`
+- `usePerformanceObserver`
+- `usePermission`
+- `usePointer`
+- `usePointerLock`
+- `usePointerSwipe`
+- `usePreferredColorScheme`
+- `usePreferredContrast`
+- `usePreferredDark`
+- `usePreferredLanguages`
+- `usePreferredReducedMotion`
+- `usePreferredReducedTransparency`
+- `usePrevious`
+- `useRafFn`
+- `useRefHistory`
+- `useResizeObserver`
+- `useSSRWidth`
+- `useScreenOrientation`
+- `useScreenSafeArea`
+- `useScriptTag`
+- `useScroll`
+- `useScrollLock`
+- `useSessionStorage`
+- `useShare`
+- `useSorted`
+- `useSpeechRecognition`
+- `useSpeechSynthesis`
+- `useStepper`
+- `useStorage`
+- `useStorageAsync`
+- `useStyleTag`
+- `useSupported`
+- `useSwipe`
+- `useTemplateRefsList`
+- `useTextDirection`
+- `useTextSelection`
+- `useTextareaAutosize`
+- `refThrottled as useThrottle`
+- `useThrottleFn`
+- `useThrottledRefHistory`
+- `useTimeAgo`
+- `useTimeout`
+- `useTimeoutFn`
+- `useTimeoutPoll`
+- `useTimestamp`
+- `useTitle`
+- `useToNumber`
+- `useToString`
+- `useToggle`
+- `useTransition`
+- `useUrlSearchParams`
+- `useUserMedia`
+- `useVModel`
+- `useVModels`
+- `useVibrate`
+- `useVirtualList`
+- `useWakeLock`
+- `useWebNotification`
+- `useWebSocket`
+- `useWebWorker`
+- `useWebWorkerFn`
+- `useWindowFocus`
+- `useWindowScroll`
+- `useWindowSize`
+- `watchArray`
+- `watchAtMost`
+- `watchDebounced`
+- `watchDeep`
+- `watchIgnorable`
+- `watchImmediate`
+- `watchOnce`
+- `watchPausable`
+- `watchThrottled`
+- `watchTriggerable`
+- `watchWithFilter`
+- `whenever`
+
+## Symbols
+
+- `computedEager` (function): function computedEager(fn, options)
+- `computedWithControl` (function): function computedWithControl(source, fn)
+- `tryOnScopeDispose` (function): function tryOnScopeDispose(fn)
+- `createEventHook` (function): function createEventHook()
+- `createGlobalState` (function): function createGlobalState(stateFactory)
+- `localProvidedStateMap` (variable): var localProvidedStateMap = /* @__PURE__ */ new WeakMap();
+- `injectLocal` (variable): var injectLocal = (...args) => { var _a; const key = args[0]; const instance = (_a = getCurrentInstance()) == null ? void 0 : _a.proxy; if (instance == null && !hasInjectionCont...
+- `provideLocal` (variable): var provideLocal = (key, value) => { var _a; const instance = (_a = getCurrentInstance()) == null ? void 0 : _a.proxy; if (instance == null) throw new Error("provideLocal must b...
+- `createInjectionState` (function): function createInjectionState(composable, options)
+- `createRef` (function): function createRef(value, deep)
+- `createSharedComposable` (function): function createSharedComposable(composable)
+- `extendRef` (function): function extendRef(ref2, extend, { enumerable = false, unwrap = true } = {})
+- `get` (function): function get(obj, key)
+- `isDefined` (function): function isDefined(v)
+- `makeDestructurable` (function): function makeDestructurable(obj, arr)
+- `reactify` (function): function reactify(fn, options)
+- `reactifyObject` (function): function reactifyObject(obj, optionsOrKeys = {})
+- `toReactive` (function): function toReactive(objectRef)
+- `reactiveComputed` (function): function reactiveComputed(fn)
+- `reactiveOmit` (function): function reactiveOmit(obj, ...keys2)
+- `isClient` (variable): var isClient = typeof window !== "undefined" && typeof document !== "undefined";
+- `isWorker` (variable): var isWorker = typeof WorkerGlobalScope !== "undefined" && globalThis instanceof WorkerGlobalScope;
+- `isDef` (variable): var isDef = (val) => typeof val !== "undefined";
+- `notNullish` (variable): var notNullish = (val) => val != null;
+- `assert` (variable): var assert = (condition, ...infos) => { if (!condition) console.warn(...infos); };
+- `toString` (variable): var toString = Object.prototype.toString;
+- `isObject` (variable): var isObject = (val) => toString.call(val) === "[object Object]";
+- `now` (variable): var now = () => Date.now();
+- `timestamp` (variable): var timestamp = () => +Date.now();
+- `clamp` (variable): var clamp = (n, min, max) => Math.min(max, Math.max(min, n));
+- `noop` (variable): var noop = () => { };
+- `rand` (variable): var rand = (min, max) => { min = Math.ceil(min); max = Math.floor(max); return Math.floor(Math.random() * (max - min + 1)) + min; };
+- `hasOwn` (variable): var hasOwn = (val, key) => Object.prototype.hasOwnProperty.call(val, key);
+- `isIOS` (variable): var isIOS = getIsIOS();
+- `getIsIOS` (function): function getIsIOS()
+- `createFilterWrapper` (function): function createFilterWrapper(filter, fn)
+- `bypassFilter` (variable): var bypassFilter = (invoke2) => { return invoke2(); };
+- `debounceFilter` (function): function debounceFilter(ms, options = {})
+- `throttleFilter` (function): function throttleFilter(...args)
+- `pausableFilter` (function): function pausableFilter(extendFilter = bypassFilter, options = {})
+- `cacheStringFunction` (function): function cacheStringFunction(fn)
+- `hyphenateRE` (variable): var hyphenateRE = /\B([A-Z])/g;
+- `hyphenate` (variable): var hyphenate = cacheStringFunction((str) => str.replace(hyphenateRE, "-$1").toLowerCase());
+- `camelizeRE` (variable): var camelizeRE = /-(\w)/g;
+- `camelize` (variable): var camelize = cacheStringFunction((str) => { return str.replace(camelizeRE, (_, c) => c ? c.toUpperCase() : ""); });
+- `promiseTimeout` (function): function promiseTimeout(ms, throwOnTimeout = false, reason = "Timeout")
+- `identity` (function): function identity(arg)
+- `createSingletonPromise` (function): function createSingletonPromise(fn)
+- `invoke` (function): function invoke(fn)
+- `containsProp` (function): function containsProp(obj, ...props)
+- `increaseWithUnit` (function): function increaseWithUnit(target, delta)
+- `pxValue` (function): function pxValue(px)
+- `objectPick` (function): function objectPick(obj, keys2, omitUndefined = false)
+- `objectOmit` (function): function objectOmit(obj, keys2, omitUndefined = false)
+- `objectEntries` (function): function objectEntries(obj)
+- `getLifeCycleTarget` (function): function getLifeCycleTarget(target)
+- `toArray` (function): function toArray(value)
+- `toRef2` (function): function toRef2(...args)
+- `resolveRef` (variable): var resolveRef = toRef2;
+- `reactivePick` (function): function reactivePick(obj, ...keys2)
+- `refAutoReset` (function): function refAutoReset(defaultValue, afterMs = 1e4)
+- `useDebounceFn` (function): function useDebounceFn(fn, ms = 200, options = {})
+- `refDebounced` (function): function refDebounced(value, ms = 200, options = {})
+- `refDefault` (function): function refDefault(source, defaultValue)
+- `useThrottleFn` (function): function useThrottleFn(fn, ms = 200, trailing = false, leading = true, rejectOnCancel = false)
+- `refThrottled` (function): function refThrottled(value, delay = 200, trailing = true, leading = true)
+- `refWithControl` (function): function refWithControl(initial, options = {})
+- `controlledRef` (variable): var controlledRef = refWithControl;
+- `set` (function): function set(...args)
+- `watchWithFilter` (function): function watchWithFilter(source, cb, options = {})
+- `watchPausable` (function): function watchPausable(source, cb, options = {})
+- `syncRef` (function): function syncRef(left, right, ...[options])
+- `syncRefs` (function): function syncRefs(source, targets, options = {})
+- `toRefs2` (function): function toRefs2(objectRef, options = {})
+- `toValue2` (variable): var toValue2 = toValue;
+- `resolveUnref` (variable): var resolveUnref = toValue;
+- `tryOnBeforeMount` (function): function tryOnBeforeMount(fn, sync = true, target)
+- `tryOnBeforeUnmount` (function): function tryOnBeforeUnmount(fn, target)
+- `tryOnMounted` (function): function tryOnMounted(fn, sync = true, target)
+- `tryOnUnmounted` (function): function tryOnUnmounted(fn, target)
+- `createUntil` (function): function createUntil(r, isNot = false)
+- `until` (function): function until(r)
+- `defaultComparator` (function): function defaultComparator(value, othVal)
+- `useArrayDifference` (function): function useArrayDifference(...args)
+- `useArrayEvery` (function): function useArrayEvery(list, fn)
+- `useArrayFilter` (function): function useArrayFilter(list, fn)
+- `useArrayFind` (function): function useArrayFind(list, fn)
+- `useArrayFindIndex` (function): function useArrayFindIndex(list, fn)
+- `findLast` (function): function findLast(arr, cb)
+- `useArrayFindLast` (function): function useArrayFindLast(list, fn)
+- `isArrayIncludesOptions` (function): function isArrayIncludesOptions(obj)
+- `useArrayIncludes` (function): function useArrayIncludes(...args)
+- `useArrayJoin` (function): function useArrayJoin(list, separator)
+- `useArrayMap` (function): function useArrayMap(list, fn)
+- `useArrayReduce` (function): function useArrayReduce(list, reducer, ...args)
+- `useArraySome` (function): function useArraySome(list, fn)
+- `uniq` (function): function uniq(array)
+- `uniqueElementsBy` (function): function uniqueElementsBy(array, fn)
+- `useArrayUnique` (function): function useArrayUnique(list, compareFn)
+- `useCounter` (function): function useCounter(initialValue = 0, options = {})
+- `REGEX_PARSE` (variable): var REGEX_PARSE = /^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[T\s]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/i;
+- `REGEX_FORMAT` (variable): var REGEX_FORMAT = /[YMDHhms]o|\[([^\]]+)\]|Y{1,4}|M{1,4}|D{1,2}|d{1,4}|H{1,2}|h{1,2}|a{1,2}|A{1,2}|m{1,2}|s{1,2}|Z{1,2}|z{1,4}|SSS/g;
+- `defaultMeridiem` (function): function defaultMeridiem(hours, minutes, isLowercase, hasPeriod)
+- `formatOrdinal` (function): function formatOrdinal(num)
+- `formatDate` (function): function formatDate(date, formatStr, options = {})
+- `normalizeDate` (function): function normalizeDate(date)
+- `useDateFormat` (function): function useDateFormat(date, formatStr = "HH:mm:ss", options = {})
+- `useIntervalFn` (function): function useIntervalFn(cb, interval = 1e3, options = {})
+- `useInterval` (function): function useInterval(interval = 1e3, options = {})
+- `useLastChanged` (function): function useLastChanged(source, options = {})
+- `useTimeoutFn` (function): function useTimeoutFn(cb, interval, options = {})
+- `useTimeout` (function): function useTimeout(interval = 1e3, options = {})
+- `useToNumber` (function): function useToNumber(value, options = {})
+- `useToString` (function): function useToString(value)
+- `useToggle` (function): function useToggle(initialValue = false, options = {})
+- `watchArray` (function): function watchArray(source, cb, options)
+- `watchAtMost` (function): function watchAtMost(source, cb, options)
+- `watchDebounced` (function): function watchDebounced(source, cb, options = {})
+- `watchDeep` (function): function watchDeep(source, cb, options)
+- `watchIgnorable` (function): function watchIgnorable(source, cb, options = {})
+- `watchImmediate` (function): function watchImmediate(source, cb, options)
+- `watchOnce` (function): function watchOnce(source, cb, options)
+- `watchThrottled` (function): function watchThrottled(source, cb, options = {})
+- `watchTriggerable` (function): function watchTriggerable(source, cb, options = {})
+- `getWatchSources` (function): function getWatchSources(sources)
+- `getOldValue` (function): function getOldValue(source)
+- `whenever` (function): function whenever(source, cb, options)
+- `computedAsync` (function): function computedAsync(evaluationCallback, initialState, optionsOrRef)
+- `computedInject` (function): function computedInject(key, options, defaultSource, treatDefaultAsFactory)
+- `createReusableTemplate` (function): function createReusableTemplate(options = {})
+- `keysToCamelKebabCase` (function): function keysToCamelKebabCase(obj)
+- `createTemplatePromise` (function): function createTemplatePromise(options = {})
+- `createUnrefFn` (function): function createUnrefFn(fn)
+- `defaultWindow` (variable): var defaultWindow = isClient ? window : void 0;
+- `defaultDocument` (variable): var defaultDocument = isClient ? window.document : void 0;
+- `defaultNavigator` (variable): var defaultNavigator = isClient ? window.navigator : void 0;
+- `defaultLocation` (variable): var defaultLocation = isClient ? window.location : void 0;
+- `unrefElement` (function): function unrefElement(elRef)
+- `useEventListener` (function): function useEventListener(...args)
+- `_iOSWorkaround` (variable): var _iOSWorkaround = false;
+- `onClickOutside` (function): function onClickOutside(target, handler, options = {})
+- `useMounted` (function): function useMounted()
+- `useSupported` (function): function useSupported(callback)
+- `useMutationObserver` (function): function useMutationObserver(target, callback, options = {})
+- `onElementRemoval` (function): function onElementRemoval(target, callback, options = {})
+- `createKeyPredicate` (function): function createKeyPredicate(keyFilter)
+- `onKeyStroke` (function): function onKeyStroke(...args)
+- `onKeyDown` (function): function onKeyDown(key, handler, options = {})
+- `onKeyPressed` (function): function onKeyPressed(key, handler, options = {})
+- `onKeyUp` (function): function onKeyUp(key, handler, options = {})
+- `DEFAULT_DELAY` (variable): var DEFAULT_DELAY = 500;
+- `DEFAULT_THRESHOLD` (variable): var DEFAULT_THRESHOLD = 10;
+- `onLongPress` (function): function onLongPress(target, handler, options)
+- `isFocusedElementEditable` (function): function isFocusedElementEditable()
+- `isTypedCharValid` (function): function isTypedCharValid({ keyCode, metaKey, ctrlKey, altKey })
+- `onStartTyping` (function): function onStartTyping(callback, options = {})
+- `templateRef` (function): function templateRef(key, initialValue = null)
+- `useActiveElement` (function): function useActiveElement(options = {})
+- `useRafFn` (function): function useRafFn(fn, options = {})
+- `useAnimate` (function): function useAnimate(target, keyframes, options)
+- `useAsyncQueue` (function): function useAsyncQueue(tasks, options)
+- `whenAborted` (function): function whenAborted(signal)
+- `useAsyncState` (function): function useAsyncState(promise, initialState, options)
+- `defaults` (variable): var defaults = { array: (v) => JSON.stringify(v), object: (v) => JSON.stringify(v), set: (v) => JSON.stringify(Array.from(v)), map: (v) => JSON.stringify(Object.fromEntries(v)),...
+- `getDefaultSerialization` (function): function getDefaultSerialization(target)
+- `useBase64` (function): function useBase64(target, options)
+- `imgLoaded` (function): function imgLoaded(img)
+- `blobToBase64` (function): function blobToBase64(blob)
+- `useBattery` (function): function useBattery(options = {})
+- `useBluetooth` (function): function useBluetooth(options)
+- `ssrWidthSymbol` (variable): var ssrWidthSymbol = Symbol("vueuse-ssr-width");
+- `useSSRWidth` (function): function useSSRWidth()
+- `provideSSRWidth` (function): function provideSSRWidth(width, app)
+- `useMediaQuery` (function): function useMediaQuery(query, options = {})
+- `breakpointsTailwind` (variable): var breakpointsTailwind = { "sm": 640, "md": 768, "lg": 1024, "xl": 1280, "2xl": 1536 };
+- `breakpointsBootstrapV5` (variable): var breakpointsBootstrapV5 = { xs: 0, sm: 576, md: 768, lg: 992, xl: 1200, xxl: 1400 };
+- `breakpointsVuetifyV2` (variable): var breakpointsVuetifyV2 = { xs: 0, sm: 600, md: 960, lg: 1264, xl: 1904 };
+- `breakpointsVuetifyV3` (variable): var breakpointsVuetifyV3 = { xs: 0, sm: 600, md: 960, lg: 1280, xl: 1920, xxl: 2560 };
+- `breakpointsVuetify` (variable): var breakpointsVuetify = breakpointsVuetifyV2;
+- `breakpointsAntDesign` (variable): var breakpointsAntDesign = { xs: 480, sm: 576, md: 768, lg: 992, xl: 1200, xxl: 1600 };
+- `breakpointsQuasar` (variable): var breakpointsQuasar = { xs: 0, sm: 600, md: 1024, lg: 1440, xl: 1920 };
+- `breakpointsSematic` (variable): var breakpointsSematic = { mobileS: 320, mobileM: 375, mobileL: 425, tablet: 768, laptop: 1024, laptopL: 1440, desktop4K: 2560 };
+- `breakpointsMasterCss` (variable): var breakpointsMasterCss = { "3xs": 360, "2xs": 480, "xs": 600, "sm": 768, "md": 1024, "lg": 1280, "xl": 1440, "2xl": 1600, "3xl": 1920, "4xl": 2560 };
+- `breakpointsPrimeFlex` (variable): var breakpointsPrimeFlex = { sm: 576, md: 768, lg: 992, xl: 1200 };
+- `breakpointsElement` (variable): var breakpointsElement = { xs: 0, sm: 768, md: 992, lg: 1200, xl: 1920 };
+- `useBreakpoints` (function): function useBreakpoints(breakpoints, options = {})
+- `useBroadcastChannel` (function): function useBroadcastChannel(options)
+- `WRITABLE_PROPERTIES` (variable): var WRITABLE_PROPERTIES = [ "hash", "host", "hostname", "href", "pathname", "port", "protocol", "search" ];
+- `useBrowserLocation` (function): function useBrowserLocation(options = {})
+- `useCached` (function): function useCached(refValue, comparator = (a, b) => a === b, options)
+- `usePermission` (function): function usePermission(permissionDesc, options = {})
+- `useClipboard` (function): function useClipboard(options = {})
+- `useClipboardItems` (function): function useClipboardItems(options = {})
+- `cloneFnJSON` (function): function cloneFnJSON(source)
+- `useCloned` (function): function useCloned(source, options = {})
+- `_global` (variable): var _global = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? se...
+- `globalKey` (variable): var globalKey = "__vueuse_ssr_handlers__";
+- `handlers` (variable): var handlers = getHandlers();
+- `getHandlers` (function): function getHandlers()
+- `getSSRHandler` (function): function getSSRHandler(key, fallback)
+- `setSSRHandler` (function): function setSSRHandler(key, fn)
+- `usePreferredDark` (function): function usePreferredDark(options)
+- `guessSerializerType` (function): function guessSerializerType(rawInit)
+- `StorageSerializers` (variable): var StorageSerializers = { boolean: { read: (v) => v === "true", write: (v) => String(v) }, object: { read: (v) => JSON.parse(v), write: (v) => JSON.stringify(v) }, number: { re...
+- `customStorageEventName` (variable): var customStorageEventName = "vueuse-storage";
+- `useStorage` (function): function useStorage(key, defaults2, storage, options = {})
+- `CSS_DISABLE_TRANS` (variable): var CSS_DISABLE_TRANS = "*,*::before,*::after{-webkit-transition:none!important;-moz-transition:none!important;-o-transition:none!important;-ms-transition:none!important;transit...
+- `useColorMode` (function): function useColorMode(options = {})
+- `useConfirmDialog` (function): function useConfirmDialog(revealed = shallowRef(false))
+- `useCountdown` (function): function useCountdown(initialCountdown, options)
+- `useCssVar` (function): function useCssVar(prop, target, options = {})
+- `useCurrentElement` (function): function useCurrentElement(rootComponent)
+- `useCycleList` (function): function useCycleList(list, options)
+- `useDark` (function): function useDark(options = {})
+- `fnBypass` (function): function fnBypass(v)
+- `fnSetSource` (function): function fnSetSource(source, value)
+- `defaultDump` (function): function defaultDump(clone)
+- `defaultParse` (function): function defaultParse(clone)
+- `useManualRefHistory` (function): function useManualRefHistory(source, options = {})
+- `useRefHistory` (function): function useRefHistory(source, options = {})
+- `useDebouncedRefHistory` (function): function useDebouncedRefHistory(source, options = {})
+- `useDeviceMotion` (function): function useDeviceMotion(options = {})
+- `useDeviceOrientation` (function): function useDeviceOrientation(options = {})
+- `useDevicePixelRatio` (function): function useDevicePixelRatio(options = {})
+- `useDevicesList` (function): function useDevicesList(options = {})
+- `useDisplayMedia` (function): function useDisplayMedia(options = {})
+- `useDocumentVisibility` (function): function useDocumentVisibility(options = {})
+- `useDraggable` (function): function useDraggable(target, options = {})
+- `useDropZone` (function): function useDropZone(target, options = {})
+- `useResizeObserver` (function): function useResizeObserver(target, callback, options = {})
+- `useElementBounding` (function): function useElementBounding(target, options = {})
+- `useElementByPoint` (function): function useElementByPoint(options)
+- `useElementHover` (function): function useElementHover(el, options = {})
+- `useElementSize` (function): function useElementSize(target, initialSize = { width: 0, height: 0 }, options = {})
+- `useIntersectionObserver` (function): function useIntersectionObserver(target, callback, options = {})
+- `useElementVisibility` (function): function useElementVisibility(element, options = {})
+- `events` (variable): var events = /* @__PURE__ */ new Map();
+- `useEventBus` (function): function useEventBus(key)
+- `resolveNestedOptions$1` (function): function resolveNestedOptions$1(options)
+- `useEventSource` (function): function useEventSource(url, events2 = [], options = {})
+- `useEyeDropper` (function): function useEyeDropper(options = {})
+- `useFavicon` (function): function useFavicon(newIcon = null, options = {})
+- `payloadMapping` (variable): var payloadMapping = { json: "application/json", text: "text/plain" };
+- `isFetchOptions` (function): function isFetchOptions(obj)
+- `reAbsolute` (variable): var reAbsolute = /^(?:[a-z][a-z\d+\-.]*:)?\/\//i;
+- `isAbsoluteURL` (function): function isAbsoluteURL(url)
+- `headersToObject` (function): function headersToObject(headers)
+- `combineCallbacks` (function): function combineCallbacks(combination, ...callbacks)
+- `createFetch` (function): function createFetch(config = {})
+- `useFetch` (function): function useFetch(url, ...args)
+- `joinPaths` (function): function joinPaths(start, end)
+- `DEFAULT_OPTIONS` (variable): var DEFAULT_OPTIONS = { multiple: true, accept: "*", reset: false, directory: false };
+- `prepareInitialFiles` (function): function prepareInitialFiles(files)
+- `useFileDialog` (function): function useFileDialog(options = {})
+- `useFileSystemAccess` (function): function useFileSystemAccess(options = {})
+- `useFocus` (function): function useFocus(target, options = {})
+- `EVENT_FOCUS_IN` (variable): var EVENT_FOCUS_IN = "focusin";
+- `EVENT_FOCUS_OUT` (variable): var EVENT_FOCUS_OUT = "focusout";
+- `PSEUDO_CLASS_FOCUS_WITHIN` (variable): var PSEUDO_CLASS_FOCUS_WITHIN = ":focus-within";
+- `useFocusWithin` (function): function useFocusWithin(target, options = {})
+- `useFps` (function): function useFps(options)
+- `eventHandlers` (variable): var eventHandlers = [ "fullscreenchange", "webkitfullscreenchange", "webkitendfullscreen", "mozfullscreenchange", "MSFullscreenChange" ];
+- `useFullscreen` (function): function useFullscreen(target, options = {})
+- `mapGamepadToXbox360Controller` (function): function mapGamepadToXbox360Controller(gamepad)
+- `useGamepad` (function): function useGamepad(options = {})
+- `useGeolocation` (function): function useGeolocation(options = {})
+- `defaultEvents$1` (variable): var defaultEvents$1 = ["mousemove", "mousedown", "resize", "keydown", "touchstart", "wheel"];
+- `oneMinute` (variable): var oneMinute = 6e4;
+- `useIdle` (function): function useIdle(timeout = oneMinute, options = {})
+- `loadImage` (function): async function loadImage(options)
+- `useImage` (function): function useImage(options, asyncStateOptions = {})
+- `resolveElement` (function): function resolveElement(el)
+- `ARRIVED_STATE_THRESHOLD_PIXELS` (variable): var ARRIVED_STATE_THRESHOLD_PIXELS = 1;
+- `useScroll` (function): function useScroll(element, options = {})
+- `useInfiniteScroll` (function): function useInfiniteScroll(element, onLoadMore, options = {})
+- `defaultEvents` (variable): var defaultEvents = ["mousedown", "mouseup", "keydown", "keyup"];
+- `useKeyModifier` (function): function useKeyModifier(modifier, options = {})
+- `useLocalStorage` (function): function useLocalStorage(key, initialValue, options = {})
+- `DefaultMagicKeysAliasMap` (variable): var DefaultMagicKeysAliasMap = { ctrl: "control", command: "meta", cmd: "meta", option: "alt", up: "arrowup", down: "arrowdown", left: "arrowleft", right: "arrowright" };
+- `useMagicKeys` (function): function useMagicKeys(options = {})
+- `usingElRef` (function): function usingElRef(source, cb)
+- `timeRangeToArray` (function): function timeRangeToArray(timeRanges)
+- `tracksToArray` (function): function tracksToArray(tracks)
+- `defaultOptions` (variable): var defaultOptions = { src: "", tracks: [] };
+- `useMediaControls` (function): function useMediaControls(target, options = {})
+- `useMemoize` (function): function useMemoize(resolver, options)
+- `useMemory` (function): function useMemory(options = {})
+- `UseMouseBuiltinExtractors` (variable): var UseMouseBuiltinExtractors = { page: (event) => [event.pageX, event.pageY], client: (event) => [event.clientX, event.clientY], screen: (event) => [event.screenX, event.screen...
+- `useMouse` (function): function useMouse(options = {})
+- `useMouseInElement` (function): function useMouseInElement(target, options = {})
+- `useMousePressed` (function): function useMousePressed(options = {})
+- `useNavigatorLanguage` (function): function useNavigatorLanguage(options = {})
+- `useNetwork` (function): function useNetwork(options = {})
+- `useNow` (function): function useNow(options = {})
+- `useObjectUrl` (function): function useObjectUrl(object)
+- `useClamp` (function): function useClamp(value, min, max)
+- `useOffsetPagination` (function): function useOffsetPagination(options)
+- `useOnline` (function): function useOnline(options = {})
+- `usePageLeave` (function): function usePageLeave(options = {})
+- `useScreenOrientation` (function): function useScreenOrientation(options = {})
+- `useParallax` (function): function useParallax(target, options = {})
+- `useParentElement` (function): function useParentElement(element = useCurrentElement())
+- `usePerformanceObserver` (function): function usePerformanceObserver(options, callback)
+- `defaultState` (variable): var defaultState = { x: 0, y: 0, pointerId: 0, pressure: 0, tiltX: 0, tiltY: 0, width: 0, height: 0, twist: 0, pointerType: null };
+- `keys` (variable): var keys = Object.keys(defaultState);
+- `usePointer` (function): function usePointer(options = {})
+- `usePointerLock` (function): function usePointerLock(target, options = {})
+- `usePointerSwipe` (function): function usePointerSwipe(target, options = {})
+- `usePreferredColorScheme` (function): function usePreferredColorScheme(options)
+- `usePreferredContrast` (function): function usePreferredContrast(options)
+- `usePreferredLanguages` (function): function usePreferredLanguages(options = {})
+- `usePreferredReducedMotion` (function): function usePreferredReducedMotion(options)
+- `usePreferredReducedTransparency` (function): function usePreferredReducedTransparency(options)
+- `usePrevious` (function): function usePrevious(value, initialValue)
+- `topVarName` (variable): var topVarName = "--vueuse-safe-area-top";
+- `rightVarName` (variable): var rightVarName = "--vueuse-safe-area-right";
+- `bottomVarName` (variable): var bottomVarName = "--vueuse-safe-area-bottom";
+- `leftVarName` (variable): var leftVarName = "--vueuse-safe-area-left";
+- `useScreenSafeArea` (function): function useScreenSafeArea()
+- `getValue` (function): function getValue(position)
+- `useScriptTag` (function): function useScriptTag(src, onLoaded = noop, options = {})
+- `checkOverflowScroll` (function): function checkOverflowScroll(ele)
+- `preventDefault` (function): function preventDefault(rawEvent)
+- `elInitialOverflow` (variable): var elInitialOverflow = /* @__PURE__ */ new WeakMap();
+- `useScrollLock` (function): function useScrollLock(element, initialState = false)
+- `useSessionStorage` (function): function useSessionStorage(key, initialValue, options = {})
+- `useShare` (function): function useShare(shareOptions = {}, options = {})
+- `defaultSortFn` (variable): var defaultSortFn = (source, compareFn) => source.sort(compareFn);
+- `defaultCompare` (variable): var defaultCompare = (a, b) => a - b;
+- `useSorted` (function): function useSorted(...args)
+- `useSpeechRecognition` (function): function useSpeechRecognition(options = {})
+- `useSpeechSynthesis` (function): function useSpeechSynthesis(text, options = {})
+- `useStepper` (function): function useStepper(steps, initialStep)
+- `useStorageAsync` (function): function useStorageAsync(key, initialValue, storage, options = {})
+- `_id` (variable): var _id = 0;
+- `useStyleTag` (function): function useStyleTag(css, options = {})
+- `useSwipe` (function): function useSwipe(target, options = {})
+- `useTemplateRefsList` (function): function useTemplateRefsList()
+- `useTextDirection` (function): function useTextDirection(options = {})
+- `getRangesFromSelection` (function): function getRangesFromSelection(selection)
+- `useTextSelection` (function): function useTextSelection(options = {})
+- `tryRequestAnimationFrame` (function): function tryRequestAnimationFrame(window2 = defaultWindow, fn)
+- `useTextareaAutosize` (function): function useTextareaAutosize(options = {})
+- `useThrottledRefHistory` (function): function useThrottledRefHistory(source, options = {})
+- `DEFAULT_UNITS` (variable): var DEFAULT_UNITS = [ { max: 6e4, value: 1e3, name: "second" }, { max: 276e4, value: 6e4, name: "minute" }, { max: 72e6, value: 36e5, name: "hour" }, { max: 5184e5, value: 864e5...
+- `DEFAULT_MESSAGES` (variable): var DEFAULT_MESSAGES = { justNow: "just now", past: (n) => n.match(/\d/) ? `${n} ago` : n, future: (n) => n.match(/\d/) ? `in ${n}` : n, month: (n, past) => n === 1 ? past ? "la...
+- `DEFAULT_FORMATTER` (function): function DEFAULT_FORMATTER(date)
+- `useTimeAgo` (function): function useTimeAgo(time, options = {})
+- `formatTimeAgo` (function): function formatTimeAgo(from, options = {}, now2 = Date.now())
+- `useTimeoutPoll` (function): function useTimeoutPoll(fn, interval, options = {})
+- `useTimestamp` (function): function useTimestamp(options = {})
+- `useTitle` (function): function useTitle(newTitle = null, options = {})
+- `_TransitionPresets` (variable): var _TransitionPresets = { easeInSine: [0.12, 0, 0.39, 0], easeOutSine: [0.61, 1, 0.88, 1], easeInOutSine: [0.37, 0, 0.63, 1], easeInQuad: [0.11, 0, 0.5, 0], easeOutQuad: [0.5, ...
+- `TransitionPresets` (variable): var TransitionPresets = Object.assign({}, { linear: identity }, _TransitionPresets);
+- `createEasingFunction` (function): function createEasingFunction([p0, p1, p2, p3])
+- `lerp` (function): function lerp(a, b, alpha)
+- `toVec` (function): function toVec(t)
+- `executeTransition` (function): function executeTransition(source, from, to, options = {})
+- `useTransition` (function): function useTransition(source, options = {})
+- `useUrlSearchParams` (function): function useUrlSearchParams(mode = "history", options = {})
+- `useUserMedia` (function): function useUserMedia(options = {})
+- `useVModel` (function): function useVModel(props, key, emit, options = {})
+- `useVModels` (function): function useVModels(props, emit, options = {})
+- `useVibrate` (function): function useVibrate(options)
+- `useVirtualList` (function): function useVirtualList(list, options)
+- `useVirtualListResources` (function): function useVirtualListResources(list)
+- `createGetViewCapacity` (function): function createGetViewCapacity(state, source, itemSize)
+- `createGetOffset` (function): function createGetOffset(source, itemSize)
+- `createCalculateRange` (function): function createCalculateRange(type, overscan, getOffset, getViewCapacity, { containerRef, state, currentList, source })
+- `createGetDistance` (function): function createGetDistance(itemSize, source)
+- `useWatchForSizes` (function): function useWatchForSizes(size, list, containerRef, calculateRange)
+- `createComputedTotalSize` (function): function createComputedTotalSize(itemSize, source)
+- `scrollToDictionaryForElementScrollKey` (variable): var scrollToDictionaryForElementScrollKey = { horizontal: "scrollLeft", vertical: "scrollTop" };
+- `createScrollTo` (function): function createScrollTo(type, calculateRange, getDistance, containerRef)
+- `useHorizontalVirtualList` (function): function useHorizontalVirtualList(options, list)
+- `useVerticalVirtualList` (function): function useVerticalVirtualList(options, list)
+- `useWakeLock` (function): function useWakeLock(options = {})
+- `useWebNotification` (function): function useWebNotification(options = {})
+- `DEFAULT_PING_MESSAGE` (variable): var DEFAULT_PING_MESSAGE = "ping";
+- `resolveNestedOptions` (function): function resolveNestedOptions(options)
+- `useWebSocket` (function): function useWebSocket(url, options = {})
+- `useWebWorker` (function): function useWebWorker(arg0, workerOptions, options)
+- `depsParser` (function): function depsParser(deps, localDeps)
+- `jobRunner` (function): function jobRunner(userFunc)
+- `createWorkerBlobUrl` (function): function createWorkerBlobUrl(fn, deps, localDeps)
+- `useWebWorkerFn` (function): function useWebWorkerFn(fn, options = {})
+- `useWindowFocus` (function): function useWindowFocus(options = {})
+- `useWindowScroll` (function): function useWindowScroll(options = {})
+- `useWindowSize` (function): function useWindowSize(options = {})
+
+## External Dependencies
+
+- No external dependencies detected.
+
+## Unresolved Local References
+
+- No unresolved local references detected.
+
+## Inheritance
+
+- No inheritance relationships detected.
+
+## Calls
+
+- `createEventHook` calls `tryOnScopeDispose`
+- `createInjectionState` calls `provideLocal`
+- `createInjectionState` calls `injectLocal`
+- `createSharedComposable` calls `tryOnScopeDispose`
+- `reactifyObject` calls `reactify`
+- `reactiveComputed` calls `toReactive`
+- `reactiveOmit` calls `reactiveComputed`
+- `isIOS` calls `getIsIOS`
+- `pausableFilter` calls `toRef2`
+- `hyphenate` calls `cacheStringFunction`
+- `camelize` calls `cacheStringFunction`
+- `reactivePick` calls `reactiveComputed`
+- `reactivePick` calls `toRef2`
+- `refAutoReset` calls `tryOnScopeDispose`
+- `useDebounceFn` calls `createFilterWrapper`
+- `useDebounceFn` calls `debounceFilter`
+- `refDebounced` calls `useDebounceFn`
+- `useThrottleFn` calls `createFilterWrapper`
+- `useThrottleFn` calls `throttleFilter`
+- `refThrottled` calls `useThrottleFn`
+- `refWithControl` calls `extendRef`
+- `watchWithFilter` calls `createFilterWrapper`
+- `watchPausable` calls `pausableFilter`
+- `watchPausable` calls `watchWithFilter`
+- `syncRef` calls `watchPausable`
+- `syncRefs` calls `toArray`
+- `tryOnBeforeMount` calls `getLifeCycleTarget`
+- `tryOnBeforeUnmount` calls `getLifeCycleTarget`
+- `tryOnMounted` calls `getLifeCycleTarget`
+- `tryOnUnmounted` calls `getLifeCycleTarget`
+- `createUntil` calls `promiseTimeout`
+- `until` calls `createUntil`
+- `useArrayFindLast` calls `findLast`
+- `isArrayIncludesOptions` calls `isObject`
+- `isArrayIncludesOptions` calls `containsProp`
+- `useArrayIncludes` calls `isArrayIncludesOptions`
+- `useArrayUnique` calls `uniqueElementsBy`
+- `useArrayUnique` calls `uniq`
+- `formatDate` calls `formatOrdinal`
+- `useDateFormat` calls `formatDate`
+- `useDateFormat` calls `normalizeDate`
+- `useIntervalFn` calls `tryOnScopeDispose`
+- `useInterval` calls `useIntervalFn`
+- `useLastChanged` calls `timestamp`
+- `useTimeoutFn` calls `tryOnScopeDispose`
+- `useTimeout` calls `useTimeoutFn`
+- `watchAtMost` calls `watchWithFilter`
+- `watchDebounced` calls `watchWithFilter`
+- `watchDebounced` calls `debounceFilter`
+- `watchIgnorable` calls `createFilterWrapper`
+- `watchThrottled` calls `watchWithFilter`
+- `watchThrottled` calls `throttleFilter`
+- `watchTriggerable` calls `watchIgnorable`
+- `watchTriggerable` calls `getWatchSources`
+- `watchTriggerable` calls `getOldValue`
+- `createReusableTemplate` calls `keysToCamelKebabCase`
+- `createReusableTemplate` calls `makeDestructurable`
+- `keysToCamelKebabCase` calls `camelize`
+- `useEventListener` calls `toArray`
+- `useEventListener` calls `watchImmediate`
+- `useEventListener` calls `unrefElement`
+- `useEventListener` calls `isObject`
+- `useEventListener` calls `tryOnScopeDispose`
+- `onClickOutside` calls `useEventListener`
+- `onClickOutside` calls `unrefElement`
+- `useSupported` calls `useMounted`
+- `useMutationObserver` calls `useSupported`
+- `useMutationObserver` calls `toArray`
+- `useMutationObserver` calls `tryOnScopeDispose`
+- `onElementRemoval` calls `unrefElement`
+- `onElementRemoval` calls `useMutationObserver`
+- `onElementRemoval` calls `tryOnScopeDispose`
+- `onKeyStroke` calls `createKeyPredicate`
+- `onKeyStroke` calls `useEventListener`
+- `onKeyDown` calls `onKeyStroke`
+- `onKeyPressed` calls `onKeyStroke`
+- `onKeyUp` calls `onKeyStroke`
+- `onLongPress` calls `unrefElement`
+- `onLongPress` calls `useEventListener`
+- `onStartTyping` calls `isFocusedElementEditable`
+- `onStartTyping` calls `isTypedCharValid`
+- `onStartTyping` calls `useEventListener`
+- `templateRef` calls `tryOnMounted`
+- `useActiveElement` calls `useEventListener`
+- `useActiveElement` calls `onElementRemoval`
+- `useRafFn` calls `tryOnScopeDispose`
+- `useAnimate` calls `isObject`
+- `useAnimate` calls `objectOmit`
+- `useAnimate` calls `useSupported`
+- `useAnimate` calls `unrefElement`
+- `useAnimate` calls `tryOnMounted`
+- `useAnimate` calls `tryOnScopeDispose`
+- `useAnimate` calls `useEventListener`
+- `useAnimate` calls `useRafFn`
+- `useAsyncQueue` calls `whenAborted`
+- `useAsyncState` calls `promiseTimeout`
+- `useAsyncState` calls `until`
+- `useBase64` calls `blobToBase64`
+- `useBase64` calls `imgLoaded`
+- `useBase64` calls `getDefaultSerialization`
+- `useBattery` calls `useSupported`
+- `useBattery` calls `useEventListener`
+- `useBluetooth` calls `useSupported`
+- `useBluetooth` calls `useEventListener`
+- `useBluetooth` calls `tryOnMounted`
+- `useBluetooth` calls `tryOnScopeDispose`
+- `useSSRWidth` calls `injectLocal`
+- `provideSSRWidth` calls `provideLocal`
+- `useMediaQuery` calls `useSSRWidth`
+- `useMediaQuery` calls `useSupported`
+- `useMediaQuery` calls `pxValue`
+- `useMediaQuery` calls `useEventListener`
+- `useBreakpoints` calls `increaseWithUnit`
+- `useBreakpoints` calls `useSSRWidth`
+- `useBreakpoints` calls `tryOnMounted`
+- `useBreakpoints` calls `pxValue`
+- `useBreakpoints` calls `useMediaQuery`
+- `useBroadcastChannel` calls `useSupported`
+- `useBroadcastChannel` calls `tryOnMounted`
+- `useBroadcastChannel` calls `useEventListener`
+- `useBroadcastChannel` calls `tryOnScopeDispose`
+- `useBrowserLocation` calls `objectEntries`
+- `useBrowserLocation` calls `useEventListener`
+- `useCached` calls `createRef`
+- `usePermission` calls `useSupported`
+- `usePermission` calls `useEventListener`
+- `usePermission` calls `createSingletonPromise`
+- `useClipboard` calls `useSupported`
+- `useClipboard` calls `usePermission`
+- `useClipboard` calls `useTimeoutFn`
+- `useClipboard` calls `useEventListener`
+- `useClipboardItems` calls `useSupported`
+- `useClipboardItems` calls `useTimeoutFn`
+- `useClipboardItems` calls `useEventListener`
+- `handlers` calls `getHandlers`
+- `usePreferredDark` calls `useMediaQuery`
+- `useStorage` calls `getSSRHandler`
+- `useStorage` calls `guessSerializerType`
+- `useStorage` calls `watchPausable`
+- `useStorage` calls `tryOnMounted`
+- `useStorage` calls `useEventListener`
+- `useColorMode` calls `usePreferredDark`
+- `useColorMode` calls `toRef2`
+- `useColorMode` calls `useStorage`
+- `useColorMode` calls `getSSRHandler`
+- `useColorMode` calls `unrefElement`
+- `useColorMode` calls `tryOnMounted`
+- `useConfirmDialog` calls `createEventHook`
+- `useCountdown` calls `useIntervalFn`
+- `useCssVar` calls `unrefElement`
+- `useCssVar` calls `useMutationObserver`
+- `useCurrentElement` calls `computedWithControl`
+- `useCurrentElement` calls `unrefElement`
+- `useCycleList` calls `toRef2`
+- `useDark` calls `useColorMode`
+- `useManualRefHistory` calls `defaultDump`
+- `useManualRefHistory` calls `defaultParse`
+- `useManualRefHistory` calls `timestamp`
+- `useRefHistory` calls `pausableFilter`
+- `useRefHistory` calls `watchIgnorable`
+- `useRefHistory` calls `useManualRefHistory`
+- `useDebouncedRefHistory` calls `debounceFilter`
+- `useDebouncedRefHistory` calls `useRefHistory`
+- `useDeviceMotion` calls `useSupported`
+- `useDeviceMotion` calls `createFilterWrapper`
+- `useDeviceMotion` calls `useEventListener`
+- `useDeviceOrientation` calls `useSupported`
+- `useDeviceOrientation` calls `useEventListener`
+- `useDevicePixelRatio` calls `useMediaQuery`
+- `useDevicePixelRatio` calls `watchImmediate`
+- `useDevicesList` calls `useSupported`
+- `useDevicesList` calls `usePermission`
+- `useDevicesList` calls `useEventListener`
+- `useDisplayMedia` calls `useSupported`
+- `useDisplayMedia` calls `useEventListener`
+- `useDocumentVisibility` calls `useEventListener`
+- `useDraggable` calls `useEventListener`
+- `useDraggable` calls `toRefs2`
+- `useDropZone` calls `useEventListener`
+- `useResizeObserver` calls `useSupported`
+- `useResizeObserver` calls `unrefElement`
+- `useResizeObserver` calls `tryOnScopeDispose`
+- `useElementBounding` calls `unrefElement`
+- `useElementBounding` calls `useResizeObserver`
+- `useElementBounding` calls `useMutationObserver`
+- `useElementBounding` calls `useEventListener`
+- `useElementBounding` calls `tryOnMounted`
+- `useElementByPoint` calls `useSupported`
+- `useElementByPoint` calls `useRafFn`
+- `useElementByPoint` calls `useIntervalFn`
+- `useElementHover` calls `useEventListener`
+- `useElementHover` calls `onElementRemoval`
+- `useElementHover` calls `unrefElement`
+- `useElementSize` calls `unrefElement`
+- `useElementSize` calls `useResizeObserver`
+- `useElementSize` calls `toArray`
+- `useElementSize` calls `tryOnMounted`
+- `useIntersectionObserver` calls `useSupported`
+- `useIntersectionObserver` calls `toArray`
+- `useIntersectionObserver` calls `unrefElement`
+- `useIntersectionObserver` calls `tryOnScopeDispose`
+- `useElementVisibility` calls `useIntersectionObserver`
+- `useElementVisibility` calls `watchOnce`
+- `useEventSource` calls `toRef2`
+- `useEventSource` calls `resolveNestedOptions$1`
+- `useEventSource` calls `useEventListener`
+- `useEventSource` calls `tryOnScopeDispose`
+- `useEyeDropper` calls `useSupported`
+- `useFavicon` calls `toRef2`
+- `isFetchOptions` calls `containsProp`
+- `createFetch` calls `isAbsoluteURL`
+- `createFetch` calls `joinPaths`
+- `createFetch` calls `isFetchOptions`
+- `createFetch` calls `combineCallbacks`
+- `createFetch` calls `headersToObject`
+- `createFetch` calls `useFetch`
+- `useFetch` calls `isFetchOptions`
+- `useFetch` calls `createEventHook`
+- `useFetch` calls `useTimeoutFn`
+- `useFetch` calls `headersToObject`
+- `useFetch` calls `toRef2`
+- `useFetch` calls `until`
+- `useFileDialog` calls `prepareInitialFiles`
+- `useFileDialog` calls `createEventHook`
+- `useFileDialog` calls `hasOwn`
+- `useFileSystemAccess` calls `useSupported`
+- `useFocus` calls `unrefElement`
+- `useFocus` calls `useEventListener`
+- `useFocusWithin` calls `unrefElement`
+- `useFocusWithin` calls `useActiveElement`
+- `useFocusWithin` calls `useEventListener`
+- `useFps` calls `useRafFn`
+- `useFullscreen` calls `unrefElement`
+- `useFullscreen` calls `useSupported`
+- `useFullscreen` calls `useEventListener`
+- `useFullscreen` calls `tryOnScopeDispose`
+- `useGamepad` calls `useSupported`
+- `useGamepad` calls `createEventHook`
+- `useGamepad` calls `useRafFn`
+- `useGamepad` calls `useEventListener`
+- `useGamepad` calls `tryOnMounted`
+- `useGeolocation` calls `useSupported`
+- `useGeolocation` calls `tryOnScopeDispose`
+- `useIdle` calls `throttleFilter`
+- `useIdle` calls `timestamp`
+- `useIdle` calls `createFilterWrapper`
+- `useIdle` calls `useEventListener`
+- `useImage` calls `useAsyncState`
+- `useImage` calls `loadImage`
+- `useScroll` calls `useDebounceFn`
+- `useScroll` calls `unrefElement`
+- `useScroll` calls `useEventListener`
+- `useScroll` calls `useThrottleFn`
+- `useScroll` calls `tryOnMounted`
+- `useInfiniteScroll` calls `useScroll`
+- `useInfiniteScroll` calls `resolveElement`
+- `useInfiniteScroll` calls `useElementVisibility`
+- `useInfiniteScroll` calls `tryOnUnmounted`
+- `useKeyModifier` calls `useEventListener`
+- `useLocalStorage` calls `useStorage`
+- `useMagicKeys` calls `useEventListener`
+- `useMediaControls` calls `toRef2`
+- `useMediaControls` calls `createEventHook`
+- `useMediaControls` calls `usingElRef`
+- `useMediaControls` calls `isObject`
+- `useMediaControls` calls `useEventListener`
+- `useMediaControls` calls `watchIgnorable`
+- `useMediaControls` calls `timeRangeToArray`
+- `useMediaControls` calls `tracksToArray`
+- `useMediaControls` calls `tryOnScopeDispose`
+- `useMemory` calls `useSupported`
+- `useMemory` calls `useIntervalFn`
+- `useMouse` calls `useEventListener`
+- `useMouseInElement` calls `useMouse`
+- `useMouseInElement` calls `unrefElement`
+- `useMouseInElement` calls `useEventListener`
+- `useMousePressed` calls `unrefElement`
+- `useMousePressed` calls `useEventListener`
+- `useNavigatorLanguage` calls `useSupported`
+- `useNavigatorLanguage` calls `useEventListener`
+- `useNetwork` calls `useSupported`
+- `useNetwork` calls `useEventListener`
+- `useNow` calls `useRafFn`
+- `useNow` calls `useIntervalFn`
+- `useObjectUrl` calls `tryOnScopeDispose`
+- `useClamp` calls `clamp`
+- `useOffsetPagination` calls `useClamp`
+- `useOffsetPagination` calls `syncRef`
+- `useOnline` calls `useNetwork`
+- `usePageLeave` calls `useEventListener`
+- `useScreenOrientation` calls `useSupported`
+- `useScreenOrientation` calls `useEventListener`
+- `useParallax` calls `useDeviceOrientation`
+- `useParallax` calls `useScreenOrientation`
+- `useParallax` calls `useMouseInElement`
+- `useParentElement` calls `unrefElement`
+- `useParentElement` calls `tryOnMounted`
+- `usePerformanceObserver` calls `useSupported`
+- `usePerformanceObserver` calls `tryOnScopeDispose`
+- `usePointer` calls `objectPick`
+- `usePointer` calls `useEventListener`
+- `usePointer` calls `toRefs2`
+- `usePointerLock` calls `useSupported`
+- `usePointerLock` calls `useEventListener`
+- `usePointerLock` calls `unrefElement`
+- `usePointerLock` calls `until`
+- `usePointerSwipe` calls `toRef2`
+- `usePointerSwipe` calls `useEventListener`
+- `usePointerSwipe` calls `tryOnMounted`
+- `usePreferredColorScheme` calls `useMediaQuery`
+- `usePreferredContrast` calls `useMediaQuery`
+- `usePreferredLanguages` calls `useEventListener`
+- `usePreferredReducedMotion` calls `useMediaQuery`
+- `usePreferredReducedTransparency` calls `useMediaQuery`
+- `usePrevious` calls `toRef2`
+- `useScreenSafeArea` calls `useCssVar`
+- `useScreenSafeArea` calls `useEventListener`
+- `useScreenSafeArea` calls `useDebounceFn`
+- `useScreenSafeArea` calls `getValue`
+- `useScriptTag` calls `useEventListener`
+- `useScriptTag` calls `tryOnMounted`
+- `useScriptTag` calls `tryOnUnmounted`
+- `preventDefault` calls `checkOverflowScroll`
+- `useScrollLock` calls `toRef2`
+- `useScrollLock` calls `resolveElement`
+- `useScrollLock` calls `useEventListener`
+- `useScrollLock` calls `preventDefault`
+- `useScrollLock` calls `tryOnScopeDispose`
+- `useSessionStorage` calls `useStorage`
+- `useShare` calls `useSupported`
+- `useSpeechRecognition` calls `toRef2`
+- `useSpeechRecognition` calls `useSupported`
+- `useSpeechRecognition` calls `tryOnScopeDispose`
+- `useSpeechSynthesis` calls `useSupported`
+- `useSpeechSynthesis` calls `toRef2`
+- `useSpeechSynthesis` calls `tryOnScopeDispose`
+- `useStorageAsync` calls `guessSerializerType`
+- `useStorageAsync` calls `getSSRHandler`
+- `useStorageAsync` calls `useEventListener`
+- `useStorageAsync` calls `watchWithFilter`
+- `useStyleTag` calls `tryOnMounted`
+- `useStyleTag` calls `tryOnScopeDispose`
+- `useSwipe` calls `useEventListener`
+- `useTextDirection` calls `tryOnMounted`
+- `useTextDirection` calls `useMutationObserver`
+- `useTextSelection` calls `getRangesFromSelection`
+- `useTextSelection` calls `useEventListener`
+- `useTextareaAutosize` calls `toRef2`
+- `useTextareaAutosize` calls `useResizeObserver`
+- `useTextareaAutosize` calls `tryRequestAnimationFrame`
+- `useThrottledRefHistory` calls `throttleFilter`
+- `useThrottledRefHistory` calls `useRefHistory`
+- `useTimeAgo` calls `useNow`
+- `useTimeAgo` calls `formatTimeAgo`
+- `useTimeoutPoll` calls `useTimeoutFn`
+- `useTimeoutPoll` calls `tryOnScopeDispose`
+- `useTimestamp` calls `timestamp`
+- `useTimestamp` calls `useRafFn`
+- `useTimestamp` calls `useIntervalFn`
+- `useTitle` calls `toRef2`
+- `useTitle` calls `useMutationObserver`
+- `useTitle` calls `tryOnScopeDispose`
+- `executeTransition` calls `toVec`
+- `executeTransition` calls `createEasingFunction`
+- `executeTransition` calls `lerp`
+- `useTransition` calls `promiseTimeout`
+- `useTransition` calls `executeTransition`
+- `useTransition` calls `tryOnScopeDispose`
+- `useUrlSearchParams` calls `watchPausable`
+- `useUrlSearchParams` calls `useEventListener`
+- `useUserMedia` calls `useSupported`
+- `useUserMedia` calls `tryOnScopeDispose`
+- `useVModel` calls `cloneFnJSON`
+- `useVModel` calls `isDef`
+- `useVModels` calls `useVModel`
+- `useVibrate` calls `useSupported`
+- `useVibrate` calls `toRef2`
+- `useVibrate` calls `useIntervalFn`
+- `useVirtualList` calls `useVerticalVirtualList`
+- `useVirtualList` calls `useHorizontalVirtualList`
+- `useVirtualListResources` calls `useElementSize`
+- `useHorizontalVirtualList` calls `useVirtualListResources`
+- `useHorizontalVirtualList` calls `createGetViewCapacity`
+- `useHorizontalVirtualList` calls `createGetOffset`
+- `useHorizontalVirtualList` calls `createCalculateRange`
+- `useHorizontalVirtualList` calls `createGetDistance`
+- `useHorizontalVirtualList` calls `createComputedTotalSize`
+- `useHorizontalVirtualList` calls `useWatchForSizes`
+- `useHorizontalVirtualList` calls `createScrollTo`
+- `useVerticalVirtualList` calls `useVirtualListResources`
+- `useVerticalVirtualList` calls `createGetViewCapacity`
+- `useVerticalVirtualList` calls `createGetOffset`
+- `useVerticalVirtualList` calls `createCalculateRange`
+- `useVerticalVirtualList` calls `createGetDistance`
+- `useVerticalVirtualList` calls `createComputedTotalSize`
+- `useVerticalVirtualList` calls `useWatchForSizes`
+- `useVerticalVirtualList` calls `createScrollTo`
+- `useWakeLock` calls `useDocumentVisibility`
+- `useWakeLock` calls `useSupported`
+- `useWakeLock` calls `useEventListener`
+- `useWakeLock` calls `whenever`
+- `useWebNotification` calls `useSupported`
+- `useWebNotification` calls `createEventHook`
+- `useWebNotification` calls `tryOnMounted`
+- `useWebNotification` calls `tryOnScopeDispose`
+- `useWebNotification` calls `useEventListener`
+- `useWebSocket` calls `toRef2`
+- `useWebSocket` calls `resolveNestedOptions`
+- `useWebSocket` calls `useIntervalFn`
+- `useWebSocket` calls `useEventListener`
+- `useWebSocket` calls `tryOnScopeDispose`
+- `useWebWorker` calls `tryOnScopeDispose`
+- `createWorkerBlobUrl` calls `depsParser`
+- `useWebWorkerFn` calls `tryOnScopeDispose`
+- `useWebWorkerFn` calls `createWorkerBlobUrl`
+- `useWindowFocus` calls `useEventListener`
+- `useWindowScroll` calls `useScroll`
+- `useWindowSize` calls `tryOnMounted`
+- `useWindowSize` calls `useEventListener`
+- `useWindowSize` calls `useMediaQuery`
+
+## Diagnostics
+
+- No parser diagnostics.
+
+## Related Outputs
+
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
+

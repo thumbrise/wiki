@@ -1,0 +1,1459 @@
+---
+page_id: 'output:source-briefs/directory-op-597d97ce'
+kind: output
+cssclasses:
+  - swarmvault
+  - sv-output
+title: 'Source Brief: op'
+tags:
+  - output
+  - source-brief
+source_ids:
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
+  - 10-pistol-c4a46637
+  - 11-bundle-d20d9270
+  - 12-profession-6a98045a
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
+  - 15-black-dfde2647
+  - 16-migrations-115e9686
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
+  - 19-mongodb-ff331c30
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
+  - 3-bleed-09df896e
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-a144e02d
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-a9582e69
+  - chunk-busya2b4-js-ed562b0b
+  - composer-2fcc293f
+  - composer-61edd1a7
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
+  - demotest-276ee805
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
+  - dogshop-de2fc247
+  - dogshop-invalid-17d19246
+  - donothing-0c30237f
+  - dream-17b190f1
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
+  - gitignore-1c7e0952
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
+  - instruction-v1-ce2b773a
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
+  - jsonvalidation-a88469ee
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
+  - licenserc-40040b08
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
+  - session-7a75f197
+  - stempler-a4483274
+  - swarmvault-config-json-84915e3f
+  - taskfile-f98ae8d6
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-primitive-range-conjecture-c5c69b80
+  - the-understory-69c901f2
+  - three-atoms-f9d1fbb2
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-roadmap-cdd00ede
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
+  - welcome-049f9ac7
+project_ids: []
+node_ids:
+  - 'source:001-curl-eyeballs-bf0564bb'
+  - 'source:001-what-is-an-operation-640ebffc'
+  - 'source:001-why-b2ba350d'
+  - 'source:002-research-trail-442db2ba'
+  - 'source:002-spiral-3cf9daa0'
+  - 'source:002-the-handshake-1380fe94'
+  - 'source:003-roadrunner-bleeds-across-layers-e42474dd'
+  - 'source:003-the-understory-904c0d25'
+  - 'source:003a-pub-bar-role-game-3f88ed9c'
+  - 'source:003b-pub-bar-role-game-f2cbf62f'
+  - 'source:003c-pub-bar-role-game-2a4a3169'
+  - 'source:003d-pub-bar-role-game-b0469b99'
+  - 'source:003e-pub-bar-role-game-acb5f783'
+  - 'source:003f-pub-bar-role-game-a5f64ddc'
+  - 'source:003g-pub-bar-role-game-409d2d74'
+  - 'source:003h-pub-bar-role-game-66c67dad'
+  - 'source:004-operations-protocol-a4fd436a'
+  - 'source:004-php-poc-struggle-2e82ca79'
+  - 'source:004-the-mound-d2ff607c'
+  - 'source:005-history-of-protocols-bba8988f'
+freshness: fresh
+status: active
+confidence: 0.82
+created_at: '2026-05-03T05:32:22.989Z'
+updated_at: '2026-05-03T05:32:22.989Z'
+compiled_from:
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
+  - 10-pistol-c4a46637
+  - 11-bundle-d20d9270
+  - 12-profession-6a98045a
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
+  - 15-black-dfde2647
+  - 16-migrations-115e9686
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
+  - 19-mongodb-ff331c30
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
+  - 3-bleed-09df896e
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-a144e02d
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-a9582e69
+  - chunk-busya2b4-js-ed562b0b
+  - composer-2fcc293f
+  - composer-61edd1a7
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
+  - demotest-276ee805
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
+  - dogshop-de2fc247
+  - dogshop-invalid-17d19246
+  - donothing-0c30237f
+  - dream-17b190f1
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
+  - gitignore-1c7e0952
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
+  - instruction-v1-ce2b773a
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
+  - jsonvalidation-a88469ee
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
+  - licenserc-40040b08
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
+  - session-7a75f197
+  - stempler-a4483274
+  - swarmvault-config-json-84915e3f
+  - taskfile-f98ae8d6
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-primitive-range-conjecture-c5c69b80
+  - the-understory-69c901f2
+  - three-atoms-f9d1fbb2
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-roadmap-cdd00ede
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
+  - welcome-049f9ac7
+managed_by: system
+backlinks:
+  - 'concept:001-why'
+  - 'concept:002-research-trail'
+  - 'concept:002-spiral'
+  - 'concept:002-the-handshake'
+  - 'concept:003-roadrunner-bleeds-across-layers'
+  - 'concept:003-the-understory'
+  - 'concept:003a-pub-bar-role-game'
+  - 'concept:003b-pub-bar-role-game'
+  - 'concept:003c-pub-bar-role-game'
+  - 'concept:003d-pub-bar-role-game'
+  - 'concept:003e-pub-bar-role-game'
+  - 'concept:003f-pub-bar-role-game'
+  - 'source:001-curl-eyeballs-bf0564bb'
+  - 'source:001-what-is-an-operation-640ebffc'
+  - 'source:001-why-b2ba350d'
+  - 'source:002-research-trail-442db2ba'
+  - 'source:002-spiral-3cf9daa0'
+  - 'source:002-the-handshake-1380fe94'
+  - 'source:003-roadrunner-bleeds-across-layers-e42474dd'
+  - 'source:003-the-understory-904c0d25'
+  - 'source:003a-pub-bar-role-game-3f88ed9c'
+  - 'source:003b-pub-bar-role-game-f2cbf62f'
+  - 'source:003c-pub-bar-role-game-2a4a3169'
+  - 'source:003d-pub-bar-role-game-b0469b99'
+  - 'source:003e-pub-bar-role-game-acb5f783'
+  - 'source:003f-pub-bar-role-game-a5f64ddc'
+  - 'source:003g-pub-bar-role-game-409d2d74'
+  - 'source:003h-pub-bar-role-game-66c67dad'
+  - 'source:004-operations-protocol-a4fd436a'
+  - 'source:004-php-poc-struggle-2e82ca79'
+  - 'source:004-the-mound-d2ff607c'
+  - 'source:005-history-of-protocols-bba8988f'
+  - 'source:005-single-source-of-truth-2e6ff1ca'
+  - 'source:005-the-dial-5205e70e'
+  - 'source:006-fifteen-times-the-same-idea-d770d6eb'
+  - 'source:006-the-four-letters-f056ace6'
+  - 'source:006-what-programs-forgot-cc757030'
+  - 'source:007-contract-f44cd76c'
+  - 'source:007-the-book-on-the-desk-abdd7f4a'
+  - 'source:007-why-we-dont-call-linus-cbcb8d84'
+  - 'source:008-configuration-is-not-parameterization-a77bed11'
+  - 'source:008-the-harbourmaster-fa7ef3a0'
+  - 'source:008-three-atoms-57747539'
+  - 'source:009-operation-comes-first-9d3e8f2a'
+  - 'source:009-the-address-is-a-detail-41380fce'
+  - 'source:009-the-dance-57cdb378'
+  - 'source:010-fifty-triggers-fifty-barrels-c67a315c'
+  - 'source:010-the-murmuration-c56d61eb'
+  - 'source:010-there-is-no-generation-73b17c7a'
+  - 'source:011-from-silicon-to-struct-9e2b0b13'
+  - 'source:011-postgres-is-a-bundle-c689eda3'
+  - 'source:011-the-black-square-4ab61afd'
+  - 'source:012-the-conference-d65293ea'
+  - 'source:012-the-cover-0a81919a'
+  - 'source:012-the-disappearing-profession-0b9d7c7b'
+  - 'source:013-convergent-evolution-93378b16'
+  - 'source:013-the-dream-fulfilled-42c6545a'
+  - 'source:013-the-lock-that-disappeared-011c00d9'
+  - 'source:014-epilogue-b74893a6'
+  - 'source:014-the-fact-355dad87'
+  - 'source:014-two-invisible-markets-026cf8a3'
+  - 'source:015-the-black-compiler-0348817b'
+  - 'source:015-the-coexistence-c51a037e'
+  - 'source:016-the-founders-dream-615ebca3'
+  - 'source:016-the-origin-of-migrations-2d111431'
+  - 'source:017-postgres-is-a-jit-a1a3ecf1'
+  - 'source:017-the-gallium-209e24ff'
+  - 'source:018-hand-written-deopt-guards-90eb3a14'
+  - 'source:018-the-fourth-rail-9f8a7d59'
+  - 'source:019-nobody-chooses-mongodb-47df97dc'
+  - 'source:019-the-missing-format-080b85e9'
+  - 'source:020-how-much-you-promise-8fa8ba85'
+  - 'source:020-the-playground-5ef24cfe'
+  - 'source:021-all-programs-are-equal-eeeedf20'
+  - 'source:021-the-atoms-speak-a1b19c24'
+  - 'source:022-the-dream-layer-642230a5'
+  - 'source:022-why-nothing-lands-6e2a5df5'
+  - 'source:023-the-vacant-cell-0e700f2d'
+  - 'source:023-treaty-of-five-1f866e69'
+  - 'source:024-the-trial-caab50fa'
+  - 'source:025-the-manifesto-12d734b2'
+  - 'source:026-the-compilers-34fdac74'
+  - 'source:027-build-link-runtime-f1281fab'
+  - 'source:028-dobby-is-free-e30b1113'
+  - 'source:029-the-anthill-organizes-76d39bfa'
+  - 'source:030-the-first-stranger-acd393fc'
+  - 'source:031-the-hamster-leaves-the-wheel-7a87f577'
+  - 'source:032-the-verdict-d9680632'
+  - 'source:033-the-amplifier-3a43f00c'
+  - 'source:1-eyeballs-1b0b88c7'
+  - 'source:10-pistol-c4a46637'
+  - 'source:11-bundle-d20d9270'
+  - 'source:12-profession-6a98045a'
+  - 'source:13-lock-437116f9'
+  - 'source:14-markets-38a7b571'
+  - 'source:15-black-dfde2647'
+  - 'source:16-migrations-115e9686'
+  - 'source:16-the-founder-s-dream-df440da1'
+  - 'source:17-jit-d3331e78'
+  - 'source:18-guards-569885ee'
+  - 'source:18-the-fourth-rail-368f05dd'
+  - 'source:19-mongodb-ff331c30'
+  - 'source:1a188f991280c3fa4fa22e8dfe41d8c5-159569fb'
+  - 'source:1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f'
+  - 'source:2-gallium-8a4130eb'
+  - 'source:20-promise-65f67015'
+  - 'source:20230222-132457-0-0-default-create-users-693b3192'
+  - 'source:21-equality-767c77bb'
+  - 'source:21-the-atoms-speak-c38fb792'
+  - 'source:22-nothing-4cfe372b'
+  - 'source:23-treaty-ba942823'
+  - 'source:24-banana-817abe21'
+  - 'source:3-bleed-09df896e'
+  - 'source:32-the-verdict-dedc9d53'
+  - 'source:33-the-amplifier-8701a6b1'
+  - 'source:4-struggle-54bdb010'
+  - 'source:5-truth-95c78596'
+  - 'source:6-forgotten-dff037fc'
+  - 'source:7-linus-a63f10aa'
+  - 'source:8-configuration-a5b702f4'
+  - 'source:9-address-0633f40c'
+  - 'source:acknowledgements-bbe9037d'
+  - 'source:ajv-dist-2020-951a2569'
+  - 'source:ajv-dist-2020-js-627114a2'
+  - 'source:app-9ae93cb2'
+  - 'source:app-e5eaeb32'
+  - 'source:appbootloader-6dae842d'
+  - 'source:base-dark-ad702b5a'
+  - 'source:before-you-read-anything-else-af351c3d'
+  - 'source:braintree-sanitize-url-4c6c0640'
+  - 'source:braintree-sanitize-url-js-de06e2b9'
+  - 'source:cc3817c2bceb931d024031cc7a676edc-a9bbc7ca'
+  - 'source:chunk-7oikw5wk-a144e02d'
+  - 'source:chunk-7oikw5wk-js-e8520523'
+  - 'source:chunk-busya2b4-a9582e69'
+  - 'source:chunk-busya2b4-js-ed562b0b'
+  - 'source:composer-2fcc293f'
+  - 'source:composer-61edd1a7'
+  - 'source:config-fe08ecdf'
+  - 'source:createusercommand-640f036a'
+  - 'source:createuserservice-da5191cb'
+  - 'source:cycle-b56fd783'
+  - 'source:cycleormuserrepository-4728c818'
+  - 'source:cytoscape-a8c97378'
+  - 'source:cytoscape-cose-bilkent-e1c4e36d'
+  - 'source:cytoscape-cose-bilkent-js-13b26782'
+  - 'source:cytoscape-js-951baa4f'
+  - 'source:database-aa2820ff'
+  - 'source:dayjs-b5487d49'
+  - 'source:dayjs-js-a6ae3be3'
+  - 'source:debug-3368481f'
+  - 'source:debug-js-6540d3a7'
+  - 'source:demooperations-d4ee05ab'
+  - 'source:demotest-276ee805'
+  - 'source:docker-compose-96d71fcb'
+  - 'source:dockerfile-6442cd3d'
+  - 'source:dogshop-de2fc247'
+  - 'source:dogshop-invalid-17d19246'
+  - 'source:donothing-0c30237f'
+  - 'source:dream-17b190f1'
+  - 'source:editorconfig-eb6e1333'
+  - 'source:env-d5128e48'
+  - 'source:environment-prod-or-local-a93beb0c'
+  - 'source:epilogue-3382e75b'
+  - 'source:exceptionhandlerbootloader-17ded035'
+  - 'source:factories-1ed73244'
+  - 'source:faq-d7ac412d'
+  - 'source:favicon-ac317ec3'
+  - 'source:fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae'
+  - 'source:form-of-instruction-notes-9051c314'
+  - 'source:form-of-nota-notes-04d12dbf'
+  - 'source:form-of-operation-notes-be2b8d95'
+  - 'source:form-of-rail-notes-349e92b3'
+  - 'source:gitignore-1c7e0952'
+  - 'source:gitignore-b1a75042'
+  - 'source:gitignore-b836fd5b'
+  - 'source:gitignore-e3b0c442'
+  - 'source:handler-27c7389d'
+  - 'source:home-dark-1eafb4ae'
+  - 'source:homecontroller-b2a0b790'
+  - 'source:homecontrollertest-9feb0ff5'
+  - 'source:i18n-en-f192b7ee'
+  - 'source:i18n-locales-137d211d'
+  - 'source:index-1dd89c74'
+  - 'source:index-564a3123'
+  - 'source:index-62cbfa65'
+  - 'source:index-dc346ad9'
+  - 'source:instruction-v1-ce2b773a'
+  - 'source:jsonc-parser-d0f45765'
+  - 'source:jsonc-parser-js-120059a2'
+  - 'source:jsonvalidation-a88469ee'
+  - 'source:kernel-a4634d28'
+  - 'source:knowledge-base-rule-a4a663c8'
+  - 'source:lesson-1-what-an-operation-is-34ecb6bb'
+  - 'source:lesson-2-the-book-on-the-desk-d5f66c30'
+  - 'source:lesson-3-the-cover-9c25e128'
+  - 'source:licenserc-40040b08'
+  - 'source:local-2004a734'
+  - 'source:local-ini-4b243f68'
+  - 'source:localeselector-a2212b51'
+  - 'source:loggingbootloader-143850b0'
+  - 'source:logo-14c86ac8'
+  - 'source:mcp-73c9ef6a'
+  - 'source:mcp-mprocs-e2aae1c9'
+  - 'source:messages-en-f207de17'
+  - 'source:metadata-4a448f18'
+  - 'source:migration-2773f527'
+  - 'source:my-awesome-web-application-2e8617e5'
+  - 'source:nota-v1-6168c974'
+  - 'source:op-33cc57bb'
+  - 'source:op-reference-e87d2074'
+  - 'source:operation-v1-f6c2a6fb'
+  - 'source:package-3ca9d4af'
+  - 'source:persistencebootloader-778beffd'
+  - 'source:php-cs-fixer-dist-57566749'
+  - 'source:phpunit-10eb0a3f'
+  - 'source:playground-a130e091'
+  - 'source:predator-handshake-a8cefe37'
+  - 'source:psalm-06d502d6'
+  - 'source:psalm-baseline-38ca50b0'
+  - 'source:rail-v1-104bb94b'
+  - 'source:review-guidelines-3c6b1ba1'
+  - 'source:rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c'
+  - 'source:rfc-the-operation-protocol-cb01fbf6'
+  - 'source:routesbootloader-e4e99d14'
+  - 'source:rr-02e8677b'
+  - 'source:scaffolder-92fcecdc'
+  - 'source:session-7a75f197'
+  - 'source:stempler-a4483274'
+  - 'source:swarmvault-config-json-84915e3f'
+  - 'source:taskfile-f98ae8d6'
+  - 'source:testcase-e8b69b5c'
+  - 'source:testkernel-a6748afa'
+  - 'source:the-black-square-d930c773'
+  - 'source:the-codex-d54c2224'
+  - 'source:the-contract-that-wouldn-t-break-c318d936'
+  - 'source:the-dance-17d85dd8'
+  - 'source:the-dial-10ba3d63'
+  - 'source:the-dream-fulfilled-a5c68874'
+  - 'source:the-four-letters-c540e241'
+  - 'source:the-handshake-2d49d44e'
+  - 'source:the-harbourmaster-072db85e'
+  - 'source:the-idea-636ec680'
+  - 'source:the-mound-a869009c'
+  - 'source:the-murmuration-04e8f14e'
+  - 'source:the-observation-6da70cdd'
+  - 'source:the-operations-protocol-formalizing-the-missing-foundation-7457cddb'
+  - 'source:the-primitive-range-conjecture-c5c69b80'
+  - 'source:the-understory-69c901f2'
+  - 'source:three-atoms-f9d1fbb2'
+  - 'source:translator-d5801544'
+  - 'source:types-d-b31f14aa'
+  - 'source:universal-field-notes-0b577177'
+  - 'source:universal-first-vendors-not-a-standard-library-637ac699'
+  - 'source:universal-roadmap-cdd00ede'
+  - 'source:user-d5b6c9e9'
+  - 'source:usernotfoundexception-204c3d22'
+  - 'source:userrepositoryinterface-4c171a4e'
+  - 'source:uuidtypecast-bc2c3f4a'
+  - 'source:viewrenderer-4600606b'
+  - 'source:vitepress-vue-devtools-api-d989dc21'
+  - 'source:vitepress-vue-devtools-api-js-087cb430'
+  - 'source:vitepress-vueuse-core-992426fa'
+  - 'source:vitepress-vueuse-core-js-57a542db'
+  - 'source:vue-837e3e32'
+  - 'source:welcome-049f9ac7'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes: {}
+source_semantic_hashes: {}
+related_page_ids:
+  - 'concept:001-why'
+  - 'concept:002-research-trail'
+  - 'concept:002-spiral'
+  - 'concept:002-the-handshake'
+  - 'concept:003-roadrunner-bleeds-across-layers'
+  - 'concept:003-the-understory'
+  - 'concept:003a-pub-bar-role-game'
+  - 'concept:003b-pub-bar-role-game'
+  - 'concept:003c-pub-bar-role-game'
+  - 'concept:003d-pub-bar-role-game'
+  - 'concept:003e-pub-bar-role-game'
+  - 'concept:003f-pub-bar-role-game'
+related_node_ids:
+  - 'source:001-curl-eyeballs-bf0564bb'
+  - 'source:001-what-is-an-operation-640ebffc'
+  - 'source:001-why-b2ba350d'
+  - 'source:002-research-trail-442db2ba'
+  - 'source:002-spiral-3cf9daa0'
+  - 'source:002-the-handshake-1380fe94'
+  - 'source:003-roadrunner-bleeds-across-layers-e42474dd'
+  - 'source:003-the-understory-904c0d25'
+  - 'source:003a-pub-bar-role-game-3f88ed9c'
+  - 'source:003b-pub-bar-role-game-f2cbf62f'
+  - 'source:003c-pub-bar-role-game-2a4a3169'
+  - 'source:003d-pub-bar-role-game-b0469b99'
+  - 'source:003e-pub-bar-role-game-acb5f783'
+  - 'source:003f-pub-bar-role-game-a5f64ddc'
+  - 'source:003g-pub-bar-role-game-409d2d74'
+  - 'source:003h-pub-bar-role-game-66c67dad'
+  - 'source:004-operations-protocol-a4fd436a'
+  - 'source:004-php-poc-struggle-2e82ca79'
+  - 'source:004-the-mound-d2ff607c'
+  - 'source:005-history-of-protocols-bba8988f'
+related_source_ids:
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
+  - 10-pistol-c4a46637
+  - 11-bundle-d20d9270
+  - 12-profession-6a98045a
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
+  - 15-black-dfde2647
+  - 16-migrations-115e9686
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
+  - 19-mongodb-ff331c30
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
+  - 3-bleed-09df896e
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-a144e02d
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-a9582e69
+  - chunk-busya2b4-js-ed562b0b
+  - composer-2fcc293f
+  - composer-61edd1a7
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
+  - demotest-276ee805
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
+  - dogshop-de2fc247
+  - dogshop-invalid-17d19246
+  - donothing-0c30237f
+  - dream-17b190f1
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
+  - gitignore-1c7e0952
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
+  - instruction-v1-ce2b773a
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
+  - jsonvalidation-a88469ee
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
+  - licenserc-40040b08
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
+  - session-7a75f197
+  - stempler-a4483274
+  - swarmvault-config-json-84915e3f
+  - taskfile-f98ae8d6
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-primitive-range-conjecture-c5c69b80
+  - the-understory-69c901f2
+  - three-atoms-f9d1fbb2
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-roadmap-cdd00ede
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
+  - welcome-049f9ac7
+origin: source_brief
+question: Brief op
+output_format: report
+output_assets: []
+---
+# Source Brief: op
+
+## What This Source Is
+
+The source content is highly meta-structured, consisting primarily of `meta refresh` tags and redirects. These redirects point to various specific notes and sections, such as notes detailing the definition and scope of 'operations' (e.g., `001-what-is-an-operation`).
+
+## Read First
+
+*   **Redirects/Precursors:**
+    *   [[sources/001-curl-eyeballs-bf0564bb|001-curl-eyeballs]]
+    *   [[sources/001-what-is-an-operation-640ebffc|001-what-is-an-operation]]
+    *   [[sources/001-why-b2ba350d|001-why]]
+    *   [[sources/002-research-trail-442db2ba|002-research-trail]]
+    *   [[sources/002-spiral-3cf9daa0|002-spiral]]
+    *   [[sources/002-the-handshake-1380fe94|002-the-handshake]]
+
+## Core Pages
+
+**Module Pages:**
+*   [[code/1a188f991280c3fa4fa22e8dfe41d8c5-159569fb|1a188f991280c3fa4fa22e8dfe41d8c5 module]]
+*   [[code/1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f|1f31c89a9dcf3a7b2c81a466767f0697 module]]
+*   [[code/20230222-132457-0-0-default-create-users-693b3192|20230222.132457_0_0_default_create_users module]]
+*   [[code/ajv-dist-2020-951a2569|ajv_dist_2020 module]]
+*   [[code/app-e5eaeb32|app module]]
+*   [[code/appbootloader-6dae842d|AppBootloader module]]
+
+**Concept Pages:**
+*   [[candidates/concepts/001-why|001-why]]
+*   [[candidates/concepts/002-research-trail|002-research-trail]]
+*   [[candidates/concepts/002-spiral|002-spiral]]
+*   [[candidates/concepts/002-the-handshake|002-the-handshake]]
+*   [[candidates/concepts/003-roadrunner-bleeds-across-layers|003-roadrunner-bleeds-across-layers]]
+*   [[candidates/concepts/003-the-understory|003-the-understory]]
+
+**Entity Pages:**
+*   [[candidates/entities/address-is|Address Is]]
+*   [[candidates/entities/address|Address]]
+*   [[candidates/entities/after|After]]
+*   [[candidates/entities/alexandria|Alexandria]]
+*   [[candidates/entities/alexkart-curl-builder|alexkart/curl-builder]]
+*   [[candidates/entities/all-programs-are-equal-take|All Programs Are Equal Take]]
+
+## How The Important Parts Fit Together
+
+*   **Compiled Source Pages:** 6
+*   **Module Pages:** 6
+*   **Graph Nodes Touching This Source:** 3574
+*   **Current Tracked Source IDs:** 254
+
+## Surprises
+
+*   The `cytoscape` module connects to the `chunk-BUSYA2B4` module because it crosses communities (`community:cytoscape-module-13` and `community:ajv-dist-2020-module-4`), spanning different canonical pages via a bridge node.
+*   The `jsonc-parser` module connects to the `chunk-BUSYA2B4` module because it crosses communities (`community:jsonc-parser-module-25` and `community:ajv-dist-2020-module-4`), spanning different canonical pages via a bridge node.
+*   The `vitepress___@vue_devtools-api` module connects to the `chunk-BUSYA2B4` module because it crosses communities (`community:vitepress-vue-devtools-api-module-37` and `community:ajv-dist-2020-module-4`), spanning different canonical pages via a bridge node.
+*   The `vitepress___@vueuse_core` module connects to the `chunk-7OIKW5WK` module because it crosses communities (`community:vitepress-vueuse-core-module-38` and `community:chunk-7oikw5wk-module-9`), spanning different canonical pages via a bridge node.
+
+## Contradictions
+
+No contradictions were detected for this source.
+
+## Open Questions
+
+*   What is the formal definition of an operation?
+*   In what context (e.g., mathematics, software, biology) is the term 'operation' used here?
+*   What examples of operations are discussed in the full chapter?
+*   How does 001-why relate to 001-why?
+*   How does content relate to 001-why?
+
+## Suggested Next Questions
+
+*   What sources would strengthen `community 1a188f991280c3fa4fa22e8dfe41d8c5` module?
+*   What sources would strengthen `community 1f31c89a9dcf3a7b2c81a466767f0697` module?
+*   What sources would strengthen `community 20230222.132457_0_0_default_create_users` module?
+*   What sources would strengthen `community AppBootloader` module?
+*   What sources would strengthen `community base.dark` module?
+
+## Related Pages
+
+- `concept:001-why`
+- `concept:002-research-trail`
+- `concept:002-spiral`
+- `concept:002-the-handshake`
+- `concept:003-roadrunner-bleeds-across-layers`
+- `concept:003-the-understory`
+- `concept:003a-pub-bar-role-game`
+- `concept:003b-pub-bar-role-game`
+- `concept:003c-pub-bar-role-game`
+- `concept:003d-pub-bar-role-game`
+- `concept:003e-pub-bar-role-game`
+- `concept:003f-pub-bar-role-game`
+
+## Citations
+
+- [source:001-curl-eyeballs-bf0564bb]
+- [source:001-what-is-an-operation-640ebffc]
+- [source:001-why-b2ba350d]
+- [source:002-research-trail-442db2ba]
+- [source:002-spiral-3cf9daa0]
+- [source:002-the-handshake-1380fe94]
+- [source:003-roadrunner-bleeds-across-layers-e42474dd]
+- [source:003-the-understory-904c0d25]
+- [source:003a-pub-bar-role-game-3f88ed9c]
+- [source:003b-pub-bar-role-game-f2cbf62f]
+- [source:003c-pub-bar-role-game-2a4a3169]
+- [source:003d-pub-bar-role-game-b0469b99]
+- [source:003e-pub-bar-role-game-acb5f783]
+- [source:003f-pub-bar-role-game-a5f64ddc]
+- [source:003g-pub-bar-role-game-409d2d74]
+- [source:003h-pub-bar-role-game-66c67dad]
+- [source:004-operations-protocol-a4fd436a]
+- [source:004-php-poc-struggle-2e82ca79]
+- [source:004-the-mound-d2ff607c]
+- [source:005-history-of-protocols-bba8988f]
+- [source:005-single-source-of-truth-2e6ff1ca]
+- [source:005-the-dial-5205e70e]
+- [source:006-fifteen-times-the-same-idea-d770d6eb]
+- [source:006-the-four-letters-f056ace6]
+- [source:006-what-programs-forgot-cc757030]
+- [source:007-contract-f44cd76c]
+- [source:007-the-book-on-the-desk-abdd7f4a]
+- [source:007-why-we-dont-call-linus-cbcb8d84]
+- [source:008-configuration-is-not-parameterization-a77bed11]
+- [source:008-the-harbourmaster-fa7ef3a0]
+- [source:008-three-atoms-57747539]
+- [source:009-operation-comes-first-9d3e8f2a]
+- [source:009-the-address-is-a-detail-41380fce]
+- [source:009-the-dance-57cdb378]
+- [source:010-fifty-triggers-fifty-barrels-c67a315c]
+- [source:010-the-murmuration-c56d61eb]
+- [source:010-there-is-no-generation-73b17c7a]
+- [source:011-from-silicon-to-struct-9e2b0b13]
+- [source:011-postgres-is-a-bundle-c689eda3]
+- [source:011-the-black-square-4ab61afd]
+- [source:012-the-conference-d65293ea]
+- [source:012-the-cover-0a81919a]
+- [source:012-the-disappearing-profession-0b9d7c7b]
+- [source:013-convergent-evolution-93378b16]
+- [source:013-the-dream-fulfilled-42c6545a]
+- [source:013-the-lock-that-disappeared-011c00d9]
+- [source:014-epilogue-b74893a6]
+- [source:014-the-fact-355dad87]
+- [source:014-two-invisible-markets-026cf8a3]
+- [source:015-the-black-compiler-0348817b]
+- [source:015-the-coexistence-c51a037e]
+- [source:016-the-founders-dream-615ebca3]
+- [source:016-the-origin-of-migrations-2d111431]
+- [source:017-postgres-is-a-jit-a1a3ecf1]
+- [source:017-the-gallium-209e24ff]
+- [source:018-hand-written-deopt-guards-90eb3a14]
+- [source:018-the-fourth-rail-9f8a7d59]
+- [source:019-nobody-chooses-mongodb-47df97dc]
+- [source:019-the-missing-format-080b85e9]
+- [source:020-how-much-you-promise-8fa8ba85]
+- [source:020-the-playground-5ef24cfe]
+- [source:021-all-programs-are-equal-eeeedf20]
+- [source:021-the-atoms-speak-a1b19c24]
+- [source:022-the-dream-layer-642230a5]
+- [source:022-why-nothing-lands-6e2a5df5]
+- [source:023-the-vacant-cell-0e700f2d]
+- [source:023-treaty-of-five-1f866e69]
+- [source:024-the-trial-caab50fa]
+- [source:025-the-manifesto-12d734b2]
+- [source:026-the-compilers-34fdac74]
+- [source:027-build-link-runtime-f1281fab]
+- [source:028-dobby-is-free-e30b1113]
+- [source:029-the-anthill-organizes-76d39bfa]
+- [source:030-the-first-stranger-acd393fc]
+- [source:031-the-hamster-leaves-the-wheel-7a87f577]
+- [source:032-the-verdict-d9680632]
+- [source:033-the-amplifier-3a43f00c]
+- [source:1-eyeballs-1b0b88c7]
+- [source:10-pistol-c4a46637]
+- [source:11-bundle-d20d9270]
+- [source:12-profession-6a98045a]
+- [source:13-lock-437116f9]
+- [source:14-markets-38a7b571]
+- [source:15-black-dfde2647]
+- [source:16-migrations-115e9686]
+- [source:16-the-founder-s-dream-df440da1]
+- [source:17-jit-d3331e78]
+- [source:18-guards-569885ee]
+- [source:18-the-fourth-rail-368f05dd]
+- [source:19-mongodb-ff331c30]
+- [source:1a188f991280c3fa4fa22e8dfe41d8c5-159569fb]
+- [source:1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f]
+- [source:2-gallium-8a4130eb]
+- [source:20-promise-65f67015]
+- [source:20230222-132457-0-0-default-create-users-693b3192]
+- [source:21-equality-767c77bb]
+- [source:21-the-atoms-speak-c38fb792]
+- [source:22-nothing-4cfe372b]
+- [source:23-treaty-ba942823]
+- [source:24-banana-817abe21]
+- [source:3-bleed-09df896e]
+- [source:32-the-verdict-dedc9d53]
+- [source:33-the-amplifier-8701a6b1]
+- [source:4-struggle-54bdb010]
+- [source:5-truth-95c78596]
+- [source:6-forgotten-dff037fc]
+- [source:7-linus-a63f10aa]
+- [source:8-configuration-a5b702f4]
+- [source:9-address-0633f40c]
+- [source:acknowledgements-bbe9037d]
+- [source:ajv-dist-2020-951a2569]
+- [source:ajv-dist-2020-js-627114a2]
+- [source:app-9ae93cb2]
+- [source:app-e5eaeb32]
+- [source:appbootloader-6dae842d]
+- [source:base-dark-ad702b5a]
+- [source:before-you-read-anything-else-af351c3d]
+- [source:braintree-sanitize-url-4c6c0640]
+- [source:braintree-sanitize-url-js-de06e2b9]
+- [source:cc3817c2bceb931d024031cc7a676edc-a9bbc7ca]
+- [source:chunk-7oikw5wk-a144e02d]
+- [source:chunk-7oikw5wk-js-e8520523]
+- [source:chunk-busya2b4-a9582e69]
+- [source:chunk-busya2b4-js-ed562b0b]
+- [source:composer-2fcc293f]
+- [source:composer-61edd1a7]
+- [source:config-fe08ecdf]
+- [source:createusercommand-640f036a]
+- [source:createuserservice-da5191cb]
+- [source:cycle-b56fd783]
+- [source:cycleormuserrepository-4728c818]
+- [source:cytoscape-a8c97378]
+- [source:cytoscape-cose-bilkent-e1c4e36d]
+- [source:cytoscape-cose-bilkent-js-13b26782]
+- [source:cytoscape-js-951baa4f]
+- [source:database-aa2820ff]
+- [source:dayjs-b5487d49]
+- [source:dayjs-js-a6ae3be3]
+- [source:debug-3368481f]
+- [source:debug-js-6540d3a7]
+- [source:demooperations-d4ee05ab]
+- [source:demotest-276ee805]
+- [source:docker-compose-96d71fcb]
+- [source:dockerfile-6442cd3d]
+- [source:dogshop-de2fc247]
+- [source:dogshop-invalid-17d19246]
+- [source:donothing-0c30237f]
+- [source:dream-17b190f1]
+- [source:editorconfig-eb6e1333]
+- [source:env-d5128e48]
+- [source:environment-prod-or-local-a93beb0c]
+- [source:epilogue-3382e75b]
+- [source:exceptionhandlerbootloader-17ded035]
+- [source:factories-1ed73244]
+- [source:faq-d7ac412d]
+- [source:favicon-ac317ec3]
+- [source:fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae]
+- [source:form-of-instruction-notes-9051c314]
+- [source:form-of-nota-notes-04d12dbf]
+- [source:form-of-operation-notes-be2b8d95]
+- [source:form-of-rail-notes-349e92b3]
+- [source:gitignore-1c7e0952]
+- [source:gitignore-b1a75042]
+- [source:gitignore-b836fd5b]
+- [source:gitignore-e3b0c442]
+- [source:handler-27c7389d]
+- [source:home-dark-1eafb4ae]
+- [source:homecontroller-b2a0b790]
+- [source:homecontrollertest-9feb0ff5]
+- [source:i18n-en-f192b7ee]
+- [source:i18n-locales-137d211d]
+- [source:index-1dd89c74]
+- [source:index-564a3123]
+- [source:index-62cbfa65]
+- [source:index-dc346ad9]
+- [source:instruction-v1-ce2b773a]
+- [source:jsonc-parser-d0f45765]
+- [source:jsonc-parser-js-120059a2]
+- [source:jsonvalidation-a88469ee]
+- [source:kernel-a4634d28]
+- [source:knowledge-base-rule-a4a663c8]
+- [source:lesson-1-what-an-operation-is-34ecb6bb]
+- [source:lesson-2-the-book-on-the-desk-d5f66c30]
+- [source:lesson-3-the-cover-9c25e128]
+- [source:licenserc-40040b08]
+- [source:local-2004a734]
+- [source:local-ini-4b243f68]
+- [source:localeselector-a2212b51]
+- [source:loggingbootloader-143850b0]
+- [source:logo-14c86ac8]
+- [source:mcp-73c9ef6a]
+- [source:mcp-mprocs-e2aae1c9]
+- [source:messages-en-f207de17]
+- [source:metadata-4a448f18]
+- [source:migration-2773f527]
+- [source:my-awesome-web-application-2e8617e5]
+- [source:nota-v1-6168c974]
+- [source:op-33cc57bb]
+- [source:op-reference-e87d2074]
+- [source:operation-v1-f6c2a6fb]
+- [source:package-3ca9d4af]
+- [source:persistencebootloader-778beffd]
+- [source:php-cs-fixer-dist-57566749]
+- [source:phpunit-10eb0a3f]
+- [source:playground-a130e091]
+- [source:predator-handshake-a8cefe37]
+- [source:psalm-06d502d6]
+- [source:psalm-baseline-38ca50b0]
+- [source:rail-v1-104bb94b]
+- [source:review-guidelines-3c6b1ba1]
+- [source:rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c]
+- [source:rfc-the-operation-protocol-cb01fbf6]
+- [source:routesbootloader-e4e99d14]
+- [source:rr-02e8677b]
+- [source:scaffolder-92fcecdc]
+- [source:session-7a75f197]
+- [source:stempler-a4483274]
+- [source:swarmvault-config-json-84915e3f]
+- [source:taskfile-f98ae8d6]
+- [source:testcase-e8b69b5c]
+- [source:testkernel-a6748afa]
+- [source:the-black-square-d930c773]
+- [source:the-codex-d54c2224]
+- [source:the-contract-that-wouldn-t-break-c318d936]
+- [source:the-dance-17d85dd8]
+- [source:the-dial-10ba3d63]
+- [source:the-dream-fulfilled-a5c68874]
+- [source:the-four-letters-c540e241]
+- [source:the-handshake-2d49d44e]
+- [source:the-harbourmaster-072db85e]
+- [source:the-idea-636ec680]
+- [source:the-mound-a869009c]
+- [source:the-murmuration-04e8f14e]
+- [source:the-observation-6da70cdd]
+- [source:the-operations-protocol-formalizing-the-missing-foundation-7457cddb]
+- [source:the-primitive-range-conjecture-c5c69b80]
+- [source:the-understory-69c901f2]
+- [source:three-atoms-f9d1fbb2]
+- [source:translator-d5801544]
+- [source:types-d-b31f14aa]
+- [source:universal-field-notes-0b577177]
+- [source:universal-first-vendors-not-a-standard-library-637ac699]
+- [source:universal-roadmap-cdd00ede]
+- [source:user-d5b6c9e9]
+- [source:usernotfoundexception-204c3d22]
+- [source:userrepositoryinterface-4c171a4e]
+- [source:uuidtypecast-bc2c3f4a]
+- [source:viewrenderer-4600606b]
+- [source:vitepress-vue-devtools-api-d989dc21]
+- [source:vitepress-vue-devtools-api-js-087cb430]
+- [source:vitepress-vueuse-core-992426fa]
+- [source:vitepress-vueuse-core-js-57a542db]
+- [source:vue-837e3e32]
+- [source:welcome-049f9ac7]

@@ -1,0 +1,3154 @@
+---
+page_id: 'module:chunk-7oikw5wk-a144e02d'
+kind: module
+cssclasses:
+  - swarmvault
+  - sv-module
+title: chunk-7OIKW5WK module
+source_class: first_party
+tags:
+  - module
+  - code
+  - javascript
+source_ids:
+  - chunk-7oikw5wk-a144e02d
+project_ids: []
+node_ids:
+  - 'module:chunk-7oikw5wk-a144e02d'
+  - 'symbol:chunk-7oikw5wk-a144e02d:makemap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:empty-obj.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:empty-arr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:noop.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:no.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ison.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismodellistener.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:extend.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:remove.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasownproperty.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasown.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isarray.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isset.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isdate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isregexp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isfunction.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isstring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issymbol.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ispromise.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:objecttostring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:totypestring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:torawtype.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isplainobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isintegerkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreservedprop.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isbuiltindirective.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cachestringfunction.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:camelizere.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:camelize.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hyphenatere.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hyphenate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:capitalize.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tohandlerkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haschanged.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invokearrayfns.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:def.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:loosetonumber.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tonumber.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:globalthis.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getglobalthis.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:globals-allowed.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isgloballyallowed.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizestyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:listdelimiterre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:propertydelimiterre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stylecommentre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:parsestringstyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stringifystyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:html-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:svg-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:math-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:void-tags.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ishtmltag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issvgtag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismathmltag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isvoidtag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:specialbooleanattrs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isspecialbooleanattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isbooleanattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:includebooleanattr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isknownhtmlattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isknownsvgattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isknownmathmlattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isrenderableattrvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cssvarnameescapesymbolsre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getescapedcssvarname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:loosecomparearrays.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:looseequal.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:looseindexof.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isref.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:todisplaystring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:replacer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stringifysymbol.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizecssvarvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warn.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activeeffectscope.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:effectscope.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:effectscope.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcurrentscope.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onscopedispose.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activesub.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pausedqueueeffects.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactiveeffect.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batchdepth.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batchedsub.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batchedcomputed.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:batch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:startbatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:endbatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:preparedeps.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cleanupdeps.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isdirty.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:refreshcomputed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removesub.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removedep.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:effect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldtrack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trackstack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pausetracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resettracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cleanupeffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:globalversion.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:link.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:dep.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:addsub.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:targetmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iterate-key.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:map-key-iterate-key.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:array-iterate-key.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:track.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trigger.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getdepfromreactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactivereadarray.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadarray.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:towrapped.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:arrayinstrumentations.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iterator.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:arrayproto.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:apply.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reduce.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:searchproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:notracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isnontrackablekeys.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:builtinsymbols.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasownproperty2.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basereactivehandler.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mutablereactivehandler.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlyreactivehandler.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mutablehandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlyhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreactivehandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonlyhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toshallow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getproto.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createiterablemethod.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createreadonlymethod.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinstrumentations.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinstrumentationgetter.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mutablecollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowcollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlycollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonlycollectionhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:checkidentitykeys.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactivemap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreactivemap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonlymap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonlymap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:targettypemap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettargettype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:readonly.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowreadonly.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createreactiveobject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreactive.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreadonly.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isshallow.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toraw.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:markraw.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toreactive.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toreadonly.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isref2.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:refimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:triggerref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tovalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shallowunwraphandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:proxyrefs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:customrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:customref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:torefs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:objectrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getterrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:propertytoref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:computedrefimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:computed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trackoptypes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:triggeroptypes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initial-watcher-value.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cleanupmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activewatcher.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcurrentwatcher.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onwatchercleanup.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:traverse.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pushwarningcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:popwarningcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iswarning.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warn-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcomponenttrace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formattrace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formattraceentry.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formatprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formatprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:assertnumber.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:errorcodes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:errortypestrings-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callwitherrorhandling.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callwithasyncerrorhandling.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:handleerror.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:logerror.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queue.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushindex.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pendingpostflushcbs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:activepostflushcbs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:postflushindex.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedpromise.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentflushpromise.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:recursion-limit.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:nexttick.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:findinsertionindex.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queuejob.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queueflush.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queuepostflushcb.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushpreflushcbs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushpostflushcbs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:flushjobs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:checkrecursiveupdates.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ishmrupdating.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:sethmrupdating.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hmrdirtycomponents.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:map.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:registerhmr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unregisterhmr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createrecord.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeclasscomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:rerender.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:reload.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updatecomponentdef.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:trywrap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtools-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:buffer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsnotinstalled.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emit-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setdevtoolshook-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsinitapp.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsunmountapp.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentadded.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentupdated.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentremoved.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentremoved.variable-2'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createdevtoolscomponenthook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsperfstart.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolsperfend.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createdevtoolsperformancehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtoolscomponentemit.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentrenderinginstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentscopeid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setcurrentrenderinginstance.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pushscopeid.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:popscopeid.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withscopeid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withctx.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validatedirectivename.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withdirectives.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invokedirectivehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:provide.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:inject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasinjectioncontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrcontextkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usessrcontext.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watcheffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watchposteffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watchsynceffect.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:watch2.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:dowatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:instancewatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createpathgetter.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:teleportendkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isteleport.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isteleportdisabled.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isteleportdeferred.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:istargetsvg.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:istargetmathml.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvetarget.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:teleportimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:moveteleport.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateteleport.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:teleport.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updatecssvars.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prepareanchor.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:leavecbkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:entercbkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usetransitionstate.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitionhookvalidator.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basetransitionpropsvalidators.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:recursivegetsubtree.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basetransitionimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:findnoncommentchild.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basetransition.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getleavingnodesfortype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvetransitionhooks.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emptyplaceholder.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getinnerchild-1.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:settransitionhooks.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettransitionrawchildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definecomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useid.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:markasyncboundary.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:knowntemplaterefs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usetemplateref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:istemplaterefkey.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:pendingsetrefmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invalidatependingsetref.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasloggedmismatcherror.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:logmismatcherror.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issvgcontainer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismathmlcontainer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcontainertype.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iscomment.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createhydrationfunctions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prophasmismatch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toclassset.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issetequal.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tostylemap.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismapequal.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvecssvars.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:allowmismatchattr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mismatchtypestring.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismismatchallowed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:requestidlecallback.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cancelidlecallback.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateonidle.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:elementisvisibleinviewport.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateonvisible.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateonmediaquery.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrateoninteraction.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:foreachelement.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isasyncwrapper.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineasynccomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinnercomp.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iskeepalive.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:keepaliveimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:keepalive.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:matches.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onactivated.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ondeactivated.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:registerkeepalivehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injecttokeepaliveroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resetshapeflag.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getinnerchild.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injecthook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createhook.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onbeforemount.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onmounted.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onbeforeupdate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onupdated.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onbeforeunmount.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onunmounted.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onserverprefetch.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onrendertriggered.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onrendertracked.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:onerrorcaptured.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:components.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:directives.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvecomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:null-dynamic-component.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedynamiccomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedirective.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolveasset.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolve.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:renderlist.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createslots.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:renderslot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ensurevalidvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tohandlers.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getpublicinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:publicpropertiesmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isreservedprefix.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hassetupbinding.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:publicinstanceproxyhandlers.variable'
+  - >-
+    symbol:chunk-7oikw5wk-a144e02d:runtimecompiledpublicinstanceproxyhandlers.variable
+  - 'symbol:chunk-7oikw5wk-a144e02d:createdevrendercontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:exposepropsonrendercontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:exposesetupstateonrendercontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warnruntimeusage.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineemits.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineexpose.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:defineslots.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definemodel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withdefaults.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useslots.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useattrs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizepropsoremits.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergedefaults.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergemodels.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createpropsrestproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withasynccontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createduplicatechecker.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldcacheaccess.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:applyoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolveinjections.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callhook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createwatcher.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvemergedoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:internaloptionmergestrats.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergedatafn.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeinject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeinject.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeasarray.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeobjectoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeemitsorpropsoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergewatchoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createappcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:uid-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createappapi.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentapp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usemodel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getmodelmodifiers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emit.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mixinemitscache.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeemitsoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isemitlistener.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:accessedattrs.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:markattrsaccessed.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:rendercomponentroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getchildroot.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:filtersingleroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getfunctionalfallthrough.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:filtermodellisteners.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:iselementroot.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldupdatecomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haspropschanged.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haspropvaluechanged.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updatehochostel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:internalobjectproto.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinternalobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinternalobject.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinhmrcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updateprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setfullprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvepropvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mixinpropscache.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizepropsoptions.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validatepropname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validateprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validateprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issimpletype.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:asserttype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getinvalidtypemessage.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:stylevalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isexplicable.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isboolean.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinternalkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeslotvalue.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeslot.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeobjectslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizevnodeslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:assignslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:updateslots.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:supported.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:perf.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:startmeasure.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:endmeasure.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issupported.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initfeatureflags.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queuepostrendereffect.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createrenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createhydrationrenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:basecreaterenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvechildrennamespace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:togglerecurse.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:needtransition.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:traversestaticchildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getsequence.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:locatenonhydratedasyncroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invalidatemount.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolveasynccomponentplaceholder.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issuspense.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:suspenseid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:suspenseimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:suspense.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:triggerevent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mountsuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchsuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:haswarned.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createsuspenseboundary.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydratesuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizesuspensechildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizesuspenseslot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:queueeffectwithsuspense.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setactivebranch.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isvnodesuspensible.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:fragment.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:text.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:comment.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:static.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:blockstack.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentblock.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:openblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:closeblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isblocktreeenabled.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setblocktracking.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setupblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createelementblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createblock.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:issamevnodetype.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vnodeargstransformer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transformvnodeargs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createvnodewithargstransform.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizekey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeref.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createbasevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createvnode.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:guardreactiveprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:clonevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:deepclonevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createtextvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createstaticvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createcommentvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizevnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cloneifmounted.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizechildren.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mergeprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:invokevnodehook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:emptyappcontext.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:uid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createcomponentinstance.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:currentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:internalsetcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setinssrsetupstate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unsetcurrentinstance.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isbuiltintag.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:validatecomponentname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isstatefulcomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isinssrcomponentsetup.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setupcomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setupstatefulcomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:handlesetupresult.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:compile.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:installwithproxy.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:registerruntimecompiler.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isruntimeonly.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:finishcomponentsetup.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:attrsproxyhandlers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getslotsproxy.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createsetupcontext.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcomponentpublicinstance.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:classifyre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:classify.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcomponentname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:formatcomponentname.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isclasscomponent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:computed2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:h.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initcustomformatter.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withmemo.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ismemosame.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:version.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:warn2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:errortypestrings.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:devtools.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setdevtoolshook.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrutils.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrutils.variable-2'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvefilter.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:compatutils.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:deprecationtypes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:policy.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:tt.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:unsafetotrustedhtml.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:svgns.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:mathmlns.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:doc.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:templatecontainer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:nodeops.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transition.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:animation.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vtckey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:domtransitionpropsvalidators.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitionpropsvalidators.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:decorate-1.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transition.variable-2'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callhook2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hasexplicitcallback.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvetransitionprops.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizeduration.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:numberof.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:addtransitionclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removetransitionclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:nextframe.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:endid.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:whentransitionends.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettransitioninfo.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:gettimeout.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:toms.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:forcereflow.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchclass.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vshoworiginaldisplay.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vshowhidden.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vshow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setdisplay.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initvshowforssr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:css-var-text.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usecssvars.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setvarsonvnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setvarsonnode.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:displayre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchstyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:semicolonre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:importantre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setstyle.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prefixes.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:prefixcache.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:autoprefix.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:xlinkns.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchattr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchdomprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:addeventlistener.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removeeventlistener.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:veikey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchevent.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:optionsmodifierre.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:parsename.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:cachednow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:p.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getnow.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createinvoker.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:sanitizeeventvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchstopimmediatepropagation.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:isnativeon.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:patchprop.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldsetasprop.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:shouldsetaspropforvuece.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:removal.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definecustomelement.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:definessrcustomelement.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:baseclass.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vueelement.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usehost.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:useshadowroot.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:usecssmodule.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:positionmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:newpositionmap.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:movecbkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:entercbkey2.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:decorate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitiongroupimpl.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:transitiongroup.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callpendingcbs.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:recordposition.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:applytranslation.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getposition.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hascsstransform.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getmodelassigner.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:oncompositionstart.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:oncompositionend.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:assignkey.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:castvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodeltext.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodelcheckbox.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setchecked.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodelradio.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodelselect.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:setselected.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:getcheckboxvalue.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:vmodeldynamic.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolvedynamicmodel.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:callmodelhook.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initvmodelforssr.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:systemmodifiers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:modifierguards.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withmodifiers.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:keynames.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:withkeys.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:rendereroptions.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:renderer.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:enabledhydration.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ensurerenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ensurehydrationrenderer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:render.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:hydrate.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createapp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:createssrapp.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:resolverootnamespace.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injectnativetagcheck.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:injectcompileroptionscheck.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:normalizecontainer.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:ssrdirectiveinitialized.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initdirectivesforssr.variable'
+  - 'symbol:chunk-7oikw5wk-a144e02d:initdev.function'
+  - 'symbol:chunk-7oikw5wk-a144e02d:compile2.variable'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T05:11:46.009Z'
+updated_at: '2026-05-03T05:32:23.190Z'
+compiled_from:
+  - chunk-7oikw5wk-a144e02d
+managed_by: system
+backlinks:
+  - 'source:chunk-7oikw5wk-a144e02d'
+  - 'output:source-briefs/directory-op-597d97ce'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  chunk-7oikw5wk-a144e02d: a144e02d7200d4907e64885c34c21246c8a4dd1f13a2d98bb0e1679f4b080e5b
+source_semantic_hashes:
+  chunk-7oikw5wk-a144e02d: a144e02d7200d4907e64885c34c21246c8a4dd1f13a2d98bb0e1679f4b080e5b
+related_page_ids:
+  - 'source:chunk-7oikw5wk-a144e02d'
+  - 'output:source-briefs/directory-op-597d97ce'
+related_node_ids: []
+related_source_ids:
+  - chunk-7oikw5wk-a144e02d
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
+  - 10-pistol-c4a46637
+  - 11-bundle-d20d9270
+  - 12-profession-6a98045a
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
+  - 15-black-dfde2647
+  - 16-migrations-115e9686
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
+  - 19-mongodb-ff331c30
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
+  - 20-promise-65f67015
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
+  - 3-bleed-09df896e
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-a9582e69
+  - chunk-busya2b4-js-ed562b0b
+  - composer-2fcc293f
+  - composer-61edd1a7
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
+  - demotest-276ee805
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
+  - dogshop-de2fc247
+  - dogshop-invalid-17d19246
+  - donothing-0c30237f
+  - dream-17b190f1
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
+  - gitignore-1c7e0952
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
+  - instruction-v1-ce2b773a
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
+  - jsonvalidation-a88469ee
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
+  - licenserc-40040b08
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
+  - session-7a75f197
+  - stempler-a4483274
+  - swarmvault-config-json-84915e3f
+  - taskfile-f98ae8d6
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-primitive-range-conjecture-c5c69b80
+  - the-understory-69c901f2
+  - three-atoms-f9d1fbb2
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-roadmap-cdd00ede
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
+  - welcome-049f9ac7
+language: javascript
+---
+# chunk-7OIKW5WK module
+
+Source ID: `chunk-7oikw5wk-a144e02d`
+Source Path: `/Users/rk/GolandProjects/op/docs/.vitepress/cache/deps/chunk-7OIKW5WK.js`
+Repo Path: `docs/.vitepress/cache/deps/chunk-7OIKW5WK.js`
+Source Class: `first_party`
+Language: `javascript`
+Module Name: `docs/.vitepress/cache/deps/chunk-7OIKW5WK`
+Source Page: [[sources/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK]]
+
+## Summary
+
+chunk-7OIKW5WK is a javascript module, defining 707 top-level symbol(s), exporting 0 symbol(s).
+
+## Imports
+
+- No imports detected.
+
+## Exports
+
+- `camelize`
+- `capitalize`
+- `toHandlerKey`
+- `normalizeStyle`
+- `normalizeClass`
+- `normalizeProps`
+- `toDisplayString`
+- `EffectScope`
+- `effectScope`
+- `getCurrentScope`
+- `onScopeDispose`
+- `ReactiveEffect`
+- `effect`
+- `stop`
+- `reactive`
+- `shallowReactive`
+- `readonly`
+- `shallowReadonly`
+- `isReactive`
+- `isReadonly`
+- `isShallow`
+- `isProxy`
+- `toRaw`
+- `markRaw`
+- `isRef2 as isRef`
+- `ref`
+- `shallowRef`
+- `triggerRef`
+- `unref`
+- `toValue`
+- `proxyRefs`
+- `customRef`
+- `toRefs`
+- `toRef`
+- `TrackOpTypes`
+- `TriggerOpTypes`
+- `getCurrentWatcher`
+- `onWatcherCleanup`
+- `assertNumber`
+- `ErrorCodes`
+- `callWithErrorHandling`
+- `callWithAsyncErrorHandling`
+- `handleError`
+- `nextTick`
+- `queuePostFlushCb`
+- `pushScopeId`
+- `popScopeId`
+- `withScopeId`
+- `withCtx`
+- `withDirectives`
+- `provide`
+- `inject`
+- `hasInjectionContext`
+- `ssrContextKey`
+- `useSSRContext`
+- `watchEffect`
+- `watchPostEffect`
+- `watchSyncEffect`
+- `watch2 as watch`
+- `Teleport`
+- `useTransitionState`
+- `BaseTransitionPropsValidators`
+- `BaseTransition`
+- `resolveTransitionHooks`
+- `setTransitionHooks`
+- `getTransitionRawChildren`
+- `defineComponent`
+- `useId`
+- `useTemplateRef`
+- `hydrateOnIdle`
+- `hydrateOnVisible`
+- `hydrateOnMediaQuery`
+- `hydrateOnInteraction`
+- `defineAsyncComponent`
+- `KeepAlive`
+- `onActivated`
+- `onDeactivated`
+- `onBeforeMount`
+- `onMounted`
+- `onBeforeUpdate`
+- `onUpdated`
+- `onBeforeUnmount`
+- `onUnmounted`
+- `onServerPrefetch`
+- `onRenderTriggered`
+- `onRenderTracked`
+- `onErrorCaptured`
+- `resolveComponent`
+- `resolveDynamicComponent`
+- `resolveDirective`
+- `renderList`
+- `createSlots`
+- `renderSlot`
+- `toHandlers`
+- `defineProps`
+- `defineEmits`
+- `defineExpose`
+- `defineOptions`
+- `defineSlots`
+- `defineModel`
+- `withDefaults`
+- `useSlots`
+- `useAttrs`
+- `mergeDefaults`
+- `mergeModels`
+- `createPropsRestProxy`
+- `withAsyncContext`
+- `useModel`
+- `createRenderer`
+- `createHydrationRenderer`
+- `Suspense`
+- `Fragment`
+- `Text`
+- `Comment`
+- `Static`
+- `openBlock`
+- `setBlockTracking`
+- `createElementBlock`
+- `createBlock`
+- `isVNode`
+- `transformVNodeArgs`
+- `createBaseVNode`
+- `createVNode`
+- `guardReactiveProps`
+- `cloneVNode`
+- `createTextVNode`
+- `createStaticVNode`
+- `createCommentVNode`
+- `mergeProps`
+- `getCurrentInstance`
+- `registerRuntimeCompiler`
+- `isRuntimeOnly`
+- `computed2 as computed`
+- `h`
+- `initCustomFormatter`
+- `withMemo`
+- `isMemoSame`
+- `version`
+- `warn2 as warn`
+- `ErrorTypeStrings`
+- `devtools`
+- `setDevtoolsHook`
+- `ssrUtils`
+- `resolveFilter`
+- `compatUtils`
+- `DeprecationTypes`
+- `nodeOps`
+- `Transition`
+- `vShow`
+- `useCssVars`
+- `patchProp`
+- `defineCustomElement`
+- `defineSSRCustomElement`
+- `VueElement`
+- `useHost`
+- `useShadowRoot`
+- `useCssModule`
+- `TransitionGroup`
+- `vModelText`
+- `vModelCheckbox`
+- `vModelRadio`
+- `vModelSelect`
+- `vModelDynamic`
+- `withModifiers`
+- `withKeys`
+- `render`
+- `hydrate`
+- `createApp`
+- `createSSRApp`
+- `initDirectivesForSSR`
+- `compile2 as compile`
+
+## Symbols
+
+- `makeMap` (function): function makeMap(str)
+- `EMPTY_OBJ` (variable): var EMPTY_OBJ = true ? Object.freeze({}) : {};
+- `EMPTY_ARR` (variable): var EMPTY_ARR = true ? Object.freeze([]) : [];
+- `NOOP` (variable): var NOOP = () => { };
+- `NO` (variable): var NO = () => false;
+- `isOn` (variable): var isOn = (key) => key.charCodeAt(0) === 111 && key.charCodeAt(1) === 110 && // uppercase letter (key.charCodeAt(2) > 122 || key.charCodeAt(2) < 97);
+- `isModelListener` (variable): var isModelListener = (key) => key.startsWith("onUpdate:");
+- `extend` (variable): var extend = Object.assign;
+- `remove` (variable): var remove = (arr, el) => { const i = arr.indexOf(el); if (i > -1) { arr.splice(i, 1); } };
+- `hasOwnProperty` (variable): var hasOwnProperty = Object.prototype.hasOwnProperty;
+- `hasOwn` (variable): var hasOwn = (val, key) => hasOwnProperty.call(val, key);
+- `isArray` (variable): var isArray = Array.isArray;
+- `isMap` (variable): var isMap = (val) => toTypeString(val) === "[object Map]";
+- `isSet` (variable): var isSet = (val) => toTypeString(val) === "[object Set]";
+- `isDate` (variable): var isDate = (val) => toTypeString(val) === "[object Date]";
+- `isRegExp` (variable): var isRegExp = (val) => toTypeString(val) === "[object RegExp]";
+- `isFunction` (variable): var isFunction = (val) => typeof val === "function";
+- `isString` (variable): var isString = (val) => typeof val === "string";
+- `isSymbol` (variable): var isSymbol = (val) => typeof val === "symbol";
+- `isObject` (variable): var isObject = (val) => val !== null && typeof val === "object";
+- `isPromise` (variable): var isPromise = (val) => { return (isObject(val) || isFunction(val)) && isFunction(val.then) && isFunction(val.catch); };
+- `objectToString` (variable): var objectToString = Object.prototype.toString;
+- `toTypeString` (variable): var toTypeString = (value) => objectToString.call(value);
+- `toRawType` (variable): var toRawType = (value) => { return toTypeString(value).slice(8, -1); };
+- `isPlainObject` (variable): var isPlainObject = (val) => toTypeString(val) === "[object Object]";
+- `isIntegerKey` (variable): var isIntegerKey = (key) => isString(key) && key !== "NaN" && key[0] !== "-" && "" + parseInt(key, 10) === key;
+- `isReservedProp` (variable): var isReservedProp = makeMap( // the leading comma is intentional so empty string "" is also included ",key,ref,ref_for,ref_key,onVnodeBeforeMount,onVnodeMounted,onVnodeBeforeUp...
+- `isBuiltInDirective` (variable): var isBuiltInDirective = makeMap( "bind,cloak,else-if,else,for,html,if,model,on,once,pre,show,slot,text,memo" );
+- `cacheStringFunction` (variable): var cacheStringFunction = (fn) => { const cache = /* @__PURE__ */ Object.create(null); return (str) => { const hit = cache[str]; return hit || (cache[str] = fn(str)); }; };
+- `camelizeRE` (variable): var camelizeRE = /-\w/g;
+- `camelize` (variable): var camelize = cacheStringFunction( (str) => { return str.replace(camelizeRE, (c) => c.slice(1).toUpperCase()); } );
+- `hyphenateRE` (variable): var hyphenateRE = /\B([A-Z])/g;
+- `hyphenate` (variable): var hyphenate = cacheStringFunction( (str) => str.replace(hyphenateRE, "-$1").toLowerCase() );
+- `capitalize` (variable): var capitalize = cacheStringFunction((str) => { return str.charAt(0).toUpperCase() + str.slice(1); });
+- `toHandlerKey` (variable): var toHandlerKey = cacheStringFunction( (str) => { const s = str ? `on${capitalize(str)}` : ``; return s; } );
+- `hasChanged` (variable): var hasChanged = (value, oldValue) => !Object.is(value, oldValue);
+- `invokeArrayFns` (variable): var invokeArrayFns = (fns, ...arg) => { for (let i = 0; i < fns.length; i++) { fns[i](...arg); } };
+- `def` (variable): var def = (obj, key, value, writable = false) => { Object.defineProperty(obj, key, { configurable: true, enumerable: false, writable, value }); };
+- `looseToNumber` (variable): var looseToNumber = (val) => { const n = parseFloat(val); return isNaN(n) ? val : n; };
+- `toNumber` (variable): var toNumber = (val) => { const n = isString(val) ? Number(val) : NaN; return isNaN(n) ? val : n; };
+- `_globalThis` (variable): var _globalThis;
+- `getGlobalThis` (variable): var getGlobalThis = () => { return _globalThis || (_globalThis = typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : typeof window !== "undefin...
+- `GLOBALS_ALLOWED` (variable): var GLOBALS_ALLOWED = "Infinity,undefined,NaN,isFinite,isNaN,parseFloat,parseInt,decodeURI,decodeURIComponent,encodeURI,encodeURIComponent,Math,Number,Date,Array,Object,Boolean,...
+- `isGloballyAllowed` (variable): var isGloballyAllowed = makeMap(GLOBALS_ALLOWED);
+- `normalizeStyle` (function): function normalizeStyle(value)
+- `listDelimiterRE` (variable): var listDelimiterRE = /;(?![^(]*\))/g;
+- `propertyDelimiterRE` (variable): var propertyDelimiterRE = /:([^]+)/;
+- `styleCommentRE` (variable): var styleCommentRE = /\/\*[^]*?\*\//g;
+- `parseStringStyle` (function): function parseStringStyle(cssText)
+- `stringifyStyle` (function): function stringifyStyle(styles)
+- `normalizeClass` (function): function normalizeClass(value)
+- `normalizeProps` (function): function normalizeProps(props)
+- `HTML_TAGS` (variable): var HTML_TAGS = "html,body,base,head,link,meta,style,title,address,article,aside,footer,header,hgroup,h1,h2,h3,h4,h5,h6,nav,section,div,dd,dl,dt,figcaption,figure,picture,hr,img...
+- `SVG_TAGS` (variable): var SVG_TAGS = "svg,animate,animateMotion,animateTransform,circle,clipPath,color-profile,defs,desc,discard,ellipse,feBlend,feColorMatrix,feComponentTransfer,feComposite,feConvol...
+- `MATH_TAGS` (variable): var MATH_TAGS = "annotation,annotation-xml,maction,maligngroup,malignmark,math,menclose,merror,mfenced,mfrac,mfraction,mglyph,mi,mlabeledtr,mlongdiv,mmultiscripts,mn,mo,mover,mp...
+- `VOID_TAGS` (variable): var VOID_TAGS = "area,base,br,col,embed,hr,img,input,link,meta,param,source,track,wbr";
+- `isHTMLTag` (variable): var isHTMLTag = makeMap(HTML_TAGS);
+- `isSVGTag` (variable): var isSVGTag = makeMap(SVG_TAGS);
+- `isMathMLTag` (variable): var isMathMLTag = makeMap(MATH_TAGS);
+- `isVoidTag` (variable): var isVoidTag = makeMap(VOID_TAGS);
+- `specialBooleanAttrs` (variable): var specialBooleanAttrs = `itemscope,allowfullscreen,formnovalidate,ismap,nomodule,novalidate,readonly`;
+- `isSpecialBooleanAttr` (variable): var isSpecialBooleanAttr = makeMap(specialBooleanAttrs);
+- `isBooleanAttr` (variable): var isBooleanAttr = makeMap( specialBooleanAttrs + `,async,autofocus,autoplay,controls,default,defer,disabled,hidden,inert,loop,open,required,reversed,scoped,seamless,checked,mu...
+- `includeBooleanAttr` (function): function includeBooleanAttr(value)
+- `isKnownHtmlAttr` (variable): var isKnownHtmlAttr = makeMap( `accept,accept-charset,accesskey,action,align,allow,alt,async,autocapitalize,autocomplete,autofocus,autoplay,background,bgcolor,border,buffered,ca...
+- `isKnownSvgAttr` (variable): var isKnownSvgAttr = makeMap( `xmlns,accent-height,accumulate,additive,alignment-baseline,alphabetic,amplitude,arabic-form,ascent,attributeName,attributeType,azimuth,baseFrequen...
+- `isKnownMathMLAttr` (variable): var isKnownMathMLAttr = makeMap( `accent,accentunder,actiontype,align,alignmentscope,altimg,altimg-height,altimg-valign,altimg-width,alttext,bevelled,close,columnsalign,columnli...
+- `isRenderableAttrValue` (function): function isRenderableAttrValue(value)
+- `cssVarNameEscapeSymbolsRE` (variable): var cssVarNameEscapeSymbolsRE = /[ !"#$%&'()*+,./:;<=>?@[\\\]^`{|}~]/g;
+- `getEscapedCssVarName` (function): function getEscapedCssVarName(key, doubleEscape)
+- `looseCompareArrays` (function): function looseCompareArrays(a, b)
+- `looseEqual` (function): function looseEqual(a, b)
+- `looseIndexOf` (function): function looseIndexOf(arr, val)
+- `isRef` (variable): var isRef = (val) => { return !!(val && val["__v_isRef"] === true); };
+- `toDisplayString` (variable): var toDisplayString = (val) => { return isString(val) ? val : val == null ? "" : isArray(val) || isObject(val) && (val.toString === objectToString || !isFunction(val.toString)) ...
+- `replacer` (variable): var replacer = (_key, val) => { if (isRef(val)) { return replacer(_key, val.value); } else if (isMap(val)) { return { [`Map(${val.size})`]: [...val.entries()].reduce( (entries, ...
+- `stringifySymbol` (variable): var stringifySymbol = (v, i = "") => { var _a; return ( // Symbol.description in es2019+ so we need to cast here to pass // the lib: es2016 check isSymbol(v) ? `Symbol(${(_a = v...
+- `normalizeCssVarValue` (function): function normalizeCssVarValue(value)
+- `warn` (function): function warn(msg, ...args)
+- `activeEffectScope` (variable): var activeEffectScope;
+- `EffectScope` (variable): var EffectScope = class { // TODO isolatedDeclarations "__v_skip" constructor(detached = false) { this.detached = detached; this._active = true; this._on = 0; this.effects = [];...
+- `effectScope` (function): function effectScope(detached)
+- `getCurrentScope` (function): function getCurrentScope()
+- `onScopeDispose` (function): function onScopeDispose(fn, failSilently = false)
+- `activeSub` (variable): var activeSub;
+- `pausedQueueEffects` (variable): var pausedQueueEffects = /* @__PURE__ */ new WeakSet();
+- `ReactiveEffect` (variable): var ReactiveEffect = class { constructor(fn) { this.fn = fn; this.deps = void 0; this.depsTail = void 0; this.flags = 1 | 4; this.next = void 0; this.cleanup = void 0; this.sche...
+- `batchDepth` (variable): var batchDepth = 0;
+- `batchedSub` (variable): var batchedSub;
+- `batchedComputed` (variable): var batchedComputed;
+- `batch` (function): function batch(sub, isComputed = false)
+- `startBatch` (function): function startBatch()
+- `endBatch` (function): function endBatch()
+- `prepareDeps` (function): function prepareDeps(sub)
+- `cleanupDeps` (function): function cleanupDeps(sub)
+- `isDirty` (function): function isDirty(sub)
+- `refreshComputed` (function): function refreshComputed(computed3)
+- `removeSub` (function): function removeSub(link, soft = false)
+- `removeDep` (function): function removeDep(link)
+- `effect` (function): function effect(fn, options)
+- `stop` (function): function stop(runner)
+- `shouldTrack` (variable): var shouldTrack = true;
+- `trackStack` (variable): var trackStack = [];
+- `pauseTracking` (function): function pauseTracking()
+- `resetTracking` (function): function resetTracking()
+- `cleanupEffect` (function): function cleanupEffect(e)
+- `globalVersion` (variable): var globalVersion = 0;
+- `Link` (variable): var Link = class { constructor(sub, dep) { this.sub = sub; this.dep = dep; this.version = dep.version; this.nextDep = this.prevDep = this.nextSub = this.prevSub = this.prevActiv...
+- `Dep` (variable): var Dep = class { // TODO isolatedDeclarations "__v_skip" constructor(computed3) { this.computed = computed3; this.version = 0; this.activeLink = void 0; this.subs = void 0; thi...
+- `addSub` (function): function addSub(link)
+- `targetMap` (variable): var targetMap = /* @__PURE__ */ new WeakMap();
+- `ITERATE_KEY` (variable): var ITERATE_KEY = Symbol( true ? "Object iterate" : "" );
+- `MAP_KEY_ITERATE_KEY` (variable): var MAP_KEY_ITERATE_KEY = Symbol( true ? "Map keys iterate" : "" );
+- `ARRAY_ITERATE_KEY` (variable): var ARRAY_ITERATE_KEY = Symbol( true ? "Array iterate" : "" );
+- `track` (function): function track(target, type, key)
+- `trigger` (function): function trigger(target, type, key, newValue, oldValue, oldTarget)
+- `getDepFromReactive` (function): function getDepFromReactive(object, key)
+- `reactiveReadArray` (function): function reactiveReadArray(array)
+- `shallowReadArray` (function): function shallowReadArray(arr)
+- `toWrapped` (function): function toWrapped(target, item)
+- `arrayInstrumentations` (variable): var arrayInstrumentations = { __proto__: null, [Symbol.iterator]() { return iterator(this, Symbol.iterator, (item) => toWrapped(this, item)); }, concat(...args) { return reactiv...
+- `iterator` (function): function iterator(self2, method, wrapValue)
+- `arrayProto` (variable): var arrayProto = Array.prototype;
+- `apply` (function): function apply(self2, method, fn, thisArg, wrappedRetFn, args)
+- `reduce` (function): function reduce(self2, method, fn, args)
+- `searchProxy` (function): function searchProxy(self2, method, args)
+- `noTracking` (function): function noTracking(self2, method, args = [])
+- `isNonTrackableKeys` (variable): var isNonTrackableKeys = makeMap(`__proto__,__v_isRef,__isVue`);
+- `builtInSymbols` (variable): var builtInSymbols = new Set( Object.getOwnPropertyNames(Symbol).filter((key) => key !== "arguments" && key !== "caller").map((key) => Symbol[key]).filter(isSymbol) );
+- `hasOwnProperty2` (function): function hasOwnProperty2(key)
+- `BaseReactiveHandler` (variable): var BaseReactiveHandler = class { constructor(_isReadonly = false, _isShallow = false) { this._isReadonly = _isReadonly; this._isShallow = _isShallow; } get(target, key, receive...
+- `MutableReactiveHandler` (variable): var MutableReactiveHandler = class extends BaseReactiveHandler { constructor(isShallow2 = false) { super(false, isShallow2); } set(target, key, value, receiver) { let oldValue =...
+- `ReadonlyReactiveHandler` (variable): var ReadonlyReactiveHandler = class extends BaseReactiveHandler { constructor(isShallow2 = false) { super(true, isShallow2); } set(target, key) { if (true) { warn( `Set operatio...
+- `mutableHandlers` (variable): var mutableHandlers = new MutableReactiveHandler();
+- `readonlyHandlers` (variable): var readonlyHandlers = new ReadonlyReactiveHandler();
+- `shallowReactiveHandlers` (variable): var shallowReactiveHandlers = new MutableReactiveHandler(true);
+- `shallowReadonlyHandlers` (variable): var shallowReadonlyHandlers = new ReadonlyReactiveHandler(true);
+- `toShallow` (variable): var toShallow = (value) => value;
+- `getProto` (variable): var getProto = (v) => Reflect.getPrototypeOf(v);
+- `createIterableMethod` (function): function createIterableMethod(method, isReadonly2, isShallow2)
+- `createReadonlyMethod` (function): function createReadonlyMethod(type)
+- `createInstrumentations` (function): function createInstrumentations(readonly2, shallow)
+- `createInstrumentationGetter` (function): function createInstrumentationGetter(isReadonly2, shallow)
+- `mutableCollectionHandlers` (variable): var mutableCollectionHandlers = { get: createInstrumentationGetter(false, false) };
+- `shallowCollectionHandlers` (variable): var shallowCollectionHandlers = { get: createInstrumentationGetter(false, true) };
+- `readonlyCollectionHandlers` (variable): var readonlyCollectionHandlers = { get: createInstrumentationGetter(true, false) };
+- `shallowReadonlyCollectionHandlers` (variable): var shallowReadonlyCollectionHandlers = { get: createInstrumentationGetter(true, true) };
+- `checkIdentityKeys` (function): function checkIdentityKeys(target, has, key)
+- `reactiveMap` (variable): var reactiveMap = /* @__PURE__ */ new WeakMap();
+- `shallowReactiveMap` (variable): var shallowReactiveMap = /* @__PURE__ */ new WeakMap();
+- `readonlyMap` (variable): var readonlyMap = /* @__PURE__ */ new WeakMap();
+- `shallowReadonlyMap` (variable): var shallowReadonlyMap = /* @__PURE__ */ new WeakMap();
+- `targetTypeMap` (function): function targetTypeMap(rawType)
+- `getTargetType` (function): function getTargetType(value)
+- `reactive` (function): function reactive(target)
+- `shallowReactive` (function): function shallowReactive(target)
+- `readonly` (function): function readonly(target)
+- `shallowReadonly` (function): function shallowReadonly(target)
+- `createReactiveObject` (function): function createReactiveObject(target, isReadonly2, baseHandlers, collectionHandlers, proxyMap)
+- `isReactive` (function): function isReactive(value)
+- `isReadonly` (function): function isReadonly(value)
+- `isShallow` (function): function isShallow(value)
+- `isProxy` (function): function isProxy(value)
+- `toRaw` (function): function toRaw(observed)
+- `markRaw` (function): function markRaw(value)
+- `toReactive` (variable): var toReactive = (value) => isObject(value) ? reactive(value) : value;
+- `toReadonly` (variable): var toReadonly = (value) => isObject(value) ? readonly(value) : value;
+- `isRef2` (function): function isRef2(r)
+- `ref` (function): function ref(value)
+- `shallowRef` (function): function shallowRef(value)
+- `createRef` (function): function createRef(rawValue, shallow)
+- `RefImpl` (variable): var RefImpl = class { constructor(value, isShallow2) { this.dep = new Dep(); this["__v_isRef"] = true; this["__v_isShallow"] = false; this._rawValue = isShallow2 ? value : toRaw...
+- `triggerRef` (function): function triggerRef(ref2)
+- `unref` (function): function unref(ref2)
+- `toValue` (function): function toValue(source)
+- `shallowUnwrapHandlers` (variable): var shallowUnwrapHandlers = { get: (target, key, receiver) => key === "__v_raw" ? target : unref(Reflect.get(target, key, receiver)), set: (target, key, value, receiver) => { co...
+- `proxyRefs` (function): function proxyRefs(objectWithRefs)
+- `CustomRefImpl` (variable): var CustomRefImpl = class { constructor(factory) { this["__v_isRef"] = true; this._value = void 0; const dep = this.dep = new Dep(); const { get, set } = factory(dep.track.bind(...
+- `customRef` (function): function customRef(factory)
+- `toRefs` (function): function toRefs(object)
+- `ObjectRefImpl` (variable): var ObjectRefImpl = class { constructor(_object, key, _defaultValue) { this._object = _object; this._defaultValue = _defaultValue; this["__v_isRef"] = true; this._value = void 0...
+- `GetterRefImpl` (variable): var GetterRefImpl = class { constructor(_getter) { this._getter = _getter; this["__v_isRef"] = true; this["__v_isReadonly"] = true; this._value = void 0; } get value() { return ...
+- `toRef` (function): function toRef(source, key, defaultValue)
+- `propertyToRef` (function): function propertyToRef(source, key, defaultValue)
+- `ComputedRefImpl` (variable): var ComputedRefImpl = class { constructor(fn, setter, isSSR) { this.fn = fn; this.setter = setter; this._value = void 0; this.dep = new Dep(this); this.__v_isRef = true; this.de...
+- `computed` (function): function computed(getterOrOptions, debugOptions, isSSR = false)
+- `TrackOpTypes` (variable): var TrackOpTypes = { "GET": "get", "HAS": "has", "ITERATE": "iterate" };
+- `TriggerOpTypes` (variable): var TriggerOpTypes = { "SET": "set", "ADD": "add", "DELETE": "delete", "CLEAR": "clear" };
+- `INITIAL_WATCHER_VALUE` (variable): var INITIAL_WATCHER_VALUE = {};
+- `cleanupMap` (variable): var cleanupMap = /* @__PURE__ */ new WeakMap();
+- `activeWatcher` (variable): var activeWatcher = void 0;
+- `getCurrentWatcher` (function): function getCurrentWatcher()
+- `onWatcherCleanup` (function): function onWatcherCleanup(cleanupFn, failSilently = false, owner = activeWatcher)
+- `watch` (function): function watch(source, cb, options = EMPTY_OBJ)
+- `traverse` (function): function traverse(value, depth = Infinity, seen)
+- `stack` (variable): var stack = [];
+- `pushWarningContext` (function): function pushWarningContext(vnode)
+- `popWarningContext` (function): function popWarningContext()
+- `isWarning` (variable): var isWarning = false;
+- `warn$1` (function): function warn$1(msg, ...args)
+- `getComponentTrace` (function): function getComponentTrace()
+- `formatTrace` (function): function formatTrace(trace)
+- `formatTraceEntry` (function): function formatTraceEntry({ vnode, recurseCount })
+- `formatProps` (function): function formatProps(props)
+- `formatProp` (function): function formatProp(key, value, raw)
+- `assertNumber` (function): function assertNumber(val, type)
+- `ErrorCodes` (variable): var ErrorCodes = { "SETUP_FUNCTION": 0, "0": "SETUP_FUNCTION", "RENDER_FUNCTION": 1, "1": "RENDER_FUNCTION", "NATIVE_EVENT_HANDLER": 5, "5": "NATIVE_EVENT_HANDLER", "COMPONENT_E...
+- `ErrorTypeStrings$1` (variable): var ErrorTypeStrings$1 = { ["sp"]: "serverPrefetch hook", ["bc"]: "beforeCreate hook", ["c"]: "created hook", ["bm"]: "beforeMount hook", ["m"]: "mounted hook", ["bu"]: "beforeU...
+- `callWithErrorHandling` (function): function callWithErrorHandling(fn, instance, type, args)
+- `callWithAsyncErrorHandling` (function): function callWithAsyncErrorHandling(fn, instance, type, args)
+- `handleError` (function): function handleError(err, instance, type, throwInDev = true)
+- `logError` (function): function logError(err, type, contextVNode, throwInDev = true, throwInProd = false)
+- `queue` (variable): var queue = [];
+- `flushIndex` (variable): var flushIndex = -1;
+- `pendingPostFlushCbs` (variable): var pendingPostFlushCbs = [];
+- `activePostFlushCbs` (variable): var activePostFlushCbs = null;
+- `postFlushIndex` (variable): var postFlushIndex = 0;
+- `resolvedPromise` (variable): var resolvedPromise = Promise.resolve();
+- `currentFlushPromise` (variable): var currentFlushPromise = null;
+- `RECURSION_LIMIT` (variable): var RECURSION_LIMIT = 100;
+- `nextTick` (function): function nextTick(fn)
+- `findInsertionIndex` (function): function findInsertionIndex(id)
+- `queueJob` (function): function queueJob(job)
+- `queueFlush` (function): function queueFlush()
+- `queuePostFlushCb` (function): function queuePostFlushCb(cb)
+- `flushPreFlushCbs` (function): function flushPreFlushCbs(instance, seen, i = flushIndex + 1)
+- `flushPostFlushCbs` (function): function flushPostFlushCbs(seen)
+- `getId` (variable): var getId = (job) => job.id == null ? job.flags & 2 ? -1 : Infinity : job.id;
+- `flushJobs` (function): function flushJobs(seen)
+- `checkRecursiveUpdates` (function): function checkRecursiveUpdates(seen, fn)
+- `isHmrUpdating` (variable): var isHmrUpdating = false;
+- `setHmrUpdating` (variable): var setHmrUpdating = (v) => { try { return isHmrUpdating; } finally { isHmrUpdating = v; } };
+- `hmrDirtyComponents` (variable): var hmrDirtyComponents = /* @__PURE__ */ new Map();
+- `map` (variable): var map = /* @__PURE__ */ new Map();
+- `registerHMR` (function): function registerHMR(instance)
+- `unregisterHMR` (function): function unregisterHMR(instance)
+- `createRecord` (function): function createRecord(id, initialDef)
+- `normalizeClassComponent` (function): function normalizeClassComponent(component)
+- `rerender` (function): function rerender(id, newRender)
+- `reload` (function): function reload(id, newComp)
+- `updateComponentDef` (function): function updateComponentDef(oldComp, newComp)
+- `tryWrap` (function): function tryWrap(fn)
+- `devtools$1` (variable): var devtools$1;
+- `buffer` (variable): var buffer = [];
+- `devtoolsNotInstalled` (variable): var devtoolsNotInstalled = false;
+- `emit$1` (function): function emit$1(event, ...args)
+- `setDevtoolsHook$1` (function): function setDevtoolsHook$1(hook, target)
+- `devtoolsInitApp` (function): function devtoolsInitApp(app, version2)
+- `devtoolsUnmountApp` (function): function devtoolsUnmountApp(app)
+- `devtoolsComponentAdded` (variable): var devtoolsComponentAdded = createDevtoolsComponentHook( "component:added" /* COMPONENT_ADDED */ );
+- `devtoolsComponentUpdated` (variable): var devtoolsComponentUpdated = createDevtoolsComponentHook( "component:updated" /* COMPONENT_UPDATED */ );
+- `_devtoolsComponentRemoved` (variable): var _devtoolsComponentRemoved = createDevtoolsComponentHook( "component:removed" /* COMPONENT_REMOVED */ );
+- `devtoolsComponentRemoved` (variable): var devtoolsComponentRemoved = (component) => { if (devtools$1 && typeof devtools$1.cleanupBuffer === "function" && // remove the component if it wasn't buffered !devtools$1.cle...
+- `createDevtoolsComponentHook` (function): function createDevtoolsComponentHook(hook)
+- `devtoolsPerfStart` (variable): var devtoolsPerfStart = createDevtoolsPerformanceHook( "perf:start" /* PERFORMANCE_START */ );
+- `devtoolsPerfEnd` (variable): var devtoolsPerfEnd = createDevtoolsPerformanceHook( "perf:end" /* PERFORMANCE_END */ );
+- `createDevtoolsPerformanceHook` (function): function createDevtoolsPerformanceHook(hook)
+- `devtoolsComponentEmit` (function): function devtoolsComponentEmit(component, event, params)
+- `currentRenderingInstance` (variable): var currentRenderingInstance = null;
+- `currentScopeId` (variable): var currentScopeId = null;
+- `setCurrentRenderingInstance` (function): function setCurrentRenderingInstance(instance)
+- `pushScopeId` (function): function pushScopeId(id)
+- `popScopeId` (function): function popScopeId()
+- `withScopeId` (variable): var withScopeId = (_id) => withCtx;
+- `withCtx` (function): function withCtx(fn, ctx = currentRenderingInstance, isNonScopedSlot)
+- `validateDirectiveName` (function): function validateDirectiveName(name)
+- `withDirectives` (function): function withDirectives(vnode, directives)
+- `invokeDirectiveHook` (function): function invokeDirectiveHook(vnode, prevVNode, instance, name)
+- `provide` (function): function provide(key, value)
+- `inject` (function): function inject(key, defaultValue, treatDefaultAsFactory = false)
+- `hasInjectionContext` (function): function hasInjectionContext()
+- `ssrContextKey` (variable): var ssrContextKey = Symbol.for("v-scx");
+- `useSSRContext` (variable): var useSSRContext = () => { { const ctx = inject(ssrContextKey); if (!ctx) { warn$1( `Server rendering context not provided. Make sure to only call useSSRContext() conditionally...
+- `watchEffect` (function): function watchEffect(effect2, options)
+- `watchPostEffect` (function): function watchPostEffect(effect2, options)
+- `watchSyncEffect` (function): function watchSyncEffect(effect2, options)
+- `watch2` (function): function watch2(source, cb, options)
+- `doWatch` (function): function doWatch(source, cb, options = EMPTY_OBJ)
+- `instanceWatch` (function): function instanceWatch(source, value, options)
+- `createPathGetter` (function): function createPathGetter(ctx, path)
+- `TeleportEndKey` (variable): var TeleportEndKey = Symbol("_vte");
+- `isTeleport` (variable): var isTeleport = (type) => type.__isTeleport;
+- `isTeleportDisabled` (variable): var isTeleportDisabled = (props) => props && (props.disabled || props.disabled === "");
+- `isTeleportDeferred` (variable): var isTeleportDeferred = (props) => props && (props.defer || props.defer === "");
+- `isTargetSVG` (variable): var isTargetSVG = (target) => typeof SVGElement !== "undefined" && target instanceof SVGElement;
+- `isTargetMathML` (variable): var isTargetMathML = (target) => typeof MathMLElement === "function" && target instanceof MathMLElement;
+- `resolveTarget` (variable): var resolveTarget = (props, select) => { const targetSelector = props && props.to; if (isString(targetSelector)) { if (!select) { warn$1( `Current renderer does not support stri...
+- `TeleportImpl` (variable): var TeleportImpl = { name: "Teleport", __isTeleport: true, process(n1, n2, container, anchor, parentComponent, parentSuspense, namespace, slotScopeIds, optimized, internals) { c...
+- `moveTeleport` (function): function moveTeleport(vnode, container, parentAnchor, { o: { insert }, m: move }, moveType = 2)
+- `hydrateTeleport` (function): function hydrateTeleport(node, vnode, parentComponent, parentSuspense, slotScopeIds, optimized, { o: { nextSibling, parentNode, querySelector, insert, createText } }, hydrateChi...
+- `Teleport` (variable): var Teleport = TeleportImpl;
+- `updateCssVars` (function): function updateCssVars(vnode, isDisabled)
+- `prepareAnchor` (function): function prepareAnchor(target, vnode, createText, insert, anchor = null)
+- `leaveCbKey` (variable): var leaveCbKey = Symbol("_leaveCb");
+- `enterCbKey` (variable): var enterCbKey = Symbol("_enterCb");
+- `useTransitionState` (function): function useTransitionState()
+- `TransitionHookValidator` (variable): var TransitionHookValidator = [Function, Array];
+- `BaseTransitionPropsValidators` (variable): var BaseTransitionPropsValidators = { mode: String, appear: Boolean, persisted: Boolean, // enter onBeforeEnter: TransitionHookValidator, onEnter: TransitionHookValidator, onAft...
+- `recursiveGetSubtree` (variable): var recursiveGetSubtree = (instance) => { const subTree = instance.subTree; return subTree.component ? recursiveGetSubtree(subTree.component) : subTree; };
+- `BaseTransitionImpl` (variable): var BaseTransitionImpl = { name: `BaseTransition`, props: BaseTransitionPropsValidators, setup(props, { slots }) { const instance = getCurrentInstance(); const state = useTransi...
+- `findNonCommentChild` (function): function findNonCommentChild(children)
+- `BaseTransition` (variable): var BaseTransition = BaseTransitionImpl;
+- `getLeavingNodesForType` (function): function getLeavingNodesForType(state, vnode)
+- `resolveTransitionHooks` (function): function resolveTransitionHooks(vnode, props, state, instance, postClone)
+- `emptyPlaceholder` (function): function emptyPlaceholder(vnode)
+- `getInnerChild$1` (function): function getInnerChild$1(vnode)
+- `setTransitionHooks` (function): function setTransitionHooks(vnode, hooks)
+- `getTransitionRawChildren` (function): function getTransitionRawChildren(children, keepComment = false, parentKey)
+- `defineComponent` (function): function defineComponent(options, extraOptions)
+- `useId` (function): function useId()
+- `markAsyncBoundary` (function): function markAsyncBoundary(instance)
+- `knownTemplateRefs` (variable): var knownTemplateRefs = /* @__PURE__ */ new WeakSet();
+- `useTemplateRef` (function): function useTemplateRef(key)
+- `isTemplateRefKey` (function): function isTemplateRefKey(refs, key)
+- `pendingSetRefMap` (variable): var pendingSetRefMap = /* @__PURE__ */ new WeakMap();
+- `setRef` (function): function setRef(rawRef, oldRawRef, parentSuspense, vnode, isUnmount = false)
+- `invalidatePendingSetRef` (function): function invalidatePendingSetRef(rawRef)
+- `hasLoggedMismatchError` (variable): var hasLoggedMismatchError = false;
+- `logMismatchError` (variable): var logMismatchError = () => { if (hasLoggedMismatchError) { return; } console.error("Hydration completed but contains mismatches."); hasLoggedMismatchError = true; };
+- `isSVGContainer` (variable): var isSVGContainer = (container) => container.namespaceURI.includes("svg") && container.tagName !== "foreignObject";
+- `isMathMLContainer` (variable): var isMathMLContainer = (container) => container.namespaceURI.includes("MathML");
+- `getContainerType` (variable): var getContainerType = (container) => { if (container.nodeType !== 1) return void 0; if (isSVGContainer(container)) return "svg"; if (isMathMLContainer(container)) return "mathm...
+- `isComment` (variable): var isComment = (node) => node.nodeType === 8;
+- `createHydrationFunctions` (function): function createHydrationFunctions(rendererInternals)
+- `propHasMismatch` (function): function propHasMismatch(el, key, clientValue, vnode, instance)
+- `toClassSet` (function): function toClassSet(str)
+- `isSetEqual` (function): function isSetEqual(a, b)
+- `toStyleMap` (function): function toStyleMap(str)
+- `isMapEqual` (function): function isMapEqual(a, b)
+- `resolveCssVars` (function): function resolveCssVars(instance, vnode, expectedMap)
+- `allowMismatchAttr` (variable): var allowMismatchAttr = "data-allow-mismatch";
+- `MismatchTypeString` (variable): var MismatchTypeString = { [ 0 /* TEXT */ ]: "text", [ 1 /* CHILDREN */ ]: "children", [ 2 /* CLASS */ ]: "class", [ 3 /* STYLE */ ]: "style", [ 4 /* ATTRIBUTE */ ]: "attribute" };
+- `isMismatchAllowed` (function): function isMismatchAllowed(el, allowedType)
+- `requestIdleCallback` (variable): var requestIdleCallback = getGlobalThis().requestIdleCallback || ((cb) => setTimeout(cb, 1));
+- `cancelIdleCallback` (variable): var cancelIdleCallback = getGlobalThis().cancelIdleCallback || ((id) => clearTimeout(id));
+- `hydrateOnIdle` (variable): var hydrateOnIdle = (timeout = 1e4) => (hydrate2) => { const id = requestIdleCallback(hydrate2, { timeout }); return () => cancelIdleCallback(id); };
+- `elementIsVisibleInViewport` (function): function elementIsVisibleInViewport(el)
+- `hydrateOnVisible` (variable): var hydrateOnVisible = (opts) => (hydrate2, forEach) => { const ob = new IntersectionObserver((entries) => { for (const e of entries) { if (!e.isIntersecting) continue; ob.disco...
+- `hydrateOnMediaQuery` (variable): var hydrateOnMediaQuery = (query) => (hydrate2) => { if (query) { const mql = matchMedia(query); if (mql.matches) { hydrate2(); } else { mql.addEventListener("change", hydrate2,...
+- `hydrateOnInteraction` (variable): var hydrateOnInteraction = (interactions = []) => (hydrate2, forEach) => { if (isString(interactions)) interactions = [interactions]; let hasHydrated = false; const doHydrate = ...
+- `forEachElement` (function): function forEachElement(node, cb)
+- `isAsyncWrapper` (variable): var isAsyncWrapper = (i) => !!i.type.__asyncLoader;
+- `defineAsyncComponent` (function): function defineAsyncComponent(source)
+- `createInnerComp` (function): function createInnerComp(comp, parent)
+- `isKeepAlive` (variable): var isKeepAlive = (vnode) => vnode.type.__isKeepAlive;
+- `KeepAliveImpl` (variable): var KeepAliveImpl = { name: `KeepAlive`, // Marker for special handling inside the renderer. We are not using a === // check directly on KeepAlive in the renderer, because impor...
+- `KeepAlive` (variable): var KeepAlive = KeepAliveImpl;
+- `matches` (function): function matches(pattern, name)
+- `onActivated` (function): function onActivated(hook, target)
+- `onDeactivated` (function): function onDeactivated(hook, target)
+- `registerKeepAliveHook` (function): function registerKeepAliveHook(hook, type, target = currentInstance)
+- `injectToKeepAliveRoot` (function): function injectToKeepAliveRoot(hook, type, target, keepAliveRoot)
+- `resetShapeFlag` (function): function resetShapeFlag(vnode)
+- `getInnerChild` (function): function getInnerChild(vnode)
+- `injectHook` (function): function injectHook(type, hook, target = currentInstance, prepend = false)
+- `createHook` (variable): var createHook = (lifecycle) => (hook, target = currentInstance) => { if (!isInSSRComponentSetup || lifecycle === "sp") { injectHook(lifecycle, (...args) => hook(...args), targe...
+- `onBeforeMount` (variable): var onBeforeMount = createHook("bm");
+- `onMounted` (variable): var onMounted = createHook("m");
+- `onBeforeUpdate` (variable): var onBeforeUpdate = createHook( "bu" );
+- `onUpdated` (variable): var onUpdated = createHook("u");
+- `onBeforeUnmount` (variable): var onBeforeUnmount = createHook( "bum" );
+- `onUnmounted` (variable): var onUnmounted = createHook("um");
+- `onServerPrefetch` (variable): var onServerPrefetch = createHook( "sp" );
+- `onRenderTriggered` (variable): var onRenderTriggered = createHook("rtg");
+- `onRenderTracked` (variable): var onRenderTracked = createHook("rtc");
+- `onErrorCaptured` (function): function onErrorCaptured(hook, target = currentInstance)
+- `COMPONENTS` (variable): var COMPONENTS = "components";
+- `DIRECTIVES` (variable): var DIRECTIVES = "directives";
+- `resolveComponent` (function): function resolveComponent(name, maybeSelfReference)
+- `NULL_DYNAMIC_COMPONENT` (variable): var NULL_DYNAMIC_COMPONENT = Symbol.for("v-ndc");
+- `resolveDynamicComponent` (function): function resolveDynamicComponent(component)
+- `resolveDirective` (function): function resolveDirective(name)
+- `resolveAsset` (function): function resolveAsset(type, name, warnMissing = true, maybeSelfReference = false)
+- `resolve` (function): function resolve(registry, name)
+- `renderList` (function): function renderList(source, renderItem, cache, index)
+- `createSlots` (function): function createSlots(slots, dynamicSlots)
+- `renderSlot` (function): function renderSlot(slots, name, props = {}, fallback, noSlotted)
+- `ensureValidVNode` (function): function ensureValidVNode(vnodes)
+- `toHandlers` (function): function toHandlers(obj, preserveCaseIfNecessary)
+- `getPublicInstance` (variable): var getPublicInstance = (i) => { if (!i) return null; if (isStatefulComponent(i)) return getComponentPublicInstance(i); return getPublicInstance(i.parent); };
+- `publicPropertiesMap` (variable): var publicPropertiesMap = ( // Move PURE marker to new line to workaround compiler discarding it // due to type annotation extend(/* @__PURE__ */ Object.create(null), { $: (i) =...
+- `isReservedPrefix` (variable): var isReservedPrefix = (key) => key === "_" || key === "$";
+- `hasSetupBinding` (variable): var hasSetupBinding = (state, key) => state !== EMPTY_OBJ && !state.__isScriptSetup && hasOwn(state, key);
+- `PublicInstanceProxyHandlers` (variable): var PublicInstanceProxyHandlers = { get({ _: instance }, key) { if (key === "__v_skip") { return true; } const { ctx, setupState, data, props, accessCache, type, appContext } = ...
+- `RuntimeCompiledPublicInstanceProxyHandlers` (variable): var RuntimeCompiledPublicInstanceProxyHandlers = extend({}, PublicInstanceProxyHandlers, { get(target, key) { if (key === Symbol.unscopables) { return; } return PublicInstancePr...
+- `createDevRenderContext` (function): function createDevRenderContext(instance)
+- `exposePropsOnRenderContext` (function): function exposePropsOnRenderContext(instance)
+- `exposeSetupStateOnRenderContext` (function): function exposeSetupStateOnRenderContext(instance)
+- `warnRuntimeUsage` (variable): var warnRuntimeUsage = (method) => warn$1( `${method}() is a compiler-hint helper that is only usable inside <script setup> of a single file component. Its arguments should be c...
+- `defineProps` (function): function defineProps()
+- `defineEmits` (function): function defineEmits()
+- `defineExpose` (function): function defineExpose(exposed)
+- `defineOptions` (function): function defineOptions(options)
+- `defineSlots` (function): function defineSlots()
+- `defineModel` (function): function defineModel()
+- `withDefaults` (function): function withDefaults(props, defaults)
+- `useSlots` (function): function useSlots()
+- `useAttrs` (function): function useAttrs()
+- `getContext` (function): function getContext(calledFunctionName)
+- `normalizePropsOrEmits` (function): function normalizePropsOrEmits(props)
+- `mergeDefaults` (function): function mergeDefaults(raw, defaults)
+- `mergeModels` (function): function mergeModels(a, b)
+- `createPropsRestProxy` (function): function createPropsRestProxy(props, excludedKeys)
+- `withAsyncContext` (function): function withAsyncContext(getAwaitable)
+- `createDuplicateChecker` (function): function createDuplicateChecker()
+- `shouldCacheAccess` (variable): var shouldCacheAccess = true;
+- `applyOptions` (function): function applyOptions(instance)
+- `resolveInjections` (function): function resolveInjections(injectOptions, ctx, checkDuplicateProperties = NOOP)
+- `callHook` (function): function callHook(hook, instance, type)
+- `createWatcher` (function): function createWatcher(raw, ctx, publicThis, key)
+- `resolveMergedOptions` (function): function resolveMergedOptions(instance)
+- `mergeOptions` (function): function mergeOptions(to, from, strats, asMixin = false)
+- `internalOptionMergeStrats` (variable): var internalOptionMergeStrats = { data: mergeDataFn, props: mergeEmitsOrPropsOptions, emits: mergeEmitsOrPropsOptions, // objects methods: mergeObjectOptions, computed: mergeObj...
+- `mergeDataFn` (function): function mergeDataFn(to, from)
+- `mergeInject` (function): function mergeInject(to, from)
+- `normalizeInject` (function): function normalizeInject(raw)
+- `mergeAsArray` (function): function mergeAsArray(to, from)
+- `mergeObjectOptions` (function): function mergeObjectOptions(to, from)
+- `mergeEmitsOrPropsOptions` (function): function mergeEmitsOrPropsOptions(to, from)
+- `mergeWatchOptions` (function): function mergeWatchOptions(to, from)
+- `createAppContext` (function): function createAppContext()
+- `uid$1` (variable): var uid$1 = 0;
+- `createAppAPI` (function): function createAppAPI(render2, hydrate2)
+- `currentApp` (variable): var currentApp = null;
+- `useModel` (function): function useModel(props, name, options = EMPTY_OBJ)
+- `getModelModifiers` (variable): var getModelModifiers = (props, modelName) => { return modelName === "modelValue" || modelName === "model-value" ? props.modelModifiers : props[`${modelName}Modifiers`] || props...
+- `emit` (function): function emit(instance, event, ...rawArgs)
+- `mixinEmitsCache` (variable): var mixinEmitsCache = /* @__PURE__ */ new WeakMap();
+- `normalizeEmitsOptions` (function): function normalizeEmitsOptions(comp, appContext, asMixin = false)
+- `isEmitListener` (function): function isEmitListener(options, key)
+- `accessedAttrs` (variable): var accessedAttrs = false;
+- `markAttrsAccessed` (function): function markAttrsAccessed()
+- `renderComponentRoot` (function): function renderComponentRoot(instance)
+- `getChildRoot` (variable): var getChildRoot = (vnode) => { const rawChildren = vnode.children; const dynamicChildren = vnode.dynamicChildren; const childRoot = filterSingleRoot(rawChildren, false); if (!c...
+- `filterSingleRoot` (function): function filterSingleRoot(children, recurse = true)
+- `getFunctionalFallthrough` (variable): var getFunctionalFallthrough = (attrs) => { let res; for (const key in attrs) { if (key === "class" || key === "style" || isOn(key)) { (res || (res = {}))[key] = attrs[key]; } }...
+- `filterModelListeners` (variable): var filterModelListeners = (attrs, props) => { const res = {}; for (const key in attrs) { if (!isModelListener(key) || !(key.slice(9) in props)) { res[key] = attrs[key]; } } ret...
+- `isElementRoot` (variable): var isElementRoot = (vnode) => { return vnode.shapeFlag & (6 | 1) || vnode.type === Comment; };
+- `shouldUpdateComponent` (function): function shouldUpdateComponent(prevVNode, nextVNode, optimized)
+- `hasPropsChanged` (function): function hasPropsChanged(prevProps, nextProps, emitsOptions)
+- `hasPropValueChanged` (function): function hasPropValueChanged(nextProps, prevProps, key)
+- `updateHOCHostEl` (function): function updateHOCHostEl({ vnode, parent, suspense }, el)
+- `internalObjectProto` (variable): var internalObjectProto = {};
+- `createInternalObject` (variable): var createInternalObject = () => Object.create(internalObjectProto);
+- `isInternalObject` (variable): var isInternalObject = (obj) => Object.getPrototypeOf(obj) === internalObjectProto;
+- `initProps` (function): function initProps(instance, rawProps, isStateful, isSSR = false)
+- `isInHmrContext` (function): function isInHmrContext(instance)
+- `updateProps` (function): function updateProps(instance, rawProps, rawPrevProps, optimized)
+- `setFullProps` (function): function setFullProps(instance, rawProps, props, attrs)
+- `resolvePropValue` (function): function resolvePropValue(options, props, key, value, instance, isAbsent)
+- `mixinPropsCache` (variable): var mixinPropsCache = /* @__PURE__ */ new WeakMap();
+- `normalizePropsOptions` (function): function normalizePropsOptions(comp, appContext, asMixin = false)
+- `validatePropName` (function): function validatePropName(key)
+- `getType` (function): function getType(ctor)
+- `validateProps` (function): function validateProps(rawProps, props, instance)
+- `validateProp` (function): function validateProp(name, value, prop, props, isAbsent)
+- `isSimpleType` (variable): var isSimpleType = makeMap( "String,Number,Boolean,Function,Symbol,BigInt" );
+- `assertType` (function): function assertType(value, type)
+- `getInvalidTypeMessage` (function): function getInvalidTypeMessage(name, value, expectedTypes)
+- `styleValue` (function): function styleValue(value, type)
+- `isExplicable` (function): function isExplicable(type)
+- `isBoolean` (function): function isBoolean(...args)
+- `isInternalKey` (variable): var isInternalKey = (key) => key === "_" || key === "_ctx" || key === "$stable";
+- `normalizeSlotValue` (variable): var normalizeSlotValue = (value) => isArray(value) ? value.map(normalizeVNode) : [normalizeVNode(value)];
+- `normalizeSlot` (variable): var normalizeSlot = (key, rawSlot, ctx) => { if (rawSlot._n) { return rawSlot; } const normalized = withCtx((...args) => { if (currentInstance && !(ctx === null && currentRender...
+- `normalizeObjectSlots` (variable): var normalizeObjectSlots = (rawSlots, slots, instance) => { const ctx = rawSlots._ctx; for (const key in rawSlots) { if (isInternalKey(key)) continue; const value = rawSlots[key...
+- `normalizeVNodeSlots` (variable): var normalizeVNodeSlots = (instance, children) => { if (!isKeepAlive(instance.vnode) && true) { warn$1( `Non-function value encountered for default slot. Prefer function slots f...
+- `assignSlots` (variable): var assignSlots = (slots, children, optimized) => { for (const key in children) { if (optimized || !isInternalKey(key)) { slots[key] = children[key]; } } };
+- `initSlots` (variable): var initSlots = (instance, children, optimized) => { const slots = instance.slots = createInternalObject(); if (instance.vnode.shapeFlag & 32) { const type = children._; if (typ...
+- `updateSlots` (variable): var updateSlots = (instance, children, optimized) => { const { vnode, slots } = instance; let needDeletionCheck = true; let deletionComparisonTarget = EMPTY_OBJ; if (vnode.shape...
+- `supported` (variable): var supported;
+- `perf` (variable): var perf;
+- `startMeasure` (function): function startMeasure(instance, type)
+- `endMeasure` (function): function endMeasure(instance, type)
+- `isSupported` (function): function isSupported()
+- `initFeatureFlags` (function): function initFeatureFlags()
+- `queuePostRenderEffect` (variable): var queuePostRenderEffect = queueEffectWithSuspense;
+- `createRenderer` (function): function createRenderer(options)
+- `createHydrationRenderer` (function): function createHydrationRenderer(options)
+- `baseCreateRenderer` (function): function baseCreateRenderer(options, createHydrationFns)
+- `resolveChildrenNamespace` (function): function resolveChildrenNamespace({ type, props }, currentNamespace)
+- `toggleRecurse` (function): function toggleRecurse({ effect: effect2, job }, allowed)
+- `needTransition` (function): function needTransition(parentSuspense, transition)
+- `traverseStaticChildren` (function): function traverseStaticChildren(n1, n2, shallow = false)
+- `getSequence` (function): function getSequence(arr)
+- `locateNonHydratedAsyncRoot` (function): function locateNonHydratedAsyncRoot(instance)
+- `invalidateMount` (function): function invalidateMount(hooks)
+- `resolveAsyncComponentPlaceholder` (function): function resolveAsyncComponentPlaceholder(anchorVnode)
+- `isSuspense` (variable): var isSuspense = (type) => type.__isSuspense;
+- `suspenseId` (variable): var suspenseId = 0;
+- `SuspenseImpl` (variable): var SuspenseImpl = { name: "Suspense", // In order to make Suspense tree-shakable, we need to avoid importing it // directly in the renderer. The renderer checks for the __isSus...
+- `Suspense` (variable): var Suspense = SuspenseImpl;
+- `triggerEvent` (function): function triggerEvent(vnode, name)
+- `mountSuspense` (function): function mountSuspense(vnode, container, anchor, parentComponent, parentSuspense, namespace, slotScopeIds, optimized, rendererInternals)
+- `patchSuspense` (function): function patchSuspense(n1, n2, container, anchor, parentComponent, namespace, slotScopeIds, optimized, { p: patch, um: unmount, o: { createElement } })
+- `hasWarned` (variable): var hasWarned = false;
+- `createSuspenseBoundary` (function): function createSuspenseBoundary(vnode, parentSuspense, parentComponent, container, hiddenContainer, anchor, namespace, slotScopeIds, optimized, rendererInternals, isHydrating = ...
+- `hydrateSuspense` (function): function hydrateSuspense(node, vnode, parentComponent, parentSuspense, namespace, slotScopeIds, optimized, rendererInternals, hydrateNode)
+- `normalizeSuspenseChildren` (function): function normalizeSuspenseChildren(vnode)
+- `normalizeSuspenseSlot` (function): function normalizeSuspenseSlot(s)
+- `queueEffectWithSuspense` (function): function queueEffectWithSuspense(fn, suspense)
+- `setActiveBranch` (function): function setActiveBranch(suspense, branch)
+- `isVNodeSuspensible` (function): function isVNodeSuspensible(vnode)
+- `Fragment` (variable): var Fragment = Symbol.for("v-fgt");
+- `Text` (variable): var Text = Symbol.for("v-txt");
+- `Comment` (variable): var Comment = Symbol.for("v-cmt");
+- `Static` (variable): var Static = Symbol.for("v-stc");
+- `blockStack` (variable): var blockStack = [];
+- `currentBlock` (variable): var currentBlock = null;
+- `openBlock` (function): function openBlock(disableTracking = false)
+- `closeBlock` (function): function closeBlock()
+- `isBlockTreeEnabled` (variable): var isBlockTreeEnabled = 1;
+- `setBlockTracking` (function): function setBlockTracking(value, inVOnce = false)
+- `setupBlock` (function): function setupBlock(vnode)
+- `createElementBlock` (function): function createElementBlock(type, props, children, patchFlag, dynamicProps, shapeFlag)
+- `createBlock` (function): function createBlock(type, props, children, patchFlag, dynamicProps)
+- `isVNode` (function): function isVNode(value)
+- `isSameVNodeType` (function): function isSameVNodeType(n1, n2)
+- `vnodeArgsTransformer` (variable): var vnodeArgsTransformer;
+- `transformVNodeArgs` (function): function transformVNodeArgs(transformer)
+- `createVNodeWithArgsTransform` (variable): var createVNodeWithArgsTransform = (...args) => { return _createVNode( ...vnodeArgsTransformer ? vnodeArgsTransformer(args, currentRenderingInstance) : args ); };
+- `normalizeKey` (variable): var normalizeKey = ({ key }) => key != null ? key : null;
+- `normalizeRef` (variable): var normalizeRef = ({ ref: ref2, ref_key, ref_for }) => { if (typeof ref2 === "number") { ref2 = "" + ref2; } return ref2 != null ? isString(ref2) || isRef2(ref2) || isFunction(...
+- `createBaseVNode` (function): function createBaseVNode(type, props = null, children = null, patchFlag = 0, dynamicProps = null, shapeFlag = type === Fragment ? 0 : 1, isBlockNode = false, needFullChildrenNor...
+- `createVNode` (variable): var createVNode = true ? createVNodeWithArgsTransform : _createVNode;
+- `_createVNode` (function): function _createVNode(type, props = null, children = null, patchFlag = 0, dynamicProps = null, isBlockNode = false)
+- `guardReactiveProps` (function): function guardReactiveProps(props)
+- `cloneVNode` (function): function cloneVNode(vnode, extraProps, mergeRef = false, cloneTransition = false)
+- `deepCloneVNode` (function): function deepCloneVNode(vnode)
+- `createTextVNode` (function): function createTextVNode(text = " ", flag = 0)
+- `createStaticVNode` (function): function createStaticVNode(content, numberOfNodes)
+- `createCommentVNode` (function): function createCommentVNode(text = "", asBlock = false)
+- `normalizeVNode` (function): function normalizeVNode(child)
+- `cloneIfMounted` (function): function cloneIfMounted(child)
+- `normalizeChildren` (function): function normalizeChildren(vnode, children)
+- `mergeProps` (function): function mergeProps(...args)
+- `invokeVNodeHook` (function): function invokeVNodeHook(hook, instance, vnode, prevVNode = null)
+- `emptyAppContext` (variable): var emptyAppContext = createAppContext();
+- `uid` (variable): var uid = 0;
+- `createComponentInstance` (function): function createComponentInstance(vnode, parent, suspense)
+- `currentInstance` (variable): var currentInstance = null;
+- `getCurrentInstance` (variable): var getCurrentInstance = () => currentInstance || currentRenderingInstance;
+- `internalSetCurrentInstance` (variable): var internalSetCurrentInstance;
+- `setInSSRSetupState` (variable): var setInSSRSetupState;
+- `setCurrentInstance` (variable): var setCurrentInstance = (instance) => { const prev = currentInstance; internalSetCurrentInstance(instance); instance.scope.on(); return () => { instance.scope.off(); internalSe...
+- `unsetCurrentInstance` (variable): var unsetCurrentInstance = () => { currentInstance && currentInstance.scope.off(); internalSetCurrentInstance(null); };
+- `isBuiltInTag` (variable): var isBuiltInTag = makeMap("slot,component");
+- `validateComponentName` (function): function validateComponentName(name, { isNativeTag })
+- `isStatefulComponent` (function): function isStatefulComponent(instance)
+- `isInSSRComponentSetup` (variable): var isInSSRComponentSetup = false;
+- `setupComponent` (function): function setupComponent(instance, isSSR = false, optimized = false)
+- `setupStatefulComponent` (function): function setupStatefulComponent(instance, isSSR)
+- `handleSetupResult` (function): function handleSetupResult(instance, setupResult, isSSR)
+- `compile` (variable): var compile;
+- `installWithProxy` (variable): var installWithProxy;
+- `registerRuntimeCompiler` (function): function registerRuntimeCompiler(_compile)
+- `isRuntimeOnly` (variable): var isRuntimeOnly = () => !compile;
+- `finishComponentSetup` (function): function finishComponentSetup(instance, isSSR, skipOptions)
+- `attrsProxyHandlers` (variable): var attrsProxyHandlers = true ? { get(target, key) { markAttrsAccessed(); track(target, "get", ""); return target[key]; }, set() { warn$1(`setupContext.attrs is readonly.`); ret...
+- `getSlotsProxy` (function): function getSlotsProxy(instance)
+- `createSetupContext` (function): function createSetupContext(instance)
+- `getComponentPublicInstance` (function): function getComponentPublicInstance(instance)
+- `classifyRE` (variable): var classifyRE = /(?:^|[-_])\w/g;
+- `classify` (variable): var classify = (str) => str.replace(classifyRE, (c) => c.toUpperCase()).replace(/[-_]/g, "");
+- `getComponentName` (function): function getComponentName(Component, includeInferred = true)
+- `formatComponentName` (function): function formatComponentName(instance, Component, isRoot = false)
+- `isClassComponent` (function): function isClassComponent(value)
+- `computed2` (variable): var computed2 = (getterOrOptions, debugOptions) => { const c = computed(getterOrOptions, debugOptions, isInSSRComponentSetup); if (true) { const i = getCurrentInstance(); if (i ...
+- `h` (function): function h(type, propsOrChildren, children)
+- `initCustomFormatter` (function): function initCustomFormatter()
+- `withMemo` (function): function withMemo(memo, render2, cache, index)
+- `isMemoSame` (function): function isMemoSame(cached, memo)
+- `version` (variable): var version = "3.5.31";
+- `warn2` (variable): var warn2 = true ? warn$1 : NOOP;
+- `ErrorTypeStrings` (variable): var ErrorTypeStrings = ErrorTypeStrings$1;
+- `devtools` (variable): var devtools = true ? devtools$1 : void 0;
+- `setDevtoolsHook` (variable): var setDevtoolsHook = true ? setDevtoolsHook$1 : NOOP;
+- `_ssrUtils` (variable): var _ssrUtils = { createComponentInstance, setupComponent, renderComponentRoot, setCurrentRenderingInstance, isVNode, normalizeVNode, getComponentPublicInstance, ensureValidVNod...
+- `ssrUtils` (variable): var ssrUtils = _ssrUtils;
+- `resolveFilter` (variable): var resolveFilter = null;
+- `compatUtils` (variable): var compatUtils = null;
+- `DeprecationTypes` (variable): var DeprecationTypes = null;
+- `policy` (variable): var policy = void 0;
+- `tt` (variable): var tt = typeof window !== "undefined" && window.trustedTypes;
+- `unsafeToTrustedHTML` (variable): var unsafeToTrustedHTML = policy ? (val) => policy.createHTML(val) : (val) => val;
+- `svgNS` (variable): var svgNS = "http://www.w3.org/2000/svg";
+- `mathmlNS` (variable): var mathmlNS = "http://www.w3.org/1998/Math/MathML";
+- `doc` (variable): var doc = typeof document !== "undefined" ? document : null;
+- `templateContainer` (variable): var templateContainer = doc && doc.createElement("template");
+- `nodeOps` (variable): var nodeOps = { insert: (child, parent, anchor) => { parent.insertBefore(child, anchor || null); }, remove: (child) => { const parent = child.parentNode; if (parent) { parent.re...
+- `TRANSITION` (variable): var TRANSITION = "transition";
+- `ANIMATION` (variable): var ANIMATION = "animation";
+- `vtcKey` (variable): var vtcKey = Symbol("_vtc");
+- `DOMTransitionPropsValidators` (variable): var DOMTransitionPropsValidators = { name: String, type: String, css: { type: Boolean, default: true }, duration: [String, Number, Object], enterFromClass: String, enterActiveCl...
+- `TransitionPropsValidators` (variable): var TransitionPropsValidators = extend( {}, BaseTransitionPropsValidators, DOMTransitionPropsValidators );
+- `decorate$1` (variable): var decorate$1 = (t) => { t.displayName = "Transition"; t.props = TransitionPropsValidators; return t; };
+- `Transition` (variable): var Transition = decorate$1( (props, { slots }) => h(BaseTransition, resolveTransitionProps(props), slots) );
+- `callHook2` (variable): var callHook2 = (hook, args = []) => { if (isArray(hook)) { hook.forEach((h2) => h2(...args)); } else if (hook) { hook(...args); } };
+- `hasExplicitCallback` (variable): var hasExplicitCallback = (hook) => { return hook ? isArray(hook) ? hook.some((h2) => h2.length > 1) : hook.length > 1 : false; };
+- `resolveTransitionProps` (function): function resolveTransitionProps(rawProps)
+- `normalizeDuration` (function): function normalizeDuration(duration)
+- `NumberOf` (function): function NumberOf(val)
+- `addTransitionClass` (function): function addTransitionClass(el, cls)
+- `removeTransitionClass` (function): function removeTransitionClass(el, cls)
+- `nextFrame` (function): function nextFrame(cb)
+- `endId` (variable): var endId = 0;
+- `whenTransitionEnds` (function): function whenTransitionEnds(el, expectedType, explicitTimeout, resolve2)
+- `getTransitionInfo` (function): function getTransitionInfo(el, expectedType)
+- `getTimeout` (function): function getTimeout(delays, durations)
+- `toMs` (function): function toMs(s)
+- `forceReflow` (function): function forceReflow(el)
+- `patchClass` (function): function patchClass(el, value, isSVG)
+- `vShowOriginalDisplay` (variable): var vShowOriginalDisplay = Symbol("_vod");
+- `vShowHidden` (variable): var vShowHidden = Symbol("_vsh");
+- `vShow` (variable): var vShow = { // used for prop mismatch check during hydration name: "show", beforeMount(el, { value }, { transition }) { el[vShowOriginalDisplay] = el.style.display === "none" ...
+- `setDisplay` (function): function setDisplay(el, value)
+- `initVShowForSSR` (function): function initVShowForSSR()
+- `CSS_VAR_TEXT` (variable): var CSS_VAR_TEXT = Symbol(true ? "CSS_VAR_TEXT" : "");
+- `useCssVars` (function): function useCssVars(getter)
+- `setVarsOnVNode` (function): function setVarsOnVNode(vnode, vars)
+- `setVarsOnNode` (function): function setVarsOnNode(el, vars)
+- `displayRE` (variable): var displayRE = /(?:^|;)\s*display\s*:/;
+- `patchStyle` (function): function patchStyle(el, prev, next)
+- `semicolonRE` (variable): var semicolonRE = /[^\\];\s*$/;
+- `importantRE` (variable): var importantRE = /\s*!important$/;
+- `setStyle` (function): function setStyle(style, name, val)
+- `prefixes` (variable): var prefixes = ["Webkit", "Moz", "ms"];
+- `prefixCache` (variable): var prefixCache = {};
+- `autoPrefix` (function): function autoPrefix(style, rawName)
+- `xlinkNS` (variable): var xlinkNS = "http://www.w3.org/1999/xlink";
+- `patchAttr` (function): function patchAttr(el, key, value, isSVG, instance, isBoolean2 = isSpecialBooleanAttr(key))
+- `patchDOMProp` (function): function patchDOMProp(el, key, value, parentComponent, attrName)
+- `addEventListener` (function): function addEventListener(el, event, handler, options)
+- `removeEventListener` (function): function removeEventListener(el, event, handler, options)
+- `veiKey` (variable): var veiKey = Symbol("_vei");
+- `patchEvent` (function): function patchEvent(el, rawName, prevValue, nextValue, instance = null)
+- `optionsModifierRE` (variable): var optionsModifierRE = /(?:Once|Passive|Capture)$/;
+- `parseName` (function): function parseName(name)
+- `cachedNow` (variable): var cachedNow = 0;
+- `p` (variable): var p = Promise.resolve();
+- `getNow` (variable): var getNow = () => cachedNow || (p.then(() => cachedNow = 0), cachedNow = Date.now());
+- `createInvoker` (function): function createInvoker(initialValue, instance)
+- `sanitizeEventValue` (function): function sanitizeEventValue(value, propName)
+- `patchStopImmediatePropagation` (function): function patchStopImmediatePropagation(e, value)
+- `isNativeOn` (variable): var isNativeOn = (key) => key.charCodeAt(0) === 111 && key.charCodeAt(1) === 110 && // lowercase letter key.charCodeAt(2) > 96 && key.charCodeAt(2) < 123;
+- `patchProp` (variable): var patchProp = (el, key, prevValue, nextValue, namespace, parentComponent) => { const isSVG = namespace === "svg"; if (key === "class") { patchClass(el, nextValue, isSVG); } el...
+- `shouldSetAsProp` (function): function shouldSetAsProp(el, key, value, isSVG)
+- `shouldSetAsPropForVueCE` (function): function shouldSetAsPropForVueCE(el, key)
+- `REMOVAL` (variable): var REMOVAL = {};
+- `defineCustomElement` (function): function defineCustomElement(options, extraOptions, _createApp)
+- `defineSSRCustomElement` (variable): var defineSSRCustomElement = (options, extraOptions) => { return defineCustomElement(options, extraOptions, createSSRApp); };
+- `BaseClass` (variable): var BaseClass = typeof HTMLElement !== "undefined" ? HTMLElement : class { };
+- `VueElement` (variable): var VueElement = class _VueElement extends BaseClass { constructor(_def, _props = {}, _createApp = createApp) { super(); this._def = _def; this._props = _props; this._createApp ...
+- `useHost` (function): function useHost(caller)
+- `useShadowRoot` (function): function useShadowRoot()
+- `useCssModule` (function): function useCssModule(name = "$style")
+- `positionMap` (variable): var positionMap = /* @__PURE__ */ new WeakMap();
+- `newPositionMap` (variable): var newPositionMap = /* @__PURE__ */ new WeakMap();
+- `moveCbKey` (variable): var moveCbKey = Symbol("_moveCb");
+- `enterCbKey2` (variable): var enterCbKey2 = Symbol("_enterCb");
+- `decorate` (variable): var decorate = (t) => { delete t.props.mode; return t; };
+- `TransitionGroupImpl` (variable): var TransitionGroupImpl = decorate({ name: "TransitionGroup", props: extend({}, TransitionPropsValidators, { tag: String, moveClass: String }), setup(props, { slots }) { const i...
+- `TransitionGroup` (variable): var TransitionGroup = TransitionGroupImpl;
+- `callPendingCbs` (function): function callPendingCbs(c)
+- `recordPosition` (function): function recordPosition(c)
+- `applyTranslation` (function): function applyTranslation(c)
+- `getPosition` (function): function getPosition(el)
+- `hasCSSTransform` (function): function hasCSSTransform(el, root, moveClass)
+- `getModelAssigner` (variable): var getModelAssigner = (vnode) => { const fn = vnode.props["onUpdate:modelValue"] || false; return isArray(fn) ? (value) => invokeArrayFns(fn, value) : fn; };
+- `onCompositionStart` (function): function onCompositionStart(e)
+- `onCompositionEnd` (function): function onCompositionEnd(e)
+- `assignKey` (variable): var assignKey = Symbol("_assign");
+- `castValue` (function): function castValue(value, trim, number)
+- `vModelText` (variable): var vModelText = { created(el, { modifiers: { lazy, trim, number } }, vnode) { el[assignKey] = getModelAssigner(vnode); const castToNumber = number || vnode.props && vnode.props...
+- `vModelCheckbox` (variable): var vModelCheckbox = { // #4096 array checkboxes need to be deep traversed deep: true, created(el, _, vnode) { el[assignKey] = getModelAssigner(vnode); addEventListener(el, "cha...
+- `setChecked` (function): function setChecked(el, { value, oldValue }, vnode)
+- `vModelRadio` (variable): var vModelRadio = { created(el, { value }, vnode) { el.checked = looseEqual(value, vnode.props.value); el[assignKey] = getModelAssigner(vnode); addEventListener(el, "change", ()...
+- `vModelSelect` (variable): var vModelSelect = { // <select multiple> value need to be deep traversed deep: true, created(el, { value, modifiers: { number } }, vnode) { const isSetModel = isSet(value); add...
+- `setSelected` (function): function setSelected(el, value)
+- `getValue` (function): function getValue(el)
+- `getCheckboxValue` (function): function getCheckboxValue(el, checked)
+- `vModelDynamic` (variable): var vModelDynamic = { created(el, binding, vnode) { callModelHook(el, binding, vnode, null, "created"); }, mounted(el, binding, vnode) { callModelHook(el, binding, vnode, null, ...
+- `resolveDynamicModel` (function): function resolveDynamicModel(tagName, type)
+- `callModelHook` (function): function callModelHook(el, binding, vnode, prevVNode, hook)
+- `initVModelForSSR` (function): function initVModelForSSR()
+- `systemModifiers` (variable): var systemModifiers = ["ctrl", "shift", "alt", "meta"];
+- `modifierGuards` (variable): var modifierGuards = { stop: (e) => e.stopPropagation(), prevent: (e) => e.preventDefault(), self: (e) => e.target !== e.currentTarget, ctrl: (e) => !e.ctrlKey, shift: (e) => !e...
+- `withModifiers` (variable): var withModifiers = (fn, modifiers) => { if (!fn) return fn; const cache = fn._withMods || (fn._withMods = {}); const cacheKey = modifiers.join("."); return cache[cacheKey] || (...
+- `keyNames` (variable): var keyNames = { esc: "escape", space: " ", up: "arrow-up", left: "arrow-left", right: "arrow-right", down: "arrow-down", delete: "backspace" };
+- `withKeys` (variable): var withKeys = (fn, modifiers) => { const cache = fn._withKeys || (fn._withKeys = {}); const cacheKey = modifiers.join("."); return cache[cacheKey] || (cache[cacheKey] = (event)...
+- `rendererOptions` (variable): var rendererOptions = extend({ patchProp }, nodeOps);
+- `renderer` (variable): var renderer;
+- `enabledHydration` (variable): var enabledHydration = false;
+- `ensureRenderer` (function): function ensureRenderer()
+- `ensureHydrationRenderer` (function): function ensureHydrationRenderer()
+- `render` (variable): var render = (...args) => { ensureRenderer().render(...args); };
+- `hydrate` (variable): var hydrate = (...args) => { ensureHydrationRenderer().hydrate(...args); };
+- `createApp` (variable): var createApp = (...args) => { const app = ensureRenderer().createApp(...args); if (true) { injectNativeTagCheck(app); injectCompilerOptionsCheck(app); } const { mount } = app; ...
+- `createSSRApp` (variable): var createSSRApp = (...args) => { const app = ensureHydrationRenderer().createApp(...args); if (true) { injectNativeTagCheck(app); injectCompilerOptionsCheck(app); } const { mou...
+- `resolveRootNamespace` (function): function resolveRootNamespace(container)
+- `injectNativeTagCheck` (function): function injectNativeTagCheck(app)
+- `injectCompilerOptionsCheck` (function): function injectCompilerOptionsCheck(app)
+- `normalizeContainer` (function): function normalizeContainer(container)
+- `ssrDirectiveInitialized` (variable): var ssrDirectiveInitialized = false;
+- `initDirectivesForSSR` (variable): var initDirectivesForSSR = () => { if (!ssrDirectiveInitialized) { ssrDirectiveInitialized = true; initVModelForSSR(); initVShowForSSR(); } };
+- `initDev` (function): function initDev()
+- `compile2` (variable): var compile2 = () => { if (true) { warn2( `Runtime compilation is not supported in this build of Vue. Configure your bundler to alias "vue" to "vue/dist/vue.esm-bundler.js".` );...
+
+## External Dependencies
+
+- No external dependencies detected.
+
+## Unresolved Local References
+
+- No unresolved local references detected.
+
+## Inheritance
+
+- No inheritance relationships detected.
+
+## Calls
+
+- `isMap` calls `toTypeString`
+- `isSet` calls `toTypeString`
+- `isDate` calls `toTypeString`
+- `isRegExp` calls `toTypeString`
+- `isPromise` calls `isObject`
+- `isPromise` calls `isFunction`
+- `toRawType` calls `toTypeString`
+- `isPlainObject` calls `toTypeString`
+- `isIntegerKey` calls `isString`
+- `isReservedProp` calls `makeMap`
+- `isBuiltInDirective` calls `makeMap`
+- `camelize` calls `cacheStringFunction`
+- `hyphenate` calls `cacheStringFunction`
+- `capitalize` calls `cacheStringFunction`
+- `toHandlerKey` calls `cacheStringFunction`
+- `toHandlerKey` calls `capitalize`
+- `toNumber` calls `isString`
+- `isGloballyAllowed` calls `makeMap`
+- `normalizeStyle` calls `isArray`
+- `normalizeStyle` calls `isString`
+- `normalizeStyle` calls `parseStringStyle`
+- `normalizeStyle` calls `isObject`
+- `stringifyStyle` calls `isString`
+- `stringifyStyle` calls `hyphenate`
+- `normalizeClass` calls `isString`
+- `normalizeClass` calls `isArray`
+- `normalizeClass` calls `isObject`
+- `normalizeProps` calls `isString`
+- `normalizeProps` calls `normalizeClass`
+- `normalizeProps` calls `normalizeStyle`
+- `isHTMLTag` calls `makeMap`
+- `isSVGTag` calls `makeMap`
+- `isMathMLTag` calls `makeMap`
+- `isVoidTag` calls `makeMap`
+- `isSpecialBooleanAttr` calls `makeMap`
+- `isBooleanAttr` calls `makeMap`
+- `isKnownHtmlAttr` calls `makeMap`
+- `isKnownSvgAttr` calls `makeMap`
+- `isKnownMathMLAttr` calls `makeMap`
+- `looseCompareArrays` calls `looseEqual`
+- `looseEqual` calls `isDate`
+- `looseEqual` calls `isSymbol`
+- `looseEqual` calls `isArray`
+- `looseEqual` calls `looseCompareArrays`
+- `looseEqual` calls `isObject`
+- `looseIndexOf` calls `looseEqual`
+- `toDisplayString` calls `isString`
+- `toDisplayString` calls `isArray`
+- `toDisplayString` calls `isObject`
+- `toDisplayString` calls `isFunction`
+- `toDisplayString` calls `isRef`
+- `replacer` calls `isRef`
+- `replacer` calls `isMap`
+- `replacer` calls `stringifySymbol`
+- `replacer` calls `isSet`
+- `replacer` calls `isSymbol`
+- `replacer` calls `isObject`
+- `replacer` calls `isArray`
+- `replacer` calls `isPlainObject`
+- `stringifySymbol` calls `isSymbol`
+- `EffectScope` calls `warn`
+- `onScopeDispose` calls `warn`
+- `ReactiveEffect` calls `batch`
+- `ReactiveEffect` calls `cleanupEffect`
+- `ReactiveEffect` calls `prepareDeps`
+- `ReactiveEffect` calls `warn`
+- `ReactiveEffect` calls `cleanupDeps`
+- `ReactiveEffect` calls `removeSub`
+- `ReactiveEffect` calls `isDirty`
+- `cleanupDeps` calls `removeSub`
+- `cleanupDeps` calls `removeDep`
+- `isDirty` calls `refreshComputed`
+- `refreshComputed` calls `isDirty`
+- `refreshComputed` calls `prepareDeps`
+- `refreshComputed` calls `hasChanged`
+- `refreshComputed` calls `cleanupDeps`
+- `effect` calls `extend`
+- `Dep` calls `addSub`
+- `Dep` calls `extend`
+- `Dep` calls `startBatch`
+- `Dep` calls `endBatch`
+- `trigger` calls `startBatch`
+- `trigger` calls `isArray`
+- `trigger` calls `isIntegerKey`
+- `trigger` calls `isSymbol`
+- `trigger` calls `isMap`
+- `trigger` calls `endBatch`
+- `reactiveReadArray` calls `toRaw`
+- `reactiveReadArray` calls `track`
+- `reactiveReadArray` calls `isShallow`
+- `shallowReadArray` calls `track`
+- `shallowReadArray` calls `toRaw`
+- `toWrapped` calls `isReadonly`
+- `toWrapped` calls `isReactive`
+- `toWrapped` calls `toReadonly`
+- `toWrapped` calls `toReactive`
+- `arrayInstrumentations` calls `iterator`
+- `arrayInstrumentations` calls `toWrapped`
+- `arrayInstrumentations` calls `reactiveReadArray`
+- `arrayInstrumentations` calls `isArray`
+- `arrayInstrumentations` calls `apply`
+- `arrayInstrumentations` calls `searchProxy`
+- `arrayInstrumentations` calls `noTracking`
+- `arrayInstrumentations` calls `reduce`
+- `iterator` calls `shallowReadArray`
+- `iterator` calls `isShallow`
+- `apply` calls `shallowReadArray`
+- `apply` calls `isShallow`
+- `apply` calls `toReactive`
+- `apply` calls `toWrapped`
+- `reduce` calls `shallowReadArray`
+- `reduce` calls `isShallow`
+- `reduce` calls `toWrapped`
+- `searchProxy` calls `toRaw`
+- `searchProxy` calls `track`
+- `searchProxy` calls `isProxy`
+- `noTracking` calls `pauseTracking`
+- `noTracking` calls `startBatch`
+- `noTracking` calls `toRaw`
+- `noTracking` calls `endBatch`
+- `noTracking` calls `resetTracking`
+- `isNonTrackableKeys` calls `makeMap`
+- `hasOwnProperty2` calls `isSymbol`
+- `hasOwnProperty2` calls `toRaw`
+- `hasOwnProperty2` calls `track`
+- `BaseReactiveHandler` calls `isArray`
+- `BaseReactiveHandler` calls `isRef2`
+- `BaseReactiveHandler` calls `isSymbol`
+- `BaseReactiveHandler` calls `isNonTrackableKeys`
+- `BaseReactiveHandler` calls `track`
+- `BaseReactiveHandler` calls `isIntegerKey`
+- `BaseReactiveHandler` calls `isObject`
+- `BaseReactiveHandler` calls `readonly`
+- `BaseReactiveHandler` calls `reactive`
+- `MutableReactiveHandler` calls `isArray`
+- `MutableReactiveHandler` calls `isIntegerKey`
+- `MutableReactiveHandler` calls `isReadonly`
+- `MutableReactiveHandler` calls `isShallow`
+- `MutableReactiveHandler` calls `toRaw`
+- `MutableReactiveHandler` calls `isRef2`
+- `MutableReactiveHandler` calls `warn`
+- `MutableReactiveHandler` calls `hasOwn`
+- `MutableReactiveHandler` calls `trigger`
+- `MutableReactiveHandler` calls `hasChanged`
+- `MutableReactiveHandler` calls `isSymbol`
+- `MutableReactiveHandler` calls `track`
+- `ReadonlyReactiveHandler` calls `warn`
+- `createIterableMethod` calls `toRaw`
+- `createIterableMethod` calls `isMap`
+- `createIterableMethod` calls `track`
+- `createIterableMethod` calls `extend`
+- `createReadonlyMethod` calls `warn`
+- `createReadonlyMethod` calls `capitalize`
+- `createReadonlyMethod` calls `toRaw`
+- `createInstrumentations` calls `toRaw`
+- `createInstrumentations` calls `hasChanged`
+- `createInstrumentations` calls `track`
+- `createInstrumentations` calls `getProto`
+- `createInstrumentations` calls `extend`
+- `createInstrumentations` calls `createReadonlyMethod`
+- `createInstrumentations` calls `isShallow`
+- `createInstrumentations` calls `isReadonly`
+- `createInstrumentations` calls `trigger`
+- `createInstrumentations` calls `checkIdentityKeys`
+- `createInstrumentations` calls `isMap`
+- `createInstrumentations` calls `createIterableMethod`
+- `createInstrumentationGetter` calls `createInstrumentations`
+- `createInstrumentationGetter` calls `hasOwn`
+- `mutableCollectionHandlers` calls `createInstrumentationGetter`
+- `shallowCollectionHandlers` calls `createInstrumentationGetter`
+- `readonlyCollectionHandlers` calls `createInstrumentationGetter`
+- `shallowReadonlyCollectionHandlers` calls `createInstrumentationGetter`
+- `checkIdentityKeys` calls `toRaw`
+- `checkIdentityKeys` calls `toRawType`
+- `checkIdentityKeys` calls `warn`
+- `getTargetType` calls `targetTypeMap`
+- `getTargetType` calls `toRawType`
+- `reactive` calls `isReadonly`
+- `reactive` calls `createReactiveObject`
+- `shallowReactive` calls `createReactiveObject`
+- `readonly` calls `createReactiveObject`
+- `shallowReadonly` calls `createReactiveObject`
+- `createReactiveObject` calls `isObject`
+- `createReactiveObject` calls `warn`
+- `createReactiveObject` calls `getTargetType`
+- `isReactive` calls `isReadonly`
+- `markRaw` calls `hasOwn`
+- `markRaw` calls `def`
+- `toReactive` calls `isObject`
+- `toReactive` calls `reactive`
+- `toReadonly` calls `isObject`
+- `toReadonly` calls `readonly`
+- `ref` calls `createRef`
+- `shallowRef` calls `createRef`
+- `createRef` calls `isRef2`
+- `RefImpl` calls `toRaw`
+- `RefImpl` calls `toReactive`
+- `RefImpl` calls `isShallow`
+- `RefImpl` calls `isReadonly`
+- `RefImpl` calls `hasChanged`
+- `unref` calls `isRef2`
+- `toValue` calls `isFunction`
+- `toValue` calls `unref`
+- `shallowUnwrapHandlers` calls `unref`
+- `shallowUnwrapHandlers` calls `isRef2`
+- `proxyRefs` calls `isReactive`
+- `toRefs` calls `isProxy`
+- `toRefs` calls `warn`
+- `toRefs` calls `isArray`
+- `toRefs` calls `propertyToRef`
+- `ObjectRefImpl` calls `isSymbol`
+- `ObjectRefImpl` calls `toRaw`
+- `ObjectRefImpl` calls `isArray`
+- `ObjectRefImpl` calls `isIntegerKey`
+- `ObjectRefImpl` calls `isProxy`
+- `ObjectRefImpl` calls `isShallow`
+- `ObjectRefImpl` calls `unref`
+- `ObjectRefImpl` calls `isRef2`
+- `ObjectRefImpl` calls `getDepFromReactive`
+- `toRef` calls `isRef2`
+- `toRef` calls `isFunction`
+- `toRef` calls `isObject`
+- `toRef` calls `propertyToRef`
+- `toRef` calls `ref`
+- `ComputedRefImpl` calls `batch`
+- `ComputedRefImpl` calls `refreshComputed`
+- `ComputedRefImpl` calls `warn`
+- `computed` calls `isFunction`
+- `onWatcherCleanup` calls `warn`
+- `watch` calls `isShallow`
+- `watch` calls `traverse`
+- `watch` calls `isRef2`
+- `watch` calls `isReactive`
+- `watch` calls `isArray`
+- `watch` calls `isFunction`
+- `watch` calls `pauseTracking`
+- `watch` calls `resetTracking`
+- `watch` calls `getCurrentScope`
+- `watch` calls `remove`
+- `watch` calls `hasChanged`
+- `watch` calls `onWatcherCleanup`
+- `traverse` calls `isObject`
+- `traverse` calls `isRef2`
+- `traverse` calls `isArray`
+- `traverse` calls `isSet`
+- `traverse` calls `isMap`
+- `traverse` calls `isPlainObject`
+- `warn$1` calls `pauseTracking`
+- `warn$1` calls `getComponentTrace`
+- `warn$1` calls `callWithErrorHandling`
+- `warn$1` calls `formatComponentName`
+- `warn$1` calls `formatTrace`
+- `warn$1` calls `resetTracking`
+- `formatTrace` calls `formatTraceEntry`
+- `formatTraceEntry` calls `formatComponentName`
+- `formatTraceEntry` calls `formatProps`
+- `formatProps` calls `formatProp`
+- `formatProp` calls `isString`
+- `formatProp` calls `isRef2`
+- `formatProp` calls `toRaw`
+- `formatProp` calls `isFunction`
+- `assertNumber` calls `warn$1`
+- `callWithErrorHandling` calls `handleError`
+- `callWithAsyncErrorHandling` calls `isFunction`
+- `callWithAsyncErrorHandling` calls `callWithErrorHandling`
+- `callWithAsyncErrorHandling` calls `isPromise`
+- `callWithAsyncErrorHandling` calls `handleError`
+- `callWithAsyncErrorHandling` calls `isArray`
+- `callWithAsyncErrorHandling` calls `warn$1`
+- `handleError` calls `pauseTracking`
+- `handleError` calls `callWithErrorHandling`
+- `handleError` calls `resetTracking`
+- `handleError` calls `logError`
+- `logError` calls `pushWarningContext`
+- `logError` calls `warn$1`
+- `logError` calls `popWarningContext`
+- `findInsertionIndex` calls `getId`
+- `queueJob` calls `getId`
+- `queueJob` calls `findInsertionIndex`
+- `queueJob` calls `queueFlush`
+- `queuePostFlushCb` calls `isArray`
+- `queuePostFlushCb` calls `queueFlush`
+- `flushPreFlushCbs` calls `checkRecursiveUpdates`
+- `flushPostFlushCbs` calls `getId`
+- `flushPostFlushCbs` calls `checkRecursiveUpdates`
+- `flushJobs` calls `checkRecursiveUpdates`
+- `flushJobs` calls `callWithErrorHandling`
+- `flushJobs` calls `flushPostFlushCbs`
+- `checkRecursiveUpdates` calls `getComponentName`
+- `checkRecursiveUpdates` calls `handleError`
+- `registerHMR` calls `createRecord`
+- `createRecord` calls `normalizeClassComponent`
+- `normalizeClassComponent` calls `isClassComponent`
+- `rerender` calls `normalizeClassComponent`
+- `reload` calls `normalizeClassComponent`
+- `reload` calls `updateComponentDef`
+- `reload` calls `queueJob`
+- `reload` calls `queuePostFlushCb`
+- `updateComponentDef` calls `extend`
+- `devtoolsInitApp` calls `emit$1`
+- `devtoolsUnmountApp` calls `emit$1`
+- `devtoolsComponentAdded` calls `createDevtoolsComponentHook`
+- `devtoolsComponentUpdated` calls `createDevtoolsComponentHook`
+- `_devtoolsComponentRemoved` calls `createDevtoolsComponentHook`
+- `devtoolsComponentRemoved` calls `_devtoolsComponentRemoved`
+- `createDevtoolsComponentHook` calls `emit$1`
+- `devtoolsPerfStart` calls `createDevtoolsPerformanceHook`
+- `devtoolsPerfEnd` calls `createDevtoolsPerformanceHook`
+- `createDevtoolsPerformanceHook` calls `emit$1`
+- `devtoolsComponentEmit` calls `emit$1`
+- `withCtx` calls `setBlockTracking`
+- `withCtx` calls `setCurrentRenderingInstance`
+- `withCtx` calls `devtoolsComponentUpdated`
+- `validateDirectiveName` calls `isBuiltInDirective`
+- `validateDirectiveName` calls `warn$1`
+- `withDirectives` calls `warn$1`
+- `withDirectives` calls `getComponentPublicInstance`
+- `withDirectives` calls `isFunction`
+- `withDirectives` calls `traverse`
+- `invokeDirectiveHook` calls `pauseTracking`
+- `invokeDirectiveHook` calls `callWithAsyncErrorHandling`
+- `invokeDirectiveHook` calls `resetTracking`
+- `provide` calls `warn$1`
+- `inject` calls `getCurrentInstance`
+- `inject` calls `isFunction`
+- `inject` calls `warn$1`
+- `hasInjectionContext` calls `getCurrentInstance`
+- `useSSRContext` calls `inject`
+- `useSSRContext` calls `warn$1`
+- `watchEffect` calls `doWatch`
+- `watchPostEffect` calls `doWatch`
+- `watchPostEffect` calls `extend`
+- `watchSyncEffect` calls `doWatch`
+- `watchSyncEffect` calls `extend`
+- `watch2` calls `isFunction`
+- `watch2` calls `warn$1`
+- `watch2` calls `doWatch`
+- `doWatch` calls `warn$1`
+- `doWatch` calls `extend`
+- `doWatch` calls `useSSRContext`
+- `doWatch` calls `callWithAsyncErrorHandling`
+- `doWatch` calls `queuePostRenderEffect`
+- `doWatch` calls `queueJob`
+- `doWatch` calls `watch`
+- `instanceWatch` calls `isString`
+- `instanceWatch` calls `createPathGetter`
+- `instanceWatch` calls `isFunction`
+- `instanceWatch` calls `setCurrentInstance`
+- `instanceWatch` calls `doWatch`
+- `resolveTarget` calls `isString`
+- `resolveTarget` calls `warn$1`
+- `resolveTarget` calls `isTeleportDisabled`
+- `TeleportImpl` calls `isTeleportDisabled`
+- `TeleportImpl` calls `resolveTarget`
+- `TeleportImpl` calls `prepareAnchor`
+- `TeleportImpl` calls `isTargetSVG`
+- `TeleportImpl` calls `isTargetMathML`
+- `TeleportImpl` calls `updateCssVars`
+- `TeleportImpl` calls `warn$1`
+- `TeleportImpl` calls `isTeleportDeferred`
+- `TeleportImpl` calls `queuePostRenderEffect`
+- `TeleportImpl` calls `traverseStaticChildren`
+- `TeleportImpl` calls `moveTeleport`
+- `moveTeleport` calls `isTeleportDisabled`
+- `hydrateTeleport` calls `resolveTarget`
+- `hydrateTeleport` calls `isTeleportDisabled`
+- `hydrateTeleport` calls `prepareAnchor`
+- `hydrateTeleport` calls `updateCssVars`
+- `useTransitionState` calls `onMounted`
+- `useTransitionState` calls `onBeforeUnmount`
+- `BaseTransitionImpl` calls `getCurrentInstance`
+- `BaseTransitionImpl` calls `useTransitionState`
+- `BaseTransitionImpl` calls `getTransitionRawChildren`
+- `BaseTransitionImpl` calls `findNonCommentChild`
+- `BaseTransitionImpl` calls `toRaw`
+- `BaseTransitionImpl` calls `warn$1`
+- `BaseTransitionImpl` calls `emptyPlaceholder`
+- `BaseTransitionImpl` calls `getInnerChild$1`
+- `BaseTransitionImpl` calls `resolveTransitionHooks`
+- `BaseTransitionImpl` calls `setTransitionHooks`
+- `BaseTransitionImpl` calls `isSameVNodeType`
+- `BaseTransitionImpl` calls `recursiveGetSubtree`
+- `BaseTransitionImpl` calls `getLeavingNodesForType`
+- `findNonCommentChild` calls `warn$1`
+- `resolveTransitionHooks` calls `getLeavingNodesForType`
+- `resolveTransitionHooks` calls `callWithAsyncErrorHandling`
+- `resolveTransitionHooks` calls `isArray`
+- `resolveTransitionHooks` calls `isSameVNodeType`
+- `emptyPlaceholder` calls `isKeepAlive`
+- `emptyPlaceholder` calls `cloneVNode`
+- `getInnerChild$1` calls `isKeepAlive`
+- `getInnerChild$1` calls `isTeleport`
+- `getInnerChild$1` calls `findNonCommentChild`
+- `getInnerChild$1` calls `isFunction`
+- `getTransitionRawChildren` calls `cloneVNode`
+- `defineComponent` calls `isFunction`
+- `defineComponent` calls `extend`
+- `useId` calls `getCurrentInstance`
+- `useId` calls `warn$1`
+- `useTemplateRef` calls `getCurrentInstance`
+- `useTemplateRef` calls `shallowRef`
+- `useTemplateRef` calls `isTemplateRefKey`
+- `useTemplateRef` calls `warn$1`
+- `useTemplateRef` calls `readonly`
+- `setRef` calls `isArray`
+- `setRef` calls `isAsyncWrapper`
+- `setRef` calls `getComponentPublicInstance`
+- `setRef` calls `warn$1`
+- `setRef` calls `toRaw`
+- `setRef` calls `hasOwn`
+- `setRef` calls `isRef2`
+- `setRef` calls `isTemplateRefKey`
+- `setRef` calls `invalidatePendingSetRef`
+- `setRef` calls `isString`
+- `setRef` calls `isFunction`
+- `setRef` calls `callWithErrorHandling`
+- `setRef` calls `remove`
+- `setRef` calls `queuePostRenderEffect`
+- `getContainerType` calls `isSVGContainer`
+- `getContainerType` calls `isMathMLContainer`
+- `createHydrationFunctions` calls `warn$1`
+- `createHydrationFunctions` calls `flushPostFlushCbs`
+- `createHydrationFunctions` calls `isComment`
+- `createHydrationFunctions` calls `def`
+- `createHydrationFunctions` calls `logMismatchError`
+- `createHydrationFunctions` calls `getContainerType`
+- `createHydrationFunctions` calls `isAsyncWrapper`
+- `createHydrationFunctions` calls `createVNode`
+- `createHydrationFunctions` calls `createTextVNode`
+- `createHydrationFunctions` calls `setRef`
+- `createHydrationFunctions` calls `invokeDirectiveHook`
+- `createHydrationFunctions` calls `needTransition`
+- `createHydrationFunctions` calls `isMismatchAllowed`
+- `createHydrationFunctions` calls `propHasMismatch`
+- `createHydrationFunctions` calls `isOn`
+- `createHydrationFunctions` calls `isReservedProp`
+- `createHydrationFunctions` calls `isReactive`
+- `createHydrationFunctions` calls `invokeVNodeHook`
+- `createHydrationFunctions` calls `queueEffectWithSuspense`
+- `createHydrationFunctions` calls `normalizeVNode`
+- `createHydrationFunctions` calls `updateHOCHostEl`
+- `propHasMismatch` calls `normalizeClass`
+- `propHasMismatch` calls `isSetEqual`
+- `propHasMismatch` calls `toClassSet`
+- `propHasMismatch` calls `isString`
+- `propHasMismatch` calls `stringifyStyle`
+- `propHasMismatch` calls `normalizeStyle`
+- `propHasMismatch` calls `toStyleMap`
+- `propHasMismatch` calls `resolveCssVars`
+- `propHasMismatch` calls `isMapEqual`
+- `propHasMismatch` calls `isKnownSvgAttr`
+- `propHasMismatch` calls `isBooleanAttr`
+- `propHasMismatch` calls `isKnownHtmlAttr`
+- `propHasMismatch` calls `includeBooleanAttr`
+- `propHasMismatch` calls `isRenderableAttrValue`
+- `propHasMismatch` calls `isMismatchAllowed`
+- `propHasMismatch` calls `warn$1`
+- `resolveCssVars` calls `normalizeCssVarValue`
+- `resolveCssVars` calls `getEscapedCssVarName`
+- `requestIdleCallback` calls `getGlobalThis`
+- `cancelIdleCallback` calls `getGlobalThis`
+- `hydrateOnIdle` calls `requestIdleCallback`
+- `hydrateOnIdle` calls `cancelIdleCallback`
+- `hydrateOnVisible` calls `elementIsVisibleInViewport`
+- `hydrateOnInteraction` calls `isString`
+- `forEachElement` calls `isComment`
+- `defineAsyncComponent` calls `isFunction`
+- `defineAsyncComponent` calls `warn$1`
+- `defineAsyncComponent` calls `isObject`
+- `defineAsyncComponent` calls `defineComponent`
+- `defineAsyncComponent` calls `getComponentName`
+- `defineAsyncComponent` calls `forEachElement`
+- `defineAsyncComponent` calls `markAsyncBoundary`
+- `defineAsyncComponent` calls `createInnerComp`
+- `defineAsyncComponent` calls `handleError`
+- `defineAsyncComponent` calls `createVNode`
+- `defineAsyncComponent` calls `ref`
+- `defineAsyncComponent` calls `isKeepAlive`
+- `createInnerComp` calls `createVNode`
+- `KeepAliveImpl` calls `getCurrentInstance`
+- `KeepAliveImpl` calls `queuePostRenderEffect`
+- `KeepAliveImpl` calls `invokeArrayFns`
+- `KeepAliveImpl` calls `invokeVNodeHook`
+- `KeepAliveImpl` calls `devtoolsComponentAdded`
+- `KeepAliveImpl` calls `invalidateMount`
+- `KeepAliveImpl` calls `resetShapeFlag`
+- `KeepAliveImpl` calls `getComponentName`
+- `KeepAliveImpl` calls `isAsyncWrapper`
+- `KeepAliveImpl` calls `isSameVNodeType`
+- `KeepAliveImpl` calls `watch2`
+- `KeepAliveImpl` calls `matches`
+- `KeepAliveImpl` calls `isSuspense`
+- `KeepAliveImpl` calls `getInnerChild`
+- `KeepAliveImpl` calls `onMounted`
+- `KeepAliveImpl` calls `onUpdated`
+- `KeepAliveImpl` calls `onBeforeUnmount`
+- `KeepAliveImpl` calls `warn$1`
+- `KeepAliveImpl` calls `isVNode`
+- `KeepAliveImpl` calls `cloneVNode`
+- `KeepAliveImpl` calls `setTransitionHooks`
+- `matches` calls `isArray`
+- `matches` calls `isString`
+- `matches` calls `isRegExp`
+- `onActivated` calls `registerKeepAliveHook`
+- `onDeactivated` calls `registerKeepAliveHook`
+- `registerKeepAliveHook` calls `injectHook`
+- `registerKeepAliveHook` calls `isKeepAlive`
+- `registerKeepAliveHook` calls `injectToKeepAliveRoot`
+- `injectToKeepAliveRoot` calls `injectHook`
+- `injectToKeepAliveRoot` calls `onUnmounted`
+- `injectToKeepAliveRoot` calls `remove`
+- `injectHook` calls `pauseTracking`
+- `injectHook` calls `setCurrentInstance`
+- `injectHook` calls `callWithAsyncErrorHandling`
+- `injectHook` calls `resetTracking`
+- `injectHook` calls `toHandlerKey`
+- `injectHook` calls `warn$1`
+- `createHook` calls `injectHook`
+- `onBeforeMount` calls `createHook`
+- `onMounted` calls `createHook`
+- `onBeforeUpdate` calls `createHook`
+- `onUpdated` calls `createHook`
+- `onBeforeUnmount` calls `createHook`
+- `onUnmounted` calls `createHook`
+- `onServerPrefetch` calls `createHook`
+- `onRenderTriggered` calls `createHook`
+- `onRenderTracked` calls `createHook`
+- `onErrorCaptured` calls `injectHook`
+- `resolveComponent` calls `resolveAsset`
+- `resolveDynamicComponent` calls `isString`
+- `resolveDynamicComponent` calls `resolveAsset`
+- `resolveDirective` calls `resolveAsset`
+- `resolveAsset` calls `getComponentName`
+- `resolveAsset` calls `camelize`
+- `resolveAsset` calls `capitalize`
+- `resolveAsset` calls `resolve`
+- `resolveAsset` calls `warn$1`
+- `resolve` calls `camelize`
+- `resolve` calls `capitalize`
+- `renderList` calls `isArray`
+- `renderList` calls `isString`
+- `renderList` calls `isReactive`
+- `renderList` calls `isShallow`
+- `renderList` calls `isReadonly`
+- `renderList` calls `shallowReadArray`
+- `renderList` calls `toReadonly`
+- `renderList` calls `toReactive`
+- `renderList` calls `warn$1`
+- `renderList` calls `isObject`
+- `createSlots` calls `isArray`
+- `renderSlot` calls `isAsyncWrapper`
+- `renderSlot` calls `openBlock`
+- `renderSlot` calls `createBlock`
+- `renderSlot` calls `createVNode`
+- `renderSlot` calls `warn$1`
+- `renderSlot` calls `ensureValidVNode`
+- `renderSlot` calls `isSymbol`
+- `ensureValidVNode` calls `isVNode`
+- `toHandlers` calls `isObject`
+- `toHandlers` calls `warn$1`
+- `toHandlers` calls `toHandlerKey`
+- `getPublicInstance` calls `isStatefulComponent`
+- `getPublicInstance` calls `getComponentPublicInstance`
+- `publicPropertiesMap` calls `extend`
+- `publicPropertiesMap` calls `shallowReadonly`
+- `publicPropertiesMap` calls `getPublicInstance`
+- `publicPropertiesMap` calls `resolveMergedOptions`
+- `publicPropertiesMap` calls `queueJob`
+- `hasSetupBinding` calls `hasOwn`
+- `PublicInstanceProxyHandlers` calls `hasSetupBinding`
+- `PublicInstanceProxyHandlers` calls `hasOwn`
+- `PublicInstanceProxyHandlers` calls `track`
+- `PublicInstanceProxyHandlers` calls `markAttrsAccessed`
+- `PublicInstanceProxyHandlers` calls `isString`
+- `PublicInstanceProxyHandlers` calls `isReservedPrefix`
+- `PublicInstanceProxyHandlers` calls `warn$1`
+- `RuntimeCompiledPublicInstanceProxyHandlers` calls `extend`
+- `RuntimeCompiledPublicInstanceProxyHandlers` calls `isGloballyAllowed`
+- `RuntimeCompiledPublicInstanceProxyHandlers` calls `warn$1`
+- `exposeSetupStateOnRenderContext` calls `toRaw`
+- `exposeSetupStateOnRenderContext` calls `isReservedPrefix`
+- `exposeSetupStateOnRenderContext` calls `warn$1`
+- `warnRuntimeUsage` calls `warn$1`
+- `defineProps` calls `warnRuntimeUsage`
+- `defineEmits` calls `warnRuntimeUsage`
+- `defineExpose` calls `warnRuntimeUsage`
+- `defineOptions` calls `warnRuntimeUsage`
+- `defineSlots` calls `warnRuntimeUsage`
+- `defineModel` calls `warnRuntimeUsage`
+- `withDefaults` calls `warnRuntimeUsage`
+- `useSlots` calls `getContext`
+- `useAttrs` calls `getContext`
+- `getContext` calls `getCurrentInstance`
+- `getContext` calls `warn$1`
+- `getContext` calls `createSetupContext`
+- `normalizePropsOrEmits` calls `isArray`
+- `mergeDefaults` calls `normalizePropsOrEmits`
+- `mergeDefaults` calls `isArray`
+- `mergeDefaults` calls `isFunction`
+- `mergeDefaults` calls `warn$1`
+- `mergeModels` calls `isArray`
+- `mergeModels` calls `extend`
+- `mergeModels` calls `normalizePropsOrEmits`
+- `withAsyncContext` calls `getCurrentInstance`
+- `withAsyncContext` calls `warn$1`
+- `withAsyncContext` calls `unsetCurrentInstance`
+- `withAsyncContext` calls `setInSSRSetupState`
+- `withAsyncContext` calls `setCurrentInstance`
+- `withAsyncContext` calls `isPromise`
+- `createDuplicateChecker` calls `warn$1`
+- `applyOptions` calls `resolveMergedOptions`
+- `applyOptions` calls `callHook`
+- `applyOptions` calls `createDuplicateChecker`
+- `applyOptions` calls `resolveInjections`
+- `applyOptions` calls `isFunction`
+- `applyOptions` calls `warn$1`
+- `applyOptions` calls `isPromise`
+- `applyOptions` calls `isObject`
+- `applyOptions` calls `reactive`
+- `applyOptions` calls `isReservedPrefix`
+- `applyOptions` calls `computed2`
+- `applyOptions` calls `createWatcher`
+- `applyOptions` calls `provide`
+- `applyOptions` calls `isArray`
+- `applyOptions` calls `markAsyncBoundary`
+- `resolveInjections` calls `isArray`
+- `resolveInjections` calls `normalizeInject`
+- `resolveInjections` calls `isObject`
+- `resolveInjections` calls `inject`
+- `resolveInjections` calls `isRef2`
+- `callHook` calls `callWithAsyncErrorHandling`
+- `callHook` calls `isArray`
+- `createWatcher` calls `createPathGetter`
+- `createWatcher` calls `isString`
+- `createWatcher` calls `isFunction`
+- `createWatcher` calls `watch2`
+- `createWatcher` calls `warn$1`
+- `createWatcher` calls `isObject`
+- `createWatcher` calls `isArray`
+- `resolveMergedOptions` calls `mergeOptions`
+- `resolveMergedOptions` calls `isObject`
+- `mergeOptions` calls `warn$1`
+- `mergeDataFn` calls `extend`
+- `mergeDataFn` calls `isFunction`
+- `mergeInject` calls `mergeObjectOptions`
+- `mergeInject` calls `normalizeInject`
+- `normalizeInject` calls `isArray`
+- `mergeObjectOptions` calls `extend`
+- `mergeEmitsOrPropsOptions` calls `isArray`
+- `mergeEmitsOrPropsOptions` calls `extend`
+- `mergeEmitsOrPropsOptions` calls `normalizePropsOrEmits`
+- `mergeWatchOptions` calls `extend`
+- `mergeWatchOptions` calls `mergeAsArray`
+- `createAppAPI` calls `isFunction`
+- `createAppAPI` calls `extend`
+- `createAppAPI` calls `isObject`
+- `createAppAPI` calls `warn$1`
+- `createAppAPI` calls `createAppContext`
+- `createAppAPI` calls `validateComponentName`
+- `createAppAPI` calls `validateDirectiveName`
+- `createAppAPI` calls `createVNode`
+- `createAppAPI` calls `cloneVNode`
+- `createAppAPI` calls `devtoolsInitApp`
+- `createAppAPI` calls `getComponentPublicInstance`
+- `createAppAPI` calls `callWithAsyncErrorHandling`
+- `createAppAPI` calls `devtoolsUnmountApp`
+- `createAppAPI` calls `hasOwn`
+- `useModel` calls `getCurrentInstance`
+- `useModel` calls `warn$1`
+- `useModel` calls `ref`
+- `useModel` calls `camelize`
+- `useModel` calls `hyphenate`
+- `useModel` calls `getModelModifiers`
+- `useModel` calls `customRef`
+- `useModel` calls `watchSyncEffect`
+- `useModel` calls `hasChanged`
+- `getModelModifiers` calls `camelize`
+- `getModelModifiers` calls `hyphenate`
+- `emit` calls `toHandlerKey`
+- `emit` calls `camelize`
+- `emit` calls `warn$1`
+- `emit` calls `isFunction`
+- `emit` calls `getModelModifiers`
+- `emit` calls `isString`
+- `emit` calls `devtoolsComponentEmit`
+- `emit` calls `formatComponentName`
+- `emit` calls `hyphenate`
+- `emit` calls `callWithAsyncErrorHandling`
+- `normalizeEmitsOptions` calls `isFunction`
+- `normalizeEmitsOptions` calls `extend`
+- `normalizeEmitsOptions` calls `isObject`
+- `normalizeEmitsOptions` calls `isArray`
+- `isEmitListener` calls `isOn`
+- `isEmitListener` calls `hasOwn`
+- `isEmitListener` calls `hyphenate`
+- `renderComponentRoot` calls `setCurrentRenderingInstance`
+- `renderComponentRoot` calls `warn$1`
+- `renderComponentRoot` calls `normalizeVNode`
+- `renderComponentRoot` calls `shallowReadonly`
+- `renderComponentRoot` calls `markAttrsAccessed`
+- `renderComponentRoot` calls `getFunctionalFallthrough`
+- `renderComponentRoot` calls `handleError`
+- `renderComponentRoot` calls `createVNode`
+- `renderComponentRoot` calls `getChildRoot`
+- `renderComponentRoot` calls `filterModelListeners`
+- `renderComponentRoot` calls `cloneVNode`
+- `renderComponentRoot` calls `isOn`
+- `renderComponentRoot` calls `isModelListener`
+- `renderComponentRoot` calls `isElementRoot`
+- `renderComponentRoot` calls `setTransitionHooks`
+- `getChildRoot` calls `filterSingleRoot`
+- `getChildRoot` calls `normalizeVNode`
+- `filterSingleRoot` calls `isVNode`
+- `getFunctionalFallthrough` calls `isOn`
+- `filterModelListeners` calls `isModelListener`
+- `shouldUpdateComponent` calls `hasPropsChanged`
+- `shouldUpdateComponent` calls `hasPropValueChanged`
+- `shouldUpdateComponent` calls `isEmitListener`
+- `hasPropsChanged` calls `hasPropValueChanged`
+- `hasPropsChanged` calls `isEmitListener`
+- `hasPropValueChanged` calls `isObject`
+- `hasPropValueChanged` calls `looseEqual`
+- `initProps` calls `createInternalObject`
+- `initProps` calls `setFullProps`
+- `initProps` calls `validateProps`
+- `initProps` calls `shallowReactive`
+- `updateProps` calls `toRaw`
+- `updateProps` calls `isInHmrContext`
+- `updateProps` calls `isEmitListener`
+- `updateProps` calls `hasOwn`
+- `updateProps` calls `camelize`
+- `updateProps` calls `resolvePropValue`
+- `updateProps` calls `setFullProps`
+- `updateProps` calls `hyphenate`
+- `updateProps` calls `trigger`
+- `updateProps` calls `validateProps`
+- `setFullProps` calls `isReservedProp`
+- `setFullProps` calls `hasOwn`
+- `setFullProps` calls `camelize`
+- `setFullProps` calls `isEmitListener`
+- `setFullProps` calls `toRaw`
+- `setFullProps` calls `resolvePropValue`
+- `resolvePropValue` calls `hasOwn`
+- `resolvePropValue` calls `isFunction`
+- `resolvePropValue` calls `setCurrentInstance`
+- `resolvePropValue` calls `hyphenate`
+- `normalizePropsOptions` calls `isFunction`
+- `normalizePropsOptions` calls `extend`
+- `normalizePropsOptions` calls `isObject`
+- `normalizePropsOptions` calls `isArray`
+- `normalizePropsOptions` calls `isString`
+- `normalizePropsOptions` calls `warn$1`
+- `normalizePropsOptions` calls `camelize`
+- `normalizePropsOptions` calls `validatePropName`
+- `normalizePropsOptions` calls `hasOwn`
+- `validatePropName` calls `isReservedProp`
+- `validatePropName` calls `warn$1`
+- `validateProps` calls `toRaw`
+- `validateProps` calls `camelize`
+- `validateProps` calls `validateProp`
+- `validateProps` calls `shallowReadonly`
+- `validateProp` calls `warn$1`
+- `validateProp` calls `isArray`
+- `validateProp` calls `assertType`
+- `validateProp` calls `getInvalidTypeMessage`
+- `isSimpleType` calls `makeMap`
+- `assertType` calls `getType`
+- `assertType` calls `isSimpleType`
+- `assertType` calls `isObject`
+- `assertType` calls `isArray`
+- `getInvalidTypeMessage` calls `toRawType`
+- `getInvalidTypeMessage` calls `styleValue`
+- `getInvalidTypeMessage` calls `isExplicable`
+- `getInvalidTypeMessage` calls `isBoolean`
+- `normalizeSlotValue` calls `isArray`
+- `normalizeSlotValue` calls `normalizeVNode`
+- `normalizeSlot` calls `withCtx`
+- `normalizeSlot` calls `warn$1`
+- `normalizeSlot` calls `normalizeSlotValue`
+- `normalizeObjectSlots` calls `isInternalKey`
+- `normalizeObjectSlots` calls `isFunction`
+- `normalizeObjectSlots` calls `normalizeSlot`
+- `normalizeObjectSlots` calls `warn$1`
+- `normalizeObjectSlots` calls `normalizeSlotValue`
+- `normalizeVNodeSlots` calls `isKeepAlive`
+- `normalizeVNodeSlots` calls `warn$1`
+- `normalizeVNodeSlots` calls `normalizeSlotValue`
+- `assignSlots` calls `isInternalKey`
+- `initSlots` calls `createInternalObject`
+- `initSlots` calls `assignSlots`
+- `initSlots` calls `def`
+- `initSlots` calls `normalizeObjectSlots`
+- `initSlots` calls `normalizeVNodeSlots`
+- `updateSlots` calls `assignSlots`
+- `updateSlots` calls `trigger`
+- `updateSlots` calls `normalizeObjectSlots`
+- `updateSlots` calls `normalizeVNodeSlots`
+- `updateSlots` calls `isInternalKey`
+- `startMeasure` calls `isSupported`
+- `startMeasure` calls `devtoolsPerfStart`
+- `endMeasure` calls `isSupported`
+- `endMeasure` calls `formatComponentName`
+- `endMeasure` calls `devtoolsPerfEnd`
+- `initFeatureFlags` calls `getGlobalThis`
+- `createRenderer` calls `baseCreateRenderer`
+- `createHydrationRenderer` calls `baseCreateRenderer`
+- `baseCreateRenderer` calls `initFeatureFlags`
+- `baseCreateRenderer` calls `getGlobalThis`
+- `baseCreateRenderer` calls `setDevtoolsHook$1`
+- `baseCreateRenderer` calls `isSameVNodeType`
+- `baseCreateRenderer` calls `warn$1`
+- `baseCreateRenderer` calls `setRef`
+- `baseCreateRenderer` calls `resolveChildrenNamespace`
+- `baseCreateRenderer` calls `invokeDirectiveHook`
+- `baseCreateRenderer` calls `isReservedProp`
+- `baseCreateRenderer` calls `invokeVNodeHook`
+- `baseCreateRenderer` calls `def`
+- `baseCreateRenderer` calls `needTransition`
+- `baseCreateRenderer` calls `queuePostRenderEffect`
+- `baseCreateRenderer` calls `setHmrUpdating`
+- `baseCreateRenderer` calls `filterSingleRoot`
+- `baseCreateRenderer` calls `isSuspense`
+- `baseCreateRenderer` calls `cloneIfMounted`
+- `baseCreateRenderer` calls `normalizeVNode`
+- `baseCreateRenderer` calls `toggleRecurse`
+- `baseCreateRenderer` calls `traverseStaticChildren`
+- `baseCreateRenderer` calls `createComponentInstance`
+- `baseCreateRenderer` calls `registerHMR`
+- `baseCreateRenderer` calls `pushWarningContext`
+- `baseCreateRenderer` calls `startMeasure`
+- `baseCreateRenderer` calls `isKeepAlive`
+- `baseCreateRenderer` calls `setupComponent`
+- `baseCreateRenderer` calls `endMeasure`
+- `baseCreateRenderer` calls `createVNode`
+- `baseCreateRenderer` calls `popWarningContext`
+- `baseCreateRenderer` calls `shouldUpdateComponent`
+- `baseCreateRenderer` calls `isAsyncWrapper`
+- `baseCreateRenderer` calls `invokeArrayFns`
+- `baseCreateRenderer` calls `renderComponentRoot`
+- `baseCreateRenderer` calls `devtoolsComponentAdded`
+- `baseCreateRenderer` calls `locateNonHydratedAsyncRoot`
+- `baseCreateRenderer` calls `updateHOCHostEl`
+- `baseCreateRenderer` calls `devtoolsComponentUpdated`
+- `baseCreateRenderer` calls `queueJob`
+- `baseCreateRenderer` calls `updateProps`
+- `baseCreateRenderer` calls `updateSlots`
+- `baseCreateRenderer` calls `pauseTracking`
+- `baseCreateRenderer` calls `flushPreFlushCbs`
+- `baseCreateRenderer` calls `resetTracking`
+- `baseCreateRenderer` calls `getSequence`
+- `baseCreateRenderer` calls `resolveAsyncComponentPlaceholder`
+- `baseCreateRenderer` calls `unregisterHMR`
+- `baseCreateRenderer` calls `invalidateMount`
+- `baseCreateRenderer` calls `devtoolsComponentRemoved`
+- `baseCreateRenderer` calls `flushPostFlushCbs`
+- `baseCreateRenderer` calls `createAppAPI`
+- `traverseStaticChildren` calls `isArray`
+- `traverseStaticChildren` calls `cloneIfMounted`
+- `SuspenseImpl` calls `mountSuspense`
+- `SuspenseImpl` calls `patchSuspense`
+- `triggerEvent` calls `isFunction`
+- `mountSuspense` calls `createSuspenseBoundary`
+- `mountSuspense` calls `triggerEvent`
+- `mountSuspense` calls `setActiveBranch`
+- `patchSuspense` calls `isSameVNodeType`
+- `patchSuspense` calls `setActiveBranch`
+- `patchSuspense` calls `triggerEvent`
+- `createSuspenseBoundary` calls `isVNodeSuspensible`
+- `createSuspenseBoundary` calls `toNumber`
+- `createSuspenseBoundary` calls `assertNumber`
+- `createSuspenseBoundary` calls `queuePostFlushCb`
+- `createSuspenseBoundary` calls `queuePostRenderEffect`
+- `createSuspenseBoundary` calls `setActiveBranch`
+- `createSuspenseBoundary` calls `triggerEvent`
+- `createSuspenseBoundary` calls `handleError`
+- `createSuspenseBoundary` calls `pushWarningContext`
+- `createSuspenseBoundary` calls `handleSetupResult`
+- `createSuspenseBoundary` calls `updateHOCHostEl`
+- `createSuspenseBoundary` calls `popWarningContext`
+- `hydrateSuspense` calls `createSuspenseBoundary`
+- `normalizeSuspenseChildren` calls `normalizeSuspenseSlot`
+- `normalizeSuspenseChildren` calls `createVNode`
+- `normalizeSuspenseSlot` calls `isFunction`
+- `normalizeSuspenseSlot` calls `openBlock`
+- `normalizeSuspenseSlot` calls `closeBlock`
+- `normalizeSuspenseSlot` calls `isArray`
+- `normalizeSuspenseSlot` calls `filterSingleRoot`
+- `normalizeSuspenseSlot` calls `warn$1`
+- `normalizeSuspenseSlot` calls `normalizeVNode`
+- `queueEffectWithSuspense` calls `isArray`
+- `queueEffectWithSuspense` calls `queuePostFlushCb`
+- `setActiveBranch` calls `updateHOCHostEl`
+- `setupBlock` calls `closeBlock`
+- `createElementBlock` calls `setupBlock`
+- `createElementBlock` calls `createBaseVNode`
+- `createBlock` calls `setupBlock`
+- `createBlock` calls `createVNode`
+- `createVNodeWithArgsTransform` calls `_createVNode`
+- `createVNodeWithArgsTransform` calls `vnodeArgsTransformer`
+- `normalizeRef` calls `isString`
+- `normalizeRef` calls `isRef2`
+- `normalizeRef` calls `isFunction`
+- `createBaseVNode` calls `normalizeKey`
+- `createBaseVNode` calls `normalizeRef`
+- `createBaseVNode` calls `normalizeChildren`
+- `createBaseVNode` calls `isString`
+- `createBaseVNode` calls `warn$1`
+- `_createVNode` calls `warn$1`
+- `_createVNode` calls `isVNode`
+- `_createVNode` calls `cloneVNode`
+- `_createVNode` calls `normalizeChildren`
+- `_createVNode` calls `isClassComponent`
+- `_createVNode` calls `guardReactiveProps`
+- `_createVNode` calls `isString`
+- `_createVNode` calls `normalizeClass`
+- `_createVNode` calls `isObject`
+- `_createVNode` calls `isProxy`
+- `_createVNode` calls `isArray`
+- `_createVNode` calls `extend`
+- `_createVNode` calls `normalizeStyle`
+- `_createVNode` calls `isSuspense`
+- `_createVNode` calls `isTeleport`
+- `_createVNode` calls `isFunction`
+- `_createVNode` calls `toRaw`
+- `_createVNode` calls `createBaseVNode`
+- `guardReactiveProps` calls `isProxy`
+- `guardReactiveProps` calls `isInternalObject`
+- `guardReactiveProps` calls `extend`
+- `cloneVNode` calls `mergeProps`
+- `cloneVNode` calls `normalizeKey`
+- `cloneVNode` calls `isArray`
+- `cloneVNode` calls `normalizeRef`
+- `cloneVNode` calls `setTransitionHooks`
+- `deepCloneVNode` calls `cloneVNode`
+- `deepCloneVNode` calls `isArray`
+- `createTextVNode` calls `createVNode`
+- `createStaticVNode` calls `createVNode`
+- `createCommentVNode` calls `openBlock`
+- `createCommentVNode` calls `createBlock`
+- `createCommentVNode` calls `createVNode`
+- `normalizeVNode` calls `createVNode`
+- `normalizeVNode` calls `isArray`
+- `normalizeVNode` calls `isVNode`
+- `normalizeVNode` calls `cloneIfMounted`
+- `cloneIfMounted` calls `cloneVNode`
+- `normalizeChildren` calls `isArray`
+- `normalizeChildren` calls `isInternalObject`
+- `normalizeChildren` calls `isFunction`
+- `normalizeChildren` calls `createTextVNode`
+- `mergeProps` calls `normalizeClass`
+- `mergeProps` calls `normalizeStyle`
+- `mergeProps` calls `isOn`
+- `mergeProps` calls `isArray`
+- `mergeProps` calls `isModelListener`
+- `invokeVNodeHook` calls `callWithAsyncErrorHandling`
+- `emptyAppContext` calls `createAppContext`
+- `createComponentInstance` calls `normalizePropsOptions`
+- `createComponentInstance` calls `normalizeEmitsOptions`
+- `createComponentInstance` calls `createDevRenderContext`
+- `setCurrentInstance` calls `internalSetCurrentInstance`
+- `unsetCurrentInstance` calls `internalSetCurrentInstance`
+- `isBuiltInTag` calls `makeMap`
+- `validateComponentName` calls `isBuiltInTag`
+- `validateComponentName` calls `warn$1`
+- `setupComponent` calls `setInSSRSetupState`
+- `setupComponent` calls `isStatefulComponent`
+- `setupComponent` calls `initProps`
+- `setupComponent` calls `initSlots`
+- `setupComponent` calls `setupStatefulComponent`
+- `setupStatefulComponent` calls `validateComponentName`
+- `setupStatefulComponent` calls `validateDirectiveName`
+- `setupStatefulComponent` calls `isRuntimeOnly`
+- `setupStatefulComponent` calls `warn$1`
+- `setupStatefulComponent` calls `exposePropsOnRenderContext`
+- `setupStatefulComponent` calls `pauseTracking`
+- `setupStatefulComponent` calls `createSetupContext`
+- `setupStatefulComponent` calls `setCurrentInstance`
+- `setupStatefulComponent` calls `callWithErrorHandling`
+- `setupStatefulComponent` calls `shallowReadonly`
+- `setupStatefulComponent` calls `isPromise`
+- `setupStatefulComponent` calls `resetTracking`
+- `setupStatefulComponent` calls `isAsyncWrapper`
+- `setupStatefulComponent` calls `markAsyncBoundary`
+- `setupStatefulComponent` calls `handleSetupResult`
+- `setupStatefulComponent` calls `handleError`
+- `setupStatefulComponent` calls `formatComponentName`
+- `setupStatefulComponent` calls `finishComponentSetup`
+- `handleSetupResult` calls `isFunction`
+- `handleSetupResult` calls `isObject`
+- `handleSetupResult` calls `isVNode`
+- `handleSetupResult` calls `warn$1`
+- `handleSetupResult` calls `proxyRefs`
+- `handleSetupResult` calls `exposeSetupStateOnRenderContext`
+- `handleSetupResult` calls `finishComponentSetup`
+- `finishComponentSetup` calls `resolveMergedOptions`
+- `finishComponentSetup` calls `startMeasure`
+- `finishComponentSetup` calls `extend`
+- `finishComponentSetup` calls `compile`
+- `finishComponentSetup` calls `endMeasure`
+- `finishComponentSetup` calls `installWithProxy`
+- `finishComponentSetup` calls `setCurrentInstance`
+- `finishComponentSetup` calls `pauseTracking`
+- `finishComponentSetup` calls `applyOptions`
+- `finishComponentSetup` calls `resetTracking`
+- `finishComponentSetup` calls `warn$1`
+- `attrsProxyHandlers` calls `markAttrsAccessed`
+- `attrsProxyHandlers` calls `track`
+- `attrsProxyHandlers` calls `warn$1`
+- `getSlotsProxy` calls `track`
+- `createSetupContext` calls `warn$1`
+- `createSetupContext` calls `isArray`
+- `createSetupContext` calls `isRef2`
+- `createSetupContext` calls `getSlotsProxy`
+- `getComponentPublicInstance` calls `proxyRefs`
+- `getComponentPublicInstance` calls `markRaw`
+- `getComponentName` calls `isFunction`
+- `formatComponentName` calls `getComponentName`
+- `formatComponentName` calls `classify`
+- `isClassComponent` calls `isFunction`
+- `computed2` calls `computed`
+- `computed2` calls `getCurrentInstance`
+- `h` calls `setBlockTracking`
+- `h` calls `isObject`
+- `h` calls `isArray`
+- `h` calls `isVNode`
+- `h` calls `createVNode`
+- `initCustomFormatter` calls `isObject`
+- `initCustomFormatter` calls `isRef2`
+- `initCustomFormatter` calls `pauseTracking`
+- `initCustomFormatter` calls `resetTracking`
+- `initCustomFormatter` calls `isReactive`
+- `initCustomFormatter` calls `isShallow`
+- `initCustomFormatter` calls `isReadonly`
+- `initCustomFormatter` calls `toRaw`
+- `initCustomFormatter` calls `extend`
+- `initCustomFormatter` calls `isFunction`
+- `initCustomFormatter` calls `isArray`
+- `withMemo` calls `isMemoSame`
+- `isMemoSame` calls `hasChanged`
+- `nodeOps` calls `unsafeToTrustedHTML`
+- `TransitionPropsValidators` calls `extend`
+- `Transition` calls `decorate$1`
+- `Transition` calls `h`
+- `Transition` calls `resolveTransitionProps`
+- `callHook2` calls `isArray`
+- `hasExplicitCallback` calls `isArray`
+- `resolveTransitionProps` calls `normalizeDuration`
+- `resolveTransitionProps` calls `removeTransitionClass`
+- `resolveTransitionProps` calls `callHook2`
+- `resolveTransitionProps` calls `nextFrame`
+- `resolveTransitionProps` calls `addTransitionClass`
+- `resolveTransitionProps` calls `hasExplicitCallback`
+- `resolveTransitionProps` calls `whenTransitionEnds`
+- `resolveTransitionProps` calls `extend`
+- `resolveTransitionProps` calls `forceReflow`
+- `normalizeDuration` calls `isObject`
+- `normalizeDuration` calls `NumberOf`
+- `NumberOf` calls `toNumber`
+- `NumberOf` calls `assertNumber`
+- `whenTransitionEnds` calls `getTransitionInfo`
+- `getTransitionInfo` calls `getTimeout`
+- `getTimeout` calls `toMs`
+- `vShow` calls `setDisplay`
+- `useCssVars` calls `getCurrentInstance`
+- `useCssVars` calls `warn2`
+- `useCssVars` calls `setVarsOnNode`
+- `useCssVars` calls `setVarsOnVNode`
+- `useCssVars` calls `onBeforeUpdate`
+- `useCssVars` calls `queuePostFlushCb`
+- `useCssVars` calls `onMounted`
+- `useCssVars` calls `watch2`
+- `useCssVars` calls `onUnmounted`
+- `setVarsOnVNode` calls `setVarsOnNode`
+- `setVarsOnNode` calls `normalizeCssVarValue`
+- `patchStyle` calls `isString`
+- `patchStyle` calls `setStyle`
+- `setStyle` calls `isArray`
+- `setStyle` calls `warn2`
+- `setStyle` calls `autoPrefix`
+- `setStyle` calls `hyphenate`
+- `autoPrefix` calls `camelize`
+- `autoPrefix` calls `capitalize`
+- `patchAttr` calls `includeBooleanAttr`
+- `patchAttr` calls `isSymbol`
+- `patchDOMProp` calls `unsafeToTrustedHTML`
+- `patchDOMProp` calls `includeBooleanAttr`
+- `patchDOMProp` calls `warn2`
+- `patchEvent` calls `sanitizeEventValue`
+- `patchEvent` calls `parseName`
+- `patchEvent` calls `createInvoker`
+- `patchEvent` calls `addEventListener`
+- `patchEvent` calls `removeEventListener`
+- `parseName` calls `hyphenate`
+- `createInvoker` calls `callWithAsyncErrorHandling`
+- `createInvoker` calls `patchStopImmediatePropagation`
+- `createInvoker` calls `getNow`
+- `sanitizeEventValue` calls `isFunction`
+- `sanitizeEventValue` calls `isArray`
+- `sanitizeEventValue` calls `warn2`
+- `patchStopImmediatePropagation` calls `isArray`
+- `patchProp` calls `patchClass`
+- `patchProp` calls `patchStyle`
+- `patchProp` calls `isOn`
+- `patchProp` calls `isModelListener`
+- `patchProp` calls `patchEvent`
+- `patchProp` calls `shouldSetAsProp`
+- `patchProp` calls `patchDOMProp`
+- `patchProp` calls `patchAttr`
+- `patchProp` calls `shouldSetAsPropForVueCE`
+- `patchProp` calls `isString`
+- `patchProp` calls `camelize`
+- `shouldSetAsProp` calls `isNativeOn`
+- `shouldSetAsProp` calls `isFunction`
+- `shouldSetAsProp` calls `isString`
+- `shouldSetAsPropForVueCE` calls `camelize`
+- `defineCustomElement` calls `defineComponent`
+- `defineCustomElement` calls `isPlainObject`
+- `defineCustomElement` calls `extend`
+- `defineSSRCustomElement` calls `defineCustomElement`
+- `VueElement` calls `warn2`
+- `VueElement` calls `extend`
+- `VueElement` calls `nextTick`
+- `VueElement` calls `isArray`
+- `VueElement` calls `toNumber`
+- `VueElement` calls `camelize`
+- `VueElement` calls `hasOwn`
+- `VueElement` calls `unref`
+- `VueElement` calls `hyphenate`
+- `VueElement` calls `render`
+- `VueElement` calls `createVNode`
+- `VueElement` calls `isPlainObject`
+- `useHost` calls `getCurrentInstance`
+- `useHost` calls `warn2`
+- `useShadowRoot` calls `useHost`
+- `useCssModule` calls `getCurrentInstance`
+- `useCssModule` calls `warn2`
+- `TransitionGroupImpl` calls `decorate`
+- `TransitionGroupImpl` calls `extend`
+- `TransitionGroupImpl` calls `getCurrentInstance`
+- `TransitionGroupImpl` calls `useTransitionState`
+- `TransitionGroupImpl` calls `onUpdated`
+- `TransitionGroupImpl` calls `hasCSSTransform`
+- `TransitionGroupImpl` calls `forceReflow`
+- `TransitionGroupImpl` calls `addTransitionClass`
+- `TransitionGroupImpl` calls `removeTransitionClass`
+- `TransitionGroupImpl` calls `toRaw`
+- `TransitionGroupImpl` calls `resolveTransitionProps`
+- `TransitionGroupImpl` calls `setTransitionHooks`
+- `TransitionGroupImpl` calls `resolveTransitionHooks`
+- `TransitionGroupImpl` calls `getPosition`
+- `TransitionGroupImpl` calls `getTransitionRawChildren`
+- `TransitionGroupImpl` calls `warn2`
+- `TransitionGroupImpl` calls `createVNode`
+- `recordPosition` calls `getPosition`
+- `hasCSSTransform` calls `getTransitionInfo`
+- `getModelAssigner` calls `isArray`
+- `getModelAssigner` calls `invokeArrayFns`
+- `castValue` calls `looseToNumber`
+- `vModelText` calls `getModelAssigner`
+- `vModelText` calls `addEventListener`
+- `vModelText` calls `castValue`
+- `vModelText` calls `looseToNumber`
+- `vModelCheckbox` calls `getModelAssigner`
+- `vModelCheckbox` calls `addEventListener`
+- `vModelCheckbox` calls `getValue`
+- `vModelCheckbox` calls `isArray`
+- `vModelCheckbox` calls `looseIndexOf`
+- `vModelCheckbox` calls `isSet`
+- `vModelCheckbox` calls `getCheckboxValue`
+- `vModelCheckbox` calls `setChecked`
+- `setChecked` calls `isArray`
+- `setChecked` calls `looseIndexOf`
+- `setChecked` calls `isSet`
+- `setChecked` calls `looseEqual`
+- `setChecked` calls `getCheckboxValue`
+- `vModelRadio` calls `looseEqual`
+- `vModelRadio` calls `getModelAssigner`
+- `vModelRadio` calls `addEventListener`
+- `vModelRadio` calls `getValue`
+- `vModelSelect` calls `isSet`
+- `vModelSelect` calls `addEventListener`
+- `vModelSelect` calls `looseToNumber`
+- `vModelSelect` calls `getValue`
+- `vModelSelect` calls `nextTick`
+- `vModelSelect` calls `getModelAssigner`
+- `vModelSelect` calls `setSelected`
+- `setSelected` calls `isArray`
+- `setSelected` calls `isSet`
+- `setSelected` calls `warn2`
+- `setSelected` calls `getValue`
+- `setSelected` calls `looseIndexOf`
+- `setSelected` calls `looseEqual`
+- `vModelDynamic` calls `callModelHook`
+- `callModelHook` calls `resolveDynamicModel`
+- `initVModelForSSR` calls `looseEqual`
+- `initVModelForSSR` calls `isArray`
+- `initVModelForSSR` calls `looseIndexOf`
+- `initVModelForSSR` calls `isSet`
+- `initVModelForSSR` calls `resolveDynamicModel`
+- `withKeys` calls `hyphenate`
+- `rendererOptions` calls `extend`
+- `ensureRenderer` calls `createRenderer`
+- `ensureHydrationRenderer` calls `createHydrationRenderer`
+- `render` calls `ensureRenderer`
+- `hydrate` calls `ensureHydrationRenderer`
+- `createApp` calls `ensureRenderer`
+- `createApp` calls `injectNativeTagCheck`
+- `createApp` calls `injectCompilerOptionsCheck`
+- `createApp` calls `normalizeContainer`
+- `createApp` calls `isFunction`
+- `createApp` calls `resolveRootNamespace`
+- `createSSRApp` calls `ensureHydrationRenderer`
+- `createSSRApp` calls `injectNativeTagCheck`
+- `createSSRApp` calls `injectCompilerOptionsCheck`
+- `createSSRApp` calls `normalizeContainer`
+- `createSSRApp` calls `resolveRootNamespace`
+- `injectNativeTagCheck` calls `isHTMLTag`
+- `injectNativeTagCheck` calls `isSVGTag`
+- `injectNativeTagCheck` calls `isMathMLTag`
+- `injectCompilerOptionsCheck` calls `isRuntimeOnly`
+- `injectCompilerOptionsCheck` calls `warn2`
+- `normalizeContainer` calls `isString`
+- `normalizeContainer` calls `warn2`
+- `initDirectivesForSSR` calls `initVModelForSSR`
+- `initDirectivesForSSR` calls `initVShowForSSR`
+- `initDev` calls `initCustomFormatter`
+- `compile2` calls `warn2`
+
+## Diagnostics
+
+- No parser diagnostics.
+
+## Related Outputs
+
+- [[outputs/source-briefs/directory-op-597d97ce|Source Brief: op]]
+

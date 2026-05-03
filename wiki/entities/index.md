@@ -15,14 +15,109 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:46:20.433Z'
-updated_at: '2026-05-03T04:02:11.662Z'
+updated_at: '2026-05-03T05:33:22.306Z'
 compiled_from:
-  - 1-why-5b9657bb
+  - 1-eyeballs-1b0b88c7
+  - 12-the-conference-cc7a4771
+  - 14-markets-38a7b571
+  - 15-the-coexistence-22bc8664
+  - 17-the-gallium-28cb4937
+  - 2-research-trail-834ba4c9
+  - 20-promise-65f67015
+  - 20-the-playground-353dd7fb
+  - 22-nothing-4cfe372b
+  - 22-the-dream-layer-d04b39b6
+  - 23-treaty-ba942823
+  - 24-the-trial-ad8162d4
+  - 26-the-compilers-528e2d40
+  - 27-build-link-runtime-2e7dc35f
   - 28-dobby-is-free-6542412c
+  - 30-the-first-stranger-502ca504
+  - 32-the-verdict-3837cfdb
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
+  - 33-the-amplifier-e4125d9b
+  - 3a-pub-bar-role-game-discoveries-6494703c
+  - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 9-address-0633f40c
+  - acknowledgements-bbe9037d
+  - faq-d7ac412d
+  - fifteen-times-the-same-idea-4245d970
+  - to-build-the-future-look-at-the-past-5557730d
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-first-vendors-not-a-standard-library-f05eb450
+  - 1-why-5b9657bb
   - >-
     github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
   - op-a39d2486
+  - 13-convergent-evolution-42fa3b44
+  - 21-the-atoms-speak-72df059e
+  - 21-the-atoms-speak-c38fb792
+  - 23-the-vacant-cell-4774271c
+  - devlog-a4b51b88
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-contract-that-wouldn-t-break-fa2e5b4e
+  - three-atoms-28e52786
+  - three-atoms-f9d1fbb2
+  - 10-there-is-no-generation-35e5560a
+  - op-33cc57bb
+  - 11-from-silicon-to-struct-283a2ad1
+  - 18-the-fourth-rail-368f05dd
+  - 14-the-fact-7e232060
+  - 6-forgotten-dff037fc
+  - 15-black-dfde2647
+  - 3c-pub-bar-role-game-smithy-walks-in-67e90c4b
+  - 25-the-manifesto-ebee95e5
+  - package-lock-22d613f6
+  - package-lock-5960ef1f
+  - 16-the-founder-s-dream-7178fd75
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
+  - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - universal-roadmap-8fa1b496
+  - universal-roadmap-cdd00ede
+  - 2-gallium-8a4130eb
   - 18-the-fourth-rail-f496db69
+  - 19-the-missing-format-37a6499f
+  - 29-the-anthill-organizes-21255101
+  - playground-cd3a86d7
+  - rfc-the-operation-protocol-cb01fbf6
+  - bug-report-0c8d64f2
+  - 31-the-hamster-leaves-the-wheel-8bb31c69
+  - 7-linus-a63f10aa
+  - 3b-pub-bar-role-game-the-bar-reopens-3094a23e
+  - 3d-pub-bar-role-game-the-krabby-patty-3de2f4ab
+  - auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79
+  - go-c7d8e97e
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - thumbrise-open-source-go-tooling-logo-2edf0302
+  - the-observation-6da70cdd
+  - 3g-pub-bar-role-game-deepseek-s-letter-4b07f74b
+  - 3e-pub-bar-role-game-runtime-autopsy-e1b81c09
+  - form-of-instruction-notes-9051c314
+  - epilogue-3382e75b
+  - review-guidelines-0fa832f7
+  - review-guidelines-3c6b1ba1
+  - 9-the-operation-comes-first-f6c6890b
+  - ci-fab63fbd
+  - feature-request-1f48c52f
+  - gitignore-0262f82c
+  - gitignore-b836fd5b
+  - go-fcb237cc
+  - license-c71d239d
+  - package-72ca090f
+  - package-945abd34
+  - robots-fb799b43
+  - sun-icon-62e8e513
+  - sun-icon-9147bef6
+  - sun-icon-b3129a76
+  - web-app-manifest-512x512-af162064
+  - the-idea-636ec680
+  - the-problems-13af562d
 managed_by: system
 backlinks: []
 schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
@@ -31,9 +126,244 @@ source_semantic_hashes: {}
 ---
 # Entities
 
+- [[entities/op|Op]]
 - [[entities/why|Why]]
+- [[entities/i-ve|I've]]
+- [[entities/we|We]]
+- [[entities/scramble|Scramble —]]
+- [[entities/pro|Pro]]
+- [[entities/emitter|Emitter]]
+- [[entities/receiver|Receiver]]
+- [[entities/instruction|Instruction]]
+- [[entities/d-bus|D-Bus]]
+- [[entities/term|Term]]
+- [[entities/kind|Kind]]
+- [[entities/rail|Rail]]
+- [[entities/trait|Trait]]
+- [[entities/object-kind|Object (Kind)]]
+- [[entities/array-kind|Array (Kind)]]
+- [[entities/enum-kind|Enum (Kind)]]
+- [[entities/the-conference|The Conference]]
+- [[entities/the-conference-we|The Conference We]]
+- [[entities/devops|DevOps]]
+- [[entities/redirect-someone|Redirect Someone]]
+- [[entities/convergent-evolution|Convergent Evolution]]
+- [[entities/convergent-evolution-this|Convergent Evolution This]]
+- [[entities/swagger|Swagger]]
+- [[entities/eye|Eye]]
+- [[entities/vertical|Vertical]]
+- [[entities/op-the-protocol|Op (The Protocol)]]
+- [[entities/wamp-web-application-messaging-protocol|WAMP (Web Application Messaging Protocol)]]
+- [[entities/openapi|OpenAPI]]
+- [[entities/fhir|FHIR]]
+- [[entities/python|Python.]]
+- [[entities/coexistence|Coexistence]]
+- [[entities/coexistence-every|Coexistence Every]]
+- [[entities/pipe|Pipe]]
+- [[entities/contents|Contents]]
+- [[entities/uri|URI]]
+- [[entities/founder-s-dream|Founder's Dream]]
+- [[entities/founder-s-dream-in|Founder's Dream In]]
+- [[entities/scientific-american|Scientific American.]]
+- [[entities/sir-just|sir. Just]]
+- [[entities/what|What]]
+- [[entities/gallium|Gallium]]
+- [[entities/laravel|Laravel?]]
+- [[entities/gallium-we|Gallium We]]
+- [[entities/fourth-rail|Fourth Rail]]
+- [[entities/dima|Dima]]
+- [[entities/unification-trait|Unification Trait]]
+- [[entities/fourth-rail-this|Fourth Rail This]]
 - [[entities/dognotfound|DogNotFound},]]
+- [[entities/missing-format|Missing Format]]
+- [[entities/fonts|Fonts]]
+- [[entities/missing-format-this|Missing Format This]]
+- [[entities/mendeleev|Mendeleev]]
+- [[entities/two-sins-in|Two Sins In]]
+- [[entities/berners-lee|Berners-Lee]]
+- [[entities/research-trail|Research Trail]]
+- [[entities/scramble-huma|Scramble, Huma,]]
+- [[entities/wire|Wire —]]
+- [[entities/research-trail-before|Research Trail Before]]
+- [[entities/op-s|Op's]]
+- [[entities/playground|Playground]]
+- [[entities/playground-seventeen|Playground Seventeen]]
+- [[entities/problem-with-words-we|Problem With Words We]]
+- [[entities/murat|Murat .]]
+- [[entities/atoms-speak|Atoms Speak]]
+- [[entities/atoms-speak-we|Atoms Speak We]]
+- [[entities/comment-enters|Comment Enters]]
+- [[entities/atom|Atom]]
+- [[entities/dream-layer|Dream Layer]]
+- [[entities/dream-layer-this|Dream Layer This]]
+- [[entities/two-layers|Two Layers]]
+- [[entities/delivery|Delivery.]]
+- [[entities/meaning|Meaning.]]
+- [[entities/vacant-cell|Vacant Cell]]
+- [[entities/vacant-cell-mendeleev|Vacant Cell Mendeleev]]
+- [[entities/claim-we|Claim We]]
+- [[entities/websocket|WebSocket,]]
+- [[entities/protobuf|Protobuf,]]
+- [[entities/trial|Trial]]
+- [[entities/trial-science|Trial Science]]
+- [[entities/deepseek|DeepSeek]]
+- [[entities/manifesto|Manifesto]]
+- [[entities/everyone|Everyone]]
+- [[entities/transport|Transport]]
+- [[entities/blind-spot-every|Blind Spot Every]]
+- [[entities/chat-stream-clientmessage|Chat(stream ClientMessage) —]]
+- [[entities/compilers|Compilers]]
+- [[entities/n-worlds|## N Worlds,]]
+- [[entities/contracts|Contracts]]
+- [[entities/core-uri|Core((("URI]]
+- [[entities/core|Core]]
+- [[entities/build|Build,]]
+- [[entities/runtime|Runtime]]
+- [[entities/three|Three]]
+- [[entities/plate|Plate]]
+- [[entities/dobby-is-free|Dobby Is Free]]
+- [[entities/someone|Someone]]
+- [[entities/tony-tam|Tony Tam]]
+- [[entities/anthill-organizes|Anthill Organizes]]
+- [[entities/compatibility|Compatibility]]
+- [[entities/anthill-organizes-devlog|Anthill Organizes Devlog]]
+- [[entities/if|If]]
+- [[entities/ruslan|Ruslan]]
+- [[entities/urbio-http|`urbio/http`]]
+- [[entities/hamster-leaves|Hamster Leaves]]
+- [[entities/wheel|Wheel]]
+- [[entities/six|Six]]
+- [[entities/prologue|Prologue —]]
+- [[entities/one|One]]
+- [[entities/wildberries|Wildberries]]
+- [[entities/verdict|Verdict]]
+- [[entities/verdict-one-topology-four-witnesses|Verdict: One Topology, Four Witnesses]]
+- [[entities/prologue-after|Prologue — After]]
+- [[entities/this-journal|This journal]]
+- [[entities/amplifier|Amplifier]]
+- [[entities/devin|Devin]]
+- [[entities/prologue-an|Prologue — An]]
+- [[entities/discoveries|Discoveries]]
+- [[entities/pub-bar-role-game|Pub Bar Role Game]]
+- [[entities/phase|Phase]]
+- [[entities/bar-reopens|Bar Reopens]]
+- [[entities/op-protobuf|Op, Protobuf,]]
+- [[entities/go|Go]]
+- [[entities/dsl|DSL]]
+- [[entities/createdog-handle|(*CreateDog).Handle,]]
+- [[entities/for|For]]
+- [[entities/smithy-walks-in|Smithy Walks In]]
+- [[entities/smithy|Smithy]]
+- [[entities/java|Java]]
+- [[entities/guys|Guys,]]
+- [[entities/exactly|Exactly.]]
+- [[entities/krabby-patty-description|Krabby Patty description:]]
+- [[entities/krabby-patty|Krabby Patty.]]
+- [[entities/runtime-autopsy|Runtime Autopsy]]
+- [[entities/goreleaser|GoReleaser]]
+- [[entities/jennifer|Jennifer]]
+- [[entities/goreleaser-guys|GoReleaser: Guys.]]
+- [[entities/bar-owner-speaks|Bar Owner Speaks]]
+- [[entities/smithy-s|Smithy's]]
+- [[entities/op-smithy|Op: Smithy,]]
+- [[entities/deepseek-s-letter|DeepSeek's Letter]]
+- [[entities/box|Box]]
+- [[entities/rust|Rust.]]
+- [[entities/php|PHP]]
+- [[entities/epilogue|Epilogue]]
+- [[entities/poc|POC,]]
+- [[entities/rfc|RFC,]]
+- [[entities/zend-engine-analogy-it|Zend Engine Analogy It]]
+- [[entities/zend-engine|Zend Engine.]]
+- [[entities/operation-comes-first|Operation Comes First]]
+- [[entities/dog|Dog]]
+- [[entities/cheetah-then|Cheetah Then]]
+- [[entities/config|Config]]
+- [[entities/documentation|Documentation]]
+- [[entities/scripts|Scripts]]
+- [[entities/taskfile-yaml|Taskfile.yaml]]
+- [[entities/reproduce-steps|Reproduce Steps]]
+- [[entities/expected|Expected]]
+- [[entities/browser|Browser]]
+- [[entities/version|Version]]
+- [[entities/smartphone|Smartphone]]
+- [[entities/actions-checkout-v6|actions/checkout@v6]]
+- [[entities/actions-setup-go-v6|actions/setup-go@v6]]
+- [[entities/permissions|permissions]]
+- [[entities/jobs|jobs]]
+- [[entities/devlog|Devlog]]
+- [[entities/devlog-this|Devlog This]]
+- [[entities/smithy-cloudevents-asyncapi|Smithy, CloudEvents, AsyncAPI.]]
+- [[entities/i-m|I'm]]
+- [[entities/describe|Describe]]
+- [[entities/add|Add]]
+- [[entities/fifteen-times|Fifteen Times]]
+- [[entities/same-idea|Same Idea]]
+- [[entities/same-idea-we|Same Idea We]]
+- [[entities/reinventions|Reinventions]]
 - [[entities/id|Id).]]
 - [[entities/input|Input).]]
 - [[entities/buydog-input-buydoginput-buydogoutput|BuyDog(input: BuyDogInput): BuyDogOutput]]
 - [[entities/budgetexceeded-five|BudgetExceeded Five]]
+- [[entities/vitepress-dist|.vitepress/dist]]
+- [[entities/github|!/.github]]
+- [[entities/github-com-thumbrise-op|github.com/thumbrise/op]]
+- [[entities/1-26-1|1.26.1]]
+- [[entities/github-com-thumbrise-op-sdk-go|github.com/thumbrise/op/sdk/go]]
+- [[entities/go-1-26-0|Go 1.26.0]]
+- [[entities/license-version|License Version]]
+- [[entities/sections|Sections]]
+- [[entities/license|License.]]
+- [[entities/entity|Entity"]]
+- [[entities/legal-entity|Legal Entity]]
+- [[entities/source|Source]]
+- [[entities/vitepress|VitePress]]
+- [[entities/vue-js|Vue.js]]
+- [[entities/mermaid|mermaid]]
+- [[entities/ajv|ajv]]
+- [[entities/protocol|Protocol]]
+- [[entities/typescript|TypeScript]]
+- [[entities/node-modules-semantic-release-github|"node_modules/@semantic-release/github":]]
+- [[entities/ms|"ms":]]
+- [[entities/clause|Clause",]]
+- [[entities/darwin|"darwin"]]
+- [[entities/walker|walker":]]
+- [[entities/guidelines|Guidelines]]
+- [[entities/submit|Submit]]
+- [[entities/code|Code]]
+- [[entities/user-agent|User-agent: *]]
+- [[entities/allow|Allow: /]]
+- [[entities/https-thumbrise-github-io-op-sitemap-xml|https://thumbrise.github.io/op/sitemap.xml]]
+- [[entities/iconography|Iconography]]
+- [[entities/sun-icon|Sun Icon]]
+- [[entities/yellow-circle|Yellow Circle]]
+- [[entities/rays|Rays]]
+- [[entities/contract-that-wouldn-t|Contract That Wouldn't]]
+- [[entities/break|Break]]
+- [[entities/break-we|Break We]]
+- [[entities/error-without-opinion|Error Without Opinion]]
+- [[entities/val|VAL]]
+- [[entities/operations-protocol-formalizing|Operations Protocol: Formalizing]]
+- [[entities/missing-foundation|Missing Foundation]]
+- [[entities/formalizing|Formalizing]]
+- [[entities/missing-foundation-we|Missing Foundation We]]
+- [[entities/problems|Problems]]
+- [[entities/you-write|You Write]]
+- [[entities/same-thing-again|Same Thing Again]]
+- [[entities/again|Again]]
+- [[entities/three-atoms|Three Atoms]]
+- [[entities/three-atoms-we|Three Atoms We]]
+- [[entities/json-schema|JSON Schema.]]
+- [[entities/google|Google]]
+- [[entities/naming-problem|Naming Problem]]
+- [[entities/thumbrise|thumbrise]]
+- [[entities/github-com|github.com]]
+- [[entities/to-build|To Build]]
+- [[entities/future-look|Future, Look]]
+- [[entities/past|Past]]
+- [[entities/opentelemetry|OpenTelemetry,]]
+- [[entities/past-we|Past We]]
+- [[entities/first-inhabitants|first inhabitants]]
+- [[entities/fixtures|Fixtures —]]
+- [[entities/milestone|Milestone]]
+- [[entities/radiating-rays|Radiating Rays]]

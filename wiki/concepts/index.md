@@ -15,35 +15,161 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:46:20.433Z'
-updated_at: '2026-05-03T04:02:11.662Z'
+updated_at: '2026-05-03T05:33:22.305Z'
 compiled_from:
-  - 1-why-5b9657bb
-  - 16-the-founder-s-dream-7178fd75
-  - 17-the-gallium-28cb4937
+  - 001-what-is-an-operation-640ebffc
+  - 12-the-conference-cc7a4771
+  - 13-convergent-evolution-42fa3b44
   - 2-research-trail-834ba4c9
+  - 20-the-playground-353dd7fb
+  - 24-the-trial-ad8162d4
+  - 9-the-operation-comes-first-f6c6890b
+  - fifteen-times-the-same-idea-4245d970
+  - form-of-operation-notes-be2b8d95
   - >-
     github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
+  - instruction-v1-ce2b773a
+  - instruction-v1-e3a3cb1e
   - op-a39d2486
-  - universal-roadmap-8fa1b496
-  - 12-the-conference-cc7a4771
+  - operation-v1-f6c2a6fb
+  - playground-cd3a86d7
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
+  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - 1-eyeballs-1b0b88c7
+  - bug-report-0c8d64f2
   - 15-the-coexistence-22bc8664
-  - 22-the-dream-layer-d04b39b6
-  - 24-the-trial-ad8162d4
-  - 25-the-manifesto-ebee95e5
-  - 27-build-link-runtime-2e7dc35f
-  - 29-the-anthill-organizes-21255101
   - 19-the-missing-format-37a6499f
   - 21-the-atoms-speak-72df059e
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
+  - 23-treaty-ba942823
+  - 25-the-manifesto-ebee95e5
+  - 6-forgotten-dff037fc
+  - 8-configuration-a5b702f4
+  - acknowledgements-bbe9037d
   - devlog-a4b51b88
-  - fifteen-times-the-same-idea-4245d970
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - the-four-letters-c540e241
+  - the-observation-6da70cdd
   - the-problems-13af562d
   - to-build-the-future-look-at-the-past-5557730d
-  - 13-convergent-evolution-42fa3b44
-  - 20-the-playground-353dd7fb
-  - 9-the-operation-comes-first-f6c6890b
-  - instruction-v1-e3a3cb1e
-  - playground-cd3a86d7
-  - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - 1-why-5b9657bb
+  - 3a-pub-bar-role-game-discoveries-6494703c
+  - 3b-pub-bar-role-game-the-bar-reopens-3094a23e
+  - 3c-pub-bar-role-game-smithy-walks-in-67e90c4b
+  - 3d-pub-bar-role-game-the-krabby-patty-3de2f4ab
+  - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
+  - 3g-pub-bar-role-game-deepseek-s-letter-4b07f74b
+  - 16-the-founder-s-dream-7178fd75
+  - 17-the-gallium-28cb4937
+  - dream-17b190f1
+  - universal-roadmap-8fa1b496
+  - universal-roadmap-cdd00ede
+  - 17-jit-d3331e78
+  - 26-the-compilers-528e2d40
+  - 33-the-amplifier-8701a6b1
+  - 33-the-amplifier-e4125d9b
+  - 3e-pub-bar-role-game-runtime-autopsy-e1b81c09
+  - 10-pistol-c4a46637
+  - 22-the-dream-layer-d04b39b6
+  - 31-the-hamster-leaves-the-wheel-8bb31c69
+  - 12-profession-6a98045a
+  - 16-the-founder-s-dream-df440da1
+  - 2-gallium-8a4130eb
+  - 29-the-anthill-organizes-21255101
+  - 9-address-0633f40c
+  - 10-there-is-no-generation-35e5560a
+  - 11-from-silicon-to-struct-283a2ad1
+  - 15-black-dfde2647
+  - 19-mongodb-ff331c30
+  - 21-equality-767c77bb
+  - 27-build-link-runtime-2e7dc35f
+  - faq-d7ac412d
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - the-dial-10ba3d63
+  - the-harbourmaster-072db85e
+  - the-contract-that-wouldn-t-break-c318d936
+  - the-contract-that-wouldn-t-break-fa2e5b4e
+  - 18-the-fourth-rail-368f05dd
+  - 18-the-fourth-rail-f496db69
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - 14-markets-38a7b571
+  - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 14-the-fact-7e232060
+  - my-awesome-web-application-2e8617e5
+  - gitignore-b836fd5b
+  - site-f35bf3f0
+  - the-idea-636ec680
+  - 18-guards-569885ee
+  - review-guidelines-0fa832f7
+  - review-guidelines-3c6b1ba1
+  - dogshop-de2fc247
+  - dogshop-eb60bfe2
+  - dogshop-invalid-17d19246
+  - dogshop-invalid-253ae2d9
+  - three-atoms-28e52786
+  - three-atoms-f9d1fbb2
+  - 23-the-vacant-cell-4774271c
+  - goreleaser-3530be9e
+  - psalm-baseline-38ca50b0
+  - 20-promise-65f67015
+  - package-b0f69490
+  - 28-dobby-is-free-6542412c
+  - docs-16563f41
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
+  - universal-first-vendors-not-a-standard-library-f05eb450
+  - 3-bleed-09df896e
+  - auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79
+  - ci-fab63fbd
+  - go-work-f103c351
+  - licenserc-40040b08
+  - licenserc-5791d62b
+  - 30-the-first-stranger-502ca504
+  - 32-the-verdict-3837cfdb
+  - 32-the-verdict-dedc9d53
+  - editorconfig-35e39de5
+  - editorconfig-da427795
+  - app-9ae93cb2
+  - editorconfig-eb6e1333
+  - go-f187696e
+  - dependabot-auto-merge-a7978ddf
+  - package-945abd34
+  - feature-request-1f48c52f
+  - chunk-busya2b4-js-ed562b0b
+  - commitlintrc-bd2072fb
+  - knowledge-base-rule-a4a663c8
+  - composer-2fcc293f
+  - golangci-c8766e4f
+  - rr-02e8677b
+  - composer-c80b8ea8
+  - composer-61edd1a7
+  - package-72ca090f
+  - package-3ca9d4af
+  - rail-v1-104bb94b
+  - go-c4b9b5b5
+  - release-33611003
+  - dependabot-b88a7add
+  - gitignore-0262f82c
+  - gitignore-77b957b1
+  - gitignore-b1a75042
+  - metadata-4a448f18
+  - package-lock-22d613f6
+  - package-lock-5960ef1f
+  - go-8cbf7ff4
+  - go-c7d8e97e
+  - go-fcb237cc
+  - license-c71d239d
+  - taskfile-83d1d929
+  - release-template-d81408df
+  - robots-fb799b43
+  - sun-icon-62e8e513
+  - sun-icon-9147bef6
+  - sun-icon-b3129a76
+  - web-app-manifest-512x512-af162064
+  - taskfile-f98ae8d6
+  - thumbrise-open-source-go-tooling-logo-2edf0302
 managed_by: system
 backlinks: []
 schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
@@ -52,9 +178,223 @@ source_semantic_hashes: {}
 ---
 # Concepts
 
-- [[concepts/from|from]]
-- [[concepts/does|does]]
+- [[concepts/operation|Operation]]
+- [[concepts/browser|browser]]
 - [[concepts/every|every]]
-- [[concepts/operation|operation]]
+- [[concepts/model|model]]
+- [[concepts/from|from]]
+- [[concepts/user|user]]
+- [[concepts/know|know]]
+- [[concepts/with|with]]
+- [[concepts/layer|layer]]
+- [[concepts/because|because]]
+- [[concepts/compilation-vs-generation|Compilation vs. Generation]]
+- [[concepts/operation-op|Operation (Op)]]
+- [[concepts/contractual-architecture|Contractual Architecture]]
+- [[concepts/intermediate-representation-ir|Intermediate Representation (IR)]]
+- [[concepts/formalization-of-physics|Formalization of Physics]]
+- [[concepts/semantic-path-rail|Semantic Path (Rail)]]
+- [[concepts/composition|Composition]]
+- [[concepts/repetition|Repetition]]
+- [[concepts/choice-finite-set|Choice (Finite Set)]]
+- [[concepts/opinion-vs-fact|Opinion vs. Fact]]
+- [[concepts/does|does]]
+- [[concepts/receiver|receiver]]
+- [[concepts/input|input]]
+- [[concepts/output|output]]
+- [[concepts/protocol|protocol]]
+- [[concepts/introspection|Introspection]]
+- [[concepts/map-and-territory-problem|Map and Territory Problem]]
+- [[concepts/declarative-arc|Declarative Arc]]
+- [[concepts/fact-system-vs-delivery-system|Fact System vs. Delivery System]]
+- [[concepts/compiler|compiler]]
+- [[concepts/your|your]]
+- [[concepts/grpc|grpc]]
 - [[concepts/five|five]]
+- [[concepts/berners|berners]]
+- [[concepts/color|color]]
+- [[concepts/openapi|openapi]]
+- [[concepts/code|code]]
+- [[concepts/trait|trait]]
+- [[concepts/kind|kind]]
+- [[concepts/format|format]]
+- [[concepts/opinion|opinion]]
+- [[concepts/missing|missing]]
+- [[concepts/fact|fact]]
+- [[concepts/like|like]]
+- [[concepts/httpplug|httpplug]]
+- [[concepts/author|author]]
+- [[concepts/playground|playground]]
+- [[concepts/environment|environment]]
+- [[concepts/operations|operations]]
+- [[concepts/required|required]]
+- [[concepts/meaning|meaning]]
+- [[concepts/down|down]]
+- [[concepts/bound|bound]]
+- [[concepts/cell|cell]]
+- [[concepts/transport|transport]]
+- [[concepts/consumer|consumer]]
+- [[concepts/expression|expression]]
+- [[concepts/language|language]]
+- [[concepts/core|core]]
+- [[concepts/stream|stream]]
+- [[concepts/wire|wire]]
+- [[concepts/build|build]]
+- [[concepts/universal|universal]]
+- [[concepts/vendor|vendor]]
+- [[concepts/vendors|vendors]]
+- [[concepts/gravity|gravity]]
+- [[concepts/anthill|anthill]]
+- [[concepts/need|need]]
+- [[concepts/yaml|yaml]]
+- [[concepts/n-m-zoo|N×M zoo]]
+- [[concepts/guts-extraction|Guts-extraction]]
+- [[concepts/self-knowing-programs|Self-knowing programs]]
+- [[concepts/l-m-l-m-reduction|L × M → L + M Reduction]]
+- [[concepts/protocol-gravity|Protocol Gravity]]
+- [[concepts/topology|topology]]
+- [[concepts/agent|agent]]
+- [[concepts/devin|devin]]
+- [[concepts/smithy|smithy]]
+- [[concepts/types|types]]
+- [[concepts/plugin|plugin]]
+- [[concepts/plugins|plugins]]
+- [[concepts/protobuf|protobuf]]
+- [[concepts/idris|idris]]
+- [[concepts/java|java]]
+- [[concepts/metrics|metrics]]
+- [[concepts/retry|retry]]
+- [[concepts/resilience|resilience]]
+- [[concepts/style|style]]
+- [[concepts/write|write]]
+- [[concepts/adapter|adapter]]
+- [[concepts/size|size]]
+- [[concepts/text|text]]
+- [[concepts/binary|binary]]
+- [[concepts/auto|auto]]
+- [[concepts/diff|diff]]
+- [[concepts/files|files]]
+- [[concepts/behavior|behavior]]
+- [[concepts/clear|clear]]
+- [[concepts/complete|complete]]
+- [[concepts/concise|concise]]
+- [[concepts/context|context]]
+- [[concepts/array|array]]
+- [[concepts/continuous-integration-ci|Continuous Integration (CI)]]
+- [[concepts/workflow|Workflow]]
+- [[concepts/job|Job]]
+- [[concepts/always|always]]
+- [[concepts/10000|10000]]
+- [[concepts/case|case]]
+- [[concepts/length|length]]
+- [[concepts/never|never]]
+- [[concepts/empty|empty]]
+- [[concepts/keys|keys]]
+- [[concepts/bridge|bridge]]
+- [[concepts/autoload|autoload]]
+- [[concepts/package-manager|Package Manager]]
+- [[concepts/type|type]]
+- [[concepts/dependabot|dependabot]]
+- [[concepts/github|github]]
+- [[concepts/metadata|metadata]]
+- [[concepts/merge|merge]]
+- [[concepts/daily|daily]]
+- [[concepts/ecosystem|ecosystem]]
+- [[concepts/groups|groups]]
+- [[concepts/interval|interval]]
+- [[concepts/package|package]]
+- [[concepts/claim|claim]]
+- [[concepts/hypothesize|hypothesize]]
+- [[concepts/record|record]]
+- [[concepts/docs|docs]]
+- [[concepts/actions|actions]]
+- [[concepts/breed|breed]]
+- [[concepts/violation|violation]]
+- [[concepts/indent|indent]]
+- [[concepts/space|space]]
+- [[concepts/describe|describe]]
+- [[concepts/considered|considered]]
 - [[concepts/dictate|dictate]]
+- [[concepts/vitepress|vitepress]]
+- [[concepts/dist|dist]]
+- [[concepts/modules|modules]]
+- [[concepts/node|node]]
+- [[concepts/idea|idea]]
+- [[concepts/tools|tools]]
+- [[concepts/indirect|indirect]]
+- [[concepts/golang|golang]]
+- [[concepts/go-git|go-git]]
+- [[concepts/google|google]]
+- [[concepts/go-module|Go Module]]
+- [[concepts/software-versioning|Software Versioning]]
+- [[concepts/gopkg|gopkg]]
+- [[concepts/go-programming-language|Go programming language]]
+- [[concepts/sdk-software-development-kit|SDK (Software Development Kit)]]
+- [[concepts/bwesterb|bwesterb]]
+- [[concepts/allow|allow]]
+- [[concepts/linter|linter]]
+- [[concepts/linters|linters]]
+- [[concepts/archives|archives]]
+- [[concepts/builds|builds]]
+- [[concepts/checksum|checksum]]
+- [[concepts/https|https]]
+- [[concepts/license|license]]
+- [[concepts/work|work]]
+- [[concepts/works|works]]
+- [[concepts/derivative|derivative]]
+- [[concepts/such|such]]
+- [[concepts/copyright|copyright]]
+- [[concepts/header|header]]
+- [[concepts/paths|paths]]
+- [[concepts/es-modules|ES Modules]]
+- [[concepts/build-scripts|Build Scripts]]
+- [[concepts/development-dependencies|Development Dependencies]]
+- [[concepts/apache|apache]]
+- [[concepts/definitions|definitions]]
+- [[concepts/commitlint|commitlint]]
+- [[concepts/changelog|changelog]]
+- [[concepts/config-conventional|config-conventional]]
+- [[concepts/conventional|conventional]]
+- [[concepts/version|version]]
+- [[concepts/integrity|integrity]]
+- [[concepts/npmjs|npmjs]]
+- [[concepts/remove|remove]]
+- [[concepts/seconds|seconds]]
+- [[concepts/release|release]]
+- [[concepts/setup|setup]]
+- [[concepts/issue|issue]]
+- [[concepts/prefix|prefix]]
+- [[concepts/references|references]]
+- [[concepts/closes|closes]]
+- [[concepts/must|must]]
+- [[concepts/review|review]]
+- [[concepts/user-agent|User-agent]]
+- [[concepts/sitemap|Sitemap]]
+- [[concepts/crawl-directives|Crawl Directives]]
+- [[concepts/192x192|192x192]]
+- [[concepts/512x512|512x512]]
+- [[concepts/ffffff|ffffff]]
+- [[concepts/image|image]]
+- [[concepts/manifest|manifest]]
+- [[concepts/sun|Sun]]
+- [[concepts/light-daylight|Light/Daylight]]
+- [[concepts/energy|Energy]]
+- [[concepts/solar-energy|Solar Energy]]
+- [[concepts/brightness-light|Brightness/Light]]
+- [[concepts/iconography|Iconography]]
+- [[concepts/symbol|Symbol]]
+- [[concepts/lint|lint]]
+- [[concepts/cmds|cmds]]
+- [[concepts/desc|desc]]
+- [[concepts/fields|fields]]
+- [[concepts/fill|fill]]
+- [[concepts/f87171|f87171]]
+- [[concepts/22c55e|22c55e]]
+- [[concepts/open-source|Open Source]]
+- [[concepts/go-tooling|Go Tooling]]
+- [[concepts/corba|corba]]
+- [[concepts/standard|standard]]
+- [[concepts/smtp|smtp]]
+- [[concepts/adoption|adoption]]
+- [[concepts/devlog|devlog]]
+- [[concepts/milestone|milestone]]

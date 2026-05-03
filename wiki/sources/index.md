@@ -15,33 +15,136 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:46:20.433Z'
-updated_at: '2026-05-03T03:56:40.344Z'
+updated_at: '2026-05-03T05:12:47.406Z'
 compiled_from:
+  - 001-curl-eyeballs-bf0564bb
+  - 001-what-is-an-operation-640ebffc
+  - 001-why-b2ba350d
+  - 002-research-trail-442db2ba
+  - 002-spiral-3cf9daa0
+  - 002-the-handshake-1380fe94
+  - 003-roadrunner-bleeds-across-layers-e42474dd
+  - 003-the-understory-904c0d25
+  - 003a-pub-bar-role-game-3f88ed9c
+  - 003b-pub-bar-role-game-f2cbf62f
+  - 003c-pub-bar-role-game-2a4a3169
+  - 003d-pub-bar-role-game-b0469b99
+  - 003e-pub-bar-role-game-acb5f783
+  - 003f-pub-bar-role-game-a5f64ddc
+  - 003g-pub-bar-role-game-409d2d74
+  - 003h-pub-bar-role-game-66c67dad
+  - 004-operations-protocol-a4fd436a
+  - 004-php-poc-struggle-2e82ca79
+  - 004-the-mound-d2ff607c
+  - 005-history-of-protocols-bba8988f
+  - 005-single-source-of-truth-2e6ff1ca
+  - 005-the-dial-5205e70e
+  - 006-fifteen-times-the-same-idea-d770d6eb
+  - 006-the-four-letters-f056ace6
+  - 006-what-programs-forgot-cc757030
+  - 007-contract-f44cd76c
+  - 007-the-book-on-the-desk-abdd7f4a
+  - 007-why-we-dont-call-linus-cbcb8d84
+  - 008-configuration-is-not-parameterization-a77bed11
+  - 008-the-harbourmaster-fa7ef3a0
+  - 008-three-atoms-57747539
+  - 009-operation-comes-first-9d3e8f2a
+  - 009-the-address-is-a-detail-41380fce
+  - 009-the-dance-57cdb378
+  - 010-fifty-triggers-fifty-barrels-c67a315c
+  - 010-the-murmuration-c56d61eb
+  - 010-there-is-no-generation-73b17c7a
+  - 011-from-silicon-to-struct-9e2b0b13
+  - 011-postgres-is-a-bundle-c689eda3
+  - 011-the-black-square-4ab61afd
+  - 012-the-conference-d65293ea
+  - 012-the-cover-0a81919a
+  - 012-the-disappearing-profession-0b9d7c7b
+  - 013-convergent-evolution-93378b16
+  - 013-the-dream-fulfilled-42c6545a
+  - 013-the-lock-that-disappeared-011c00d9
+  - 014-epilogue-b74893a6
+  - 014-the-fact-355dad87
+  - 014-two-invisible-markets-026cf8a3
+  - 015-the-black-compiler-0348817b
+  - 015-the-coexistence-c51a037e
+  - 016-the-founders-dream-615ebca3
+  - 016-the-origin-of-migrations-2d111431
+  - 017-postgres-is-a-jit-a1a3ecf1
+  - 017-the-gallium-209e24ff
+  - 018-hand-written-deopt-guards-90eb3a14
+  - 018-the-fourth-rail-9f8a7d59
+  - 019-nobody-chooses-mongodb-47df97dc
+  - 019-the-missing-format-080b85e9
+  - 020-how-much-you-promise-8fa8ba85
+  - 020-the-playground-5ef24cfe
+  - 021-all-programs-are-equal-eeeedf20
+  - 021-the-atoms-speak-a1b19c24
+  - 022-the-dream-layer-642230a5
+  - 022-why-nothing-lands-6e2a5df5
+  - 023-the-vacant-cell-0e700f2d
+  - 023-treaty-of-five-1f866e69
+  - 024-the-trial-caab50fa
+  - 025-the-manifesto-12d734b2
+  - 026-the-compilers-34fdac74
+  - 027-build-link-runtime-f1281fab
+  - 028-dobby-is-free-e30b1113
+  - 029-the-anthill-organizes-76d39bfa
+  - 030-the-first-stranger-acd393fc
+  - 031-the-hamster-leaves-the-wheel-7a87f577
+  - 032-the-verdict-d9680632
+  - 033-the-amplifier-3a43f00c
+  - 1-eyeballs-1b0b88c7
   - 1-why-5b9657bb
+  - 10-pistol-c4a46637
   - 10-there-is-no-generation-35e5560a
+  - 11-bundle-d20d9270
   - 11-from-silicon-to-struct-283a2ad1
+  - 12-profession-6a98045a
   - 12-the-conference-cc7a4771
   - 13-convergent-evolution-42fa3b44
+  - 13-lock-437116f9
+  - 14-markets-38a7b571
   - 14-the-fact-7e232060
+  - 15-black-dfde2647
   - 15-the-coexistence-22bc8664
+  - 16-migrations-115e9686
   - 16-the-founder-s-dream-7178fd75
+  - 16-the-founder-s-dream-df440da1
+  - 17-jit-d3331e78
   - 17-the-gallium-28cb4937
+  - 18-guards-569885ee
+  - 18-the-fourth-rail-368f05dd
   - 18-the-fourth-rail-f496db69
+  - 19-mongodb-ff331c30
   - 19-the-missing-format-37a6499f
+  - 1a188f991280c3fa4fa22e8dfe41d8c5-159569fb
+  - 1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f
+  - 2-gallium-8a4130eb
   - 2-research-trail-834ba4c9
+  - 20-promise-65f67015
   - 20-the-playground-353dd7fb
+  - 20230222-132457-0-0-default-create-users-693b3192
+  - 21-equality-767c77bb
   - 21-the-atoms-speak-72df059e
+  - 21-the-atoms-speak-c38fb792
+  - 22-nothing-4cfe372b
   - 22-the-dream-layer-d04b39b6
   - 23-the-vacant-cell-4774271c
+  - 23-treaty-ba942823
+  - 24-banana-817abe21
   - 24-the-trial-ad8162d4
   - 25-the-manifesto-ebee95e5
   - 26-the-compilers-528e2d40
   - 27-build-link-runtime-2e7dc35f
   - 28-dobby-is-free-6542412c
   - 29-the-anthill-organizes-21255101
+  - 3-bleed-09df896e
   - 30-the-first-stranger-502ca504
   - 31-the-hamster-leaves-the-wheel-8bb31c69
   - 32-the-verdict-3837cfdb
+  - 32-the-verdict-dedc9d53
+  - 33-the-amplifier-8701a6b1
   - 33-the-amplifier-e4125d9b
   - 3a-pub-bar-role-game-discoveries-6494703c
   - 3b-pub-bar-role-game-the-bar-reopens-3094a23e
@@ -51,30 +154,92 @@ compiled_from:
   - 3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71
   - 3g-pub-bar-role-game-deepseek-s-letter-4b07f74b
   - 3h-pub-bar-role-game-the-epilogue-69d8acdc
+  - 4-struggle-54bdb010
+  - 5-truth-95c78596
+  - 6-forgotten-dff037fc
+  - 7-linus-a63f10aa
+  - 8-configuration-a5b702f4
+  - 9-address-0633f40c
   - 9-the-operation-comes-first-f6c6890b
+  - acknowledgements-bbe9037d
+  - ajv-dist-2020-951a2569
+  - ajv-dist-2020-js-627114a2
+  - app-9ae93cb2
+  - app-e5eaeb32
+  - appbootloader-6dae842d
   - auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79
+  - base-dark-ad702b5a
+  - before-you-read-anything-else-af351c3d
+  - braintree-sanitize-url-4c6c0640
+  - braintree-sanitize-url-js-de06e2b9
   - bug-report-0c8d64f2
+  - cc3817c2bceb931d024031cc7a676edc-a9bbc7ca
+  - chunk-7oikw5wk-a144e02d
+  - chunk-7oikw5wk-js-e8520523
+  - chunk-busya2b4-a9582e69
+  - chunk-busya2b4-js-ed562b0b
   - ci-fab63fbd
   - commitlintrc-bd2072fb
+  - composer-2fcc293f
+  - composer-61edd1a7
   - composer-c80b8ea8
   - config-2dc140d0
+  - config-fe08ecdf
+  - createusercommand-640f036a
+  - createuserservice-da5191cb
+  - cycle-b56fd783
+  - cycleormuserrepository-4728c818
+  - cytoscape-a8c97378
+  - cytoscape-cose-bilkent-e1c4e36d
+  - cytoscape-cose-bilkent-js-13b26782
+  - cytoscape-js-951baa4f
+  - database-aa2820ff
+  - dayjs-b5487d49
+  - dayjs-js-a6ae3be3
+  - debug-3368481f
+  - debug-js-6540d3a7
+  - demooperations-d4ee05ab
   - demooperations-e845b3b1
+  - demotest-276ee805
   - dependabot-auto-merge-a7978ddf
   - dependabot-b88a7add
   - devlog-a4b51b88
+  - docker-compose-96d71fcb
+  - dockerfile-6442cd3d
   - docs-16563f41
+  - dogshop-de2fc247
   - dogshop-eb60bfe2
+  - dogshop-invalid-17d19246
   - dogshop-invalid-253ae2d9
+  - donothing-0c30237f
+  - dream-17b190f1
   - editorconfig-35e39de5
   - editorconfig-da427795
+  - editorconfig-eb6e1333
+  - env-d5128e48
+  - environment-prod-or-local-a93beb0c
+  - epilogue-3382e75b
+  - exceptionhandlerbootloader-17ded035
+  - factories-1ed73244
+  - faq-d7ac412d
   - favicon-053a5ebc
   - favicon-1656049e
+  - favicon-ac317ec3
+  - fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae
   - feature-request-1f48c52f
   - fifteen-times-the-same-idea-4245d970
+  - form-of-instruction-notes-9051c314
+  - form-of-nota-notes-04d12dbf
+  - form-of-operation-notes-be2b8d95
+  - form-of-rail-notes-349e92b3
   - >-
     github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3
   - gitignore-0262f82c
+  - gitignore-1c7e0952
   - gitignore-77b957b1
+  - gitignore-b1a75042
+  - gitignore-b836fd5b
+  - gitignore-e3b0c442
   - go-8cbf7ff4
   - go-c4b9b5b5
   - go-c7d8e97e
@@ -83,48 +248,137 @@ compiled_from:
   - go-work-f103c351
   - golangci-c8766e4f
   - goreleaser-3530be9e
+  - handler-27c7389d
+  - home-dark-1eafb4ae
+  - homecontroller-b2a0b790
+  - homecontrollertest-9feb0ff5
+  - i18n-en-f192b7ee
+  - i18n-locales-137d211d
+  - index-1dd89c74
+  - index-564a3123
+  - index-62cbfa65
+  - index-dc346ad9
   - index-e404d6cb
+  - instruction-v1-ce2b773a
   - instruction-v1-e3a3cb1e
+  - jsonc-parser-d0f45765
+  - jsonc-parser-js-120059a2
   - jsoneditor-7d7aec64
+  - jsonvalidation-a88469ee
   - jsonvalidation-f62dc3f7
+  - kernel-a4634d28
+  - knowledge-base-rule-a4a663c8
+  - lesson-1-what-an-operation-is-34ecb6bb
+  - lesson-2-the-book-on-the-desk-d5f66c30
+  - lesson-3-the-cover-9c25e128
   - license-c71d239d
+  - licenserc-40040b08
   - licenserc-5791d62b
+  - local-2004a734
+  - local-ini-4b243f68
+  - localeselector-a2212b51
+  - loggingbootloader-143850b0
+  - logo-14c86ac8
   - main-4df64910
+  - mcp-73c9ef6a
+  - mcp-mprocs-e2aae1c9
   - mermaid-fix-e2dd139e
+  - messages-en-f207de17
+  - metadata-4a448f18
+  - migration-2773f527
+  - my-awesome-web-application-2e8617e5
+  - nota-v1-6168c974
+  - op-33cc57bb
   - op-4a2e2616
   - op-6fb1bf01
   - op-a39d2486
   - op-e1fefb54
+  - op-reference-e87d2074
+  - operation-v1-f6c2a6fb
+  - package-3ca9d4af
   - package-72ca090f
   - package-945abd34
   - package-b0f69490
   - package-lock-22d613f6
   - package-lock-5960ef1f
+  - persistencebootloader-778beffd
+  - php-cs-fixer-dist-57566749
+  - phpunit-10eb0a3f
+  - playground-a130e091
   - playground-cd3a86d7
   - playground-e45a65a6
+  - predator-handshake-a8cefe37
+  - psalm-06d502d6
+  - psalm-baseline-38ca50b0
+  - rail-v1-104bb94b
   - release-33611003
   - release-template-d81408df
   - releaserc-98735d60
   - review-guidelines-0fa832f7
+  - review-guidelines-3c6b1ba1
+  - rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c
+  - rfc-the-operation-protocol-cb01fbf6
   - robots-fb799b43
+  - routesbootloader-e4e99d14
+  - rr-02e8677b
+  - scaffolder-92fcecdc
   - scitooltip-2260fcf0
+  - session-7a75f197
   - site-f35bf3f0
+  - stempler-a4483274
   - sun-icon-62e8e513
   - sun-icon-9147bef6
   - sun-icon-b3129a76
+  - swarmvault-config-json-84915e3f
   - taskfile-83d1d929
+  - taskfile-f98ae8d6
   - termeditor-e3bdad59
   - termviz-37c301d3
+  - testcase-e8b69b5c
+  - testkernel-a6748afa
+  - the-black-square-d930c773
+  - the-codex-d54c2224
+  - the-contract-that-wouldn-t-break-c318d936
   - the-contract-that-wouldn-t-break-fa2e5b4e
+  - the-dance-17d85dd8
+  - the-dial-10ba3d63
+  - the-dream-fulfilled-a5c68874
+  - the-four-letters-c540e241
+  - the-handshake-2d49d44e
+  - the-harbourmaster-072db85e
+  - the-idea-636ec680
+  - the-mound-a869009c
+  - the-murmuration-04e8f14e
+  - the-observation-6da70cdd
+  - the-operations-protocol-formalizing-the-missing-foundation-7457cddb
   - the-operations-protocol-formalizing-the-missing-foundation-ff73b385
+  - the-primitive-range-conjecture-c5c69b80
   - the-problems-13af562d
+  - the-understory-69c901f2
   - three-atoms-28e52786
+  - three-atoms-f9d1fbb2
   - thumbrise-open-source-go-tooling-logo-2edf0302
   - to-build-the-future-look-at-the-past-5557730d
+  - translator-d5801544
+  - types-d-b31f14aa
+  - universal-field-notes-0b577177
+  - universal-first-vendors-not-a-standard-library-637ac699
   - universal-first-vendors-not-a-standard-library-f05eb450
   - universal-roadmap-8fa1b496
+  - universal-roadmap-cdd00ede
   - useplaygroundhistory-8b971dc2
+  - user-d5b6c9e9
+  - usernotfoundexception-204c3d22
+  - userrepositoryinterface-4c171a4e
+  - uuidtypecast-bc2c3f4a
+  - viewrenderer-4600606b
+  - vitepress-vue-devtools-api-d989dc21
+  - vitepress-vue-devtools-api-js-087cb430
+  - vitepress-vueuse-core-992426fa
+  - vitepress-vueuse-core-js-57a542db
+  - vue-837e3e32
   - web-app-manifest-512x512-af162064
+  - welcome-049f9ac7
 managed_by: system
 backlinks: []
 schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
@@ -133,31 +387,134 @@ source_semantic_hashes: {}
 ---
 # Sources
 
+- [[sources/001-curl-eyeballs-bf0564bb|001-curl-eyeballs]]
+- [[sources/001-what-is-an-operation-640ebffc|001-what-is-an-operation]]
+- [[sources/001-why-b2ba350d|001-why]]
+- [[sources/002-research-trail-442db2ba|002-research-trail]]
+- [[sources/002-spiral-3cf9daa0|002-spiral]]
+- [[sources/002-the-handshake-1380fe94|002-the-handshake]]
+- [[sources/003-roadrunner-bleeds-across-layers-e42474dd|003-roadrunner-bleeds-across-layers]]
+- [[sources/003-the-understory-904c0d25|003-the-understory]]
+- [[sources/003a-pub-bar-role-game-3f88ed9c|003a-pub-bar-role-game]]
+- [[sources/003b-pub-bar-role-game-f2cbf62f|003b-pub-bar-role-game]]
+- [[sources/003c-pub-bar-role-game-2a4a3169|003c-pub-bar-role-game]]
+- [[sources/003d-pub-bar-role-game-b0469b99|003d-pub-bar-role-game]]
+- [[sources/003e-pub-bar-role-game-acb5f783|003e-pub-bar-role-game]]
+- [[sources/003f-pub-bar-role-game-a5f64ddc|003f-pub-bar-role-game]]
+- [[sources/003g-pub-bar-role-game-409d2d74|003g-pub-bar-role-game]]
+- [[sources/003h-pub-bar-role-game-66c67dad|003h-pub-bar-role-game]]
+- [[sources/004-operations-protocol-a4fd436a|004-operations-protocol]]
+- [[sources/004-php-poc-struggle-2e82ca79|004-php-poc-struggle]]
+- [[sources/004-the-mound-d2ff607c|004-the-mound]]
+- [[sources/005-history-of-protocols-bba8988f|005-history-of-protocols]]
+- [[sources/005-single-source-of-truth-2e6ff1ca|005-single-source-of-truth]]
+- [[sources/005-the-dial-5205e70e|005-the-dial]]
+- [[sources/006-fifteen-times-the-same-idea-d770d6eb|006-fifteen-times-the-same-idea]]
+- [[sources/006-the-four-letters-f056ace6|006-the-four-letters]]
+- [[sources/006-what-programs-forgot-cc757030|006-what-programs-forgot]]
+- [[sources/007-contract-f44cd76c|007-contract]]
+- [[sources/007-the-book-on-the-desk-abdd7f4a|007-the-book-on-the-desk]]
+- [[sources/007-why-we-dont-call-linus-cbcb8d84|007-why-we-dont-call-linus]]
+- [[sources/008-configuration-is-not-parameterization-a77bed11|008-configuration-is-not-parameterization]]
+- [[sources/008-the-harbourmaster-fa7ef3a0|008-the-harbourmaster]]
+- [[sources/008-three-atoms-57747539|008-three-atoms]]
+- [[sources/009-operation-comes-first-9d3e8f2a|009-operation-comes-first]]
+- [[sources/009-the-address-is-a-detail-41380fce|009-the-address-is-a-detail]]
+- [[sources/009-the-dance-57cdb378|009-the-dance]]
+- [[sources/010-fifty-triggers-fifty-barrels-c67a315c|010-fifty-triggers-fifty-barrels]]
+- [[sources/010-the-murmuration-c56d61eb|010-the-murmuration]]
+- [[sources/010-there-is-no-generation-73b17c7a|010-there-is-no-generation]]
+- [[sources/011-from-silicon-to-struct-9e2b0b13|011-from-silicon-to-struct]]
+- [[sources/011-postgres-is-a-bundle-c689eda3|011-postgres-is-a-bundle]]
+- [[sources/011-the-black-square-4ab61afd|011-the-black-square]]
+- [[sources/012-the-conference-d65293ea|012-the-conference]]
+- [[sources/012-the-cover-0a81919a|012-the-cover]]
+- [[sources/012-the-disappearing-profession-0b9d7c7b|012-the-disappearing-profession]]
+- [[sources/013-convergent-evolution-93378b16|013-convergent-evolution]]
+- [[sources/013-the-dream-fulfilled-42c6545a|013-the-dream-fulfilled]]
+- [[sources/013-the-lock-that-disappeared-011c00d9|013-the-lock-that-disappeared]]
+- [[sources/014-epilogue-b74893a6|014-epilogue]]
+- [[sources/014-the-fact-355dad87|014-the-fact]]
+- [[sources/014-two-invisible-markets-026cf8a3|014-two-invisible-markets]]
+- [[sources/015-the-black-compiler-0348817b|015-the-black-compiler]]
+- [[sources/015-the-coexistence-c51a037e|015-the-coexistence]]
+- [[sources/016-the-founders-dream-615ebca3|016-the-founders-dream]]
+- [[sources/016-the-origin-of-migrations-2d111431|016-the-origin-of-migrations]]
+- [[sources/017-postgres-is-a-jit-a1a3ecf1|017-postgres-is-a-jit]]
+- [[sources/017-the-gallium-209e24ff|017-the-gallium]]
+- [[sources/018-hand-written-deopt-guards-90eb3a14|018-hand-written-deopt-guards]]
+- [[sources/018-the-fourth-rail-9f8a7d59|018-the-fourth-rail]]
+- [[sources/019-nobody-chooses-mongodb-47df97dc|019-nobody-chooses-mongodb]]
+- [[sources/019-the-missing-format-080b85e9|019-the-missing-format]]
+- [[sources/020-how-much-you-promise-8fa8ba85|020-how-much-you-promise]]
+- [[sources/020-the-playground-5ef24cfe|020-the-playground]]
+- [[sources/021-all-programs-are-equal-eeeedf20|021-all-programs-are-equal]]
+- [[sources/021-the-atoms-speak-a1b19c24|021-the-atoms-speak]]
+- [[sources/022-the-dream-layer-642230a5|022-the-dream-layer]]
+- [[sources/022-why-nothing-lands-6e2a5df5|022-why-nothing-lands]]
+- [[sources/023-the-vacant-cell-0e700f2d|023-the-vacant-cell]]
+- [[sources/023-treaty-of-five-1f866e69|023-treaty-of-five]]
+- [[sources/024-the-trial-caab50fa|024-the-trial]]
+- [[sources/025-the-manifesto-12d734b2|025-the-manifesto]]
+- [[sources/026-the-compilers-34fdac74|026-the-compilers]]
+- [[sources/027-build-link-runtime-f1281fab|027-build-link-runtime]]
+- [[sources/028-dobby-is-free-e30b1113|028-dobby-is-free]]
+- [[sources/029-the-anthill-organizes-76d39bfa|029-the-anthill-organizes]]
+- [[sources/030-the-first-stranger-acd393fc|030-the-first-stranger]]
+- [[sources/031-the-hamster-leaves-the-wheel-7a87f577|031-the-hamster-leaves-the-wheel]]
+- [[sources/032-the-verdict-d9680632|032-the-verdict]]
+- [[sources/033-the-amplifier-3a43f00c|033-the-amplifier]]
+- [[sources/1-eyeballs-1b0b88c7|#1 — Eyeballs]]
 - [[sources/1-why-5b9657bb|#1 — Why]]
+- [[sources/10-pistol-c4a46637|#10 — Pistol]]
 - [[sources/10-there-is-no-generation-35e5560a|#10 — There Is No Generation]]
+- [[sources/11-bundle-d20d9270|#11 — Bundle]]
 - [[sources/11-from-silicon-to-struct-283a2ad1|#11 — From Silicon to Struct]]
+- [[sources/12-profession-6a98045a|#12 — Profession]]
 - [[sources/12-the-conference-cc7a4771|#12 — The Conference]]
 - [[sources/13-convergent-evolution-42fa3b44|#13 — Convergent Evolution]]
+- [[sources/13-lock-437116f9|#13 — Lock]]
+- [[sources/14-markets-38a7b571|#14 — Markets]]
 - [[sources/14-the-fact-7e232060|#14 — The Fact]]
+- [[sources/15-black-dfde2647|#15 — Black]]
 - [[sources/15-the-coexistence-22bc8664|#15 — The Coexistence]]
+- [[sources/16-migrations-115e9686|#16 — Migrations]]
 - [[sources/16-the-founder-s-dream-7178fd75|#16 — The Founder's Dream]]
+- [[sources/16-the-founder-s-dream-df440da1|#16 — The Founder's Dream]]
+- [[sources/17-jit-d3331e78|#17 — JIT]]
 - [[sources/17-the-gallium-28cb4937|#17 — The Gallium]]
+- [[sources/18-guards-569885ee|#18 — Guards]]
+- [[sources/18-the-fourth-rail-368f05dd|#18 — The Fourth Rail]]
 - [[sources/18-the-fourth-rail-f496db69|#18 — The Fourth Rail]]
+- [[sources/19-mongodb-ff331c30|#19 — MongoDB]]
 - [[sources/19-the-missing-format-37a6499f|#19 — The Missing Format]]
+- [[sources/1a188f991280c3fa4fa22e8dfe41d8c5-159569fb|1a188f991280c3fa4fa22e8dfe41d8c5]]
+- [[sources/1f31c89a9dcf3a7b2c81a466767f0697-eab1b43f|1f31c89a9dcf3a7b2c81a466767f0697]]
+- [[sources/2-gallium-8a4130eb|#2 — Gallium]]
 - [[sources/2-research-trail-834ba4c9|#2 — Research Trail]]
+- [[sources/20-promise-65f67015|#20 — Promise]]
 - [[sources/20-the-playground-353dd7fb|#20 — The Playground]]
+- [[sources/20230222-132457-0-0-default-create-users-693b3192|20230222.132457_0_0_default_create_users]]
+- [[sources/21-equality-767c77bb|#21 — Equality]]
 - [[sources/21-the-atoms-speak-72df059e|#21 — The Atoms Speak]]
+- [[sources/21-the-atoms-speak-c38fb792|#21 — The Atoms Speak]]
+- [[sources/22-nothing-4cfe372b|#22 — Nothing]]
 - [[sources/22-the-dream-layer-d04b39b6|#22 — The Dream Layer]]
 - [[sources/23-the-vacant-cell-4774271c|#23 — The Vacant Cell]]
+- [[sources/23-treaty-ba942823|#23 — Treaty]]
+- [[sources/24-banana-817abe21|#24 — Banana]]
 - [[sources/24-the-trial-ad8162d4|#24 — The Trial]]
 - [[sources/25-the-manifesto-ebee95e5|#25 — The Manifesto]]
 - [[sources/26-the-compilers-528e2d40|#26 — The Compilers]]
 - [[sources/27-build-link-runtime-2e7dc35f|#27 — Build, Link, Runtime]]
 - [[sources/28-dobby-is-free-6542412c|#28 — Dobby Is Free]]
 - [[sources/29-the-anthill-organizes-21255101|#29 — The Anthill Organizes]]
+- [[sources/3-bleed-09df896e|#3 — Bleed]]
 - [[sources/30-the-first-stranger-502ca504|#30 — The First Stranger]]
 - [[sources/31-the-hamster-leaves-the-wheel-8bb31c69|#31 — The Hamster Leaves the Wheel]]
 - [[sources/32-the-verdict-3837cfdb|#32 — The Verdict]]
+- [[sources/32-the-verdict-dedc9d53|#32 — The Verdict]]
+- [[sources/33-the-amplifier-8701a6b1|#33 — The Amplifier]]
 - [[sources/33-the-amplifier-e4125d9b|#33 — The Amplifier]]
 - [[sources/3a-pub-bar-role-game-discoveries-6494703c|#3a — Pub Bar Role Game: Discoveries]]
 - [[sources/3b-pub-bar-role-game-the-bar-reopens-3094a23e|#3b — Pub Bar Role Game: The Bar Reopens]]
@@ -167,29 +524,91 @@ source_semantic_hashes: {}
 - [[sources/3f-pub-bar-role-game-the-bar-owner-speaks-fb7cbc71|#3f — Pub Bar Role Game: The Bar Owner Speaks]]
 - [[sources/3g-pub-bar-role-game-deepseek-s-letter-4b07f74b|#3g — Pub Bar Role Game: DeepSeek's Letter]]
 - [[sources/3h-pub-bar-role-game-the-epilogue-69d8acdc|#3h — Pub Bar Role Game: The Epilogue]]
+- [[sources/4-struggle-54bdb010|#4 — Struggle]]
+- [[sources/5-truth-95c78596|#5 — Truth]]
+- [[sources/6-forgotten-dff037fc|#6 — Forgotten]]
+- [[sources/7-linus-a63f10aa|#7 — Linus]]
+- [[sources/8-configuration-a5b702f4|#8 — Configuration]]
+- [[sources/9-address-0633f40c|#9 — Address]]
 - [[sources/9-the-operation-comes-first-f6c6890b|#9 — The Operation Comes First]]
+- [[sources/acknowledgements-bbe9037d|ACKNOWLEDGEMENTS]]
+- [[sources/ajv-dist-2020-951a2569|ajv_dist_2020]]
+- [[sources/ajv-dist-2020-js-627114a2|ajv_dist_2020.js]]
+- [[sources/app-9ae93cb2|app]]
+- [[sources/app-e5eaeb32|app]]
+- [[sources/appbootloader-6dae842d|AppBootloader]]
 - [[sources/auto-detect-text-files-and-normalise-line-endings-to-lf-4f36ba79|Auto-detect text files and normalise line endings to LF.]]
+- [[sources/base-dark-ad702b5a|base.dark]]
+- [[sources/before-you-read-anything-else-af351c3d|Before you read anything else]]
+- [[sources/braintree-sanitize-url-4c6c0640|@braintree_sanitize-url]]
+- [[sources/braintree-sanitize-url-js-de06e2b9|@braintree_sanitize-url.js]]
 - [[sources/bug-report-0c8d64f2|bug_report]]
+- [[sources/cc3817c2bceb931d024031cc7a676edc-a9bbc7ca|cc3817c2bceb931d024031cc7a676edc]]
+- [[sources/chunk-7oikw5wk-a144e02d|chunk-7OIKW5WK]]
+- [[sources/chunk-7oikw5wk-js-e8520523|chunk-7OIKW5WK.js]]
+- [[sources/chunk-busya2b4-a9582e69|chunk-BUSYA2B4]]
+- [[sources/chunk-busya2b4-js-ed562b0b|chunk-BUSYA2B4.js]]
 - [[sources/ci-fab63fbd|ci]]
 - [[sources/commitlintrc-bd2072fb|.commitlintrc]]
+- [[sources/composer-2fcc293f|composer]]
+- [[sources/composer-61edd1a7|composer]]
 - [[sources/composer-c80b8ea8|composer]]
 - [[sources/config-2dc140d0|config]]
+- [[sources/config-fe08ecdf|config]]
+- [[sources/createusercommand-640f036a|CreateUserCommand]]
+- [[sources/createuserservice-da5191cb|CreateUserService]]
+- [[sources/cycle-b56fd783|cycle]]
+- [[sources/cycleormuserrepository-4728c818|CycleORMUserRepository]]
+- [[sources/cytoscape-a8c97378|cytoscape]]
+- [[sources/cytoscape-cose-bilkent-e1c4e36d|cytoscape-cose-bilkent]]
+- [[sources/cytoscape-cose-bilkent-js-13b26782|cytoscape-cose-bilkent.js]]
+- [[sources/cytoscape-js-951baa4f|cytoscape.js]]
+- [[sources/database-aa2820ff|database]]
+- [[sources/dayjs-b5487d49|dayjs]]
+- [[sources/dayjs-js-a6ae3be3|dayjs.js]]
+- [[sources/debug-3368481f|debug]]
+- [[sources/debug-js-6540d3a7|debug.js]]
+- [[sources/demooperations-d4ee05ab|demoOperations]]
 - [[sources/demooperations-e845b3b1|demoOperations]]
+- [[sources/demotest-276ee805|DemoTest]]
 - [[sources/dependabot-auto-merge-a7978ddf|dependabot-auto-merge]]
 - [[sources/dependabot-b88a7add|dependabot]]
 - [[sources/devlog-a4b51b88|Devlog]]
+- [[sources/docker-compose-96d71fcb|docker-compose]]
+- [[sources/dockerfile-6442cd3d|Dockerfile]]
 - [[sources/docs-16563f41|docs]]
+- [[sources/dogshop-de2fc247|dogshop]]
 - [[sources/dogshop-eb60bfe2|dogshop]]
+- [[sources/dogshop-invalid-17d19246|dogshop_invalid]]
 - [[sources/dogshop-invalid-253ae2d9|dogshop_invalid]]
+- [[sources/donothing-0c30237f|DoNothing]]
+- [[sources/dream-17b190f1|Dream]]
 - [[sources/editorconfig-35e39de5|.editorconfig]]
 - [[sources/editorconfig-da427795|.editorconfig]]
+- [[sources/editorconfig-eb6e1333|.editorconfig]]
+- [[sources/env-d5128e48|.env]]
+- [[sources/environment-prod-or-local-a93beb0c|Environment (prod or local)]]
+- [[sources/epilogue-3382e75b|Epilogue]]
+- [[sources/exceptionhandlerbootloader-17ded035|ExceptionHandlerBootloader]]
+- [[sources/factories-1ed73244|factories]]
+- [[sources/faq-d7ac412d|FAQ]]
 - [[sources/favicon-053a5ebc|favicon]]
 - [[sources/favicon-1656049e|favicon]]
+- [[sources/favicon-ac317ec3|favicon]]
+- [[sources/fc30d4dfd70a6c5a9fd1d4c309e40210-f1dd2fae|fc30d4dfd70a6c5a9fd1d4c309e40210]]
 - [[sources/feature-request-1f48c52f|feature_request]]
 - [[sources/fifteen-times-the-same-idea-4245d970|Fifteen Times the Same Idea]]
+- [[sources/form-of-instruction-notes-9051c314|Form Of Instruction - Notes]]
+- [[sources/form-of-nota-notes-04d12dbf|Form Of Nota - Notes]]
+- [[sources/form-of-operation-notes-be2b8d95|Form Of Operation - Notes]]
+- [[sources/form-of-rail-notes-349e92b3|Form Of Rail - Notes]]
 - [[sources/github-thumbrise-op-anything-agnostic-operation-protocol-for-operations-driven-f-a7c6cec3|GitHub - thumbrise/op: Anything-agnostic operation protocol. For operations-driven future.]]
 - [[sources/gitignore-0262f82c|.gitignore]]
+- [[sources/gitignore-1c7e0952|.gitignore]]
 - [[sources/gitignore-77b957b1|.gitignore]]
+- [[sources/gitignore-b1a75042|.gitignore]]
+- [[sources/gitignore-b836fd5b|.gitignore]]
+- [[sources/gitignore-e3b0c442|.gitignore]]
 - [[sources/go-8cbf7ff4|go]]
 - [[sources/go-c4b9b5b5|go]]
 - [[sources/go-c7d8e97e|go]]
@@ -198,45 +617,134 @@ source_semantic_hashes: {}
 - [[sources/go-work-f103c351|go.work]]
 - [[sources/golangci-c8766e4f|.golangci]]
 - [[sources/goreleaser-3530be9e|.goreleaser]]
+- [[sources/handler-27c7389d|Handler]]
+- [[sources/home-dark-1eafb4ae|home.dark]]
+- [[sources/homecontroller-b2a0b790|HomeController]]
+- [[sources/homecontrollertest-9feb0ff5|HomeControllerTest]]
+- [[sources/i18n-en-f192b7ee|i18n.en]]
+- [[sources/i18n-locales-137d211d|i18n.locales]]
+- [[sources/index-1dd89c74|index]]
+- [[sources/index-564a3123|index]]
+- [[sources/index-62cbfa65|index]]
+- [[sources/index-dc346ad9|index]]
 - [[sources/index-e404d6cb|index]]
+- [[sources/instruction-v1-ce2b773a|instruction.v1]]
 - [[sources/instruction-v1-e3a3cb1e|instruction.v1]]
+- [[sources/jsonc-parser-d0f45765|jsonc-parser]]
+- [[sources/jsonc-parser-js-120059a2|jsonc-parser.js]]
 - [[sources/jsoneditor-7d7aec64|JsonEditor]]
+- [[sources/jsonvalidation-a88469ee|jsonValidation]]
 - [[sources/jsonvalidation-f62dc3f7|jsonValidation]]
+- [[sources/kernel-a4634d28|Kernel]]
+- [[sources/knowledge-base-rule-a4a663c8|Knowledge base rule]]
+- [[sources/lesson-1-what-an-operation-is-34ecb6bb|Lesson 1 — What an operation is]]
+- [[sources/lesson-2-the-book-on-the-desk-d5f66c30|Lesson 2 — The book on the desk]]
+- [[sources/lesson-3-the-cover-9c25e128|Lesson 3 — The cover]]
 - [[sources/license-c71d239d|LICENSE]]
+- [[sources/licenserc-40040b08|.licenserc]]
 - [[sources/licenserc-5791d62b|.licenserc]]
+- [[sources/local-2004a734|local]]
+- [[sources/local-ini-4b243f68|local.ini]]
+- [[sources/localeselector-a2212b51|LocaleSelector]]
+- [[sources/loggingbootloader-143850b0|LoggingBootloader]]
+- [[sources/logo-14c86ac8|logo]]
 - [[sources/main-4df64910|main]]
+- [[sources/mcp-73c9ef6a|mcp]]
+- [[sources/mcp-mprocs-e2aae1c9|mcp.mprocs]]
 - [[sources/mermaid-fix-e2dd139e|mermaid-fix]]
+- [[sources/messages-en-f207de17|messages.en]]
+- [[sources/metadata-4a448f18|_metadata]]
+- [[sources/migration-2773f527|migration]]
+- [[sources/my-awesome-web-application-2e8617e5|My awesome Web application]]
+- [[sources/nota-v1-6168c974|nota.v1]]
+- [[sources/op-33cc57bb|op]]
 - [[sources/op-4a2e2616|op]]
 - [[sources/op-6fb1bf01|op]]
 - [[sources/op-a39d2486|op]]
 - [[sources/op-e1fefb54|op]]
+- [[sources/op-reference-e87d2074|OP Reference]]
+- [[sources/operation-v1-f6c2a6fb|operation.v1]]
+- [[sources/package-3ca9d4af|package]]
 - [[sources/package-72ca090f|package]]
 - [[sources/package-945abd34|package]]
 - [[sources/package-b0f69490|package]]
 - [[sources/package-lock-22d613f6|package-lock]]
 - [[sources/package-lock-5960ef1f|package-lock]]
+- [[sources/persistencebootloader-778beffd|PersistenceBootloader]]
+- [[sources/php-cs-fixer-dist-57566749|.php-cs-fixer.dist]]
+- [[sources/phpunit-10eb0a3f|phpunit]]
+- [[sources/playground-a130e091|Playground]]
 - [[sources/playground-cd3a86d7|Playground]]
 - [[sources/playground-e45a65a6|Playground]]
+- [[sources/predator-handshake-a8cefe37|predator-handshake]]
+- [[sources/psalm-06d502d6|psalm]]
+- [[sources/psalm-baseline-38ca50b0|psalm-baseline]]
+- [[sources/rail-v1-104bb94b|rail.v1]]
 - [[sources/release-33611003|release]]
 - [[sources/release-template-d81408df|release-template]]
 - [[sources/releaserc-98735d60|.releaserc]]
 - [[sources/review-guidelines-0fa832f7|Review Guidelines]]
+- [[sources/review-guidelines-3c6b1ba1|Review Guidelines]]
+- [[sources/rfc-the-operation-protocol-appendix-a-raw-notes-8ef3e56c|RFC: The Operation Protocol — Appendix A — Raw Notes]]
+- [[sources/rfc-the-operation-protocol-cb01fbf6|RFC: The Operation Protocol]]
 - [[sources/robots-fb799b43|robots]]
+- [[sources/routesbootloader-e4e99d14|RoutesBootloader]]
+- [[sources/rr-02e8677b|.rr]]
+- [[sources/scaffolder-92fcecdc|scaffolder]]
 - [[sources/scitooltip-2260fcf0|SciTooltip]]
+- [[sources/session-7a75f197|session]]
 - [[sources/site-f35bf3f0|site]]
+- [[sources/stempler-a4483274|stempler]]
 - [[sources/sun-icon-62e8e513|Sun Icon]]
 - [[sources/sun-icon-9147bef6|Sun Icon]]
 - [[sources/sun-icon-b3129a76|Sun Icon]]
+- [[sources/swarmvault-config-json-84915e3f|swarmvault.config.json]]
 - [[sources/taskfile-83d1d929|Taskfile]]
+- [[sources/taskfile-f98ae8d6|Taskfile]]
 - [[sources/termeditor-e3bdad59|TermEditor]]
 - [[sources/termviz-37c301d3|TermViz]]
+- [[sources/testcase-e8b69b5c|TestCase]]
+- [[sources/testkernel-a6748afa|TestKernel]]
+- [[sources/the-black-square-d930c773|The black square]]
+- [[sources/the-codex-d54c2224|The Codex]]
+- [[sources/the-contract-that-wouldn-t-break-c318d936|The Contract That Wouldn't Break]]
 - [[sources/the-contract-that-wouldn-t-break-fa2e5b4e|The Contract That Wouldn't Break]]
+- [[sources/the-dance-17d85dd8|The dance]]
+- [[sources/the-dial-10ba3d63|The dial]]
+- [[sources/the-dream-fulfilled-a5c68874|The dream fulfilled]]
+- [[sources/the-four-letters-c540e241|The four letters]]
+- [[sources/the-handshake-2d49d44e|The handshake]]
+- [[sources/the-harbourmaster-072db85e|The harbourmaster]]
+- [[sources/the-idea-636ec680|The Idea]]
+- [[sources/the-mound-a869009c|The mound]]
+- [[sources/the-murmuration-04e8f14e|The murmuration]]
+- [[sources/the-observation-6da70cdd|The Observation]]
+- [[sources/the-operations-protocol-formalizing-the-missing-foundation-7457cddb|The Operations Protocol: Formalizing the Missing Foundation]]
 - [[sources/the-operations-protocol-formalizing-the-missing-foundation-ff73b385|The Operations Protocol: Formalizing the Missing Foundation]]
+- [[sources/the-primitive-range-conjecture-c5c69b80|The Primitive Range Conjecture]]
 - [[sources/the-problems-13af562d|The Problems]]
+- [[sources/the-understory-69c901f2|The understory]]
 - [[sources/three-atoms-28e52786|Three Atoms]]
+- [[sources/three-atoms-f9d1fbb2|Three Atoms]]
 - [[sources/thumbrise-open-source-go-tooling-logo-2edf0302|Thumbrise Open Source Go Tooling Logo]]
 - [[sources/to-build-the-future-look-at-the-past-5557730d|To Build the Future, Look at the Past]]
+- [[sources/translator-d5801544|translator]]
+- [[sources/types-d-b31f14aa|types.d]]
+- [[sources/universal-field-notes-0b577177|Universal — Field Notes]]
+- [[sources/universal-first-vendors-not-a-standard-library-637ac699|universal/ — first vendors, not a standard library]]
 - [[sources/universal-first-vendors-not-a-standard-library-f05eb450|universal/ — first vendors, not a standard library]]
 - [[sources/universal-roadmap-8fa1b496|universal/ — roadmap]]
+- [[sources/universal-roadmap-cdd00ede|universal/ — roadmap]]
 - [[sources/useplaygroundhistory-8b971dc2|usePlaygroundHistory]]
+- [[sources/user-d5b6c9e9|User]]
+- [[sources/usernotfoundexception-204c3d22|UserNotFoundException]]
+- [[sources/userrepositoryinterface-4c171a4e|UserRepositoryInterface]]
+- [[sources/uuidtypecast-bc2c3f4a|UuidTypecast]]
+- [[sources/viewrenderer-4600606b|ViewRenderer]]
+- [[sources/vitepress-vue-devtools-api-d989dc21|vitepress___@vue_devtools-api]]
+- [[sources/vitepress-vue-devtools-api-js-087cb430|vitepress___@vue_devtools-api.js]]
+- [[sources/vitepress-vueuse-core-992426fa|vitepress___@vueuse_core]]
+- [[sources/vitepress-vueuse-core-js-57a542db|vitepress___@vueuse_core.js]]
+- [[sources/vue-837e3e32|vue]]
 - [[sources/web-app-manifest-512x512-af162064|web-app-manifest-512x512]]
+- [[sources/welcome-049f9ac7|welcome]]

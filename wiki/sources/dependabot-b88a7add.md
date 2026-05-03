@@ -29,7 +29,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.827Z'
-updated_at: '2026-05-03T04:02:08.718Z'
+updated_at: '2026-05-03T05:32:23.218Z'
 compiled_from:
   - dependabot-b88a7add
 managed_by: system

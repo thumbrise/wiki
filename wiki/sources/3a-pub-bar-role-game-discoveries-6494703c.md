@@ -29,7 +29,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.825Z'
-updated_at: '2026-05-03T04:02:08.712Z'
+updated_at: '2026-05-03T05:32:23.173Z'
 compiled_from:
   - 3a-pub-bar-role-game-discoveries-6494703c
 managed_by: system

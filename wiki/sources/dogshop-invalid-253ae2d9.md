@@ -29,7 +29,7 @@ freshness: fresh
 status: active
 confidence: 1
 created_at: '2026-05-03T03:56:35.828Z'
-updated_at: '2026-05-03T04:02:08.719Z'
+updated_at: '2026-05-03T05:32:23.221Z'
 compiled_from:
   - dogshop-invalid-253ae2d9
 managed_by: system

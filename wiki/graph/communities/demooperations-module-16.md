@@ -1,0 +1,515 @@
+---
+page_id: 'graph:community:demooperations-module-16'
+kind: community_summary
+cssclasses:
+  - swarmvault
+  - sv-community
+title: 'Community: demoOperations module'
+tags:
+  - graph
+  - community
+source_ids: &ref_1
+  - demooperations-d4ee05ab
+  - demooperations-e845b3b1
+  - index-e404d6cb
+  - jsoneditor-7d7aec64
+  - jsonvalidation-a88469ee
+  - jsonvalidation-f62dc3f7
+  - mermaid-fix-e2dd139e
+  - op-4a2e2616
+  - op-6fb1bf01
+  - op-e1fefb54
+  - playground-a130e091
+  - playground-e45a65a6
+  - scitooltip-2260fcf0
+  - termeditor-e3bdad59
+  - termviz-37c301d3
+  - types-d-b31f14aa
+  - useplaygroundhistory-8b971dc2
+project_ids: []
+node_ids: &ref_0
+  - 'module:demooperations-d4ee05ab'
+  - 'module:demooperations-e845b3b1'
+  - 'module:index-e404d6cb'
+  - 'module:jsoneditor-7d7aec64'
+  - 'module:jsonvalidation-a88469ee'
+  - 'module:jsonvalidation-f62dc3f7'
+  - 'module:mermaid-fix-e2dd139e'
+  - 'module:op-4a2e2616'
+  - 'module:op-6fb1bf01'
+  - 'module:op-e1fefb54'
+  - 'module:playground-a130e091'
+  - 'module:playground-e45a65a6'
+  - 'module:scitooltip-2260fcf0'
+  - 'module:termeditor-e3bdad59'
+  - 'module:termviz-37c301d3'
+  - 'module:types-d-b31f14aa'
+  - 'module:useplaygroundhistory-8b971dc2'
+  - 'rationale:playground-a130e091:1'
+  - 'rationale:playground-e45a65a6:1'
+  - 'symbol:demooperations-d4ee05ab:demo.variable'
+  - 'symbol:demooperations-d4ee05ab:demooperations.function'
+  - 'symbol:demooperations-d4ee05ab:emptyoperation.function'
+  - 'symbol:demooperations-d4ee05ab:operation.interface'
+  - 'symbol:demooperations-d4ee05ab:term.interface'
+  - 'symbol:demooperations-e845b3b1:demo.variable'
+  - 'symbol:demooperations-e845b3b1:demooperations.function'
+  - 'symbol:demooperations-e845b3b1:emptyoperation.function'
+  - 'symbol:demooperations-e845b3b1:operation.interface'
+  - 'symbol:demooperations-e845b3b1:term.interface'
+  - 'symbol:jsoneditor-7d7aec64:annotations.variable'
+  - 'symbol:jsoneditor-7d7aec64:annotationstyle.function'
+  - 'symbol:jsoneditor-7d7aec64:charsizer.variable'
+  - 'symbol:jsoneditor-7d7aec64:errorlines.variable'
+  - 'symbol:jsoneditor-7d7aec64:focuserror.function'
+  - 'symbol:jsoneditor-7d7aec64:gutter.variable'
+  - 'symbol:jsoneditor-7d7aec64:jsoneditor.class'
+  - 'symbol:jsoneditor-7d7aec64:lineannotation.interface'
+  - 'symbol:jsoneditor-7d7aec64:lines.variable'
+  - 'symbol:jsoneditor-7d7aec64:measuremetrics.function'
+  - 'symbol:jsoneditor-7d7aec64:metrics.variable'
+  - 'symbol:jsoneditor-7d7aec64:onscroll.function'
+  - 'symbol:jsoneditor-7d7aec64:props.variable'
+  - 'symbol:jsoneditor-7d7aec64:scrollleft.variable'
+  - 'symbol:jsoneditor-7d7aec64:scrollrangeintoview.function'
+  - 'symbol:jsoneditor-7d7aec64:scrolltop.variable'
+  - 'symbol:jsoneditor-7d7aec64:textarea.variable'
+  - 'symbol:jsonvalidation-a88469ee:ajv.variable'
+  - 'symbol:jsonvalidation-a88469ee:domainerror.function'
+  - 'symbol:jsonvalidation-a88469ee:errorkind.type_alias'
+  - 'symbol:jsonvalidation-a88469ee:humanizeschemaerror.function'
+  - 'symbol:jsonvalidation-a88469ee:instancepathtosegments.function'
+  - 'symbol:jsonvalidation-a88469ee:nodetovalue.function'
+  - 'symbol:jsonvalidation-a88469ee:playgrounderror.interface'
+  - 'symbol:jsonvalidation-a88469ee:rangefromoffset.function'
+  - 'symbol:jsonvalidation-a88469ee:schemaerrortoplayground.function'
+  - 'symbol:jsonvalidation-a88469ee:sourcerange.interface'
+  - 'symbol:jsonvalidation-a88469ee:validateinstruction.variable'
+  - 'symbol:jsonvalidation-a88469ee:validatejson.function'
+  - 'symbol:jsonvalidation-f62dc3f7:ajv.variable'
+  - 'symbol:jsonvalidation-f62dc3f7:domainerror.function'
+  - 'symbol:jsonvalidation-f62dc3f7:errorkind.type_alias'
+  - 'symbol:jsonvalidation-f62dc3f7:humanizeschemaerror.function'
+  - 'symbol:jsonvalidation-f62dc3f7:instancepathtosegments.function'
+  - 'symbol:jsonvalidation-f62dc3f7:nodetovalue.function'
+  - 'symbol:jsonvalidation-f62dc3f7:playgrounderror.interface'
+  - 'symbol:jsonvalidation-f62dc3f7:rangefromoffset.function'
+  - 'symbol:jsonvalidation-f62dc3f7:schemaerrortoplayground.function'
+  - 'symbol:jsonvalidation-f62dc3f7:sourcerange.interface'
+  - 'symbol:jsonvalidation-f62dc3f7:validateinstruction.variable'
+  - 'symbol:jsonvalidation-f62dc3f7:validatejson.function'
+  - 'symbol:mermaid-fix-e2dd139e:mermaid-foreignobject.class'
+  - 'symbol:op-4a2e2616:instruction.struct'
+  - 'symbol:op-4a2e2616:kind.type_alias'
+  - 'symbol:op-4a2e2616:operation.struct'
+  - 'symbol:op-4a2e2616:term.struct'
+  - 'symbol:op-6fb1bf01:instruction.class'
+  - 'symbol:op-6fb1bf01:kind.enum'
+  - 'symbol:op-6fb1bf01:operation.class'
+  - 'symbol:op-6fb1bf01:term.class'
+  - 'symbol:op-e1fefb54:instruction.interface'
+  - 'symbol:op-e1fefb54:kind.enum'
+  - 'symbol:op-e1fefb54:operation.interface'
+  - 'symbol:op-e1fefb54:term.interface'
+  - 'symbol:playground-a130e091:activeindex.variable'
+  - 'symbol:playground-a130e091:addoperation.function'
+  - 'symbol:playground-a130e091:applyingsnapshot.variable'
+  - 'symbol:playground-a130e091:applysnapshot.function'
+  - 'symbol:playground-a130e091:bufferlabel.variable'
+  - 'symbol:playground-a130e091:clearall.function'
+  - 'symbol:playground-a130e091:confirmremove.function'
+  - 'symbol:playground-a130e091:copyjson.function'
+  - 'symbol:playground-a130e091:expandedtraits.variable'
+  - 'symbol:playground-a130e091:history.variable'
+  - 'symbol:playground-a130e091:iseditabletarget.function'
+  - 'symbol:playground-a130e091:json.variable'
+  - 'symbol:playground-a130e091:jsondraft.variable'
+  - 'symbol:playground-a130e091:jsoneditor.class'
+  - 'symbol:playground-a130e091:jsonerrors.variable'
+  - 'symbol:playground-a130e091:leftpanel.variable'
+  - 'symbol:playground-a130e091:loadtutorial.function'
+  - 'symbol:playground-a130e091:manualsave.function'
+  - 'symbol:playground-a130e091:normalizeoperation.function'
+  - 'symbol:playground-a130e091:normalizeterm.function'
+  - 'symbol:playground-a130e091:now.variable'
+  - 'symbol:playground-a130e091:nowtimer.variable'
+  - 'symbol:playground-a130e091:onjsonedit.function'
+  - 'symbol:playground-a130e091:onkeydown.function'
+  - 'symbol:playground-a130e091:onredo.function'
+  - 'symbol:playground-a130e091:onundo.function'
+  - 'symbol:playground-a130e091:op.variable'
+  - 'symbol:playground-a130e091:operations.variable'
+  - 'symbol:playground-a130e091:playground.class'
+  - 'symbol:playground-a130e091:programcomment.variable'
+  - 'symbol:playground-a130e091:programid.variable'
+  - 'symbol:playground-a130e091:programtraits.variable'
+  - 'symbol:playground-a130e091:removeoperation.function'
+  - 'symbol:playground-a130e091:resetjson.function'
+  - 'symbol:playground-a130e091:saveack.variable'
+  - 'symbol:playground-a130e091:savedlabel.variable'
+  - 'symbol:playground-a130e091:scitooltip.class'
+  - 'symbol:playground-a130e091:seed.variable'
+  - 'symbol:playground-a130e091:showjson.variable'
+  - 'symbol:playground-a130e091:snapshot.interface'
+  - 'symbol:playground-a130e091:termeditor.class'
+  - 'symbol:playground-a130e091:termviz.class'
+  - 'symbol:playground-a130e091:toggletrait.function'
+  - 'symbol:playground-e45a65a6:activeindex.variable'
+  - 'symbol:playground-e45a65a6:addoperation.function'
+  - 'symbol:playground-e45a65a6:applyingsnapshot.variable'
+  - 'symbol:playground-e45a65a6:applysnapshot.function'
+  - 'symbol:playground-e45a65a6:bufferlabel.variable'
+  - 'symbol:playground-e45a65a6:clearall.function'
+  - 'symbol:playground-e45a65a6:confirmremove.function'
+  - 'symbol:playground-e45a65a6:copyjson.function'
+  - 'symbol:playground-e45a65a6:expandedtraits.variable'
+  - 'symbol:playground-e45a65a6:history.variable'
+  - 'symbol:playground-e45a65a6:iseditabletarget.function'
+  - 'symbol:playground-e45a65a6:json.variable'
+  - 'symbol:playground-e45a65a6:jsondraft.variable'
+  - 'symbol:playground-e45a65a6:jsoneditor.class'
+  - 'symbol:playground-e45a65a6:jsonerrors.variable'
+  - 'symbol:playground-e45a65a6:leftpanel.variable'
+  - 'symbol:playground-e45a65a6:loadtutorial.function'
+  - 'symbol:playground-e45a65a6:normalizeoperation.function'
+  - 'symbol:playground-e45a65a6:normalizeterm.function'
+  - 'symbol:playground-e45a65a6:now.variable'
+  - 'symbol:playground-e45a65a6:nowtimer.variable'
+  - 'symbol:playground-e45a65a6:onjsonedit.function'
+  - 'symbol:playground-e45a65a6:onkeydown.function'
+  - 'symbol:playground-e45a65a6:onredo.function'
+  - 'symbol:playground-e45a65a6:onundo.function'
+  - 'symbol:playground-e45a65a6:op.variable'
+  - 'symbol:playground-e45a65a6:operations.variable'
+  - 'symbol:playground-e45a65a6:playground.class'
+  - 'symbol:playground-e45a65a6:removeoperation.function'
+  - 'symbol:playground-e45a65a6:resetjson.function'
+  - 'symbol:playground-e45a65a6:saveack.variable'
+  - 'symbol:playground-e45a65a6:savedlabel.variable'
+  - 'symbol:playground-e45a65a6:scitooltip.class'
+  - 'symbol:playground-e45a65a6:seed.variable'
+  - 'symbol:playground-e45a65a6:showjson.variable'
+  - 'symbol:playground-e45a65a6:snapshot.interface'
+  - 'symbol:playground-e45a65a6:termeditor.class'
+  - 'symbol:playground-e45a65a6:termviz.class'
+  - 'symbol:playground-e45a65a6:toggletrait.function'
+  - 'symbol:scitooltip-2260fcf0:margin.variable'
+  - 'symbol:scitooltip-2260fcf0:onenter.function'
+  - 'symbol:scitooltip-2260fcf0:onleave.function'
+  - 'symbol:scitooltip-2260fcf0:pos.variable'
+  - 'symbol:scitooltip-2260fcf0:props.variable'
+  - 'symbol:scitooltip-2260fcf0:sciref.interface'
+  - 'symbol:scitooltip-2260fcf0:scitooltip.class'
+  - 'symbol:scitooltip-2260fcf0:show.variable'
+  - 'symbol:scitooltip-2260fcf0:teleport.class'
+  - 'symbol:scitooltip-2260fcf0:tip-width.variable'
+  - 'symbol:scitooltip-2260fcf0:transition.class'
+  - 'symbol:scitooltip-2260fcf0:trigger.variable'
+  - 'symbol:scitooltip-2260fcf0:updateposition.function'
+  - 'symbol:termeditor-e3bdad59:addterm.function'
+  - 'symbol:termeditor-e3bdad59:coercevalue.function'
+  - 'symbol:termeditor-e3bdad59:compound.variable'
+  - 'symbol:termeditor-e3bdad59:kinds.variable'
+  - 'symbol:termeditor-e3bdad59:numeric.variable'
+  - 'symbol:termeditor-e3bdad59:onkindchange.function'
+  - 'symbol:termeditor-e3bdad59:onvalueinput.function'
+  - 'symbol:termeditor-e3bdad59:removeterm.function'
+  - 'symbol:termeditor-e3bdad59:term.interface'
+  - 'symbol:termeditor-e3bdad59:termeditor.class'
+  - 'symbol:termeditor-e3bdad59:togglecomment.function'
+  - 'symbol:termeditor-e3bdad59:togglerequired.function'
+  - 'symbol:termviz-37c301d3:kindmeta.interface'
+  - 'symbol:termviz-37c301d3:kindmeta.variable'
+  - 'symbol:termviz-37c301d3:sciref.interface'
+  - 'symbol:termviz-37c301d3:scitooltip.class'
+  - 'symbol:termviz-37c301d3:term.interface'
+  - 'symbol:termviz-37c301d3:termviz.class'
+  - 'symbol:types-d-b31f14aa:instruction.interface'
+  - 'symbol:types-d-b31f14aa:operation.interface'
+  - 'symbol:types-d-b31f14aa:term.interface'
+  - 'symbol:useplaygroundhistory-8b971dc2:bytesize.function'
+  - 'symbol:useplaygroundhistory-8b971dc2:historystate.interface'
+  - 'symbol:useplaygroundhistory-8b971dc2:storedbuffer.interface'
+  - 'symbol:useplaygroundhistory-8b971dc2:useplaygroundhistory.function'
+freshness: fresh
+status: active
+confidence: 1
+created_at: '2026-05-03T05:32:24.749Z'
+updated_at: '2026-05-03T05:32:24.749Z'
+compiled_from:
+  - demooperations-d4ee05ab
+  - demooperations-e845b3b1
+  - index-e404d6cb
+  - jsoneditor-7d7aec64
+  - jsonvalidation-a88469ee
+  - jsonvalidation-f62dc3f7
+  - mermaid-fix-e2dd139e
+  - op-4a2e2616
+  - op-6fb1bf01
+  - op-e1fefb54
+  - playground-a130e091
+  - playground-e45a65a6
+  - scitooltip-2260fcf0
+  - termeditor-e3bdad59
+  - termviz-37c301d3
+  - types-d-b31f14aa
+  - useplaygroundhistory-8b971dc2
+managed_by: system
+backlinks:
+  - 'graph:report'
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes: {}
+source_semantic_hashes: {}
+related_page_ids:
+  - 'graph:report'
+  - 'module:demooperations-d4ee05ab'
+  - 'module:demooperations-e845b3b1'
+  - 'module:index-e404d6cb'
+  - 'module:jsoneditor-7d7aec64'
+  - 'module:jsonvalidation-a88469ee'
+  - 'module:jsonvalidation-f62dc3f7'
+  - 'module:mermaid-fix-e2dd139e'
+  - 'module:op-4a2e2616'
+  - 'module:op-6fb1bf01'
+  - 'module:op-e1fefb54'
+  - 'module:playground-a130e091'
+  - 'module:playground-e45a65a6'
+  - 'module:scitooltip-2260fcf0'
+  - 'module:termeditor-e3bdad59'
+  - 'module:termviz-37c301d3'
+  - 'module:types-d-b31f14aa'
+  - 'module:useplaygroundhistory-8b971dc2'
+related_node_ids: *ref_0
+related_source_ids: *ref_1
+---
+# Community: demoOperations module
+
+## Nodes
+
+- [[code/demooperations-d4ee05ab|demoOperations module]] (module, degree=11, bridge=0)
+- [[code/demooperations-e845b3b1|demoOperations module]] (module, degree=13, bridge=0)
+- [[code/index-e404d6cb|index module]] (module, degree=6, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (module, degree=21, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (module, degree=14, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (module, degree=17, bridge=0)
+- [[code/mermaid-fix-e2dd139e|mermaid-fix module]] (module, degree=3, bridge=0)
+- [[code/op-4a2e2616|op module]] (module, degree=10, bridge=0)
+- [[code/op-6fb1bf01|op module]] (module, degree=10, bridge=0)
+- [[code/op-e1fefb54|op module]] (module, degree=10, bridge=0)
+- [[code/playground-a130e091|Playground module]] (module, degree=51, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (module, degree=48, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (module, degree=15, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (module, degree=14, bridge=0)
+- [[code/termviz-37c301d3|TermViz module]] (module, degree=10, bridge=0)
+- [[code/types-d-b31f14aa|types.d module]] (module, degree=9, bridge=0)
+- [[code/useplaygroundhistory-8b971dc2|usePlaygroundHistory module]] (module, degree=7, bridge=0)
+- [[code/playground-a130e091|Playground module]] (rationale, degree=45, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (rationale, degree=41, bridge=0)
+- [[code/demooperations-d4ee05ab|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-d4ee05ab|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-d4ee05ab|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-d4ee05ab|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-d4ee05ab|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-e845b3b1|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-e845b3b1|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-e845b3b1|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-e845b3b1|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/demooperations-e845b3b1|demoOperations module]] (symbol, degree=5, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsoneditor-7d7aec64|JsonEditor module]] (symbol, degree=17, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-a88469ee|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]] (symbol, degree=12, bridge=0)
+- [[code/mermaid-fix-e2dd139e|mermaid-fix module]] (symbol, degree=1, bridge=0)
+- [[code/op-4a2e2616|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-4a2e2616|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-4a2e2616|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-4a2e2616|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-6fb1bf01|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-6fb1bf01|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-6fb1bf01|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-6fb1bf01|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-e1fefb54|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-e1fefb54|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-e1fefb54|op module]] (symbol, degree=4, bridge=0)
+- [[code/op-e1fefb54|op module]] (symbol, degree=4, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-a130e091|Playground module]] (symbol, degree=44, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/playground-e45a65a6|Playground module]] (symbol, degree=40, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/scitooltip-2260fcf0|SciTooltip module]] (symbol, degree=13, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termeditor-e3bdad59|TermEditor module]] (symbol, degree=12, bridge=0)
+- [[code/termviz-37c301d3|TermViz module]] (symbol, degree=6, bridge=0)
+- [[code/termviz-37c301d3|TermViz module]] (symbol, degree=6, bridge=0)
+- [[code/termviz-37c301d3|TermViz module]] (symbol, degree=6, bridge=0)
+- [[code/termviz-37c301d3|TermViz module]] (symbol, degree=6, bridge=0)
+- [[code/termviz-37c301d3|TermViz module]] (symbol, degree=6, bridge=0)
+- [[code/termviz-37c301d3|TermViz module]] (symbol, degree=6, bridge=0)
+- [[code/types-d-b31f14aa|types.d module]] (symbol, degree=3, bridge=0)
+- [[code/types-d-b31f14aa|types.d module]] (symbol, degree=3, bridge=0)
+- [[code/types-d-b31f14aa|types.d module]] (symbol, degree=3, bridge=0)
+- [[code/useplaygroundhistory-8b971dc2|usePlaygroundHistory module]] (symbol, degree=4, bridge=0)
+- [[code/useplaygroundhistory-8b971dc2|usePlaygroundHistory module]] (symbol, degree=4, bridge=0)
+- [[code/useplaygroundhistory-8b971dc2|usePlaygroundHistory module]] (symbol, degree=4, bridge=0)
+- [[code/useplaygroundhistory-8b971dc2|usePlaygroundHistory module]] (symbol, degree=4, bridge=0)
+
+## Pages
+
+- [[code/demooperations-d4ee05ab|demoOperations module]]
+- [[code/demooperations-e845b3b1|demoOperations module]]
+- [[code/index-e404d6cb|index module]]
+- [[code/jsoneditor-7d7aec64|JsonEditor module]]
+- [[code/jsonvalidation-a88469ee|jsonValidation module]]
+- [[code/jsonvalidation-f62dc3f7|jsonValidation module]]
+- [[code/mermaid-fix-e2dd139e|mermaid-fix module]]
+- [[code/op-4a2e2616|op module]]
+- [[code/op-6fb1bf01|op module]]
+- [[code/op-e1fefb54|op module]]
+- [[code/playground-a130e091|Playground module]]
+- [[code/playground-e45a65a6|Playground module]]
+- [[code/scitooltip-2260fcf0|SciTooltip module]]
+- [[code/termeditor-e3bdad59|TermEditor module]]
+- [[code/termviz-37c301d3|TermViz module]]
+- [[code/types-d-b31f14aa|types.d module]]
+- [[code/useplaygroundhistory-8b971dc2|usePlaygroundHistory module]]
+
+## External Links
+
+- No external links detected.
